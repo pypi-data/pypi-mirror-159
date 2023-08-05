@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+jwt_signature_validator/__init__.py
+jwt_signature_validator/encoded_payload.py
+jwt_signature_validator/py.typed
+jwt_signature_validator.egg-info/PKG-INFO
+jwt_signature_validator.egg-info/SOURCES.txt
+jwt_signature_validator.egg-info/dependency_links.txt
+jwt_signature_validator.egg-info/not-zip-safe
+jwt_signature_validator.egg-info/top_level.txt

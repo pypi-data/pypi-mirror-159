@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: jwt-signature-validator
+Version: 0.0.1
+Summary: An ASGI Middleware to get payload from JWTs
+Home-page: https://github.com/iudeen/jwt-signature-validator
+Author-email: Irfanuddin Shafi Ahmed <irfanudeen08@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/iudeen/jwt-signature-validator
+Project-URL: Source, https://github.com/iudeen/jwt-signature-validator
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
