@@ -1,0 +1,34 @@
+{
+  "name": "gds-technical-documentation-template",
+  "version": "0.0.8",
+  "description": "A GOV.UK Design System inspired mkdocs theme for DDAT documentation",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy:js": "cp node_modules/govuk-frontend/govuk/all.js src/js",
+    "copy:assets": "cp -R node_modules/govuk-frontend/govuk/assets/ src/assets",
+    "copy:theme": "cp -R src/ mkdocs_gds",
+    "copy": "npm run copy:assets && npm run copy:js && npm run copy:theme",
+    "build:css": "sass -q src/sass:src/css --load-path=node_modules/ ",
+    "build": "npm run build:css && npm run copy",
+    "prettier": "prettier src/sass --write && prettier src/js/search --write",
+    "watch:css": "sass -q -w src/sass/:src/css/ --load-path=node_modules/"
+  },
+  "keywords": [],
+  "repository": {
+    "url": "https://github.com/uktrade/gds-technical-documentation-template"
+  },
+  "author": {
+    "name": "Mark Higham",
+    "email": "mark.higham@ditigal.trade.gov.uk"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "govuk-frontend": "^4.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "sass": "^1.53.0"
+  }
+}
