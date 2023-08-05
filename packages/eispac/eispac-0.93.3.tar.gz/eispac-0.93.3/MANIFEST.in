@@ -1,0 +1,12 @@
+include README.md
+include LICENSE.txt
+include QUICK_GUIDE.md
+include QUICK_GUIDE-cli.md
+
+
+recursive-include convert *
+include eispac/templates/eis_template_dir/*.h5
+include eispac/templates/eis_template_dir/*.jpg
+include eispac/data/test/*.h5
+include eispac/data/templates/*.h5
+include eispac/data/templates/*.jpg
