@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyretrodesign
+Version: 0.0.1
+Summary: Translation of r-package retrodesign to python
+Home-page: https://github.com/nih-fmrif/pyretrodesign
+Author: Dylan M. Nielson
+Author-email: dylan.nielson@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: jupytext
+
+UNKNOWN
+
