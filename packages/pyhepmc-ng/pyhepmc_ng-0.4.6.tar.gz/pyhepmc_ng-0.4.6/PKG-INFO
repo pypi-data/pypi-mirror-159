@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pyhepmc_ng
+Version: 0.4.6
+Summary: Next-generation Python interface to the HepMC3 C++ library
+Home-page: https://github.com/scikit-hep/pyhepmc
+Author: Hans Dembinski
+Author-email: hans.dembinski@gmail.com
+License: UNKNOWN
+Description: 
+        The pyhepmc-ng package is continued as the package pyhepmc.
+        Please install pyhepmc, pyhepmc-ng is no longer updated.
+        
+Keywords: generator montecarlo simulation data hep physics particle
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: tests
