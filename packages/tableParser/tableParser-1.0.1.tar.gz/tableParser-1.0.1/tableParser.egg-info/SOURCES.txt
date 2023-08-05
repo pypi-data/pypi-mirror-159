@@ -1,0 +1,10 @@
+README.md
+setup.py
+tableParser/__init__.py
+tableParser/__main__.py
+tableParser.egg-info/PKG-INFO
+tableParser.egg-info/SOURCES.txt
+tableParser.egg-info/dependency_links.txt
+tableParser.egg-info/entry_points.txt
+tableParser.egg-info/requires.txt
+tableParser.egg-info/top_level.txt
