@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/Logges.egg-info/PKG-INFO
+src/Logges.egg-info/SOURCES.txt
+src/Logges.egg-info/dependency_links.txt
+src/Logges.egg-info/requires.txt
+src/Logges.egg-info/top_level.txt
