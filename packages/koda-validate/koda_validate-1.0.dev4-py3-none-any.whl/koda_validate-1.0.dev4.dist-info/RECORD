@@ -1,0 +1,10 @@
+koda_validate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koda_validate/_cruft.py,sha256=WdncKbx4Ij2DgUVPDNfGitMe5brusocLuwEN1SB_ahk,19306
+koda_validate/_generics.py,sha256=n4VunsyV8OyJUFaA20bdE2PSbFlpis6lkueH1QBQ7wA,381
+koda_validate/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+koda_validate/typedefs.py,sha256=7NCFTicq6VF3kH_K6NP-iHM_95xmfMzEH1igYRaQgR0,2180
+koda_validate/utils.py,sha256=mPc2eFVYxN-TcNP1VrY8MthoytLwWICowfuu-xaU6ew,895
+koda_validate/validators.py,sha256=JxnDDxdguwTjVacINEFiw6-wAECiEJO0JI1j6-cEfgk,41072
+koda_validate-1.0.dev4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+koda_validate-1.0.dev4.dist-info/METADATA,sha256=6TktinB7K0mxYNkgD4VoEx6qfhHXElN98U8mFZJ1ir4,251
+koda_validate-1.0.dev4.dist-info/RECORD,,
