@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+simgrep.egg-info/PKG-INFO
+simgrep.egg-info/SOURCES.txt
+simgrep.egg-info/dependency_links.txt
+simgrep.egg-info/top_level.txt
