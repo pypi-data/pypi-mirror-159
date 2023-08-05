@@ -1,0 +1,10 @@
+draw_polygon.cpython-39-darwin.so,sha256=QhE7OlZjMu8LLKkxP_fB5WNgBmVlU_G3gkIrnFgwkgk,324872
+find_contours.cpython-39-darwin.so,sha256=SoS_0In0SmvUeQegxdwrmYWhgEfl5hnvnSqOJxtWmSw,201344
+run_length_encoding.cpython-39-darwin.so,sha256=ZccNVnbtEFtz3tTZa3hzAjA9Q7sUb2mrjQtSQp36xls,201624
+simplify_polygon.cpython-39-darwin.so,sha256=i8TEUD6cU9W0YSg6bI2ZBYyyX-IP17R442VanN2_BDk,79232
+upolygon/__init__.py,sha256=aE6-KFPaDlusNg2V1ECZXiSQrRpWfgyn7Vi--rElaGU,211
+upolygon-0.1.8.dist-info/LICENSE,sha256=vX3MGNxB4U6FvOADAOm5qENWj89MW8Y0TrtcRhH6OXM,1072
+upolygon-0.1.8.dist-info/METADATA,sha256=7EGwjO_MUKgXXZfym9uIVoL64FUG9yKHiSvRDpQ2Fug,2585
+upolygon-0.1.8.dist-info/WHEEL,sha256=1aIKcOiZwCaey2y-OH_J-W7IhsRHMsIvvidnI8v_CqQ,110
+upolygon-0.1.8.dist-info/top_level.txt,sha256=5VhPAEB3KpSpSXie94Yb_PHVLVXh85qeYEfxki7XZbM,73
+upolygon-0.1.8.dist-info/RECORD,,
