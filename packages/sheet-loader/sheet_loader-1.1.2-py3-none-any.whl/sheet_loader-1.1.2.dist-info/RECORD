@@ -1,0 +1,12 @@
+sheet_loader/__init__.py,sha256=R8OpqY139CkmVmC6TBrfK7VpJTWYo37PYRjRBaDJtXo,52
+sheet_loader/buffer_processor.py,sha256=c_gDKw4lRem7FV3zZXtxa1EoosxlUAitkBEz55Nmoik,5047
+sheet_loader/connection.py,sha256=v1bEW74vZdViDfjGAGnjdUop6ld6sbGFioqpJBkwOhM,755
+sheet_loader/detecting_buffer.py,sha256=7Cw5zVp0UiVH2JRbbduzlKcQXxe-XML419_GxGcHFuM,7565
+sheet_loader/helpers.py,sha256=QNnZ0wDufrPChRqE23JpSDpSgJfgCaspKYonb53WK0o,2741
+sheet_loader/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sheet_loader/sheet_loader.py,sha256=02nt5pKJnVNe5O_hbK_Ql5RnXvYUMnWlntwT1d8mI4w,5316
+sheet_loader/types.py,sha256=ZtWaiDigXQAjnHQsP9w88LKKraUi7AO3APNdhbQU1A4,974
+sheet_loader-1.1.2.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+sheet_loader-1.1.2.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+sheet_loader-1.1.2.dist-info/METADATA,sha256=1VEFBHmkKS56rJTuZLTknsWER7BxiiSZ6Ouy1QqIU74,839
+sheet_loader-1.1.2.dist-info/RECORD,,
