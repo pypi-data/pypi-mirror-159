@@ -1,0 +1,11 @@
+pyqir_evaluator-0.5.0a1.dist-info/METADATA,sha256=B6bEzZ_kCvTCDglw_bvlLhdLZFl5dWdZt1h9LeuOsJw,4334
+pyqir_evaluator-0.5.0a1.dist-info/WHEEL,sha256=v7ZN_TwKxj5m2kvfiBQyDNL_l1IpNud0G_uFn-6hvkA,96
+pyqir_evaluator-0.5.0a1.dist-info/license_files/LICENSE,sha256=p9YvyG5_PCAnSUxIM4x4E6IRmt2LBE_1WZKrO865gtc,1090
+pyqir_evaluator-0.5.0a1.dist-info/license_files/NOTICE-WHEEL.txt,sha256=_D7Th8qCZ9NJnQZt_jmQaH6VGbuuXG4Y5RlDiH1cwy8,563131
+pyqir/evaluator/_gatelogger.py,sha256=9WTuoXMvZSFAvqWznCfskT-JfUfakvrsWpp07jKDIO4,2510
+pyqir/evaluator/_gateset.py,sha256=lMSSrgwi8i4QwVNr20J7eIRLd9vpqQP4PFeR5xc7cB8,1227
+pyqir/evaluator/_nonadaptiveevaluator.py,sha256=wwWzJJRpWaZgWOuqjilc5N4zK6Kj5ohD7AgmFPNAMV0,1672
+pyqir/evaluator/__init__.py,sha256=yyueyTxMhbFD6jv2m-rfnvbtGELl2jR-T6vRaO32Kpc,296
+pyqir/__init__.py,sha256=ZZllYBGXdp7_M0SzlCb4nN4kXIPOcdGMHA5A4cVt9eM,253
+pyqir/evaluator/_native.pyd,sha256=rP5Fri0alaIIXvlETg7LweD48M0Of2qKK6qZeBqjNOc,23080448
+pyqir_evaluator-0.5.0a1.dist-info/RECORD,,
