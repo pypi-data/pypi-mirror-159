@@ -1,0 +1,6 @@
+MyMessage.py
+setup.py
+lzy_MyMessage.egg-info/PKG-INFO
+lzy_MyMessage.egg-info/SOURCES.txt
+lzy_MyMessage.egg-info/dependency_links.txt
+lzy_MyMessage.egg-info/top_level.txt
