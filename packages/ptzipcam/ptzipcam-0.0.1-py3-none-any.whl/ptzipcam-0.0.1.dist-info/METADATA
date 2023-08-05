@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ptzipcam
+Version: 0.0.1
+Summary: Package for controlling PTZ IP cameras that support ONVIF
+Home-page: UNKNOWN
+Author: Ian Ingram
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml
+Requires-Dist: opencv-python
+Requires-Dist: onvif-zeep
+Requires-Dist: screeninfo
+Requires-Dist: imutils
+Requires-Dist: camml
+
+# ptzipcam
+Package of tools for controlling PTZ network surveillance cameras
+
+
