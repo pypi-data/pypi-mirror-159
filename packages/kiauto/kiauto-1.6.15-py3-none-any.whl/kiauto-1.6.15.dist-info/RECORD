@@ -1,0 +1,13 @@
+kiauto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kiauto/file_util.py,sha256=RaZEbMFpHGF0Ox_7XnaANkKobHUhCzz4H2eT0MYh_x8,14403
+kiauto/log.py,sha256=W3T0H8rDF5WD8yUKWqEpByr4gioYMCZzn8f1sGn9Fss,2404
+kiauto/misc.py,sha256=B4rKLfOeQQ2HNY1z5_inrxuJ4ntyL3u9vRAZdL89Jxc,11870
+kiauto/ui_automation.py,sha256=e71YecxWIbQvd_7lxgT4Nv7oOJ0VHnASZMdkQ-mP0UM,17404
+kiauto-1.6.15.data/scripts/eeschema_do,sha256=Ilj2Jlxv0hL5ovA3r65wd1x8szamx18KamixeUHIqD8,26949
+kiauto-1.6.15.data/scripts/kicad2step_do,sha256=4RIrQmYWTIHd-5ZuZonbOaJJ97ULEWlbJG_dwkNLklk,6753
+kiauto-1.6.15.data/scripts/pcbnew_do,sha256=Y2etM6Jtdq62bFgCp2Liplm0Q3k6CkZvyHD8T7CvC2s,53613
+kiauto-1.6.15.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+kiauto-1.6.15.dist-info/METADATA,sha256=zskxUEB6DsjSzXfo-trl-aMH8oc7tMTybOms45jnJw8,14715
+kiauto-1.6.15.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+kiauto-1.6.15.dist-info/top_level.txt,sha256=txHagn2kbZqT8uFXa7rIWheTvHfg5KvFh-aj873hc6Q,7
+kiauto-1.6.15.dist-info/RECORD,,
