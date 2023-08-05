@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: layouttkinter
+Version: 0.1.1
+Summary: 
+Author: TaiHui
+Author-email: 1174501146@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PySimpleGUI (>=4.60.1,<5.0.0)
