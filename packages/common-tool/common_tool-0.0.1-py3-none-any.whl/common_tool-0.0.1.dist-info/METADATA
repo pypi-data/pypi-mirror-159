@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: common-tool
+Version: 0.0.1
+Summary: Basic toolkit packaging
+Home-page: https://pypi.org/project/common-tool/
+Author: donghao
+Author-email: is_simple@163.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: six (>=1.15.0)
+
+# common-tool
+Basic toolkit packaging
+
+common-tool is a project encapsulated by the general package, including the encapsulation of tools such as time processing and enumeration definitions.
+
+Install common-tool with pip:
+
+```bash
+python3 -m pip install --upgrade pip
+python3 -m pip install --upgrade common-tool
+```
+
+
