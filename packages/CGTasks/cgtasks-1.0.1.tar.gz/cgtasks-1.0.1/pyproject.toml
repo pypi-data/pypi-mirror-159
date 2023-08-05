@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "CGTasks"
+version = "1.0.1"
+author = "artandfi&chmele"
+author_email = "shermanyuk@knu.ua"
+description = "No description, website, or topics provided."
+url = "https://github.com/OGKG/CGTasks"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
