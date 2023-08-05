@@ -1,0 +1,2 @@
+[console_scripts]
+vagrantgen = vagrantgen:main
