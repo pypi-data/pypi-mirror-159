@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+pymeianlike/__init__.py
+pymeianlike/pymeianlike.py
+pymeianlike.egg-info/PKG-INFO
+pymeianlike.egg-info/SOURCES.txt
+pymeianlike.egg-info/dependency_links.txt
+pymeianlike.egg-info/requires.txt
+pymeianlike.egg-info/top_level.txt

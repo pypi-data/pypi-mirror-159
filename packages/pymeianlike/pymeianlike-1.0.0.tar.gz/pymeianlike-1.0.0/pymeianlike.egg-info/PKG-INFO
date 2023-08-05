@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pymeianlike
+Version: 1.0.0
+Summary: A simple library to interface with a Meianlike systems.
+Home-page: https://github.com/bigmoby/pymeianlike
+Download-URL: https://github.com/bigmoby/pymeianlike
+Author: Fabio Mauro, Ludovico de Nittis
+Author-email: bigmoby.pymeianlike@gmail.com
+License: MIT License
+Keywords: meianlike,alarm
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.md
