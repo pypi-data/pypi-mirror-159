@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+azreaal/Tools.py
+azreaal/__init__.py
+azreaal.egg-info/PKG-INFO
+azreaal.egg-info/SOURCES.txt
+azreaal.egg-info/dependency_links.txt
+azreaal.egg-info/not-zip-safe
+azreaal.egg-info/top_level.txt
