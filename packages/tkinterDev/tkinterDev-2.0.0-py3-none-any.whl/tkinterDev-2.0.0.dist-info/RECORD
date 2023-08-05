@@ -1,0 +1,12 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkdev/__init__.py,sha256=ya_Sj1THilLyBgNLp0kuFEpeYTqxyLcXKUdyjdJ2tSI,28108
+tkdev/__main__.py,sha256=0g6k4tG_u87P4S3vD7RkgEiamgQhNq0W9dmemLhNRz0,4286
+tkdev/devcore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkdev/devdemo/__init__.py,sha256=f6zk2S_HyLzz1UZ1VBdID6PK2pDkgPzSVdmXnmEGSpY,2471
+tkdev/devicon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tkdev/devresize/__init__.py,sha256=98cEXmymxJ0_ZNI8qy1_JIwnrEzvozQ5dKIn4byRtRU,10071
+tkinterDev-2.0.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+tkinterDev-2.0.0.dist-info/METADATA,sha256=UD6pZfzX5gX39T7d5_e_-F_liGjkyDApOhxTZMv72h0,5614
+tkinterDev-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tkinterDev-2.0.0.dist-info/top_level.txt,sha256=ex63kILSe2XvoK7cNoLDD1GZsRV7gTi_VxnCsteKOkA,15
+tkinterDev-2.0.0.dist-info/RECORD,,
