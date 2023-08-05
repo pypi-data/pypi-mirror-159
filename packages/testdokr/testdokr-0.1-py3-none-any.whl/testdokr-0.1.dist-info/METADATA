@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: testdokr
+Version: 0.1
+Summary: A Docker and AWS utility package
+Home-page: https://github.com/digitalwebnetwork/dokr
+Author: Digital web network
+Author-email: digital.webnetwork@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# A Docker and AWS utility package
+
+Programming Language :: Python :: 3
+
+License :: OSI Approved :: MIT License
+
+Operating System :: OS Independent 
