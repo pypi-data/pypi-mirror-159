@@ -1,0 +1,15 @@
+src/graham/builder.py,sha256=NQlrhCtyuVX11WjovrF6xwRBF8Gzu0QHYmeKDU3Kgt0,1483
+src/graham/grader.py,sha256=Z9xzxWr_MEA8h_wNuOEyCzsFU4_zPne3UVKPI9IXySw,2761
+src/graham/model.py,sha256=FY9WCyahV5UTw2_4bhD1j_oF4tmMhOZZYazFxVORzAs,846
+src/graham/task.py,sha256=w0fvmFh47swjN7hp0XZh9aWBD84EWof05Q1iDj_V1pw,2256
+src/kd_tree/builder.py,sha256=C32h7ZFMH7nb3Mb34zheS0sgkKvmaVfnHDaeFNI8hw8,2378
+src/kd_tree/grader.py,sha256=SbyB86-Cxgq61agW0DHcBfsqu604wzI5FHirBpBF1VA,1372
+src/kd_tree/model.py,sha256=ntZLjYtf49QmpG5d-0RzJOk9DbEqrpxNPWrTuRiAC4Q,1275
+src/kd_tree/task.py,sha256=8k6jtbzjIFHuwQFrK8dmET5zZ_zQ7IFmLP6Q4gNZuHw,1614
+src/quickhull/builder.py,sha256=AoJiPaoLdEf0tfnrY-wfu4CVQr5CwdtyYKoRunhoUKI,2095
+src/quickhull/grader.py,sha256=jFl86nUSTi7luDc70pNccLM5dLtF1IOqwGjUUw6Bkjo,1824
+src/quickhull/model.py,sha256=_5OY5DUpPN8mtwfWR-XxVdzQWRquG2ZLD-MTBQcIXV4,911
+src/quickhull/task.py,sha256=cS9-tjcG_VK0XvdTXzCyf2Rz1zuNCq6cD4KUdKePApA,1644
+cgtasks-1.0.0.dist-info/METADATA,sha256=Tw31smH0YIVQCf3rk3f06fsSc8KqZ4VEu2B7pL7f8ys,200
+cgtasks-1.0.0.dist-info/WHEEL,sha256=mi1reSVcnbrSYlwsjGvo2VoEGwcMRujhO4H0-AAtleY,104
+cgtasks-1.0.0.dist-info/RECORD,,
