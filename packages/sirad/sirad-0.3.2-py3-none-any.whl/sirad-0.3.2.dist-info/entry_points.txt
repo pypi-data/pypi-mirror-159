@@ -1,0 +1,2 @@
+[console_scripts]
+sirad = sirad.__main__:main
