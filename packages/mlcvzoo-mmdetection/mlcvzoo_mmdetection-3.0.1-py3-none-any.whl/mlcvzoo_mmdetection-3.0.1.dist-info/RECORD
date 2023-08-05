@@ -1,0 +1,9 @@
+mlcvzoo_mmdetection/__init__.py,sha256=9cVvcGiBzyTANEkHCC9LJFGMpu5R1JQesvYAEsGQxUo,177
+mlcvzoo_mmdetection/configuration.py,sha256=pY8rps-_uSPtcGv6E-G2S7zoKsZt1lSaoSky3-rx1SI,6516
+mlcvzoo_mmdetection/csv_dataset.py,sha256=gla-dl7QShtK2FHvz_7HspaIRRTh1TxrqldXJ4PG3rA,7796
+mlcvzoo_mmdetection/model.py,sha256=y32DPHIJkbTpqXfIX-nPnYGfX9dk2B5YF7J1TjIQrCY,17827
+mlcvzoo_mmdetection/py.typed,sha256=8hzvo_jpzs7tuf2I0_TzilG8zWbzxcO75UQ5n7LpIf0,154
+mlcvzoo_mmdetection/utils.py,sha256=dBUMj88ribcHuiNju33d6pn6-zuXgegQL4TXOaqOCvg,5436
+mlcvzoo_mmdetection-3.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mlcvzoo_mmdetection-3.0.1.dist-info/METADATA,sha256=1m6je17t1PyD8KWP6VnvZRz0bsate7c3hKf_F10w5sQ,1885
+mlcvzoo_mmdetection-3.0.1.dist-info/RECORD,,
