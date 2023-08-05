@@ -1,0 +1,9 @@
+requests
+beautifulsoup4>=4.11.1
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest

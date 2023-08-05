@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+images/demo.svg
+src/stima_scraper.egg-info/PKG-INFO
+src/stima_scraper.egg-info/SOURCES.txt
+src/stima_scraper.egg-info/dependency_links.txt
+src/stima_scraper.egg-info/requires.txt
+src/stima_scraper.egg-info/top_level.txt
+src/stimascraper/__about__.py
+src/stimascraper/__init__.py
+src/stimascraper/_logging.py
+src/stimascraper/exceptions.py
+src/stimascraper/scraper.py
+src/stimascraper/utils.py
