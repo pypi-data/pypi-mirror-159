@@ -1,0 +1,5 @@
+rdflib~=6.0
+apsw
+rich
+python-multipart
+starlette
