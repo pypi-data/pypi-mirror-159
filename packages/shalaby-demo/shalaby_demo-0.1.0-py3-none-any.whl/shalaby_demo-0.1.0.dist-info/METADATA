@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: shalaby-demo
+Version: 0.1.0
+Summary: 
+Author: Shalaby
+Author-email: mhdshalabystar@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# Shalaby-Demo
+This is my first CLI created by typer and poetry
+
