@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: testtesttest0000000000
+Version: 1.0.5
+Summary: Casbin role watcher to be used for monitoring updates to policies for PyCasbin
+Home-page: https://github.com/pycasbin/etcd-watcher
+Author: nekotoxin
+Author-email: nekotoxin@gmail.com
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: casbin
+Requires-Dist: etcd3
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+Requires-Dist: simpleeval
+Requires-Dist: six
+Requires-Dist: tenacity
+
+# etcd-watcher
+
+About Etcd watcher for PyCasbin.
