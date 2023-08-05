@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aestimo
+Version: 3.0.0
+Summary: 1D Semiconductor QW bandstructure simulator
+Home-page: http://www.aestimosolver.org
+Author: sblisesivdin
+Author-email: sblisesivdin@gmail.com
+License: GPLv3
+Keywords: quantum well semiconductor nanostructure optical transitions
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: COPYING.md
+Requires-Dist: numpy (>1.7.0)
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+# Aestimo 1D Self-consistent Schrödinger-Poisson Solver
+
+ Aestimo is a simple 1-dimensional (1-D) simulator for educational and research. Please do not hesitate to contact us in case of any bugs found.
