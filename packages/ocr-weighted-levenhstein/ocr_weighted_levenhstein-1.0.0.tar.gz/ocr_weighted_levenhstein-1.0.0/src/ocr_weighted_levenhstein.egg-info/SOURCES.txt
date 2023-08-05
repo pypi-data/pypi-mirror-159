@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/count_editions2distances.py
+src/image_generator.py
+src/ocr_weighted_levenhstein/__init__.py
+src/ocr_weighted_levenhstein.egg-info/PKG-INFO
+src/ocr_weighted_levenhstein.egg-info/SOURCES.txt
+src/ocr_weighted_levenhstein.egg-info/dependency_links.txt
+src/ocr_weighted_levenhstein.egg-info/top_level.txt
+src/ocr_weighted_levenhstein/data/delete.npy
+src/ocr_weighted_levenhstein/data/insert.npy
+src/ocr_weighted_levenhstein/data/subs.npy
