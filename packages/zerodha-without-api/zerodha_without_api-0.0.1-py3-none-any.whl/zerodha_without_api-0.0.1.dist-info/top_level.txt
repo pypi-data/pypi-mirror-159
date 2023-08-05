@@ -1,0 +1,3 @@
+alicelue_brocker_wihtoutapi
+fyers_withoutapi
+zerodha_without_api
