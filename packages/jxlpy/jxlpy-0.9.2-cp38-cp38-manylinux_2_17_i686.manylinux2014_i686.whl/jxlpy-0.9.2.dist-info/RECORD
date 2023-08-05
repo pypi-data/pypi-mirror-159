@@ -1,0 +1,13 @@
+_jxlpy.cpython-38-i386-linux-gnu.so,sha256=9sIHJhwWedlXw8yVtMEucDVG0rwpf7b07x5_VpcFO2c,818452
+jxlpy.libs/libbrotlicommon-42202bc7.so.1.0.7,sha256=RcoGOMqz1ofiuepw1Ypn2kDcNLV_WX1fnPmK5b8mz8c,139640
+jxlpy.libs/libbrotlienc-6ded0e3e.so.1,sha256=IsmyP2HUnQhWp_QXMCOpJHoO6kPYVn0QgYmUNoZQj3k,668712
+jxlpy.libs/libjxl_threads-b9f284e2.so.0.6.1,sha256=SFXz0JP09XTuA9qFjagKhuEbQ5Rng79JrQQlcjPUsMI,39104
+jxlpy.libs/libjxl-5733e577.so.0.6.1,sha256=vCTIuPyUkNeLi_YIIfX-RT_AL__sxQS4UmKRJUKb6KI,2556972
+jxlpy.libs/libbrotlidec-1c50ef2f.so.1,sha256=VpSC3wWPXkaR_efUvoo9GT-O-2B5UIXFvJK3zQI0N_A,70332
+jxlpy/__init__.py,sha256=8UP_UJHs_tbmBZ2DDpBXsK7lkrPB5Y5It6Ti1N25u8k,66
+jxlpy/JXLImagePlugin.py,sha256=gesQzW6PGJhQ08ZXiu3EuveAoegVxn4DGd614KY1GCA,2810
+jxlpy-0.9.2.dist-info/WHEEL,sha256=GwReX849BnoQWv-HcSXUs0whc-31BkC6U2K6sSoRQvA,144
+jxlpy-0.9.2.dist-info/METADATA,sha256=pP-Cql4Cf8N94WDAMa47PFxZ7KtBY7AJqDDOdmFCdmE,4249
+jxlpy-0.9.2.dist-info/LICENSE,sha256=BEEKZrL20dqUzo75VW5jVqnoAxXgGA893OvI2O_QA4I,1080
+jxlpy-0.9.2.dist-info/top_level.txt,sha256=tsJim8Ae73FKomiqSFdA2YXn_ZIWXRURZ9ir5T5M_nE,13
+jxlpy-0.9.2.dist-info/RECORD,,
