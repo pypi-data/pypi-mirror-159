@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+astocktrade/__init__.py
+astocktrade/getdata.py
+astocktrade/macal.py
+astocktrade/upcal.py
+astocktrade.egg-info/PKG-INFO
+astocktrade.egg-info/SOURCES.txt
+astocktrade.egg-info/dependency_links.txt
+astocktrade.egg-info/top_level.txt
