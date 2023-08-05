@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mkdocs-gds
+Version: 0.0.9
+Summary: A GOV.UK Design System inspired mkdocs theme for DDAT documentation
+Home-page: https://github.com/uktrade/gds-technical-documentation-template
+Author: Mark Higham
+Author-email: mark.higham@ditigal.trade.gov.uk
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
