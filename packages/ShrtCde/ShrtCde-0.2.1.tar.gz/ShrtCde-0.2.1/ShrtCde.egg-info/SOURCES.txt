@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ShrtCde/FileSystem.py
+ShrtCde/Sort.py
+ShrtCde/__init__.py
+ShrtCde.egg-info/PKG-INFO
+ShrtCde.egg-info/SOURCES.txt
+ShrtCde.egg-info/dependency_links.txt
+ShrtCde.egg-info/top_level.txt
+ShrtCde/InDev/UI.py
+ShrtCde/InDev/__init__.py
