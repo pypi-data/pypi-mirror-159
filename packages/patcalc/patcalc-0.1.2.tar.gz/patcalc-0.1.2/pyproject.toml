@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "patcalc"
+description = "Basic arithmetic calculator from memory value"
+version = "0.1.2"
+description-file = "README.md"
+authors = [{name = "Patricia Osorio", email = "patosorio.88@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
