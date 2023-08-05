@@ -1,0 +1,10 @@
+find_contours.cpython-39-x86_64-linux-gnu.so,sha256=szZoVQfOPsjNzWOE_jfR0QHxM553Z3DTQe5T2RgBHWk,1159408
+draw_polygon.cpython-39-x86_64-linux-gnu.so,sha256=KsJr6A-CulvLip1L9s58ueLZLLlVwMLqzrLTaZanC6A,2062904
+run_length_encoding.cpython-39-x86_64-linux-gnu.so,sha256=8gUyyD2uq4DONfe6b_x7GU2E-DFIWVD_LnUoNRXzOzw,1145384
+simplify_polygon.cpython-39-x86_64-linux-gnu.so,sha256=YbwIJzgZ9xUiIxHJZES0tC9_FTls5XHmDnbVihFKM6Y,259448
+upolygon/__init__.py,sha256=aE6-KFPaDlusNg2V1ECZXiSQrRpWfgyn7Vi--rElaGU,211
+upolygon-0.1.8.dist-info/WHEEL,sha256=0Xjg0PuR76uZXGBwbviGZwSgy2-nsuQWQwJMplXKHo0,217
+upolygon-0.1.8.dist-info/METADATA,sha256=-94vyJ1dOslmJFKeFEoAoISrW2PyjQd_WFybX_3Y2gw,2548
+upolygon-0.1.8.dist-info/LICENSE,sha256=vX3MGNxB4U6FvOADAOm5qENWj89MW8Y0TrtcRhH6OXM,1072
+upolygon-0.1.8.dist-info/top_level.txt,sha256=5VhPAEB3KpSpSXie94Yb_PHVLVXh85qeYEfxki7XZbM,73
+upolygon-0.1.8.dist-info/RECORD,,
