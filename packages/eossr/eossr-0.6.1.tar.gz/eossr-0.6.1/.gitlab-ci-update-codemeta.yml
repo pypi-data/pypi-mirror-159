@@ -1,0 +1,52 @@
+# Set up this script
+#   1. Create a new personal access token (https://gitlab.in2p3.fr/-/profile/personal_access_tokens)
+#      with the following scopes:
+#        - read_repository
+#        - write_repository
+#   2. Inside Settings -> CI / CD -> Variables, create the following variables:
+#
+#   GITLAB_TOKEN          Personal access token previously created.
+#     (masked)
+#   GITLAB_USERNAME       Username associated with the personal access token.
+#   COMMIT_MESSAGE        Commit message                                        Automatic update of CodeMeta
+
+
+update_codemeta:
+  stage: update_codemeta
+  image: gitlab-registry.in2p3.fr/escape2020/wp3/eossr:dev
+  before_script:
+    - apt-get install git -y
+    # Set the displayed user with the commits that are about to be made
+    - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
+    - git config --global user.name "${GIT_USERNAME:-$GITLAB_USERNAME}"
+
+  script:
+    # We need to be on master with no local changes
+    - git fetch && git checkout --force $CI_DEFAULT_BRANCH && git reset --hard origin/$CI_DEFAULT_BRANCH
+    # setuptools_scm needs to be installed before or it can't be used to determine eossr version during install
+    - pip install setuptools_scm
+    - pip install .
+    - cat codemeta.json
+    - python eossr/scripts/update_codemeta_eossr.py -c codemeta.json --no-release
+    - eossr-check-connection-zenodo --token $ZENODO_TOKEN -p $CI_PROJECT_DIR
+    - cat codemeta.json
+    # Add all generated files to Git
+    - git add codemeta.json
+    - |-
+      # Check if we have modifications to commit
+      CHANGES=$(git status --porcelain | wc -l)
+
+      if [ "$CHANGES" -gt "0" ]; then
+        # Show the status of files that are about to be created, updated or deleted
+        git status
+
+        # Commit all changes
+        git commit -m "Auto-update codemeta.json"
+
+        # Update the repository and make sure to skip the pipeline create for this commit
+        echo https://${GITLAB_USERNAME}:${GITLAB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git
+        git push https://${GITLAB_USERNAME}:${GITLAB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git -o ci.skip
+      fi
+  only:
+    - master
+    - tags
