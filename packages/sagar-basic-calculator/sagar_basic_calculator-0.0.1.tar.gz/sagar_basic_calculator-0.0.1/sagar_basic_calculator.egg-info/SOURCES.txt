@@ -1,0 +1,7 @@
+MANIFEST.in
+licence.txt
+setup.py
+sagar_basic_calculator.egg-info/PKG-INFO
+sagar_basic_calculator.egg-info/SOURCES.txt
+sagar_basic_calculator.egg-info/dependency_links.txt
+sagar_basic_calculator.egg-info/top_level.txt
