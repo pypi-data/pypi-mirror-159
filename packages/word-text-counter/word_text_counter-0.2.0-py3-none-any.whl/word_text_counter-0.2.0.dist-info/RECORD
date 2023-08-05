@@ -1,0 +1,10 @@
+word_text_counter/__init__.py,sha256=JDorzDr_-w43x6o0fB1A_MyecUYNOr7aqUrxhTGloKE,329
+word_text_counter/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+word_text_counter/data/flatland.txt,sha256=xEZnuXkdM4l5Q4VGtiTz5ZfAtmeSpZ5smhL5TWrvdlM,227172
+word_text_counter/data/time_machine.txt,sha256=Ux4R0RhcpKhst6z2D9RZQ8FZGUWupA9PHB6ld9_W4tk,204357
+word_text_counter/datasets.py,sha256=x_PRAWba5BXX8qQ9I4_bEbc5Ad0EPkTDa9rRtUAFC7A,594
+word_text_counter/word_text_counter.py,sha256=JzzP_I9mE4GRQt8sGplmSbSe3aVqWGgriT0McIw4uuU,1437
+word_text_counter-0.2.0.dist-info/LICENSE,sha256=j5PaB3lNXGfzumTbOrHunf0l4eJqQ95oeuSlIWZRDpY,1066
+word_text_counter-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+word_text_counter-0.2.0.dist-info/METADATA,sha256=XfmmdNVpk_iMjrJTn_fw276_SgXgaZwaOPN1o5aJgPk,1163
+word_text_counter-0.2.0.dist-info/RECORD,,
