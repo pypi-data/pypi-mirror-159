@@ -1,0 +1,17 @@
+__init__.py,sha256=X_QEh378fu8org74x7thr0bQewYEYDOB40quboQ4XKo,22
+configs/__init__.py,sha256=hd6oGOc1GxxapieY0Z31JT1OgT8c4CMeSxCXuh_6zmg,94
+configs/gitignore.py,sha256=oBcp1cB1-qKweUjLzwZoQJTlLT-4SFpY2y4YNKNF9fU,2458
+configs/mainapp.py,sha256=1Ln-lq2yP2raz-bz30bwW_HgKCZTmbT1ibGX-6cJO-c,212
+configs/others.py,sha256=hsA7hT2jvo0VDIZOocxZSdbDuRkORv4uu5dn9MAlv_E,103
+configs/settings.py,sha256=AjvyJOR0LxKr2A4k-f-z2tFVqefgWiP_6HgyQNNeeRw,3867
+create/__init__.py,sha256=eMMAnbiWPGtyuVPXjhjpfR757yfdEOUpW3sLF2bEHko,246
+create/create_core.py,sha256=ucAbOKaYv5ExO8f1EHZHm14YW3lCcLRGb_Ejy_jcfek,759
+create/create_dj.py,sha256=VfrXxZmmn-ljBZUKmwDqGu0X6XEpJ075Q9B4j57l2gE,411
+create/create_gitignore.py,sha256=zyU7XtPN2LQ8qazGT_NFRivNQYLfVHauVMgQB546do4,370
+create/create_others.py,sha256=5uimBapwy_yQJtXmILWjXeg5jz2abGxHrOA1C36z8I8,300
+create/create_settings.py,sha256=W9qmQndjhjGMkYx-2lB3H8ywc5pQsBHJ-sO3YguOAJU,1562
+idealDjango-0.0.1.dist-info/LICENSE,sha256=C0NG5WKVkr4dvkLotKzpDi2ZDXPkatVbdDqh5ENukD8,1070
+idealDjango-0.0.1.dist-info/METADATA,sha256=UJKD6pAEnyjS1PxNcSqV-UyDAkqKCzUED9R6CPafBz4,1848
+idealDjango-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+idealDjango-0.0.1.dist-info/top_level.txt,sha256=7j_zQD_f7r_X2eOwwN0Qz3n6-7qYW-HGxxCa40Imxyw,24
+idealDjango-0.0.1.dist-info/RECORD,,
