@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: authx_lite
+Version: 0.0.1
+Summary: Pluggable authentication and authorization Library built on top of authx-core & FastAPI.
+Home-page: https://github.com/yezz123/authx-core
+Author: Yasser Tahiri
+Author-email: hello@yezz.me
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: FastAPI
+Classifier: Framework :: AsyncIO
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: Typing :: Typed
+Requires-Dist: authx_core
+Requires-Dist: bcrypt
+Requires-Dist: argon2-cffi
+Requires-Dist: psycopg2-binary
+Requires-Dist: aiofiles
+Requires-Dist: email-validator
+Requires-Dist: async-exit-stack
+Requires-Dist: async-generator
+Requires-Dist: typing_extensions
+Requires-Dist: python-multipart
+Requires-Dist: pyjwt
+Requires-Dist: pre-commit==2.19.0 ; extra == "lint"
+Requires-Dist: sqlalchemy-stubs ; extra == "lint"
+Requires-Dist: mypy==0.931 ; extra == "lint"
+Requires-Dist: pytest==7.1.2 ; extra == "test"
+Requires-Dist: pytest-asyncio == 0.18.3 ; extra == "test"
+Requires-Dist: requests==2.27.1 ; extra == "test"
+Requires-Dist: uvicorn==0.17.6 ; extra == "test"
+Requires-Dist: asynctest==0.13.0 ; extra == "test"
+Requires-Dist: codecov==2.1.12 ; extra == "test"
+Requires-Dist: pytest-cov==3.0.0 ; extra == "test"
+Requires-Dist: uvloop==0.16.0 ; extra == "test"
+Requires-Dist: websockets==10.3 ; extra == "test"
+Requires-Dist: aiofiles ; extra == "test"
+Requires-Dist: requests ; extra == "test"
+Requires-Dist: psycopg2-binary ; extra == "test"
+Project-URL: Documentation, https://authx.yezz.me/
+Provides-Extra: lint
+Provides-Extra: test
+
+# authx-lite
+
+A Bootstrapped Version of AuthX ✨
+
