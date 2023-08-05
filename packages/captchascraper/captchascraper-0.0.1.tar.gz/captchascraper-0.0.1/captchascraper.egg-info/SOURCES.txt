@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+captchascraper/__init__.py
+captchascraper.egg-info/PKG-INFO
+captchascraper.egg-info/SOURCES.txt
+captchascraper.egg-info/dependency_links.txt
+captchascraper.egg-info/requires.txt
+captchascraper.egg-info/top_level.txt
