@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: captchascraper
+Version: 0.0.4
+Summary: Captcha Bypass API
+Home-page: https://github.com/zearakun/captchascraper
+Author: zearadiscord
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# captchascraper
+captcha and cloudflare bypass
+# Example
+```py
+import captchascraper
+
+data = {"name": "captchascraper","message": "captchascraper","send_message": "投稿"}
+
+# https://www.scraperapi.com/
+bypass = bypass(apikey="APIKEYHERE")
+
+# get
+bypass.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/")
+
+# post
+bypass.post("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",data=data)
+
+# patch
+bypass.get("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/",data=data)
+
+#delete
+bypass.delete("https://aarrzearadiscord.000webhostapp.com/anarchy/chat/")
+```
+# 使い方
+`$ pip install captchascraper`
+```py
+import captchascraper
+bypass = bypass(apikey="APIKEYHERE")
+print(bypass.get("https://google.com").status_code)
+```
+
+
