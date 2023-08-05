@@ -1,0 +1,2 @@
+[console_scripts]
+tableParser = tableParser.__main__:main

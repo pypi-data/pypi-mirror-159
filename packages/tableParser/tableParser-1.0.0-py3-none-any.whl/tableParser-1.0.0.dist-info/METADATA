@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tableParser
+Version: 1.0.0
+Summary: It extract the table data from the pdf
+Home-page: https://github.com/abhishekthegodfather/tableDataParser.git
+Author: Abhishek Biswas
+Author-email: abhishekbiswas772@gmail.com
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml (==5.1)
+Requires-Dist: torch (==1.7.0)
+Requires-Dist: detectron2
+Requires-Dist: layoutparser
+Requires-Dist: pillow
+Requires-Dist: pdf2image
+Requires-Dist: pytesseract
+
