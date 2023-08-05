@@ -1,0 +1,5 @@
+recursive-include src/cryptoadvance/specterext/faucet/templates *
+recursive-include src/cryptoadvance/specterext/faucet/static *
+recursive-include src/cryptoadvance/specterext/faucet/*/LC_MESSAGES *.mo
+recursive-include src/cryptoadvance/specterext/faucet/translations/*/LC_MESSAGES *.po
+include requirements.txt

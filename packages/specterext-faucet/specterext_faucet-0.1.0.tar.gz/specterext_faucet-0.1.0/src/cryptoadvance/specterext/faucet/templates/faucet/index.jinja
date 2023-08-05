@@ -1,0 +1,40 @@
+{% extends "base.jinja" %}
+{% block title %}Settings{% endblock %}
+{% set tab = 'index' %}
+
+{% block main %}
+<div class="card" style="width: 600px;">
+    <form action="." method="POST" role="form">
+        <h1>Faucet service</h1>
+        <h2>Get some funds from your default wallet</h2>
+        <input type="hidden" class="csrf-token" name="csrf_token" value="{{ csrf_token() }}"/>
+        <br>
+        <label for="address">Address</label>
+        <input type="text" name="address" id="address" placeholder="Destination address">
+        <br><br>
+        <label for="amount">Amount ({{ available }} BTC available)</label>
+        <input type="number" value="0.1" name="amount" id="amount">
+        <br><br>
+        <div class="row">
+            <button type="submit" class="btn" name="action" value="fund">Fund</button>
+        </div>
+        <br><br><br>
+        <h2>Send back to</h2>
+        <span>{{addr}}</span>
+        <br><br><br>
+        <h2>Or generate a new block</h2><br>
+        <div class="row">
+            <button type="submit" class="btn" name="action" value="generate">Generate block</button>
+        </div>
+        <br><br><br>
+
+        <h2 class="center">Settings</h2>
+        <label><input type="checkbox" class="inline" name="show_menu" id="show_menu" {{'checked' if show_menu else ''}}> Show menu on sidebar</label>
+        <br><br>
+        <div class="row">
+            <button type="submit" class="btn" name="action" value="settings">Save settings</button>
+        </div>
+    </form>
+</div>
+
+{% endblock %}

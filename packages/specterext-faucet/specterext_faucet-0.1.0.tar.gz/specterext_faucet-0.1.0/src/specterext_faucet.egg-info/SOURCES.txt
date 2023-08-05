@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+src/cryptoadvance/specterext/faucet/__init__.py
+src/cryptoadvance/specterext/faucet/__main__.py
+src/cryptoadvance/specterext/faucet/config.py
+src/cryptoadvance/specterext/faucet/controller.py
+src/cryptoadvance/specterext/faucet/service.py
+src/cryptoadvance/specterext/faucet/static/faucet/img/logo.png
+src/cryptoadvance/specterext/faucet/templates/faucet/index.jinja
+src/specterext_faucet.egg-info/PKG-INFO
+src/specterext_faucet.egg-info/SOURCES.txt
+src/specterext_faucet.egg-info/dependency_links.txt
+src/specterext_faucet.egg-info/top_level.txt
