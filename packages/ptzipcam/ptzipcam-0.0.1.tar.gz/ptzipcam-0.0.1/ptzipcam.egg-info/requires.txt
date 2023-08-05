@@ -1,0 +1,6 @@
+pyyaml
+opencv-python
+onvif-zeep
+screeninfo
+imutils
+camml
