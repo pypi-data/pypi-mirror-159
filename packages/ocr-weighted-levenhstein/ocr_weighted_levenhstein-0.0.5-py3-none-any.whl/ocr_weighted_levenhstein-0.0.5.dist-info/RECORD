@@ -1,0 +1,10 @@
+ocr_weighted_levenhstein/__init__.py,sha256=5XSq16HHM9YeDabM4gAACPRx3kRI3kvBsN5y7O_vnV0,351
+ocr_weighted_levenhstein/get_distances.py,sha256=wpUGcEKR_BJ9zkyHcWpnpAn3O54QtwS3PCVPIPe1IR0,360
+ocr_weighted_levenhstein/data/delete.npy,sha256=7TU1ZzCAC8yXQnV4TpA8fc3sR3Geqi1Ch05FHPhqKMw,1152
+ocr_weighted_levenhstein/data/insert.npy,sha256=DyM15KZBoCqQFLHAUJzHnwat8oiLeuLYgvDpMnDY49E,1152
+ocr_weighted_levenhstein/data/subs.npy,sha256=ybTkbKTHxaQnAY7y6RkvdNquh_rIFjdjyTUr2oda4Ao,131200
+ocr_weighted_levenhstein-0.0.5.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+ocr_weighted_levenhstein-0.0.5.dist-info/METADATA,sha256=TLPAWO9uvpMrc65or6_8mPiYGBJ8ZZndUtAJLhddRfQ,1803
+ocr_weighted_levenhstein-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ocr_weighted_levenhstein-0.0.5.dist-info/top_level.txt,sha256=ALqFpIHRn1jSMnG8LprBq_Gkfb85kskYQqTCy2ZXCaE,25
+ocr_weighted_levenhstein-0.0.5.dist-info/RECORD,,
