@@ -1,0 +1,16 @@
+boxdb/FileWriteup.py,sha256=gMQ7uiTo9XBPlqd3-S9V9sgFI7MfA6Xdfpql11RB75c,5792
+boxdb/__init__.py,sha256=mKYMhVMEFG6n3R-uLbYuxmwdDa3dJZX4B01pqMVnKF8,1390
+boxdb/auth.py,sha256=wpIKyR-OJwtJ3Gl4HC6MCTa6sNsRfDgISRn5guOwYQI,2869
+boxdb/basic_commands.py,sha256=CqCQeYt4-_xBIyXLGmkF471Zw6869w_jV-7rqK1Haik,2670
+boxdb/checkups.py,sha256=Ra2pTD-fsyR2ih0APRaF1436GrdWiCfXuxj5kOdiYtQ,2030
+boxdb/columns.py,sha256=e-47k0mOAhfToYXFCFItpu55gvooYqj7zb9dXmUpGHg,5260
+boxdb/create.py,sha256=lCVSfXuEWZr7CN7n6Pr5kdIZfTlD78glzXfTnsdVyX8,1655
+boxdb/logs.py,sha256=mYPAE0W8FamnsAtmT0uHvioR2bhPYNWUreLH-MwdFTY,1511
+boxdb/readtable.py,sha256=e0tUn9OqrDaWS8SNS8Sh2Uwm3lZg6pukr4xIKEj5z_U,1203
+boxdb/rows.py,sha256=xyLkkn5HdmNCElMVAsqMJJsHulAxWfGskrFORAcqRyI,5427
+boxdb/settings.py,sha256=Lw-QmhFIHj05KgJENoy2mw-znOaNRmH5a0nQw9Wanfg,688
+boxdb/support.py,sha256=XHrP9CyDSWB8q-AKipLSmzDT5kBqLYHbH5eT-ALImC4,4642
+boxdb-0.9.dist-info/METADATA,sha256=9dW-2-ODNcsy9FXTOUPu5z3gvF7p0zNz47ffJjIYI04,9692
+boxdb-0.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+boxdb-0.9.dist-info/top_level.txt,sha256=6tG17jFS4xnGZaP3ZziGr94pOqavxtjaWNpbvXiv9sg,6
+boxdb-0.9.dist-info/RECORD,,
