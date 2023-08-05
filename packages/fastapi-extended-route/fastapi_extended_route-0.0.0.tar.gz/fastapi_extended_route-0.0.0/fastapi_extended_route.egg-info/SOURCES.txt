@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+fastapi_extended_route/__init__.py
+fastapi_extended_route.egg-info/PKG-INFO
+fastapi_extended_route.egg-info/SOURCES.txt
+fastapi_extended_route.egg-info/dependency_links.txt
+fastapi_extended_route.egg-info/not-zip-safe
+fastapi_extended_route.egg-info/requires.txt
+fastapi_extended_route.egg-info/top_level.txt
