@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+symgrep.egg-info/PKG-INFO
+symgrep.egg-info/SOURCES.txt
+symgrep.egg-info/dependency_links.txt
+symgrep.egg-info/top_level.txt
