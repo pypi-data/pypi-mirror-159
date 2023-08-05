@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: paddlespeech-ldd-ctcdecoders
+Version: 0.2.0
+Summary: CTC decoders in paddlespeech
+Home-page: https://github.com/PaddlePaddle/PaddleSpeech
+Author: PaddlePaddle Speech user lidongdong compile for windows
+Author-email: double_dongli@foxmail.com
+License: Apache 2.0, GNU Lesser General Public License v3 (LGPLv3) (LGPL-3)
+License-File: LICENSE
+License-File: COPYING.APACHE2.0
+License-File: COPYING.LESSER.3
+
