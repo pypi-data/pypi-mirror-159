@@ -1,0 +1,3 @@
+requests~=2.20
+ifaddr~=0.1
+neon-utils<2.0.0,>=1.0.0a1
