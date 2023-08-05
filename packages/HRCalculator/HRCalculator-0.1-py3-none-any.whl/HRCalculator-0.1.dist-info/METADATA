@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: HRCalculator
+Version: 0.1
+Summary: it's package uses the signal ppg to calculate heart rate using a robost peak detection algorithm which gives very accurate results for small periods of time about 10s and may be down to 6s but it's not recommended for medical applications 
+Home-page: UNKNOWN
+Author: Abdulrahman Badr
+Author-email: aba884682@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+
+UNKNOWN
+
