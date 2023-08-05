@@ -1,0 +1,21 @@
+_target_: move.models.vae.VAE
+
+user_config: model.yaml
+seed: 1
+cuda: False
+
+lrate: 0.0001
+num_epochs: 4 # for testing
+patience: 2 #for testing
+kld_steps:
+  - 20
+  - 30
+  - 40
+
+batch_steps:
+  - 50
+  - 100
+  - 150
+  - 200
+  
+# # Use a custom resolver to extract the weights input in 'data/main.yaml'
