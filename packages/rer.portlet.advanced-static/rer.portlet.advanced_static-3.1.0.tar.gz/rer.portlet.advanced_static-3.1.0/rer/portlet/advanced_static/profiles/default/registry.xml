@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<registry>
+  <record name="rer.portlet.advanced_static.css_styles">
+    <field type="plone.registry.field.Tuple">
+        <title>Advanced static tiles: available CSS styles</title>
+        <description>A list of style available for Advanced static portlet</description>
+        <value_type type="plone.registry.field.TextLine" />
+    </field>
+    <value>
+        <element>example-element|Example element</element>
+    </value>
+  </record>
+  <records prefix="plone.bundles/rer.portlet.advanced_static" interface="Products.CMFPlone.interfaces.IBundleRegistry">
+    <value key="enabled">True</value>
+    <value key="jscompilation"></value>
+    <value key="csscompilation">++resource++advanced_static.css</value>
+  </records>
+</registry>
