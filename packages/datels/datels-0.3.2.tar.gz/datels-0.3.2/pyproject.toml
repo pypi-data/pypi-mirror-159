@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "datels"
+version = "0.3.2"
+description = "`datels` is a simple CLI that displays a list of dates line by line."
+authors = ["joe-yama <s1r0mqme@gmail.com>"]
+license = "MIT"
+repository = 'https://github.com/joe-yama/datels'
+readme = "README.md"
+
+[tool.poetry.scripts]
+datels = "datels.cli:run"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+fire = "^0.4.0"
+numpy = ">=1.21"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pysen = {version = "^0.10.2", extras = ["lint"]}
+pytest-cov = "^3.0.0"
+
+[tool.pysen]
+version = "0.10"
+
+[tool.pysen.lint]
+enable_black = true
+enable_flake8 = true
+enable_isort = true
+enable_mypy =true
+mypy_preset = "entry"
+line_length = 88
+py_version = "py37"
+
+[[tool.pysen.lint.mypy_targets]]
+  paths = ["./datels", "./tests"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
