@@ -1,0 +1,15 @@
+src/__init__.py,sha256=CBVVOt67YMef0QaIEIW-FeCWZJWCKLzOPVelL8kCoC8,673
+src/config/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/config/datamodels.py,sha256=m5TVrD4KYT3VCmmgHOrrT2NGAZD5HQL3n4cKsitfmog,995
+src/interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/interfaces/datarequests.py,sha256=dHPonDkquT12bTagD_dalGJf0TBoakHaoUNIkljDQ9U,415
+src/interfaces/requests.py,sha256=VRYQkCFCl6ENS8XnCsLdqZOp3Fby7BFHoB99_RdW4vU,2872
+src/interfaces/task.py,sha256=7KiRHfIk6l7g7AEGh8g8X6YyPU_jOlauMO4zStBCRg4,1206
+src/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/types/tasks.py,sha256=X4AnaOSBjQPukanKPtuuWov_AF6bVKOH3xlJinPpGS8,413
+src/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/utils/s3_helper.py,sha256=c6QDx2dhZn0jCj2qn7blCNNECMWvVX2BnSb0y9ojBao,1300
+python_temporal-0.0.5.dist-info/METADATA,sha256=KYn4EJd7ARbbK-TGBhexi7nEly5XsX4mlqfvTrMErEc,415
+python_temporal-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_temporal-0.0.5.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+python_temporal-0.0.5.dist-info/RECORD,,
