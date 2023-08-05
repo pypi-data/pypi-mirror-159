@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ecmind_protlib_transition
+Version: 1.5.0
+Summary: library for implementing binary network protocols
+Home-page: https://github.com/rolandkoller/protlib
+Author: Eli Courtwright
+Author-email: eli@courtwright.org
+License: BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+License-File: LICENSE.txt
+
+
+Fork with removed 2to3 setup flag.
+
+protlib makes it easy to implement binary network protocols. It uses
+the struct and SocketServer modules from the standard library. It
+provides support for default and constant struct fields, nested structs, 
+arrays of structs, better handling for strings and arrays, struct 
+inheritance, and convenient syntax for instantiating and using your 
+custom structs.
+
+protlib requires Python 3.
+
+
