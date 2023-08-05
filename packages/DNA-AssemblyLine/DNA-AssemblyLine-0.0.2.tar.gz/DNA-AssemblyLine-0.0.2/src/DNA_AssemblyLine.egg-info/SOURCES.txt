@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/DNA-AssemblyLine/Gibson.py
+src/DNA-AssemblyLine/__init__.py
+src/DNA-AssemblyLine/opentrons_demo_script.py
+src/DNA-AssemblyLine/todaysdate.py
+src/DNA_AssemblyLine.egg-info/PKG-INFO
+src/DNA_AssemblyLine.egg-info/SOURCES.txt
+src/DNA_AssemblyLine.egg-info/dependency_links.txt
+src/DNA_AssemblyLine.egg-info/top_level.txt
