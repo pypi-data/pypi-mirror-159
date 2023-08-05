@@ -1,0 +1,7 @@
+pycryptodome
+
+[dev]
+commitizen
+
+[test]
+hypothesis
