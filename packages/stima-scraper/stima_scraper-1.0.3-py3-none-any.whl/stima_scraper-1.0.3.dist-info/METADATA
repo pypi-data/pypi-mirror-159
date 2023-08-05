@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: stima-scraper
+Version: 1.0.3
+Summary: A simple kplc pdf scraper
+Author-email: Daniel CHege Nduati <dannduati2@gmail.com>
+License: MIT License        
+        Copyright (c) 2022 Nduati Daniel Chege        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: Homepage, https://github.com/DanNduati/Stima_scraper
+Project-URL: Bug Tracker, https://github.com/DanNduati/Stima_scraper
+Keywords: kplc,stima,stimascraper
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4 (>=4.11.1)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+<h1 align="center"><b>Stima Scraper</b></h1>
+
+[![Project Status: WIP – Initial development is in progress.](https://www.repostatus.org/badges/latest/wip.svg)](https://github.com/DanNduati/Jokes_api)
+
+## <b>Description</b>
+
+
+Stima scraper extracts and pulls scheduled power interruptions pdf data off KPLC's [website](https://kplc.co.ke/category/view/50/planned-power-interruptions).
+
+## <b>Prerequisites</b>
+- Python3
+
+## <b>Installation</b>
+```bash
+$ pip install --upgrade stima-scraper
+```
+
+## <b>Usage</b>
+```python
+from pathlib import Path
+from stimascraper.scraper import StimaScraper
+
+# PDF storage directory you can define your own path here
+PDF_FILE_PATH = Path(__file__).parent.joinpath("pdfs")
+
+
+def main():
+    scraper = StimaScraper(pdf_path=PDF_FILE_PATH)
+    scraper.scrape()
+
+
+if __name__ == "__main__":
+    main()
+
+
+```
+## <b>Demo</b>
+[![asciicast](https://asciinema.org/a/Wvq14B2GsrknPqCLUaRIvLS1F.svg)](https://asciinema.org/a/Wvq14B2GsrknPqCLUaRIvLS1F)
+
+## <b>Built with</b>
+- [Beautifulsoup](https://beautiful-soup-4.readthedocs.io/en/latest/)
+
+
+## <b>License and Copyright</b>
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=for-the-badge)](LICENSE)
+
+Copyright 2020 Daniel Chege Nduati
