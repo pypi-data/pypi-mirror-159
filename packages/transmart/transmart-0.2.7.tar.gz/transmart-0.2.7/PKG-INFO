@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: transmart
+Version: 0.2.7
+Summary: An python client for communicating with the transmart rest api.
+Home-page: https://github.com/thehyve/transmart-api-client-py
+Download-URL: https://github.com/thehyve/transmart-api-client-py/tarball/0.2.7/
+Author: The Hyve
+Keywords: transmart,rest,api,data,science
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: backend
+Provides-Extra: full
+License-File: LICENSE.txt
