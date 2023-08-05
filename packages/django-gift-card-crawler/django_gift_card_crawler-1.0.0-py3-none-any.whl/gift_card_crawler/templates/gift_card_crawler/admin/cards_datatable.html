@@ -1,0 +1,55 @@
+{% if cards %}
+    {% if django_version >= '3' %}
+        <div class="changelist-form-container">
+    {% endif %}
+
+    <div id="toolbar" {% if jet %}class="initialized"{% endif %}>
+        <button id="Extract" type="submit">Extract</button>
+    </div>
+
+    <form id="changelist-form" method="post" novalidate=""{% if django_version < '3' and not jet %} style="width: auto;margin-right: 280px;" {% endif %}>
+        <div class="results">
+            <table id="result_list">
+                <thead>
+                <tr>
+                    <th scope="col" class="action-checkbox-column">
+                        <div class="text">#</div>
+                    </th>
+                    <th scope="col" class="column-username">
+                        <div class="text"><a>card number</a></div>
+                    </th>
+                    <th scope="col" class="column-username">
+                        <div class="text"><a>serial number</a></div>
+                    </th>
+                    <th scope="col" class="column-username">
+                        <div class="text"><a>price</a></div>
+                    </th>
+                    <th scope="col" class="column-username">
+                        <div class="text"><a>link</a></div>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for card in cards %}
+                    <tr class="card_info">
+                        <td>{{ forloop.counter }}</td>
+                        <td class="card_number">{{ card.card_number }}</td>
+                        <td class="serial_number">{{ card.serial_number }}</td>
+                        <td>{{ card.price }}</td>
+                        <td><a href="{{ card.link }}" target="_blank">Target Link</a></td>
+                    </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% if django_version < '3' %}
+            <p class="paginator {% if jet %}initialized{% endif %}">crawl {{ cards|length }} cards</p>
+        {% endif %}
+    </form>
+
+    {% if django_version >= '3' %}
+        <p class="paginator {% if jet %}initialized{% endif %}">crawl {{ cards|length }} cards</p>
+    {% endif %}
+
+    {% if django_version >= '3' %}</div>{% endif %}
+{% endif %}
