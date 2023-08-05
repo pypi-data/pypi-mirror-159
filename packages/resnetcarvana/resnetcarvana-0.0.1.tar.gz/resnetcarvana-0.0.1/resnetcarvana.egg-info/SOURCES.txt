@@ -1,0 +1,8 @@
+setup.py
+libname/__init__.py
+libname/main.py
+resnetcarvana.egg-info/PKG-INFO
+resnetcarvana.egg-info/SOURCES.txt
+resnetcarvana.egg-info/dependency_links.txt
+resnetcarvana.egg-info/requires.txt
+resnetcarvana.egg-info/top_level.txt
