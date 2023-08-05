@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pylebedev
+Version: 0.1.1.0
+Summary: Python package for obtaining Lebedev quadrature points and coefficients
+Home-page: https://github.com/ifilot/pylebedev
+Author: Ivo Filot
+Author-email: ivo@ivofilot.nl
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+# PyLebedev
+
+## Purpose
+
+PyQInt is a Python package for calculating one- and two-electron integrals as encountered in electronic structure calculations. Since integral evaluation can be quite computationally intensive, they are programmed in C++ and connected to Python using Cython.
+
+## Installation
+
+### Anaconda
+
+[![Anaconda-Server Badge](https://anaconda.org/ifilot/pylebedev/badges/version.svg)](https://anaconda.org/ifilot/pylebedev)
+[![Anaconda-Server Badge](https://anaconda.org/ifilot/pylebedev/badges/platforms.svg)](https://anaconda.org/ifilot/pylebedev)
+[![Anaconda-Server Badge](https://anaconda.org/ifilot/pylebedev/badges/downloads.svg)](https://anaconda.org/ifilot/pylebedev)
+[![Anaconda-Server Badge](https://anaconda.org/ifilot/pylebedev/badges/installer/conda.svg)](https://conda.anaconda.org/ifilot)
+
+Open Anaconda prompt and type
+
+```
+conda install -c ifilot pylebedev
+```
+
+### PyPi
+
+[![PyPI](https://img.shields.io/pypi/v/pylebedev?color=green&style=flat-square)](https://pypi.org/project/pylebedev/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pypi?style=flat-square)](https://pypi.org/project/pylebedev/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pylebedev?style=flat-square)
+
+
+Open a terminal and type
+
+```
+pip install pylebedev
+```
+
+## Usage
+
+```
+
+```
