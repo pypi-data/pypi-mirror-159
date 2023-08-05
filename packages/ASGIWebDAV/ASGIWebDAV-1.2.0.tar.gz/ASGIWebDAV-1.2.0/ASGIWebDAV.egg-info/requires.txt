@@ -1,0 +1,10 @@
+aiofiles
+ASGIMiddlewareStaticFile
+xmltodict==0.12.0
+pydantic
+bonsai
+brotli
+uvicorn
+click
+arrow
+chardet
