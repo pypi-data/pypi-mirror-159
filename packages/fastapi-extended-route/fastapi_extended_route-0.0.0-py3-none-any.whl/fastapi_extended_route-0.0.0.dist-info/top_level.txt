@@ -1,0 +1,1 @@
+fastapi_extended_route
