@@ -1,0 +1,2 @@
+[console_scripts]
+ddev = ddev.cli:main
