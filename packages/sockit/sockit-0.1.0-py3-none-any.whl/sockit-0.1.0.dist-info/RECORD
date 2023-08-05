@@ -1,0 +1,13 @@
+sockit/VERSION,sha256=atlhOkVXmNbZLl9fOQq0uqcFlryGntaxf1zdKyhjXwY,5
+sockit/__init__.py,sha256=RArKIRxGjBxytCt_BnVCf6fHOXXYgBL4pOrwU5XxE0Q,4722
+sockit/__main__.py,sha256=pFchvfcc54qHKTQdg7t-jB5LIDkuhW7SskUWX2MVTPI,3849
+sockit/log.py,sha256=cfQBBouYzQk8VS3XkkiSHAP4seRkB3ar9Zh9AN4Gl-c,634
+sockit/data/noun_list.txt,sha256=6zW30QtDPXqnuLAEqfIHqd6hocElIy6XXUGUYP0bCLE,28234
+sockit/data/soc_titles.json,sha256=NsWcYlSCp2AjdL757UPuJwlCH39d4b5nRwOw-XIphJs,40217
+sockit/data/wordtrie.json,sha256=jGm2K40dCO_fMyKLE9r7-tPshrWMI-AiwVVIJ3XvOYo,6541585
+sockit-0.1.0.dist-info/LICENSE.txt,sha256=sFlRzREI1F8mnyNq68mY49ebNPIVBfrErIzeCw_i80Y,3258
+sockit-0.1.0.dist-info/METADATA,sha256=7rn3Bpf2CEqA3zoMcX4dlOZuHX4X1Tbbj94uv_a3x1Q,3332
+sockit-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sockit-0.1.0.dist-info/entry_points.txt,sha256=ow6OQLBCZqf1PBgWUhnjjP2h6zA_AUSbeL_SIEDqDEQ,48
+sockit-0.1.0.dist-info/top_level.txt,sha256=ZZkGBAEEigMJRi83o_x455J9jYbe_C7qT3WdnIxzscg,7
+sockit-0.1.0.dist-info/RECORD,,
