@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: python_x509_pkcs11
+Version: 0.2.24
+Summary: python_x509_pkcs11 package init file
+Home-page: https://github.com/SUNET/python_x509_pkcs11
+Author: Victor Näslund
+Author-email: victor@sunet.se
