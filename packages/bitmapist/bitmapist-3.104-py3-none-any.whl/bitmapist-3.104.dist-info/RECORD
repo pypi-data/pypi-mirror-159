@@ -1,0 +1,10 @@
+bitmapist/__init__.py,sha256=S9PCJ6nc7kMiGxhBCWQQ6yk_fnzNqT3f8T8dyuglfOU,22101
+bitmapist/cohort/__init__.py,sha256=ff4x7cXM3WRqBupA8k1B7TDQbt8KdR4EJlr3jLWiM8s,11761
+bitmapist/cohort/tmpl/form_data.mako,sha256=BQVsVbsyW_HN7p3Pyg5sxv211g5muE69cyt-fMIe8I8,3443
+bitmapist/cohort/tmpl/table_data.mako,sha256=D3qTp_7FWrmD9p4MxKsse07_wXDDxXk5u_gxtNLm-Mg,3284
+bitmapist/cohort/tmpl/table_data_csv.mako,sha256=12Uyt5YBYd17ZwmpxHu0vtoyt-Tu7yXUmHPb1rX3ae8,701
+bitmapist-3.104.dist-info/AUTHORS,sha256=UTt_lj2Owih3OEgb6mT2ZdrgWB6PIegoFsp82Y369JU,454
+bitmapist-3.104.dist-info/METADATA,sha256=Ok5ztMYSw-S-zOMyMwHhLZf98D4a9acpnU3HaguiuxM,4504
+bitmapist-3.104.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bitmapist-3.104.dist-info/top_level.txt,sha256=KrNEzbtF1Du_JyeGLpckt96C2DQtnxFl9xWDNtk2EhQ,10
+bitmapist-3.104.dist-info/RECORD,,
