@@ -1,0 +1,12 @@
+protobuf<4
+cirq-core~=0.14.1
+cirq-google~=0.14.1
+orquestra-quantum
+
+[dev]
+orquestra-python-dev
+
+[qsim]
+
+[qsim:python_version <= "3.9"]
+qsimcirq~=0.12.1
