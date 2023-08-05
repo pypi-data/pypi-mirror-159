@@ -1,0 +1,13 @@
+README.md
+setup.py
+pyfsdb_parquet/__init__.py
+pyfsdb_parquet.egg-info/PKG-INFO
+pyfsdb_parquet.egg-info/SOURCES.txt
+pyfsdb_parquet.egg-info/dependency_links.txt
+pyfsdb_parquet.egg-info/entry_points.txt
+pyfsdb_parquet.egg-info/requires.txt
+pyfsdb_parquet.egg-info/top_level.txt
+pyfsdb_parquet/parquet/__init__.py
+pyfsdb_parquet/tools/__init__.py
+pyfsdb_parquet/tools/fsdb2parquet.py
+pyfsdb_parquet/tools/parquet2fsdb.py

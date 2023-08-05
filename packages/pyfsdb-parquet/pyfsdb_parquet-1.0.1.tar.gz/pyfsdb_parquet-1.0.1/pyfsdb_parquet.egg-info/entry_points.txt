@@ -1,0 +1,4 @@
+[console_scripts]
+parquet2pdb = pyfsdb_parquet.tools.parquet2fsdb:main
+pdb2parquet = pyfsdb_parquet.tools.fsdb2parquet:main
+
