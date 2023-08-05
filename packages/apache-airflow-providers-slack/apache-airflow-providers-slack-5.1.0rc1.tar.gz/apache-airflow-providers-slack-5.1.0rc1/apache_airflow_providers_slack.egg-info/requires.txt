@@ -1,0 +1,10 @@
+apache-airflow-providers-common-sql
+apache-airflow-providers-http
+apache-airflow>=2.2.0
+slack_sdk>=3.0.0
+
+[common.sql]
+apache-airflow-providers-common-sql
+
+[http]
+apache-airflow-providers-http
