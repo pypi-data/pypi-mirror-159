@@ -1,0 +1,13 @@
+stringtools/__init__.py,sha256=pt8hDbp4lK5XxglUEXrSNM6u9Nym6hrWi8gG4w_XIrU,424
+stringtools/analysers.py,sha256=aTliqP2fGblrVq02RkDvz0F--JoRUSS0JpRGO-3w55o,4653
+stringtools/converters.py,sha256=AodVe3rY9Nj6iqbNmQ_ZrPDhFEALdqNEQTW1XV0-JRc,3293
+stringtools/generators.py,sha256=DkJDPLWAO9_LIxrxXRVWrFtifCVWopB_YmcigFJj8t0,5852
+stringtools/validators.py,sha256=oIn776QFfIO1074UZ4ax1RBpZBSGwF_YdBzy8le08zw,2711
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_stringtools_version_name.py,sha256=tAo6qiU4M5uL4bylX_YoaMcG4GLj1J93JHVUnLZfIAQ,318
+stringtools-1.1.0a0.dist-info/LICENSE,sha256=l0amjwi-xKGYwF-xPVKeei2gkA9R-Fb8ubuEli6zlWo,1076
+stringtools-1.1.0a0.dist-info/METADATA,sha256=YmL0ugwWl9aOAKJGwan9L6k2o1aE7mKwoZ8mZjBZNAY,8104
+stringtools-1.1.0a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stringtools-1.1.0a0.dist-info/top_level.txt,sha256=FuQrzxGSk2Z6V-K70JtFO1tpn1Gp4kSXlOtIKL1t4iw,18
+stringtools-1.1.0a0.dist-info/RECORD,,
