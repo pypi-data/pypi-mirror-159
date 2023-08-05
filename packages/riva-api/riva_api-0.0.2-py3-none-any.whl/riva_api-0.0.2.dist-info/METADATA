@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: riva-api
+Version: 0.0.2
+Summary: Deprecated Python implementation of the Riva Client API
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+Maintainer: UNKNOWN
+Maintainer-email: UNKNOWN
+License: UNKNOWN
+Keywords: deep learning,machine learning,gpu,NLP,ASR,TTS,nvidia,speech,language,Riva,client
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: nvidia-riva-client
+
+Use `nvidia-riva-client <https://pypi.org/project/nvidia-riva-client/>`_ instead.
