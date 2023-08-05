@@ -1,0 +1,11 @@
+numpy==1.21.6
+scipy
+pandas
+tables
+pypeliner
+statsmodels
+scikit-learn
+pyyaml
+matplotlib
+seaborn
+bokeh
