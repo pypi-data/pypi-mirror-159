@@ -1,0 +1,12 @@
+nltk
+spacy
+mlxtend
+numpy
+sentence-transformers
+torch
+multiprocess
+py-rouge
+scispacy
+
+[dev]
+pytest>=3.7

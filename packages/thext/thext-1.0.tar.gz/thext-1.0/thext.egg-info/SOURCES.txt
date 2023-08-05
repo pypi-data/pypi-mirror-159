@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.py
+thext/DatasetPlus.py
+thext/Highlighter.py
+thext/RedundancyManager.py
+thext/SentenceRankerPlus.py
+thext/__init__.py
+thext.egg-info/PKG-INFO
+thext.egg-info/SOURCES.txt
+thext.egg-info/dependency_links.txt
+thext.egg-info/requires.txt
+thext.egg-info/top_level.txt
