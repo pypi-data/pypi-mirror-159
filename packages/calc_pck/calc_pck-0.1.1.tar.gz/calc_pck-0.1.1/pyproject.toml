@@ -1,0 +1,12 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "calc_pck"
+description = "Basic arithmetics calculator"
+description-file = "README.md"
+version = "0.1.1"
+authors = [{name = "Patricia Osorio", email = "patosorio.88@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
