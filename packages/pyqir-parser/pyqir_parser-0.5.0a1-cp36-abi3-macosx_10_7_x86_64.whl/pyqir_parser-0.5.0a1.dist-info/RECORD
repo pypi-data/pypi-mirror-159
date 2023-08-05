@@ -1,0 +1,9 @@
+pyqir_parser-0.5.0a1.dist-info/METADATA,sha256=2juraF0M6qg-ecwAo1p-lb0v7PDiiwHNCXSWe86C_-I,2486
+pyqir_parser-0.5.0a1.dist-info/WHEEL,sha256=ziKT_m6cJYrHxBWN9cIXWyx4Iu4HIC9jgeDJ99VI0a4,105
+pyqir_parser-0.5.0a1.dist-info/license_files/LICENSE,sha256=mCm3-wMuyR4PqovRwdQzsq0ZNcnoM3FZXNnW-WUvsos,1069
+pyqir_parser-0.5.0a1.dist-info/license_files/NOTICE-WHEEL.txt,sha256=5wvAq_Vmblbzdkc7mf5IzljOCZowWCjGqvq47MTJqFM,329497
+pyqir/__init__.py,sha256=5dW9wffMVSRy1ykTAapv4P8Tj6n3-Uxt0SBhOGLpRf8,247
+pyqir/parser/__init__.py,sha256=8lzfGlIwyWEy2w9SLsyAceB78Hsrmlk1pGnOdN5cg3k,109
+pyqir/parser/_parser.py,sha256=hMD8oNd68aZANXt8FcnnW-bxx7wCqJJgQ1qB7JuSHpI,36100
+pyqir/parser/_native.abi3.so,sha256=Qy-eu2M7lb-R8msgvEKcxs_C7yI97RxtyErcrs7vfqY,7304432
+pyqir_parser-0.5.0a1.dist-info/RECORD,,
