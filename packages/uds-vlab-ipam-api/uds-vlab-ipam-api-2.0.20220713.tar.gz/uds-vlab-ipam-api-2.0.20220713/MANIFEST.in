@@ -1,0 +1,5 @@
+include uds_vlab_ipam_api/app.ini
+include uds_vlab_ipam_api/uds-vlab-ipam.service
+include uds_vlab_ipam_api/uds-vlab-worker.service
+include uds_vlab_ipam_api/uds-vlab-log-sender.service
+include uds_vlab_ipam_api/uds-vlab-ddns-updater.service

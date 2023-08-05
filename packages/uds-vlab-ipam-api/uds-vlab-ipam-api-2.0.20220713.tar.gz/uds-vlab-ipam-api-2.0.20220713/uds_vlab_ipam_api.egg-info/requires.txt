@@ -1,0 +1,10 @@
+flask
+pyjwt
+uwsgi
+vlab-api-common
+psycopg2
+ujson
+cryptography
+setproctitle
+kafka-python
+dnspython
