@@ -1,0 +1,9 @@
+WeReadScan/WeRead.py,sha256=G9Pqvdm1MP33JNLuZJalbHS2FBtTlYRyQFegE2D71C8,8289
+WeReadScan/__init__.py,sha256=2YaWXoH4AtMyStX2cOOyRR5u3zfP3bYWmNvHVQuVVVg,26
+WeReadScan/script/__init__.py,sha256=gV0UnDtSdNDmbtVsRlA4Q-8cAR6VBGSnXcfn5gvXr3Y,97
+WeReadScan/script/os_util.py,sha256=JvR28aI3t_hcDq0scn-wj0oAUMMoPy0vd1ngnDdkgSM,356
+WeReadScan/script/png2pdf.py,sha256=QwZkIEPs3f2TiBEuEgj5x9rkj9bLUP8QNCtPXQ4ANq4,645
+WeReadScan-0.8.4.dist-info/METADATA,sha256=cYkb7cT6MQm7DP2XYfLGZ-utCDHFb1P2twq0Ln2PSeU,4785
+WeReadScan-0.8.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+WeReadScan-0.8.4.dist-info/top_level.txt,sha256=aXftclQBhZMRPlq7XrKp1O68DinsijHw2km2ZGPQoqY,11
+WeReadScan-0.8.4.dist-info/RECORD,,
