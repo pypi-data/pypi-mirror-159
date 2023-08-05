@@ -1,0 +1,2 @@
+[console_scripts]
+shangchuan = console.mhap_console:main
