@@ -1,0 +1,28 @@
+[build-system]
+requires = [
+  "setuptools>=62.0"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rby_uipath"
+version = "0.0.1"
+authors = [
+  { name="fstr11011", email="michaelgladstein27@gmail.com" },
+]
+description = "UiPath related tools."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "requests"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/fstr11011/UiPath_Api"
+"Bug Tracker" = "https://github.com/fstr11011/UiPath_Api/issues"
