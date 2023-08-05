@@ -1,0 +1,2 @@
+[console_scripts]
+shangchuan = bin.mhap_console:main
