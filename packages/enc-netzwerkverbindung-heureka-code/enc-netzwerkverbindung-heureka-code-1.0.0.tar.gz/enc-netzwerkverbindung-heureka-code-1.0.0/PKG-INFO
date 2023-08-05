@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: enc-netzwerkverbindung-heureka-code
+Version: 1.0.0
+Requires-Python: >=3.9
+Provides-Extra: dev
+Provides-Extra: test
