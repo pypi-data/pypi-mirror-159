@@ -1,0 +1,12 @@
+EMO_AI/__init__.py,sha256=4dCrvStS1OgE3Vlcv-qx5-TAo377yOMEToEqCi-PwY4,23
+EMO_AI/_nbdev.py,sha256=qBAcNazIcbRhU3h2rkm6y3aL1X0rhXqS0IX-2qCsz_c,1121
+EMO_AI/data_process.py,sha256=fJuf3hnWOQg2P9qnMrMC3oodzLDbD8iq54K38Tj_zCc,1837
+EMO_AI/from_scratch.py,sha256=Ja8cZ6wL9CJH7epwOjccGQ2NuVk_6lvXqljU4sJcdyI,1593
+EMO_AI/model_api.py,sha256=XJnSVI58trhQqHcHo3IHu3x5Ft-bsJoyScUX3wMr7sM,5640
+EMO_AI/tf_model_api.py,sha256=xGGCm3PRO5Um_fnEnoy2Jj_smXHG-RXaA_xgWLsPO4Y,109
+EMO_AI-0.0.4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+EMO_AI-0.0.4.dist-info/METADATA,sha256=AjeV5Gn6vk4KbhGNlx8D3U-8NSV72VzsSyizBST5JZE,1952
+EMO_AI-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+EMO_AI-0.0.4.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+EMO_AI-0.0.4.dist-info/top_level.txt,sha256=kqOWvZNfR-CU0Emad1T3i9CnnrcpmUL9-kdK2TwG2HI,7
+EMO_AI-0.0.4.dist-info/RECORD,,
