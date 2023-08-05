@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Redurpdf/__init__.py
+Redurpdf/pdf2image.py
+Redurpdf/pdf2text.py
+Redurpdf.egg-info/PKG-INFO
+Redurpdf.egg-info/SOURCES.txt
+Redurpdf.egg-info/dependency_links.txt
+Redurpdf.egg-info/top_level.txt
