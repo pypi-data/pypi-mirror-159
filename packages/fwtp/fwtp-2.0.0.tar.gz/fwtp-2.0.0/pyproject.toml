@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fwtp"
+version = "2.0.0"
+description = "fastest method to write rows  to a postgress database"
+readme = "README.md"
+authors = [{ name = "Mujtaba", email = "malikmuhammadmujtaba@icloud.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["postgress", "insert", "fast"]
+dependencies = [
+    "psycopg2-binary>=2.9.3",
+]
+requires-python = ">=3.8"
+
+
+

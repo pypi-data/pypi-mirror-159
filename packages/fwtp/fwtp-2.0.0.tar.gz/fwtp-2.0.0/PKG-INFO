@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: fwtp
+Version: 2.0.0
+Summary: fastest method to write rows  to a postgress database
+Author-email: Mujtaba <malikmuhammadmujtaba@icloud.com>
+Keywords: postgress,insert,fast
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
