@@ -1,0 +1,9 @@
+README.md
+setup.py
+sirox/cdk/__init__.py
+sirox/cdk/utils.py
+sirox_cdk.egg-info/PKG-INFO
+sirox_cdk.egg-info/SOURCES.txt
+sirox_cdk.egg-info/dependency_links.txt
+sirox_cdk.egg-info/requires.txt
+sirox_cdk.egg-info/top_level.txt
