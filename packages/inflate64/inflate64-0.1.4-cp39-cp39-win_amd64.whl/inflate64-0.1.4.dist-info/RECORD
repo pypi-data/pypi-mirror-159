@@ -1,0 +1,9 @@
+inflate64/__init__.py,sha256=eoUqddTobVNL0o7XArPHA2YTK3hRUCpgdht9I_KTH0I,445
+inflate64/_inflate64.cp39-win_amd64.pyd,sha256=sPbm7zMtUr9y3jsV4eX18doSaWCOfIm7Y6AP0c8BrGE,43008
+inflate64/dev.py,sha256=c7SWB9f8zRmhAMGes4a5mOMyvG3g1jSCxTnjVKWppjU,64
+inflate64/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inflate64-0.1.4.dist-info/COPYING,sha256=Hn5rrlpb3jLxrlp8N6CC0asDz4k1T3-TasQL6eOaZTE,27032
+inflate64-0.1.4.dist-info/METADATA,sha256=q1On1-mm4RfB5ssUUof7lCiKfAneXfoE0QV7Nb79-M4,2842
+inflate64-0.1.4.dist-info/WHEEL,sha256=fVcVlLzi8CGi_Ul8vjMdn8gER25dn5GBg9E6k9z41-Y,100
+inflate64-0.1.4.dist-info/top_level.txt,sha256=rzgqvEy0HHIpxauQ4xjmO5lqMbXbbGz_dEaVla7SIco,10
+inflate64-0.1.4.dist-info/RECORD,,
