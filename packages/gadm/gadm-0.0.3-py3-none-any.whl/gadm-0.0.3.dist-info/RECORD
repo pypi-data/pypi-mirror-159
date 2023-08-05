@@ -1,0 +1,10 @@
+gadm/__init__.py,sha256=iDrsSAET_r78OxZjSIHil0B3u_JKFogKIVRrEAH6bBs,118
+gadm/custom_types.py,sha256=vAVrm74DDXKo8GY5_30JePSnnMxQjeKAQd1Bk4XxMpY,329
+gadm/gadm_downloader.py,sha256=R0dovlYaAZxCHVGPD2g2QaEqJ2sewOzj0zlmN3qtvPE,3609
+gadm/utils.py,sha256=EHjUZlAR-G8y47dPLppjzLhmuMRgdocQ_RtBqS2T7sU,877
+gadm/version.py,sha256=4GZKi13lDTD25YBkGakhZyEQZWTER_OWQMNPoH_UM2c,22
+gadm-0.0.3.dist-info/LICENSE,sha256=Vtn17-2yPh_t1bz-vLorbkkufDKNdL-1SshPc09eNCg,596
+gadm-0.0.3.dist-info/METADATA,sha256=7iFcVxtE9yu0Sw6M-0lijvYcqfHe3R44Ky33Ao-s13A,2950
+gadm-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gadm-0.0.3.dist-info/top_level.txt,sha256=DxK7vsYZPVkYw3nxVQcYUIEb4gKae0VdYcIWkh9qV2A,5
+gadm-0.0.3.dist-info/RECORD,,
