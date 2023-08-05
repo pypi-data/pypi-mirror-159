@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Qflash_jwt/__init__.py
+Qflash_jwt/jwt.py
+Qflash_jwt.egg-info/PKG-INFO
+Qflash_jwt.egg-info/SOURCES.txt
+Qflash_jwt.egg-info/dependency_links.txt
+Qflash_jwt.egg-info/requires.txt
+Qflash_jwt.egg-info/top_level.txt
