@@ -1,0 +1,11 @@
+bcml4pheno/__init__.py,sha256=tfCvML7a8EcBAO96JhtDeDxGO6TsJK9c2TFEUcBnkwc,121
+bcml4pheno/_nbdev.py,sha256=giwUOmD-di2m8cBdh496mT-L7Muf5o6kAWuQXGXH0KM,961
+bcml4pheno/bcml_model.py,sha256=mNRiUcML0re9n5CQSQ09JnDGJeUuTiJR76kE0fWs1Y4,18210
+bcml4pheno/data_vis.py,sha256=wU5Dit7i1qANSUWbzv7jZx8Bv_oo_GHDUu64cHqYQBA,4737
+bcml4pheno/manual_opt.py,sha256=wJFnv5R_0LWD4C3f3n3ozyM94GZPkrmEJ5fAmF33bXk,3518
+bcml4pheno/ttbarzp.py,sha256=S_8ZDtxoK2_U7PPvuuWNfPCU1kQz5ABLhLtSLP90da8,3401
+bcml4pheno-0.0.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bcml4pheno-0.0.9.dist-info/METADATA,sha256=lm7jdKXtetCnMm15S7hdsvxROYxi6GMKQ-laqenzwrM,1485
+bcml4pheno-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bcml4pheno-0.0.9.dist-info/top_level.txt,sha256=p85Px_m83Jx3rEmpaynw_X510B5lo9lvvxPhzs-snOw,11
+bcml4pheno-0.0.9.dist-info/RECORD,,
