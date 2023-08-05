@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+gloss/__init__.py
+gloss/gloss.py
+gloss/py.typed
+gloss.egg-info/PKG-INFO
+gloss.egg-info/SOURCES.txt
+gloss.egg-info/dependency_links.txt
+gloss.egg-info/not-zip-safe
+gloss.egg-info/requires.txt
+gloss.egg-info/top_level.txt
