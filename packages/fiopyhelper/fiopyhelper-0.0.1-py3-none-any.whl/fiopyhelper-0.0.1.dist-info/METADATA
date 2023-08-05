@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: fiopyhelper
+Version: 0.0.1
+Summary: FrameIO Python Client
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: jmespath (==1.0.0)
+Requires-Dist: pyyaml (==6.0)
+Requires-Dist: python-magic (==0.4.25)
+Requires-Dist: deepmerge (==1.0.1)
+
