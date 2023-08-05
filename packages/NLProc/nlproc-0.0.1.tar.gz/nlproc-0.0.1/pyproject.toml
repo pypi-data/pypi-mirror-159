@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "NLProc"
+version = "0.0.1"
+authors = [
+  { name="Cesare Campagnano", email="cesare.campagnano@gmail.com" },
+]
+description = "This repo is going to contain a very nice library featuring different NLP pipelines!"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/caesar-one/nlproc"
+"Bug Tracker" = "https://github.com/caesar-one/nlproc/issues"
