@@ -1,0 +1,2 @@
+[mkdocs.themes]
+gds = mkdocs_gds
