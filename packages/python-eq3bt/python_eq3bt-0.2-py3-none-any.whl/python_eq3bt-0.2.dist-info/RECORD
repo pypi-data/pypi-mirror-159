@@ -1,0 +1,14 @@
+CHANGELOG,sha256=FVxHhLou6OnfINd-OStO2tzYAjsalbowKDL61Fr9Z-Y,6002
+eq3bt/__init__.py,sha256=fUKZ9G7dFcM5wEOIJdOUAUcyJBeDODsdeVCk2J-w3q0,189
+eq3bt/bleakconnection.py,sha256=E5QWp0fYUDR150zBB8xtY68cRThADXpEUei5F6hTCQo,4269
+eq3bt/connection.py,sha256=j2E2Nugo3BeteHFY3uozfb_8YZxWB5Y1itNa_SGQtlk,3217
+eq3bt/eq3btsmart.py,sha256=st-NMiIeuXOR6EYBESkKWyRnMfrFpzZq6b4P-sOy7Sk,15716
+eq3bt/eq3cli.py,sha256=_YFvGT0XsHE3WdGW0jp1NaH_yrRnYDpvmwBJHPOm7io,6219
+eq3bt/gattlibconnection.py,sha256=25s9pY0azzwEUfJsTRXcFs0SPeoOKwb2Tx4QUsL5w_g,3285
+eq3bt/structures.py,sha256=rSFQ6eTYR-18A9WEcNPcBb2P8S-G-u9gx5jVhDIjgl0,4635
+eq3bt/tests/test_thermostat.py,sha256=lDLCNvCNgVOJoa6JUEXvAtvfhkLZR2UJZh7_XvXGQbI,5381
+python_eq3bt-0.2.dist-info/entry_points.txt,sha256=XClUgvSU6CSK_T1HCDmeMObxQ6wKPpxMjWlZe5TiELk,43
+python_eq3bt-0.2.dist-info/LICENSE,sha256=og5_OL0-NkYbkZwhvFpb4hR3EfM-0IXaore85BAkhLw,1079
+python_eq3bt-0.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+python_eq3bt-0.2.dist-info/METADATA,sha256=gjGWD8CeJ_uZqr_JTfQd4wCfRErXhUxoLuJs5l8F3KA,6842
+python_eq3bt-0.2.dist-info/RECORD,,
