@@ -1,0 +1,3 @@
+[console_scripts]
+shalaby-cli-demo=shalaby_cli_demo.main:app
+
