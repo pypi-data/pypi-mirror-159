@@ -1,0 +1,6475 @@
+-------------------------------------------------------------------------------
+
+Changeset: 297412
+
+User: Robert Connelly
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 15, 2021 3:08:54 PM
+
+
+
+Comment:
+
+  set permission for certificate
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/CertificateRenewal/Philips.PIC.CertificateRenewal/PersonalCertificateRenewalService.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/CertificateRenewal/Philips.PIC.CertificateRenewal.Test/PersonalCertificateRenewalServiceTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297409
+
+User: Zeping Zhu
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 15, 2021 2:39:16 PM
+
+
+
+Comment:
+
+  Use WCF to retrieve actions dictionary of eventInfo
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/dead-code-trend.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications/Philips.PIC.CiscoEventNotifications/Philips.PIC.CiscoEventNotifications.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/Philips.CareEvent.Services.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/EventInfo/Collections.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/EventManagement/EventNotificationService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/Mobile/MobileRequestMgr.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/EventManagement/EventNotificationServiceTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/Philips.PIC.Business.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.InfoObjects/Philips.PMP.InfoObjects.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/Philips.PIC.DevTools.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297408
+
+User: Robert Connelly
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 15, 2021 2:09:24 PM
+
+
+
+Comment:
+
+  set permission for certificate #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  delete $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DbProviders/LabDataProviderTest.cs;X53645
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297398
+
+User: Gregory Raber
+
+Date: Monday, November 15, 2021 11:53:06 AM
+
+
+
+Comment:
+
+  Update FS <505430>
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/WebMobile.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297397
+
+User: Gregory Raber
+
+Date: Monday, November 15, 2021 11:39:48 AM
+
+
+
+Comment:
+
+  Updated FS <505427>
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/DisplayController.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297396
+
+User: Nuttall, Craig
+
+Date: Monday, November 15, 2021 11:27:30 AM
+
+
+
+Comment:
+
+  Updated appendix for Philips event catalog listings.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventCatalogTool.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297395
+
+User: Gregory Raber
+
+Date: Monday, November 15, 2021 11:17:50 AM
+
+
+
+Comment:
+
+  Updated FS <505421>
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/WebMobile.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297386
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 15, 2021 1:03:25 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.306. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297377
+
+User: Suraj Sharma
+
+Date: Sunday, November 14, 2021 7:59:33 PM
+
+
+
+Comment:
+
+  14-Feb-2021/Suraj: FS update to correct permission text
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/UserManagement.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297374
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Sunday, November 14, 2021 1:03:22 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.305. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297368
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Saturday, November 13, 2021 8:21:41 AM
+
+
+
+Comment:
+
+  Update Fortify Trend, Fortify_PICiX.Main_20211113.1 ***NO_CI***
+
+
+
+Items:
+
+  encoding, edit $/Philips.PIC/PIIC iX/Main/Build/Fortify/FortifyTrend.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297364
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Saturday, November 13, 2021 1:03:09 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.304. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297352
+
+User: Nuttall, Craig
+
+Date: Friday, November 12, 2021 4:17:05 PM
+
+
+
+Comment:
+
+  Updated <297511> and <297814>
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareGiverAssignment.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297348
+
+User: Ed Ryan
+
+Date: Friday, November 12, 2021 3:28:15 PM
+
+
+
+Comment:
+
+  Add Factory Account Configuration Page content
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/SystemSetup.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297344
+
+User: Jillian Oliveira
+
+Date: Friday, November 12, 2021 2:03:33 PM
+
+
+
+Comment:
+
+  Updated 4.1.IssuesCurve.xlsx
+
+
+
+Items:
+
+  encoding, edit $/Philips.PIC/PIIC iX/Main/Documents/Plans/4.1.IssuesCurve.xlsx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297336
+
+User: Elrina Mendonca
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 12, 2021 11:49:55 AM
+
+
+
+Comment:
+
+  485203 Update PIC version
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts/Philips.PIC.UserAccounts.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297335
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 12, 2021 11:34:08 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.303. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297333
+
+User: Jebin Shakya
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 12, 2021 11:19:16 AM
+
+
+
+Comment:
+
+  12-Nov-2021/Jebin: Adding EventWorkflowService to scope to prevent resource leak
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/DbProviderTests/EventWorkflowProviderTests.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297323
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 12, 2021 1:03:41 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.302. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297296
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, November 11, 2021 1:03:19 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.301. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297291
+
+User: Chris Bonis
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, November 11, 2021 12:11:39 AM
+
+
+
+Comment:
+
+  Update to iX-Security 1.2.1
+
+  #bypass-dead-code
+
+  #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/dead-code-trend.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/UserMgr/PasswordEditControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/ChangePassword.aspx.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/Philips.PIC.WebHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.InfoObjects/Philips.PMP.InfoObjects.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PIC.DevTools.Test/InHouseConfigurationTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Users/PasswordEditControlTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/Philips.PIC.DevTools.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/InhouseConfigurations/Demo/DemoEntityGenerator.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297290
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 10:32:48 PM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.300. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297289
+
+User: Purvi Desai
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 10:28:14 PM
+
+
+
+Comment:
+
+  Fix cert ACL file location
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PlatformServices/Philips.PlatformServices.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297288
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 8:40:02 PM
+
+
+
+Comment:
+
+  Add pathway for checking enterprise permissions
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Users/UserManagementHelper.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/WebBridge/Philips.PIC.WebBridge.Api/Controllers/LicenseController.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/WebBridge/Philips.PIC.WebBridge.Api/Managers/UserMgr.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/WebBridge/Philips.PIC.WebBridge.Test/WebApiTestHelper.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/WebBridge/Philips.PIC.WebBridge.Test/WebApiUserMgrTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DbProviders/UserManagementProviderTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/RolePermissions/RolePermissionsControlTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297286
+
+User: Robert Connelly
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 6:35:41 PM
+
+
+
+Comment:
+
+  rev nuget package
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PlatformServices/Philips.PlatformServices.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297284
+
+User: Tim Gakopoulos
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 4:59:23 PM
+
+
+
+Comment:
+
+  Changed Default Password to Gen1@Pass and  fixed the Firmware not sending the password #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/IntelliBridgeDeployment/FirmwareDeployWizardSheet.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/IntelliBridgeDeployment/HubPasswordControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/SystemConfiguration/InstallSoftwareToHubs.aspx.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297281
+
+User: Joe Zhang
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 4:29:44 PM
+
+
+
+Comment:
+
+  Rollback changes
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit, rollback   $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_Network.DeviceSecuritySetting_.xml
+
+  delete, rollback $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/Network_UpdateDeviceSecuritySetting.sql;X53639
+
+  delete, rollback $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_Network.DeviceSecuritySetting_.xml;X53639
+
+  edit             $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297276
+
+User: Elrina Mendonca
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 3:47:14 PM
+
+
+
+Comment:
+
+  485203 Add stored proc to get the Topology
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Configuration.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297272
+
+User: Jebin Shakya
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 3:01:25 PM
+
+
+
+Comment:
+
+  10-Nov-2021/Jebin: Adding MobileLocation into the EventInfo
+
+  Updated SP for GetSyncEvents
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/EventWorkflow/EventWorkflowProvider.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/DbProviderTests/EventWorkflowProviderTests.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.EventWorkflow/Tables.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.EventWorkflow/Views.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.EventWorkflow/Workflow.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297265
+
+User: Belanger, Kristen
+
+Date: Wednesday, November 10, 2021 1:58:59 PM
+
+
+
+Comment:
+
+  addressed yebins comment to add db name to archive file per db tag
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/ArchiveRestore.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297262
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 1:36:26 PM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.299. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297258
+
+User: Robert Connelly
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 12:35:17 PM
+
+
+
+Comment:
+
+  Fix certificate access control  #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/CertificateRenewal/Philips.PIC.CertificateRenewal/PersonalCertificateRenewalService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PlatformServices/Philips.PlatformServices.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297246
+
+User: Elrina Mendonca
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 2:27:44 AM
+
+
+
+Comment:
+
+  471976 update version for cisco to include delete #bypass-dead-code
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/dead-code-trend.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications/Philips.PIC.CiscoEventNotifications/Philips.PIC.CiscoEventNotifications.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297243
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 10, 2021 1:03:15 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.298. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297234
+
+User: John Barga
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 9, 2021 9:21:23 PM
+
+
+
+Comment:
+
+  Lab implementation for base notification server, including refactoring.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit               $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit               $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit               $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit               $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit               $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/Helpers/ClientSubscriptionHelper.cs
+
+  edit               $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/Class Diagrams/LabService.cd
+
+  rename, edit       $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/LabDataService/HostLabMgr.cs
+
+  add, source rename $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/LabDataService/LabDataService.cs
+
+  add                $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/LabDataService/NotificationLabMgr.cs
+
+  add                $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/LabDataService/PicLabMgr.cs
+
+  edit               $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/PatientService/PpisMgr.cs
+
+  edit               $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Services/OrderService/OrderService.cs
+
+  edit               $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/ClientSubscriptionHelperTest.cs
+
+  edit               $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/LabDataHelperTest.cs
+
+  edit               $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/LabDataServiceTest.cs
+
+  add                $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/LabMgrTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297231
+
+User: Joe Zhang
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 9, 2021 7:09:24 PM
+
+
+
+Comment:
+
+  Rollback changes #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SecureCommunication/DeviceSecurityControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SecureCommunication/DeviceSecurityControl.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SecureCommunication/DeviceSecurityControl.resx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297230
+
+User: Kevin Pacheco
+
+Date: Tuesday, November 9, 2021 5:51:55 PM
+
+
+
+Comment:
+
+  Addressing review comments and adding tags.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/SystemConfiguration.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297228
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 9, 2021 4:47:27 PM
+
+
+
+Comment:
+
+  Add error handling for cases where we do not meet the OS password policy requirements
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/HostQualification/UserAccountQualifier.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SystemSetupWizard/FactoryAccountConfigurationPage.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/SystemSetupRes.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/SystemSetupRes.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Services/UtilitiesService/UtilitiesService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/SystemSetup/FactoryAccountConfigurationTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297226
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 9, 2021 4:17:27 PM
+
+
+
+Comment:
+
+  Control access to unit licensing with Topology Configuration permission, not Clinical Settings #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/WebBridge/Philips.PIC.WebBridge.Api/Controllers/LicenseController.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297224
+
+User: Chris Bonis
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 9, 2021 3:47:51 PM
+
+
+
+Comment:
+
+  Update platform version
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/EventWorkflowReporting/Philips.CareEvent.Reporting.App/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/EventWorkflowReporting/Philips.CareEvent.Reporting.App/Philips.CareEvent.Reporting.App.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/PcProxCardReader/Philips.PIC.RfidReader/Philips.PIC.RfidReader.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/Philips.PIC.WebHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebPdxHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebPdxHost/Philips.PIC.WebPdxHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebProxyHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebProxyHost/Philips.PIC.WebProxyHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Philips.PMP.PlatformServices.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Philips.PMP.Test.Auto.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297218
+
+User: John Barga
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 9, 2021 3:18:12 PM
+
+
+
+Comment:
+
+  Publish patient mgmt config changes by unit ID instead of by unit name.  #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Applications/PatientManagement/PatientAssignment/PatientAssignmentControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Applications/Surveillance/SurveillanceControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/PatientService/HostPatientMgr.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/PhysioDataService/PhysioDataService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Services/DeviceServices/DeviceService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Services/SystemControlService/SystemControlService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Patient/PatientSettingProvider.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/PhysioDataServiceTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297211
+
+User: Elrina Mendonca
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 9, 2021 2:19:16 PM
+
+
+
+Comment:
+
+  471976 Filter delete event from the current list
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.EventWorkflow/Workflow.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297207
+
+User: Joanne Foster
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 9, 2021 1:04:39 PM
+
+
+
+Comment:
+
+  AlarmMgr:  Set NlsCatalogRevision for No Mobile inop so that it has help text in Quick Review
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/AlertMgr/AlertMgr.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/PhysioData/AlertMgrTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297203
+
+User: Michael Raitt
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 9, 2021 12:05:52 PM
+
+
+
+Comment:
+
+  Moving user accounts tests to smoke
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Smoke/Controllers/ApplicationHost.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Smoke/Definitions/HttpVerbs.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Smoke/Helpers/SmokeTestHelper.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Smoke/Helpers/WebHelper.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297200
+
+User: Kevin Pacheco
+
+Date: Tuesday, November 9, 2021 11:49:50 AM
+
+
+
+Comment:
+
+  Adding new spec for Camera System API URL.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/SystemConfiguration.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297186
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 9, 2021 1:03:27 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.297. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297181
+
+User: Joanne Foster
+
+Date: Monday, November 8, 2021 10:02:53 PM
+
+
+
+Comment:
+
+  Display of 3rd Party Data:  Definition update
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Definitions/4.1 Display of 3rd Party Data.pptx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297177
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 8, 2021 6:41:01 PM
+
+
+
+Comment:
+
+  Do not sync OS account passwords on non-dedicated systems
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Services/UtilitiesService/UtilitiesService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/UtilitiesServiceTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297173
+
+User: Kevin Pacheco
+
+Date: Monday, November 8, 2021 5:59:09 PM
+
+
+
+Comment:
+
+  Adding new camera system section.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/SystemConfiguration.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297172
+
+User: Thissell, George
+
+Date: Monday, November 8, 2021 3:41:41 PM
+
+
+
+Comment:
+
+  update spot check data statement
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/PatientManagement.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297170
+
+User: Tim Gakopoulos
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 8, 2021 3:29:20 PM
+
+
+
+Comment:
+
+  Hub Firmware and Driver updates to use hashed password to the EC40. #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/ThirdPartyDevices/HubFileDeployment.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/IntelliBridgeDeployment/DeploymentWizardPage.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/IntelliBridgeDeployment/DriverDeployWizardSheet.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/IntelliBridgeDeployment/HubPasswordForm.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/IntelliBridgeDeployment/HubSelectionWizardPage.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/SystemConfiguration/InstallSoftwareToHubs.aspx.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297167
+
+User: Derek Fry
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 8, 2021 2:59:36 PM
+
+
+
+Comment:
+
+  get the user name
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/UserMgr/LogonControl.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297165
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 8, 2021 2:00:44 PM
+
+
+
+Comment:
+
+  Update SupportUser account password in Host Qualification and on service startup
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/HostQualification/UserAccountQualifier.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Definitions/UserEnums.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Services/UtilitiesService/UtilitiesService.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/HostQualification/UserAccountQualifierTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/UtilitiesServiceTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297162
+
+User: John Barga
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 8, 2021 1:24:00 PM
+
+
+
+Comment:
+
+  fix coverity issue 217145 created by patient service refactor - missed the lock for _isRunning in 1 place.
+
+  #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/PatientService/PatientService.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297159
+
+User: Kerry Mcmullen
+
+Date: Monday, November 8, 2021 11:58:48 AM
+
+
+
+Comment:
+
+  Add workstation to watchdog fs
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/Watchdog.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297157
+
+User: Thissell, George
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 8, 2021 10:59:16 AM
+
+
+
+Comment:
+
+  check for null clinical unit
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/Topology/InstitutionTreeControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Applications/InstitutionTreeControlTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297153
+
+User: Joe Zhang
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 8, 2021 9:32:35 AM
+
+
+
+Comment:
+
+  Disable Node Authentication check box #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SecureCommunication/DeviceSecurityControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SecureCommunication/DeviceSecurityControl.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SecureCommunication/DeviceSecurityControl.resx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297144
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 8, 2021 1:03:27 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.296. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297137
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Sunday, November 7, 2021 1:03:16 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.295. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297133
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Saturday, November 6, 2021 8:38:45 AM
+
+
+
+Comment:
+
+  Update Fortify Trend, Fortify_PICiX.Main_20211106.1 ***NO_CI***
+
+
+
+Items:
+
+  encoding, edit $/Philips.PIC/PIIC iX/Main/Build/Fortify/FortifyTrend.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297129
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Saturday, November 6, 2021 1:03:13 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.294. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297125
+
+User: John Barga
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 5, 2021 8:24:52 PM
+
+
+
+Comment:
+
+  Refactor content of patient service into a new class called HostPatientMgr.  #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit               $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit               $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit               $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit               $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  rename, edit       $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/PatientService/HostPatientMgr.cs
+
+  add, source rename $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.PatientDataServices/PatientService/PatientService.cs
+
+  edit               $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Patient/PatientServiceTest.cs
+
+  edit               $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/PatientServiceSearchTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297117
+
+User: James Turner
+
+Date: Friday, November 5, 2021 5:15:29 PM
+
+
+
+Comment:
+
+  <281338> Removed Newly created event category will not be selected by default in Event Filters
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventCatalogTool.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297111
+
+User: Zeping Zhu
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 5, 2021 4:12:56 PM
+
+
+
+Comment:
+
+  Expand user accounts window. in AppHost #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Applications/ApplicationFramework/UnitSettingsControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/FeatureRes.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/FeatureRes.resx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297109
+
+User: Belanger, Kristen
+
+Date: Friday, November 5, 2021 3:31:40 PM
+
+
+
+Comment:
+
+  maximum new style update
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/Ringtones.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297102
+
+User: Elrina Mendonca
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 5, 2021 1:49:34 PM
+
+
+
+Comment:
+
+  500295 Update PIC version to fix X button issue
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts/Philips.PIC.UserAccounts.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297099
+
+User: Joe Zhang
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 5, 2021 12:47:49 PM
+
+
+
+Comment:
+
+  Change DeviceSecuritySetting default values
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_Network.DeviceSecuritySetting_.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/Network_UpdateDeviceSecuritySetting.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_Network.DeviceSecuritySetting_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297096
+
+User: Derek Fry
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 5, 2021 12:04:17 PM
+
+
+
+Comment:
+
+  Add password complexity to winforms
+
+  #bypass-dead-code
+
+  it's a default constructor call
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/dead-code-trend.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/UserMgr/PasswordEditControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/UserMgr/PasswordEditControl.designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/UserMgr/PasswordEditControl.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/UserMgr/PasswordEditForm.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/ChangePassword.aspx.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/Philips.PIC.WebHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.InfoObjects/Philips.PMP.InfoObjects.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.InfoObjects/User/UserInfo.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/UserManagement/Philips.IX.UserManagement/Authenticators/UserAuthenticatorLocalDirectoryPassword.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/UserManagement/Philips.IX.UserManagement.Test/UserAuthenticatorsTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DbProviders/UserManagementProviderTest.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Users/PasswordEditControlTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/Philips.PIC.DevTools.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/InhouseConfigurations/Demo/DemoEntityGenerator.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297094
+
+User: Joe Zhang
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 5, 2021 11:34:14 AM
+
+
+
+Comment:
+
+  Update iX-Unmanaged version
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.ManagedGateway/Philips.PIC.ManagedGateway.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.MultiPatientViewHost/Philips.PIC.MultiPatientViewHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Services/Philips.PIC.Services.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Philips.PMP.Test.Auto.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297093
+
+User: Jillian Oliveira
+
+Date: Friday, November 5, 2021 10:59:18 AM
+
+
+
+Comment:
+
+  Updated 4.1.IssuesCurve.xlsx
+
+
+
+Items:
+
+  encoding, edit $/Philips.PIC/PIIC iX/Main/Documents/Plans/4.1.IssuesCurve.xlsx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297092
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 5, 2021 10:45:50 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.293. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297085
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, November 5, 2021 1:03:31 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.292. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297079
+
+User: Belanger, Kristen
+
+Date: Thursday, November 4, 2021 9:01:24 PM
+
+
+
+Comment:
+
+  patching info in rationale section added
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/ArchiveRestore.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297075
+
+User: Elrina Mendonca
+
+Date: Thursday, November 4, 2021 4:25:29 PM
+
+
+
+Comment:
+
+  500295 Update spec to remove X button
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/UserManagement.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297074
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, November 4, 2021 4:08:18 PM
+
+
+
+Comment:
+
+  Consolidate Web Proxy app credentials
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/ForeignKeys.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Tables.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Udtts.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/UserManagement.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/WebProxy.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_Integration.WebProxyAppSetting_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_UserManagement.UserCredential_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/Tables.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/UserMgmt_MoveWebProxyAppCredentials.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_Integration.WebProxyAppSetting_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_UserManagement.UserCredential_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.DbProviders/WebProxyProvider.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297053
+
+User: Mark Brezina
+
+Date: Thursday, November 4, 2021 12:12:45 PM
+
+
+
+Comment:
+
+  4-Nov-2021/Mark: Changed 4.x to 4.1 for clarity in the section heading for virtual com ports.  Adding Barbara to review.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/DHF/PICiX.SRS.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297052
+
+User: Mark Brezina
+
+Date: Thursday, November 4, 2021 12:00:02 PM
+
+
+
+Comment:
+
+  4-Nov-2021/Mark: Added reference to <493958>
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventBridge.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297051
+
+User: Dass, Ashish
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, November 4, 2021 11:07:21 AM
+
+
+
+Comment:
+
+  04-nov-2021/ashish: updating the nuget package reference in the monotlith.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/EventWorkflowReporting/Philips.CareEvent.Reporting.App/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/EventWorkflowReporting/Philips.CareEvent.Reporting.App/Philips.CareEvent.Reporting.App.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/PcProxCardReader/Philips.PIC.RfidReader/Philips.PIC.RfidReader.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/Philips.PIC.WebHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebPdxHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebPdxHost/Philips.PIC.WebPdxHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebProxyHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebProxyHost/Philips.PIC.WebProxyHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Philips.PMP.PlatformServices.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Philips.PMP.Test.Auto.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297049
+
+User: Souders, Axel
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, November 4, 2021 8:58:00 AM
+
+
+
+Comment:
+
+  04-Nov-2021/Axel: Updated WCTP carrier settings.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Configuration/MobileCarriers/Wctp/WctpSettingsControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Configuration/MobileCarriers/Wctp/WctpSettingsControl.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Configuration/MobileCarriers/Wctp/WctpSettingsControl.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/Bridge/WctpCarrier.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297041
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, November 4, 2021 1:02:58 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.291. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297035
+
+User: Joanne Foster
+
+Date: Wednesday, November 3, 2021 7:35:25 PM
+
+
+
+Comment:
+
+  Display 3rd Party Data:  Definition
+
+
+
+Items:
+
+  add $/Philips.PIC/PIIC iX/Main/Documents/Definitions/4.1 Display of 3rd Party Data.pptx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297030
+
+User: Derek Fry
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 3, 2021 5:28:13 PM
+
+
+
+Comment:
+
+  Adding password validation to web
+
+
+
+  #bypass-code-coverage
+
+  bypassing due to web testing not being done on this site
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/ChangePassword.aspx
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/ChangePassword.aspx.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/ChangePassword.aspx.designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/Philips.PIC.WebHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/UserManagementRes.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/UserManagementRes.resx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297025
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 3, 2021 4:58:22 PM
+
+
+
+Comment:
+
+  Give test meaningful name
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Users/UserCredentialProcessorTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297019
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 3, 2021 3:40:30 PM
+
+
+
+Comment:
+
+  Disable failing test
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Pdss/NumericProviderTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297012
+
+User: Elrina Mendonca
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 3, 2021 2:37:59 PM
+
+
+
+Comment:
+
+  497474 Update PIC version for UserManagement
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts/Philips.PIC.UserAccounts.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297005
+
+User: Suraj Sharma
+
+Date: Wednesday, November 3, 2021 2:00:41 PM
+
+
+
+Comment:
+
+  3-Nov-2021/Suraj: Updating CareAssignment fs
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareGiverAssignment.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 297003
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 3, 2021 1:08:36 PM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.290. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296999
+
+User: Elrina Mendonca
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 3, 2021 11:21:03 AM
+
+
+
+Comment:
+
+  471976 Update PIC version for cisco
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications/Philips.PIC.CiscoEventNotifications/Philips.PIC.CiscoEventNotifications.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296998
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 3, 2021 10:50:45 AM
+
+
+
+Comment:
+
+  Configure SupportUser password in System Setup
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/SqlConstants.PmpDefinitions.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/UserManagement.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/UserMgr/PasswordResetControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SystemSetupWizard/FactoryAccountConfigurationPage.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Definitions/UserEnums.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Users/UserCredentialProcessor.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Users/UserManagementProvider.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PMP/Strings/EnumRes.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PMP/Strings/EnumRes.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DbProviders/UserManagementProviderTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/SystemSetup/FactoryAccountConfigurationTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296997
+
+User: Belanger, Kristen
+
+Date: Wednesday, November 3, 2021 10:35:46 AM
+
+
+
+Comment:
+
+  updated wording per joannes review comment
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/ArchiveRestore.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296995
+
+User: Thissell, George
+
+Date: Wednesday, November 3, 2021 9:50:59 AM
+
+
+
+Comment:
+
+  removed typo on page 1
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/PatientManagement.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296985
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 3, 2021 1:03:20 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.289. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296980
+
+User: Chris Bonis
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, November 3, 2021 12:02:16 AM
+
+
+
+Comment:
+
+  Use secure password hashing for local user passwords.
+
+  Migration will currently reassign user passwords = user name. A subsequent checkin will upgrade existing user passwords.
+
+  #bypass-static-class
+
+  #bypass-dead-code
+
+  #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/dead-code-trend.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/StaticClassCount/static-classes.txt
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/StaticClassCount/static-classes-trend.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.sln
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/DbProviderTests/EventWorkflowProviderTests.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Caregiver.StoredProcedures.sql
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Tables.sql
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Udtts.sql
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/UserManagement.StoredProcedures.sql
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_UserManagement.User_.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/Tables.sql
+
+  add    $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/UserMgmt_UpgradePasswordSecurity.sql
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/UserMgr/PasswordEditControl.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/UserMgr/PasswordResetControl.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/UsersToRoles/UserAddControl.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/ChangePassword.aspx.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.InfoObjects/Philips.PMP.InfoObjects.csproj
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.InfoObjects/User/UserInfo.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/ArchiveRestore/DbInstallMgr.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Users/UserManagementProvider.cs
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts.Test;X53621
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts/Philips.PIC.UserAccounts.csproj
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts.Test/app.config;X53621
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts.Test/Philips.PIC.UserAccounts.Test.csproj;X53621
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts.Test/Properties;X53621
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts.Test/UserManagementProviderTest.cs;X53621
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts.Test/Properties/AssemblyInfo.cs;X53621
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/UserManagement/Philips.IX.UserManagement/Authenticators/UserAuthenticatorLocalDirectoryPassword.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/UserManagement/Philips.IX.UserManagement.Test/UserAuthenticatorsTest.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Common/SampleEnterprise.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Common/TestHelper.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DbProviders/UserManagementProviderTest.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/CareTouchStressTool/CareTouchUserGenerationControl.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/InhouseConfigurations/Builders/InHouseConfigurationAccessBuilder.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/InhouseConfigurations/Demo/DemoEntityGenerator.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/UserEditor/UserBulkAddControl.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296979
+
+User: Joanne Foster
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 11:20:30 PM
+
+
+
+Comment:
+
+  Fix ECG Order TimeDue format displayed on the monitor (GBC) #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Services/SystemControlService/SystemControlHandler.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/SystemControlHandlerTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296978
+
+User: Purvi Desai
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 9:57:58 PM
+
+
+
+Comment:
+
+  launch WS if the WCF proxy fails for existing server
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.ApplicationHost/Program.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296975
+
+User: Thissell, George
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 8:20:34 PM
+
+
+
+Comment:
+
+  configure Last Name (Optional) and LifetimeID (Required)
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_Patient.PatientIdSetting_.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/Patient_UpdateRequiredFields.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_Patient.PatientIdSetting_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DbProviders/PatientProviderTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296973
+
+User: John Barga
+
+Date: Tuesday, November 2, 2021 7:49:04 PM
+
+
+
+Comment:
+
+  Updates to design for labs refactor, and responses to comments.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Features/BaseNotificationServer/BaseNotificationServer.Design.Detailed.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296969
+
+User: Jessica Baginski
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 6:01:34 PM
+
+
+
+Comment:
+
+  Removed not needed Diagnostic db folder under 4.1.0 migration
+
+  ***NO_CI***
+
+
+
+Items:
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Diagnostics;X53619
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Diagnostics/_Perf.PerfCounterValue_.sql;X53619
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Diagnostics/Schemas.sql;X53619
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Diagnostics/Tables.sql;X53619
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Diagnostics/Uddts.sql;X53619
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296968
+
+User: Alex Nikolayev
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 5:21:12 PM
+
+
+
+Comment:
+
+  Mobility adding ssl support #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/StaticClassCount/static-classes.txt
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/StaticClassCount/static-classes-trend.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/CaregiverAssignments/Philips.PIC.CaregiverAssignments.Test/Philips.PIC.CaregiverAssignments.Test.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/Philips.CareEvent.Services.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/CareTouch/CareTouchCommunicationMgr.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/CareTouch/CareTouchCommunicator.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/CareTouch/CareTouchRequestReceiver.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/CareTouch/CareTouchResponseSender.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/Mobile/MobileRequestMgr.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/CareTouch/CareTouchCommunicationMgrTests.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/CareTouch/CareTouchCommunicatorTests.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/CareTouch/RequestProcessors/AuthenticationRequestProcessorTests.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_Mobility.MobilityConfiguration_.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/Mobility_AddSecuritySettings.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_Mobility.MobilityConfiguration_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/Philips.PIC.Business.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/Mobile/MobileDeviceCommunicator.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/Mobile/MobileDeviceRequestReceiver.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/Mobile/MobileDeviceResponseSender.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Mobile/MobileBackendConfigControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Mobile/MobileBackendConfigControl.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Mobile/MobileBackendConfigControl.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.DbProviders/MobilityProvider.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.InfoObjects/Philips.PMP.InfoObjects.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.InfoObjects/MobileData/MobilityConfiguration.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Services/MobilityService/MobilityService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/MobileCommunication/MobileDeviceResponseSenderTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/Philips.PIC.DevTools.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/CareTouchStressTool/CareTouchSimCommunicationMgr.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296965
+
+User: Belanger, Kristen
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 4:40:01 PM
+
+
+
+Comment:
+
+  rev patient center api
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/PatientCenter/Philips.PIC.PatientCenter/Philips.PIC.PatientCenter.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296962
+
+User: Belanger, Kristen
+
+Date: Tuesday, November 2, 2021 3:51:58 PM
+
+
+
+Comment:
+
+  Added section to Archive-Restore for custom ringtones
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/ArchiveRestore.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296960
+
+User: Joe Zhang
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 3:27:59 PM
+
+
+
+Comment:
+
+  Implement UpdateNonSecureChannel in EfficiaDa
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Services/DeviceServices/EfficiaDa/EfficiaDa.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DeviceServices/DeviceServiceTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DeviceServices/EfficiaDaTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296956
+
+User: Thissell, George
+
+Date: Tuesday, November 2, 2021 2:21:26 PM
+
+
+
+Comment:
+
+  Updates for LastName (Optional) and LifetimeID (Required)
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/PatientManagement.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296954
+
+User: Dass, Ashish
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 2:16:37 PM
+
+
+
+Comment:
+
+  02-Nov-2021/Ashish: Changes to fetch patient display value for labs using the Patient id Formatter.
+
+
+
+  Per discussion with Kerry, changing the call to PatientIdHelper's GetPatientDisplayId.
+
+
+
+  Also setting shouldIgnoreConflict to False, as Kerry mentioned places like MobileMgr and CareAssignment Mgr also DO NOT ignore and resolve the conflict. So EventInitializer will need to be modified to do the same at some point.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/Oru/OruMessageProcessor.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/Oru/OruControlTests.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296949
+
+User: Dass, Ashish
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 1:11:04 PM
+
+
+
+Comment:
+
+  01-Nov-2021/Ashish: Changes to disable "Manage Eqipment" toolbar button when System is licensed for Notification Server and does NOT have patient connections, ie Base Notification server.
+
+
+
+  Discussed with Ravi, we have the code coverage for the logic, its throwing error at 57% coverage, but it is lacking on Control's end.
+
+  Ravi mentioned to #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/Helpers/TopologyHelper.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Topology/TopologyConfigurationControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Applications/TopologyHelperTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296947
+
+User: Souders, Axel
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 11:45:49 AM
+
+
+
+Comment:
+
+  02-Nov-2021/Axel: Minor update to Filter text box.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Configuration/DeviceInterface/MobileDeviceManagementControl.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Configuration/DeviceInterface/MobileDeviceManagementControl.resx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296941
+
+User: Gregory Raber
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 11:13:51 AM
+
+
+
+Comment:
+
+  Fortify: ASP.NET Bad Practices: Non-Serializable Object Stored in Session #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/Philips.PIC.WebHost.csproj
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/Code/Collections.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/Code/WebHostHelper.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/TileSettingsControls/CompressedWaveSettingsWebControl.ascx.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/TileSettingsControls/StripSettingsWebControl.ascx.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/WebHost/WebHostHelperTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296939
+
+User: Souders, Axel
+
+Date: Tuesday, November 2, 2021 11:01:06 AM
+
+
+
+Comment:
+
+  02-Nov-2021/Axel: Update FS for Standard Device Management View filtering.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventBridge.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296937
+
+User: Michael Raitt
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 8:30:59 AM
+
+
+
+Comment:
+
+  Updating user account app version
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts/Philips.PIC.UserAccounts.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296935
+
+User: Kevinkumar Patel
+
+Date: Tuesday, November 2, 2021 7:30:01 AM
+
+
+
+Comment:
+
+  Corrected the document to add space between "host" and "is" as per comments provided by Matt Chan in notes for point-2. Other points already there with correction.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/Workstation.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296927
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 1:03:53 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.288. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296924
+
+User: Robert Connelly
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, November 2, 2021 12:51:23 AM
+
+
+
+Comment:
+
+  Periodically clear OCSP cache
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/CertificateRenewal/Philips.PIC.CertificateRenewal/OcspSyncService.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/CertificateRenewal/Philips.PIC.CertificateRenewal.Test/OcspSyncServiceTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Services/UtilitiesService/UtilitiesService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/UtilitiesServiceTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296921
+
+User: Purvi Desai
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 1, 2021 11:55:23 PM
+
+
+
+Comment:
+
+  Updated heartbeat to 20sec
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_WatchDog.WatchedComponent_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296920
+
+User: Souders, Axel
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 1, 2021 10:48:01 PM
+
+
+
+Comment:
+
+  01-Nov-2021/Axel: Add filtering to Standard Device Management UI.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Configuration/DeviceInterface/MobileDeviceManagementControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Configuration/DeviceInterface/MobileDeviceManagementControl.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Configuration/DeviceInterface/MobileDeviceManagementControl.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/Mobile/MobileDeviceProvider.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/MobileDevices/MobileDeviceManagementControlTests.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296919
+
+User: Jebin Shakya
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 1, 2021 10:20:10 PM
+
+
+
+Comment:
+
+  #bypass-code-coverage
+
+  1-Nov-2021/Jebin: Adding a check to validate the permissions to enter Event Reports.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/EventWorkflowReporting/Philips.CareEvent.Reporting.App/Logon.aspx.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296918
+
+User: Elrina Mendonca
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 1, 2021 9:24:57 PM
+
+
+
+Comment:
+
+  497548 Fix for workstation users are not displaying on PIC surveillance host
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/PubSubEventService/Philips.PMP.PubSubEventService.Host/PubSubBridge.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Philips.PMP.Test.Auto.csproj
+
+  add  $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/PubSubBridgeTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296917
+
+User: Joanne Foster
+
+Date: Monday, November 1, 2021 8:18:34 PM
+
+
+
+Comment:
+
+  Ringtones:  Update description change to include replaced spec tags
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/Ringtones.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296912
+
+User: Zeping Zhu
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 1, 2021 5:21:49 PM
+
+
+
+Comment:
+
+  update PIC iX user accounts version to display error
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts/Philips.PIC.UserAccounts.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296911
+
+User: Mark Brezina
+
+Date: Monday, November 1, 2021 4:39:23 PM
+
+
+
+Comment:
+
+  1-Nov-2021/Mark: Replaced <469711> with <499309> and <469693> with <493310>
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventBridge.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296905
+
+User: Thissell, George
+
+Date: Monday, November 1, 2021 2:37:51 PM
+
+
+
+Comment:
+
+  fix blank bullet point
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/PatientManagement.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296897
+
+User: Gregory Raber
+
+Date: Monday, November 1, 2021 12:59:18 PM
+
+
+
+Comment:
+
+  Addressed comments
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/DataTileControls.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296896
+
+User: Joe Zhang
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 1, 2021 12:56:23 PM
+
+
+
+Comment:
+
+  Add new Allegro device type
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_Topology.DeviceTypeProperty_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PMP/Strings/FactoryDataRes.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PMP/Strings/FactoryDataRes.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Business/DeviceCompatibilityDeterminerTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296878
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, November 1, 2021 1:04:12 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.287. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296871
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Sunday, October 31, 2021 1:03:44 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.286. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296866
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Saturday, October 30, 2021 8:21:39 AM
+
+
+
+Comment:
+
+  Update Fortify Trend, Fortify_PICiX.Main_20211030.1 ***NO_CI***
+
+
+
+Items:
+
+  encoding, edit $/Philips.PIC/PIIC iX/Main/Build/Fortify/FortifyTrend.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296862
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Saturday, October 30, 2021 1:03:52 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.285. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296856
+
+User: Derek Fry
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 29, 2021 6:37:32 PM
+
+
+
+Comment:
+
+  handle expired password in web ui
+
+  #bypass-code-coverage
+
+  bypassing due to web unit testing
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/Logon.aspx.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Definitions/WebDefinitions.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296855
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 29, 2021 6:04:23 PM
+
+
+
+Comment:
+
+  Configure factory-provided application accounts in System Setup #bypass-dead-code
+
+
+
+  Dead code bypassed to allow for the check in to not impact smoke test and automation until support is added to both
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/UserManagement.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Philips.PIC.Configuration.csproj
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SystemSetupWizard/FactoryAccountConfigurationPage.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SystemSetupWizard/FactoryAccountConfigurationPage.Designer.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SystemSetupWizard/FactoryAccountConfigurationPage.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/SystemSetupWizard/SystemSetupWizardSheet.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Users/FactoryUserConfigControl.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Users/FactoryUserConfigControl.Designer.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Users/FactoryUserConfigControl.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Users/UserManagementProvider.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/SystemSetupRes.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/SystemSetupRes.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DbProviders/UserManagementProviderTest.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/SystemSetup/FactoryAccountConfigurationTest.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Users/FactoryUserConfigControlTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296849
+
+User: Mark Brezina
+
+Date: Friday, October 29, 2021 3:53:05 PM
+
+
+
+Comment:
+
+  29-Oct-2021/Mark: Added period to end of sentence in <496607>
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventBridge.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296842
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 29, 2021 1:45:53 PM
+
+
+
+Comment:
+
+  JOIN UserCredentials for Archive Export SPs
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/ArchiveRestore.StoredProcedures.SQL
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296835
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 29, 2021 10:45:46 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.284. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296833
+
+User: Jillian Oliveira
+
+Date: Friday, October 29, 2021 10:21:40 AM
+
+
+
+Comment:
+
+  Updated 4.1.IssuesCurve.xlsx
+
+
+
+Items:
+
+  encoding, edit $/Philips.PIC/PIIC iX/Main/Documents/Plans/4.1.IssuesCurve.xlsx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296818
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 29, 2021 1:03:24 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.283. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296813
+
+User: Matthew Chan
+
+Date: Thursday, October 28, 2021 10:55:54 PM
+
+
+
+Comment:
+
+  28-Oct-2021/Matt Chan: Spec tag <498240> replaces <288867> to clarify the button greying out for three seconds after sending message.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/Workstation.Spec.Feature.docx
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    28-Oct-2021/Matt Chan: Spec tag <498240> replaces <288867> to clarify the button greying out for three seconds after sending message.
+
+  Messages:
+
+    Work item 405192 was not found in the results of stored query 'My Open CRs including Code Reviews' in team project Philips.PIC.
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296812
+
+User: Zeping Zhu
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, October 28, 2021 10:35:46 PM
+
+
+
+Comment:
+
+  Remove unused userRole code/tests #bypass-dead-code
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/dead-code-trend.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Philips.PIC.Configuration.csproj
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/UsersToRoles/UserRoleControl.cs;X53613
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/UsersToRoles/UserRoleControl.Designer.cs;X53613
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/UsersToRoles/UserRoleControl.resx;X53613
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/UsersToRoles/UserRoleForm.cs;X53613
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/UsersToRoles/UserRoleForm.Designer.cs;X53613
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/UsersToRoles/UserRoleForm.resx;X53613
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/ConfigurationRes.Designer.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/ConfigurationRes.resx
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/UserManagementRes.Designer.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/UserManagementRes.resx
+
+  delete $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/UsersToRoles;X53613
+
+  delete $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/UsersToRoles/UserRoleControlTest.cs;X53613
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296811
+
+User: Matthew Chan
+
+Date: Thursday, October 28, 2021 10:02:32 PM
+
+
+
+Comment:
+
+  28-Oct-2021/Matt Chan: Patient Center text to Patient Dashboard throughout the document
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/Workstation.Spec.Feature.docx
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    28-Oct-2021/Matt Chan: Patient Center text to Patient Dashboard throughout the document
+
+  Messages:
+
+    Work item 405191 was not found in the results of stored query 'My Open CRs including Code Reviews' in team project Philips.PIC.
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296804
+
+User: Jebin Shakya
+
+Date: Thursday, October 28, 2021 3:38:36 PM
+
+
+
+Comment:
+
+  28-Oct-2021/Jebin: Updated verbiage based on Matt Review.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventWorkflow.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296802
+
+User: Robert Connelly
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, October 28, 2021 3:31:47 PM
+
+
+
+Comment:
+
+  fix logic that determines which server we attempt to renew the certificate from
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/dead-code-trend.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/CertificateRenewal/Philips.PIC.CertificateRenewal/CertificateRenewalHelper.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/CertificateRenewal/Philips.PIC.CertificateRenewal.Test/CertificateRenewalHelperTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PlatformServices/Philips.PlatformServices.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296798
+
+User: Jebin Shakya
+
+Date: Thursday, October 28, 2021 2:38:20 PM
+
+
+
+Comment:
+
+  28-Oct-2021/Jebin: Adding a row for mentioning Secondary Database Usage.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventWorkflow.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296795
+
+User: Thissell, George
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, October 28, 2021 1:58:32 PM
+
+
+
+Comment:
+
+  add principal sectort checks for flex behavior with patient link
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/Topology/InstitutionTreeControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Applications/InstitutionTreeControlTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296788
+
+User: Zeping Zhu
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, October 28, 2021 11:35:14 AM
+
+
+
+Comment:
+
+  replace user accounts in DevTools
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Applications/ApplicationFramework/UnitSettingsControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Applications/UnitSettingsControlTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/CareTouchStressTool/CareTouchUserGenerationControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/CareTouchStressTool/CareTouchUserGenerationControl.Designer.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296785
+
+User: Jia Wang
+
+Date: Thursday, October 28, 2021 10:57:52 AM
+
+
+
+Comment:
+
+  updated the install log location and repair instruction
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/Installation.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296783
+
+User: Thissell, George
+
+Date: Thursday, October 28, 2021 10:28:34 AM
+
+
+
+Comment:
+
+  Add flex behavior for Patient Link
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/PatientManagement.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296772
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, October 28, 2021 1:03:30 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.282. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296765
+
+User: Souders, Axel
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, October 27, 2021 6:34:48 PM
+
+
+
+Comment:
+
+  27-Oct-2021/Axel: Fix missing expand/collapse buttons after using view filter option.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Configuration/DeviceInterface/DeviceZoneAssignmentControl.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296763
+
+User: Mark Brezina
+
+Date: Wednesday, October 27, 2021 5:40:29 PM
+
+
+
+Comment:
+
+  27-Oct-2021/Mark: Replaced spec tags <297499>, <297500>, and <297501> with new gherkin tags <497421>,<493963>, and <493964>.  Replaced <493951> with <497493>.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventBridge.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296758
+
+User: Souders, Axel
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, October 27, 2021 3:53:11 PM
+
+
+
+Comment:
+
+  27-Oct-2021/Axel: Fix for apphost refresh when standard devices are assigned to multiple units.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/CareEventPubSubEventNames.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/DeviceAssignment/DeviceAssignmentMgr.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/Mobile/MobileDeviceProvider.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/DeviceAssignment/UI/DeviceAssignmentControlTests.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Applications/DeviceAssignment/DeviceAssignmentControl.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296756
+
+User: Robert Connelly
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, October 27, 2021 3:24:37 PM
+
+
+
+Comment:
+
+  fix focal point certificate request #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PlatformServices/Certificates/CertificateInstallMgr.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296754
+
+User: Zeping Zhu
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, October 27, 2021 2:55:34 PM
+
+
+
+Comment:
+
+  replace user accounts in Application host #bypass-dead-code #bypass-code-coverage
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/dead-code-trend.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Applications/ApplicationFramework/UnitSettingsControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/UsersToRoles/UserAccountsControl.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296751
+
+User: Joe Zhang
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, October 27, 2021 2:26:51 PM
+
+
+
+Comment:
+
+  Logging text change
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Services/DeviceServices/DtlsLayer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/DtlsTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296747
+
+User: Elrina Mendonca
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, October 27, 2021 1:58:01 PM
+
+
+
+Comment:
+
+  489565 Update PIC version to include dls changes
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts/Philips.PIC.UserAccounts.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296744
+
+User: Chris Bonis
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, October 27, 2021 1:29:12 PM
+
+
+
+Comment:
+
+  Address coverity issue.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/AuthenticationServiceBridgeTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296741
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, October 27, 2021 11:58:31 AM
+
+
+
+Comment:
+
+  Fix typos and factory data encoding
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/UserManagement.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_UserManagement.UserCredential_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_UserManagement.UserCredential_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296738
+
+User: Mark Brezina
+
+Date: Wednesday, October 27, 2021 10:31:35 AM
+
+
+
+Comment:
+
+  27-Oct-2021/Mark: Updated section 4.6.1, 4.6.2 with Formatted Message and Cancellation options and details.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventBridge.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296735
+
+User: John Barga
+
+Date: Wednesday, October 27, 2021 9:21:33 AM
+
+
+
+Comment:
+
+  Design for patient and labs
+
+
+
+Items:
+
+  add $/Philips.PIC/PIIC iX/Main/Documents/Features/BaseNotificationServer
+
+  add $/Philips.PIC/PIIC iX/Main/Documents/Features/BaseNotificationServer/BaseNotificationServer.Design.Detailed.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296725
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Wednesday, October 27, 2021 1:03:15 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.281. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296722
+
+User: Ravikumar Maikandan
+
+Date: Wednesday, October 27, 2021 12:51:50 AM
+
+
+
+Comment:
+
+  Updated the verbiage for delete event category scenario.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventCatalogTool.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296719
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, October 26, 2021 10:24:50 PM
+
+
+
+Comment:
+
+  Consolidate user credentials into a single database table
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Configuration.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Ecg12Lead.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/ForeignKeys.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Network.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/PatientDataExport.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Tables.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/UserManagement.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/Views.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_UserManagement.UserCredential_.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/_UserManagement.UserCredential_.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/Tables.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/UserMgmt_MergeFactoryCredentials.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/UserMgmt_MoveActiveDirectoryCredentials.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/UserMgmt_MoveNetworkConnectionCredentials.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/UserMgmt_MoveSqlOffloadCredentials.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_UserManagement.UserCredential_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.DbProviders/Ecg12LeadSettingProvider.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.DbProviders/NetworkShareProvider.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/DuplicateCode.Allowed.txt
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/DbEngineService/DbOffloadProvider.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Users/UserCredentialProcessor.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Users/UserManagementProvider.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Users/UserCredentialProcessorTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296713
+
+User: Jessica Baginski
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, October 26, 2021 7:50:17 PM
+
+
+
+Comment:
+
+  Remove DbMigrationTest_ PatchCoreDatabases()
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/ArchiveRestore/DbMigrationMgrTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296712
+
+User: Jessica Baginski
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, October 26, 2021 7:21:51 PM
+
+
+
+Comment:
+
+  New Philips.PIC.Ringtone db
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/DbManagement.StoredProcedures.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/FactoryData
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/ForeignKeys.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/Ringtone.StoredProcedures.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/Roles.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/Schemas.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/Tables.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/Triggers.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/Uddts.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/Udtts.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/Views.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/FactoryData/_EventMgmt.Ringtone_.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Ringtone/FactoryData/ArchiveInfo.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Ringtone
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Ringtone/_EventMgmt.Ringtone_.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Ringtone/EventMgmt.AddFactoryRingtone.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Ringtone/MigrationData
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Ringtone/Schemas.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Ringtone/Tables.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Ringtone/Uddts.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Ringtone/MigrationData/_EventMgmt.Ringtone_.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Ringtone/MigrationData/ArchiveInfo.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Definitions/DatabaseNames.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Definitions/DbEnums.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/ArchiveRestore/DbExtendedPropertyHelper.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Services/MaintenanceService/MaintenanceService.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296698
+
+User: Zeping Zhu
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, October 26, 2021 11:59:45 AM
+
+
+
+Comment:
+
+  fix exception when passing invalid userId
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications/Philips.PIC.CiscoEventNotifications/Philips.PIC.CiscoEventNotifications.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Services/EventManagement/EventNotificationService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/EventManagement/EventNotificationServiceTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296691
+
+User: Mark Brezina
+
+Date: Tuesday, October 26, 2021 9:42:23 AM
+
+
+
+Comment:
+
+  Reworded <496607> in Gherkin format
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventBridge.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296681
+
+User: Ravikumar Maikandan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, October 26, 2021 1:07:21 AM
+
+
+
+Comment:
+
+  Updated CannotSendSoftInop error message
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/AlertNotificationRes.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/AlertNotificationRes.resx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296680
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Tuesday, October 26, 2021 1:03:50 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.280. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296677
+
+User: Ravikumar Maikandan
+
+Date: Tuesday, October 26, 2021 12:36:52 AM
+
+
+
+Comment:
+
+  Added new Acknowledge alarm permissions for the mobile.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/UserManagement.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296673
+
+User: Kevin Pacheco
+
+Date: Monday, October 25, 2021 7:39:06 PM
+
+
+
+Comment:
+
+  Addressing review comments.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Features/CE Integration/NeolookServerSide.Design.Detailed.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296672
+
+User: Joanne Foster
+
+Date: Monday, October 25, 2021 6:33:56 PM
+
+
+
+Comment:
+
+  Custom Ringtones:  Updated definition
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Definitions/CustomRingtoneSupport.docx
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    updating definition
+
+  Messages:
+
+    The Work Item Query Policy failed because no work items were associated with this check-in.
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296671
+
+User: Ravikumar Maikandan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, October 25, 2021 5:34:05 PM
+
+
+
+Comment:
+
+  Allow more than 64 beds on base notification server
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Topology/AddLabelsControl.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Topology/BedLabelValidator.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Topology/AddLabelsControlTest.cs
+
+  add  $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Topology/BedLabelValidatorTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296669
+
+User: Mark Brezina
+
+Date: Monday, October 25, 2021 4:13:50 PM
+
+
+
+Comment:
+
+  25-Oct-2021/Mark: Added new spec tag
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/EventBridge.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296664
+
+User: Purvi Desai
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, October 25, 2021 1:42:25 PM
+
+
+
+Comment:
+
+  Report to Focal point
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Services/UtilitiesService/UtilitiesService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/UtilitiesServiceTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296661
+
+User: Purvi Desai
+
+Date: Monday, October 25, 2021 1:19:47 PM
+
+
+
+Comment:
+
+  Added rationale comments as per peer review feedback
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/SecureCommunication.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296660
+
+User: Ed Ryan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, October 25, 2021 1:04:04 PM
+
+
+
+Comment:
+
+  Check if host count needs to be enforced when validating overview counts
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Tool Sources/Philips.PIC.DevTools/InhouseConfigurations/InHouseConfigurationHelper.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296647
+
+User: Purvi Desai
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, October 25, 2021 12:33:57 PM
+
+
+
+Comment:
+
+  Coverity Fix
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DbProviders/UserManagementProviderTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296646
+
+User: Purvi Desai
+
+Date: Monday, October 25, 2021 11:39:47 AM
+
+
+
+Comment:
+
+  Report to FP for system status
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/SecureCommunication.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296644
+
+User: Ravikumar Maikandan
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, October 25, 2021 11:21:22 AM
+
+
+
+Comment:
+
+  Added ack technical alarm for red/yellow permissions.
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Philips.iX.Databases.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/SqlConstants.PmpDefinitions.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_UserManagement.ActionPermissionAssignment_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_UserManagement.RolePermissionAssignment_.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/UserMgmt_MergeActionPermission.sql
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_UserManagement.ActionPermissionAssignment_.xml
+
+  add  $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_UserManagement.RolePermissionAssignment_.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/Mobile/MobileAcknowledgeAlarmValidator.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Definitions/UserEnums.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Users/UserManagementProvider.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PMP/Strings/EnumRes.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PMP/Strings/EnumRes.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/MobileCommunication/MobileAcknowledgeAlarmValidatorTest.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/MobileCommunication/MobileTestHelper.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/UnitPermissions/UnitPermissionsControlTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296633
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Monday, October 25, 2021 1:03:29 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.279. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296628
+
+User: Joanne Foster
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Sunday, October 24, 2021 10:56:46 PM
+
+
+
+Comment:
+
+  Custom Ringtones:  Change max custom ringtones from 5 to 50
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Configuration/Ringtone/RingtoneMgr.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.CareEvent.Test/Ringtone/RingtoneMgrTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296626
+
+User: Purvi Desai
+
+Date: Sunday, October 24, 2021 8:43:49 PM
+
+
+
+Comment:
+
+  SRA tag added
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/SecureCommunication.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296625
+
+User: Kerry Mcmullen
+
+Date: Sunday, October 24, 2021 1:24:55 PM
+
+
+
+Comment:
+
+  specify what controls are tied to licenses in event notification
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/EventNotification.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296624
+
+User: Kerry Mcmullen
+
+Date: Sunday, October 24, 2021 11:07:45 AM
+
+
+
+Comment:
+
+  Add 4.0 server compatibility to 4.1 notification server
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/Event.Management.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296623
+
+User: Kerry Mcmullen
+
+Date: Sunday, October 24, 2021 10:53:09 AM
+
+
+
+Comment:
+
+  removed non-testable content
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/Workstation.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296622
+
+User: Kerry Mcmullen
+
+Date: Sunday, October 24, 2021 10:00:11 AM
+
+
+
+Comment:
+
+  Update location of event filters configuration
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/Reporting.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296621
+
+User: Kerry Mcmullen
+
+Date: Sunday, October 24, 2021 9:47:12 AM
+
+
+
+Comment:
+
+  Update FS with review comments
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/Deployment.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296618
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Sunday, October 24, 2021 1:03:04 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.278. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296614
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Saturday, October 23, 2021 8:51:39 AM
+
+
+
+Comment:
+
+  Update Fortify Trend, Fortify_PICiX.Main_20211023.1 ***NO_CI***
+
+
+
+Items:
+
+  encoding, edit $/Philips.PIC/PIIC iX/Main/Build/Fortify/FortifyTrend.xml
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296610
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Saturday, October 23, 2021 1:03:08 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.277. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296604
+
+User: Michael Raitt
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 22, 2021 4:54:03 PM
+
+
+
+Comment:
+
+  Updating packages to include DLS complient tab styles
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts/Philips.PIC.UserAccounts.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/UserAccounts/Philips.PIC.UserAccounts.Test/Philips.PIC.UserAccounts.Test.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296602
+
+User: Michael Raitt
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 22, 2021 4:10:10 PM
+
+
+
+Comment:
+
+  Updating service name #bypass-dead-code
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/DeadCodeCount/unused.txt
+
+  edit   $/Philips.PIC/PIIC iX/Main/Build/StaticClassCount/static-classes.txt
+
+  add    $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/EventNotifications;X53604
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.sln
+
+  add    $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications/Philips.PIC.CiscoEventNotifications
+
+  add    $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications/Philips.PIC.CiscoEventNotifications/appsettings.Development.json
+
+  add    $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications/Philips.PIC.CiscoEventNotifications/appsettings.json
+
+  add    $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications/Philips.PIC.CiscoEventNotifications/Philips.PIC.CiscoEventNotifications.csproj
+
+  add    $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications/Philips.PIC.CiscoEventNotifications/Properties
+
+  add    $/Philips.PIC/PIIC iX/Main/Sources/CiscoEventNotifications/Philips.PIC.CiscoEventNotifications/Properties/launchSettings.json
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/EventNotifications/Philips.PIC.EventNotifications;X53604
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/EventNotifications/Philips.PIC.EventNotifications/appsettings.Development.json;X53604
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/EventNotifications/Philips.PIC.EventNotifications/appsettings.json;X53604
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/EventNotifications/Philips.PIC.EventNotifications/Philips.PIC.EventNotifications.csproj;X53604
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/EventNotifications/Philips.PIC.EventNotifications/Properties;X53604
+
+  delete $/Philips.PIC/PIIC iX/Main/Sources/EventNotifications/Philips.PIC.EventNotifications/Properties/launchSettings.json;X53604
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/FactoryData/_Service.Process_.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Migration/4.1.0/Philips.PIC.Primary/MigrationData/_Service.Process_.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Definitions/ProcessNames.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/WatchdogService/WatchdogHelper.cs
+
+  edit   $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Watchdog/WatchdogHelperTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296598
+
+User: Robert Connelly
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 22, 2021 3:25:46 PM
+
+
+
+Comment:
+
+  rev nuget package
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/EventWorkflowReporting/Philips.CareEvent.Reporting.App/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/EventWorkflowReporting/Philips.CareEvent.Reporting.App/Philips.CareEvent.Reporting.App.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/PcProxCardReader/Philips.PIC.RfidReader/Philips.PIC.RfidReader.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebHost/Philips.PIC.WebHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebPdxHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebPdxHost/Philips.PIC.WebPdxHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebProxyHost/packages.config
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.WebProxyHost/Philips.PIC.WebProxyHost.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.PlatformServices/Philips.PMP.PlatformServices.csproj
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Philips.PMP.Test.Auto.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296595
+
+User: Jillian Oliveira
+
+Date: Friday, October 22, 2021 3:17:32 PM
+
+
+
+Comment:
+
+  Updated 4.1.IssuesCurve.xlsx
+
+
+
+Items:
+
+  encoding, edit $/Philips.PIC/PIIC iX/Main/Documents/Plans/4.1.IssuesCurve.xlsx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296593
+
+User: Zeping Zhu
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 22, 2021 2:29:39 PM
+
+
+
+Comment:
+
+  Remove old user role form in ConfigHost
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Configuration/Feature/FeatureTreeViewControl.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296589
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 22, 2021 1:53:31 PM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.276. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296587
+
+User: Robert Connelly
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 22, 2021 12:51:02 PM
+
+
+
+Comment:
+
+  rev nuget package
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PlatformServices/Philips.PlatformServices.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296573
+
+User: Purvi Desai
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 22, 2021 10:17:59 AM
+
+
+
+Comment:
+
+  AD edit fix when domain server name is updated
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.iX.Databases/Databases/Philips.PIC.Primary/UserManagement.StoredProcedures.sql
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/DbProviders/UserManagementProviderTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296565
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Friday, October 22, 2021 1:03:00 AM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.275. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296552
+
+User: Joanne Foster
+
+Date: Thursday, October 21, 2021 6:14:23 PM
+
+
+
+Comment:
+
+  Custom Ringtones:  Update FS to increase from 5 to 50 custom ringtones.
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Documents/Feature Specs/CareEvent/Ringtones.Spec.Feature.docx
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296548
+
+User: Purvi Desai
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, October 21, 2021 4:43:23 PM
+
+
+
+Comment:
+
+  System status message for Renewal failure
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PlatformServices/Certificates/CertificateInstallMgr.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Definitions/StatusMessageEnums.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/StatusMessageRes.Designer.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Resources/PIC/Strings/StatusMessageRes.resx
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PMP.Services/UtilitiesService/UtilitiesService.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Services/UtilitiesServiceTest.cs
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296547
+
+User: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, October 21, 2021 4:22:14 PM
+
+
+
+Comment:
+
+  Updated build version, PIIC_iX_4.1.0.274. //***NO_CI***//
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Product/Version.xml
+
+
+
+Policy Warnings:
+
+  Override Reason:
+
+    update version
+
+  Messages:
+
+    Child Policy Builds has been modified or no longer exists. Please reassign a valid Child Policy
+
+    Internal error in Work Item Query Policy. Unable to load DLL 'Microsoft.WITDataStore32.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296546
+
+User: Robert Connelly
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, October 21, 2021 4:14:45 PM
+
+
+
+Comment:
+
+  rev scep nuget packages
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpdTrend_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PlatformServices/Philips.PlatformServices.csproj
+
+
+
+-------------------------------------------------------------------------------
+
+Changeset: 296539
+
+User: Thissell, George
+
+Checked in by: Project Collection Build Service (PhilipsMA)
+
+Date: Thursday, October 21, 2021 3:46:25 PM
+
+
+
+Comment:
+
+  only show unassgined beds in the link whent he user has full host access to the link
+
+  ***NO_CI***
+
+
+
+Items:
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_25Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Build/CPD/cpd_result_50Tokens.xml
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.Business/Helpers/HostAccessHelper.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Sources/Philips.PIC.CommonControls/Topology/InstitutionTreeControl.cs
+
+  edit $/Philips.PIC/PIIC iX/Main/Test Sources/Philips.PMP.Test.Auto/Applications/InstitutionTreeControlTest.cs
