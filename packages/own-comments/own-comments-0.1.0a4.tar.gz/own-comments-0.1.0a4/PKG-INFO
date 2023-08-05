@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: own-comments
+Version: 0.1.0a4
+Summary: 
+Home-page: https://sr.ht/~nicoco/own-comments/
+License: AGPL-3.0-or-later
+Author: Nicolas Cedilnik
+Author-email: nicolas.cedilnik@inheart.fr
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: SQLAlchemy (>=1.4.39,<2.0.0)
+Requires-Dist: aiosmtplib (>=1.1.6,<2.0.0)
+Requires-Dist: fastapi (>=0.78.0,<0.79.0)
+Requires-Dist: pydantic[dotenv] (>=1.9.1,<2.0.0)
+Requires-Dist: python-multipart (>=0.0.5,<0.0.6)
+Requires-Dist: uvicorn (>=0.18.2,<0.19.0)
