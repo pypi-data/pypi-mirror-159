@@ -1,0 +1,19 @@
+ewoks
+scipy
+h5py
+hdf5plugin
+silx>=1
+pyopencl
+multianalyzer@ git+https://github.com/woutdenolf/multianalyzer.git@opencl_and_file_fixes
+
+[dev]
+pytest
+black
+flake8
+
+[doc]
+pytest
+sphinx
+
+[test]
+pytest
