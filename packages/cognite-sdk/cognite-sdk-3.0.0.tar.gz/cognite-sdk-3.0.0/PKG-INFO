@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cognite-sdk
+Version: 3.0.0
+Summary: Cognite Python SDK
+Author: Erlend Vollset
+Author-email: erlend.vollset@cognite.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: all
+Provides-Extra: geo
+Provides-Extra: pandas
+Provides-Extra: sympy
+Requires-Dist: geopandas (>=0.10.0); extra == "geo" or extra == "all"
+Requires-Dist: msal (>=1,<2)
+Requires-Dist: pandas; extra == "pandas" or extra == "all"
+Requires-Dist: requests (>=2,<3)
+Requires-Dist: requests_oauthlib (>=1,<2)
+Requires-Dist: shapely (>=1.7.0); extra == "geo" or extra == "all"
+Requires-Dist: sympy; extra == "sympy" or extra == "all"
