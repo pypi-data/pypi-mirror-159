@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/tuu/__init__.py
+src/tuu/__main__.py
+src/tuu/feed.py
+src/tuu/viewer.py
+src/tuu.egg-info/PKG-INFO
+src/tuu.egg-info/SOURCES.txt
+src/tuu.egg-info/dependency_links.txt
+src/tuu.egg-info/entry_points.txt
+src/tuu.egg-info/requires.txt
+src/tuu.egg-info/top_level.txt
