@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+readme.txt
+setup.py
+AlgoFnO/__init__.py
+AlgoFnO.egg-info/PKG-INFO
+AlgoFnO.egg-info/SOURCES.txt
+AlgoFnO.egg-info/dependency_links.txt
+AlgoFnO.egg-info/top_level.txt
