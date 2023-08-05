@@ -1,0 +1,54 @@
+{% extends "admin/base_site.html" %}
+{% load i18n static %}
+
+{% block title %}Gift Cards Crawler{% endblock %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static "admin/css/changelists.css" %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static "admin/css/responsive.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "gift_card_crawler/css/gift_card_crawler.css" %}">
+    <script type="application/javascript" src="{% static "gift_card_crawler/js/gift_card_crawler.js" %}"></script>
+{% endblock %}
+
+{% block breadcrumbs %}
+    <div class="breadcrumbs">
+        <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a> &rsaquo;
+        <a href="{% url 'admin:app_list' 'gift_card_crawler' %}">{% trans 'Gift Card Crawler' %}</a> &rsaquo;
+        {% trans 'Gift Card Crawler' %}
+    </div>
+{% endblock %}
+
+{% block pretitle %}
+    <h1>Gift Cards Crawler</h1>
+{% endblock %}
+
+{% block content %}
+    <div id="content-main">
+        <hr>
+        <form onsubmit="ShowLoading();" method="post" enctype="multipart/form-data" style="margin: 10px 0 10px 0;">
+            {% csrf_token %}
+            <div class="mb-3">
+                <label for="formFile" class="form-label">Choose the file (csv, txt, xls): </label>
+                <input name="gift_card_link" type="file" id="formFile" required>
+                <input id="CrawlBtn" type="submit" value="Start Crawling">
+            </div>
+        </form>
+        <hr>
+        <br>
+
+        <div class="module filtered" id="changelist"></div>
+    </div>
+
+    <script>
+        {% if reference_id %}
+            ShowLoading(true);
+
+            const interval = setInterval(() => {
+                const api_url = '{% url 'admin:gift_card_crawler_gift_cards_crawler_cards_info' reference_id %}';
+                fetchCards(api_url);
+            }, 5000);
+
+        {% endif %}
+    </script>
+{% endblock %}

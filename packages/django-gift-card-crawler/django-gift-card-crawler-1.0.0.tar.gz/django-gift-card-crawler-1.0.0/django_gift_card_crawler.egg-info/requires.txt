@@ -1,0 +1,6 @@
+Django
+bs4
+lxml
+requests
+pandas
+xlrd
