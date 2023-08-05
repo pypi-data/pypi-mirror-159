@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mercadolibre-wrapper
+Version: 0.1
+Home-page: https://github.com/ezecavallo/mercadoLibre_wrapper
+Author: 
+Author-email: 
+License: MIT
+Requires-Dist: requests
+
