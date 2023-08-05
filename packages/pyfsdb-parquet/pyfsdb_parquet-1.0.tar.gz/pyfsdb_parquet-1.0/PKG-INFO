@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyfsdb_parquet
+Version: 1.0
+Summary: Python tools to convert to and from FSDB and parquet files
+Home-page: https://github.com/gawseed/pyfsdb_parquet
+Author: Wes Hardaker
+Author-email: opensource@hardakers.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Purpose
+
+Adds two `pyfsdb` utilities for converting too and from parquet files.
+
+`pyfsdb` is intended to be light weight, and parquet support requires
+both `pyarrow` and `fastparquet` and are thus distributed separately.
+
+# Installation
+
+    pipx install pyfsdb_parquet
+
+# See also
+
+The [main pyfsdb](https://github.com/hardaker/pyfsdb) documentation.
+
+
