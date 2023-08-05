@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="newsletter.types">
+
+  <!-- Set overrides folder for Just-a-Bunch-Of-Templates product -->
+
+  <!-- Publish static files -->
+  <plone:service
+    method="POST"
+    name="@send"
+    for="newsletter.types.content.newsletter.INewsletter"
+    factory=".send.SendEmail"
+    permission="cmf.ModifyPortalContent"
+    />
+
+</configure>

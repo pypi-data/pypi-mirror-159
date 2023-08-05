@@ -1,0 +1,24 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:zcml="http://namespaces.zope.org/zcml"
+  i18n_domain="plone">
+
+  <configure zcml:condition="installed AccessControl.security">
+  <!-- -*- extra stuff goes here -*- -->
+
+    <permission
+        id="newsletter.types.AddNewsletterContainer"
+        title="newsletter.types: Add NewsletterContainer"
+    />
+
+
+    <permission
+        id="newsletter.types.AddNewsletter"
+        title="newsletter.types: Add Newsletter"
+    />
+
+
+
+  </configure>
+
+</configure>

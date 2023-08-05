@@ -1,0 +1,5 @@
+================
+newsletter.types
+================
+
+User documentation
