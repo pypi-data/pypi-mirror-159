@@ -1,0 +1,9 @@
+schiller/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schiller/fs_util.py,sha256=HqR_wHmzX30wJOnNjFC3XEB9D0osNe7RMa4j-v7TdTU,511
+schiller/main.py,sha256=Fm-LlR-UlNmY_WZatNkp-lMJbRgR7pQqY2IIOPZh-pM,308
+schiller-0.1.0.dist-info/LICENSE,sha256=qf9rzSu4ld42D-rOKKoe5bzuk7LGmA8ObIaNSv0S3xk,1089
+schiller-0.1.0.dist-info/METADATA,sha256=sMURpoVfGrAFDMAQgGSC7cATyQJ9g6XFkqOn4BDf7Pk,445
+schiller-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+schiller-0.1.0.dist-info/entry_points.txt,sha256=MvB9NKlWywbqTinergcf3Js8Y4or5AQhsVv9ufNrAWw,49
+schiller-0.1.0.dist-info/top_level.txt,sha256=93C2VJHjwVDn5dh1qaIQ3jgIiulKKssCU39sOSIdOUo,9
+schiller-0.1.0.dist-info/RECORD,,
