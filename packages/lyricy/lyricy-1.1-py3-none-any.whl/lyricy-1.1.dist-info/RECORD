@@ -1,0 +1,11 @@
+lyricy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lyricy/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+lyricy/classes.py,sha256=8IXR3SHct0pa4SQPih-CWOP8z32gaaOErwW1sljih2g,166
+lyricy/cli.py,sha256=UwkPzLqsWo54aqsvb4pFhhoW1wY9rrPA5mRt7KQn2ZI,5337
+lyricy/source.py,sha256=uzIOb8KEmFmoBUKEJFqT8DNtuQrxSY759bOI4Psd3qE,2757
+lyricy-1.1.dist-info/LICENSE,sha256=4VOTn7OACRCaIG0_PGUbU_8zo4CSW9KKv7qFFUamBsg,1070
+lyricy-1.1.dist-info/METADATA,sha256=PFBvcxU5sG6DiS1-2JGjOjr6JtmYr7WLaJXGof6QtI8,5462
+lyricy-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+lyricy-1.1.dist-info/entry_points.txt,sha256=-9nFxGS5RpW2cMNbFqKQuH8_sjzAw4dj3_srB5AHRSQ,43
+lyricy-1.1.dist-info/top_level.txt,sha256=oKlIZ6IkgYdMRABJvUTvJCz3tVq6YQiPVvbJmiD5LyU,7
+lyricy-1.1.dist-info/RECORD,,
