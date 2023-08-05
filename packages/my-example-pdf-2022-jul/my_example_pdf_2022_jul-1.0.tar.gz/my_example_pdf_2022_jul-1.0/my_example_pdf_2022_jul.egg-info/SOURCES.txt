@@ -1,0 +1,6 @@
+README.md
+setup.py
+my_example_pdf_2022_jul.egg-info/PKG-INFO
+my_example_pdf_2022_jul.egg-info/SOURCES.txt
+my_example_pdf_2022_jul.egg-info/dependency_links.txt
+my_example_pdf_2022_jul.egg-info/top_level.txt
