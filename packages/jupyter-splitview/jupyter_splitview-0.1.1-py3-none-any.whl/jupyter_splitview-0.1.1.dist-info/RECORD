@@ -1,0 +1,10 @@
+jupyter_splitview/__init__.py,sha256=ndst28PHiC_LWmX0_OWWwf_4fOS0ylGlvyIyxnm7QNI,444
+jupyter_splitview/inject.py,sha256=bEMAe3CO_c8AbHoDtie5B_JEW9RR27PbdZHQIuUUGUo,1646
+jupyter_splitview/inject_dependencies.html,sha256=yApfCmI1yCBXCIRJn3fZ2UAP2o018uAO01tmEleSNrw,1375
+jupyter_splitview/inject_split.html,sha256=cWpV_z3UOsL4BQmcP_7Cl8I_5k6cUe3LZU52zMCOjGg,414
+jupyter_splitview/sw_cellmagic.py,sha256=mEakinz-Ee6rl9pWgVwITjB7kK4tHlXYGnw0_5EklDY,2374
+vendor/compare_view/browser_compare_view.js,sha256=r-dLn-8nQRSseggYq2_ZHA7E8nvH-J_YgQkT85AFTAU,10152
+jupyter_splitview-0.1.1.dist-info/LICENSE,sha256=B6N-_ZEGW07jm5qIiJc0261RELEXD5aHLl8TyKCZcA8,1067
+jupyter_splitview-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+jupyter_splitview-0.1.1.dist-info/METADATA,sha256=usx1S41CdKO7g3YQM2aD_zrWII7jcGVt8T6AKKVGSV8,5414
+jupyter_splitview-0.1.1.dist-info/RECORD,,
