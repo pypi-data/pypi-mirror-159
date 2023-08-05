@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "shalaby-demo"
+version = "0.1.0"
+description = ""
+authors = ["Shalaby <mhdshalabystar@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.scripts]
+shalaby-demo = "shalaby_demo.__main__:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+typer = {extras = ["all"], version = "^0.6.1"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
