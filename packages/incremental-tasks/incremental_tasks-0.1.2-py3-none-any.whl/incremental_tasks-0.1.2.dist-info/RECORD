@@ -1,0 +1,11 @@
+incremental_tasks/__init__.py,sha256=vLjYCuSecEzvq6d69pgZw28mgG49VlglzgZnh4TptlQ,1878
+incremental_tasks/_version.py,sha256=u4bYccFo8y7vaC0NqKUXTicZi2NTsnswBeHVJlPiylI,239
+incremental_tasks/base.py,sha256=zhYc7xGlJi2xqzCjQxV7cpO05ybsyst9mPDSn_9mxNE,7182
+incremental_tasks/cli.py,sha256=OpFsxfr3jbVg_ZHbo48SiKVs9UW73JKZH8_79TkTlS4,5856
+incremental_tasks/language.py,sha256=xuReIIAP6KYDUt4QF-n9khkL8Q8r7IUyzRWyeoLpEWE,24933
+incremental_tasks/periodic.py,sha256=UohcktYnF0VsUpbmk05Zpuh2EvSMIUK2yirxZ3AguAo,2493
+incremental_tasks/symbolic.py,sha256=j2sajnY39eGu5B0mByjZnt5vu5yjF0-_aO55WpbE1v0,4090
+incremental_tasks-0.1.2.dist-info/entry_points.txt,sha256=hXdhNSNFCfvI3WsNX9anCeN4sG8Ppp0ZrYiHUF6BxB8,61
+incremental_tasks-0.1.2.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+incremental_tasks-0.1.2.dist-info/METADATA,sha256=LiMJlHnusDeokxfDugu8OtohUjBX-Z3g1gi_3qIrpS8,482
+incremental_tasks-0.1.2.dist-info/RECORD,,
