@@ -1,0 +1,6 @@
+{
+  "message": "fix: DEV-2526: Don't crash because of undefined LSF (#75)",
+  "commit": "5104ecf3227380649a7139b73a636c11b7a07ea9",
+  "branch": "ls-release/1.5.0",
+  "date": "2022-07-05T19:38:39Z"
+}
