@@ -1,0 +1,17 @@
+pytrendseries/README.md,sha256=Q9w0jdahgn8s5BAVbzAzcoSycTxIGyblODx-48L3uos,8959
+pytrendseries/README_pypi.md,sha256=vOkk_j_H2Z6J9e0o6T1C-kARgH4I2_gcrpAv2fheqac,7816
+pytrendseries/__init__.py,sha256=J8lBULPG-b003Fy68xg5yL96gEFkaiI263MLIbW905g,190
+pytrendseries/coverage.xml,sha256=52rjHYhekN6Lhu5VzoOhe9e0-iLkmzTLrMNSHhQ-COA,13578
+pytrendseries/detecttrend.py,sha256=HPv6YHp-6Zu7J8SCeKCusKuWbR5I2YaWm13a95pTz6Q,7289
+pytrendseries/example.py,sha256=1SPsDGHjqR7G6QOfFcA56ClG135oD3Y5WIjJco0L0L8,3757
+pytrendseries/maxtrend.py,sha256=sQ0Gv4eI2HeMbtfwjpBoQmOVAPVxp9vKrw7aXW2MYk8,4486
+pytrendseries/poetry.lock,sha256=mjgiA6Z34TIRNWOtMrVBzMNQvWY6ZuMttP7vBUMaKAA,6843
+pytrendseries/pyproject.toml,sha256=I5Jg_v9OZKjpidBHhxSsHq7wzplw1z9q4OjJuHtS5pc,429
+pytrendseries/setup.py,sha256=Iee1U4qc1cZrV5EETbQ21GW1WLOEu-6X9jAqF1YFbXo,1304
+pytrendseries/time_under_water.py,sha256=MpW9KquggCAk7aDlFLoZL1U6DpWtxyaaCArHoEUBhg8,1842
+pytrendseries/version.py,sha256=a2N-qELhPwkOCS6tmQEtnCtWIXwjr6xjJXLrqp7abMQ,108
+pytrendseries/vizplot.py,sha256=Sd0L9E6MfK_N9YlRMT5sgbqqK_MsfkLWVn-Zz88UzAQ,4641
+pytrendseries-0.1.8.dist-info/METADATA,sha256=0COsNwLMRuCZRGxPTngj-ECfAfXUCD6NSJcsNHDKXjQ,8125
+pytrendseries-0.1.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pytrendseries-0.1.8.dist-info/top_level.txt,sha256=vGmWHQ9LltxKPmR_pfiWBWNPkvPKmtlTk43Vu1gSwdI,14
+pytrendseries-0.1.8.dist-info/RECORD,,
