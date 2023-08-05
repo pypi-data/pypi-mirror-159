@@ -1,0 +1,9 @@
+kraken/cli/__init__.py,sha256=n3oM6B_EMz93NsTI18NNZd-jKFcUPzUkbIKj5VFK5ok,22
+kraken/cli/__main__.py,sha256=zmw1XR75uGpyBWpYlifAmrm7SEYhWB0Hbd1cxpl51GM,9885
+kraken/cli/executor.py,sha256=WwpYhag0CV7WWNwuevVOmBzqrBFY_rHZTwDcfxJ_u8E,6015
+kraken/cli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kraken_cli-0.1.6.dist-info/entry_points.txt,sha256=XQqceyiYyFtFAoo0GTEziBQ13xmxDjYC6_il1lbrToQ,58
+kraken_cli-0.1.6.dist-info/LICENSE,sha256=n1m2B7cI9M4RdEbzD0qQ9ZiNLlEhZAT0kRJSRClqpYw,988
+kraken_cli-0.1.6.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+kraken_cli-0.1.6.dist-info/METADATA,sha256=Zx3FBz1EUXuFj6Ddxc8AWqpfQNZU6BbOSNqtunCfBuY,1048
+kraken_cli-0.1.6.dist-info/RECORD,,
