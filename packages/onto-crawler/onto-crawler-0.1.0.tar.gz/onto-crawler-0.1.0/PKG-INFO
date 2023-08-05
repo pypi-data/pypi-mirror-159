@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: onto-crawler
+Version: 0.1.0
+Summary: Crawl github for ontology related issues.
+License: MIT
+Author: Harshad Hegde
+Author-email: hhegde@lbl.gov
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Requires-Dist: PyGithub (>=1.55,<2.0)
+Requires-Dist: oaklib (>=0.1.31,<0.2.0)
