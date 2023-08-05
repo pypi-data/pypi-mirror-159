@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xmen
+Version: 0.1.0
+Summary: 
+Author: Florian Borchert
+Author-email: florian.borchert@hpi.de
+Requires-Python: >=3.8,<3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: bioc (>=2.0.post3,<3.0)
+Requires-Dist: datasets (>=2.0.0,<3.0.0)
+Requires-Dist: hydra-core (>=1.1.1,<2.0.0)
+Requires-Dist: langcodes (>=3.3.0,<4.0.0)
+Requires-Dist: lxml (>=4.8.0,<5.0.0)
+Requires-Dist: neleval (>=3.1.1,<4.0.0)
+Requires-Dist: numpy (>=1.21,<2.0)
+Requires-Dist: protobuf (>=3.20.0,<4.0.0)
+Requires-Dist: pytorch-metric-learning (==0.9.98.dev1)
+Requires-Dist: rich (>=12.3.0,<13.0.0)
+Requires-Dist: sentencepiece (>=0.1.96,<0.2.0)
+Requires-Dist: transformers (>=4.17.0,<5.0.0)
