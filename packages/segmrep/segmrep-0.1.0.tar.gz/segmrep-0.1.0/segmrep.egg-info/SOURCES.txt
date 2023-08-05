@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+segmrep.egg-info/PKG-INFO
+segmrep.egg-info/SOURCES.txt
+segmrep.egg-info/dependency_links.txt
+segmrep.egg-info/top_level.txt
