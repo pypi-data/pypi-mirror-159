@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cryptwentyone
+Version: 0.2.1
+Summary: A fun package for cryptography
+Home-page: https://github.com/MPCodeWriter21/cryptwentyone
+Author: CodeWriter21
+Author-email: CodeWriter21@gmail.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
