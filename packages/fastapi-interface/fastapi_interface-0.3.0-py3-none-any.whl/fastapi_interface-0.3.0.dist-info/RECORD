@@ -1,0 +1,14 @@
+fastapi_interface/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_interface/constants.py,sha256=POl0bTux0umwH40A3hZlw73V7JXV_uxKfnPfcjDyQLc,38
+fastapi_interface/dependencies.py,sha256=528CG3U-dfsi3CAEX9frE0dG0sR9ncBcr0ZgBpHtuNU,3418
+fastapi_interface/main.py,sha256=QBGPMYYBAyRST0-gIe0-2G0qSzN8P2gD6AuLBWusI8Y,139
+fastapi_interface/middlewares.py,sha256=J95UA2hFWk71SDoPO36O3_Wlta3291WSaAIg6X1R7Ek,299
+fastapi_interface/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_interface/schemas/base.py,sha256=50XY3HY4tRTjXNNY2-c5lr1jclJj2pS558U3yQSw0ck,2754
+fastapi_interface/schemas/user.py,sha256=koQV4Q2h9GWQq3Nv4dkU7h7lCzQdqbeQB-knGUMYA0s,205
+fastapi_interface/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_interface/views/health.py,sha256=lOjRibqqmkAQ-HXIesDQ6qyuGI3fBLZ1NmlD5yz7k8E,277
+fastapi_interface/views/hostname.py,sha256=cpe1y2p6QzN9A1WDztxkRxe5fDUiz21s-hmm7nfbbs0,535
+fastapi_interface-0.3.0.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+fastapi_interface-0.3.0.dist-info/METADATA,sha256=hi8lSR4b6EgJHeUQ0iyoci-a1stQRz6h9QgXrPy9lbs,513
+fastapi_interface-0.3.0.dist-info/RECORD,,
