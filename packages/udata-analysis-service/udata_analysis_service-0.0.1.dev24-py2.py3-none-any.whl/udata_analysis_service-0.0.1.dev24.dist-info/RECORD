@@ -1,0 +1,11 @@
+udata_analysis_service/.env.sample,sha256=2UDMLppcnmzRnzKfFVU4H5w5D3_SJCHk_tg0S9ovuFQ,260
+udata_analysis_service/__init__.py,sha256=T6b9Wbwh_Obo8H4fp16n5pE31vU5q9u7kbdCDk5qsj4,205
+udata_analysis_service/background_tasks.py,sha256=-s6N1O8oE_MmDr7MVvcorE9565Pq-dbMOOVheqT-qp8,3192
+udata_analysis_service/cli.py,sha256=7AHAbfokLo4cK0u-DintUX1JHfYeRZnw63foEKlpotM,890
+udata_analysis_service/consumer.py,sha256=4bbLn3Rcazl16xNhXyRH8qodvHgHO3UDtV6Qn_98DOo,510
+udata_analysis_service/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+udata_analysis_service/utils/kafka.py,sha256=M-rahTaTCiH6qZAruqLJKfWHzARnqn5rFdgVe4t7ukk,265
+udata_analysis_service-0.0.1.dev24.dist-info/entry_points.txt,sha256=ymZZjSBaXJhuG1MY9OohYXoDhj7bCGUgo0JKkhtP6lw,73
+udata_analysis_service-0.0.1.dev24.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+udata_analysis_service-0.0.1.dev24.dist-info/METADATA,sha256=R-46n79J-IG26FrlPmbqQLn-1qil75YML8qzg6r0MSI,1740
+udata_analysis_service-0.0.1.dev24.dist-info/RECORD,,
