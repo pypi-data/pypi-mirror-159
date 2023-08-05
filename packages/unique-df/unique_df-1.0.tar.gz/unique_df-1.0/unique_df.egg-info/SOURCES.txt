@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+unique_df/__init__.py
+unique_df/enforce_uniqueness.py
+unique_df.egg-info/PKG-INFO
+unique_df.egg-info/SOURCES.txt
+unique_df.egg-info/dependency_links.txt
+unique_df.egg-info/not-zip-safe
+unique_df.egg-info/top_level.txt

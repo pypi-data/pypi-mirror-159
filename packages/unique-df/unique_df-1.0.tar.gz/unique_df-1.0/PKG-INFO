@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: unique_df
+Version: 1.0
+Summary: Concatenate two dfs and return only unique ionstances
+Author: Pierre Liebenberg
+Author-email: pierrelieb@gmail.com
