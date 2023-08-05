@@ -1,0 +1,2 @@
+[console_scripts]
+tuu = tuu.__main__:main
