@@ -1,0 +1,8 @@
+README.md
+setup.py
+strgenp/__init__.py
+strgenp/strgenp.py
+strgenp.egg-info/PKG-INFO
+strgenp.egg-info/SOURCES.txt
+strgenp.egg-info/dependency_links.txt
+strgenp.egg-info/top_level.txt
