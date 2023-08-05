@@ -1,0 +1,12 @@
+pyg_cell/__init__.py,sha256=2QdkDEa1Xv6lVEReXxUFZQy1QrO_QtEdYx6Q9D-odSc,287
+pyg_cell/_cache.py,sha256=fFuC9SwowZiENTi-IVOHHQVnL2xs9kDAclsWEi_cQe4,4961
+pyg_cell/_db_cell.py,sha256=543mQ_TIoed8y6JTya-ETCFmO1w6zqckR0I5slpdJ-U,26012
+pyg_cell/_periodic_cell.py,sha256=4b9c4OUuY1H3CWLdAmX2U0LAnMhnzrwWaF2_kmRCcD8,2203
+pyg_cell/_tree.py,sha256=nPDnBkHYh3CH-BRgAcqdIRFxWfK1r0GeM42LcMBoNh0,3696
+pyg_cell/_types.py,sha256=ftrBQXZK6NJF8PJhCAGBbVrAkoTZ52MlXZFrOUpN030,1172
+pyg_cell/app.py,sha256=4-h4vnhhBjePi9NQZzoh_survHAS9MccdIFh4rdBzOg,5182
+pyg_cell-0.0.3.dist-info/LICENSE,sha256=aFLFZg6LEJFpTlNQ8su3__jw4GfV-xWBmC1cePkKZVw,35802
+pyg_cell-0.0.3.dist-info/METADATA,sha256=oDrOV6Si4i6FwRW-7emyAeWB6Is0_gMxh4EWfEcYcV0,779
+pyg_cell-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyg_cell-0.0.3.dist-info/top_level.txt,sha256=0tKlQH70EuRi4rTilfMB6duBnwZEncY7eH26LoXws9U,9
+pyg_cell-0.0.3.dist-info/RECORD,,
