@@ -1,0 +1,14 @@
+freelunch/__init__.py,sha256=bdQv26fTBSRXZblbjuWywI5429xu8iFuAYCtv9biIDw,101
+freelunch/adaptable.py,sha256=tJqxJQ6JQbbQ7QNmDH0Y0PbUrXH7OMUvw06K7iURZoM,3909
+freelunch/base.py,sha256=aPGr2N_PmfmLLTwlqvzpkaGMtFqcUltPPCcaA-PF950,3923
+freelunch/benchmarks.py,sha256=w7BY1ipA6vubuANb5p3yBEF7dCUCnAIMbmkd5QlRl8s,2226
+freelunch/darwin.py,sha256=5aAsrkGsY04t721WYlfQYzg1QY4jhydyfvooDCuqHwU,3404
+freelunch/optimisers.py,sha256=IaBO_OOCntMdYVcRPYhkBEMv-HvTjrAe1RtrzuM-TEk,20172
+freelunch/tech.py,sha256=vcDvRZMHMy9AzRLduq4Nt5amcWNtcZ7AkpM-TdkrYEc,2170
+freelunch/util.py,sha256=qwGPH_la4EueAP8PmU21HBfKpbomtjZdguE1-JbmD4A,1686
+freelunch/zoo.py,sha256=7CXvJSpLg_EeUyHM_r-36mMCd6dk_uyojELeJNfqWmU,4450
+freelunch-0.0.14.dist-info/LICENSE,sha256=F8btV0TYxLxhAwNNS91fFsD8lb_YF_RTnRrUaEL4BNo,1070
+freelunch-0.0.14.dist-info/METADATA,sha256=llZDyEKJeLMBZWkRZRNcJNM6SlWZ7GW1GCBkqJWv8bY,6476
+freelunch-0.0.14.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+freelunch-0.0.14.dist-info/top_level.txt,sha256=_7s0CIBwLwrEjCG3386RUY44iKs9CMwg0KFXqMC5vCU,10
+freelunch-0.0.14.dist-info/RECORD,,
