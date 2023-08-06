@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+setup.py
+discord_to_postgresql/__init__.py
+discord_to_postgresql/__main__.py
+discord_to_postgresql/load.py
+discord_to_postgresql/run.py
+discord_to_postgresql/transform.py
+discord_to_postgresql.egg-info/PKG-INFO
+discord_to_postgresql.egg-info/SOURCES.txt
+discord_to_postgresql.egg-info/dependency_links.txt
+discord_to_postgresql.egg-info/entry_points.txt
+discord_to_postgresql.egg-info/requires.txt
+discord_to_postgresql.egg-info/top_level.txt
