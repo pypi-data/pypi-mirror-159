@@ -1,0 +1,9 @@
+django_tables_gcom/__init__.py,sha256=L5UPz-bMrarRgLM9JN5-zAmy2YuQrK3WS8np6z0Wwnk,114
+django_tables_gcom/base.py,sha256=Lj4OrOjjAU0qR-l_vM7qHAl99DMbFueJCoow8QrmFXM,22598
+django_tables_gcom/columns.py,sha256=XNJhwGIUyU-V5vaKuregYrJjuuid1A6oTgBN9E2nC5A,3637
+django_tables_gcom/memory.py,sha256=LvA93IKk8v9Z1BfNHCQmJwBVK4121JJJi-PPPVRPEzs,3373
+django_tables_gcom/models.py,sha256=nBDTS8aLDiyVbe_xD8kUI2EXfxssBY_NnUwAXQj3pn0,9324
+django_tables_gcom/options.py,sha256=6LLEDCxVIkCEMDBdCUfGYg2WZ8tSzpRj0SsVN8VnPuw,536
+django_tables_gcom-0.4.0.dist-info/WHEEL,sha256=wycAfLpmmoS0r5FEKIVwKB-iEMUiIZXv6P5GBpfA1-Q,87
+django_tables_gcom-0.4.0.dist-info/METADATA,sha256=ojev7dJClLqJvwgBzlcA4MY0dN8vzb_AaPibd1whIPQ,246
+django_tables_gcom-0.4.0.dist-info/RECORD,,
