@@ -1,0 +1,15 @@
+deepmodel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepmodel/data.py,sha256=dsPAOFcFUQdYMRQarylAilVwc8zvHiZ6dKMEtQi3SC0,5973
+deepmodel/utils.py,sha256=izsr5w3D6MNdfXqJas43SJe1wm6Mp42Tm8wGMj3Hl-I,1134
+deepmodel/core/__init__.py,sha256=E6MlsuYPJSy0hVUMGi-4pzPXJsIeVKrl9xR9txJFwSM,199
+deepmodel/core/layers.py,sha256=Ffqg30BZhjYF6_2xo1xpD58eiuEj8-jhabSovOnWkvA,1289
+deepmodel/core/sequence.py,sha256=mNKUIkSwk58GlONWqRNqribkVmGxqygmD2IAweCUzw0,5089
+deepmodel/models/__init__.py,sha256=54-N_HHx28wjT7kGIVfXnxcr-b1ssfHNumeiuI0W28c,189
+deepmodel/models/deepfm.py,sha256=uYrMdCeLhqOUTSYjCf8L_i7cvMvJm9NmKvT1amVxNjA,5700
+deepmodel/models/din.py,sha256=CzXk8_c9-18QyzuL_n3Tdl0Dd6Pjoioc5u6zjqZ7R-E,4847
+deepmodel/models/mmvt.py,sha256=XTJuIWoKd6xMllbEw7E6nhOE0KdrdW5BciqbcISHC4s,10655
+deepmodel/models/youtube.py,sha256=nfBV8xZ710bfiw79pgrprp2f-wi-XCkkOO7COWp_nkk,5925
+deepModel-0.0.5.dist-info/METADATA,sha256=Ssmx9zmyBIGbXXVPkU_uqShaTdiqQBVTQSY2bRXbNH8,1144
+deepModel-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deepModel-0.0.5.dist-info/top_level.txt,sha256=gAtX0EHipld0rlqMnp_2o0kwzlkY5wF6EboA5Ezu7YI,10
+deepModel-0.0.5.dist-info/RECORD,,
