@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pytest-check-library
+Version: 1.0
+Summary: check your missing library
+Home-page: https://github.com/yoyoketang/pytest-change-report
+Author: kangkai
+License: proprietary
+Keywords: pytest,py.test,pytest-check-library
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.7
