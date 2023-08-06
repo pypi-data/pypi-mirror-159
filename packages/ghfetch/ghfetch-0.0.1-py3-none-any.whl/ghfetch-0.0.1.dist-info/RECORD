@@ -1,0 +1,10 @@
+ghfetch.py,sha256=-zKpsiQH9X7H4zOO_cv6-4VvZBBIfCoROy4IcI4m3gw,3380
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/application.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ghfetch-0.0.1.dist-info/LICENSE,sha256=danXL2RaVIkA4492hw_OoWAqmI5T3JCeYEESzAwRlZc,1065
+ghfetch-0.0.1.dist-info/METADATA,sha256=jru4Zvyp9PNVfnJXGkr15aPdxju8jDbQj2b1N8j27s4,578
+ghfetch-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ghfetch-0.0.1.dist-info/entry_points.txt,sha256=WfMkOiq9fskb5HkG7rbJLJSiS31JSgN_WYkhb9dZz8M,40
+ghfetch-0.0.1.dist-info/top_level.txt,sha256=h6qvisjgdhXGEsrQJKrs-5PcmXyhvuJuKCs3LQx2T0o,12
+ghfetch-0.0.1.dist-info/RECORD,,
