@@ -1,0 +1,16 @@
+aihero/__init__.py,sha256=URUkNOKB1n3JJZEyX8t_FJcy321ra2LJ7siWBf_PkXY,1415
+aihero/api.py,sha256=eDHjlb67LePZf22TIGm0SR8cfkg2bP-xoxkNvzQSuqI,3119
+aihero/automation.py,sha256=AQkJ9br8KwICL-y0PofqMVqiy9_ST7mNg8CkKL7QNEI,5471
+aihero/detect_sentiment.py,sha256=lDNIxV74168OeZv5rYEV_xEsKgaTlCsooZ5pLmfXEYQ,811
+aihero/exceptions.py,sha256=VvEC5BcIEdGxH_aKtQxcnNyZqfjj0i7aqB77gv-ZWqY,377
+aihero/recommend_items_to_people.py,sha256=g3j-E_wC9tTxHQepGe_X97c5yCbG96T-HPSgaBe9ns8,839
+aihero/recommend_people_from_two_groups_to_each_other.py,sha256=shsShbYyN2KU2u2VAsJcGwDUkWdjO1b3ZPjuKk-yDAw,1423
+aihero/recommend_people_to_each_other.py,sha256=2cvQ0IwP0GBKYucan-nRZqyG6R-xBpMpr3qulivj21M,867
+aihero/tag_entire_images.py,sha256=-Z9v7yw-YUVn23LWIIZoGjO3eKrrXfSfnvlFfo8JsLI,2137
+aihero/tag_short_text.py,sha256=Ie3-ECKR_ujpAQXQp59FD9NA3Mk5WL8XqtlYUgD8ygE,1955
+aihero/workspace.py,sha256=EQ5vdd_IdiSr4AGgwybqgEoMmrQdQBSYqjdGJaujgGQ,2871
+aihero-0.1.8.dist-info/LICENSE,sha256=UNBuNu5ykXw7cy89FvyF1q_Cv1WYVH9Ox0atRclZjAU,1072
+aihero-0.1.8.dist-info/METADATA,sha256=HRPkmgdG4nNX7_esVlCXKjuRpmC5OX6WXstIprfWemA,7842
+aihero-0.1.8.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aihero-0.1.8.dist-info/top_level.txt,sha256=iPgvtQsHtCNq2NvIrwGGR-51c88toMkQv8Rx6C9kTes,7
+aihero-0.1.8.dist-info/RECORD,,
