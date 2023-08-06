@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: graph-partition
+Version: 0.1.1
+Summary: Graph partitioning Algorithms
+License: MIT
+Author: somsubhra88
+Requires-Python: >=3.9,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: k-means-constrained (==0.7.1)
+Requires-Dist: numpy (==1.23.1)
+Requires-Dist: scikit-learn (==1.1.1)
+Requires-Dist: scipy (>=1.8.1,<2.0.0)
+Requires-Dist: torch (==1.12.0)
+Description-Content-Type: text/markdown
+
+# Graph Partitioning
+Graph Partitioning is an age-old problem with applications in various domains, such as 
+routing vehicles for delivery and finding the right target for immunizations to control a 
+pandemic. Graph Convolution Networks (GCN) employ deep learning techniques to solve the 
+problem of graph partitioning.
+
+# Installation
+You can install the graph-partition from PyPI:
+```shell
+pip install graph-partition
+```
+
+# How to Use
+Primarily there are three major algorithms are there
+- Graph Convolutional Neural Network
+- Spectral Clustering
+- Constrained K-Means Clustering
+
+### Using of Graph Convolutional Network
+```python
+import urllib.request
+from scipy.spatial import distance_matrix
+
+```
