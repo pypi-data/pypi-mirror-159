@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: leafhopper
+Version: 0.1.1
+Summary: A command line for generating project dependencies table
+Home-page: https://github.com/niyue/leafhopper
+License: Apache-2.0
+Author: Yue Ni
+Author-email: niyue.com@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pytablewriter[html] (>=0.64.2,<0.65.0)
