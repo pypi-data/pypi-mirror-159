@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+directory_watcher/__init__.py
+directory_watcher/directory_watcher.py
+directory_watcher_bbushvt.egg-info/PKG-INFO
+directory_watcher_bbushvt.egg-info/SOURCES.txt
+directory_watcher_bbushvt.egg-info/dependency_links.txt
+directory_watcher_bbushvt.egg-info/top_level.txt
