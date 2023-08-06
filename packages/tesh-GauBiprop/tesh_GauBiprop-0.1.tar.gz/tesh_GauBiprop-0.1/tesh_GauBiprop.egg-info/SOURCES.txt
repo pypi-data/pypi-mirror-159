@@ -1,0 +1,10 @@
+setup.py
+tesh_GauBiprop/Binomialdistribution.py
+tesh_GauBiprop/Gaussiandistribution.py
+tesh_GauBiprop/Generaldistribution.py
+tesh_GauBiprop/__init__.py
+tesh_GauBiprop.egg-info/PKG-INFO
+tesh_GauBiprop.egg-info/SOURCES.txt
+tesh_GauBiprop.egg-info/dependency_links.txt
+tesh_GauBiprop.egg-info/not-zip-safe
+tesh_GauBiprop.egg-info/top_level.txt
