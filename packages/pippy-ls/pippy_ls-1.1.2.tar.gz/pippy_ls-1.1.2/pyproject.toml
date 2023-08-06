@@ -1,0 +1,40 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "pippy_ls"
+version = "1.1.2"
+description = "An open-source python package"
+readme = "README.md"
+authors = ["Pippy Long Stockings <zpprado@email.com>" ]
+homepage = "https://github.com/pradoz/pippy-ls"
+license = "MIT"
+keywords = ["python", "package"]
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+aws-cdk-lib = ">=2.28.0"
+constructs = ">=10.0.0,<11.0.0"
+# cdk_nag = "^2.15.0"
+
+
+[tool.poetry.dev-dependencies]
+mypy = "*"
+black = "*"
+isort = "*"
+autoflake = "*"
+flake8 = "*"
+# pytest = "*"
+# pytest-cov = "*"
+# mkdocs = "*"
+# mkdocs-material = "*"
+# markdown-include = "*"
+# taskipy = "*"
+# pre-commit = "*"
+
+[tool.poetry.scripts]
+pippy_ls = "pippy_ls.__main__:main"
+
