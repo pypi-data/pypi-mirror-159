@@ -1,0 +1,15 @@
+pippy_ls/__init__.py,sha256=G7PPQNWA5kMDo2jxWCX2cYBja90nK9pf5ASzPdNK170,289
+pippy_ls/__main__.py,sha256=s3X3ottJDQMJRjaV6D9J_VEWCojBLE2Y3lYhoP2Kt8Y,648
+pippy_ls/colors.py,sha256=6dD-VvoNkPWGHD9ct4lHTZqxYezINHmBn6aFw5wQ6as,105
+pippy_ls/config.toml,sha256=q8P2ag8GZlHp5rUx_iHT1C6wfgptZyJzUxbTay5Ndo8,62
+pippy_ls/custom_errors.py,sha256=5HUr_JrUbciN8XnnK5rB_ML549sROHIumZxyRiAMSyk,232
+pippy_ls/defaults.py,sha256=pPzFJknEB0pVK3_n4BLCtlqd0h-d1SLhngVJRkP46P8,1469
+pippy_ls/feed.py,sha256=a6Wd3snHXd4Svl4WCqRiktKw9Ek4tIsawBup5zH558c,826
+pippy_ls/generate.py,sha256=P43a4stYNJDSdfWWWBVQy2IaBngwYgHKUXXSjV0z8-Y,171
+pippy_ls/utils.py,sha256=xquP8lfIMSHb5KGBc2g3aHT-3zQYFcF4eiIHpSqBdFA,1553
+pippy_ls/viewer.py,sha256=G9Ub8HauiqQmGWae3Ij0uaoseyA8_aabIEm4pgsWj9c,270
+pippy_ls-1.1.3.dist-info/entry_points.txt,sha256=Xyl52k74t83A3Ty6bn2GqXsGTnegYMszmedUFJWLDDw,51
+pippy_ls-1.1.3.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pippy_ls-1.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pippy_ls-1.1.3.dist-info/METADATA,sha256=vD5bODAd9SqKShjhf4MkZk0M3X0yTO1g6boIFx5VtsI,731
+pippy_ls-1.1.3.dist-info/RECORD,,
