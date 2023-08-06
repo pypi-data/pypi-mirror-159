@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jijmodeling-schema
+Version: 0.0.16
+Summary: Schema for JijModeling
+Home-page: https://www.jijzept.com
+Author: Jij Inc.
+Author-email: info@j-ij.com
+License: Other/Proprietary license
+Project-URL: Documentation, http://www.jijmodeling.jijzept.com
+Project-URL: Reference, https://www.ref.jijmodeling.jijzept.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: <3.11,>=3.8
+License-File: LICENSE.txt
+Requires-Dist: betterproto[compiler] (==1.2.5)
+
+str: JijModelingSchema
