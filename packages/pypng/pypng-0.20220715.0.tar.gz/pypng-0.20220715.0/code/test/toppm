@@ -1,0 +1,9 @@
+#!/bin/sh
+
+PATH=${PWD%code*}code:$PATH
+
+python -m pngsuite basn2c08 |
+pripngtopam - |
+# Assume header is in first line.
+sed q | tr -cs 0-9A-Z ' ' |
+grep -q 'P6 32 32 255'
