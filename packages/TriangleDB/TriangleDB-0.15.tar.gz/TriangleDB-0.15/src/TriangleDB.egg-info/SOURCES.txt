@@ -1,0 +1,6 @@
+pyproject.toml
+setup.py
+src/TriangleDB.egg-info/PKG-INFO
+src/TriangleDB.egg-info/SOURCES.txt
+src/TriangleDB.egg-info/dependency_links.txt
+src/TriangleDB.egg-info/top_level.txt
