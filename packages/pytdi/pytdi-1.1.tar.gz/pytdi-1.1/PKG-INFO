@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: pytdi
+Version: 1.1
+Summary: Python implementation of time-delay interferometry algorithms.
+Home-page: https://gitlab.in2p3.fr/LISA/LDPG/wg6_inrep/pytdi
+Author: Martin Staab, Jean-Baptiste Bayle
+Author-email: martin.staab@aei.mpg.de, j2b.bayle@gmail.com
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: AUTHORS
+
+# PyTDI
+
+PyTDI is a Python package which provides a toolset to perform symbolical and numerical time-delay interferometry (TDI) calculations. Its functionalities include
+* definition of arbitrary linear combination of time-shifted signals (i.e., TDI combinations),
+* symbolical handling of TDI combinations, and
+* numerical evaluation of TDI combinations.
+
+## Getting Started
+
+Make sure that Python 3.7 or newer is available, disable automatic downloading of large files if [Git LFS](https://git-lfs.github.com), and install `pytdi` using [pip](https://pypi.org/project/pip/),
+```
+git lfs install --skip-smudge
+pip install git+https://gitlab.in2p3.fr/LISA/LDPG/wg6_inrep/pytdi.git@v1.1
+```
+
+The central element of PyTDI is the `TDICombination` class, which serves as an interface to define arbitrary TDI combinations and carry out numerical calculations. PyTDI already comes with the following predefined combinations: $`\xi`$ (OB motion correction), $`\eta`$ (reduction to three lasers) and $`X_{1/2}`$ (first/second generation Michelson variables).
+
+The following examples illustrates how to calculate the second generation Michelson combination $`X_2`$ from LISANode data.
+
+```python
+import h5py
+import numpy as np
+from pytdi.michelson import X2
+from pytdi import Data
+
+# Load data and compute X2
+data = Data.from_lisanode('lisanode-results.h5')
+X2_built = X2.build(**data.args)
+X2_data = X2_built(data.measurements)
+
+# Write output
+times = np.arange(X2_data.size) / data.fs
+with h5py.File('tdi.h5', 'w') as hdf5:
+    hdf5.create_dataset('X2', data=np.vstack((times, X2_data)).T)
+```
+
+More in-depth documentation can be found in the [code](https://gitlab.in2p3.fr/LISA/LDPG/wg6_inrep/pytdi/-/tree/master) and in the [Wiki](https://gitlab.in2p3.fr/LISA/LDPG/wg6_inrep/pytdi/-/wikis/home).
+
+## Contributing
+
+### Report an issue
+
+We use the issue-tracking management system associated with the project provided by Gitlab. If you want to report a bug or request a feature, open an issue at [https://gitlab.in2p3.fr/LISA/LDPG/wg6_inrep/pytdi/-/issues](https://gitlab.in2p3.fr/LISA/LDPG/wg6_inrep/pytdi/-/issues). You may also thumb-up or comment on existing issues.
+
+### Development environment
+
+We strongly recommend to use [Python virtual environments](https://docs.python.org/3/tutorial/venv.html).
+
+To setup the development environment, use the following commands:
+```
+git clone git@gitlab.in2p3.fr:LISA/LDPG/wg6_inrep/pytdi.git
+cd orbits
+python -m venv .
+source ./bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### Workflow
+
+The project's development workflow is based on the issue-tracking system provided by Gitlab, as well as peer-reviewed merge requests. This ensures high-quality standards.
+
+Issues are solved by creating branches and opening merge requests. Only the assignee of the related issue and merge request can push commits on the branch. Once all the changes have been pushed, the "draft" specifier on the merge request is removed, and the merge request is assigned to a reviewer. They can push new changes to the branch, or request changes to the original author by re-assigning the merge request to them. When the merge request is accepted, the branch is merged onto master, deleted, and the associated issue is closed.
+
+### Pylint and pytest
+
+We enforce [PEP 8 (Style Guide for Python Code)](https://www.python.org/dev/peps/pep-0008/) with [Pylint](http://pylint.pycqa.org/) syntax checking, and testing of the code via unit and integration tests with the [pytest](https://docs.pytest.org/) framwork. Both are implemented in the continuous integration system. Only if all tests pass successfully a merge request can be merged.
+
+You can run them locally
+```
+pylint **/*.py
+pytest
+```
+
+## Contact
+
+* Martin Staab (martin.staab@aei.mpg.de)
+* Jean-Baptiste Bayle (jbayle@jpl.nasa.gov)
