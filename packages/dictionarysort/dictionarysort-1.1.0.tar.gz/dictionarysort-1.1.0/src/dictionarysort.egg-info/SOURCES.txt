@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/dictionarysort/__init__.py
+src/dictionarysort/dictionarysort.py
+src/dictionarysort.egg-info/PKG-INFO
+src/dictionarysort.egg-info/SOURCES.txt
+src/dictionarysort.egg-info/dependency_links.txt
+src/dictionarysort.egg-info/top_level.txt
