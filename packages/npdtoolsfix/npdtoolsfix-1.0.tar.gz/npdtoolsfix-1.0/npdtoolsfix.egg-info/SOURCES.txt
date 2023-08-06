@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+npdtoolsfix/__init__.py
+npdtoolsfix/client.py
+npdtoolsfix.egg-info/PKG-INFO
+npdtoolsfix.egg-info/SOURCES.txt
+npdtoolsfix.egg-info/dependency_links.txt
+npdtoolsfix.egg-info/not-zip-safe
+npdtoolsfix.egg-info/top_level.txt
