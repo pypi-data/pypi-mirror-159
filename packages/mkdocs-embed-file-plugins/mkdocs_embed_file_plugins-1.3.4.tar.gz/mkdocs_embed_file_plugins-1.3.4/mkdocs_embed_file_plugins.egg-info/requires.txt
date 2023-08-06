@@ -1,0 +1,7 @@
+mkdocs
+setuptools
+Markdown
+beautifulsoup4
+python-frontmatter
+mkdocs-callouts
+mkdocs-custom-tags-attributes
