@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: hamrobazaar
+Version: 0.1.0
+Summary: 
+Author: Sulav Maharjan
+Author-email: sulavmaharjan63@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp[speedups] (>=3.8.1,<4.0.0)
+Requires-Dist: python-slugify (>=6.1.2,<7.0.0)
