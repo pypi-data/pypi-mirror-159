@@ -1,0 +1,11 @@
+bitstring>=3.1.7
+finn-dataset_loading==0.0.5
+numpy
+pynq>=2.5.1
+
+[:python_version<"3.6"]
+ipython==7.9
+matplotlib<3.1
+
+[:python_version>="3.6"]
+matplotlib
