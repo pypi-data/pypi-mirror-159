@@ -1,0 +1,5 @@
+pydeidentify/__init__.py,sha256=sAWJEHG0mvjSkkYwqIaCpu5rwg5ov6s4bpBikOKFEUY,85
+pydeidentify/deid.py,sha256=h-pjyLrPwLHGOHSU4wqQ9h8MGn94Yck2hxIl11DD54o,4138
+pydeidentify-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pydeidentify-0.1.1.dist-info/METADATA,sha256=3VEvhLcvNuREh4ZDK1EiVHAFccTbcfhKYzFjCsTWelM,1686
+pydeidentify-0.1.1.dist-info/RECORD,,
