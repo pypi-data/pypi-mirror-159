@@ -1,0 +1,8 @@
+freebsd_instance:
+  image_family: freebsd-12-3
+
+task:
+  install_script: . ./ci/cirrus-install.sh
+  script: mkdir test_dir && cd test_dir && echo $PWD && python3.9 -c "import randomgen; randomgen.test()"
+
+
