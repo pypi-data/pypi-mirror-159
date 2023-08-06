@@ -1,0 +1,13 @@
+bumbov/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bumbov/api.py,sha256=sgZvwbMf68EgjKjS2i30-VvkhLfvPMhicyZykH_ubg8,3891
+bumbov/middleware.py,sha256=klOTE2gT3w2ABjUVVKv15AR-UzsiDb7QyXwIMCficUU,686
+bumbov/orm.py,sha256=qWTqtkniPCrAVugPByJo5i8OU60JyFGHIQQStPgwrU8,6354
+bumbov/response.py,sha256=CXr8ZWR7rBKGiE-bfemxuT8VQZqVowrwBL4YjigSb38,1002
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=UqZvddmdC-4RhQpDpDYBewWK5xaFragUl4n-MLQvRcM,749
+tests/test_fram.py,sha256=wrFx31huoS_ogerVTXx6TiGF_ucrgRjUzDrxPiyGQEo,6215
+tests/test_orm.py,sha256=mHP67NrbfF-lcXmb4-pa_oNld4kWeyCpkam6Z6aGuic,3998
+bumbov-0.0.5.dist-info/METADATA,sha256=OCDzxCPZH9oPzF7otzhZ4DTyO0O-iMrkTAJqQi3V-5Q,4068
+bumbov-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bumbov-0.0.5.dist-info/top_level.txt,sha256=sPwQdNgA4p2w5WAX4WMW39oqHzY5s-L-6tg__X-ykBY,13
+bumbov-0.0.5.dist-info/RECORD,,
