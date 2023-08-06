@@ -1,0 +1,2 @@
+[console_scripts]
+dnstemple = dnstemple:main
