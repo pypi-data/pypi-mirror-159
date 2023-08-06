@@ -1,0 +1,14 @@
+sinophone/__init__.py,sha256=0pPwv8o7OJaEbVSK28sLXN1NIEdeYfQksEE-LC-T5nU,430
+sinophone/options.py,sha256=NJj_NqpOI1M_lwmLnuxPqXxIIpsFrwwR978mLSES1Zg,2135
+sinophone/utils.py,sha256=5jHukH1nzCpKknD_YMGsIna7XC3WZiApDPFbNbt9IHM,4226
+sinophone/phonetics/__init__.py,sha256=MD4GxLGMvtcx5jyE9KtIhcTUZUS_blJNS9FRUnECkdw,551
+sinophone/phonetics/ipa_utils.py,sha256=pgeGinbCMepxcQLsfi5UQs8w95FRdE_VPLwLsCIVQqs,11430
+sinophone/phonetics/phonetics.py,sha256=1orsgo_bhojZcRdLVkH0Jbo7RkVQf08tX2gJMNq4U00,4421
+sinophone/phonology/__init__.py,sha256=m_KEPusHIG8pEnQaO81Q9fniHjmS1pt_AlV5yG5lQto,580
+sinophone/phonology/phonology.py,sha256=rI4AKhUV2lzVWSxzjLLIEF4GpdBIgZymjLeyGVjhOVE,11775
+sinophone/phonology/syllable.py,sha256=fYwgRT_prR1HO9ckbLIseN-3C2j7X8DUP2CbOMNLL00,8213
+sinophone-0.0.1.post20220716164737.dist-info/LICENSE.txt,sha256=7lM7qDZbzddoE16r4VKM_1qq6RvVtl3xdxPellrzcIc,1092
+sinophone-0.0.1.post20220716164737.dist-info/METADATA,sha256=byQa9HWU4XqzsZqHkSXQXiAqVED4UixwcdX7cH7RbyM,5591
+sinophone-0.0.1.post20220716164737.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sinophone-0.0.1.post20220716164737.dist-info/top_level.txt,sha256=xveH6UllCnxwSpBYMbZ7uMryBYVKi0uvnFMu6nk0GKU,10
+sinophone-0.0.1.post20220716164737.dist-info/RECORD,,
