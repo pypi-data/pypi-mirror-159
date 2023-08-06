@@ -1,0 +1,13 @@
+gitstats/DataCollector.py,sha256=S6CMH_UwR0ASp-wZ5hU06c2UtThMomUUPir3XKxEy2M,5935
+gitstats/GitDataCollector.py,sha256=zHRZKI_netnlXNi4bWC3MCdQihBWAaGDzmdDAxJXS5k,25120
+gitstats/__init__.py,sha256=ShXQBVjyiSOHxoQJS2BvNG395W4KZfqMxZWBAR0MZrE,22
+gitstats/constans.py,sha256=MB-ZFeFG2ncN7tDiTMM6cSpG7Qb4wTAw1pQRHiu9zyM,1126
+gitstats/main.py,sha256=ynewORrdch3AKWW6aSp4G5t8q5JNBT3jJQnbkOMJcPw,3211
+gitstats/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitstats/utils.py,sha256=7BIzIaPYiR2ZOmdt3AWboveUgcWZ5B1xhEfYTxxx4SU,3308
+gitstats_forked-0.0.0.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+gitstats_forked-0.0.0.dist-info/METADATA,sha256=SQWPli8NavQep6pR1Q7IiYBjt-6Au8iAASDfLLNiX9o,2197
+gitstats_forked-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gitstats_forked-0.0.0.dist-info/entry_points.txt,sha256=jwDMYniIFpgz0uKp-Z6SeASTZELXzOlo0MIcoMavRls,49
+gitstats_forked-0.0.0.dist-info/top_level.txt,sha256=IMwkwJsDEGOg62cY_m2FUEfffDPd6il046i3Dj6xP1c,9
+gitstats_forked-0.0.0.dist-info/RECORD,,
