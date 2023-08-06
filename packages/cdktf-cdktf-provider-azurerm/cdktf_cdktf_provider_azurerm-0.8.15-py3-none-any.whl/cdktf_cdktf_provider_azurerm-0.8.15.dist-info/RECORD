@@ -1,0 +1,9 @@
+cdktf_cdktf_provider_azurerm/__init__.py,sha256=hdWculeRwzvJvGhiNf_uPtCgdUrM1GoBUJeFSt0sby0,51430353
+cdktf_cdktf_provider_azurerm/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdktf_cdktf_provider_azurerm/_jsii/__init__.py,sha256=a_z9jCxN3vihb7S-b3yWiRWS2kP7Fu0A3IZpLZrvgk0,385
+cdktf_cdktf_provider_azurerm/_jsii/provider-azurerm@0.8.15.jsii.tgz,sha256=QwZhOPb0-Kjq77j9nrGmXoKx2OoVRUNdtYywdzIvV8g,16413880
+cdktf_cdktf_provider_azurerm-0.8.15.dist-info/LICENSE,sha256=qDABaRGjSKVOib1U8viw2P_96sIK7Puo426784oD9f8,15976
+cdktf_cdktf_provider_azurerm-0.8.15.dist-info/METADATA,sha256=0nhKv7ojUEHc5e9myS6RVscOl0Mw0awWadMgw9kVj-I,3986
+cdktf_cdktf_provider_azurerm-0.8.15.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cdktf_cdktf_provider_azurerm-0.8.15.dist-info/top_level.txt,sha256=ZUqhLQqCDivC8Ybr4eUUP6tc2uHp92TcnskrZiP3W_4,29
+cdktf_cdktf_provider_azurerm-0.8.15.dist-info/RECORD,,
