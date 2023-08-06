@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+rexys/__init__.py
+rexys.egg-info/PKG-INFO
+rexys.egg-info/SOURCES.txt
+rexys.egg-info/dependency_links.txt
+rexys.egg-info/top_level.txt
