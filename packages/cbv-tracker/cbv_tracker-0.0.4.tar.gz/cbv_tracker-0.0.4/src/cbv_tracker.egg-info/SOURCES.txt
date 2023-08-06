@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/cbv_tracker/__init__.py
+src/cbv_tracker/django_cbv_tracker.py
+src/cbv_tracker.egg-info/PKG-INFO
+src/cbv_tracker.egg-info/SOURCES.txt
+src/cbv_tracker.egg-info/dependency_links.txt
+src/cbv_tracker.egg-info/top_level.txt
