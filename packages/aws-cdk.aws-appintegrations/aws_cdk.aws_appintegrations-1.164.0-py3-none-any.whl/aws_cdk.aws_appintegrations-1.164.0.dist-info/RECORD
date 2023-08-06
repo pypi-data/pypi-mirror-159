@@ -1,0 +1,10 @@
+aws_cdk/aws_appintegrations/__init__.py,sha256=Esa57LOuOxXsoGoFYbWjoyJXZ_hNo_aja4TNiKQ-thA,47078
+aws_cdk/aws_appintegrations/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_appintegrations/_jsii/__init__.py,sha256=m67F-q3qI2G8d8BrSL9ZIzH4HQ5O6-QfKUqYkj2oRPU,378
+aws_cdk/aws_appintegrations/_jsii/aws-appintegrations@1.164.0.jsii.tgz,sha256=y60HfFGVKD3TykZGe8rf8j9cixhILOuKjq8Yt-WmsXw,35238
+aws_cdk.aws_appintegrations-1.164.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_appintegrations-1.164.0.dist-info/METADATA,sha256=WFAV2u_EISgEIzoNP38ULo0VrGWGezHZ9tWYIGcVsH4,3172
+aws_cdk.aws_appintegrations-1.164.0.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_appintegrations-1.164.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_appintegrations-1.164.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_appintegrations-1.164.0.dist-info/RECORD,,
