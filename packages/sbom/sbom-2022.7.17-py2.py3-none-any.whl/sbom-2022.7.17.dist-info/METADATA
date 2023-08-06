@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: sbom
+Version: 2022.7.17
+Summary: Tree shaking for the minimal viable SBOM.
+Home-page: https://github.com/sthagen/sbom
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+Project-URL: Bug Tracker, https://github.com/sthagen/sbom/issues
+Project-URL: Documentation, https://sthagen.github.io/sbom
+Project-URL: Source Code, https://github.com/sthagen/sbom
+Keywords: baseline,cyclonedx,development,extension,software-bill-of-materials,spdx,validation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: attrs (==21.4.0)
+Requires-Dist: cyclonedx-bom (==3.5.0)
+Requires-Dist: jsonschema (>=4.7.2)
+Requires-Dist: spdx-tools (==0.6.1)
+Requires-Dist: typer (>=0.6.1)
+Requires-Dist: xmlschema (>=1.11.3)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+# sbom
+
+Tree shaking for the minimal viable software bill of materials (SBOM).
+
+[License: MIT](https://github.com/sthagen/sbom/blob/default/LICENSE)
+
+[![version](https://img.shields.io/pypi/v/sbom.svg?style=flat)](https://pypi.python.org/pypi/sbom/)
+[![downloads](https://pepy.tech/badge/sbom/month)](https://pepy.tech/project/sbom)
+[![wheel](https://img.shields.io/pypi/wheel/sbom.svg?style=flat)](https://pypi.python.org/pypi/sbom/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/sbom.svg?style=flat)](https://pypi.python.org/pypi/sbom/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/sbom.svg?style=flat)](https://pypi.python.org/pypi/sbom/)
+
+TODO: Third party dependencies are documented in the folder [third-party](third-party/README.md).
+
+## Status
+
+Experimental.
+
+## Terminology
+* **baseline** - mandatory elements
+* **consume** - an SBOM
+* **crypto** - hashing, signing, and signature validation
+* **extension** - sets of elements mandatory in addition to baseline
+* **fuzz** - generate surrogate and poisoned SBOMs
+* **merge** - an SBOM with other SBOMs or additional information
+* **mock** - provide optimal testability
+* **policy** - to apply
+* **produce** - an SBOM
+* **report** - anything from produce, transform, and consume
+* **rule** - executing policies
+* **transform** - one SBOM into another SBOM
+
+## Safety, Security, and Data Protection Considerations
+The current implementation **SHALL** only digest trustworthy data.  
+
+Schema validation of JSON and XML formats requires specific measures to  
+minimize vulnerabilities.
+
+For example: The python xml parser implementation (etree) in  
+use is presumably vulnerable against some attacks like *billion laughs*
+and *quadratic blowup*.
+
+Plans are to move towards a safer implementation like `defusedxml`
+or any other hardened implementation.
+
+The situation is similar for the JSON formats.
+
+In summary and repeating the obvious:
+> The current implementation **SHALL** only digest trustworthy data.
+
+**Note**: The default branch is `default`.
