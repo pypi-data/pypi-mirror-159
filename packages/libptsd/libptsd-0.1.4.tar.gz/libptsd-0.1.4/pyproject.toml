@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=58.1"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libptsd"
+version = "0.1.4"
+authors = [
+    { name="Khyle Isaias", email="khyleisaias@gmail.com" },
+]
+description = "A new standard library for programmers that has PTSD with their projects."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+"Homepage" = "https://github.com/kernelk14/ptsd"
+"Bug Tracker" = "https://github.com/kernelk14/ptsd/issues"
