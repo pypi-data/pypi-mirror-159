@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tendermint_chunked_genesis_download
+Version: 1.0.9
+Summary: Package for easily downloading a chunked Tendermint genesis from a RCP enabled node.
+Home-page: https://github.com/dclaudiud/tendermint-chunked-genesis-download
+Author: dclaudiud
+Author-email: dclaudiud@proton.me
+License: MIT
+License-File: LICENSE
