@@ -1,0 +1,10 @@
+xcp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcp/client.py,sha256=HPVfszBE72dyMnv2vJUawYAVvWK6JkMxFoxISmiB5Ps,3579
+xcp/protocol.py,sha256=hKt6x9t84DoQvTBuk5t7GnGo2m2H5pTaxuSSwpfKurs,15507
+xcp/server.py,sha256=t00jRYR8LQUcBamVGxUvXVQrTagBYaWD8MuxHQ6VyCE,6321
+xcp/transport.py,sha256=_XgKJuCDouBpMjvaAJALtpZ21__Ty735gRUDpFAbWIk,2595
+socketcan_xcp-0.0.1a0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+socketcan_xcp-0.0.1a0.dist-info/METADATA,sha256=50qW28VSCgpo1IOfJw6yI5z0WhAlYKCvJSKcQ-J2SKE,1569
+socketcan_xcp-0.0.1a0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+socketcan_xcp-0.0.1a0.dist-info/top_level.txt,sha256=yEaUrZhooCyeuCsM2n-d4iQTGIRZK4P9D_K8Wi39W6c,4
+socketcan_xcp-0.0.1a0.dist-info/RECORD,,
