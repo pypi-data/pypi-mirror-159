@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: arhmm
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: dataclasses ; python_version < "3.7"
+
+UNKNOWN
+
