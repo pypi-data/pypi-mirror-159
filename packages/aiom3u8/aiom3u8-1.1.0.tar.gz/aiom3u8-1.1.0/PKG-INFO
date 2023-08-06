@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aiom3u8
+Version: 1.1.0
+Summary: Using async way to download a video file by parsing m3u8 file
+Home-page: https://github.com/yfd-01/aiom3u8
+Author: yfd
+Author-email: yunxiaofeng2019@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.5
+
+UNKNOWN
+
