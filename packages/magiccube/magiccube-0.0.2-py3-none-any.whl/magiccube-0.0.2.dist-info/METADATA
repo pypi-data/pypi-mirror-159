@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: magiccube
+Version: 0.0.2
+Summary: NxNxN Rubik Cube implementation
+Author-email: Gonçalo Trincão Cunha <goncalo.cunha@gmail.com>
+License: BSD 3-Clause License        
+        Copyright (c) 2022, trincaog
+        All rights reserved.        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.        
+        3. Neither the name of the copyright holder nor the names of its
+           contributors may be used to endorse or promote products derived from
+           this software without specific prior written permission.        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.        
+Project-URL: Homepage, https://github.com/trincaog/magiccube
+Keywords: rubik,cube,solver,Rubik Cube,NxNxN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: colorama
+
+# MagicCube: A NxNxN Rubik Cube implementation
+A fast implementation of the Rubik Cube based in Python 3.x. 
+
+Allows creation of cubes of various sizes (2x2x2, 3x3x3, 4x4x4, 6x6x6, ...., 100x100x100).
+
+Has a simple (not so efficient) solver for the 3x3x3 cube.
+
+
+## Installation
+```sh
+pip install magiccube
+```
+
+## Usage
+```python
+import magiccube
+
+# 3x3x3 Cube
+cube = magiccube.Cube(3)
+print(cube)
+```
+![Cube](https://trincaopub.s3.amazonaws.com/imgs/magiccube/cube3x3.png)
+
+```python
+# Rotate the cube
+cube.rotate("R' L U D' F B' R' L")
+
+# Solve the 3x3x3 cube
+solver = BasicSolver(cube)
+solver.solve()
+
+# 6x6x6 Cube
+cube = magiccube.Cube(6)
+cube.rotate("Rw' Lw 3Uw'")
+```
+
+## Examples
+See examples folder.
+
+## Supported Moves and Notation
+### Basic moves
+|Move |                                                             |
+|-----|-------------------------------------------------------------|
+|L L' | Clockwise/Counterclockwise cube rotation of the LEFT face.  |
+|R R' | Clockwise/Counterclockwise cube rotation of the RIGHT face. |
+|D D' | Clockwise/Counterclockwise cube rotation of the DOWN face.  |
+|U U' | Clockwise/Counterclockwise cube rotation of the UP face.    |
+|F F' | Clockwise/Counterclockwise cube rotation of the FRONT face. |
+|B B' | Clockwise/Counterclockwise cube rotation of the BACK face.  |
+
+### Advanced Moves
+|Move |                                                             |
+|-----|-------------------------------------------------------------|
+|X X' | Cube rotation on X axis. X is the axis that points from LEFT to the RIGHT face.|
+|Y Y' | Cube rotation on Y axis. Y is the axis that points from DOWN to the UP face.|
+|Z Z' | Cube rotation on Z axis. Z is the axis that points from BACK to the FRONT face.|
+|Fw Fw'| Wide rotation of 2 layers.|
+|3Fw 3Fw' | Wide rotation of 3 layers.|
+|3F 3F' | Rotation of the 3rd layer.|
+
+## Cube Coordinates
+
+Cube coordinates are expressed as a tuple of x,y,z.
+
+(0,0,0) is the piece on the LEFT,DOWN,BACK corner.
+
+In a 3x3x3, (2,2,2) is the piece on the RIGH,UP,FRONT corner.
+
