@@ -1,0 +1,17 @@
+discord_chatbot/__init__.py,sha256=Nv1n-dVf0wweaOGjY93T8hTd7j6V7Rq9p8KgZ2wdTVo,30
+discord_chatbot/_resources.py,sha256=zFUQHAUoOoUAc3tQJsepEr-R1L0ZRh1345heU4XTssM,143
+discord_chatbot/config.py,sha256=iBAeVQW0aK7EyjS38vStSx-jk_QTsSUPAdA2QwcPKyU,999
+discord_chatbot/discord_bot.py,sha256=wchh_PsOxhThOxvqInsmpoPj-bWfhX1Lr16eOZWI5TI,4875
+discord_chatbot/handlers.py,sha256=faz0dmSspqtLYOvDmJelYZ1KSv71EXRDnvspTwauV6c,8541
+discord_chatbot/keyboards.py,sha256=AfUAga3oByM1HYqG6b2RxEAbQMz3BQHDydCIgOBV1uY,1506
+discord_chatbot/main.py,sha256=6govSkf-Y2-LpUGJnvi67vbikAC0rBfrqzuhZ60XKS8,398
+discord_chatbot/requesters.py,sha256=zA8Rbc4DUaYdA1IU67wYjj7rrSPv-ZeNthb1moudbGM,5107
+discord_chatbot/runner.py,sha256=MYgBGyrTzpDDIs4_G2Z70-Mt7CLwoB1i8nBPa4lvCIM,1574
+discord_chatbot/states.py,sha256=xgFDHSQO3XnHTD3fy9ucEEOuxhwZ6K1Kkjs9TWw8Si8,401
+discord_chatbot/utils.py,sha256=yJFGXgAaHVfjQsAnvxg3GvxGRZ5Gaxdu2aluyOdClOQ,1298
+discord_chatbot/vocabulary.py,sha256=OVuukvYrl50mOyiAxLeSLv_gwV6XbFzSyEO1F91Cq_c,1772
+discord_chatbot_deskent-1.3.4.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+discord_chatbot_deskent-1.3.4.dist-info/METADATA,sha256=t0Ljxha_30OIYgmkRqxgfD0QSUe0nsTMd5uPY02sOa0,529
+discord_chatbot_deskent-1.3.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+discord_chatbot_deskent-1.3.4.dist-info/top_level.txt,sha256=Mwmrx_5Js5SNCRAqwL4UoXkMrCpYWRsJnnTOeLmEwFE,16
+discord_chatbot_deskent-1.3.4.dist-info/RECORD,,
