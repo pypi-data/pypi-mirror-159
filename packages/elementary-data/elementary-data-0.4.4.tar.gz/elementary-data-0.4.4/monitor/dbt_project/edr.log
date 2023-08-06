@@ -1,0 +1,47 @@
+2022-07-10 16:41:01,600 — monitor.data_monitoring — INFO — Running internal dbt run to aggregate alerts
+2022-07-10 16:41:01,600 — clients.dbt.dbt_runner — INFO — Running dbt run -m alerts --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:41:09,278 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_test_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:41:12,813 — monitor.data_monitoring — ERROR — Failed to parse some alerts.
+2022-07-10 16:41:12,814 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_model_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:42:59,794 — monitor.data_monitoring — INFO — Running internal dbt run to aggregate alerts
+2022-07-10 16:42:59,795 — clients.dbt.dbt_runner — INFO — Running dbt run -m alerts --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:43:07,376 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_test_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:43:11,061 — monitor.data_monitoring — ERROR — Failed to parse some alerts.
+2022-07-10 16:43:11,061 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_model_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:45:54,600 — monitor.data_monitoring — INFO — Running internal dbt run to aggregate alerts
+2022-07-10 16:45:54,600 — clients.dbt.dbt_runner — INFO — Running dbt run -m alerts --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:46:02,187 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_test_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:46:05,666 — monitor.data_monitoring — ERROR — Failed to parse some alerts.
+2022-07-10 16:46:05,667 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_model_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:50:18,980 — monitor.data_monitoring — INFO — Running internal dbt run to aggregate alerts
+2022-07-10 16:50:18,980 — clients.dbt.dbt_runner — INFO — Running dbt run -m alerts --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:50:26,393 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_test_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:50:29,868 — monitor.data_monitoring — ERROR — Failed to parse some alerts.
+2022-07-10 16:50:29,868 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_model_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:51:33,834 — monitor.data_monitoring — INFO — Running internal dbt run to aggregate alerts
+2022-07-10 16:51:33,834 — clients.dbt.dbt_runner — INFO — Running dbt run -m alerts --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:51:41,237 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_test_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:51:45,186 — monitor.data_monitoring — ERROR — Failed to parse some alerts.
+NoneType: None
+2022-07-10 16:51:45,187 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_model_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:52:32,470 — monitor.data_monitoring — INFO — Running internal dbt run to aggregate alerts
+2022-07-10 16:52:32,470 — clients.dbt.dbt_runner — INFO — Running dbt run -m alerts --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:52:39,627 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_test_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:52:44,002 — monitor.data_monitoring — ERROR — Failed to parse some alerts.
+NoneType: None
+2022-07-10 16:52:44,002 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_model_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:53:10,387 — monitor.data_monitoring — INFO — Running internal dbt run to aggregate alerts
+2022-07-10 16:53:10,387 — clients.dbt.dbt_runner — INFO — Running dbt run -m alerts --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 16:53:17,681 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_test_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 17:00:12,135 — monitor.data_monitoring — INFO — Running internal dbt run to aggregate alerts
+2022-07-10 17:00:12,135 — clients.dbt.dbt_runner — INFO — Running dbt run -m alerts --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 17:00:25,616 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_test_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 17:00:30,191 — monitor.data_monitoring — ERROR — Failed to parse some alerts.
+2022-07-10 17:00:30,191 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_model_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 17:01:36,229 — monitor.data_monitoring — INFO — Running internal dbt run to aggregate alerts
+2022-07-10 17:01:36,230 — clients.dbt.dbt_runner — INFO — Running dbt run -m alerts --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 17:01:47,292 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_test_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 17:04:49,577 — monitor.data_monitoring — INFO — Running internal dbt run to aggregate alerts
+2022-07-10 17:04:49,577 — clients.dbt.dbt_runner — INFO — Running dbt run -m alerts --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 17:04:58,438 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_test_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
+2022-07-10 17:05:02,194 — clients.dbt.dbt_runner — INFO — Running dbt --log-format json run-operation get_new_model_alerts --args {"days_back": 7} --project-dir /Users/egk/work/elementary/elementary/monitor/dbt_project --profiles-dir /Users/egk/.dbt (this might take a while)
