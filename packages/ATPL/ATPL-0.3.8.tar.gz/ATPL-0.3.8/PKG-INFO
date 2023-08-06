@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ATPL
+Version: 0.3.8
+Summary: With this Toolset and one audio cable you can simply built end2end audio test paltform base on mac,which means,Its very Lightweight，Easy to build and carry
+Home-page: https://github.com/pypa/sampleproject
+Author:  MA JIANLI
+Author-email: majianli@corp.netease.com
+License: MIT
+Description: With this Toolset and one audio cable you can simply built end2end audio test paltform base on mac.
+        which means,Its very Lightweight，Easy to build and carry
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
