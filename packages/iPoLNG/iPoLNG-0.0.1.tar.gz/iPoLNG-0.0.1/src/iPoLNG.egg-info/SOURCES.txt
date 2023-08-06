@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/iPoLNG/W1.npy
+src/iPoLNG/W2.npy
+src/iPoLNG/__init__.py
+src/iPoLNG/iPoLNG.py
+src/iPoLNG.egg-info/PKG-INFO
+src/iPoLNG.egg-info/SOURCES.txt
+src/iPoLNG.egg-info/dependency_links.txt
+src/iPoLNG.egg-info/requires.txt
+src/iPoLNG.egg-info/top_level.txt
