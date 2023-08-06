@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/intake_markdown/__init__.py
+src/intake_markdown/intake_markdown.py
+src/intake_markdown.egg-info/PKG-INFO
+src/intake_markdown.egg-info/SOURCES.txt
+src/intake_markdown.egg-info/dependency_links.txt
+src/intake_markdown.egg-info/entry_points.txt
+src/intake_markdown.egg-info/requires.txt
+src/intake_markdown.egg-info/top_level.txt

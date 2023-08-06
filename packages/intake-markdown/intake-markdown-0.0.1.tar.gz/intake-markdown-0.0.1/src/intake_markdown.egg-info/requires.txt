@@ -1,0 +1,7 @@
+intake
+ipython
+requests
+aiohttp
+Pygments
+beautifulsoup4
+markdown
