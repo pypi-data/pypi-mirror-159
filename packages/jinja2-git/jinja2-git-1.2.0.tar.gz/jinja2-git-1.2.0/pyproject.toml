@@ -1,0 +1,61 @@
+[tool.poetry]
+name = "jinja2-git"
+version = "1.2.0"
+description = "Jinja2 extension to handle git-specific things"
+
+license = "MIT"
+
+authors = [
+    "Nikita Sobolev <mail@sobolenv.me>",
+    "Mikhail Akimov <daggerito@gmail.com>"
+]
+
+readme = "README.md"
+
+repository = "https://github.com/wemake-services/jinja2-git"
+homepage = "https://github.com/wemake-services/jinja2-git"
+
+keywords = [
+    "jinja2",
+    "jinja2-extension",
+    "jinja2-plugin",
+    "git",
+]
+
+classifiers=[
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+jinja2 = ">=2.10,<4.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.10"
+
+wemake-python-styleguide = "^0.16"
+flake8-pytest-style = "^1.5"
+nitpick = "^0.29"
+
+safety = "^2.1"
+mypy = "^0.961"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.nitpick]
+style = "https://raw.githubusercontent.com/wemake-services/wemake-python-styleguide/master/styles/nitpick-style.toml"
+
