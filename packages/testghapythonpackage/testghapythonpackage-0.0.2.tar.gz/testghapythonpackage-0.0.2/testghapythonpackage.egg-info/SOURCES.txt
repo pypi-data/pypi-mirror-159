@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+testghapythonpackage/__init__.py
+testghapythonpackage.egg-info/PKG-INFO
+testghapythonpackage.egg-info/SOURCES.txt
+testghapythonpackage.egg-info/dependency_links.txt
+testghapythonpackage.egg-info/requires.txt
+testghapythonpackage.egg-info/top_level.txt
