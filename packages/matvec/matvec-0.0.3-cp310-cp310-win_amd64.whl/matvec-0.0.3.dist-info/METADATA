@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: matvec
+Version: 0.0.3
+Summary: Fast matrix transforms
+Home-page: https://github.com/maniospas/matvec
+Author: Emmanouil (Manios) Krasanakis
+Author-email: maniospas@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# matvec
+
+A domain-specific language for fast graph shift operations.
+
