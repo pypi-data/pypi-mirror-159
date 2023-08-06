@@ -1,0 +1,13 @@
+{
+    "handle_duplicates": true,
+    "convert_units": {
+        "run": false,
+        "units_col": "",
+        "output_units": "molar"
+    },
+    "qualifiers": {
+        "run": false,
+        "qualifier_col": ""
+    },
+    "active_operator": "<="
+}
