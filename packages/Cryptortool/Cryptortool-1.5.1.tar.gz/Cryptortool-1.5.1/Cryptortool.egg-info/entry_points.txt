@@ -1,0 +1,3 @@
+[console_scripts]
+cryptor = cryptortool.cli:main
+cryptortool = cryptortool.cli:main
