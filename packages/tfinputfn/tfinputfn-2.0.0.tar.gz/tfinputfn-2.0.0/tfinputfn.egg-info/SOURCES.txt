@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+tfinputfn/__init__.py
+tfinputfn.egg-info/PKG-INFO
+tfinputfn.egg-info/SOURCES.txt
+tfinputfn.egg-info/dependency_links.txt
+tfinputfn.egg-info/top_level.txt

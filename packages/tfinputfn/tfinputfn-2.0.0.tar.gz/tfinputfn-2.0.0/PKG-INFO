@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tfinputfn
+Version: 2.0.0
+Summary: An input function for tensorflow. 
+Home-page: UNKNOWN
+Author: Vijay Satheesh
+Author-email: vijayskk007@gmail.com
+License: MIT
+Keywords: tensorflow
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+This is a package for making input functions for tensorflow when using Linear Regression.
+
+This package requires tensorflow v2 to work.
+
+The input parameters are data_df, label_df, num_epochs=10, shuffle=True, batch_size=32,shufflefac=1000.
+
+Change Log
+==============
+
+2.0.0 (14/7/2022) 
+--------------------
+    - Library issue fixed on mac
+
+
+1.0.0 (14/7/2022) 
+--------------------
+    - First Release
+
