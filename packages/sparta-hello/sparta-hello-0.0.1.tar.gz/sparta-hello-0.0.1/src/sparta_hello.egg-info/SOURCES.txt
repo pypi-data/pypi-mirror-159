@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+src/sparta/__init__.py
+src/sparta/hello/__init__.py
+src/sparta/hello/greeter.py
+src/sparta_hello.egg-info/PKG-INFO
+src/sparta_hello.egg-info/SOURCES.txt
+src/sparta_hello.egg-info/dependency_links.txt
+src/sparta_hello.egg-info/namespace_packages.txt
+src/sparta_hello.egg-info/requires.txt
+src/sparta_hello.egg-info/top_level.txt

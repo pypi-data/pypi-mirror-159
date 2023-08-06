@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sparta-hello
+Version: 0.0.1
+Summary: Sparta hello library
+Home-page: https://github.com/Spartan-Approach/sparta-hello
+Author: Spartan Approach
+Author-email: sparta@spartanapproach.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# sparta-hello
+
+Sparta hello library.
+
+## Usage
+
+```python
+import sparta.hello
+
+greeter = sparta.hello.Greeter()
+
+assert greeter.greet() == "hello"
+```
+
+
