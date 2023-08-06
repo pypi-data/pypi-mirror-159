@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: groll
+Version: 0.1.0
+Summary: A helpful, dice rolling, goblin that lives in your shell!
+Project-URL: Homepage, https://github.com/Krognak/groll
+Project-URL: Bug Tracker, https://github.com/Krognak/groll/issues
+Author-email: Gage Talbot <gagetalbot@pm.me>
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Groll
+
+*A helpful, dice rolling goblin for your command line!*
+
+```bash
+	$ groll 1d10 + 4
+	  -> 7
+```
+
+## Contents
+
+* [Installation](#installation)
+
+* [Usage](#usage)
+
+* [TODO](#todo)
+
+## Installation
+
+```bash
+	$ pip install groll
+```
+
+## Usage
+
+```bash
+	usage: groll [options] [dice ...]
+	
+	Syntax:
+	  dice = [num]d[sides] e.g. 2d36
+	  supported operators = +, -, *, /
+	  modifiers = integer numbers
+	
+	positional arguments:
+	  dice           dice and modifiers
+	
+	options:
+	  -h, --help     show this help message and exit
+	  -l, --logging  enable debugging messages
+	  -v, --version  display version number and exit
+	
+	Examples:
+	  $ groll <- rolls 1d20 when supplied with no args
+	  $ groll 2d6 + 2 <- rolls 2d6 and adds 2 to the result
+	  $ groll 1d4 + 2d10 / 2 <- adds a d4 to a 2d10 and halves the result
+```
+
+## TODO
+
+- [ ] pyproject.toml
+- [ ] nox
+- [ ] crits
+- [ ] exploding dice
