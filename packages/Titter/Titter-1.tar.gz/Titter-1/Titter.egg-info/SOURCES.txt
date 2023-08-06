@@ -1,0 +1,9 @@
+README.md
+setup.py
+./twiter/__init__.py
+./twiter/__main__.py
+Titter.egg-info/PKG-INFO
+Titter.egg-info/SOURCES.txt
+Titter.egg-info/dependency_links.txt
+Titter.egg-info/requires.txt
+Titter.egg-info/top_level.txt
