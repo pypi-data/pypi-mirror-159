@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: ms-to-datetime
+Version: 0.0.2
+Summary: Convert from ms to datetime
+Home-page: UNKNOWN
+Author: Felipe Viana
+Author-email: UNKNOWN
+License: MIT
+Description: # ms-to-datetime
+        
+        Change Log
+        ==========
+        
+        0.0.2 () (16/07/2022)
+        ---------------------
+        - Second Release
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
