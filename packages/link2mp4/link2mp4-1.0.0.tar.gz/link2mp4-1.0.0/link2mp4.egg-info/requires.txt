@@ -1,0 +1,5 @@
+selenium>=4.1.0
+selenium-wire>=4.6.4
+moviepy>=1.0.3
+questionary>=1.10.0
+m3u8>=2.0.0
