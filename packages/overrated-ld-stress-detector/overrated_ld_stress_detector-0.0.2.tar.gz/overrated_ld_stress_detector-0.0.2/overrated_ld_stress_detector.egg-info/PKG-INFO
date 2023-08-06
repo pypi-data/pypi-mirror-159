@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: overrated-ld-stress-detector
+Version: 0.0.2
+Summary: Stress detection.
+Home-page: https://github.com/mansasha21/overrated-ld-stress-detector
+Author: Overrated team
+License: MIT
+Description: # overrated-ld-stress-detector
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: test
