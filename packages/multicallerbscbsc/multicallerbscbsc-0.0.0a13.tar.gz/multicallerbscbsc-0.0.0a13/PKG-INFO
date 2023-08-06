@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: multicallerbscbsc
+Version: 0.0.0a13
+Summary: web3py multicallerbsc simplified interface with added BSC testnet
+Home-page: https://github.com/gerrrg/multicallerbsc
+Author: gerrrg
+Project-URL: Bug Tracker, https://github.com/gerrrg/multicallerbsc/issues
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# multicallerbsc
+
+Helper for using multicall to aggregate onchain data calls into a single RPC call.

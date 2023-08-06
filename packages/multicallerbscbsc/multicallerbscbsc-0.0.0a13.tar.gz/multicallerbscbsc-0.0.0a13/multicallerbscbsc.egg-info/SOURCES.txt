@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+multicallerbsc/__init__.py
+multicallerbsc/multicallerbsc.py
+multicallerbsc/abi/multiCall.json
+multicallerbscbsc.egg-info/PKG-INFO
+multicallerbscbsc.egg-info/SOURCES.txt
+multicallerbscbsc.egg-info/dependency_links.txt
+multicallerbscbsc.egg-info/requires.txt
+multicallerbscbsc.egg-info/top_level.txt
