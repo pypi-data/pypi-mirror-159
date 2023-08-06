@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+lesivka/__init__.py
+lesivka/__main__.py
+lesivka/version.py
+lesivka.egg-info/PKG-INFO
+lesivka.egg-info/SOURCES.txt
+lesivka.egg-info/dependency_links.txt
+lesivka.egg-info/requires.txt
+lesivka.egg-info/top_level.txt
