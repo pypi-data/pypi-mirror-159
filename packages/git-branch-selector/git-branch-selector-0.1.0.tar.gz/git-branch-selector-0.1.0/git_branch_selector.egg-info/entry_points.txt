@@ -1,0 +1,3 @@
+[console_scripts]
+git-branch-selector = git_branch_selector.git_branch_selector:main
+

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+git_branch_selector/__init__.py
+git_branch_selector/git_branch_selector.py
+git_branch_selector.egg-info/PKG-INFO
+git_branch_selector.egg-info/SOURCES.txt
+git_branch_selector.egg-info/dependency_links.txt
+git_branch_selector.egg-info/entry_points.txt
+git_branch_selector.egg-info/top_level.txt
