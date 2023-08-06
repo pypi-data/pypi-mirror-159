@@ -1,0 +1,7 @@
+soccer_articles/__init__.py,sha256=HMfTYLbXuBsw66npMwMdawSVEb1TkqQVH5wrJzX_5yo,159
+soccer_articles/_bbc.py,sha256=weK9MV3Y_U76uaJVpUHy_6zZfbJkeA6pMsnzubAb6MA,514
+soccer_articles/_reuters.py,sha256=ebqk9XK8cyHXvPCkGRbNNZon0zWiD-t40ygwRRaUdRo,467
+soccer_articles/article.py,sha256=0tNThr6q14j-ZDN0Mws4yOQJvLsiWxX1vSWUVAEP_fY,3020
+soccer_articles-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+soccer_articles-0.1.0.dist-info/METADATA,sha256=1xagqGWlpLxU20ZtAO5bBpoTO6LfVXYIUr1abBp_IoQ,291
+soccer_articles-0.1.0.dist-info/RECORD,,
