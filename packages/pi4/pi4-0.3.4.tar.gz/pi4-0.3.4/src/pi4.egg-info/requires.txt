@@ -1,0 +1,4 @@
+ttkbootstrap
+send2trash
+regex
+matplotlib

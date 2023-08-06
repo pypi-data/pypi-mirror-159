@@ -1,0 +1,10 @@
+include MANIFEST.in
+recursive-include qsi/data *
+include src/pi/ai/emo/ferjj.h5
+include src/pi/ai/emo/haarcascade_frontalface_default.xml
+include src/pi/ai/tflite/classification/lite-model_imagenet_mobilenet_v3_large_075_224_classification_5_metadata_1.tflite
+include src/pi/ai/tflite/classification/flower_customEfficientNetB0_model.tflite
+include src/pi/ai/tflite/classification/fundus_C3_customEfficientNetB0_model_best2.tflite
+include src/pi/ai/tflite/classification/labels.txt
+include src/pi/ai/tflite/ssd/COCO_labels.txt
+include src/pi/ai/tflite/ssd/detect.tflite
