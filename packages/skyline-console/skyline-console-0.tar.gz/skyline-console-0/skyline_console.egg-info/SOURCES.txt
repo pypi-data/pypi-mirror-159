@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+skyline_console.egg-info/PKG-INFO
+skyline_console.egg-info/SOURCES.txt
+skyline_console.egg-info/dependency_links.txt
+skyline_console.egg-info/not-zip-safe
+skyline_console.egg-info/top_level.txt
