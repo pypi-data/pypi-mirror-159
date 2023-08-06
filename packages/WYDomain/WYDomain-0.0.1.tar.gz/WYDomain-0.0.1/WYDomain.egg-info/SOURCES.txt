@@ -1,0 +1,7 @@
+setup.py
+WYDomain.egg-info/PKG-INFO
+WYDomain.egg-info/SOURCES.txt
+WYDomain.egg-info/dependency_links.txt
+WYDomain.egg-info/top_level.txt
+wydomain/__init__.py
+wydomain/domain.py
