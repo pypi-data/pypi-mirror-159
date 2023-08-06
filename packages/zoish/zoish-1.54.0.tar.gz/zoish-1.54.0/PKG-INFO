@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: zoish
+Version: 1.54.0
+Summary: This project uses shapely values for selecting Top n features compatible with scikit learn pipeline
+Home-page: https://github.com/drhosseinjavedani/zoish
+License: BSD 2-Clause License
+Keywords: Auto ML,Feature Selection,Pipeline,Machine learning,shap
+Author: drhosseinjavedani
+Author-email: h.javedani@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: catboost (>=1.0.6,<2.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: fasttreeshap (>=0.1.2,<0.2.0)
+Requires-Dist: feature-engine (>=1.4.1,<2.0.0)
+Requires-Dist: imblearn (>=0.0,<0.1)
+Requires-Dist: lightgbm (>=3.3.2,<4.0.0)
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0)
+Requires-Dist: numba (>=0.55.2,<0.56.0)
+Requires-Dist: numpy (<1.54.0)
+Requires-Dist: optuna (>=2.10.1,<3.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: pip-licenses (>=3.5.4,<4.0.0)
+Requires-Dist: scikit-learn (>=1.1.1,<2.0.0)
+Requires-Dist: scipy (>=1.8.1,<2.0.0)
+Requires-Dist: shap (>=0.41.0,<0.42.0)
+Requires-Dist: xgboost (>=1.6.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Zoish
+
+Zoish is a package built to use [SHAP](https://arxiv.org/abs/1705.07874) (SHapley Additive exPlanation)  for a 
+better feature selection. It is compatible with [scikit-learn](https://scikit-learn.org) pipeline . This package  uses [FastTreeSHAP](https://arxiv.org/abs/2109.09847) while calcualtion shap values. 
+
+
+## Introduction
+
+Zoish has a class named ScallyShapFeatureSelector that can receive various parameters. From a tree-based estimator class to its tunning parameters and from Grid search, Random Search, or Optuna to their parameters. X, y, will be split to train and validation set, and then optimization will estimate optimal related parameters.
+
+ After that, the best subset of features  with higher shap values will be returned. This subset can be used as the next steps of the Sklearn pipeline. 
+
+
+## Installation
+
+Zoish package is available on PyPI and can be installed with pip:
+
+```sh
+pip install zoish
+```
+
+
+## Supported estimators
+
+- XGBRegressor  [XGBoost](https://github.com/dmlc/xgboost)
+- XGBClassifier [XGBoost](https://github.com/dmlc/xgboost)
+- RandomForestClassifier 
+- RandomForestRegressor 
+- CatBoostClassifier 
+- CatBoostRegressor 
+- BalancedRandomForestClassifier 
+- LGBMClassifier [LightGBM](https://github.com/microsoft/LightGBM)
+- LGBMRegressor [LightGBM](https://github.com/microsoft/LightGBM)
+
+## Usage
+
+- Find features using specific tree-based models with the highest shap values after hyper-parameter optimization
+- Plot the shap summary plot for selected features
+- Return a sorted two-column Pandas data frame with a list of features in one column and shap values in another. 
+
+
+## Notebooks
+
+
+
+## License
+The source code for the site is licensed under the MIT license, which you can find in
+the MIT-LICENSE.txt file.
+
