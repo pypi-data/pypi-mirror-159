@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+rayvision_dayan_log.egg-info/PKG-INFO
+rayvision_dayan_log.egg-info/SOURCES.txt
+rayvision_dayan_log.egg-info/dependency_links.txt
+rayvision_dayan_log.egg-info/top_level.txt
+tests/__init__.py
+tests/test_core.py
