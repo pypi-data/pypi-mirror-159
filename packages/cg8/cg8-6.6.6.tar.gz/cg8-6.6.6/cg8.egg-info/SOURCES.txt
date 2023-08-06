@@ -1,0 +1,7 @@
+setup.py
+cg8.egg-info/PKG-INFO
+cg8.egg-info/SOURCES.txt
+cg8.egg-info/dependency_links.txt
+cg8.egg-info/top_level.txt
+lib/__init__.py
+lib/ok.py
