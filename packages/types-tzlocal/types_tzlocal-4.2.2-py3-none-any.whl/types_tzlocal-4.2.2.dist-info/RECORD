@@ -1,0 +1,8 @@
+tzlocal-stubs/METADATA.toml,sha256=b1ACVS34m8_33lNeJQu32qHswLoBRfZxRsHc2jiBD10,87
+tzlocal-stubs/__init__.pyi,sha256=sJDSO13X_DZ9F2R9B5D0IROoJnufPI40p41RbeEx29Y,141
+tzlocal-stubs/utils.pyi,sha256=yMcY697aszCvFnSAdxprkjitxqYeJAiI5gEHA5NIyMs,339
+tzlocal-stubs/windows_tz.pyi,sha256=jY4qz3J7_U2CU8oYvm0PFnNFu5Jqblw_T0Li-NmivP0,71
+types_tzlocal-4.2.2.dist-info/METADATA,sha256=05-F1Lq6KRZE4flluJ2v58ENSagrMvgaNVABivAkCgk,1220
+types_tzlocal-4.2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+types_tzlocal-4.2.2.dist-info/top_level.txt,sha256=j0Prx2O5hQOzQTtalsipsevsDaPvoydT0tntaOuz8MA,14
+types_tzlocal-4.2.2.dist-info/RECORD,,
