@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+mmengine/__init__.py
+mmengine/version.py
+mmengine.egg-info/PKG-INFO
+mmengine.egg-info/SOURCES.txt
+mmengine.egg-info/dependency_links.txt
+mmengine.egg-info/top_level.txt
