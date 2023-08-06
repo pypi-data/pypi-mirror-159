@@ -1,0 +1,2 @@
+[console_scripts]
+stuffpages = stuffpages.__main__:main
