@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+deepL_isfeng.egg-info/PKG-INFO
+deepL_isfeng.egg-info/SOURCES.txt
+deepL_isfeng.egg-info/dependency_links.txt
+deepL_isfeng.egg-info/requires.txt
+deepL_isfeng.egg-info/top_level.txt
