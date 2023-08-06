@@ -1,0 +1,8 @@
+rsync_backup/__init__.py,sha256=H9NWRZb7NbeRRPLP_V1fARmLNXranorVM-OOY-8_2ug,22
+rsync_backup/__main__.py,sha256=ke3YTSkU8kyEYU989Z9my3Emzp07EwuvXznSZ3CKyv0,31
+rsync_backup/rsync.py,sha256=HrGKy7MlR7veyOdGm_qvN0l0qWtx5bW5IyX0mPT77Eo,16377
+backup_with_rsync-0.9.0.dist-info/METADATA,sha256=kpFJPWFcznbHODcBtdbMJCVi6qy4_C_w5asN3HWm4LI,1823
+backup_with_rsync-0.9.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+backup_with_rsync-0.9.0.dist-info/entry_points.txt,sha256=sM2xcA500CFY17oqy8JAKls1QJzijHLbe5FdIHFnHNA,66
+backup_with_rsync-0.9.0.dist-info/top_level.txt,sha256=AfFayJxu0sRyBixvLHzMZlCF5MSsaq3BAz-4o6AKbqw,13
+backup_with_rsync-0.9.0.dist-info/RECORD,,
