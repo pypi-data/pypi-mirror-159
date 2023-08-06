@@ -1,0 +1,9 @@
+fsspec
+netcdf4
+pooch
+pytest
+pytest-mock
+pytest-sugar
+pytest-cov
+requests
+-r requirements.txt
