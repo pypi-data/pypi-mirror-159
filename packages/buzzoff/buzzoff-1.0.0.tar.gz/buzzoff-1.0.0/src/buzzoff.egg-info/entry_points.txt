@@ -1,0 +1,2 @@
+[console_scripts]
+buzzoff = buzzoff.__main__:main

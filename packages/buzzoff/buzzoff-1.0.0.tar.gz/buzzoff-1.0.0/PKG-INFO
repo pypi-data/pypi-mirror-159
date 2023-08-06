@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: buzzoff
+Version: 1.0.0
+Summary: This project creates a list of possible words that can be created from a set of letters.
+Author: Eddie Darling
+Author-email: darling@berkeley.edu
+Maintainer: Eddie Darling
+Maintainer-email: darling@berkeley.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BuzzOff
+
+This project creates a list of possible words that can be created from a set of letters.
+It is definitely not designed to assist with [The New York Times' Spelling Bee puzzle](https://www.nytimes.com/puzzles/spelling-bee).
+Pinky promise.
+
+## Installation
+
+Install this project with `python -m pip install buzzoff`.
