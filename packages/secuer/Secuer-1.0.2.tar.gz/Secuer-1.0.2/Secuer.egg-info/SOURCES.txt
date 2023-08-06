@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+Secuer/Secuer.py
+Secuer/SecuerConsensus.py
+Secuer/__init__.py
+Secuer.egg-info/PKG-INFO
+Secuer.egg-info/SOURCES.txt
+Secuer.egg-info/dependency_links.txt
+Secuer.egg-info/entry_points.txt
+Secuer.egg-info/top_level.txt
