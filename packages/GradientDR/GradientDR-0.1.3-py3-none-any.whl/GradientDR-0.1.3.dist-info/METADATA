@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: GradientDR
+Version: 0.1.3
+Summary: A package for evaluating dimensionality reduction algorithms
+Home-page: UNKNOWN
+Author: Andrew Draganov
+Author-email: draganovandrew@cs.au.dk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: cython (==0.29.30)
+Requires-Dist: matplotlib (==3.5.2)
+Requires-Dist: numba (==0.55.2)
+Requires-Dist: numpy (==1.21)
+Requires-Dist: pandas (==1.4.3)
+Requires-Dist: pytest (==7.1.2)
+Requires-Dist: python-mnist (==0.7)
+Requires-Dist: scikit-learn (==1.1.1)
+Requires-Dist: scipy (==1.8.1)
+Requires-Dist: tqdm (==4.64.0)
+Provides-Extra: pytorch
+Requires-Dist: torch ; extra == 'pytorch'
+Provides-Extra: umap
+Requires-Dist: umap-learn (==0.5.3) ; extra == 'umap'
+
+UNKNOWN
+
+
