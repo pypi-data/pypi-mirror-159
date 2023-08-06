@@ -1,0 +1,8 @@
+qlient/aiohttp/__init__.py,sha256=ScR9zkVsEx9OPBnnhQI3FISawmZX8V0YkUgVOE5MsUk,248
+qlient/aiohttp/backends.py,sha256=PiQA0rBl7cmSjaBeGN9r_9Bp-n16QDX1WQ6hz8QxRUk,6014
+qlient/aiohttp/clients.py,sha256=gfvp-uxn09dxiwoHBJkkLs0pvPIjhpSYdt9jkEd_ljM,913
+qlient/aiohttp/exceptions.py,sha256=XU7INn6NRXKXiRfpZRvfXk4Sf1Fgc2M8UtTz2f6bfKg,293
+qlient_aiohttp-0.1.0b2.dist-info/LICENSE,sha256=BlLlicvBon4c-gDHA-LTAbjsfPgPG84pC31EKKM5QW0,1070
+qlient_aiohttp-0.1.0b2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+qlient_aiohttp-0.1.0b2.dist-info/METADATA,sha256=beA_OsUPIbD80IMBTAW2HT-zz-ZPI_bv3dlT9RH6DJ0,2671
+qlient_aiohttp-0.1.0b2.dist-info/RECORD,,
