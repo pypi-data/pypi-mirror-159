@@ -1,0 +1,23 @@
+pipeline:
+  lint:
+    image: precommitci/runner-image
+    commands:
+      - pre-commit run --color always --all
+
+  publish:
+    image: python
+    environment:
+      - TWINE_USERNAME=__token__
+    commands:
+      # Hack: Woodpecker does not actually fetch the tag.
+      # See: https://codeberg.org/Codeberg-CI/feedback/issues/53
+      - git tag $CI_COMMIT_TAG
+      - pip install wheel build setuptools_scm twine
+      - python -m build --sdist --no-isolation
+      - sha256sum dist/*
+      - twine upload --non-interactive --skip-existing dist/*
+    secrets:
+      - TWINE_PASSWORD
+    when:
+      event: tag
+      tag: v*
