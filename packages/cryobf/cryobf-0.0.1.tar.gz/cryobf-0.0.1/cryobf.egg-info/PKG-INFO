@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: cryobf
+Version: 0.0.1
+Summary: A python 3 unpacker for .bf files.
+Home-page: https://gitlab.com/menschel/cryobf
+Author: Patrick Menschel
+Author-email: menschel.p@posteo.de
+Keywords: game data cryo bf
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Embedded Systems
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cryobf
+
+A python 3 unpacker for .bf files , proprietary format made by Cryo Interactive in the late 90's.
+
+# Description
+
+Create an unpacker utility for this format as a pre step for SCUMMVM integration.
+
+# Usage
+
+The utility uses argparser, so options can be viewed via '-h' option.
+
+In general call the utility with '-l <file>' to list the contents of the '.bf' file.
+
+Extract with '-e <file> <output_base_path>'.
