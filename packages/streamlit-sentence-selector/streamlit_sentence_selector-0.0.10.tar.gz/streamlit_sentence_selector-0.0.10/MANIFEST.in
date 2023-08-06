@@ -1,0 +1,1 @@
+recursive-include streamlit_sentence_selector/frontend/build *
