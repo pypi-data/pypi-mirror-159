@@ -1,0 +1,9 @@
+DrawTick/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DrawTick/draw_tick.py,sha256=QY7DRjKV1WkO5_Xclf0LGaeAz54ft-W6v1s7Twug0t8,6714
+DrawTick/tick_data,sha256=mp5nMdaLFrldO-YVxRpvzYKWzA_T1P3Z9WjA7oMtggk,113259
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/draw_tick.py,sha256=zksz88RYMhQ9a-7VBycQQP7hwLM8kdpnEKLJlvxC4Ok,6747
+DrawTick-0.0.5.dist-info/METADATA,sha256=0fJTAmo7N6uzpYhma5rHMC0dQY4tl9FQxeKCU_HkAoo,336
+DrawTick-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+DrawTick-0.0.5.dist-info/top_level.txt,sha256=66oGVR12SSSaQZrJIDLnWsIExlqjusTYaXlvY3O9vYM,9
+DrawTick-0.0.5.dist-info/RECORD,,
