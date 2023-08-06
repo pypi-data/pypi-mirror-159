@@ -1,0 +1,6 @@
+netifaces
+simplejson
+six
+netaddr
+aexpect
+avocado-framework>=82.1
