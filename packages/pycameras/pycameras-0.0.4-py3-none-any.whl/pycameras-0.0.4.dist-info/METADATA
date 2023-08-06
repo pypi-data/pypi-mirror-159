@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pycameras
+Version: 0.0.4
+Summary: CAMERAS Model Visulisation Technique
+Home-page: UNKNOWN
+Author: Subham Sahu
+Author-email: subhamsahu1120@gmail.com
+License: UNKNOWN
+Keywords: python,first package
+Platform: UNKNOWN
+Requires-Dist: tensorflow (>=2.7.0)
+Requires-Dist: matplotlib (>=3.5.1)
+Requires-Dist: numpy (>=1.21.5)
+Requires-Dist: opencv-python (>=4.5.5.62)
+
+CAMERAS Model Visulisation Technique, simpler and more generalized keras implementaion of CAMERAS: Enhanced Resolution And Sanity preserving Class Activation Mapping for image Saliency. Jalwana, Akhtar, Mian, Bennamoun. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021. 
+
