@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: operate_tools
+Version: 1.0.4
+Summary: Python操作工具合集
+Home-page: https://github.com/Joker-desire/operate-tools
+Author: Joker-desire
+Author-email: 2590205729@qq.com
+License: MIT Licence
+Platform: any
+Requires: pytest
+Requires: chardet
+Description-Content-Type: text/markdown
+
+## Python操作工具合集
+
+### 功能如下
+
+1. [X] 日期操作
+2. [ ] 星期操作
+3. [X] 时间操作
+4. [X] 文件操作
+5. [ ] ……
