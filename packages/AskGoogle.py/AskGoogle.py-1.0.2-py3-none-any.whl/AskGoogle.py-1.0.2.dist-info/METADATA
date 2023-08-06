@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: AskGoogle.py
+Version: 1.0.2
+Summary: Automatically redirects to Google when an exception is thrown.
+Home-page: https://github.com/NathanTW0219/AskGoogle.py
+Author: NathanTW0219
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# AskGoogle
+Automatically redirects to Google when an exception is thrown <br>
+Inspired by [Gary50613/askoverflow.js](https://github.com/Gary50613/askoverflow.js)
+
+## Installation
+```shell
+$ pip install askgoogle
+```
+
+## Usage
+```python
+import askgoogle
+
+# code everything you want!
+
+```
