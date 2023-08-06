@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.txt
+setup.py
+pyoperacionesmonzon/__init__.py
+pyoperacionesmonzon.egg-info/PKG-INFO
+pyoperacionesmonzon.egg-info/SOURCES.txt
+pyoperacionesmonzon.egg-info/dependency_links.txt
+pyoperacionesmonzon.egg-info/top_level.txt
