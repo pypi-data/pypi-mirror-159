@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+gitstats/DataCollector.py
+gitstats/GitDataCollector.py
+gitstats/__init__.py
+gitstats/constans.py
+gitstats/main.py
+gitstats/utils.py
+gitstats_forked.egg-info/PKG-INFO
+gitstats_forked.egg-info/SOURCES.txt
+gitstats_forked.egg-info/dependency_links.txt
+gitstats_forked.egg-info/entry_points.txt
+gitstats_forked.egg-info/requires.txt
+gitstats_forked.egg-info/top_level.txt
