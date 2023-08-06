@@ -1,0 +1,36 @@
+name: 3) Lint,Test,Cov (via make)
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  lint_test_cov:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: make install_deps
+
+      - name: Lint 
+        run: make lint
+
+      - name: Test
+        run: make test_with_coverage
+
+      - name: Report coverage
+        run: make report_coverage
+
+      - name: Upload coverage report to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          fail_ci_if_error: no
+          verbose: true

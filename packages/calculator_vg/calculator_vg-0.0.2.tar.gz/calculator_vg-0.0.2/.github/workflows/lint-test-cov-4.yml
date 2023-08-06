@@ -1,0 +1,48 @@
+name: 4) Lint,Test,Cov (more setup)
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  lint_test_cov:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.8", "3.9", "3.10"]
+
+    env:
+      USING_COVERAGE: "3.9"
+
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: make install_deps
+
+      - name: Lint 
+        run: make lint
+
+      - name: Test
+        run: make test_with_coverage
+
+      - name: Report coverage
+        run: make report_coverage
+
+      - name: Upload coverage report to Codecov
+        uses: codecov/codecov-action@v3
+        if: contains(env.USING_COVERAGE, matrix.python-version)
+        with:
+          fail_ci_if_error: no
+          verbose: true

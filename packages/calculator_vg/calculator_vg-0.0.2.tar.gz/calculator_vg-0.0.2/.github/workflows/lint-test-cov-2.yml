@@ -1,0 +1,51 @@
+name: 2) Lint, Test, Coverage
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  lint_test_cov:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
+            python -m pip install hypothesis pytest \
+                                  mccabe flake8 pyflakes mypy pylint \
+                                  coverage
+
+      - name: Lint 
+        run: |
+            # Check code and style
+            flake8 calculator
+            pyflakes -V calculator
+            mypy  calculator
+            pylint --verbose calculator
+
+      - name: Test (with coverage)
+        run: |
+            # Unit test and report coverage
+            coverage erase
+            coverage run --include=calculator/* -m pytest -ra \
+                         --doctest-modules --doctest-continue-on-failure
+
+      - name: Report coverage
+        run: |
+            coverage report -m
+            coverage xml
+
+      - name: Upload coverage report to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          fail_ci_if_error: no
+          verbose: true

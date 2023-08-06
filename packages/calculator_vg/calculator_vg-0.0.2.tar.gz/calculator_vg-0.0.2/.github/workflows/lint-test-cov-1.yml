@@ -1,0 +1,26 @@
+name: 1) Test package
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  test_package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+            python -m pip install --upgrade pip
+            python -m pip install hypothesis pytest
+
+      - name: Test
+        run: pytest -ra --doctest-modules --doctest-continue-on-failure
