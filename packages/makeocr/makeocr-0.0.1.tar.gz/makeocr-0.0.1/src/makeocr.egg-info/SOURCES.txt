@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/makeocr/__init__.py
+src/makeocr/ocr.py
+src/makeocr.egg-info/PKG-INFO
+src/makeocr.egg-info/SOURCES.txt
+src/makeocr.egg-info/dependency_links.txt
+src/makeocr.egg-info/requires.txt
+src/makeocr.egg-info/top_level.txt
