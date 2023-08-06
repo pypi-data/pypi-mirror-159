@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: int2zero2int
+Version: 0.0.0
+Summary: забавный антистресс!!!
+Author: wer310Libs
+Author-email: oficalkapudovo@gmail.com
+
+забавный антистресс!!!
+установка и запуск:
+```
+pip3 install -U int2zero2int && python -m int2zero2int 1234
+```
+
