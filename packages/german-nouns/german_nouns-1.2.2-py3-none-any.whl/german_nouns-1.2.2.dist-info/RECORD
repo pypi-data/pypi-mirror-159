@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=g16JhhcOvpk4GvvF_gf9RA-7YU7tvZCJhAmmljZdT-k,2434
+LICENSE,sha256=2on5hngivkuK2x5gHZ6SJsGVAWxlCAFet1k-aOrQyYo,20130
+german_nouns/config.py,sha256=gtf6FrL-yUfcqaXcWRA75PU92OGVujw1e4sZBi-2gPQ,125
+german_nouns/index.txt,sha256=mSkgW2B0kcA91GZSIIUpd6m3BiyH7FfhfLSeDqbKvLw,5347825
+german_nouns/lookup/__init__.py,sha256=jExxtYx0QSHVndCprTOGqOhGQO09a59ZWL2YUG_nbsI,6435
+german_nouns/lookup/examples.py,sha256=zXprF46IjFncI78XfKuGAiCIXw-pXG2xrvI0SIuZGJI,248
+german_nouns/nouns.csv,sha256=jDcdUMaO9E7bBCf0T_BxOeL0fNdHKDlPL5w-6qLhWRk,20194356
+german_nouns/parse_dump/__main__.py,sha256=WF0qswLk_H6O4QYSpoj2o9DnBHtYNyqCPXns1eEMstE,4349
+german_nouns/parse_dump/extend_flexion.py,sha256=rT5AR7ZWOn5myVvYypyS7AmsBr3bMT_LSB4CD_v8IYs,5657
+german_nouns-1.2.2.dist-info/LICENSE,sha256=2on5hngivkuK2x5gHZ6SJsGVAWxlCAFet1k-aOrQyYo,20130
+german_nouns-1.2.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+german_nouns-1.2.2.dist-info/METADATA,sha256=3rnADjxMTCIa84NVvlO4kBTusc11pKRT-EI-HGfaMZ0,3507
+german_nouns-1.2.2.dist-info/RECORD,,
