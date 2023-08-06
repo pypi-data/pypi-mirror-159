@@ -1,0 +1,9 @@
+eazyml/__init__.py,sha256=24SCt1iPw-usF1tNphkPzCqbfl1UTOhmxBejLwKFWAA,152
+eazyml/activations.py,sha256=cOZrNf3ymbkNEw-fzNspfNXKjkIhdKFyGMTfeT85vKY,714
+eazyml/layer.py,sha256=tgwj3h4dSqot8w5-xf9kLI7vkPEBIdxiqnKIWd015ss,703
+eazyml/model.py,sha256=Jf5cPTKiPEAf-fDRh69gxzcC0i_w6ism-7oQbGEu__Y,1528
+eazyml/propagate.py,sha256=I7PS6Ekq5ayYFcopOJ0Ij9Ktq_DEz0mJEOw7H3Iy9Kc,1844
+EazyML-0.1.0.dist-info/METADATA,sha256=LI0qcocE8H-1J-xj-i28_l1_23XEkPtUhMkLIiilHBM,596
+EazyML-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+EazyML-0.1.0.dist-info/top_level.txt,sha256=BlLwCkt3aJ2BvZ6rRO--WcpklImUNxKg8YfqoU5Mnno,7
+EazyML-0.1.0.dist-info/RECORD,,
