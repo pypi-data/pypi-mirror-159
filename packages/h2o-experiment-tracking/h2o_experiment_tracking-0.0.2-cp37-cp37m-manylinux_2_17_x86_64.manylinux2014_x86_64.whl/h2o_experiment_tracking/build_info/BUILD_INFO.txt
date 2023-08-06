@@ -1,0 +1,8 @@
+git_commit="fac47fca65eaedef049ae2e4955b5efdeebabf3f"
+git_commit_timestamp="2022-07-18_13:41:48_+0530"
+git_describe="fac47fc"
+build_os="Linux mr-0xc6.0xdata.loc 4.4.0-210-generic #242-Ubuntu SMP Fri Apr 16 09:57:56 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux"
+build_machine="mr-0xc6.0xdata.loc"
+build_date="Mon Jul 18 01:38:01 PDT 2022"
+build_user="jenkins"
+version="0.0.2"
