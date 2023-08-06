@@ -1,0 +1,13 @@
+mpltoolbox/__init__.py,sha256=8M3JaquDzr1qC72RSo4Z8Cjf2IxqNQlF8wTWeIItAZM,283
+mpltoolbox/ellipses.py,sha256=AVTyZbD73_tIkRsPe-LAngxcC40N6u570MwJ6wsy140,4369
+mpltoolbox/lines.py,sha256=qwcc_u8lSVJtWr2iXgD6Yvjv54NWGOlseMgBAfKc7Ug,6802
+mpltoolbox/patches.py,sha256=teSgTSwE9hRs9gD-3T9YPxxvDLY78i11ZgQeV6vefGM,4480
+mpltoolbox/points.py,sha256=9ab9Dg0W4nDV7dBypvYHMAMI4dTTX6HFFSd_v2o2_v0,1437
+mpltoolbox/polygons.py,sha256=63qjJ_6Pg_Y6HNChKXryK7Nwry_eA2eELhJoAGeBFBA,8880
+mpltoolbox/rectangles.py,sha256=P5l-w7qUJHVp8Gx88NjWjJtf2dkk5SunFalffyQxDro,3990
+mpltoolbox/tool.py,sha256=hg_6bScNOkmdkWOLLCdCYRsf6UILVZCMXz-wKm3wlzw,2851
+mpltoolbox-0.0.5.dist-info/LICENSE,sha256=J1XpA2w-SvQfWRtEZdyxos25WSWWDbEZ07flIqLIPLg,1519
+mpltoolbox-0.0.5.dist-info/METADATA,sha256=htt8mmkIiJovFfCq851xcjCsyD9g58Iaq9MgeXBL17c,2045
+mpltoolbox-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mpltoolbox-0.0.5.dist-info/top_level.txt,sha256=oIeoX9BjfdcU9BuuWrBj3WAOYGbhCdq8U3tubC8rbf4,11
+mpltoolbox-0.0.5.dist-info/RECORD,,
