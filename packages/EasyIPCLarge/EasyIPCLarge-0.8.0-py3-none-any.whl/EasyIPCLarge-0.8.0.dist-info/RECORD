@@ -1,0 +1,14 @@
+EasyIPCLarge/MemoryClient.py,sha256=F_ypVrgSzkQz-sG_w0yfYoZby7aGes3yLDjRzuTZ8KE,4862
+EasyIPCLarge/MemoryServer.py,sha256=wkzCMjYg4RoKjjQGFbh6MrcPuGLoFXQ0fYF8bcAVhvM,3836
+EasyIPCLarge/MsgClient.py,sha256=RQMNk3Q_K8aloJnukFJADezDSnBFA6_7kLRQIVtBWy0,756
+EasyIPCLarge/MsgServer.py,sha256=Tz4bfQyQ0ZyKXES3HyJEnGjZ5e11q4bkPb32zxITn3U,1230
+EasyIPCLarge/NameConst.py,sha256=b8njMX6Xu-_37mjsdjH354j4T8sfNnwnP73mjG8HVq4,580
+EasyIPCLarge/__init__.py,sha256=-7yoqqcNQhf48PXBasAbRRwaZT_sxQpA3JO8gsZWCpk,27
+EasyIPCLarge/Msg/Msg.py,sha256=MAcE5IgTCs-cU9sp9EEi10EKujMNFuzBRW6halQgH0Y,6138
+EasyIPCLarge/Msg/__init__.py,sha256=AGn-SEJzLQPdfhcEVYO_fmcy3GOZLWPTXAb5mJzdALA,41
+EasyIPCLarge/Msg/constants.py,sha256=RIm2Lan7tVokqvJhUKtJFDAqGQjVRi7TL4J09UPBjvs,244
+EasyIPCLarge/Msg/ttypes.py,sha256=W5juudq5pofEsY-61KvG5M4w9cMMiQg0yn3YOPT_znU,394
+EasyIPCLarge-0.8.0.dist-info/METADATA,sha256=5VeFKE0Orfjkuq_nrkFsNY4no2tiCyJ6DpOX_AkLDzo,1182
+EasyIPCLarge-0.8.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+EasyIPCLarge-0.8.0.dist-info/top_level.txt,sha256=Ow9Ega_Of_XxuhYTJMRaskFQ_RIyEIHuUZzAVOdK7Fo,13
+EasyIPCLarge-0.8.0.dist-info/RECORD,,
