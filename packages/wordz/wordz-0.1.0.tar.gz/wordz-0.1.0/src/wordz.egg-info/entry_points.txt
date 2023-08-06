@@ -1,0 +1,3 @@
+[console_scripts]
+wordz = wordz.cli:main
+

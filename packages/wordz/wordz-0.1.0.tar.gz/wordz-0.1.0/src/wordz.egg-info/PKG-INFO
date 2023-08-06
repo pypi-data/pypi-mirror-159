@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: wordz
+Version: 0.1.0
+Summary: Wordlists builder
+Home-page: https://github.com/tasooshi/wordz
+Author: tasooshi
+Author-email: tasooshi@pm.me
+License: UNKNOWN
+Keywords: wordlists,bruteforce,dictionary,generator,hashcat
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+License-File: LICENSE
+
+# wordz
+Wordlists builder
+
+
