@@ -1,0 +1,82 @@
+{% extends "wagtailadmin/login.html" %}
+{% load i18n wagtailadmin_tags %}
+{% load static %}
+
+{% block titletag %}Anmelden{% endblock %}
+
+{% block above_login %}
+	<img src="{% static 'wagtailrps/images/logo-white.png' %}" alt="Logo - red pepper Services" width="240" />
+{% endblock %}
+
+{% block below_login %}
+<div class="container-fluid">
+	<div class="row">
+		<div class="credits ml-auto">
+			<span class="copyright">
+				© 2022, Proudly made in the Alps by <a href="https://www.red-pepper.at" target="_blank">red pepper Services</a> with <a href="https://github.com/wagtail/wagtail" rel="nofollow" target="_blank">wagtail</a>
+			</span>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+{% block login_form %}
+    {% csrf_token %}
+
+    {% url 'wagtailadmin_home' as home_url %}
+    <input type="hidden" name="next" value="{{ next|default:home_url }}" />
+
+    <h1>{% block branding_login %}Bendigo CMS - Anmelden{% endblock %}</h1>
+
+    <div class="fields-wrapper">
+        <ul class="fields">
+			{% block fields %}
+			    <li class="full">
+			        <div class="field iconfield">
+			            {{ form.username.label_tag }}
+			            <div class="input icon-user">
+			                <input type="text" name="username" maxlength="150" placeholder="Benutzername" required="" id="id_username">
+			            </div>
+			        </div>
+			    </li>
+			    <li class="full">
+			        <div class="field iconfield">
+			            {{ form.password.label_tag }}
+			            <div class="input icon-password">
+			                <input type="password" name="password" placeholder="Passwort" required="" id="id_password">
+			            </div>
+			        </div>
+			    </li>
+
+			    {% block extra_fields %}
+			        {% for field_name, field in form.extra_fields %}
+			            <li class="full">
+			                {{ field.label_tag }}
+			                <div class="field iconfield">
+			                    {{ field }}
+			                </div>
+			            </li>
+			        {% endfor %}
+			    {% endblock extra_fields %}
+
+			    <li class="checkbox">
+			        <div class="field">
+			            <label><input name="remember" type="checkbox" />Eingeloggt bleiben</label>
+			        </div>
+			    </li>
+			{% endblock %}
+
+            <li class="submit">
+                {% block submit_buttons %}
+                    <button type="submit" class="button button-longrunning" data-clicked-text="Login wird geprüft...">{% icon name="spinner" %}<em>Einloggen</em></button>
+                {% endblock %}
+            </li>
+        </ul>
+
+        {% if show_password_reset %}
+            <p class="help">
+                <a class="help__link" href="{% url 'wagtailadmin_password_reset' %}" aria-label="{% trans 'Reset your password' %}">Passwort vergessen?</a>
+            </p>
+        {% endif %}
+    </div>
+{% endblock %}

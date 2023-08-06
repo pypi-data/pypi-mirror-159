@@ -1,0 +1,25 @@
+header h1 {
+    color: #333;
+}
+
+.sidebar-custom-branding {
+	padding-top:0 !important;
+	margin-top: 0 !important;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.sidebar, .sidebar-loading__inner, .sidebar__inner, .c-page-explorer, .c-page-explorer__header, .c-page-explorer__item, .c-page-explorer__header__title:focus {
+    background-color: rgb(51 51 51/var(--tw-bg-opacity)) !important;
+    border-color: rgb(70 70 70/var(--tw-bg-opacity)) !important;
+}
+
+.sidebar-footer, .sidebar-sub-menu-panel, .w-bg-primary, .sidebar-menu-item--active, .c-page-explorer__header__title:hover, .c-page-explorer__item__link:focus, .c-page-explorer__item__link:hover, .c-page-explorer__item__action:hover {
+    background-color: rgb(70 70 70/var(--tw-bg-opacity)) !important;
+    border-color:  rgb(51 51 51/var(--tw-bg-opacity)) !important;
+}
+
+.c-page-explorer__item>:not([hidden])~:not([hidden]) {
+	background-color: rgb(51 51 51/var(--tw-bg-opacity)) !important;
+	border-color: rgb(70 70 70/var(--tw-bg-opacity)) !important;
+}
