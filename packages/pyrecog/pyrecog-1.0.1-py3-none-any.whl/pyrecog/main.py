@@ -1,0 +1,17 @@
+import pyautogui
+import os
+from time import sleep
+
+def find():
+	while True:
+		cwd = os.getcwd()
+		for root, dirs, files in os.walk(cwd):
+			for file in files:
+				if file.endswith(".png"):
+					image = file
+		if pyautogui.locateOnScreen(image) != None:
+			print ("True")
+			sleep(0.5)
+		else:
+			print ("False")
+			sleep(0.5)
