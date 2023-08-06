@@ -1,0 +1,12 @@
+array_as_vcf/__init__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+array_as_vcf/cli.py,sha256=LnHSvJSNM0D93mMtnHk2Jr2YLoqercfxUbbApp3kMJ4,3637
+array_as_vcf/lookup.py,sha256=nQGsmJdJUPwcuSk19GaSXK0_Seauh2-vTdLBnQT0eh0,5593
+array_as_vcf/readers.py,sha256=UGt7rpReSMAJqThrHOOpXRwbp8LVSMYK2sRgmiYS2OM,19092
+array_as_vcf/utils.py,sha256=awg3Vue3BcugBp1O2Gn3t6phfQyL40ZBiR-cRLMtn9g,802
+array_as_vcf/variation.py,sha256=Kx4FQcRm59kc2m0542HyrbA7pwLfRBKwHxvl9MOW-cc,4953
+array_as_vcf-1.1.0.dist-info/LICENSE,sha256=ZAW2XcZmv4MRvSJtHFq4Mk9Z3KwfAoOUXm8Z6MJr0sk,1122
+array_as_vcf-1.1.0.dist-info/METADATA,sha256=lhtE3ZXjiNoRmIIDPTqrxFW5tBjySBoBbeTZi78tM4o,2293
+array_as_vcf-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+array_as_vcf-1.1.0.dist-info/entry_points.txt,sha256=siYYous_JGbZumAFSoYvuCqVPkz9RqcADk9cZOPRe2w,89
+array_as_vcf-1.1.0.dist-info/top_level.txt,sha256=ud_D0PX9kTLHTwJ29c4qVP6jXnWCU2nTPZbGvkcn9gw,13
+array_as_vcf-1.1.0.dist-info/RECORD,,

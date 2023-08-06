@@ -1,0 +1,3 @@
+[console_scripts]
+aav = array_as_vcf.cli:convert
+array-as-vcf = array_as_vcf.cli:convert
