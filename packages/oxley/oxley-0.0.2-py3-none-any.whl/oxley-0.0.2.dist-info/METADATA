@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: oxley
+Version: 0.0.2
+Summary: Dynamically generate pydantic classes from JSONschema at runtime
+Home-page: https://github.com/jsstevenson/oxley
+Author: James Stevenson
+Author-email: james.sharpsteen@gmail.com
+Maintainer: James Stevenson
+Maintainer-email: james.sharpsteen@gmail.com
+License: MIT
+Download-URL: https://github.com/jsstevenson/oxley/releases
+Project-URL: Bug Tracker, https://github.com/jsstevenson/oxley/issues
+Keywords: typing,pydantic,JSONschema
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: types-requests ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+<h1 align="center">
+    Oxley: Pydantic classes from JSON schema
+</h1>
+
+**Oxley** generates [Pydantic](https://github.com/samuelcolvin/pydantic) classes at runtime from user-provided JSON schema documents. Heavily indebted to packages like [Python-JSONschema-Objects](https://github.com/cwacek/python-jsonschema-objects), Oxley enables data validation pipelines to function dynamically, and with the help of Pydantic, interface directly with popular web frameworks such as [FastAPI](https://github.com/tiangolo/fastapi) and [Starlite](https://github.com/starlite-api/starlite).
+
+## Quick start
+
+Install from PIP:
+
+```shell
+python3 -m pip install oxley
+```
+
+Given a simple JSONschema document:
+
+```json
+{
+  "$id": "https://github.com/jsstevenson/oxley",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$defs": {
+    "User": {
+      "type": "object",
+      "properties": {
+        "username": {"type": "string"},
+        "user_id": {"type": "number"}
+      },
+      "required": ["username", "user_id"]
+    },
+    "Post": {
+      "type": "object",
+      "properties": {
+        "author": {"$ref": "#/$defs/User"},
+        "content": {"type": "string"},
+        "allow_responses": {"type": "boolean"}
+      },
+      "required": ["author", "content"]
+    }
+  }
+}
+```
+
+Provide a schema and construct classes:
+
+``` python
+from oxley import ClassBuilder
+schema_path = "path/to/my_jsonschema_document.json"
+cb = ClassBuilder(schema_path)
+User, Post = cb.build_classes()
+```
+
+The resulting objects are functioning Pydantic classes, providing features like runtime data validation and matching schema output.
+
+``` python
+dril = User(username="dril", user_id=99)
+post = Post(author=dril, content="should i learn Letters first?  or choose the path of Numbers? a queston every baby must ask it self")
+another_post = Post(author=dril)  # raises pydantic.ValidationError
+```
+
+## Development
+
+Clone and install dev and test dependencies:
+
+``` shell
+git clone https://github.com/jsstevenson/oxley
+cd oxley
+# make virtual environment of your choosing
+python3 -m pip install ".[dev,test]"
+```
+
+Install pre-commit hooks:
+
+``` shell
+pre-commit install
+```
+
+Run tests with tox:
+
+```
+tox
+```
+
+MIT License
+
+Copyright (c) 2022 James Stevenson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
