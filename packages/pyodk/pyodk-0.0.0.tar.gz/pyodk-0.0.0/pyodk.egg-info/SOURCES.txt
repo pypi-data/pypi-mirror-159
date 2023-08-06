@@ -1,0 +1,8 @@
+LICENSE.md
+README.md
+setup.py
+pyodk/__init__.py
+pyodk.egg-info/PKG-INFO
+pyodk.egg-info/SOURCES.txt
+pyodk.egg-info/dependency_links.txt
+pyodk.egg-info/top_level.txt
