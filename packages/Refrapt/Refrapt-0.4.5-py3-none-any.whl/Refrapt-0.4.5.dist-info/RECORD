@@ -1,0 +1,12 @@
+Refrapt-0.4.5.data/data/refrapt/refrapt.conf.example,sha256=GZxO601O6kOV4qYNwDIsPyPPzVgIg-mXchNLyxtUZvQ,4844
+refrapt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+refrapt/classes.py,sha256=UIH6ZUcpd1P2fx6L2JkKSk94Xc2SfbiTgojlhqYf8-8,40133
+refrapt/helpers.py,sha256=6UuMapXmGNlfi0rspYyZL-peIFAc5e6t3B7Z2rTDUXQ,2193
+refrapt/refrapt.py,sha256=KL9x8IkcuJiVzCUpKgofqxf3xTuDfm4ifuNW_7in8nc,18476
+refrapt/settings.py,sha256=w2pO0NfgtZTGgJ0jlnQTI-e_e6GLN6Pu7WEsz4uukcE,7766
+Refrapt-0.4.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+Refrapt-0.4.5.dist-info/METADATA,sha256=eRlBvV_d2t5Gwd8VLT9SlqcjTupQ9mn-BMbhcKXTibc,8394
+Refrapt-0.4.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Refrapt-0.4.5.dist-info/entry_points.txt,sha256=0UAF3mvXBaBcq6HjNIRDqxPjI1HKWHNd42JcOecp7jU,50
+Refrapt-0.4.5.dist-info/top_level.txt,sha256=RyECO4fpHi7oK5DMrmEloXctyEXDAEad51i7Wu_DhLU,8
+Refrapt-0.4.5.dist-info/RECORD,,
