@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: BoostCLI
+Version: 0.2.2
+Summary: Boost CLI
+Author-email: boostcli.v1pty@slmail.me
+Requires-Python: >=3.7
+Provides-Extra: tests
+License-File: LICENSE
