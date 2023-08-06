@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+dilbert/__init__.py
+dilbert/comic.py
+dilbert/endpoints.py
+dilbert/utils.py
+dilbert.py.egg-info/PKG-INFO
+dilbert.py.egg-info/SOURCES.txt
+dilbert.py.egg-info/dependency_links.txt
+dilbert.py.egg-info/requires.txt
+dilbert.py.egg-info/top_level.txt
