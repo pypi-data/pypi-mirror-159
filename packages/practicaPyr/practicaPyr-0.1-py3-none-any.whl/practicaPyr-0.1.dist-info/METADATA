@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: practicaPyr
+Version: 0.1
+Summary: Practica para utilizaxion de R en Python
+Home-page: UNKNOWN
+Author: Pablo
+Author-email: Pablon_226@hotmail.com
+License: GNU GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+
+## PractuaPyr
+### Creada para ejercicio de clase EIP
+
+Esto progrma no sirve para nada mas que mostrar numero primos
+
+GNU General Public License v3 (GPLv3)
+
+
