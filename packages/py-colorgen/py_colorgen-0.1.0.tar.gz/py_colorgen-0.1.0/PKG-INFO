@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: py-colorgen
+Version: 0.1.0
+Summary: A python script to create random color combination generator
+License: WTFPL
+Author: Arslan909
+Author-email: Arslan909@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+# Py_colorgen
+
+A python based random color generator(Hex, rgb, hsl)
+
+## System Requirements
+
+-   Python3
+
+## Installation Instructions
+
+```py
+pip install Py_colorgen
+```
+
+## Options
+
+```
+  -h, --help                    show this help message and exit
+
+  -r --rgb                      RGB random color combination and exit
+
+  -s --hsl                      HSL random color combination and exit
+
+  On default it generates Hex color combination and exit
+```
