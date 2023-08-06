@@ -1,0 +1,10 @@
+cn_clip-1.0.data/data/clip/vocab.txt,sha256=RbusazQcMZrcmKUyUyiC6Rqc78AymqV7rJrnYcJ7KRw,109540
+cn_clip-1.0.data/data/clip/model_configs/RoBERTa-wwm-ext-base-chinese.json,sha256=wBHp4OaxgiqWVqUHFPmqk9EjW2cVY32bozWe_DxYhRk,394
+cn_clip-1.0.data/data/clip/model_configs/RoBERTa-wwm-ext-large-chinese.json,sha256=sNlg9vh036uJfqpTKZju1bPIzkpaik5VS6NBjr3BIb4,393
+cn_clip-1.0.data/data/clip/model_configs/ViT-B-16.json,sha256=AcHIeViEtk5-5e4OYYUYnGPEjkHNZmVTois2lA-jmYo,132
+cn_clip-1.0.data/data/clip/model_configs/ViT-B-32.json,sha256=3ShcJnawYe0FgParAlglu1NLe5qKIUJxHRVY5o4eL6o,132
+cn_clip-1.0.data/data/clip/model_configs/ViT-L-14.json,sha256=d9ImVuRiXcT6-Bo7iWY13KcjEgZIQ7YW6fRZWbffWbw,133
+cn_clip-1.0.dist-info/METADATA,sha256=Fbp-flJzYnWfygTvjOcTyG99PVukqn4WskrnkRSe0V4,19358
+cn_clip-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cn_clip-1.0.dist-info/top_level.txt,sha256=HVBN4ycV9i2kh54F1ogUC6p7iiJtWzaO7C8kEN4vnT4,8
+cn_clip-1.0.dist-info/RECORD,,
