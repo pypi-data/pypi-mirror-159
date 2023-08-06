@@ -1,0 +1,9 @@
+-r requirements.txt
+pytest
+# coverage
+jupyter
+nbconvert
+gitpython
+flake8
+tox
+sphinx_rtd_theme
