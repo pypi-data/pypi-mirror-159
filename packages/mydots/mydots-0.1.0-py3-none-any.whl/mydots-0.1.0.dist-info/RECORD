@@ -1,0 +1,7 @@
+mydots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mydots/__main__.py,sha256=CQGUIN3iqwaVxh4Aj_ubhM7m2hNjMDx26pEqgS_MLSE,36
+mydots/cli.py,sha256=L75yMHRNXNtPtuPh9MnGKjBAc4wHTVyYPCA786Zwi3w,498
+mydots/extractor.py,sha256=61pCjq2mKDapSEZcMI6bRWcZUU11WtI4a69Dap_zQeI,1928
+mydots-0.1.0.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+mydots-0.1.0.dist-info/METADATA,sha256=pZBZIHgr70gzt60KgSh4wBiQQvdT1TPN3sHIMMgklcU,353
+mydots-0.1.0.dist-info/RECORD,,
