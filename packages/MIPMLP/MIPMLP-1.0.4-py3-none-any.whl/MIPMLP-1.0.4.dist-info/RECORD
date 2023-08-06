@@ -1,0 +1,10 @@
+MIPMLP/__init__.py,sha256=CaG4vl5eE2FM7WQghtUzOCkvARlX0sChz4rNVL_9Ozo,31
+MIPMLP/create_otu_and_mapping_files.py,sha256=S2XzQH0cTTjAJoNJLHpX-a4-28W8_Ke-gH_Zzf2E_AA,6643
+MIPMLP/distance_learning_func.py,sha256=pESPWLcrTiOBn-n-QESUjerrZ2gvsppJbqtCW8larlA,3198
+MIPMLP/general.py,sha256=AsleICyPiVxq3Lnd4rmizo5OEV52l535gAUP4U_a2ko,4816
+MIPMLP/preprocess_grid.py,sha256=FzjwxSH0xUzpgjwOEqQlC0N0mCi0s4iiGww_6nUgx-M,13477
+MIPMLP/service.py,sha256=0D4NH0-LrQff6IiyQ7AtzrDVetMpoHsxM5H9Srs8lmY,1128
+MIPMLP-1.0.4.dist-info/METADATA,sha256=66ibfHEe3hQEq18cTj_oVKx4vMBmMrmODWsXdElnhdY,278
+MIPMLP-1.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+MIPMLP-1.0.4.dist-info/top_level.txt,sha256=PgYTqtyW-loeLw23z-0w8BIHLfDI4dWlp0YnBHgGs3k,7
+MIPMLP-1.0.4.dist-info/RECORD,,
