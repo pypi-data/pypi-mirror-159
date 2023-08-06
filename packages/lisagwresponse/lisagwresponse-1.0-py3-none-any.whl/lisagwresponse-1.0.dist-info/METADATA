@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: lisagwresponse
+Version: 1.0
+Summary: LISA GW Response generates the instrumental response to gravitational-waves, and produces a gravitational-wave file compatible with LISANode.
+Home-page: https://gitlab.in2p3.fr/lisa-simulation/gw-response
+Author: Jean-Baptiste Bayle
+Author-email: j2b.bayle@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: h5py
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: healpy
+
+# LISA GW Response
+
+Python package generating the instrumental response to gravitational-waves, and produce a gravitational-wave (GW) file compatible with [LISANode](https://gitlab.in2p3.fr/j2b.bayle/LISANode).
+
+The HDF5 GW file has the following structure,
+```
+  |- TCB time dataset `t`, of shape (N), in s
+  |
+  |- link datasets `l_12`, `l_23`, `l_31`, `l_13`, `l_32`, and `l_21`, of shape (N),
+  |  containing the link response in fractional frequency fluctuations
+  |
+```
+
+Metadata for each gravitational signal are saved as attributes of the GW file.
+
+You can use pre-generated GW files, or create your own files by injecting one or more gravitational signals. Please read carefully this README for more information. Documentation is available as docstring [here](https://gitlab.in2p3.fr/lisa-simulation/gw-response/-/blob/master/lisagwresponse/core.py).
+
+### Use pre-generated GW files
+
+In the table below, we list each GW file automatically generated and available for download. We provide a link to download the GW file, and a link to quickly visualize its content.
+
+| Name | Description | GW file | Plots and figures |
+|------|-------------|---------|-------------------|
+| Single face-on galactic binary | Single face-on galactic binary (parameters here). | [impulse-tm.h5](https://gitlab.in2p3.fr/lisa-simulation/gw-response/-/jobs/artifacts/master/raw/faceon-galbin.h5?job=faceon-galbin) | [GW Response](https://gitlab.in2p3.fr/lisa-simulation/gw-response/-/jobs/artifacts/master/browse?job=faceon-galbin) |
+
+### Generate a custom GW file
+
+Make sure that Python 3.7 or newer is available, and install `lisagwresponse` using [pip](https://pip.pypa.io/en/stable/),
+```
+pip install git+https://gitlab.in2p3.fr/lisa-simulation/gw-response.git
+```
+
+You can create a new GW file, or inject one or more gravitational signals to an existing file,
+```python
+import lisagwresponse
+lisagwresponse.GalacticBinary(A=1E-20, f=1E-3, orbits='orbits.h5', gw_beta=0, gw_lambda=0).write('gw.h5')
+lisagwresponse.StochasticPointSource(1E-24, orbits='orbits.h5', gw_beta=pi/2, gw_lambda=pi/2).write('gw.h5')
+lisagwresponse.StochasticBackground(skymap, orbits='orbits.h5').write('gw.h5')
+```
+
+You can use random values for any parameters, and loops to superimpose multiple signals,
+```python
+import numpy
+for _ in range(1000):
+  amplitude = numpy.random.normal(1E-20, 1E-21)
+  frequency = numpy.random.uniform(5E-4,2E-3)
+  gw_beta, gw_lambda = numpy.random.uniform(0, pi/2), numpy.random.uniform(0, 2 * pi)
+  lisagwresponse.GalacticBinary(amplitude, frequency, orbits='orbits.h5', gw_beta=gw_beta, gw_lambda=gw_lambda).write()
+```
+
+ Below is a list of available gravitational-wave generator classes.
+
+| Gravitational-wave source | Class | Description | Figure |
+|-------------|--------------|-------------|--------|
+| Chirping galactic binary | `GalacticBinary` | Chirping galactic binary, defined by a frequency `d` and its first derivative `df`. A galactic binary is also defined by its amplitude `A`, initial phase `phi0`, inclination `iota` and polarization `psi`. | [Strain and response](https://gitlab.in2p3.fr/lisa-simulation/gw-response/-/jobs/artifacts/master/file/galactic-binary.pdf?job=galactic-binary) |
+| Stochastic background | `StochasticBackground` | Stochastic gravitational-wave background, defined by a `skymap` of frequency-independent power, and `orbits`. It is simulated by superimposing one stochastic point source per sky map pixel. | [Sky map and response](https://gitlab.in2p3.fr/lisa-simulation/gw-response/-/jobs/artifacts/master/file/stochastic-background.pdf?job=stochastic-background) |
+| Stochastic point source | `StochasticPointSource` | Stochastic gravitational-wave point source, defined by a sky position (`gw_beta` and `gw_lambda`), a power spectral density `psd`, and `orbits`. The strain is generated as a Gaussian white noise. | [Strain and response](https://gitlab.in2p3.fr/lisa-simulation/gw-response/-/jobs/artifacts/master/file/stochastic-point-source.pdf?job=stochastic-point-source) |
+| Read strain time-series | `ReadStrain` | Compute response by spline-interpolating gravitational strain time-series `hplus` and `hcross` given at times `t`. | None |
+| Read response time-series | `ReadGWResponse` | Reads already-computed time series for the response of each arm `y_12`, `y_23`, `y_31`, `y_13`, `y_32`, `y_21`, given at times `t`. | None |
+
+### Plot gravitational-wave response
+
+Use the functions `plot()` to generate figures showing the link responses to gravitational-wave signals. When the gravitational-wave strain is available, it is also shown along side with the link responses. For stochastic background, the power sky map is also plotted; you can also use `plot_pixel(i)` to plot the strain and response of a single pixel on the map.
+```
+python -c "import lisagwresponse; lisagwresponse.GalacticBinary(A=1E-20, f=1E-3, orbits='orbits.h5', gw_beta=0, gw_lambda=0).plot('galbin.png')"
+python -c "import lisagwresponse; lisagwresponse.StochasticBackground(skymap, orbits='orbits.h5').plot_pixel(123)"
+```
+
+## Contributing
+
+### Report an issue
+
+We use the issue-tracking management system associated with the project provided by Gitlab. If you want to report a bug or request a feature, open an issue at https://gitlab.in2p3.fr/lisa-simulation/gw-response/-/issues. You may also thumb-up or comment on existing issues.
+
+### Development environment
+
+We strongly recommend to use [Python virtual environments](https://docs.python.org/3/tutorial/venv.html).
+
+To setup the development environment, use the following commands:
+```
+git clone git@gitlab.in2p3.fr:lisa-simulation/gw-response.git
+cd gw-response
+python -m venv .
+source ./bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### Workflow
+
+The project's development workflow is based on the issue-tracking system provided by Gitlab, as well as peer-reviewed merge requests. This ensures high-quality standards.
+
+Issues are solved by creating branches and opening merge requests. Only the assignee of the related issue and merge request can push commits on the branch. Once all the changes have been pushed, the "draft" specifier on the merge request is removed, and the merge request is assigned to a reviewer. He can push new changes to the branch, or request changes to the original author by re-assigning the merge request to them. When the merge request is accepted, the branch is merged onto master, deleted, and the associated issue is closed.
+
+### Pylint and unittest
+
+We enforce [PEP 8 (Style Guide for Python Code)](https://www.python.org/dev/peps/pep-0008/) with Pylint syntax checking, and correction of the code using the unittest testing framework. Both are implemented in the continuous integration system.
+
+You can run them locally
+```
+pylint **/*.py
+python -m unittest -v
+```
+
+## Contact
+
+* Jean-Baptiste Bayle (j2b.bayle@gmail.com)
