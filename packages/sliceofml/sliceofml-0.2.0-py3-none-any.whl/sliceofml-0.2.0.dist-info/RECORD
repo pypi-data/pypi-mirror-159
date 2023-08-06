@@ -1,0 +1,11 @@
+sliceofml/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+sliceofml/api.py,sha256=4JPDBfmKx9nzKer5uRsfd0FCCpWhyablXrEMdAPwMHs,2826
+sliceofml/apikey.py,sha256=DU6TxAltTPvmROROVAbI-1nDFA6Q1aovJoo1IkFp2Ro,4294
+sliceofml/cli.py,sha256=cxt_0ggEbEfL4pGzdbZlxSpw6xikM5uG691oeiW9Ekk,1840
+sliceofml/config.py,sha256=rwhkAlQW0_TMeNgCBhREpBx8eV0OTYQFd0b6n0HyB6c,82
+sliceofml/display.py,sha256=mnKD_AVBBAyLpCDSUrlti0esCrX6SpYrMEp-X0JqzqI,2159
+sliceofml-0.2.0.dist-info/entry_points.txt,sha256=MI5OKIiee9Bwf38dcGq4X2n9dN1w9UwrgIzVfKd1mHA,47
+sliceofml-0.2.0.dist-info/LICENSE,sha256=4y9krTglkxfEQcvANwFtwNj3N9Q-MFm_8WywixgOWqo,1062
+sliceofml-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sliceofml-0.2.0.dist-info/METADATA,sha256=lX2TVwRvz12wDMwp4s9LZXQeUhKensEeEEm3939_PiA,560
+sliceofml-0.2.0.dist-info/RECORD,,

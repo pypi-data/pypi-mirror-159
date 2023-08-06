@@ -1,0 +1,3 @@
+[console_scripts]
+sliceofml=sliceofml.cli:cli
+
