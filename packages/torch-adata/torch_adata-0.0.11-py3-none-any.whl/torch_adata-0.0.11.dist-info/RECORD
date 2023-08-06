@@ -1,0 +1,9 @@
+torch_adata/_BaseTorchAnnDataset.py,sha256=2h6MobxvaHKE18ILslBR-INDNvxcezU_gRxy3YKDtow,1284
+torch_adata/_GroupedAnnDataset.py,sha256=KU6asfObW2APJMoJiht6n5SgYe08d-VBLhhSsI6FZbM,986
+torch_adata/_TimeResolvedAnnDataset.py,sha256=UevAiygvA2QiyZr7WJ7K3BUwvCBqdRaF_SYNQURYRvk,904
+torch_adata/__init__.py,sha256=16JbOhevBwXhA4kT-3CJfACCkP6TNnyCuaYEE5i_ZTU,354
+torch_adata-0.0.11.dist-info/LICENSE,sha256=jXNk8OCt5ZKcsUH97c3CKMzPjoa6z2j2Adwg0Wxbw9A,1072
+torch_adata-0.0.11.dist-info/METADATA,sha256=3c7oRKc-lFlHv3wtPYBIgFIoYZZ1j6LJxQQ5b7bC8C8,2718
+torch_adata-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torch_adata-0.0.11.dist-info/top_level.txt,sha256=YV2ZSDygaWQAoxbXUQdmL-H4-8HiChIf7RtDWD8y0tk,12
+torch_adata-0.0.11.dist-info/RECORD,,
