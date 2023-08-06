@@ -1,0 +1,15 @@
+numpy
+pyyaml
+pandas
+openpyxl
+pyfai
+ipython
+bluesky
+databroker
+ophyd
+xpdconf
+xpdsim
+bluesky-darkframes
+scikit-image
+pyopencl
+frozendict
