@@ -1,0 +1,9 @@
+spotify_recommender_api/__init__.py,sha256=eAFl6268qA4nmIlnubQ4w8wznduMfMj0fmAHBVFcebU,21
+spotify_recommender_api/authentication.py,sha256=O6MWs8KZUpiyNBVIWnG1RTj-lVYaeYJfekqjQNszjJM,891
+spotify_recommender_api/recommender.py,sha256=Mlepx3b06pz0w_q7epyLg63YCLluWgH3rwpAOgeb7U4,44013
+spotify_recommender_api/sensitive.py,sha256=Xn2FFn4uUk94Ei_It1U2iT5ZZEafHBt9q--lSPwlaoI,99
+spotify_recommender_api/util.py,sha256=tYsTvLE9t75VSWXOQsuj-gbiCVq_8uBEthM0-_jOuxA,13206
+spotify_recommender_api-3.1.0.dist-info/METADATA,sha256=pryMJJp-L2fII1Q61T3o7PQ9seQT1PoOSNGgIjqVSGc,12435
+spotify_recommender_api-3.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spotify_recommender_api-3.1.0.dist-info/top_level.txt,sha256=X65Ob3YNye88oWqQCXBvKpEUdmLQvio-wg4Ra2Gsh-c,24
+spotify_recommender_api-3.1.0.dist-info/RECORD,,
