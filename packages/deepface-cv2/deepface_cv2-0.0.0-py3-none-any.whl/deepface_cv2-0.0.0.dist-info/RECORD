@@ -1,0 +1,16 @@
+deepface_cv2/DeepFace.py,sha256=E3NO2LI5RMuyLh9ncg3zKNiAxB1DX6-tMLp99m74kZw,13111
+deepface_cv2/FaceDetector.py,sha256=38szK5VhfniDvQ7arHvQFgyEEHEnUmzrWk7VzgnU7vg,3227
+deepface_cv2/__init__.py,sha256=O9CT1B2F-cVB8elT0EoCJbgkcffjvlmqteqavs4giDg,25
+deepface_cv2/preprocess.py,sha256=PeKlEqgTNpLfsqHCi5EQ0zgHT0SpwnbRrJdkTTSt8B4,6808
+deepface_cv2/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepface_cv2/tests/age_predict.py,sha256=RZyOAZOZAxDLZBDlraeyD6b1cD1gMZM142NY5P0K0jc,1158
+deepface_cv2/tests/analyze_test.py,sha256=e8MT5KqlauC1wFfwVJU9RbEQ6tRVLNEj4_A6R2DEaqs,537
+deepface_cv2/tests/convert_to_onnx.py,sha256=VAR7SY71sJBDqCsbAwEifY541l284FKTHZkD-KZATy8,1818
+deepface_cv2/tests/emotion_predict.py,sha256=MsxMAYbX9hmSnE2FQ97tdn6LYC-WdzSy5Y_PQ1rEpKY,1505
+deepface_cv2/tests/gender_predict.py,sha256=fSkkzk2-BszfIYwwbCcnK32KAh2zL9rZE8vquAOGbmI,1192
+deepface_cv2/tests/race_predict.py,sha256=2GVVIHc2OF7p0FF3d5Z5aKEqXlgavnqonwH_AcEkn0A,1457
+deepface_cv2-0.0.0.dist-info/LICENSE,sha256=tHGofNLmdaY7uuHTIK4uhEB99Lr7WxuHNbOytI3qZ5Q,1076
+deepface_cv2-0.0.0.dist-info/METADATA,sha256=ogqU1bxTMQYwdbZ72y9HTFh5owhgmvo6f0F7lxuXg6g,21427
+deepface_cv2-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+deepface_cv2-0.0.0.dist-info/top_level.txt,sha256=Cssp0jNO7ywOwhCjqVEvOtD-2F3U6vFGObVxbSbh4c8,13
+deepface_cv2-0.0.0.dist-info/RECORD,,
