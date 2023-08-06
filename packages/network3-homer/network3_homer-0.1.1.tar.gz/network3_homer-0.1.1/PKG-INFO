@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: network3-homer
+Version: 0.1.1
+Summary: Automated Business Ready Documents from network state stored on Hedera
+Author: John Capobianco
+Author-email: ptcapo@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: hedera-sdk-py (>=2.16.3,<3.0.0)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# network3_homer
+Business ready documentation from network state stored on Hedera
+
+## Setup
+### Setup Python virtual environment
+```console
+$ python3 -m venv homer
+$ source homer/bin/activate
+(homer) $
+```
+### Setup Python virtual environment
+```console
+(socrates) $ pip install network3_homer
+```
+
+### Setup environment (Ubuntu with Java 11 OpenJDK)
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
+export OPERATOR_ID={ Hedera Account }
+export OPERATOR_PRIVATE_KEY={ Hedera private key }
