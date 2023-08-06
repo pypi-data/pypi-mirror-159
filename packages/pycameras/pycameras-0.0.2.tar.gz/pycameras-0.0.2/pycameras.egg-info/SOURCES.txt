@@ -1,0 +1,7 @@
+README.md
+setup.py
+pycameras.egg-info/PKG-INFO
+pycameras.egg-info/SOURCES.txt
+pycameras.egg-info/dependency_links.txt
+pycameras.egg-info/requires.txt
+pycameras.egg-info/top_level.txt
