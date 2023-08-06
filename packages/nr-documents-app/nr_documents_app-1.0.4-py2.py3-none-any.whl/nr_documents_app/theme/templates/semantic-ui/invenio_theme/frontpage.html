@@ -1,0 +1,7 @@
+{%- extends config.BASE_TEMPLATE %} {%- block javascript %} {{ super() }} {{
+webpack['nr-documents-search.js'] }} {{webpack.__dir__()}}{%- endblock
+javascript %} {%- block page_header %} {%- include
+"invenio_theme/header_frontpage.html" %} {%- endblock page_header %} {%- block
+page_body %}
+<div id="search-app"></div>
+{%- endblock %}
