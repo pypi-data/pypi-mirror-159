@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+Source/Wicky.c
+Wicky.egg-info/PKG-INFO
+Wicky.egg-info/SOURCES.txt
+Wicky.egg-info/dependency_links.txt
+Wicky.egg-info/top_level.txt
+wicky/Wicky.py
