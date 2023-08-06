@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pipex
+Version: 1.0.0
+Summary: Purpose
+Home-page: http://github.com/simonm3/pipex.git
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: prefect
+Requires-Dist: PyYAML
+
+UNKNOWN
+

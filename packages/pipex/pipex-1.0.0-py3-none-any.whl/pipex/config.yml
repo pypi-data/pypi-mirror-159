@@ -1,0 +1,6 @@
+gcontext:
+  path: "working"
+  base: ""
+gsettings:
+  pipex: "cache"
+  target_template: "{path}/{funcname}/{base}"
