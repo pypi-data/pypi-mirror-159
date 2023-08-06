@@ -1,0 +1,12 @@
+mensajes/__init__.py,sha256=-8H5W0Sre1mNWvNSdpdOYRdi5LSaVou3nOvKVscdAa8,37
+mensajes/adios/__init__.py,sha256=MINwaK4ndwkH1Hn_OjFiQM5UFElIOjoMGiZCzCTLPaU,48
+mensajes/adios/despedidas.py,sha256=vXrkOA286J794Eeww_mrvx3u3yau5VtqdT3kRFYCm1o,183
+mensajes/hola/__init__.py,sha256=3XQIgStjjAkG5Gcap8VHMbJADF5ElVCicEE73WIHsr8,45
+mensajes/hola/saludos.py,sha256=pmCuxnw2Fjyd40V7FfzbEpN1FWOgnJJFKuntv8QVnHM,382
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=l1MqyG6IdZN61OezvOthb7jKPglCSUaupAT0SXwcly0,278
+mensajes_hponcedeleon-6.1.dist-info/LICENSE,sha256=WnyUUoBWMeYhLXl-rmza001ASsSgSR4IdwiGtuo0AUg,1094
+mensajes_hponcedeleon-6.1.dist-info/METADATA,sha256=rKJkA3ByFjSQTetO8ZhXv-WI2pljwlJuvrPfhC_3Idk,713
+mensajes_hponcedeleon-6.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mensajes_hponcedeleon-6.1.dist-info/top_level.txt,sha256=gD40JdIxiaPRvMl4iCu3Edq1ctVrOdqjON-Ms9kPSQk,15
+mensajes_hponcedeleon-6.1.dist-info/RECORD,,
