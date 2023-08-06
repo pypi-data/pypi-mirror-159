@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "simsalabim"
+version = "0.2.0"
+description = "Simple Interface for MS Applications"
+authors = ["Matthew The <matthew.the@tum.de>"]
+license= "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/kusterlab/SIMSI-Transfer"
+repository = "https://github.com/kusterlab/SIMSI-Transfer"
+keywords = ["mass spectrometry", "proteomics"]
+include = [
+  "LICENSE"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+psims = "^1.0.1"
+numpy = "^1.23.1"
+pyteomics = "^4.5.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
