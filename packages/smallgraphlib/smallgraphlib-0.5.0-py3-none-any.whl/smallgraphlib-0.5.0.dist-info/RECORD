@@ -1,0 +1,10 @@
+smallgraphlib/__init__.py,sha256=6CJ8ysf3zMcIqoCDhgoqRf2a4eaLqbsO3hErLXKprlQ,816
+smallgraphlib/basic_graphs.py,sha256=d7E2wT-__9qvRkks2Pma-NC3IPFdFnIzPso5n9XPz_Q,9429
+smallgraphlib/core.py,sha256=wMV4SRIVRaLqQQJmQAA6ZQwtkbN9KOkTg3kaM5zuthE,37410
+smallgraphlib/graphs_constructors.py,sha256=0-e-MnTb3XLSaXkchgfAdeuHmYjISl7pxaHaROLha0o,7784
+smallgraphlib/labeled_graphs.py,sha256=SRJsx7sr1CmBiIIEOSY7m33z7CkWVqUbCyNBRkDX7sg,12904
+smallgraphlib/trees.py,sha256=FDo_nPIRhXTPDsAcG6SsH4UdikcHBcbixmXxZ9P7dUU,2525
+smallgraphlib/utilities.py,sha256=TL64-b1bwiVs2nqqDryF5h8ah5QtLFN8AGuHo2oACJo,4372
+smallgraphlib-0.5.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+smallgraphlib-0.5.0.dist-info/METADATA,sha256=afXtlSaLvnfCVMmssshCbj7BswxRgcmNSl9vX42RjoE,2358
+smallgraphlib-0.5.0.dist-info/RECORD,,
