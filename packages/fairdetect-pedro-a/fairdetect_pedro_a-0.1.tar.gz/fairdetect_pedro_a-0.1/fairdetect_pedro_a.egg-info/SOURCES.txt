@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+fairdetect_pedro_a/__init__.py
+fairdetect_pedro_a.egg-info/PKG-INFO
+fairdetect_pedro_a.egg-info/SOURCES.txt
+fairdetect_pedro_a.egg-info/dependency_links.txt
+fairdetect_pedro_a.egg-info/not-zip-safe
+fairdetect_pedro_a.egg-info/top_level.txt
