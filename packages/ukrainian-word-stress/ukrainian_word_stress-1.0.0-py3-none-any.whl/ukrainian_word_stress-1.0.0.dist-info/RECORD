@@ -1,0 +1,13 @@
+ukrainian_word_stress/__init__.py,sha256=IPGxr42lN16P5VzQ8gd2goFWuPCoi0toxRk9ryHFXG4,86
+ukrainian_word_stress/cli.py,sha256=vwNKIvVNlKbnGSaW9sRuW6GLBd6QAJdHUir8E4SEGYo,1349
+ukrainian_word_stress/compile_dict.py,sha256=6EIRFLtZqhQEG6_4LqbS777LhtmvliWHmXQRhkTcYAk,4166
+ukrainian_word_stress/mutable_text.py,sha256=x8gG8IwBsIjEzEtllQZEFiznvRyvFy9cNP1EzMEc_6M,1677
+ukrainian_word_stress/stressify_.py,sha256=dp540DpN-DWabX3pwYObZe5vT0Pt-kQKIZ3c7WkP6aM,6720
+ukrainian_word_stress/tags.py,sha256=msO5eFFiTEvk3nISfEyEbxfwZTrhsUN-wB1KrIrR0zc,1665
+ukrainian_word_stress/data/stress.trie,sha256=4On47UnE8DMbAgg5gMTkrQbm_AkF-RHLF5XyUKkQvSc,12596216
+ukrainian_word_stress-1.0.0.dist-info/LICENSE,sha256=L0yMygOOF0jDW6yrx-72CKvbpjaEBBt9JPJRTdroLz8,1064
+ukrainian_word_stress-1.0.0.dist-info/METADATA,sha256=_nteJIycMXPwlbspf8CQgL8hj0gbpQ9QQ4cWdYqeuv4,7150
+ukrainian_word_stress-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ukrainian_word_stress-1.0.0.dist-info/entry_points.txt,sha256=z1WuGZzBvyrQpJpp6tR0926MmLJG5dJy5WTTaOzpqTE,74
+ukrainian_word_stress-1.0.0.dist-info/top_level.txt,sha256=Ozaa0pAsO0jEgzQZhm7Dlx_x0zjI2J6wmXplZspaDb4,22
+ukrainian_word_stress-1.0.0.dist-info/RECORD,,
