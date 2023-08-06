@@ -1,0 +1,17 @@
+grai_client/__init__.py,sha256=lXclD-OTlvXomkrLtewEmVJ5xx3P4ewteTf8gG-_rAc,104
+grai_client/authentication.py,sha256=rvdxg87-3zT_rlbm_MpYcDVRS3Wy6VTU7uJ87kjGr14,1100
+grai_client/endpoints/__init__.py,sha256=YQKbQus1P6gM8X98Pknbu_uCXUrVyauhQv_x5_9wzHQ,78
+grai_client/endpoints/client.py,sha256=lw6LQw3zOeLyA21CsskpQSa_qzVuMWw9ua1MdwSYNcU,1082
+grai_client/endpoints/v1/__init__.py,sha256=p75BQY1o2iOhUhe6UyCV62KHBnVX4dX3w0sD18UEz8A,169
+grai_client/endpoints/v1/client.py,sha256=VHONnIFMNyv49w5saZEwWiaAWqdt3RURYQxOVqknMCA,1188
+grai_client/endpoints/v1/get.py,sha256=Ae-A4t8EPlh_4Jnrdg-DsRnjpI72H4SDAWhUy50HSEc,1161
+grai_client/endpoints/v1/post.py,sha256=4A95FNbjoXXvdW9itORDNwcERwiSXuXqwI2CqlJ1gJg,2089
+grai_client/endpoints/v1/put.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grai_client/schemas/__init__.py,sha256=hFqGyUvvMXe1MyF_W4ZnZJ3sKg_qm0zI2XbsL5RzCRg,155
+grai_client/schemas/edge.py,sha256=UOnA26567jrZMEeaYzIl_9skQZTOHJgcKENzQ6xR-4Y,911
+grai_client/schemas/node.py,sha256=4pG_M8vK7_Dr4fTVv7ucfGqhqaQA1fiFVigPIy9NjwI,789
+grai_client/schemas/schema.py,sha256=pE6eYdtpimcUmKKjA--M_eO8gSoLoY7fMxUOC93drqA,851
+grai_client/schemas/utilities.py,sha256=juJpK4swa7ZBv5LRILB1ZVtLNzzteyi_e32BNCxwj3s,421
+grai_client-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+grai_client-0.1.0.dist-info/METADATA,sha256=UxRwpitXgO-CTG40ZtS1v27wxjLP6Aqb5qgFSPdenY4,429
+grai_client-0.1.0.dist-info/RECORD,,
