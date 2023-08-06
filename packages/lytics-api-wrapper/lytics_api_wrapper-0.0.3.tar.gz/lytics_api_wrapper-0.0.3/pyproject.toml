@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling", "requests"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lytics_api_wrapper"
+version = "0.0.3"
+authors = [
+  { name="Trace Andreason", email="tandreason@gmail.com" },
+]
+description = "A python class wrapper around the Lytics API"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/tandreason/lytics-api-wrapper"
+"Bug Tracker" = "https://github.com/tandreason/lytics-api-wrapper/issues"
+
