@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-pdr-reader = napari_pdr_reader:napari.yaml

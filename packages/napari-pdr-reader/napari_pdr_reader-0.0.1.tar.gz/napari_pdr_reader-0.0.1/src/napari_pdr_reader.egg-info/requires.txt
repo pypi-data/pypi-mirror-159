@@ -1,0 +1,14 @@
+astropy
+dustgoggles
+napari
+numpy
+pandas
+pdr
+pds4-tools
+pillow
+pvl
+
+[testing]
+pytest
+pytest-cov
+tox
