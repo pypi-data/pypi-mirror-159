@@ -1,0 +1,5 @@
+packaging==16.8
+jsmin==2.2.2
+
+[test]
+pytest>=3.2
