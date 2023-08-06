@@ -1,0 +1,20 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urdaddy"
+version = "1.0.0"
+description = "ur mom"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "selenium >= 4.3.0"
+]
+
+[project.scripts]
+"urdaddy" = "urdaddy.__main__:main"
