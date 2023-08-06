@@ -1,0 +1,10 @@
+tess_flarefinder/Flare_model.py,sha256=OwtNRVWSMd1FG3a0Gf7kbZ7qGJfA4TlvuC-z5gi0w4U,2543
+tess_flarefinder/__init__.py,sha256=lc_I6z05lu7zhKU050atg-5P9gPgggTK5WYi8aVD0Ro,118
+tess_flarefinder/data/model.dat,sha256=rMO4XeQ5eluwbKF7w8S0sFJpFlJKB0q8ddui6wPSNps,7138581
+tess_flarefinder/flarefinder.py,sha256=7DaySavBLgUkd79Af0VseTsrkfjWxS794ROs0Xox3ZI,21451
+tess_flarefinder/utils.py,sha256=Ce8AaSa0xNesfI27B_X149ASv6KWNW5P8XyxO1HVeFY,4164
+tess_flarefinder/version.py,sha256=Wzf5T3NBDfhQoTnhnRNHSlAsE0XMqbclXG-M81Vas70,22
+tess_flarefinder-0.1.4.dist-info/LICENSE,sha256=Qd7u-lWB4ejFTprlJvWTZiDXCPdnZc15q3mVVT2BdQc,1066
+tess_flarefinder-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tess_flarefinder-0.1.4.dist-info/METADATA,sha256=AaZpyK7xKnNL3N3v4Po1xuBreDEY2wrRtj1D4en79Lw,751
+tess_flarefinder-0.1.4.dist-info/RECORD,,
