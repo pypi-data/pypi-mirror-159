@@ -1,0 +1,11 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+src/spaceremover.py
+src/extraspaceremover.egg-info/PKG-INFO
+src/extraspaceremover.egg-info/SOURCES.txt
+src/extraspaceremover.egg-info/dependency_links.txt
+src/extraspaceremover.egg-info/requires.txt
+src/extraspaceremover.egg-info/top_level.txt
+tests/test_spaceremover.py
