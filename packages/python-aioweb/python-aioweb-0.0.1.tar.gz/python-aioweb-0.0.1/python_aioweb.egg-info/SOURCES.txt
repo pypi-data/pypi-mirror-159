@@ -1,0 +1,7 @@
+README.md
+setup.py
+aioweb/__init__.py
+python_aioweb.egg-info/PKG-INFO
+python_aioweb.egg-info/SOURCES.txt
+python_aioweb.egg-info/dependency_links.txt
+python_aioweb.egg-info/top_level.txt
