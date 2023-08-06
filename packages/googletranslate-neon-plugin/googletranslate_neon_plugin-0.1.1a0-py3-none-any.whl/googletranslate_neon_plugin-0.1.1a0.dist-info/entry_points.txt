@@ -1,0 +1,6 @@
+[neon.plugin.lang.detect]
+googletranslate_detection_plug = googletranslate_neon_plugin:GoogleDetector
+
+[neon.plugin.lang.translate]
+googletranslate_plug = googletranslate_neon_plugin:GoogleTranslator
+
