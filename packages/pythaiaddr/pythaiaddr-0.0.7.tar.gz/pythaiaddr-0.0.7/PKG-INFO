@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pythaiaddr
+Version: 0.0.7
+Summary: Correct thai address
+Home-page: https://github.com/thirawat69/PyThaiAddr
+Download-URL: https://pypi.org/project/pythaiaddr/0.0.7/#files
+Author: Thirawat Phongsathatkit
+Author-email: Thirawatp9@gmail.com
+License: MIT
+Keywords: correct,correction,thai,address,spell
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+License-File: LICENSE.txt
+
+
+# PyThaiAddr: Thai Address Processing in Python
+
+PyThaiAddr is a Python language library for processing Thai addresses. Currently focusing on word correcting.
+
+PyThaiAddr เป็นไลบารีภาษาไพทอนสำหรับประมวลผลที่อยู่ภาษาไทย โดยปัจจุบันเน้นไปที่การแก้คำผิด
+
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install PyThaiAddr.
+
+```bash
+pip install pythaiaddr
+```
+
+
+see more on [Github](https://github.com/thirawat69/PyThaiAddr)
+
+
