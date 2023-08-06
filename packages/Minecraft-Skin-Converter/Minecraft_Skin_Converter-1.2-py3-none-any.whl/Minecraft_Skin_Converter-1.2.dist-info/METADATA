@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: Minecraft-Skin-Converter
+Version: 1.2
+Summary: Convert minecraft skins from steve to alex and vice versa
+Home-page: https://github.com/skillor/minecraft-skin-converter
+Author: skillor
+Author-email: skillor@gmx.net
+License: MIT
+Keywords: minecraft,skin-converter,minecraft_skin_converter,minecraft-skin-converter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python (~=4.5.5.64)
+Requires-Dist: numpy (~=1.22.3)
+
+# Minecraft Skin Converter
+
+[![Build Status](https://github.com/skillor/minecraft-skin-converter/actions/workflows/test-python.yml/badge.svg)](https://github.com/skillor/minecraft-skin-converter/actions/workflows/test-python.yml) [![PyPi version](https://badgen.net/pypi/v/minecraft-skin-converter/)](https://pypi.org/project/minecraft-skin-converter)
+
+This is a simplified version of https://github.com/811Alex/MCSkinConverter, ported to python.
+Big Thanks to the original creator [811Alex](https://github.com/811Alex)
+
+Convert skins from alex to steve and vice versa.
+
+## Installation
+
+```bash
+pip install minecraft-skin-converter
+```
+
+## Basic Usage
+```python
+from minecraft_skin_converter import SkinConverter
+
+sc = SkinConverter()
+sc.load_from_file('steve.png')
+print(sc.is_steve())
+sc.steve_to_alex()
+sc.save_to_file('steve_as_alex.png')
+```
+
+
