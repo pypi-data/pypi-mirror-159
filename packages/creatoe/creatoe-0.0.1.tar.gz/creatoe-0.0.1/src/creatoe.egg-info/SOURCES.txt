@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/creatoe.egg-info/PKG-INFO
+src/creatoe.egg-info/SOURCES.txt
+src/creatoe.egg-info/dependency_links.txt
+src/creatoe.egg-info/top_level.txt
+src/creator/__init__.py
