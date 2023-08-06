@@ -1,0 +1,13 @@
+bcdata/__init__.py,sha256=4odZ54eWJ2KPv8zY9HGosm6s8VugyzvEDqR1UDTIFeg,557
+bcdata/bc2pg.py,sha256=F2DsIn2p5Wn-_rqIoqGiVgVlKAyyKazZfSRnQv5N9UQ,4969
+bcdata/bcdc.py,sha256=YnblW9saaycx3hVzLV0iifJBQ-bDgZHnB_gAneNGD6k,3825
+bcdata/cli.py,sha256=D73YNSaD8rwIZEvHj1QeEVMigdB8fvCJYyurCJwPPao,9373
+bcdata/database.py,sha256=PzOulNZtYF_2kGVS3Aki9bf7zFk6-eOQ6OuEdIop0oo,6142
+bcdata/wcs.py,sha256=K3S_ki-tbue1Z3xvBTSqEV4tMU-eoLbDM5p-Hnh5sWc,2994
+bcdata/wfs.py,sha256=MeZSgdFj-yvhaezopK9y0yjLJ3p-gGbqT3jeCnAAeis,9717
+bcdata-0.7.0.dist-info/LICENSE.txt,sha256=C1q4kyHK_wzZNdc8ylDUFPR9Y9AgZDFX3sx21Ww_Ks4,1080
+bcdata-0.7.0.dist-info/METADATA,sha256=wAT1hr19qj1uC7wSVcEXOpPROTPEO_52R_lUrjEEuNg,16504
+bcdata-0.7.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bcdata-0.7.0.dist-info/entry_points.txt,sha256=QgKt16RCwZbJB3BEHOlWz76cx17C5ZJQKdXL3tHvQqM,42
+bcdata-0.7.0.dist-info/top_level.txt,sha256=EaQTXFYoMWMoWn_TKjoJ2NiEHw2jCCH542NB5Ibx9gM,7
+bcdata-0.7.0.dist-info/RECORD,,
