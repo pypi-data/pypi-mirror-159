@@ -1,0 +1,3 @@
+[console_scripts]
+strenc = _customizekeys:__main
+
