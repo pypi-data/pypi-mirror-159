@@ -1,0 +1,8 @@
+LICENSE.txt
+README.txt
+setup.py
+LinAlgHelper/__init__.py
+LinAlgHelper.egg-info/PKG-INFO
+LinAlgHelper.egg-info/SOURCES.txt
+LinAlgHelper.egg-info/dependency_links.txt
+LinAlgHelper.egg-info/top_level.txt
