@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: renku-mls
+Version: 0.3.0
+Summary: Renku MLS plugin
+Home-page: UNKNOWN
+Author: Renku team @ SDSC
+Author-email: renku@datascience.ch
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: Renku MLS
+Platform: any
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
