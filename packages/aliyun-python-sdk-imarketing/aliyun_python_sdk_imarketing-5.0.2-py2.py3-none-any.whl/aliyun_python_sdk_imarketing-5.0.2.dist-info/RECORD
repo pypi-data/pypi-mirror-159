@@ -1,0 +1,14 @@
+aliyunsdkimarketing/__init__.py,sha256=6uWFQehl-5aBFrqs3GTNhQ-LWpJsUujT5MWerCWmEOY,21
+aliyunsdkimarketing/request/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyunsdkimarketing/request/v20220704/CreateDeviceRequest.py,sha256=N4qjBarOrmQZT4lZFOpqDmy0bgqrTqZsssd8naQnygU,3607
+aliyunsdkimarketing/request/v20220704/GetBrandPageRequest.py,sha256=7wXxQQd7WtJeXVhSHsZGVR7aowU30gP-Ubd1FwY3rRM,1896
+aliyunsdkimarketing/request/v20220704/GetMainPartPageRequest.py,sha256=B3ZAZjzKErGdURHZc2Ym0PvmSl0RsYvMhaHSzs7Tpxo,1717
+aliyunsdkimarketing/request/v20220704/GetUserFinishedAdRequest.py,sha256=ST2p1bakSEJr8EKS00Z-NhzZwcG6TovGXA3rqdKYI78,1972
+aliyunsdkimarketing/request/v20220704/ListAdvertisingRequest.py,sha256=uyxklmH2oEDagBqF3U7EsKZLChyRLovLxZp6M2COKJs,2320
+aliyunsdkimarketing/request/v20220704/SendSmsRequest.py,sha256=whsBGOWHZHTcMaoUf8Xjl3ScsCwEKJTiTr9d7JzIbTU,1194
+aliyunsdkimarketing/request/v20220704/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aliyun_python_sdk_imarketing-5.0.2.dist-info/LICENSE,sha256=CvyZB4el1cZGT3cy9OYoITxta_Ea2maondKqmi8EcpU,575
+aliyun_python_sdk_imarketing-5.0.2.dist-info/METADATA,sha256=EdspafEgic_D15B9rsbqjWOvIjaIN4ZGWR8xLvvdW04,1490
+aliyun_python_sdk_imarketing-5.0.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aliyun_python_sdk_imarketing-5.0.2.dist-info/top_level.txt,sha256=RlleVdpFNGfLO3GTXfjryJ4Gx5YpKJ_v7iIgYSgYE9w,20
+aliyun_python_sdk_imarketing-5.0.2.dist-info/RECORD,,
