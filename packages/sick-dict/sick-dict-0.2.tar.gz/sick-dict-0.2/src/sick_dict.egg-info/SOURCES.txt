@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/sick_dict/__init__.py
+src/sick_dict.egg-info/PKG-INFO
+src/sick_dict.egg-info/SOURCES.txt
+src/sick_dict.egg-info/dependency_links.txt
+src/sick_dict.egg-info/top_level.txt
