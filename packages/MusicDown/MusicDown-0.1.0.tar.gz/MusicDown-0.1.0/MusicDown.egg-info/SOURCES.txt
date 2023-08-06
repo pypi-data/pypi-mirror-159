@@ -1,0 +1,9 @@
+README.md
+setup.py
+MusicDown.egg-info/PKG-INFO
+MusicDown.egg-info/SOURCES.txt
+MusicDown.egg-info/dependency_links.txt
+MusicDown.egg-info/requires.txt
+MusicDown.egg-info/top_level.txt
+MusicDownloader/MusicDownloader.py
+MusicDownloader/__init__.py

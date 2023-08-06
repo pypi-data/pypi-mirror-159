@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: MusicDown
+Version: 0.1.0
+Summary: Music downloader library
+Home-page: https://Music_Downloader.readthedocs.io/
+Author: Konstantinos Mokas
+Author-email: kostasmokas12@email.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Medium multiply
+A simple library to download music easy.
+
+### Installation
+```
+pip install Music_Downloader
+```
+
+### Get started
+How to multiply one number by another with this lib:
+
+```Python
+from MusicDownloader import MusicDownloader
+
+# Call the download method
+MusicDownloader.download(urls,download_path,faild_file)
+```
+
