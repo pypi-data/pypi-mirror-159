@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: makeocr
+Version: 0.0.1
+Summary: paddle ocr package
+Home-page: https://github.com/kishorsumathi/paddle-ocr
+Author: kishorsumathi
+Author-email: kishorbrindha18@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: paddleocr
+Requires-Dist: paddlepaddle
+
+# paddle-ocr
