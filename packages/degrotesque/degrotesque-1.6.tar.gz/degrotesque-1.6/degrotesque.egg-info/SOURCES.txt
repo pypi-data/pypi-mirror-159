@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+degrotesque/__init__.py
+degrotesque/degrotesque.py
+degrotesque.egg-info/PKG-INFO
+degrotesque.egg-info/SOURCES.txt
+degrotesque.egg-info/dependency_links.txt
+degrotesque.egg-info/top_level.txt
+tests/__init__.py
+tests/test__mark.py
+tests/test_getExtensions.py
+tests/test_getFiles.py
+tests/test_main.py
+tests/test_prettify.py
+tests/test_setActions.py
+tests/test_setToSkip.py
