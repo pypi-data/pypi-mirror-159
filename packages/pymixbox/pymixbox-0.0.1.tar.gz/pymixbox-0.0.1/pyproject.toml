@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pymixbox"
+version = "0.0.1"
+description = "Practical Pigment Mixing for Digital Painting"
+readme = "README.md"
+license = {file = "LICENSE"}
+keywords = ["pigment", "color mixing", "kubelka munk"]
+authors = [
+  {email = "mixbox@scrtwpns.com"},
+  {name = "Secret Weapons"}
+]
+maintainers = [
+  {name = "Ondrej Jamriska", email = "jamriska@scrtwpns.com"}
+]
+
+[project.urls]
+homepage = "https://scrtwpns.com/mixbox"
+repository = "https://github.com/scrtwpns/pigment-mixing"
+
+[tool.distutils.bdist_wheel]
+universal = true
