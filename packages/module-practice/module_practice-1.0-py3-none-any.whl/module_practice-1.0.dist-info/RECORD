@@ -1,0 +1,17 @@
+general_practice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+general_practice/even_no_count.py,sha256=0cgFC7TdpHRpeTHVY6Nyt0NIYnvfVQwzJKfVYB42mAc,309
+general_practice/fizbuzz.py,sha256=sJ_N82RsE60wlnxAwVnQuNx36QmLMCEDO5tvXdinQ0I,351
+general_practice/repeated_char.py,sha256=7C3Jr1QJG4WkBmsuc-8Xsw9lgta2hVsejEJxT7L9Pj4,403
+general_practice/tagcloud.py,sha256=wmCU64d9mT-s3qCwG0KeK5Hjv8YxcHNS9J_wnOe6oKg,958
+module_practice/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+module_practice/db_practice.py,sha256=vbpX9y_w0y3ohY91KJpPileHmYphUkbVyyQYb9o-wxM,680
+module_practice/excel.py,sha256=ZvScj7BH21mvAP3hY8FivUkaH4kDFONq897MhYllJ74,398
+module_practice/path_practice.py,sha256=0I6qqtmhLlGgeHMv548jZzrYs7Pw_AOqVN0o5UZ2zC8,403
+module_practice/random_passwd_maker.py,sha256=mIEzKVWBh7N3FAwfEPBGp0ugWLDB2bLv4Zdgs5lalXc,606
+module_practice/response.py,sha256=yufxU-o49Z1j2zzy6_DMC3s18b3aqzramFp5nzmQedo,125
+module_practice/web_mail_practice.py,sha256=wJ3Uyp9xNRt-6JpIX382ZeC1-zL9lyO_PJRKP9KYUrE,1132
+module_practice/zip_practice.py,sha256=obOoGhxyRtsodq1Ic-9RzxwNpEG58z6Sb-5XdbNN3UU,478
+module_practice-1.0.dist-info/METADATA,sha256=y17SDpFzWXJZIlEZg4KVgHeeqpQgpXDRbOqJuADuRRk,182
+module_practice-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+module_practice-1.0.dist-info/top_level.txt,sha256=wmQ3XnRX9C7TQuxg3tuEcu-cpjCSssq9oDRWmfiWQhQ,33
+module_practice-1.0.dist-info/RECORD,,
