@@ -1,0 +1,13 @@
+
+                graft app/Resources
+                prune app/Resources/en.lproj
+                prune app/Resources/ui
+                include app/plotdevice
+                include deps/extensions/*/*.h
+                recursive-include deps/extensions/svg *.swift Makefile
+                include tests/*.py
+                graft tests/_in
+                graft examples
+                include *.md
+                include *.url
+            

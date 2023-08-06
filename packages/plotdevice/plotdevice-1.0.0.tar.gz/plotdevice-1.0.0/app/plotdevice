@@ -1,0 +1,20 @@
+#!/bin/sh
+env=$(
+    self=${0}
+    if [ -L "${self}" ]; then
+        self=$(readlink -f "${self}")
+    fi
+    cd "${self%/*}"
+    echo "$(pwd -P)"
+)
+
+PYTHON="$env/python3"
+PIP="$env/pip3"
+if [ ! -x $PYTHON ]; then
+    PYTHON=python3
+    PIP=pip3
+fi
+
+export _p_l_o_t_d_e_v_i_c_e_=$(basename ${0})
+export _p_l_o_t_d_e_v_i_c_e___p_i_p_=$PIP
+$PYTHON -m plotdevice $@
