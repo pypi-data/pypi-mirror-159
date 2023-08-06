@@ -1,0 +1,23 @@
+# The MIT License.
+# Copyright (C) 2022 Evildevill , Waseem Akram.
+#
+# @filename    : MANIFEST.IN
+# @description : Things that I want to avoid and include in the
+# 		 python package.
+
+exclude .gitignore
+exclude resources
+exclude ./instahack/__pycache__
+exclude ./instahack/colors/__pycache__
+exclude .coverage
+exclude preview.png
+exclude .travis.yml
+include README.rst
+include setup.cfg
+prune .cache
+prune .git
+prune build
+prune dist
+recursive-exclude *.egg-info *
+recursive-exclude examples *
+recursive-exclude observations *
