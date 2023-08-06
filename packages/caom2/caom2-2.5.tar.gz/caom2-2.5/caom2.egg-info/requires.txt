@@ -1,0 +1,17 @@
+future
+aenum
+six
+deprecated
+
+[:python_version == "3.4"]
+lxml<=4.3.0
+
+[:python_version >= "3.5"]
+lxml>=3.7.0
+
+[test]
+pytest>=4.6
+pytest-cov>=2.5.1
+flake8>=3.4.1
+funcsigs==1.0.2
+mock==2.0.0
