@@ -1,0 +1,11 @@
+blender_renderer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+blender_renderer/cleaner.py,sha256=raCDp7lmkkPLh6SBiECDYHyXn0mN6jj3Poq2SesdeiI,259
+blender_renderer/renderer.py,sha256=9JenPFMbaELpObaEdmqu97y-wcdJjxcqpb2S47Scjsc,5890
+blender_renderer/scripts/get_texture_names.py,sha256=nW2_H8T4jpWXVWQREUjrefDsZPs8v3E3phOsufhjij4,580
+blender_renderer/scripts/render.py,sha256=Ew9Fc-YbPhbjgXLUrAfETWVOs5LQNc91HrvXoHurdHU,1025
+blender_renderer/scripts/unpack.py,sha256=pwU64zsuOm59lzHjZKINWwgP2Ubsa4s8N7iyn0NMS5E,772
+Blender_Renderer-0.5.dist-info/LICENSE,sha256=BJyjDugyLEhwv_qbExP3wYpsQiME3sA_KlkBaY3r5oQ,1064
+Blender_Renderer-0.5.dist-info/METADATA,sha256=Q3Gy_6puOm6a45gMAqgOLYg8sfSkjVcw9elUJV7dFOQ,980
+Blender_Renderer-0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Blender_Renderer-0.5.dist-info/top_level.txt,sha256=MPm2Ay6qkpAjrdfZkGOEC6-SnAKFmKlW7cKsA4zVZpI,17
+Blender_Renderer-0.5.dist-info/RECORD,,
