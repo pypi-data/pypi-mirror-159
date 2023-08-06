@@ -1,0 +1,8 @@
+#!/bin/bash
+cmd="$*"
+${cmd} 
+if [ $? -eq 0 ]; then
+    python -m alert2me.run success "$cmd"
+else
+    python -m alert2me.run fail "$cmd"
+fi

@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: alert2me
+Version: 0.0.2
+Summary: cli tool that alert to me.
+Home-page: https://github.com/nemodleo/alert2me
+Author: Hyun Park
+Author-email: nemod.leo@snu.ac.kr
+License: MIT
+Keywords: alert slack cli
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >= 3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: slack-sdk (>=3.17.2)
+
+# alert2me
+cli tool that alert to me.
+
+## How to install
+```
+pip install alert2me
+alme-configure
+```
+
+## alert2me
+```
+alme {cmd}
+```

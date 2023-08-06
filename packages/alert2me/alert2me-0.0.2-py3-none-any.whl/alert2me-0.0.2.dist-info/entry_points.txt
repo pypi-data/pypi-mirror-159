@@ -1,0 +1,2 @@
+[console_scripts]
+alme-configure = alert2me.configure:set_configure

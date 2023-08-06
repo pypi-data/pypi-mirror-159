@@ -1,0 +1,12 @@
+alert2me/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+alert2me/alme,sha256=KXE1VtqxhjSobR1zABMUKQ4BqU7-nO3E82OLbmo8ymY,140
+alert2me/configure.py,sha256=lvudkCwQqAvlLyhCYhpE43oQyjiu-QOclN9wpu-66vg,1550
+alert2me/constant.py,sha256=c4S75eMUraOEMBtfhvRtBw6LnFWmKx6wAQPEeB5-hS4,625
+alert2me/run.py,sha256=-boKpSE2-K80-Gf2uTrMTvYljW5qeA9VlY3aGCILryc,462
+alert2me/slack.py,sha256=ba9oMuybCH8RVZa7fOrqirZzTBDcOLc2NwBxqBnZ6bA,968
+alert2me-0.0.2.dist-info/LICENSE,sha256=9UDGnn-7P_RluOPEOnQIgVUI841_6eE_R2ZV2BT6w5o,1066
+alert2me-0.0.2.dist-info/METADATA,sha256=j3OggMxf8k6zKuJ9WaEOlDSSdTprlUfRrMbsC6qe9vE,534
+alert2me-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+alert2me-0.0.2.dist-info/entry_points.txt,sha256=GRgWVCcyiHBlSC2_8eYMOPgZ2d0SngUq-_biTX2t2YM,68
+alert2me-0.0.2.dist-info/top_level.txt,sha256=Tzv9uobjZBwMmjTKDaMu8IhSC__NmjyCSmSIlUMyK_Y,9
+alert2me-0.0.2.dist-info/RECORD,,
