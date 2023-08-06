@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: VisualPy
+Version: 1.0.0
+Summary: Cross-platform python interpreter with highlighting, autocompletion and code hints (Like IPython and BPython)
+Home-page: https://github.com/NIKDISSV-Forever/VisualPy
+Author: NIKDISSV (Nikita)
+Author-email: nikdissv@proton.me
+License: MIT
+Keywords: ipython,bpython,vpython,highlight,interpreter,interactive,code,console
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Editors
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygments
+Requires-Dist: rich
+Requires-Dist: pyperclip
+Requires-Dist: readchar
+
+Interactive console with syntax highlighting and tooltips.
+
+Works with both _CPython_ and _PyPy_.
+
+# Installing
+
+> pip install [VisualPy](https://pypi.org/project/VisualPy) -U
+
+# Usage
+
+> python -m VPython
+
+> General
+![](https://github.com/NIKDISSV-Forever/VisualPython/raw/main/screenshots/main.png)
+![](https://github.com/NIKDISSV-Forever/VisualPython/raw/main/screenshots/many_options.png)
+
+> CPython
+![](https://github.com/NIKDISSV-Forever/VisualPython/raw/main/screenshots/CPython.png)
+
+> Imports
+![](https://github.com/NIKDISSV-Forever/VisualPython/raw/main/screenshots/import_hints.png)
+![](https://github.com/NIKDISSV-Forever/VisualPython/raw/main/screenshots/import.png)
+
+> Dark Theme (Default)
+![](https://github.com/NIKDISSV-Forever/VisualPython/raw/main/screenshots/dark_theme.png)
+> Light Theme (-dbg --darkbg flag)
+![](https://github.com/NIKDISSV-Forever/VisualPython/raw/main/screenshots/light_theme.png)
+
+# Arguments
+
+```
+usage: VPython [-h] [-dbg]
+               [-lex {PythonLexer,PythonConsoleLexer,PythonTracebackLexer,Python2Lexer,Python2TracebackLexer,CythonLexer,DgLexer,NumPyLexer}]
+               [-t-lex {PythonLexer,PythonConsoleLexer,PythonTracebackLexer,Python2Lexer,Python2TracebackLexer,CythonLexer,DgLexer,NumPyLexer}]
+               [-cr CURSOR] [-i INTERACT_IT] [-q]
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+Highlight:
+  Highlight Options
+
+  -dbg, --darkbg        depending on the terminal's background
+
+Lexer:
+  Lexer Options
+
+  -lex {PythonLexer,PythonConsoleLexer,PythonTracebackLexer,Python2Lexer,Python2TracebackLexer,CythonLexer,DgLexer,NumPyLexer}, --lexer {PythonLexer,PythonConsoleLexer,PythonTracebackLexer,Python2Lexer,Python2TracebackLexer,CythonLexer,DgLexer,NumPyLexer}
+  -t-lex {PythonLexer,PythonConsoleLexer,PythonTracebackLexer,Python2Lexer,Python2TracebackLexer,CythonLexer,DgLexer,NumPyLexer}, --traceback-lexer {PythonLexer,PythonConsoleLexer,PythonTracebackLexer,Python2Lexer,Python2TracebackLexer,CythonLexer,DgLexer,NumPyLexer}
+  -cr CURSOR, --cursor CURSOR
+
+Python:
+  Python Options
+
+  -i INTERACT_IT, --interact-it INTERACT_IT
+                        Inspect interactively after running script
+  -q, --quiet           Don't print version and copyright messages on interactive startup
+```
+
+

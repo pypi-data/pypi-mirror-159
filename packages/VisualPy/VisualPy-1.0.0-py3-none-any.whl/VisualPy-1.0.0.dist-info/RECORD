@@ -1,0 +1,11 @@
+vpy/__init__.py,sha256=mxoVyIoDwMCKrSQLLSTJTgM62lb0o6rS8G6S_wDGpII,2138
+vpy/__main__.py,sha256=0EW7FxnjvlUuN39_0C575CzJUtkIKYO_ka6h-O_Gkgo,76
+vpy/auto_complete.py,sha256=skzQqABAYLZkxmbze08EThwCemlJr6I-6q1eSJUi5N8,548
+vpy/highlights.py,sha256=8IhZqv6ad90ktLn7RKmZwWLT8yv8yRefCzxdnykGmIc,746
+vpy/hints.py,sha256=ndF9Z6bHAbg1Lcq0EANPnyNqX-J_2HeuCHXHJOlQbAM,8046
+vpy/interactive.py,sha256=434w-1_CYRUNHM4QkjveMMJSxKbYozFVKDj89P_-ktw,12576
+VisualPy-1.0.0.dist-info/LICENSE,sha256=DsQOSq5nrjMcqkayeVVUJC1m3aROr4Csbr1aH1N2iZE,1094
+VisualPy-1.0.0.dist-info/METADATA,sha256=De66VPKYFKX25LqPq9vQxwYbBhz1o7HIlge1BqXcrdU,3467
+VisualPy-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+VisualPy-1.0.0.dist-info/top_level.txt,sha256=h9uy6ORXSuIGN2X1iDerthFm7U-AhclYpaf8jguJguw,4
+VisualPy-1.0.0.dist-info/RECORD,,
