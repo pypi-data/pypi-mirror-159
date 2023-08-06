@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: konstantin-docs
+Version: 0.0.9
+Summary: 
+Author: Konstantin-Dudersky
+Author-email: Konstantin.Dudersky@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: requests
+Requires-Dist: typing_extensions
