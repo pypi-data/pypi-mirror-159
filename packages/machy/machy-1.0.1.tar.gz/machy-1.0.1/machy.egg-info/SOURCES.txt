@@ -1,0 +1,8 @@
+README.md
+setup.py
+machy/__init__.py
+machy/index.py
+machy.egg-info/PKG-INFO
+machy.egg-info/SOURCES.txt
+machy.egg-info/dependency_links.txt
+machy.egg-info/top_level.txt
