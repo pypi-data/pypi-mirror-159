@@ -1,0 +1,8 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+logicalinduction.egg-info/PKG-INFO
+logicalinduction.egg-info/SOURCES.txt
+logicalinduction.egg-info/dependency_links.txt
+logicalinduction.egg-info/top_level.txt
