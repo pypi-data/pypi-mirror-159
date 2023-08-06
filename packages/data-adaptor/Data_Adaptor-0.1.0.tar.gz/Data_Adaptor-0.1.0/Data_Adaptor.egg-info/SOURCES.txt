@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+DataAdaptor/__init__.py
+DataAdaptor/config.py
+DataAdaptor/input.py
+DataAdaptor/test.py
+Data_Adaptor.egg-info/PKG-INFO
+Data_Adaptor.egg-info/SOURCES.txt
+Data_Adaptor.egg-info/dependency_links.txt
+Data_Adaptor.egg-info/requires.txt
+Data_Adaptor.egg-info/top_level.txt
