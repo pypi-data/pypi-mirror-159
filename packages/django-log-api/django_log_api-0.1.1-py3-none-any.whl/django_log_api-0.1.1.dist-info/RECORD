@@ -1,0 +1,12 @@
+log_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+log_api/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+log_api/apps.py,sha256=d5koJ4tZnWqUsjCP1qi-jjBXO1QTlbPNUjS5VMoAlks,178
+log_api/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+log_api/settings.py,sha256=eRw1vSkTmpiviaT-GMKjjDLfmMXQuA3Pih725G_ApDc,310
+log_api/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+log_api/urls.py,sha256=InjNyTHYbcJmItiTUavMkxDilAD6x1vAqOsbMh03VkQ,127
+log_api/views.py,sha256=6bk0JEEY_GlpOU7AoLhiFpaS0L7W9bz3SV9-RrWLB5A,939
+django_log_api-0.1.1.dist-info/LICENSE,sha256=Xx1Nn28QFq7TY739wM8sMNNfh1HpeSSYcjaCP0PXfmE,1094
+django_log_api-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+django_log_api-0.1.1.dist-info/METADATA,sha256=_iwwcZsnfQBuaH9BsOQTdLiWkwBYbCz8OysPJVt82Zk,1735
+django_log_api-0.1.1.dist-info/RECORD,,
