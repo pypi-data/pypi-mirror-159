@@ -1,0 +1,14 @@
+logicalinduction/__init__.py,sha256=vROnD_Z2ogrAX9lLP0Io81-lr61vlhlBUYYyKlb9k4o,121
+logicalinduction/credence.py,sha256=LC_2LG_4ryYL2rkIFeKoAY6j2WxWjDDgbiJURIfmhpQ,791
+logicalinduction/enumerator.py,sha256=FG7MCx2Ki8GY2VQKQqcuziJ0WeN05hj_XJpxH7L9X84,1656
+logicalinduction/enumerator_test.py,sha256=zCtYASCV0393EGM2X3UX1UUovCFp7R7QiukL7nlyG-U,1057
+logicalinduction/formula.py,sha256=hMxnrtqa0PS-NtSaChexu7arU-D-P65VKY6p2pQ70bw,7491
+logicalinduction/inductor.py,sha256=HC7zS2crrZr7EmUiv3ZbUY4DZw7jGseuETk78JYD8aw,15897
+logicalinduction/inductor_test.py,sha256=QVbIDL-s9di3Rrb4SfkyL-iofNxsm76NPrM5y31NVXU,11073
+logicalinduction/sentence.py,sha256=RZTmAgIYVrRHdO8W34lX8x7Jfye7jOqfO_M9-TOBdMw,3680
+logicalinduction/sentence_test.py,sha256=NbeFXXkwvgEfrD36JGI_EzA09C3imw7DOe75walA8z8,774
+logicalinduction-0.1.4.dist-info/LICENSE,sha256=YiErF82NaVyEp9syrjvPvHo80a1bpBXhBlCvuZu1qR0,1075
+logicalinduction-0.1.4.dist-info/METADATA,sha256=Oks-mmnt-FnaDfLKsdCIRhopkKWZJBJjOUxpCBlIWHA,4581
+logicalinduction-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+logicalinduction-0.1.4.dist-info/top_level.txt,sha256=_NPeKK-0FJ0RF3A7Xo93a_5c9ociIqLyMBDWuzEBa4w,17
+logicalinduction-0.1.4.dist-info/RECORD,,
