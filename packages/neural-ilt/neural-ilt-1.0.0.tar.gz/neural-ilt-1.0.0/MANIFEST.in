@@ -1,0 +1,8 @@
+include ./requirements/*
+include neural_ilt_package/dataset/ibm_opc_test/*
+include neural_ilt_package/lithosim/lithosim_kernels/bin_data/*
+include neural_ilt_package/lithosim/lithosim_kernels/torch_tensor/*
+include neural_ilt_package/dataset/ibm_opc_test_full_list.txt
+
+
+
