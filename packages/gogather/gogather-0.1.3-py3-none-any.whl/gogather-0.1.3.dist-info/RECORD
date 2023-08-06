@@ -1,0 +1,9 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/gather.py,sha256=GQd6eoJ2RCD12_BTrsBkHGr4-vB_FlJBy2bSP-PGM-c,13818
+src/gogather.py,sha256=GQd6eoJ2RCD12_BTrsBkHGr4-vB_FlJBy2bSP-PGM-c,13818
+gogather-0.1.3.dist-info/LICENSE,sha256=BwPj4zetu7DZ6f7-aYsx4G0-VVTabZtU06INNS7VjFc,1069
+gogather-0.1.3.dist-info/METADATA,sha256=_vq4tFGTjRyaYh3mSE9sLfeQ7bq0hs5sk7B7ior5YX8,5563
+gogather-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gogather-0.1.3.dist-info/entry_points.txt,sha256=_hEq_qbblqZndyOK5xzKQxQ429hlgtI6rn9CuYBwOvE,72
+gogather-0.1.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+gogather-0.1.3.dist-info/RECORD,,
