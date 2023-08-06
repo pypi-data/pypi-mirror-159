@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tap-sls
+Version: 0.0.2
+Summary: `tap-tap-sls` is a Singer tap for tap-sls, built with the Meltano SDK for Singer Taps.
+License: Apache 2.0
+Keywords: ELT,tap-sls
+Author: FirstName LastName
+Requires-Python: >=3.7.1,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aliyun-log-python-sdk (>=0.7.12,<0.8.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: singer-sdk (>=0.6.1,<0.7.0)
