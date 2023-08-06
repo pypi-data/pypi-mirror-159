@@ -1,0 +1,2 @@
+[console_scripts]
+cgul = cgul.cli:cgul_cli
