@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: hirez-api-wrapper
+Version: 1.0.3
+Summary: An easy way to connect with the HiRez API, using Python.
+Home-page: https://github.com/odinmay/smite-paladins-api-wrapper
+Author: Odin May
+Author-email: odinmerlinmay@gmail.com
+License: MIT
+Keywords: api,smite,paladins,hirez,hi-rez,hirez_api_wrapper
+License-File: LICENSE.rst
+Requires-Dist: requests
+
