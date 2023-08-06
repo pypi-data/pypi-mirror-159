@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: MIPMLP
+Version: 1.1.1
+Summary: preprocess microbiome data
+Author: YOLO lab
+Author-email: louzouy@math.biu.ac.il
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: sklearn
+Requires-Dist: scipy
+Requires-Dist: networkx
+
