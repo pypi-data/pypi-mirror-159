@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+gtuworld/__init__.py
+gtuworld.egg-info/PKG-INFO
+gtuworld.egg-info/SOURCES.txt
+gtuworld.egg-info/dependency_links.txt
+gtuworld.egg-info/top_level.txt

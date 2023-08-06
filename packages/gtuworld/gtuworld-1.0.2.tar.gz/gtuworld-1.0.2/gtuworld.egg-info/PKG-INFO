@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: gtuworld
+Version: 1.0.2
+Summary: Download GTU papers within seconds.
+Home-page: https://github.com/dhirajberi/gtuworld
+Author: Dhiraj Beri
+Author-email: dhirajberi.official@gmail.com
+License: MIT
+Download-URL: https://github.com/dhirajberi/gtuworld/archive/refs/tags/v1.0.2.tar.gz
+Description: # GTU World
+        Download GTU papers within seconds.
+        
+        ## Installation
+        ```bash
+        pip install gtuworld
+        ```
+        
+        ## Usage
+        ```python
+        import gtuworld
+        branch = "BE" # BE or DI
+        subject_codes = [3110002, 3110005] # Enter your subject_codes here
+        gtuworld.download(branch, subject_codes)
+        ```
+        **Please note:** BE and DI papers are available in this release.
+        
+        ## Contributing
+        Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+        
+Keywords: gtu paper download,gtuworld,gtu paper download using python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
