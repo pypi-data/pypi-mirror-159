@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/py-osmgs/VDU.py
+src/py-osmgs/VNF.py
+src/py-osmgs/__init__.py
+src/py_osmgs.egg-info/PKG-INFO
+src/py_osmgs.egg-info/SOURCES.txt
+src/py_osmgs.egg-info/dependency_links.txt
+src/py_osmgs.egg-info/top_level.txt
