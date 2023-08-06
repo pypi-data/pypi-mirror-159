@@ -1,0 +1,9 @@
+pysqlar/__init__.py,sha256=3ZwSPDPdOTVR-3sLo36SHluaY44HQBSTqzvp8P4E-tI,155
+pysqlar/archive.py,sha256=ngsbAst_iIpnLQAjZxvwExkX2VWqeBT6J5IXwfsnaCk,16099
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_archive.py,sha256=NilFGJtQOyk8sisNUZ_77ngihPtMdUeb8bnxb0jxPBE,11232
+pysqlar-0.1.3.dist-info/LICENSE,sha256=MqMcwk5CLl2-hHfKA_IlK_AeMtfwTPsxlQ3WpNfSvsk,1095
+pysqlar-0.1.3.dist-info/METADATA,sha256=e0qeD-Gw2ccatz2STxuCGdFkvecNESgRFDxp7UUjfD4,644
+pysqlar-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysqlar-0.1.3.dist-info/top_level.txt,sha256=8d41smDkfazLKnmvXSa1t1cXJI5-Ta2u5ayCTQnIEnw,13
+pysqlar-0.1.3.dist-info/RECORD,,
