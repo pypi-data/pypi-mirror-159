@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pytest-check-libs
+Version: 3.4
+Summary: check your missing library
+Author: kangkai
+License: proprietary
+Keywords: pytest,py.test,pytest-check-libs
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.7
