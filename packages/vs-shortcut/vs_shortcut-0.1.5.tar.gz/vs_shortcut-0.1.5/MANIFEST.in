@@ -1,0 +1,4 @@
+include versioneer.py
+include vs_shortcut/_version.py
+include vs_shortcut/__main__.py
+include vs_shortcut/__init__.py
