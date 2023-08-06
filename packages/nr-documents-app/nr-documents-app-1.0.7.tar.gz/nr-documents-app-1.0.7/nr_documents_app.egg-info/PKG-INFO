@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nr-documents-app
+Version: 1.0.7
+Summary: Application package for NR documents site
+Home-page: https://github.com/Narodni-repozitar/nr-documents-app
+Author: Miroslav Bauer
+Author-email: bauer@cesnet.cz
+License: MIT
+Description: <!--
+         Copyright (c) 2022 CESNET
+        
+         This software is released under the MIT License.
+         https://opensource.org/licenses/MIT
+        -->
+        
+        # NR Documents app
+        
+        An application package for National Repository documents site
+        
+Keywords: oarepo ui nr documents
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
