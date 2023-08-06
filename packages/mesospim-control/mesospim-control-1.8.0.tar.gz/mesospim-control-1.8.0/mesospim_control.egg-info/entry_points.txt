@@ -1,0 +1,2 @@
+[console_scripts]
+mesospim-control = mesoSPIM.mesoSPIM_Control:run
