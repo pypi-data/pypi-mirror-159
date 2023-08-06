@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: loremify
+Version: 0.0.1
+Summary: Python Implementation of Lorem Ipsum. Test your typesetting!
+Home-page: https://github.com/AsgerJon
+Author: Asger Jon Vistisen
+Author-email: asgerjon2@gmail.com
+Keywords: Lorem,Ipsum,TypeSetting,Latex
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
