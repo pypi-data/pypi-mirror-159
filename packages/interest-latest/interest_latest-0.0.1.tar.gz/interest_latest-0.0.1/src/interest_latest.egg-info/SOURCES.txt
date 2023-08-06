@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/interest_latest.egg-info/PKG-INFO
+src/interest_latest.egg-info/SOURCES.txt
+src/interest_latest.egg-info/dependency_links.txt
+src/interest_latest.egg-info/top_level.txt
