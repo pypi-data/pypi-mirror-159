@@ -1,0 +1,3 @@
+[console_scripts]
+compic10=compic10.__main__:main
+
