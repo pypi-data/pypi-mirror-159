@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/dockter/__init__.py
+src/dockter/analyzer.py
+src/dockter/main.py
+src/dockter/parser.py
+src/pydockter.egg-info/PKG-INFO
+src/pydockter.egg-info/SOURCES.txt
+src/pydockter.egg-info/dependency_links.txt
+src/pydockter.egg-info/entry_points.txt
+src/pydockter.egg-info/not-zip-safe
+src/pydockter.egg-info/top_level.txt
