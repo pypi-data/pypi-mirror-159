@@ -1,0 +1,17 @@
+pretext/__init__.py,sha256=LAK83mjytxX93YiAkEzAxcJo7Cwde4Xk9jyQNDA6zVA,875
+pretext/__main__.py,sha256=MSmt_5Xg84uHqzTN38JwgseJK8rsJn_11A8WD99VtEo,61
+pretext/build.py,sha256=1wTdXi238IPiS8F8vDh7MTBCQLEkk7H22LKg9QrIMog,5392
+pretext/cli.py,sha256=1c0wZimnJ4Vu-8GIo1mHRqppPx9YVGf0WjEm3N8U1lU,21447
+pretext/core/__init__.py,sha256=xdbPM0K_YSMCRnr_hx3B5-1-FTls5YHJivDwVa5hYRw,79
+pretext/core/pretext.py,sha256=liYG9Iihvqj6-OH8h8lXrNinyD3VcTFllDqe2nZQ_Ac,142095
+pretext/core/resources.py,sha256=E81lRybd5ZnghegEyneh2NccBZ9FfP_S4Cvm9UMCYSE,1433
+pretext/core/resources.zip,sha256=JMCAzAT37eM5OA2nPDHvveXgOq48RcvAOHIeMDAKmBc,895760
+pretext/generate.py,sha256=jXFhVYYvaMYTS0FIJAU8lb8MgFiIehh4avu-eHQezE4,10834
+pretext/project.py,sha256=0B3yXiQ84Ux0KpcID0zGB5NMFFuAwtEVGEeQy5bq-IA,20087
+pretext/templates/__init__.py,sha256=YOwXPks0aG4CHemOUudr104lPtYhWxJ4V6MNAaEF_Ww,297
+pretext/utils.py,sha256=h8CW8d2cbq38CM48PXREhsASo3oZ1ulRy30ur311xPk,16897
+pretextbook-0.8.2a1.dist-info/entry_points.txt,sha256=L-rrQFUIWZhdOdu-XBQ9iuFK3X1cMVOtC-0I7T87II8,44
+pretextbook-0.8.2a1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+pretextbook-0.8.2a1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pretextbook-0.8.2a1.dist-info/METADATA,sha256=w-VWg1P5IJiwGL2u_Tl8rp0SPG-_9cjKUG4P8anHN-U,8742
+pretextbook-0.8.2a1.dist-info/RECORD,,
