@@ -1,0 +1,4 @@
+[console_scripts]
+generate-texts=ps_typer.data.texts.generate_texts:main
+ps-typer=ps_typer.main:main
+
