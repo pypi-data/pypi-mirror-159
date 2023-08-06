@@ -1,0 +1,4 @@
+[console_scripts]
+qaner-inference = qaner.inference:main
+qaner-train = qaner.train:main
+
