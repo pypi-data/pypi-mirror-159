@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: embedpg
+Version: 0.1.0
+Summary: Embedded Postgres in Python
+License: MIT
+Author-email: qsliu <qsliu2017@outlook.com>
+Project-URL: Bug Tracker, https://github.com/qsliu2017/embedpg/issues
+Project-URL: Homepage, https://github.com/qsliu2017/embedpg
+Description-Content-Type: text/markdown
+
+# embedpg
+Embedded Postgres in Python
+
