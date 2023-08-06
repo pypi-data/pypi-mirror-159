@@ -1,0 +1,2 @@
+VERSION = "1.2.7"
+AUTHOR = "M-307"
