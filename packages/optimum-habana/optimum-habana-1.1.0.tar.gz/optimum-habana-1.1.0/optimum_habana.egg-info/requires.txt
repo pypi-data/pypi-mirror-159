@@ -1,0 +1,17 @@
+transformers>=4.20.0
+optimum
+datasets
+tokenizers
+torch
+sentencepiece
+scipy
+pillow
+dill<0.3.5
+multiprocess<0.70.13
+
+[tests]
+pytest
+psutil
+parameterized
+GitPython
+optuna
