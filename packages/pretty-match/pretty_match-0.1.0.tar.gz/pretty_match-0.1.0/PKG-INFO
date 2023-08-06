@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pretty-match
+Version: 0.1.0
+Summary: 
+Author: Skonik
+Author-email: s.konik.dev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
