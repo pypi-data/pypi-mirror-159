@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aiogram-inline-paginations
+Version: 0.1.0
+Summary: A simple library for aiogram that allows you to easily do pagination for any Inline keyboards.
+Author: Daniil Shamraev
+Author-email: shamraev.2002@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiogram (>=2.21,<3.0)
+Requires-Dist: pip (>=22.1.2,<23.0.0)
+Requires-Dist: setuptools (>=63.2.0,<64.0.0)
+Requires-Dist: wheel (>=0.37.1,<0.38.0)
