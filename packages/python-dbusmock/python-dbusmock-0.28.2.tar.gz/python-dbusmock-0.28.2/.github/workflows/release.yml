@@ -1,0 +1,42 @@
+name: tag
+on:
+  push:
+    tags:
+      # this is a glob, not a regexp
+      - '[0-9]*'
+jobs:
+  release:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+        with:
+          # need this to also fetch tags
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y python3-build python3-setuptools python3-venv
+
+      - name: Hack around https://bugs.debian.org/1009916
+        run: |
+          if dpkg --compare-versions $(dpkg-query -f '${Version}' --show python3-build) '<<' 0.7.0-3; then
+              cd /tmp/
+              wget https://launchpad.net/ubuntu/+source/python-build/0.7.0-3/+build/23584797/+files/python3-build_0.7.0-3_all.deb
+              sudo dpkg -i python3-build_0.7.0-3_all.deb
+          fi
+
+      - name: Build release tarball
+        run: python3 -m build --sdist
+
+      - name: Create GitHub release
+        uses: eloquent/github-release-action@v2
+        with:
+          prerelease: "false"
+
+      - name: Create PyPy release
+        uses: pypa/gh-action-pypi-publish@master
+        with:
+          user: __token__
+          password: ${{ secrets.PYPI_API_TOKEN }}
