@@ -1,0 +1,13 @@
+requests
+dateparser
+pycryptodome
+mnemonic
+hdwallet
+bech32
+cryptography
+pyjwt[crypto]
+pycryptodome
+
+[dev]
+check-manifest
+twine

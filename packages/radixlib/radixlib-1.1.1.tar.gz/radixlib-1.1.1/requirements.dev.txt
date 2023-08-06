@@ -1,0 +1,12 @@
+setuptools
+setuptools_scm
+conan
+wheel
+requests
+dateparser
+cryptography
+pycryptodome
+mnemonic
+hdwallet
+bech32
+pyjwt[crypto]
