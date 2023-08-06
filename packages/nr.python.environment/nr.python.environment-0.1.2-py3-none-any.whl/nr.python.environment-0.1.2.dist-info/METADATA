@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: nr.python.environment
+Version: 0.1.2
+Summary: 
+License: MIT
+Author: Unknown
+Author-email: me@unknown.org
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: setuptools (>=33.0.0)
+Description-Content-Type: text/markdown
+
+# nr.python.environment
+
+Utilities to work with Python environments.
+
+### API
+
+*function* __`nr.python.environment.distributions.get_distributions(): Dict[str, Distribution]`__
+
+Returns all distributions that can be found in the current Python environment. This can be useful to build a dependency
+graph or to collect the license of all packages used.
+
