@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: wkflws
+Version: 0.1.2
+Summary: "Wkflws Framework"
+Author: Wkflws Contributors
+License: { file="LICENSE" }
+Project-URL: Bug Tracker, https://github.com/wkflws/wkflws/issues/
+Project-URL: Source, https://github.com/wkflws/wkflws/
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: jsonpath-ng (<2,>=1.5.3)
+Requires-Dist: pydantic (<2.0,>=1.9.0)
+Provides-Extra: dev
+Requires-Dist: watchgod ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: Sphinx ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Requires-Dist: sphinx-press-theme ; extra == 'docs'
+Provides-Extra: kafka
+Requires-Dist: confluent-kafka (<2.0,>=1.8.2) ; extra == 'kafka'
+Provides-Extra: testing
+Requires-Dist: black ; extra == 'testing'
+Requires-Dist: coverage ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: flake8-docstrings ; extra == 'testing'
+Requires-Dist: flake8-import-order ; extra == 'testing'
+Requires-Dist: mypy ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-mock ; extra == 'testing'
+Provides-Extra: webhook
+Requires-Dist: fastapi (<0.73,>=0.72.0) ; extra == 'webhook'
+Requires-Dist: gunicorn (<20.2.0,>=20.1.0) ; extra == 'webhook'
+Requires-Dist: uvicorn (<0.18.0,>=0.17.0) ; extra == 'webhook'
+
