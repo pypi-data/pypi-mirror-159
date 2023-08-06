@@ -1,0 +1,31 @@
+include *.rst
+include *.md
+include *.sh
+include *.txt
+include *.lock
+include .dockerignore
+include .editorconfig
+include .tx/config
+include LICENSE
+include babel.ini
+include pytest.ini
+recursive-exclude .github/workflows *.yml
+recursive-exclude docs *
+recursive-exclude playground *
+recursive-include examples *
+recursive-include nr_documents_app *.html
+recursive-include nr_documents_app *.js
+recursive-include nr_documents_app *.mo
+recursive-include nr_documents_app *.po
+recursive-include nr_documents_app *.pot
+recursive-include nr_documents_app *.scss
+recursive-exclude tests *
+recursive-include nr_documents_app *.gitkeep
+recursive-include nr_documents_app *.jsx *.less *.json
+recursive-include nr_documents_app *.overrides
+recursive-include nr_documents_app *.variables
+recursive-include nr_documents_app *.png *.svg
+recursive-include nr_documents_app *.css
+recursive-include nr_documents_app *.jinja2
+recursive-include nr_documents_app *.lock
+recursive-exclude nr_documents_app *.DS_Store
