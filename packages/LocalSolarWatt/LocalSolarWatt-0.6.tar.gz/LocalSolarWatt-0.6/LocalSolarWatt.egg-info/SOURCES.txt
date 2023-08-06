@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+LocalSolarWatt/__init__.py
+LocalSolarWatt/api_client.py
+LocalSolarWatt/energy_manager.py
+LocalSolarWatt/my_reserve.py
+LocalSolarWatt/units.py
+LocalSolarWatt.egg-info/PKG-INFO
+LocalSolarWatt.egg-info/SOURCES.txt
+LocalSolarWatt.egg-info/dependency_links.txt
+LocalSolarWatt.egg-info/requires.txt
+LocalSolarWatt.egg-info/top_level.txt
