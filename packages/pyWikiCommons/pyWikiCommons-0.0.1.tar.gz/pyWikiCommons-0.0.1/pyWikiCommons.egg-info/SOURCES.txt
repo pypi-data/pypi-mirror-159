@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyWikiCommons/__init__.py
+pyWikiCommons/props.py
+pyWikiCommons/wikiCommons.py
+pyWikiCommons.egg-info/PKG-INFO
+pyWikiCommons.egg-info/SOURCES.txt
+pyWikiCommons.egg-info/dependency_links.txt
+pyWikiCommons.egg-info/not-zip-safe
+pyWikiCommons.egg-info/requires.txt
+pyWikiCommons.egg-info/top_level.txt
