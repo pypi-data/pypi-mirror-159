@@ -1,0 +1,68 @@
+# ====================================================================================== #
+[tool.poetry]
+name = "deap-er"
+version = "0.4.0"
+description = "Distributed Evolutionary Algorithms in Python - Entirely Reworked"
+authors = ["Mattias Aabmets <mattias.aabmets@gmail.com>"]
+license = "MIT License"
+keywords = [
+    "deap",
+    "evolutionary algorithms",
+    "genetic algorithms",
+    "genetic programming",
+    "hypervolume"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.9",
+    "Operating System :: OS Independent"
+]
+packages = [
+    {include = "deap_er"}
+]
+include = [
+    "deap_er",
+    "deap_er.*",
+    "deap_er.*.*"
+]
+
+
+# ====================================================================================== #
+[tool.poetry.urls]
+"Repository" = "https://github.com/aabmets/deap-er"
+"Documentation" = "https://deap-er.readthedocs.io"
+
+
+# ====================================================================================== #
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.22.4"
+ray = "^1.13.0"
+
+
+# ====================================================================================== #
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+coverage = "^6.4.1"
+Sphinx = "^5.0.1"
+sphinx-rtd-theme = "^1.0.0"
+
+
+# ====================================================================================== #
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+
+
+# ==================================================================================== #
+[tool.pytest.ini_options]
+cache_dir = ".cache"
+testpaths = ["tests"]
+console_output_style = "count"
+filterwarnings = ["ignore::DeprecationWarning"]

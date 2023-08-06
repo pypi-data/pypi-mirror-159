@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: deap-er
+Version: 0.4.0
+Summary: Distributed Evolutionary Algorithms in Python - Entirely Reworked
+License: MIT
+Keywords: deap,evolutionary algorithms,genetic algorithms,genetic programming,hypervolume
+Author: Mattias Aabmets
+Author-email: mattias.aabmets@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Dist: numpy (>=1.22.4,<2.0.0)
+Requires-Dist: ray (>=1.13.0,<2.0.0)
+Project-URL: Documentation, https://deap-er.readthedocs.io
+Project-URL: Repository, https://github.com/aabmets/deap-er
