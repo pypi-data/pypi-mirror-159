@@ -1,0 +1,10 @@
+setup.py
+mplogp/__init__.py
+mplogp/mplogp.py
+mplogp.egg-info/PKG-INFO
+mplogp.egg-info/SOURCES.txt
+mplogp.egg-info/dependency_links.txt
+mplogp.egg-info/entry_points.txt
+mplogp.egg-info/namespace_packages.txt
+mplogp.egg-info/top_level.txt
+mplogp.egg-info/zip-safe
