@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bumbov
+Version: 0.0.1
+Summary: Bumbov Python Web Framework built for learning purposes.
+Home-page: UNKNOWN
+Author: Mohamed Sakr
+Author-email: mohamed1.sakr1996@gmail.com
+License: MIT
+Description: Bumbov Python Web Framework built for learning purposes.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
