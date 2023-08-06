@@ -1,0 +1,2 @@
+[console_scripts]
+discord_to_postgresql = discord_to_postgresql.__main__:main
