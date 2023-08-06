@@ -1,0 +1,16 @@
+loginid/__init__.py,sha256=YCuLuqKKGGqUcQwwM68OdQuJOUFcihYxKq2YQ_9V5dE,115
+loginid/loginid.py,sha256=yLlMH3fy08EbDaShTraVhLRvqd1RFayACQvS25VmFc0,8342
+loginid/management.py,sha256=WhFntOadj3KfQ4reOqQIz9cKjbIqMIZGx5eerZTXCwA,5735
+loginid/core/__init__.py,sha256=_QYzCDF1R46g7ms46JqyYJyPAoXNIEE1v_4-BP92m1I,192
+loginid/core/auth.py,sha256=L_jj6oRYhdfiYmC337_w2jSNE-pgauHnRX69xVxnwlk,12033
+loginid/core/client.py,sha256=mQKQ9FgnorMX5kUyH9GkzJvaii_xwi1Z9vic5asdIPA,7686
+loginid/core/cred.py,sha256=n06HZgD0CDAafJEEIj7w94ZFGtqB0QNzpC1f_Tsgb0E,3040
+loginid/core/errors.py,sha256=E5TUMCjSiUJtTE2ueOUYDOQiIMHA7MKRLExiV64gEkc,441
+loginid/managements/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+loginid/managements/code_mgmt.py,sha256=pbS_ylrcSpIlm2Szu7ReBlyc-nkhFwm0eLWh6zn61N0,3504
+loginid/managements/cred_mgmt.py,sha256=iZj9xFbbwGL5a4PHeRFcXWJBj4YOq2i9qNhcbSzRpDs,11085
+loginid/managements/user_mgmt.py,sha256=S0UBr6nSDIekvd1m6RJJFdgVuO5AXJDwu5hGktHdlb8,3092
+loginid-0.1.5.dist-info/METADATA,sha256=_t9t9fJp_DUzkm5vOOMbXFg2IJ1TrFs1hzahZVO9eOo,2493
+loginid-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+loginid-0.1.5.dist-info/top_level.txt,sha256=YCCx6MKBcmSaeJhi0AkKRDiPqyy-Sk3Avx7br2CYlYs,8
+loginid-0.1.5.dist-info/RECORD,,
