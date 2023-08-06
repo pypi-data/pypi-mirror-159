@@ -1,0 +1,3 @@
+[console_scripts]
+Py_colorgen=colorgen.py:colour_combination
+
