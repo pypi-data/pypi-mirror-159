@@ -1,0 +1,12 @@
+scraper/__init__.py,sha256=6lELv5r71DESPB4MUlVrgl3Dd5Wd9GfoEO00Z7I3Qzo,95
+scraper/__main__.py,sha256=o_VNT7er2rHW6BEQ0-_kMRRzxFcl3_72QEbUOa1nBoI,9890
+scraper/exceptions.py,sha256=bDxFHgiUCeClzwqfOy58iqiWlH3yB6AdAEr6ene_8DU,44
+scraper/package.json,sha256=jHjwX1dgWkq4b57WIoab3nql-R5SKNoJkMmGovJFpYo,59
+scraper/scraper.py,sha256=wvub9LUZ3TSZ-FZIDRtUuvwJ8tg2cL_jdSodGrgDXEY,11853
+scraper/wrapper.py,sha256=tgTPE1GGCGUl07Lt0YVwkRsbbztu67lN85J61wzACTI,5133
+google_play_scraper_py-0.3.0.dist-info/LICENSE,sha256=tcAcs-FMiFnV3mnGsER2IR7LEUUxV0o0-QfcWs5q4bs,1081
+google_play_scraper_py-0.3.0.dist-info/METADATA,sha256=tNM1mj_h4k_OmTKdvaLPSCqSdjWbMIJZtXfrccEEf-c,11376
+google_play_scraper_py-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+google_play_scraper_py-0.3.0.dist-info/entry_points.txt,sha256=lCBS4TKOCdqoz-4YGiPx-4mViIU9HKxpNF-PcFmwtvw,50
+google_play_scraper_py-0.3.0.dist-info/top_level.txt,sha256=7mMSfNnJkw1ZNz9GtP5MR6Hh0DYR7LY7dqAaNJATf4c,8
+google_play_scraper_py-0.3.0.dist-info/RECORD,,
