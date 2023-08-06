@@ -1,0 +1,4 @@
+[console_scripts]
+bach = bearalpha.quool.__main__:main
+badb = bearalpha.database.__main__:main
+
