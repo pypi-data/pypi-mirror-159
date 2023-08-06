@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: paquete-diegogabyolmos
+Version: 0.5
+Summary: Este es un paquete de ejemplo para saludar y despedir
+Home-page: https://www.facebook.com/ElmsCabin/
+Author: Diego Olmos
+Author-email: diegogabyolmos@gmail.com
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.23.1)
+
+# paquete
+
+El paquete "paquete" incluye mensajes de saludo y despedida para pruebas.
+Desarrolado por Diego Olmos mediante el Curso de Python 3 por el profe HÃ©ctor Costa.
