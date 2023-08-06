@@ -1,0 +1,13 @@
+__init__.py,sha256=ya3Ocl1Mp2tW_ZIGcvGwMTsj0D_I7DMLzjW0zSk8Png,181
+fileinteraction.py,sha256=HAY0QgM2e0tB26P98x9n2VrtKofRBi9Ht2l-5HACErs,6632
+AXBTProcessor/AXBTprocessor.py,sha256=P1hCZmgRlaN3-cIY1Xo2oOR_StcYxQzZkWtdXvVZnhQ,11927
+AXCPProcessor/AXCPprocessor.py,sha256=gAyDwN8KX61CY2H4aiUy0l2cf_OgwvF_K0vfZDpITWU,9146
+AXCPProcessor/_AXCP_convert_fxns.py,sha256=QB3GECEJjGuKdenLQ2Lt0ih1EoRZycyt5_DYBZ14chU,6434
+AXCPProcessor/_AXCP_decode_fxns.py,sha256=sPbnWZomPDp294IOj22kfrBxkQIEXEV9Qug8QF9pkog,31163
+AXCPProcessor/geomag_axbps.py,sha256=FfUfB0H_UorR5YDbpS0xQWQXO3V9NHMv9Wm1A_U_LZo,11972
+AXCTDProcessor/AXCTDprocessor.py,sha256=Bk5tBxp5E8CajxeGJkIq8KMyVy27Zg_4eJy7wCSLS5I,32571
+AXCTDProcessor/demodulate.py,sha256=KtzgQnSOW-ovG_bKXWkbDzusWAH3gXCoopX3HqQ1Wcw,6357
+AXCTDProcessor/parse.py,sha256=xtEupnQ8VHGTN7vZfZhZAdewrZD9_5ORafJE0g_wuFs,12746
+pyaxbps-1.0.1.dist-info/METADATA,sha256=7m5u8NOXPBatt-FnXqeeMyBZmBHwBw6Rev8PjyToNtk,42511
+pyaxbps-1.0.1.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+pyaxbps-1.0.1.dist-info/RECORD,,
