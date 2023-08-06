@@ -1,0 +1,13 @@
+pyfabric/Client.py,sha256=RRuu79MUemCxWTQNJmg4Z1-G2OyCd-J0hu3A-K-c6NE,4069
+pyfabric/Command.py,sha256=rNPUhIDkF5gFMMHI4SsQXEfpI4o5HznP1VCxJVElTIM,1376
+pyfabric/Entity.py,sha256=nCurodMAWTOZ0FGN1Vqyc5UxPCgtvIeRDYsMS-dofJE,1826
+pyfabric/EventType.py,sha256=wBwNSHob7pNVI3Mss6c5NsKWMTbbvyncO6c6WMzINiw,147
+pyfabric/Fabric.py,sha256=9zWzEW72LwtF0xIQWLxGyxlmlBj4k-8XLanz9oSNIsE,2064
+pyfabric/Inventory.py,sha256=75SAiuz5NkuV38stMJjZlh6gn8rTkO-F2j_7Ib1acqc,3228
+pyfabric/Response.py,sha256=GbHeKLQZ5YXzYLCTuWeNvnr7u8W6mD7nhkJMVuTpu6g,312
+pyfabric/World.py,sha256=QJyyyZ1s86skWh0mM92Iy1vo4kSodsi0zkeG6X9M7RM,1576
+pyfabric/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyfabric-1.0.4.dist-info/METADATA,sha256=Tev4h37aVDJgVRZiA4YX__YAKvTcvQvsAHPadq_lNGw,42474
+pyfabric-1.0.4.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+pyfabric-1.0.4.dist-info/licenses/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+pyfabric-1.0.4.dist-info/RECORD,,
