@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tishinaUtils
+Version: 0.0.4
+Summary: For reusable snippets of code
+Home-page: https://pypi.org/project/tishinaUtils/
+Author: tishinaDev
+Author-email: TopLadAce@outlook.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10.*
+Description-Content-Type: text/markdown
+License-File: LICENSE

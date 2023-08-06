@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/tishinaUtils/__init__.py
+src/tishinaUtils/tishinaUtils.py
+src/tishinaUtils.egg-info/PKG-INFO
+src/tishinaUtils.egg-info/SOURCES.txt
+src/tishinaUtils.egg-info/dependency_links.txt
+src/tishinaUtils.egg-info/requires.txt
+src/tishinaUtils.egg-info/top_level.txt
