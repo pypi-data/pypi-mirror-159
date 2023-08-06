@@ -1,0 +1,7 @@
+scipy
+numpy
+matplotlib
+python-ligo-lw==1.7.1
+lalsuite>=6.70
+tqdm
+ray
