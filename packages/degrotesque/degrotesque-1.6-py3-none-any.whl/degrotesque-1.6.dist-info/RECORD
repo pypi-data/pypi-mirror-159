@@ -1,0 +1,15 @@
+degrotesque/__init__.py,sha256=hcWcfXvMnrzsW7Rt-xzZ1XFW8DGmLXSTU_AGBUkX_lE,320
+degrotesque/degrotesque.py,sha256=XrXUxZMPGocDNOMACz-zBk1zIqm3_TKyXGOR_9HwZaY,18301
+tests/__init__.py,sha256=xsDL2s1SsJDljRKm6XXt5V1_U0lVi-8lcRfPj6DVA90,298
+tests/test__mark.py,sha256=-ZXb5d_7ejWIokyE7VPTekheZsvwdWOveMuNgvxzSUc,4919
+tests/test_getExtensions.py,sha256=BVP0zMhf0HFpHgVlWbOCjzk1zPVmPoHD0HgFwA0dy38,1598
+tests/test_getFiles.py,sha256=ZJ9cQpJ60kFGh3M99qgy-iCaNjyv6hThkK77hm8CO3w,2890
+tests/test_main.py,sha256=OTjxQW69JTSqzAaR9tiJbrDzsZj6nC1QKgxQmuHvfFY,3418
+tests/test_prettify.py,sha256=HlYdNIO-fmWukLfzZX49tQCsO2Im8G0BVgOc7F5wXfk,9266
+tests/test_setActions.py,sha256=b_r3y31UA5quIsljr-H5bWl1XXg8MZxv0RRJ_dyucsE,4230
+tests/test_setToSkip.py,sha256=TJ2Ws-X1vDv54oWwLnc_WKFb1tAMJIBR1T4GJK6YmMg,1931
+degrotesque-1.6.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+degrotesque-1.6.dist-info/METADATA,sha256=pclFe378Kwe3DzSohmx_xq62Fy0kDa7dk3XPkjY1Z5k,11977
+degrotesque-1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+degrotesque-1.6.dist-info/top_level.txt,sha256=VXNsiZKl-BTDCWJS3ybwzw_360Z9yQEWxMDroWkzsw8,18
+degrotesque-1.6.dist-info/RECORD,,
