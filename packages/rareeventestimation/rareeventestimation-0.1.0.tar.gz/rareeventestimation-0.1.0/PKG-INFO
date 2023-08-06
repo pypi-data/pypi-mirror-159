@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: rareeventestimation
+Version: 0.1.0
+Summary: Estimate rare events with consensus based sampling and other methods.
+License: MIT
+Author: Konstantin Althaus
+Author-email: althaus.konstantin.95@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=9.1.1,<10.0.0)
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
+Requires-Dist: matlab (>=0.1,<0.2)
+Requires-Dist: matplotlib (>=3.5.2,<4.0.0)
+Requires-Dist: numpy (>=1.22.3,<2.0.0)
+Requires-Dist: pandas (>=1.4.2,<2.0.0)
+Requires-Dist: plotly (>=5.8.0,<6.0.0)
+Requires-Dist: prettytable (>=3.3.0,<4.0.0)
+Requires-Dist: scipy (>=1.8.1,<2.0.0)
+Description-Content-Type: text/markdown
+
+# rareeventestimation
+
+Estimate rare events with consensus based sampling and other methods.
+
+## Installation
+
+```bash
+$ pip install rareeventestimation
+```
+
+## Usage
+
+- TODO
+
+
+## License
+
+`rareeventestimation` was created by Konstantin Althaus. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`rareeventestimation` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
+This package contains code I have not written myself.
+
+### Code from the Engineering Risk Analysis Group, Technical University of Munich
+All files in `rareeventestimation/src/era` and `rareeventestimation/src/sis` are
+written by the [ERA Group](https://www.cee.ed.tum.de/era/era-group/) and
+licensed under the MIT license. I have added minor changes.
+
+### Code from Dr. Fabian Wagner
+All files in `rareeventestimation/src/enkf` and `src/rareeventestimation/problem/diffusion.py` are written by [Dr. Fabian Wagner](https://www-m2.ma.tum.de/bin/view/Allgemeines/FabianWagner). I have added minor changes.
+
+
+
+
