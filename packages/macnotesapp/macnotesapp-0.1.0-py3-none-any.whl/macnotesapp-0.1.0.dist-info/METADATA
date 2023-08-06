@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: macnotesapp
+Version: 0.1.0
+Summary: Automate Apple / macOS Notes.app with python.
+License: MIT
+Author: Rhet Turnbull
+Author-email: rturnbull@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: markdown2 (>=2.4.3,<3.0.0)
+Requires-Dist: py-applescript (>=1.0.3,<2.0.0)
+Requires-Dist: questionary (>=1.10.0,<2.0.0)
+Requires-Dist: rich (>=12.4.4,<13.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
