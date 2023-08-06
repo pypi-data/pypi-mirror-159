@@ -1,0 +1,53 @@
+IBoxLoader: !include
+  - base.yml
+  - route53/recordset.yml
+
+global:
+  Parameter:
+    - CloudFront:
+        Description: 'Create CloudFront Distribution - empty for default based on env/role'
+        AllowedValues: ['', 'yes', 'no']
+    - RecordSetCloudFrontSuffix:
+        Description: 'RecordSetCloudFront DNS Name Suffix - empty to disable'
+  Condition:
+    - CloudFrontDistribution:
+        get_condition('', 'equals', 'yes', 'CloudFront')
+    - RecordSetCloudFront:
+        And(
+          Condition('CloudFrontDistribution'),
+          get_condition('', 'equals', 'yes', 'RecordSetCloudFront')
+        )
+  Output:
+    - CloudFront:
+        Value: get_endvalue('CloudFront')
+    - RecordSetCloudFront:
+        Condition: RecordSetCloudFront
+        Value: Sub('${RecordSetCloudFront} --> ${CloudFrontDistribution.DomainName}')
+  CloudFront: 'no'
+  CloudFrontDistribution:
+    - IBOX_BASE:
+        Condition: CloudFrontDistribution
+        DistributionConfig:
+          Aliases:
+            - Cdn: If('RecordSetCloudFront',
+                Sub('${EnvRole}${RecordSetCloudFrontSuffix}.cdn.%s' % cfg.HostedZoneNameEnv), Ref('RecordSetExternal'))
+            - Env:  Sub('${EnvRole}${RecordSetCloudFrontSuffix}.%s' % cfg.HostedZoneNameEnv)
+          Comment: Sub('${AWS::StackName}-${EnvRole}')
+          DefaultCacheBehavior:
+            TargetOriginId: Sub('${EnvRole}${RecordSetCloudFrontSuffix}.origin.%s' % cfg.HostedZoneNameEnv)
+  CloudFrontOrigins:
+    - Default:
+        CustomOriginConfig:
+          HTTPSPort: get_endvalue('ListenerLoadBalancerHttpsPort')
+          HTTPPort:  get_endvalue('ListenerLoadBalancerHttpPort')
+        DomainName: get_endvalue('CloudFrontDistributionBaseDistributionConfigDefaultCacheBehaviorTargetOriginId')
+        Id: get_endvalue('CloudFrontDistributionBaseDistributionConfigDefaultCacheBehaviorTargetOriginId')
+  RecordSetCloudFront: 'yes'
+  Route53RecordSet:
+    - CloudFront:
+        IBOX_ENABLED: True
+
+
+IBoxLoaderAfter: !include [
+  #origin-adhoc.yml,
+]
