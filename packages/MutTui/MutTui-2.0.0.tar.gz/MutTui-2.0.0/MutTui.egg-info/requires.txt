@@ -1,0 +1,11 @@
+gffutils
+biopython
+phylo-treetime
+PyQt5
+matplotlib
+pandas
+sklearn
+umap
+
+[test]
+pytest
