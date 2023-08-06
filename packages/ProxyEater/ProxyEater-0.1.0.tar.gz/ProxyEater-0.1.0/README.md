@@ -1,0 +1,30 @@
+ProxyEater\[0.1.0\]
+==========
+
+A Python Proxy Scraper for gathering fresh proxies.
+
+About
+-----
+Author: CodeWriter21 (Mehrad Pooryoussof)
+
+GitHub: [MPCodeWriter21](https://github.com/MPCodeWriter21)
+
+Telegram Channel: [@CodeWriter21](https://t.me/CodeWriter21)
+
+Aparat Channel: [CodeWriter21](https://www.aparat.com/CodeWriter21)
+
+### License
+
+![License](https://img.shields.io/github/license/MPCodeWriter21/ProxyEater)
+
+[apache-2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+### Donate
+
+In order to support this project you can donate some crypto of your choice 8D
+
+[Donate Addresses](https://github.com/MPCodeWriter21/ProxyEater/blob/master/DONATE.md)
+
+Or if you can't, give [this project](https://github.com/MPCodeWriter21/ProxyEater) a star on GitHub :)
+
+
