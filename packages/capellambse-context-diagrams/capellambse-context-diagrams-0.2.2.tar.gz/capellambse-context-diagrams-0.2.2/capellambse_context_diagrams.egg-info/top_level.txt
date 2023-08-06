@@ -1,0 +1,6 @@
+build
+capellambse_context_diagrams
+dist
+docs
+overrides
+tests
