@@ -1,0 +1,28 @@
+{
+    "name": "plone.staticresources",
+    "version": "2.0.0",
+    "description": "Static resources for Plone",
+    "repository": "git@github.com:plone/plone.staticresources.git",
+    "license": "BSD-3-Clause",
+    "scripts": {
+        "build": "NODE_ENV=production webpack --config webpack.config.js",
+        "stats": "NODE_ENV=production webpack --config webpack.config.js --json > stats.json"
+    },
+    "dependencies": {
+        "@plone/mockup": "^5.0.0-alpha.17",
+        "bootstrap-icons": "^1.8.3",
+        "svg-country-flags": "^1.2.10"
+    },
+    "devDependencies": {
+        "@patternslib/dev": "^2.3.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "webpack": "^5.70.0",
+        "webpack-bundle-analyzer": "^4.5.0",
+        "whybundled": "^2.0.0",
+        "yarn": "^1.22.18"
+    },
+    "resolutions": {},
+    "browserslist": [
+        "defaults"
+    ]
+}
