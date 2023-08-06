@@ -1,0 +1,6 @@
+pyproject.toml
+setup.cfg
+tishinaUtils.egg-info/PKG-INFO
+tishinaUtils.egg-info/SOURCES.txt
+tishinaUtils.egg-info/dependency_links.txt
+tishinaUtils.egg-info/top_level.txt
