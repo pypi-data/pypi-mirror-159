@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/jawsume/__init__.py
+src/jawsume.egg-info/PKG-INFO
+src/jawsume.egg-info/SOURCES.txt
+src/jawsume.egg-info/dependency_links.txt
+src/jawsume.egg-info/requires.txt
+src/jawsume.egg-info/top_level.txt
