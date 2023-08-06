@@ -1,0 +1,3 @@
+[console_scripts]
+lightwait=lightwait.cli:cli
+
