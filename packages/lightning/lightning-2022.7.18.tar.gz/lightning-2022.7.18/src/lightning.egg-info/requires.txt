@@ -1,0 +1,2 @@
+pytorch-lightning<1.7.0,>=1.6.5
+lightning-app<0.6.0,>=0.5.2
