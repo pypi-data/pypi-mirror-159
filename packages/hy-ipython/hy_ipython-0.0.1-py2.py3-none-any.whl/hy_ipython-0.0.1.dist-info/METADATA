@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: hy-ipython
+Version: 0.0.1
+Summary: Evaluate Hy code cells using %hy and %%hy magics.
+Author-email: Gregory Werbin <outthere@me.gregwerbin.com>
+Description-Content-Type: text/markdown
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Lisp
+Classifier: Programming Language :: Scheme
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: hy == 0.24
+Requires-Dist: ipython
+Project-URL: Home, https://sr.ht/~wintershadows/hy-ipython
+Project-URL: Source, https://git.sr.ht/~wintershadows/hy-ipython
+
+# hy-ipython: a Hy magic for IPython
+
+Currently requires _exactly_ Hy 0.24.
+
+Installation:
+
+```sh
+pip install hy-ipython
+```
+
+Developer things (requires [Flit](https://flit.pypa.io/)):
+
+```sh
+# Create a venv (or use virtualenv)
+python -m venv ./project.venv
+flit install --symlink --python ./project.venv/bin/python
+
+# Build wheel and sdist
+flit build --format wheel --setup-py
+flit build --format sdist --setup-py
+
+# Publish to PyPI
+flit publish --format wheel --setup-py
+flit publish --format sdist --setup-py
+```
+
