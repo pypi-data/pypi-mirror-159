@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jenti
+Version: 0.0.2
+Summary: To create/merge 2D or 3D patches.
+Home-page: https://github.com/mrinal054/patch_and_merge
+Author: Mrinal Kanti Dhar
+Author-email: mrinal054@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+file: README.md
