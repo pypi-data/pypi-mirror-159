@@ -1,0 +1,8 @@
+numpy
+requests
+pillow
+
+[testing]
+tox
+pytest
+pytest-cov
