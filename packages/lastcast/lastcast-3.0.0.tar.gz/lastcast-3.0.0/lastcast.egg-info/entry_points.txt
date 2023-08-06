@@ -1,0 +1,2 @@
+[console_scripts]
+lastcast = lastcast.__main__:main
