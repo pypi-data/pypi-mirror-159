@@ -1,0 +1,15 @@
+com/__init__.py,sha256=V1yKD8uNh-PaQzusDq_C-N-jjD8Cr9NtkRjVbjbfTbs,144
+com/dvsnier/__init__.py,sha256=V1yKD8uNh-PaQzusDq_C-N-jjD8Cr9NtkRjVbjbfTbs,144
+com/dvsnier/tool/__init__.py,sha256=yqAx1PA-eo1JeO-drQcjKV_nDLXEjuxXxtMfJ9UQJOw,123
+com/dvsnier/tool/command/__init__.py,sha256=dhmpNrNd5la3t3oFP4t8YMclqR3UAH6eUDdOww_4Oag,24
+com/dvsnier/tool/command/dvs_vscode_ws.py,sha256=4bdyxfLgJPLtMs4gGpcMNAokCtjwboD_g7qPziku3CA,4810
+com/dvsnier/tool/util/__init__.py,sha256=dhmpNrNd5la3t3oFP4t8YMclqR3UAH6eUDdOww_4Oag,24
+com/dvsnier/tool/util/dvs_logging.py,sha256=Shsv0-nAkYAZ-8XpmS_xN7KYjNPXj5xMLi_sPM5N8Ks,1533
+com/dvsnier/tool/util/vscode_ws.py,sha256=SSy5VTJWUlr12c8ibVTbQcnBtCmFWdYU6lfM7BKvaGg,7613
+com.dvsnier.tools-0.0.1a1.dev1.dist-info/LICENSE,sha256=StpMSjNT1gT9aCtPczefoy487A8YhQMMuLdKnnqYa_g,1086
+com.dvsnier.tools-0.0.1a1.dev1.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+com.dvsnier.tools-0.0.1a1.dev1.dist-info/METADATA,sha256=Yd8yFlUiHxP8UknjlOCUrQzhttggIIp6zYF2TSegEaA,3088
+com.dvsnier.tools-0.0.1a1.dev1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+com.dvsnier.tools-0.0.1a1.dev1.dist-info/entry_points.txt,sha256=tggv0cINSl0poGq5E-VvwZbcu2A18JvBKbQWeLQT1Iw,76
+com.dvsnier.tools-0.0.1a1.dev1.dist-info/top_level.txt,sha256=A7eVUp0bsHtbJ7vD4f_Ju79_mDJojU9deED6-LV9_s0,4
+com.dvsnier.tools-0.0.1a1.dev1.dist-info/RECORD,,
