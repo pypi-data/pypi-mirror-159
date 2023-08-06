@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: monet-pytorch
+Version: 1.0.1
+Summary: Pytorch implementation of Multi-Object Network(MONet)
+Home-page: https://github.com/Michedev/MONet-pytorch
+License: MIT
+Keywords: deep learning,pytorch,monet,neural network,artificial intelligence
+Author: mikedev
+Author-email: mik3dev@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Dist: hydra-core (>=1.2.0,<2.0.0)
+Requires-Dist: path (>=15.0,<=16.4.0)
+Requires-Dist: torch (>=1.8,<=1.12.0)
+Project-URL: Repository, https://github.com/Michedev/MONet-pytorch
