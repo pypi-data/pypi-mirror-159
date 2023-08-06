@@ -1,0 +1,14 @@
+[
+  "btq/tests/test_cli.py::test_array_access",
+  "btq/tests/test_cli.py::test_deep",
+  "btq/tests/test_cli.py::test_lvl0",
+  "btq/tests/test_cli.py::test_lvl1",
+  "btq/tests/test_cli.py::test_lvl2",
+  "btq/tests/test_cli.py::test_main_exception",
+  "btq/tests/test_core.py::test_basic",
+  "btq/tests/test_core.py::test_filter_exceptions_1",
+  "btq/tests/test_core.py::test_filter_exceptions_2",
+  "btq/tests/test_core.py::test_filter_exceptions_3",
+  "btq/tests/test_core.py::test_main_exception",
+  "btq/tests/test_core.py::test_main_exception_bad_file"
+]

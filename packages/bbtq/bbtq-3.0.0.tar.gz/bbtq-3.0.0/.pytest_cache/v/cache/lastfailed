@@ -1,0 +1,12 @@
+{
+  "btq/tests/test_btq.py::test_filter_exceptions": true,
+  "btq/tests/test_btq.py::test_main_exception_bad_file": true,
+  "btq/tests/test_btq.py::test_main_exit_code_on_error": true,
+  "test/test_btq.py::test_basic": true,
+  "test/test_btq.py::test_exceptions": true,
+  "test/test_cli.py::test_array_access": true,
+  "test/test_cli.py::test_deep": true,
+  "test/test_cli.py::test_lvl0": true,
+  "test/test_cli.py::test_lvl1": true,
+  "test/test_cli.py::test_lvl2": true
+}
