@@ -1,0 +1,27 @@
+[build-system]
+requires = [
+    "setuptools>=63",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataverse_pooch"
+version = "0.1.0"
+description = "Create pooch registry files from DataVerse repositories"
+readme = "README.md"
+maintainers = [
+    { name = "Dominic Kempf", email = "ssc@iwr.uni-heidelberg.de" },
+]
+requires-python = ">=3.8"
+license = { text = "MIT" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "pooch",
+]
+
+[tool.setuptools]
+packages = ["dataverse_pooch"]

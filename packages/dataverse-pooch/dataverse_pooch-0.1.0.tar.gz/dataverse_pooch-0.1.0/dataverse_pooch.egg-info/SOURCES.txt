@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+dataverse_pooch/__init__.py
+dataverse_pooch.egg-info/PKG-INFO
+dataverse_pooch.egg-info/SOURCES.txt
+dataverse_pooch.egg-info/dependency_links.txt
+dataverse_pooch.egg-info/requires.txt
+dataverse_pooch.egg-info/top_level.txt
+test/test_dataverse_pooch.py
