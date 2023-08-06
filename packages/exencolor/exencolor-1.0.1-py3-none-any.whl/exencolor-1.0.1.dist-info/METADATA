@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: exencolor
+Version: 1.0.1
+Summary: A modern module for colored output.
+Home-page: https://github.com/Exenifix/exencolor
+License: MIT
+Author: Exenifix
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/Exenifix/exencolor
+Description-Content-Type: text/markdown
+
+# ExenColor
+A modern module for colored output.
+
+## Installation
+The module is available for installation from PyPI via pip:
+```shell
+$ pip install exencolor
+```
+
+## Examples
+
+### Foreground
+
+```python
+from exencolor import colored, Color
+
+print(colored("Hello World!", foreground=Color.GREEN))
+```
+![output](.github/img/foreground.png)
+
+### Background
+
+```python
+from exencolor import colored, Color
+
+print(colored("Hello World!", background=Color.BLUE))
+```
+![output](.github/img/background.png)
+
+### Decorations
+
+```python
+from exencolor import colored, Decoration
+
+print(colored("Hello World!", decoration=Decoration.UNDERLINE))
+```
+![output](.github/img/deco1.png)
+
+```python
+from exencolor import colored, Decoration
+
+print(colored("Hello World!", decorations=[Decoration.UNDERLINE, Decoration.BOLD]))
+```
+![output](.github/img/deco2.png)
+
+### Combined
+
+```python
+from exencolor import colored, Decoration, Color
+
+print(colored("Hello World!", foreground=Color.BRIGHT_CYAN, background=Color.BRIGHT_YELLOW, decoration=Decoration.UNDERLINE))
+```
+![output](.github/img/combined.png)
+
