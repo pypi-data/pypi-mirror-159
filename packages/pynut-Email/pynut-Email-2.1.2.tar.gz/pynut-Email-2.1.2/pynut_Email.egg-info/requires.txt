@@ -1,0 +1,2 @@
+pynut-Files==2.1.8
+exchangelib==4.7.2
