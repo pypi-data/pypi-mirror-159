@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-pydantic-field
+Version: 0.0.1
+Summary: "Django JSON Field derivative which allows to specify Pydantic schema"
+Author: "Savva Surenkov"
+Author-email: "savva@surenkov.space"
+Keywords: django,pydantic,json,schema
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Provides-Extra: dev
+License-File: LICENSE
