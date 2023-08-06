@@ -1,0 +1,11 @@
+bam_filter/__init__.py,sha256=t9KZdp_DIvv91kyAlbqfXkrky_63qicYujvE-nd8xlM,93
+bam_filter/__main__.py,sha256=0BpK1Wx7D02Rm7Kebr2wKhYgYdKe8Q4gzumsmhASVMo,2832
+bam_filter/_version.py,sha256=Hz2YmHjKwf1Aku5Eyg6ZuRXDZtRogAbhMKS4B2VppPU,498
+bam_filter/sam_utils.py,sha256=bPFr72TkkfiZlV58UaGhqWWMojzX6E-F8B_FQ6VNCZg,22778
+bam_filter/utils.py,sha256=Acha-vav6el8t2iaFtsdwF5djzHWOhy30xtqzbYXM0E,12956
+bam_filter-0.0.23.dist-info/LICENSE,sha256=FhLv2iFNLLOs8rCjlC7lHr1-pZ4UvS7cETEr1hQ5q-0,1575
+bam_filter-0.0.23.dist-info/METADATA,sha256=SKmVp9dYj0ZRrtbOcP5ypho3pAV0qS7Fcf33_mRIGfQ,786
+bam_filter-0.0.23.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+bam_filter-0.0.23.dist-info/entry_points.txt,sha256=9aU_1CG5QQh3Xm82IKSFdniKToHbYTtchZtKfklctRY,56
+bam_filter-0.0.23.dist-info/top_level.txt,sha256=zsOBPiyzc9GmQfMXHAg_QNqJX-q97uwdae7tm2WDDFo,11
+bam_filter-0.0.23.dist-info/RECORD,,
