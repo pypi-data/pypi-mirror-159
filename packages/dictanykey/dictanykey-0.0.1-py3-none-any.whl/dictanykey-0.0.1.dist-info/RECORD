@@ -1,0 +1,11 @@
+dictanykey/__init__.py,sha256=S-KowRxWyjOPjJnRKIrvGWkZA60EB6R9E1k7pu2nQYg,40
+dictanykey/anykey.py,sha256=9HappOJQ2rLDA-UwKqKSpgOUuyMAT-WpTN4hGya2YtM,2431
+dictanykey/iterables.py,sha256=N76wvkTM_D2Kviv5z5LODd0cAkOvaWfx5w6wYkLs9-o,1732
+dictanykey/iterators.py,sha256=EFY9g2avRaIvYVeylEIPXCqQ4twEC7S2AnDZy4jdTw8,537
+dictanykey/mapping_mixin.py,sha256=fkluSloMtAcNjU7EQVMbeQGUvq4lzJBVvQIyfNx6lZ0,1053
+dictanykey/unhashmap.py,sha256=fKOU7SkqNcp9XtReRsfPhfiw8m8SlX5W_xNXOLcpzjk,2303
+dictanykey/utils.py,sha256=4_Vb4Q6IrF2PDmiDDxG_UiOTwujbA7LCrm6L0pvBRo0,324
+dictanykey-0.0.1.dist-info/METADATA,sha256=GK-IB_bdthPqQLaeLx95LIllzhjLoNp8Jrw61SpaOZU,2147
+dictanykey-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dictanykey-0.0.1.dist-info/top_level.txt,sha256=i0ro9aontcGDbCxwVh3Jl91IFDz2Hpj95Y2yod4NVPo,11
+dictanykey-0.0.1.dist-info/RECORD,,
