@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: minidumpwriter
+Version: 1.0
+Summary: Minidump writer
+Home-page: https://github.com/paulkermann/MinidumpWriter
+Author: Paul Kermann
+Author-email: paulkermann@tutanota.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MinidumpWriter
+A DAL for writing minidump file formats
