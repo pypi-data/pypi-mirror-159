@@ -1,0 +1,3 @@
+include zedsuite/*.pyx
+include zedsuite/*.pyd
+include *.py
