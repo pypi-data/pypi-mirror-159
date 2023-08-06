@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forme"
+version = "1.0.0"
+authors = [
+  { name="Bahk InSung", email="insung.park123@gmail.com" },
+]
+description = "The package that I use it useful"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.8.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/insung3511/forme"
+"Bug Tracker" = "https://github.com/insung3511/forme/issues"

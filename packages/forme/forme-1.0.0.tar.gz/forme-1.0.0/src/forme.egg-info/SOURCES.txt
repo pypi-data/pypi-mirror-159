@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/compare_checker.py
+src/flatter.py
+src/shape_print.py
+src/striper.py
+src/forme.egg-info/PKG-INFO
+src/forme.egg-info/SOURCES.txt
+src/forme.egg-info/dependency_links.txt
+src/forme.egg-info/top_level.txt
