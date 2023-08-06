@@ -1,0 +1,40 @@
+# LoginID Python SDK
+
+## Description
+
+Add FIDO hardware based biometric authentication to your website or app in 3 easy steps:
+
+* [View our documentation](https://docs.loginid.io/Server-SDKs/Python/python-get-started?utm_source=pypi&utm_medium=package&utm_campaign=downloads)
+* [Sign up on the dashboard](https://usw1.loginid.io/en/register/get-started?utm_source=pypi&utm_medium=package&utm_campaign=downloads)
+* [View our tutorial](https://tutorial.loginid.io/?utm_source=pypi&utm_medium=package&utm_campaign=downloads)
+
+LoginID’s Pypi Package enables web developers to easily add FIDO/FIDO certified strong customer authentication to their site or app. By utilizing the biometrics on the end user’s device, LoginID’s SDK enables seamless passwordless logins and payment authentications via our [Transaction Confirmation](https://docs.loginid.io/Guides/Flows/tx-conf-guide?utm_source=pypi&utm_medium=package&utm_campaign=downloads) with Digital Signature tool. LoginID is PSD2, GDPR, CCPA, and HIPPA compliant.
+
+## Installation
+
+Install with `pip` 
+```
+pip install loginid
+```
+
+## Quick start
+Once the package is installed, you can import the package and connect to LoginID's backend
+
+```
+from loginid import LoginID, LoginIdManagement
+
+lApplication = LoginID(CLIENT_ID, PRIVATE_KEY)
+lManagement = LoginIdManagement(MANAGEMNET_CLIENT_ID, MANAGEMENT_PRIVATE_KEY)
+
+# verify a JWT token
+token = "some_JWT_token" 
+print(lApplication.verify_token(token, USERNAME))
+
+# extract user profile with management application
+print(lManagement.get_user(USERNAME))
+```
+
+Refer to our [documentations](https://docs.loginid.io/Server-SDKs/Python/python-get-started?utm_source=pypi&utm_medium=package&utm_campaign=downloads) for more details.
+
+## How we’re doing
+Have our solution in production? Tell us about your experience in a quick survey [here](https://survey.hsforms.com/1fuLGBOcST12TTnAfcimtKA8o3nd). 
