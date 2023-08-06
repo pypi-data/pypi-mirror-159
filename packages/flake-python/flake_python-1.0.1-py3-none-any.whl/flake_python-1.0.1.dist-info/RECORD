@@ -1,0 +1,16 @@
+flake/__init__.py,sha256=M7l-zkc65qQmjoT5Vj3-9wy0ByGA0gv-wqjZiY0e_Uc,286
+flake/_assert.py,sha256=fhot-PrRcbSz2MVBg_3jIbq_p61e72dVh1BIJf5KMPo,654
+flake/afterEach.py,sha256=ZNYwnTKPO3s9M2VD5k4tbM2clj8_XDk76lrGxEMIStc,89
+flake/beforeEach.py,sha256=LYWikPgqBJaHo0FwJEQnS6svP873YxW9Hknrggx_3so,99
+flake/capture.py,sha256=u9Qt8IRmSBtBbuud4Qp5DulwBL0VtwC8efNviwRyBks,394
+flake/every.py,sha256=p6M3CjFYgIqWBJpXJ_Ttmd1C4PYiHbGrA7jVizdN4nc,92
+flake/group.py,sha256=1jC_OznBeHOuD-Htwz7MrzI9M1Vz-3lRdlvARa_LPws,101
+flake/publish.py,sha256=LWc-E0z53SidqE1ZAXuI8CuOIWfRByFzEL7xa5jZnp8,138
+flake/shared.py,sha256=i8KH96u91gbuAR4zQf8hsVnJUBnXYhlAQGV5kGN7fjM,280
+flake/snap.py,sha256=xDBKcwMtzdk1LvJZ3WBv9TY2ZbhfwCvvUlk5qnHOLv8,552
+flake/time.py,sha256=qk7ZWfsZXUfoI2YrLQtuHUnQ0qmXM_oZMW5oveSzr1g,63
+flake_python-1.0.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flake_python-1.0.1.dist-info/METADATA,sha256=ISC5iEQze4h5O7i2Rqpj4Cc3lQySpiK8s7ba3kqVp5U,318
+flake_python-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flake_python-1.0.1.dist-info/top_level.txt,sha256=7lvuC-21ew-xFre6VdxoLUn1Px0iB60D6lzfA1xJCyk,6
+flake_python-1.0.1.dist-info/RECORD,,
