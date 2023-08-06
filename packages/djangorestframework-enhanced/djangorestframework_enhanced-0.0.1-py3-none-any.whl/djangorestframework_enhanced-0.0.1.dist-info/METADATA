@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: djangorestframework-enhanced
+Version: 0.0.1
+Summary: enhance django rest framework
+Author: Gnix
+Author-email: madkarl@outlook.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: django (>=4.0.6)
+Requires-Dist: django-filter (>=21.1)
+Requires-Dist: djangorestframework (>=3.13.1)
+Requires-Dist: djangorestframework-simplejwt (>=5.1.0)
+
