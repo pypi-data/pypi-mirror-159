@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ArithmeticOptimizer
+Version: 0.0.1
+Summary: An optimizer tool for ML preprocessing
+Home-page: 
+Author: Winslow Conneen
+Author-email: wconneen@patriots.uttyler.edu
+License: MIT
+Keywords: Machine Learning,Preprocessing,Prediction,Classification
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
