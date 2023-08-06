@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "si_person_maker"
+version = "0.0.1"
+description = "Will make random person object with Slovenian names, last names, addresses etc."
+reamde = "README.md"
+authors = [{name = "Miha Novak", email = "miha.novak@outlook.de"}]
+license = {file = "LICENSE"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["object", "random", "data"]
+requires-Python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+ Homepage = " https://github.com/NoFakMiha/si_person_object_maker"
+
