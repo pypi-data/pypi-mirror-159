@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: tradesman
+Version: 0.1
+Summary: A Python package for building complete AequilibraE models from open data
+License: MIT
+Author: Renata Akemii
+Maintainer: Pedro Camargo
+Maintainer-email: c@margo.co
+Requires-Python: >=3.9.0,<3.10.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aequilibrae (==0.7.2)
+Requires-Dist: matplotlib
+Requires-Dist: openmatrix
+Requires-Dist: pyarrow
+Requires-Dist: pysal
+Requires-Dist: rasterio
