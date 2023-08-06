@@ -1,0 +1,9 @@
+folium
+pandas
+geopy
+numpy
+matplotlib
+datetime
+openpyxl
+IPython
+geopandas
