@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+code_dir/__init__.py
+code_dir/math.py
+code_dir.egg-info/PKG-INFO
+code_dir.egg-info/SOURCES.txt
+code_dir.egg-info/dependency_links.txt
+code_dir.egg-info/top_level.txt
