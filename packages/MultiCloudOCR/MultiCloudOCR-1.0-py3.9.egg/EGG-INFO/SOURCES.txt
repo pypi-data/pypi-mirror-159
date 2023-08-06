@@ -1,0 +1,10 @@
+README.md
+setup.py
+MultiCloudOCR/__init__.py
+MultiCloudOCR/ocr_ali.py
+MultiCloudOCR/ocr_baidu.py
+MultiCloudOCR/ocr_local.py
+MultiCloudOCR.egg-info/PKG-INFO
+MultiCloudOCR.egg-info/SOURCES.txt
+MultiCloudOCR.egg-info/dependency_links.txt
+MultiCloudOCR.egg-info/top_level.txt
