@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: git-branch-selector
+Version: 0.1.2
+Summary: Select a git branch using arrow keys.
+Home-page: https://github.com/ytyng/git-branch-selector.git
+Author: ytyng
+Author-email: ytyng@live.jp
+License: BSD
+Keywords: CUI,Git,branch,selector,arrow,keyboard,command
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
