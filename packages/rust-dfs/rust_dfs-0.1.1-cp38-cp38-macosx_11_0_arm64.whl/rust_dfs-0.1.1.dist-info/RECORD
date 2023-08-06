@@ -1,0 +1,5 @@
+rust_dfs-0.1.1.dist-info/METADATA,sha256=fi0mgIt6mwtXtFicwypoaSh2HxVCubOK1bqbanRxU_0,2365
+rust_dfs-0.1.1.dist-info/WHEEL,sha256=mZI7ZxvuscUvSV2VxW2NgroMyYySC95MK9UMa1kyh_Y,104
+rust_dfs/__init__.py,sha256=PRuQ_MFLZay_dhCE-P_KYPUcXsi7eHKxcungaNK_Qe4,115
+rust_dfs/rust_dfs.cpython-38-darwin.so,sha256=9wAXiNWWcqTJkEaKdGfvG7rsHQLWoiZOI0dXrXYjgQo,655914
+rust_dfs-0.1.1.dist-info/RECORD,,
