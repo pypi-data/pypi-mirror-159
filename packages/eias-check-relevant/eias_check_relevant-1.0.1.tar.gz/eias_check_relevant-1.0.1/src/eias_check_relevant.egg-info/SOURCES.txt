@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/eias_check_relevant.egg-info/PKG-INFO
+src/eias_check_relevant.egg-info/SOURCES.txt
+src/eias_check_relevant.egg-info/dependency_links.txt
+src/eias_check_relevant.egg-info/top_level.txt
+src/is_relevant/__init__.py
+src/is_relevant/convert_request.py
