@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: f1tel-gui
+Version: 1.0.3
+Summary: F1 Telemetry Display
+Home-page: UNKNOWN
+Author: Barbato Federico
+Author-email: barbato.federico01@outlook.com
+License: UNKNOWN
+Keywords: python,formula 1,telemetry,display,f1
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyQt5
+Requires-Dist: Qscintilla
+Requires-Dist: QtAwesome
+Requires-Dist: fastf1
+Requires-Dist: jsonschema
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyperclip
+Requires-Dist: pyqt5
+Requires-Dist: qdarkstyle
+
+
+# F1Tel-GUI
+
+
+A simple GUI python package develped with PyQt5 that helps to analyze Formula 1 car and drivers telemetries
+## Installation
+
+Install F1tel-gui with pip
+
+```bash
+  pip3 install f1tel-gui
+```
+or
+```bash
+  python3 -m pip install f1tel-gui
+```
+    
+## External Libraries
+
+- [fastf1](https://theoehrly.github.io/Fast-F1): the basic library from where the f1 data are fetch
+- [JSONitor](https://github.com/AaronAikman/JSONitor): JSON editor used to edit the configuration file
+## Usage
+
+Using python
+
+```cli
+python3 -m f1tel_gui [-h] [-e] [--json_layout JSON_LAYOUT]
+
+options:
+  -h, --help            show this help message and exit
+  -e                    Open the JSON editor
+  --json_layout JSON_LAYOUT
+                        JSON graph layout file
+```
+
+
+## JSON Layout File Schema
+
+If you want to modify the default JSON layout file
+or if you want to create your own JSON layout file you have to respect the
+JSON Schema:
+
+```json
+{
+
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "array",
+    "items": [
+        {
+            "type": "object",
+            "properties": {
+                "tabname": {
+                    "type": "string"
+                },
+                "graphs": {
+                    "type": "array",
+                    "items": [
+                        {
+                            "type": "object",
+                            "properties": {
+                                "position": {
+                                    "type": "integer"
+                                },
+                                "sharex": {
+                                    "type": "boolean"
+                                },
+                                "graphName": {
+                                    "type": "string"
+                                },
+                                "xlabel": {
+                                    "type": "string"
+                                },
+                                "ylabel": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "position",
+                                "sharex",
+                                "graphName",
+                                "xlabel",
+                                "ylabel"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "tabname",
+                "graphs"
+            ]
+        }
+    ]
+}
+```
+## Authors
+
+- [Developer310301](https://www.github.com/Developer310301)
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+

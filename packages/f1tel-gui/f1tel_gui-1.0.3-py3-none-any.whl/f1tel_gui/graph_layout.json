@@ -1,0 +1,52 @@
+[
+    {
+        "tabname": "Speed",
+        "graphs": [
+            {
+                "position": 111,
+                "sharex": true,
+                "graphName": "Speed",
+                "xlabel": "Distance",
+                "ylabel": "Speed"
+            }
+        ]
+    },
+    {
+        "tabname": "Braking",
+        "graphs": [
+            {
+                "position": 111,
+                "sharex": true,
+                "graphName": "Brakes",
+                "xlabel": "Distance",
+                "ylabel": "Brake"
+            }
+        ]
+    },
+    {
+        "tabname": "Motor",
+        "graphs": [
+            {
+                "position": 311,
+                "sharex": true,
+                "graphName": "Speed",
+                "xlabel": "Distance",
+                "ylabel": "Speed"
+            },
+            {
+                "position": 312,
+                "sharex": true,
+                "graphName": "RPM",
+                "xlabel": "Distance",
+                "ylabel": "RPM"
+            },
+            {
+                "position": 313,
+                "sharex": true,
+                "graphName": "Gear Shifts",
+                "xlabel": "Distance",
+                "ylabel": "nGear"
+            }
+        ]
+    }
+]
