@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: scln-client
+Version: 1.0.2
+Summary: Python Client for the SOAR Communication Library
+Home-page: https://gitlab.com/nsf-noirlab/soar/py-scln-client
+Author: Diego Gomez, Simon Torres
+Author-email: diego.gomez@noirlab.edu, simon.torres@noirlab.edu
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+# SOAR Communication Library New Client
+
+Procedures for SOAR TCS and some other instruments communications.
+
+This library implements a TCP/IP socket following the SOAR standard messaging protocol, this is 4 bytes to define the message length followed by the message itself using a big-endian and ASCII coding.
+
+The command protocol is client/server with immediate response. A response should never take longer than 1500 mS.
+
