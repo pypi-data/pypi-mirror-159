@@ -1,0 +1,13 @@
+bbtq/__init__.py,sha256=TUdxpfbe-c1DMu9U3JrtpS9VZn_zGyVQbGlhiGgB6Qo,455
+bbtq/cli.py,sha256=SG38Txrdetw9TDtgm09NNJCaeOHeEjgdLhpY8gga0do,732
+bbtq/core.py,sha256=3rsqBOIdIwxw2pdH-eck8CGwD5vpW-Ys5N-8-e4CojQ,2245
+bbtq/tests/deep.toml,sha256=MdPffQPcSgfBaYx4uZbfTaHYTgrsiL9x9uFDtGThTcY,271
+bbtq/tests/simple.toml,sha256=y1XAQczRAY6BrnLCKSO6Kc-IPvLyHNu0S9Dd_IzI0d8,56
+bbtq/tests/test.toml,sha256=ewG6MH0-WJ_H0JZkB7u71Uc_jmoICJ6Wfj4cU_e8_B8,241
+bbtq/tests/test_cli.py,sha256=tkr2NQfVOCDCeh_79l9BRiTxUMo254xHB7kDuT8UG6w,1634
+bbtq/tests/test_core.py,sha256=RZEiAq8P_tn3Mfeq5tiEi-cUpNh2XuVb_suJKQk75VY,1248
+bbtq-3.0.1.dist-info/entry_points.txt,sha256=EJYu8WPILQ90V0zlOk8WIvitPXt523YjIeEnFYZuIQ4,36
+bbtq-3.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bbtq-3.0.1.dist-info/WHEEL,sha256=Jaj29f-PvHzZb5kImTcJS9QszpaO6CVzAqOolIz_WEw,90
+bbtq-3.0.1.dist-info/METADATA,sha256=U0gkc_TG4twa90QWCPkVhKDi9s0amT-8_Khc254t-Oc,2042
+bbtq-3.0.1.dist-info/RECORD,,
