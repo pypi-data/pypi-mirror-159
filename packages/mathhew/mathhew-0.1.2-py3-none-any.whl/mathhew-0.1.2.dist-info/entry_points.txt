@@ -1,0 +1,3 @@
+[console_scripts]
+matthew=mathhew:main
+
