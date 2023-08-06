@@ -1,0 +1,10 @@
+mlcvzoo_mmocr/__init__.py,sha256=dFWtQIy-ZsbxGWZF59EGGjFbbN303CDnjUux-aWUh_Y,177
+mlcvzoo_mmocr/configuration.py,sha256=Nww_weHko1onLNrPj2FbwBno3sWzNUe6ro8_CioIm9s,4751
+mlcvzoo_mmocr/model.py,sha256=nkTa-6wPm46Xp0bnWu30owZyMyWiOHSivxdKQOWrJP0,19812
+mlcvzoo_mmocr/py.typed,sha256=8hzvo_jpzs7tuf2I0_TzilG8zWbzxcO75UQ5n7LpIf0,154
+mlcvzoo_mmocr/segmentation_dataset.py,sha256=IJerLtlyuKRg0FefzXYMVUD0pujOEc_T931VWqlayf0,11311
+mlcvzoo_mmocr/structs.py,sha256=ZqT7JcL2Z7oo9-vd9F82SKBWhTvht3QpC6QE3RMFXmg,379
+mlcvzoo_mmocr/utils.py,sha256=SS9qiQKYH7DobgMy8yMvfX_DR9Amt5nn7pjY9utnHR4,3927
+mlcvzoo_mmocr-3.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mlcvzoo_mmocr-3.1.1.dist-info/METADATA,sha256=wD__6mlLa_LKlE4MYBqfl2aQ2wyZl-6uofMo3LZZmQk,1970
+mlcvzoo_mmocr-3.1.1.dist-info/RECORD,,
