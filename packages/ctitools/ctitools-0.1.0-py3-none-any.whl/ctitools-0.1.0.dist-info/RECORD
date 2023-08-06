@@ -1,0 +1,11 @@
+berhoel/__init__.py,sha256=fkKnWtE0SFgFSEDX_TVrGdv71tDKtfwqxm25-ZF6jKk,577
+berhoel/ctitools/__init__.py,sha256=-ib4WYzse94x4-6TpLp-jEt5dEiJy9FPFHzgwGXIGjM,9030
+berhoel/ctitools/__main__.py,sha256=F2WTQSA9VxSi_c7Pgl9dq_iIHpTnMaO3NXvkvuG0PcA,520
+berhoel/ctitools/cti2bibtex/__init__.py,sha256=xOgHz0-vDCR9HGO2UajCeoWJzF3WLzflsf0BS8SlhrM,2002
+berhoel/ctitools/cti2bibtex/__main__.py,sha256=vBeyUORfIjf3VA03VGgxEPOUBIEDJ_XtdD7F7a2KOhs,493
+berhoel/ctitools/test/test_ctitools.py,sha256=qms0gw_Ogpz_SksvBLZM0RXRPnpHt_7mCaBvTolgFVQ,1217
+ctitools-0.1.0.dist-info/entry_points.txt,sha256=4bLiHIJPeuKOExWqquW9YRtIhI6Hr2nyM7oRPPXVmVg,63
+ctitools-0.1.0.dist-info/LICENSE,sha256=QP6jSr83uhjQjbuKdAOaL-MUmSIsUj1dofdhTTfdMds,1524
+ctitools-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ctitools-0.1.0.dist-info/METADATA,sha256=jojvhq6EVTWZD19L7BBD6UQEOLv-b6N3vGAOW1yKoI0,1722
+ctitools-0.1.0.dist-info/RECORD,,
