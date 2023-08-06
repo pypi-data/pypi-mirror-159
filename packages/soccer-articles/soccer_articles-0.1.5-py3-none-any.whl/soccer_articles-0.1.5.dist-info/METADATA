@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: soccer-articles
+Version: 0.1.5
+Summary: 
+Author: keurcien
+Author-email: keurcien@appchoose.io
+Requires-Python: >=3.2,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (==4.10.0)
+Description-Content-Type: text/markdown
+
+```python
+from soccer_articles import get_bbc_articles
+
+get_bbc_articles(["https://www.bbc.com/sport/football/XXX"])
+
+> [{'source': 'bbc',
+  'url': 'https://www.bbc.com/sport/football/XXX',
+  'author': 'John Doe',
+  'date': '3 hours ago',
+  'headline': 'John Doe wants to join the Newteam',
+  'body': 'After a brilliant season...'
+}]
+```
+
