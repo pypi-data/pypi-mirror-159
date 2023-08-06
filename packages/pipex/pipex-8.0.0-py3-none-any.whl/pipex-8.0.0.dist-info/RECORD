@@ -1,0 +1,16 @@
+pipex/__init__.py,sha256=nDfSUXtdFudMWA8wHJms_-qQdYPh0MsULudMVYLDHDs,1201
+pipex/config.yml,sha256=0xHKphct2eAPx_TKjJCAW9-3jKo_Jph0KuS83SVyiP8,119
+pipex/dotdict.py,sha256=i0NR7fRhaD61bb8aHdxr06sOarJxGzVasp97WxDir3o,2578
+pipex/store.py,sha256=7U31r97oZhNFDb46dzm7K1Y38HBUVkj8rRJPeZfV_rE,912
+pipex/tasks.py,sha256=BR8MnV9mtM1TfipdEkhpmZZzzXv8xyH84ULETp6Nmcs,3052
+pipex/prefect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipex/prefect/logging.yml,sha256=xI580hn87F6cuMlYh3JrlEBeKra9_D05h4o4zK5kzJw,2877
+pipex/prefect/logging_daskdistributed.yaml,sha256=7dKaFF6-Sq5HsLnQkSFDL3SXDixlOJ2EefB5qONfNGI,1865
+pipex/prefect/logging_default.yml,sha256=XnrBJrUV23v0Whqgslxxuacg5OS3cXIG-FtJ0lItD6M,2657
+pipex/prefect/skipped.py,sha256=glTNejoOeoJrBJeIlH_Sv_jhnLt2axyt0QtyipR5NhI,887
+pipex/prefect/tasks.py,sha256=innD3UYAUCrb6WDhiVCVmxQ3y-18i-IrltPJmIzq0EU,3590
+pipex/prefect/utils.py,sha256=J_ZK2IcaLKqvFxCYhW28_19U__LNbHgqDvyZFKHGvd0,2455
+pipex-8.0.0.dist-info/METADATA,sha256=htoVbnvns5hYnB1TCFdpZ-2UZcB4MxVOC7N0fwp19ck,203
+pipex-8.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pipex-8.0.0.dist-info/top_level.txt,sha256=C3qMQpRLD78q6OnSp9CGnlc8iOCdTCDF1UzgbacuC5Q,6
+pipex-8.0.0.dist-info/RECORD,,
