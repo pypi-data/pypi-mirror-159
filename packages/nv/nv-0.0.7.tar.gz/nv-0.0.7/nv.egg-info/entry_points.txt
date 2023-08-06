@@ -1,0 +1,2 @@
+[console_scripts]
+nv = nv.cli:main
