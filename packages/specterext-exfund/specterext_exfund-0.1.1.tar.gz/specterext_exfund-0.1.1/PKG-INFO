@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: specterext_exfund
+Version: 0.1.1
+Summary: Specter Desktop extension to fund multiple addresses in one go
+Home-page: https://github.com/stepansnigirev/specterext-exfund
+Author: Stepan Snigirev
+Author-email: snigirev.stepan@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/stepansnigirev/specterext-exfund/issues
+Description: # Exfund
+        
+        Specter extension to fund multiple addresses from a wallet
+        
+        
+        
+        ## Install with pip
+        
+        ```sh
+        python3 -m pip install specterext-exfund
+        ```
+        
+        ## Run in dev mode:
+        
+        ```sh
+        python3 -m cryptoadvance.specter server --config DevelopmentConfig --debug
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
