@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+infcolor/__init__.py
+infcolor.egg-info/PKG-INFO
+infcolor.egg-info/SOURCES.txt
+infcolor.egg-info/dependency_links.txt
+infcolor.egg-info/top_level.txt
