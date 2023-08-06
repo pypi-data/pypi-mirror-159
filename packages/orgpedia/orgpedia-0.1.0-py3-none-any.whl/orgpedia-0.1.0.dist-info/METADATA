@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: orgpedia
+Version: 0.1.0
+Summary: Organization Information.
+Home-page: https://github.com/mukundesh/orgpedia
+License: MIT
+Author: Orgpedia Foundation
+Author-email: orgpedia.foundation@gmail.com
+Requires-Python: >=3.7.1,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+Requires-Dist: black (>=22.6.0,<23.0.0); extra == "test"
+Requires-Dist: build (>=0.8.0,<0.9.0)
+Requires-Dist: bump2version (>=1.0.1,<2.0.0); extra == "dev"
+Requires-Dist: flake8 (>=3.9.2,<4.0.0); extra == "test"
+Requires-Dist: flake8-docstrings (>=1.6.0,<2.0.0); extra == "test"
+Requires-Dist: isort (>=5.10.1,<6.0.0); extra == "test"
+Requires-Dist: mkdocs (>=1.3.0,<2.0.0); extra == "doc"
+Requires-Dist: mkdocs-autorefs (>=0.4.1,<0.5.0); extra == "doc"
+Requires-Dist: mkdocs-gen-files (>=0.3.5,<0.4.0)
+Requires-Dist: mkdocs-include-markdown-plugin (>=3.5.2,<4.0.0); extra == "doc"
+Requires-Dist: mkdocs-literate-nav (>=0.4.1,<0.5.0)
+Requires-Dist: mkdocs-material (>=8.3.9,<9.0.0); extra == "doc"
+Requires-Dist: mkdocs-material-extensions (>=1.0.3,<2.0.0)
+Requires-Dist: mkdocs-section-index (>=0.3.4,<0.4.0)
+Requires-Dist: mkdocstrings[python] (>=0.19.0,<0.20.0); extra == "doc"
+Requires-Dist: pip (>=22.1.2,<23.0.0); extra == "dev"
+Requires-Dist: pipdeptree (>=2.2.1,<3.0.0)
+Requires-Dist: pytest (>=7.1.2,<8.0.0); extra == "test"
+Requires-Dist: pytest-cov (>=3.0.0,<4.0.0); extra == "test"
+Requires-Dist: tox (>=3.25.1,<4.0.0); extra == "dev"
+Requires-Dist: twine (>=4.0.1,<5.0.0); extra == "dev"
+Description-Content-Type: text/markdown
+
+# OrgPedia
+
+
+[![pypi](https://img.shields.io/pypi/v/orgpedia.svg)](https://pypi.org/project/orgpedia/)
+[![python](https://img.shields.io/pypi/pyversions/orgpedia.svg)](https://pypi.org/project/orgpedia/)
+[![Build Status](https://github.com/mukundesh/orgpedia/actions/workflows/dev.yml/badge.svg)](https://github.com/mukundesh/orgpedia/actions/workflows/dev.yml)
+[![codecov](https://codecov.io/gh/mukundesh/orgpedia/branch/main/graphs/badge.svg)](https://codecov.io/github/mukundesh/orgpedia)
+
+
+
+Organization Information
+
+
+* Documentation: <https://mukundesh.github.io/orgpedia>
+* GitHub: <https://github.com/mukundesh/orgpedia>
+* PyPI: <https://pypi.org/project/orgpedia/>
+* Free software: MIT
+
+
+## Features
+
+* TODO
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [waynerv/cookiecutter-pypackage](https://github.com/waynerv/cookiecutter-pypackage) project template.
+
