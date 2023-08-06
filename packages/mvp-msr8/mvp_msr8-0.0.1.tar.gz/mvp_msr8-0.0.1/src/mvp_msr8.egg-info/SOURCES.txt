@@ -1,0 +1,11 @@
+.gitignore
+LICENSE.txt
+README.MD
+setup.py
+src/__init__.py
+src/mvp_msr8.py
+src/mvp_msr8.egg-info/PKG-INFO
+src/mvp_msr8.egg-info/SOURCES.txt
+src/mvp_msr8.egg-info/dependency_links.txt
+src/mvp_msr8.egg-info/requires.txt
+src/mvp_msr8.egg-info/top_level.txt
