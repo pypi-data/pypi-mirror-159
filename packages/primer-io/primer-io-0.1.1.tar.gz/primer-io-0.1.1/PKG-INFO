@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: primer-io
+Version: 0.1.1
+Summary: A project created exclusively to reserve the `primer-io` namespace.
+Home-page: https://github.com/mykolasolodukha/primer-io
+License: Proprietary
+Keywords: primer,primer-io
+Author: Mykola Solodukha
+Author-email: mykola@primer.io
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/mykolasolodukha/primer-io
+Description-Content-Type: text/markdown
+
+# Primer.io
+
+The namespace of the project has been reserved for the future use by Primer.io.
+Please email mykola@primer.io if you have any questions.
