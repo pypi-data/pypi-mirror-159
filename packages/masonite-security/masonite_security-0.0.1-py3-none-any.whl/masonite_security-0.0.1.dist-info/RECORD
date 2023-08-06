@@ -1,0 +1,16 @@
+security/Security.py,sha256=8lobrcvsh_pOrYjZ9-dt8uSLU_Rw9DnRsGM1ysz5gyw,917
+security/__init__.py,sha256=3DqlI5iB9FbKi4gWRhIXC7MYCUxr5zhu1TcHR-xpiII,77
+security/config/security.py,sha256=JXGqUUVxQMJKBNIxmBdqiB3ZlK2Vks9_Dzw4Edm9G3s,762
+security/middlewares/SecurityMiddleware.py,sha256=XsAYV0FdZJ3ky8hCjvXeB885pzIh2sr87xgj_zL9T98,350
+security/protectors/BaseProtector.py,sha256=y1IyDJt3Qj1UtU4nBidK7sjnVkYDVIt3P-t325ksX2M,502
+security/protectors/BotProtector.py,sha256=FOU-VVfEBxihKah8BjNgozHLjyrexhWEUCG-SQVGbik,2251
+security/protectors/DatabaseProtector.py,sha256=xRLoN69wusbfzz5x4DjHnPgoAz1t5sULDiGtvxbudRQ,117
+security/protectors/IPProtector.py,sha256=vQ8fefcKAy2mnOoWs7OElOsrU_IEyUzpxd2CfeI_8fk,2109
+security/protectors/__init__.py,sha256=xsYQlaEDunzPf16CdmukDcl9HNAGDGh2ZN4FC5S-rfg,146
+security/providers/SecurityProvider.py,sha256=57My5TcsSP8ZeodxdLCGkBh78YD8etAvxUQFG21KSAc,712
+security/providers/__init__.py,sha256=TI9qRgG8Xo6xsZotjEtxK1aZxJlVRXqqWTPnfTE5ekU,68
+masonite_security-0.0.1.dist-info/LICENSE,sha256=rsVquQ8OovjGvNTMw9MMVbs7_cZr6-OKL5DGWECTHoE,1075
+masonite_security-0.0.1.dist-info/METADATA,sha256=KpmhXTZwoLlFSE4zbvtThEB3Hokhy4bH21fsYcr4xYQ,6266
+masonite_security-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+masonite_security-0.0.1.dist-info/top_level.txt,sha256=1UEroogZMtxY7oVvynijjYY7dYc2ojV-tGbBxsyM1ro,9
+masonite_security-0.0.1.dist-info/RECORD,,
