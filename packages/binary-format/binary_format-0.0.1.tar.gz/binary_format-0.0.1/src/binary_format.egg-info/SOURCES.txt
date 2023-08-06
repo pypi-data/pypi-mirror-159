@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/binary_format/__init__.py
+src/binary_format/binary_format.py
+src/binary_format.egg-info/PKG-INFO
+src/binary_format.egg-info/SOURCES.txt
+src/binary_format.egg-info/dependency_links.txt
+src/binary_format.egg-info/top_level.txt
