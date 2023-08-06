@@ -1,0 +1,6 @@
+jax
+jaxlib
+
+[tket]
+pytket
+sympy
