@@ -1,0 +1,10 @@
+-r base.in
+ipykernel
+ipywidgets
+pooch
+sphinx
+sphinx-autodoc-typehints>=1.17.0
+sphinx-book-theme
+sphinx-copybutton
+matplotlib
+nbsphinx
