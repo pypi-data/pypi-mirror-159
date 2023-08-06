@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+hqjax.egg-info/PKG-INFO
+hqjax.egg-info/SOURCES.txt
+hqjax.egg-info/dependency_links.txt
+hqjax.egg-info/requires.txt
+hqjax.egg-info/top_level.txt
