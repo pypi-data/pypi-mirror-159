@@ -1,0 +1,6 @@
+bgprecorder/__init__.py,sha256=IwfhcGu98S7ppmplSR_LYvi-M7__eAzoJCaMu9HqHJU,20
+bgprecorder/main.py,sha256=iLqhK4f7bmrjB5vWHHBGOaUpttoz0BPN1iQgbLdfYbI,7162
+bgprecorder/util.py,sha256=hTHHu8NldhQ2QwlzxCr3_SJOu5rwVvkJm85yVJxCFSE,3489
+bgprecorder-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+bgprecorder-0.1.0.dist-info/METADATA,sha256=K5LK50Hx1sS0R230-pi_JN7v2jQCqgebm19QjNttJoo,477
+bgprecorder-0.1.0.dist-info/RECORD,,

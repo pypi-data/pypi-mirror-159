@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bgprecorder
+Version: 0.1.0
+Summary: 
+Author: yas-nyan
+Author-email: yas-nyan@sfc.wide.ad.jp
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: logzero (>=1.7.0,<2.0.0)
+Requires-Dist: pickleDB (>=0.9.2,<0.10.0)
+Requires-Dist: psycopg2-binary (>=2.9.3,<3.0.0)
