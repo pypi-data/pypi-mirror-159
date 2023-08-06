@@ -1,0 +1,15 @@
+ocrd
+Pillow
+numpy
+opencv-python-headless
+PyGObject>=3.28
+python-magic
+wheel
+setuptools
+lxml
+Shapely
+Deprecated
+
+[:python_version < "3.8"]
+importlib_metadata
+importlib_resources
