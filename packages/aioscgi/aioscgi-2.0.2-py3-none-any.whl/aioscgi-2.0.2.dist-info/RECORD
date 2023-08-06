@@ -1,0 +1,12 @@
+aioscgi/__init__.py,sha256=tRi4-Srd_vRnY4qwoYOOv9pfefZ_GP8o8oMhdMp_Zg8,588
+aioscgi/asyncio.py,sha256=wX7gLXWDEPJw5pRoq3s-aspnoOZW34mb-pXRys44opo,9920
+aioscgi/core.py,sha256=21LavJM8TIzG83w8IGTzxg0E_F_VPbMGfMWIWWHqvcw,20957
+aioscgi/main.py,sha256=Xfs6SrAz6THhVOKtQ-ut2HH0AZXznunI4Lm400_qi2I,2987
+aioscgi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioscgi-2.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+aioscgi-2.0.2.dist-info/METADATA,sha256=iRUpKkvSWe-e9AJR-6r7xlPkZEaRR82ds8NFHUTQ7Tc,2510
+aioscgi-2.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aioscgi-2.0.2.dist-info/entry_points.txt,sha256=QlLwA1HfIc0Qv3WYzWDjvnrEqENxbocgm9reCt7TcwE,87
+aioscgi-2.0.2.dist-info/top_level.txt,sha256=ddSt7nvZ1ur2tKONInv_T5Gc-mHvWdQIOSi-5XkXTNY,8
+aioscgi-2.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aioscgi-2.0.2.dist-info/RECORD,,
