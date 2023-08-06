@@ -1,0 +1,30 @@
+int:
+  type: type
+  ret_type: int
+
+  +.int:
+    type: int
+
+  -.int:
+    type: int
+  
+  /.int:
+    type: float
+
+  //.int:
+    type: int
+
+  <<.int:
+    type: int
+
+  ">>.int":
+    type: int
+  
+  "*.int":
+    type: int
+
+  "%.int":
+    type: int
+
+int.|.int:
+  type: int
