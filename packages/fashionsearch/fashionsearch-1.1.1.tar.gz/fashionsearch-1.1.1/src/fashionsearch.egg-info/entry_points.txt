@@ -1,0 +1,2 @@
+[console_scripts]
+tuu = fashionsearch.__main__:main

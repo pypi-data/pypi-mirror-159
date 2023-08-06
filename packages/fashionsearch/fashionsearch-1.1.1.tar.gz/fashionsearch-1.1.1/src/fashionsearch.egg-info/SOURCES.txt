@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/fashionsearch/__init__.py
+src/fashionsearch/__main__.py
+src/fashionsearch/feed.py
+src/fashionsearch/viewer.py
+src/fashionsearch.egg-info/PKG-INFO
+src/fashionsearch.egg-info/SOURCES.txt
+src/fashionsearch.egg-info/dependency_links.txt
+src/fashionsearch.egg-info/entry_points.txt
+src/fashionsearch.egg-info/requires.txt
+src/fashionsearch.egg-info/top_level.txt
