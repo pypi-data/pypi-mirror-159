@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+prefect_memory_profiling/__init__.py
+prefect_memory_profiling/_version.py
+prefect_memory_profiling/flows.py
+prefect_memory_profiling/tasks.py
+prefect_memory_profiling.egg-info/PKG-INFO
+prefect_memory_profiling.egg-info/SOURCES.txt
+prefect_memory_profiling.egg-info/dependency_links.txt
+prefect_memory_profiling.egg-info/requires.txt
+prefect_memory_profiling.egg-info/top_level.txt
