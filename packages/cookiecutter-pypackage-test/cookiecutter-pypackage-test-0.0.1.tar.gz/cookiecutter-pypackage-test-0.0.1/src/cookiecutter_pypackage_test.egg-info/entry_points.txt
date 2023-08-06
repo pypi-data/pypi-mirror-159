@@ -1,0 +1,2 @@
+[console_scripts]
+cookiecutter-pypackage-test = cookiecutter_pypackage_test.main:entry_point

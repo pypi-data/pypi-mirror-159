@@ -1,0 +1,116 @@
+name: CI
+on:
+  push:
+  workflow_dispatch:
+    inputs:
+      rm_tox_dir:
+        description: 'Delete and recreate cached .tox dir'
+        type: boolean
+        required: true
+        default: false
+  schedule:
+  - cron: '0 1 * * *'
+jobs:
+  Format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Cache the .tox dir
+        uses: actions/cache@v3
+        with:
+          path: .tox
+          key: format-${{ runner.os }}-tox-${{ hashFiles('tox.ini') }}-${{ hashFiles('setup.cfg') }}
+      - run: python -m pip install tox
+      - if: github.event.schedule || inputs.rm_tox_dir || endsWith(github.head_ref, '-rm-tox-dir')
+        run: rm -rf .tox/checkformatting
+      - run: tox -e checkformatting
+  Lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Cache the .tox dir
+        uses: actions/cache@v3
+        with:
+          path: .tox
+          key: lint-${{ runner.os }}-tox-${{ hashFiles('tox.ini') }}-${{ hashFiles('setup.cfg') }}
+      - run: python -m pip install tox
+      - if: github.event.schedule || inputs.rm_tox_dir || endsWith(github.head_ref, '-rm-tox-dir')
+        run: rm -rf .tox/lint
+      - run: tox -e lint
+  Tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.9', '3.8']
+    name: Unit tests with Python ${{ matrix.python-version }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Cache the .tox dir
+        uses: actions/cache@v3
+        with:
+          path: .tox
+          key: tests-${{ runner.os }}-${{ matrix.python-version }}-tox-${{ hashFiles('tox.ini') }}-${{ hashFiles('setup.cfg') }}
+      - run: python -m pip install tox
+      - if: github.event.schedule || inputs.rm_tox_dir || endsWith(github.head_ref, '-rm-tox-dir')
+        run: rm -rf .tox/tests
+      - run: tox -e tests
+      - name: Upload coverage file
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage
+          path: .coverage.*
+  Coverage:
+    needs: tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Cache the .tox dir
+        uses: actions/cache@v3
+        with:
+          path: .tox
+          key: coverage-${{ runner.os }}-tox-${{ hashFiles('tox.ini') }}-${{ hashFiles('setup.cfg') }}
+      - name: Download coverage files
+        uses: actions/download-artifact@v3
+        with:
+          name: coverage
+      - run: python -m pip install tox
+      - if: github.event.schedule || inputs.rm_tox_dir || endsWith(github.head_ref, '-rm-tox-dir')
+        run: rm -rf .tox/coverage
+      - run: tox -e coverage
+  Functests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.10', '3.9', '3.8']
+    name: Functional tests with Python ${{ matrix.python-version }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Cache the .tox dir
+        uses: actions/cache@v3
+        with:
+          path: .tox
+          key: functests-${{ runner.os }}-${{ matrix.python-version }}-tox-${{ hashFiles('tox.ini') }}-${{ hashFiles('setup.cfg') }}
+      - run: python -m pip install tox
+      - if: github.event.schedule || inputs.rm_tox_dir || endsWith(github.head_ref, '-rm-tox-dir')
+        run: rm -rf .tox/functests
+      - run: tox -e functests

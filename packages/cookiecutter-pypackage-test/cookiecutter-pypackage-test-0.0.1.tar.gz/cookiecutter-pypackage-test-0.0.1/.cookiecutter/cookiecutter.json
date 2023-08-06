@@ -1,0 +1,21 @@
+{
+  "template": "https://github.com/hypothesis/cookiecutters",
+  "directory": "pypackage",
+  "checkout": "cache-the-tox-dir-for-pypackages",
+  "ignore": [],
+  "extra_context": {
+    "name": "cookiecutter-pypackage-test",
+    "package_name": "cookiecutter_pypackage_test",
+    "slug": "cookiecutter-pypackage-test",
+    "short_description": "A test package for our pypackage cookiecutter.",
+    "python_versions": "3.10.4, 3.9.12, 3.8.13",
+    "github_owner": "hypothesis",
+    "copyright_holder": "Hypothesis",
+    "visibility": "private",
+    "console_script": "yes",
+    "dependabot_pip_interval": "monthly",
+    "__entry_point": "cookiecutter-pypackage-test",
+    "__github_url": "https://github.com/hypothesis/cookiecutter-pypackage-test",
+    "__pypi_url": "https://pypi.org/project/cookiecutter-pypackage-test"
+  }
+}
