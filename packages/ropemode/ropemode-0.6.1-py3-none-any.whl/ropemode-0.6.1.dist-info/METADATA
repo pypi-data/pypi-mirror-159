@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: ropemode
+Version: 0.6.1
+Summary: a helper for using rope refactoring library in IDEs
+Author-email: Ali Gholami Rudi <aligrudi@users.sourceforge.net>
+Maintainer-email: Lie Ryan <lieryan.24@proton.me>
+License: GNU GPL
+Project-URL: Source, https://github.com/python-rope/ropemode
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: X11 Applications
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Environment :: MacOS X
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Description-Content-Type: text/x-rst
+Requires-Dist: rope (>=0.9.4)
+Provides-Extra: dev
+Requires-Dist: build (>=0.7.0) ; extra == 'dev'
+Requires-Dist: twine (>=4.0.0) ; extra == 'dev'
+
+========
+ropemode
+========
+
+|Build status badge| 
+
+.. |Build status badge| image:: https://github.com/python-rope/ropemode/actions/workflows/test.yml/badge.svg
+   :target: https://github.com/python-rope/ropemode/actions/workflows/test.yml
+   :alt: Build Status
+
+Library for common functionality between ropevim_ and ropemacs_.
+See also rope_.
+
+.. _ropevim: https://github.com/python-rope/ropevim
+.. _rope: https://github.com/python-rope/rope
+.. _ropemacs: https://github.com/python-rope/ropemacs
+
+Users should not install this package directly, but either
+ropevim_ or ropemacs_ instead.
+
+
+Contributing
+============
+
+
+The following sets up a development environment and run the tests:
+
+.. code:: bash
+
+   pip install -e .
+   pip install -r test_requirements.txt
+   pytest
+
+
+Special Thanks
+==============
+
+Many thanks the following people:
+
+- Ali Gholami Rudi (`@aligrudi`_) for initially creating the initial rope,
+  ropemode project and most of Rope's code
+
+.. _`@aligrudi`: https://github.com/aligrudi
