@@ -1,0 +1,6 @@
+aioredis>=2.0.1
+pydantic
+anyio
+
+[operator]
+watchfiles
