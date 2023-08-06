@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lowcode-cli
+Version: 0.0.1
+Summary: Generate front-end code automatically
+Home-page: https://github.com/status-521/lowcode-cli.git
+Author: whc
+Author-email: 249768447@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=4.0.6,<5.0.0)
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: convert-case (>=1.1.1,<2.0.0)
+Requires-Dist: jsonschema (>=4.6.1,<5.0.0)
+Requires-Dist: pytest (>=7.1.2,<8.0.0)
+Project-URL: Repository, https://github.com/status-521/lowcode-cli.git

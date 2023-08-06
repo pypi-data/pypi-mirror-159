@@ -1,0 +1,9 @@
+{% set fields = schema.properties.fields.properties %}
+{% set field_names = get_field_names(schema) %}
+{% set search_form_data = get_field_default_value(schema) %}
+{% set default_value = get_field_default_value(schema) %}
+{% set app_name = schema.properties.app.app_name or '' %}
+{% set model_name = schema.properties.model.name or '' %}
+{% set searchable_fields = get_searchable_fields(schema) %}
+{% set filterable_fields = get_filterable_fields(schema) %}
+{% set image_field_exists = image_field_exists(schema) %}
