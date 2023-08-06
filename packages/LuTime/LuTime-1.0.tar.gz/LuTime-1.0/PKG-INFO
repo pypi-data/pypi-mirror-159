@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: LuTime
+Version: 1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+## LuTime
+
+✅ *Easily get access* to abstract, time themed objects (i.e., time, second, date, year, milisecond) in Python.
+
+### Requirements
+
+ - 🐍 [Python>=3.7](https://www.python.org/downloads/)
+
+#
+
+### ⬇️ Installation
+#### 🪟 Windows:
+```bash
+pip install LuTime 
+```
+
+#### 🍎 🐧 MacOS & Linux:
+```bash
+pip3 install LuTime
+```
+
+#
+
+### ☕Simple Demonstration
+
+```python
+from LuTime.lutime import get # Importing the get function from the module
+
+current_Time = get('time') # Creating a variable and assigning the time to it
+current_Second = get('second') # Creating a variable and assigning the second to it
+
+print(f"The current time is: {current_Time} and the current second is: {current_Second}")
+```
+
+#
+
+### 📃 All 'Time Objects':
+
+####  You can use the first column or second column and it's not case sensitive so it doesn't matter if you type in all capital letters!
+
+| **Long**        	| **Short** 	|
+|-----------------	|-----------	|
+| **second**      	| **sec**   	|
+| **minute**      	| **min**   	|
+| **hour**        	| **hr**    	|
+| **day**         	| **d**     	|
+| **month**       	| **m**     	|
+| **year**        	| **yr**    	|
+| **date**        	| **N/A**   	|
+| **time**        	| **N/A**   	|
+| **datetime**    	| **dt**    	|
+| **timestamp**   	| **ts**    	|
+| **millisecond** 	| **ms**    	|
+| **microsecond** 	| **us**    	|
+
