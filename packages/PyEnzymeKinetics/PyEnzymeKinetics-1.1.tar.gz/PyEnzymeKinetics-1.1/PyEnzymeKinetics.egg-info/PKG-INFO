@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: PyEnzymeKinetics
+Version: 1.1
+Summary: UNKNOWN
+Home-page: https://github.com/haeussma/PyEnzymeKinetics
+Author: Haeussler, Max
+Author-email: max.haeussler@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires: numpy
+Requires: matplotlib.pyplot
+License-File: LICENSE
+
+UNKNOWN
+
