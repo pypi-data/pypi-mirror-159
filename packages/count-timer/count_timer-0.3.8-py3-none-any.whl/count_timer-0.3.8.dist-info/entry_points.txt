@@ -1,0 +1,2 @@
+[console_scripts]
+demo = count_timer.demo_async:async_main_entry
