@@ -1,0 +1,14 @@
+com/__init__.py,sha256=V1yKD8uNh-PaQzusDq_C-N-jjD8Cr9NtkRjVbjbfTbs,144
+com/dvsnier/__init__.py,sha256=V1yKD8uNh-PaQzusDq_C-N-jjD8Cr9NtkRjVbjbfTbs,144
+com/dvsnier/virtualenv/__init__.py,sha256=KjiEwsq6lR7-sPRLydOhsear2yK1dG7eNB0P7PDewVw,170
+com/dvsnier/virtualenv/command/__init__.py,sha256=dhmpNrNd5la3t3oFP4t8YMclqR3UAH6eUDdOww_4Oag,24
+com/dvsnier/virtualenv/command/dvs_virtualenv.py,sha256=FqsRkd00bZjskc7nLhcIftoblP8qfd54RAhpgj4SzGw,2389
+com/dvsnier/virtualenv/util/__init__.py,sha256=dhmpNrNd5la3t3oFP4t8YMclqR3UAH6eUDdOww_4Oag,24
+com/dvsnier/virtualenv/util/dvs_logging.py,sha256=PWTLHrIruTzXBxttD7uDJMhZ0WAUt9PUoj981RgeVyw,2260
+com.dvsnier.virtualenv-0.0.1a1.dev1.dist-info/LICENSE,sha256=StpMSjNT1gT9aCtPczefoy487A8YhQMMuLdKnnqYa_g,1086
+com.dvsnier.virtualenv-0.0.1a1.dev1.dist-info/LICENSE.txt,sha256=VXbwArPC9XE7N7cvSBClNMHFbo7CU1p361QXV5bkGpk,1100
+com.dvsnier.virtualenv-0.0.1a1.dev1.dist-info/METADATA,sha256=gt_xftTYfa1aQA6RJs89SXsld4LALsql-koldeF5DQk,2832
+com.dvsnier.virtualenv-0.0.1a1.dev1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+com.dvsnier.virtualenv-0.0.1a1.dev1.dist-info/entry_points.txt,sha256=oMFmcSX6nISY2SmgZQ0M6_q0XMptf2GpxqqIhZMhs7U,89
+com.dvsnier.virtualenv-0.0.1a1.dev1.dist-info/top_level.txt,sha256=A7eVUp0bsHtbJ7vD4f_Ju79_mDJojU9deED6-LV9_s0,4
+com.dvsnier.virtualenv-0.0.1a1.dev1.dist-info/RECORD,,
