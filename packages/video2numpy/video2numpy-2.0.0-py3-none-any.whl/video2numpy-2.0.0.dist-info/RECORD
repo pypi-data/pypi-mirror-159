@@ -1,0 +1,16 @@
+video2numpy/__init__.py,sha256=7mx0kycl2VHtS_TKQQlAPv71QgnIZmPDU8K60h_t1Ko,56
+video2numpy/cli.py,sha256=zvN6jyNzOaQRtDKTjdu3S3s8E6Mw55b2zZ5gtyIxYEY,180
+video2numpy/frame_reader.py,sha256=Vh_auqE6ir9xG-9OvPREPRVUfBQMU84tLGmIGRhZwqU,2036
+video2numpy/read_vids_cv2.py,sha256=ccGd_2yfRWG2_1nOQtxD_He8dGqkvldgABwklWAhnw4,1690
+video2numpy/read_vids_ffmpeg.py,sha256=p6TPAbP-_8JXub8IDoCzZKwH9NtguR3CMJ8cG3TSeIw,2027
+video2numpy/resizer.py,sha256=Bh1iz8G8cU2D30MqidWHRFN-d_JdmgHSmCI0hMjXyEY,1166
+video2numpy/shared_queue.py,sha256=kRh_WZiAMYs_Js62q7wF9aLeaUHhYVpsLFi7H9rYLQE,3880
+video2numpy/utils.py,sha256=Isdrfc9LTeDaCltAT7Qgo2Wd5rbGLi3pMtAifq7MWMo,520
+video2numpy/video2numpy.py,sha256=_WeUM-qV5N0fZ9yWRzM2QGtWCnlbPMmgwD7OMaxYE50,1426
+video2numpy-2.0.0.data/data/README.md,sha256=R31q2QOaES7OQTqgY7ND76OwnljIKeoJ-W4izojYerQ,2881
+video2numpy-2.0.0.dist-info/LICENSE,sha256=kQ7Sg07ctsEZeQxAgGGT8tsbjz8G5o_kY8ToEkxWfjE,1072
+video2numpy-2.0.0.dist-info/METADATA,sha256=-ECw2mr4UNQJt5Yl8kjJUc-jfCHkn3jXE3PrOXxJ_O8,3588
+video2numpy-2.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+video2numpy-2.0.0.dist-info/entry_points.txt,sha256=XhywMXvBYGWgyG8QzpBEtDUPzOuGc5rk67miuriwxPk,54
+video2numpy-2.0.0.dist-info/top_level.txt,sha256=-pu4YvOIlqs7bzuhpG8iGaHe00sMDXlPt9e2ER0MNRI,12
+video2numpy-2.0.0.dist-info/RECORD,,
