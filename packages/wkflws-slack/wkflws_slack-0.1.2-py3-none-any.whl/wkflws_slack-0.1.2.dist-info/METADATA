@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: wkflws-slack
+Version: 0.1.2
+Summary: "wkflws node - wkflws_slack"
+Author: wkflws node developer
+License: { file="LICENSE" }
+Project-URL: Bug Tracker, https://github.com/wkflws/wkflws_slack/issues/
+Project-URL: Source, https://github.com/wkflws/wkflws_slack/
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: wkflws[webhook] (<0.2,>=0.1)
+Requires-Dist: slack-sdk (<4.0,>=3.17.0)
+Requires-Dist: aiohttp (<4,>=3.7.3)
+Provides-Extra: testing
+Requires-Dist: black ; extra == 'testing'
+Requires-Dist: coverage ; extra == 'testing'
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: flake8-docstrings ; extra == 'testing'
+Requires-Dist: flake8-import-order ; extra == 'testing'
+Requires-Dist: mypy ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-mock ; extra == 'testing'
+

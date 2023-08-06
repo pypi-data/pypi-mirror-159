@@ -1,0 +1,9 @@
+wkflws_slack/__init__.py,sha256=JKS78g33aRgpq3onQ8WKSmqKB7g8_SlUUmjlf7cMOjo,54
+wkflws_slack/send_message.py,sha256=wWeviJbpvPD2AVvGptNUnY9xprGmi2jSumuBzeud_Fc,2933
+wkflws_slack/triggers/__init__.py,sha256=V8Yp859NxSHFWtFg_1s4cXdpJvES86q7JTgmL_PI7iQ,2273
+wkflws_slack/triggers/receive_message.py,sha256=7K3EC341qgPfMViwEcdU1NqK8Z-Sl-LYjgOMoChjPa4,817
+wkflws_slack-0.1.2.dist-info/LICENSE,sha256=7kOC_HLtpGsVo2YXjQpdooC1P33RpCbVg0dP1gMp8GY,1082
+wkflws_slack-0.1.2.dist-info/METADATA,sha256=GDGNss6eisMEQ_LzflcTi_LRD8ARYKVWXRcbkax6hwY,1087
+wkflws_slack-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wkflws_slack-0.1.2.dist-info/top_level.txt,sha256=ZD6zRCmr6JQCQyFMRUSk9dNxheP0ofMNGPZUjQ5ylUM,13
+wkflws_slack-0.1.2.dist-info/RECORD,,
