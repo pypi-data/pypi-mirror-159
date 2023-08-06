@@ -1,0 +1,7 @@
+cwl-upgrader>=1.2
+packaging
+requests
+schema-salad<9,>=8.2
+
+[pretty]
+cwlformat

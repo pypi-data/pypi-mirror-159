@@ -1,0 +1,4 @@
+cwl-upgrader >= 1.2
+packaging
+requests
+schema-salad >= 8.2, < 9

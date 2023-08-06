@@ -1,0 +1,14 @@
+include README.rst
+include Makefile
+include MANIFEST.in
+include LICENSE.txt
+include *requirements.txt
+include cwl_utils/cwlNodeEngine.js
+include cwl_utils/cwlNodeEngineJSConsole.js
+include cwl_utils/cwlNodeEngineWithContext.js
+include testdata/*.cwl
+include testdata/*.yaml
+include testdata/*.input
+include cwl_utils/py.typed
+global-exclude *~
+global-exclude *.pyc
