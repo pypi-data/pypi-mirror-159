@@ -1,0 +1,13 @@
+mathext/BaseChange.py,sha256=I56r5sKcQzLJJplxX3UhPmYMhbpqtUvnE4_Fe-DLvsk,1200
+mathext/Primes.py,sha256=L4mhpemOsyouZ2ARrcf2LXcca7AalA0TyJRfjw9w9Fo,2552
+mathext/__init__.py,sha256=ra9qhadi1zKCpMDYCEu2zASu4fNJmbcBvkcgPV1lQzM,66
+mathools/__init__.py,sha256=eKEQPON6TruR6z195V6Pqyn9dX67GwhK9eMjfMYt5cA,54
+mathools/base.py,sha256=I56r5sKcQzLJJplxX3UhPmYMhbpqtUvnE4_Fe-DLvsk,1200
+mathools/primes.py,sha256=L4mhpemOsyouZ2ARrcf2LXcca7AalA0TyJRfjw9w9Fo,2552
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_primes.py,sha256=419xfZus1KxebZFj0Wt58NSBrekFRSIhfqbR4Pqzj7c,1018
+mathools-0.1.1.dist-info/LICENSE,sha256=yDibHAFmOnY7VpLS7qhRNPYhToiAxMuTq0QpI_WaZTs,1086
+mathools-0.1.1.dist-info/METADATA,sha256=28tGi7tsYtSq9lOLpXEieCJC0nThdb1nEUa0m5BkAps,763
+mathools-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mathools-0.1.1.dist-info/top_level.txt,sha256=bjcyeDV25RKGzsV6kkibgG1vHs_TWtekzLfGoaAcbeA,9
+mathools-0.1.1.dist-info/RECORD,,
