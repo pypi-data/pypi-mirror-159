@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: zntrack
+Version: 0.4.2
+Summary: Create, Run and Benchmark DVC Pipelines in Python
+License: Apache-2.0
+Keywords: data-science,data-version-control,machine-learning,reproducibility,collaboration
+Author: zincwarecode
+Author-email: zincwarecode@gmail.com
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dot4dict (>=0.1.1,<0.2.0)
+Requires-Dist: dvc (>=2.12.0,<3.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: pyyaml (>=6.0,<7.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
+Requires-Dist: znjson (>=0.1.2,<0.2.0)
+Project-URL: documentation, https://zntrack.readthedocs.io
+Project-URL: repository, https://github.com/zincware/ZnTrack
