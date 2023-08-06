@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: labpacks
+Version: 0.1.9
+Summary: Easy creation of machine learning labs
+License: Apache 2.0
+Author: Patrick Barker
+Author-email: pbarker@onemedical.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: GitPython (>=3.1.27,<4.0.0)
+Requires-Dist: kubernetes (>=23.6.0,<24.0.0)
+Requires-Dist: psutil (>=5.9.1,<6.0.0)
+Requires-Dist: pulumi (>=3.33.2,<4.0.0)
+Requires-Dist: pulumi-ml (>=0.1.5,<0.2.0)
+Requires-Dist: pytest (>=7.1.2,<8.0.0)
+Requires-Dist: pytest-kind (>=21.1.3,<22.0.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: rootpath (>=0.1.1,<0.2.0)
+Requires-Dist: types-requests (>=2.27.30,<3.0.0)
