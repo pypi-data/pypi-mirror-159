@@ -1,0 +1,6 @@
+appdirs
+click
+fasteners
+
+[:python_version < "3.8"]
+dataclasses
