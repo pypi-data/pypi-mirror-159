@@ -1,0 +1,4 @@
+requests
+PyAutoGUI==0.9.0
+pyperclip==1.8.2
+qrcode
