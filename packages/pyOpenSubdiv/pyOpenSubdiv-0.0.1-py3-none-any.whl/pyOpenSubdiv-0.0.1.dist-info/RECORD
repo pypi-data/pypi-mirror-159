@@ -1,0 +1,12 @@
+clib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clib/load_library.py,sha256=BvTMG_WjziUnHQYqTi4NXL1ZJrQ7nUFRAQvCebyO1IM,490
+pyOpenSubdiv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyOpenSubdiv/pysubdivision.py,sha256=brax9gXoHm4x09VBbJiGo-QuvcYgmlXqn2HGppupE_c,3211
+pyOpenSubdiv/clib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyOpenSubdiv/clib/ctypes_OpenSubdiv.dll,sha256=mN-ji_98YkqlmMVN8UGS_83ZOa3TxzuJ53EkSaKoLV4,117760
+pyOpenSubdiv/clib/ctypes_OpenSubdiv.so,sha256=3q4xcj49vnoWNhH5hGamLdVEF3dWfCbiA_s5l-YkkcE,276936
+pyOpenSubdiv/clib/load_library.py,sha256=BvTMG_WjziUnHQYqTi4NXL1ZJrQ7nUFRAQvCebyO1IM,490
+pyOpenSubdiv-0.0.1.dist-info/METADATA,sha256=QXLni_GbVkBVb46LFq9s6oqkYNkkHhoM2-pBjVWE7Rs,500
+pyOpenSubdiv-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyOpenSubdiv-0.0.1.dist-info/top_level.txt,sha256=ie9BygZeWFZ5D9f4bYb17kcmdfwKstyvYgVIzifYEzc,13
+pyOpenSubdiv-0.0.1.dist-info/RECORD,,
