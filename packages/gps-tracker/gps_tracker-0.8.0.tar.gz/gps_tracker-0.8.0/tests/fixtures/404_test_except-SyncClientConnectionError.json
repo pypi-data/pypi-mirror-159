@@ -1,0 +1,4 @@
+{
+    "exception": "requests.ConnectionError",
+    "url": "https://labs.invoxia.io/test/"
+}

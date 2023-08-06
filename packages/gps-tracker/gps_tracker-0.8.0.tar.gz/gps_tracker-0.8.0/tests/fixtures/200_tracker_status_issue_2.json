@@ -1,0 +1,5 @@
+{
+    "content": "{\"battery\":97,\"begin_date\":\"2022-04-08T18:33:56.714186Z\",\"network_operator\":\"sigfox\",\"state\":\"online\",\"stationary\":-1,\"sub_state\":\"normal\",\"last_location\":\"2022-04-11T12:28:21.936000Z\"}",
+    "status": 200,
+    "url": "https://labs.invoxia.io/devices/878858/tracker_status/"
+}

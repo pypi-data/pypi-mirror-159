@@ -1,0 +1,5 @@
+{
+    "content": "{\"id\":155001,\"name\":\"dummy\",\"type\":\"tracker_03\",\"serial\":\"0123456789ab\",\"created\":\"2022-02-05T20:40:27.009253Z\",\"version_build\":\"85e5ff0\",\"timezone\":\"America/Los_Angeles\",\"version\":\"tracker_LWT3v1-4.58.2,fwid=85e5ff0\",\"tracker_config\":{\"mode\":\"235\",\"color\":0,\"icon\":37,\"notify_position\":false,\"notify_long_walk\":false,\"network\":\"ltem\",\"network_region\":\"1\",\"network_config\":38,\"firmware_path\":\"https://developer.invoxia.com/update/lwt3/update.pup\",\"board_name\":\"LWT3\",\"usage\":\"other\"},\"tracker_status\":{\"battery\":98,\"begin_date\":\"2022-02-05T20:40:27.034702Z\",\"last_event\":\"2022-02-11T19:38:32.804258Z\",\"state\":\"online\",\"sub_end_date\":\"2023-02-05\",\"sub_state\":\"normal\",\"last_location\":\"2022-02-11T19:38:11Z\",\"network_operator\":\"soracom\",\"stationary\":5}}",
+    "status": 200,
+    "url": "https://labs.invoxia.io/devices/155001/"
+}

@@ -1,0 +1,4 @@
+{
+    "exception": "aiohttp.ClientConnectionError",
+    "url": "https://labs.invoxia.io/test/"
+}
