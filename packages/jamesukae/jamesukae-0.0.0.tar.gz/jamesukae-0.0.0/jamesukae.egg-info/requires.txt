@@ -1,0 +1,5 @@
+requests>=2.27
+cryptography>=37.0
+betterproto>=1.2
+paho-mqtt>=1.6
+ntplib>=0.4
