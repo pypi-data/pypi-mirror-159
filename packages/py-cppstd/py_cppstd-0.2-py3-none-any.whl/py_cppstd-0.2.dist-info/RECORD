@@ -1,0 +1,14 @@
+py_cppstd/__init__.py,sha256=zWgPYwx7Fh8BgtJhqWOJeOYCsv5jMxgCs3ENNjgNGVg,1668
+py_cppstd/exceptions.py,sha256=PFr0LcqSc9lvxVpRuCIHjzv5m360KwJ1LoiqxvvrcKs,52
+py_cppstd/main.py,sha256=I49tuwk0fxgsmIoE_09b5xWE7hc0lLRL_NsAYv0PXX8,155
+py_cppstd/make_depend.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_cppstd/std/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py_cppstd/std/ios.py,sha256=toVir1uF-k6mjh1Q-8IqOONq3m1zLIr_9s4o6sI1UL4,98
+py_cppstd/std/ios_base.py,sha256=DbKd6_Qc__trVCG4GNnYTIrzGTHF84eQu2d9BcH_XAo,2934
+py_cppstd/std/iostream.py,sha256=-gODEXjiiqafmoBX-pBVt_x7VG01ponWsr6QjgZmtW8,4962
+py_cppstd/std/redir_std.py,sha256=Q4VzZy0pxc9g3JoZn2DfKK1G5ZL7hZ90sgRZCdcUOhw,870
+py_cppstd-0.2.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+py_cppstd-0.2.dist-info/METADATA,sha256=O-4c0Rld_VxrvUUJMxNA5geGwxBR8K6n2n3z3TzBCOg,1145
+py_cppstd-0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+py_cppstd-0.2.dist-info/top_level.txt,sha256=1H_FhYv8pojL8AHoVvw4uTTc-wkRDYcaxESMu69f_5w,10
+py_cppstd-0.2.dist-info/RECORD,,
