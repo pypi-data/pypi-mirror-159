@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+sleeper/__init__.py
+sleeper.egg-info/PKG-INFO
+sleeper.egg-info/SOURCES.txt
+sleeper.egg-info/dependency_links.txt
+sleeper.egg-info/requires.txt
+sleeper.egg-info/top_level.txt
+sleeper/api/APIClient.py
+sleeper/api/LeagueAPIClient.py
+sleeper/api/UserAPIClient.py
+sleeper/api/__init__.py
