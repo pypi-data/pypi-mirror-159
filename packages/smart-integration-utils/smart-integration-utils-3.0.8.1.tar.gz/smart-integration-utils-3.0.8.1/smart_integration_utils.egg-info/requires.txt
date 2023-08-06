@@ -1,0 +1,6 @@
+config_field
+drf-dynamicfieldserializer
+psycopg2-binary>=2.7.4
+pycrypto==2.6.1
+pytz>=2018.4
+six>=1.11.0
