@@ -1,0 +1,3 @@
+[console_scripts]
+demo1 = count_timer.demo:main
+demo2 = count_timer.demo_thread:main
