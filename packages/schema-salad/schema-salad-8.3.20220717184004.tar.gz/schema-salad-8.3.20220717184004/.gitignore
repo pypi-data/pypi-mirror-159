@@ -1,0 +1,13 @@
+.tox/
+.eggs
+*.egg-info/
+*pyc
+
+build/
+dist/
+ruamel
+typeshed/ruamel/yaml
+# virtualenv 
+venv/
+.cache/
+.pytest_cache/
