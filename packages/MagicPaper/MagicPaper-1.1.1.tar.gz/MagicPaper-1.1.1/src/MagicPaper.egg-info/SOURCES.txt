@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/MagicPaper.egg-info/PKG-INFO
+src/MagicPaper.egg-info/SOURCES.txt
+src/MagicPaper.egg-info/dependency_links.txt
+src/MagicPaper.egg-info/top_level.txt
+src/magic_paper/__init__.py
+src/magic_paper/_paper.py
