@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mbpy_endpoints"
+version = "0.1.2"
+description = ""
+authors = ["Adam Morris <classroomtechtools.ctt@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uplink = "^0.9.7"
+rich = "^12.4.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+readme = "README.md"
