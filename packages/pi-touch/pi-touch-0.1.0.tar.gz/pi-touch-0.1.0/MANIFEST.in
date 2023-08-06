@@ -1,0 +1,6 @@
+grade service
+prune venv
+prune tests
+exclude .gitattributes
+exclude .gitignore
+exclude .pre-commit-config.yaml
