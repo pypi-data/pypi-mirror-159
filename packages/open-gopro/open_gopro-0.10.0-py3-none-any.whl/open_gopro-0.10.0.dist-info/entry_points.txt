@@ -1,0 +1,8 @@
+[console_scripts]
+gopro-live-stream=open_gopro.demos.live_stream:main
+gopro-log-battery=open_gopro.demos.log_battery:entrypoint
+gopro-photo=open_gopro.demos.photo:entrypoint
+gopro-preview-stream=open_gopro.demos.preview_stream:main
+gopro-video=open_gopro.demos.video:entrypoint
+gopro-wifi=open_gopro.demos.connect_wifi:entrypoint
+
