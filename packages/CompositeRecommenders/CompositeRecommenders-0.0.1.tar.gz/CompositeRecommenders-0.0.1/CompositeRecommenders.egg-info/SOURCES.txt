@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+CompositeRecommenders/LSAEndowedSMR.py
+CompositeRecommenders/SMR_to_LSA.py
+CompositeRecommenders/__init__.py
+CompositeRecommenders.egg-info/PKG-INFO
+CompositeRecommenders.egg-info/SOURCES.txt
+CompositeRecommenders.egg-info/dependency_links.txt
+CompositeRecommenders.egg-info/requires.txt
+CompositeRecommenders.egg-info/top_level.txt
