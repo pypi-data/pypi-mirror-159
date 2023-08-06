@@ -1,0 +1,9 @@
+README.md
+setup.py
+Hastebin/Hastebin.py
+Hastebin/__init__.py
+Hastebin.egg-info/PKG-INFO
+Hastebin.egg-info/SOURCES.txt
+Hastebin.egg-info/dependency_links.txt
+Hastebin.egg-info/requires.txt
+Hastebin.egg-info/top_level.txt
