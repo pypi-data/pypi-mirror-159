@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: simvcce
+Version: 1.0.2
+Summary: SimVCCE: The vapor-compression refrigeration cycle steady-state simulator for education
+Home-page: https://github.com/thermalogic/SimVCCE
+Author: Cheng Maohuaa
+Author-email: cmh@seu.edu.cn
+Platform: Windows64
+Platform: Linux64
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+
+# SimVCCE
+
+The SimVCCE is the vapor-compression refrigeration and heat pump cycle steady-state simulator for education.
+
+We wish that SimVCCE may be a helpful vehicle for you to understand the object-oriented programming and improve programming skills
+
+## Dependences
+
+* coolprop
+* phyprops
+
+
