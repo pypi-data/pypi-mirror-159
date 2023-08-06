@@ -1,0 +1,14 @@
+eegyolk/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+eegyolk/display_helper.py,sha256=Yq_cywdPLDsDzPMiXz3TkCeLTMtUtkhWdhNkPFkSQbc,1913
+eegyolk/dummy_data_functions.py,sha256=YwXKEDlHj8WF6YZXE-jynNERMuzpkDig4gpCCC-EGbo,3865
+eegyolk/epod_helper.py,sha256=2nGWlx-b8W7_e59HbrM9lQeQ9cpabJMGSMFo_JdTkxs,1215
+eegyolk/helper_functions.py,sha256=HC9gotuZXhjzdy21N3ydGnR9PKRIYyiZuszKbfXnmZg,3810
+eegyolk/historical.py,sha256=WD7ofrto1x1dtuiciemM2fYchxc1WJf-ArXRTBTZ5jo,22234
+eegyolk/initialization_functions.py,sha256=0GTe5coGp36B_xm-3ErpTThVFLl3_Hp5ryK_90WHZ1c,5139
+eegyolk/preprocessing_functions.py,sha256=6Clq2eId9qtRpQcOIs1B-DugTi2JWMsLT26Ye5DjpNw,51
+eegyolk-0.0.3.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+eegyolk-0.0.3.dist-info/METADATA,sha256=ZDPEFbYYxSSOVs1vMIcP9Y-dZZ-239nk2lTnT9ZPfms,3508
+eegyolk-0.0.3.dist-info/NOTICE.md,sha256=iPceM4RdqZcFyql1WNRwxMv6xiHYgEVocqfXVCQOvWs,220
+eegyolk-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+eegyolk-0.0.3.dist-info/top_level.txt,sha256=VnIAHmLK0JaM3BlYrW8MMxkteJh5RNWsOoxwDKkoX48,8
+eegyolk-0.0.3.dist-info/RECORD,,
