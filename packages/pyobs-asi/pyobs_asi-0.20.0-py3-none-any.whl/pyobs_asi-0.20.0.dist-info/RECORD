@@ -1,0 +1,5 @@
+pyobs_asi/__init__.py,sha256=ZfVPkzJiepgRZ1pilND8KBBNWwgdXmHizvUOAkHM5x4,106
+pyobs_asi/asicamera.py,sha256=OD9gppI8cK_M33uatDmIqmIciOpGw4EISbBEiq_8kHY,14114
+pyobs_asi-0.20.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyobs_asi-0.20.0.dist-info/METADATA,sha256=yTsX-FDGaDh1qQIhTvC4sOuIxY7_jT_Eo_XVT3bX9lw,539
+pyobs_asi-0.20.0.dist-info/RECORD,,
