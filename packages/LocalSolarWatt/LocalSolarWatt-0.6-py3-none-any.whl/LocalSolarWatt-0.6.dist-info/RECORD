@@ -1,0 +1,10 @@
+LocalSolarWatt/__init__.py,sha256=Gm2Lai3xWNOzx0_cX67LgiAy39dzC1IORNOhvHlG1Rc,152
+LocalSolarWatt/api_client.py,sha256=d2-h8ESrD0TPeHS6w9w96G8GChUYa8c4Wj95q7szprM,1751
+LocalSolarWatt/energy_manager.py,sha256=k7-iUHOIk7HP2Ign-sQls-5YDYnbnXfGpIRL-3nBP1E,5469
+LocalSolarWatt/my_reserve.py,sha256=3vRp1wZ9oAhRMSgVCbNpU34zI2_Sv-8Z8gEXD_Q7xis,1125
+LocalSolarWatt/units.py,sha256=kRHpFOBlXyK1Yk39-6sO89X0nTsaU67ZACExRqBKTjE,71
+LocalSolarWatt-0.6.dist-info/LICENSE.txt,sha256=m8klx9CEDnMTdqNSDtPrMfozpeTbaZwH23LPn61GgIs,1076
+LocalSolarWatt-0.6.dist-info/METADATA,sha256=MTgtNQRGWLagV8vItUbyB8Vj_1OoFlx1i48F2SZPHiU,2284
+LocalSolarWatt-0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+LocalSolarWatt-0.6.dist-info/top_level.txt,sha256=q0b2p9u43cbnS5w7OJeMBJHFnK2QP51Fy47rAZkeszA,15
+LocalSolarWatt-0.6.dist-info/RECORD,,
