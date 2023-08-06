@@ -1,0 +1,17 @@
+anitui/__init__.py,sha256=JcM9yrprv3647Pz-NHJ3nV3bDNn3LXsBeKpO8hbSplU,691
+anitui/browse.py,sha256=PwFkybpqac5GBlbwNSZV58Oc9UKearXphOT2bNSNPQo,4695
+anitui/utils/__init__.py,sha256=lEQp8hvKEvMdNh3Z5TTwrIs0bZ-tPNYwbT0UVIiforA,124
+anitui/utils/anilist.py,sha256=1ijcuW4uBiW7XxlAAsBXyKiNyKL9T40ci-VOKX43MrI,754
+anitui/utils/config.py,sha256=SdaAOXpzdAVPah32X6RkYuh22MsHj03nc95Av3WQhPo,824
+anitui/utils/parser.py,sha256=5673wDM2DbmMdv-mZ9mhteitBb8R9F2ckkgv9Xw0K3U,1204
+anitui/utils/size.py,sha256=iq_b9ggR6o7DebZA40XRq1FhWeAQSm-Hpk1a-krDguM,764
+anitui/widgets/__init__.py,sha256=pQdh_uimtGCV7i7KF1_Gc7pLmWkB49gnH6lGRIDwFnM,87
+anitui/widgets/file.py,sha256=8keKHqsoV09f9e_4oYZLWS73yCj41O9NPAEL1eYBgak,1539
+anitui/widgets/header.py,sha256=lvXcy_MA_GCjMMKvu_izUjXHulldS5j-hRg7i13XLKI,1197
+anitui/widgets/progress.py,sha256=F9sE-NQmaACOb1rix98E3P2qh5DV71EboSYQ3SAyBE8,1168
+anitui/widgets/table.py,sha256=VdkLGIGKWBmgCWrUzgNi1Z5XVoQTwoLX8XmJgk8FkAk,1958
+anitui-0.1.3.dist-info/entry_points.txt,sha256=i5aepWpcPLW7FbPeiQeYmxjlIWTxb1Kd8ZEgsWn20Rg,47
+anitui-0.1.3.dist-info/LICENSE,sha256=C0ZxFltsJgHLqJDQ3nzimECJ0PCsDK9oYppMDf9wMS4,1070
+anitui-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+anitui-0.1.3.dist-info/METADATA,sha256=hStcMYjlzz3cM2dAewJHJBGFogknb2XWtm2Mf-Eh3ts,1484
+anitui-0.1.3.dist-info/RECORD,,
