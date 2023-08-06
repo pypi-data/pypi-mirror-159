@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+ghfetch.py
+setup.py
+app/__init__.py
+app/__main__.py
+app/application.py
+ghfetch.egg-info/PKG-INFO
+ghfetch.egg-info/SOURCES.txt
+ghfetch.egg-info/dependency_links.txt
+ghfetch.egg-info/entry_points.txt
+ghfetch.egg-info/requires.txt
+ghfetch.egg-info/top_level.txt
