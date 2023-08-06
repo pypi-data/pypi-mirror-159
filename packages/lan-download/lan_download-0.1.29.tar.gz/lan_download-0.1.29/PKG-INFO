@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: lan_download
+Version: 0.1.29
+Summary: 提供蓝奏云文件批量下载/获取直链功能
+Home-page: https://blog.csdn.net/qq_45429426
+Author: manyougz
+Author-email: 25275789@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## lan_download 介绍 
+> - 顾名思义 lan_download 可以下载蓝奏云文件， 并支持批量下载和提取动态直链功能！
+> 
+> - lan_download 还在开发阶段， 未来将保持更新， 推出 **蓝奏云文件夹内文件批量下载** / **带密文件解密下载** 等功能
+> 
+> 警告！本程序仅供学习使用，请勿用于非法途径，本人一概不负责！
+
+> 注意！本程序的下载请求也会被蓝奏云服务器所记录，文件下载次数计数会增加，请酌情使用本库！
+
+---
+
+### 下载示例
+
+**单文件下载示例：**
+```python:GT
+import lan_download
+lan_download.start_download(url='https://lzt666.lanzoui.com/iUp9hsahs0d')
+
+> result :
+>>> https://vip.d0.baidupan.com/file/?AGZSb+uBmUwgXGsBgBpVnkANVE1WikHZVIxUysBYVxp 
+                                                    (所有示例直链均已失效且经过省略处理)
+>>> 清华学员笔记数学-化学-生物(2).pdf  文件保存完成
+
+>>> 
+```
+
+**多文件下载(批量)示例：**
+```python:GT
+import lan_download
+lan_download.start_download(url=['https://lzt666.lanzoui.com/iUp9hsahs0d', 
+                                 'https://lzt666.lanzoui.com/iLHbtonnwxa',
+                                 'https://lzt666.lanzoui.com/irGVKe2mgih'])
+
+> result :
+>>> https://vip.d0.baidupan.com/file/?A2UHOVlY13wZdeltnBGhQYwViVg4GaVVtVWkDNwdpWTYAYFMzUTMGZwU3VytSMVV5U2wEOwczAWtWYQIyAGcJbVQ3A3NTdVRwXWFbMwQxUD0FNlZ+BjBVMVV7AzMHZlkrADdTNlFjBjEFMlc0UmBVPlM3BGIHMwE7VmMCNwA1CTVUNwMxU2BUOV1vW2MEZVBpBWFWNQYzVWtVYgM0B2VZPAB6U3VRYwY0BSJXeFIkVW9TIwRqB2UBYFZmAjAAZAlhVDcDZFM8VCZdKFtoBGxQagVhVmwGMVU/VWcDNgdmWTQAY1M8UTcGZAUqVyNScVVsUz0EdAc8AWxWYQIxAGIJYlQwA2FTNVQ4XW1bJwR0UH8FcFZsBjFVP1VmAzsHYlk1AGxTPVExBmUFIld4Uj5VelNsBDIHMAFoVnkCNwBkCXpUNgNgUytUNF1o
+>>> 清华学员笔记数学-化学-生物(2).pdf  文件保存完成
+>>> https://vip.d0.baidupan.com/file/?UzVUag4/BGLQVARgVHMGOgB2AmBUYwI0U2FXOFpjATMGdw0gAycFbgVhAGQHNABrBy0CbQE3VX1SZwJuUH5TMlRmDmcEaAJjBWYEYVRgBj4ANgJuVG8CMVNtVz1abQExBjQNZgNnBTAFMABsB2IAaAdkAj4BZVUwUmACaFBhU31UeQ46BCACcgUmBCNUMAYuAGwCOVRrAjRTZ1c4Wm4BNgZgDWkDcQUnBToAOQdjADwHPwJsATVVYVJhAmhQYVNkVDoOYgRhAnoFfQR2VDMGMAByAmBUZgIjUyBXe1osATwGYA1mA2YFagVkAGEHMQBoBzoCbwElVSdSPQIuUGxTYlQyDmYEfgJhBWAEflRjBmkAKwJpVGI=
+>>> EasiNote.zip  文件保存完成
+>>> https://vip.d0.baidupan.com/file/?BGJSbFpcsAypNkBMzB2EBZwN6B2NRZgZzBjEAaFR5BTUEMQBoVzMEYFJjWjEDMgRiAmRQMVQ3AD4PPgQ4VzADZlM3B2JRZ1NrBjMLMAdjAWEDMQcxUWIGZQYxAGtUYgUsBHgANVcmBCJScFp0AzIEIAI9UGBUaABrDzgEaFdgAzNTZAdiUXZTJwY4CzsHNgExA2gHYlFmBm8GNgBpVGYFNQQ7AG1XZAQqUitaIQMxBD4CI1A5VGUAfA9/BCtXIgM5U2QHblFpU2AGYwtkB2sBYgNjB2JRdgYpBmoAL1RrBTMEMwBpV3gEMVI2WikDYQRnAnpQMFRh
+>>> zy.zip  文件保存完成
+>>> 已完成批量下载
+
+>>> 
+```
+
+---
+如果您不希望 lan_download 打印信息， 可以提供 **show_info** 参数来取消所有消息的打印， 该参数默认为 **True**
+
+示例如下：
+```python:GT
+import lan_download
+lan_download.start_download(url='https://lzt666.lanzoui.com/iUp9hsahs0d', 
+                            show_info=False)
+
+> result :
+>>> 
+```
+可见，lan_download 此时不会打印任何信息。
+
+---
+
+### 下载配置
+
+> lan_download 的下载配置变量名称为 **__save_param** 类型为字典，修改示例如下
+
+```python:GT
+import lan_download
+
+lan_download.__save_param = {'save_dir': 'your_path'}
+lan_download.start_download(url='xxxxx')
+```
+
+---
+### lan_download 历代更新信息
+> 0.1.29 无新增功能, 加强并恢复解析、下载功能 (2022/07/17)
+
+> 0.1.2 无新增功能，加强下载功能的应变能力并恢复下载功能
+
+> 0.1.1 无新增功能，紧急恢复下载功能
+
+> 0.1.0  初代，仅支持修改文件保存路径
+
