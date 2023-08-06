@@ -1,0 +1,8 @@
+paleos/__init__.py,sha256=1uuQRXCIZgJBBgSXAAzClyJWPhPlyD_X21jFvLl7u40,563
+paleos/agemodel.py,sha256=Z-nSGhzsfsA8bHX_768dPcRUQms2GX8qm9FliKi-Dr4,3485
+paleos/common.py,sha256=O7jO1FWXOW_GR3NgFbwMM592fBvRCj-aF-cIIju7wZU,1182
+paleos/interpolate.py,sha256=yETAWDrDuttACOyFmUOE4k9qS1rDiTqIRCsfT_S89CI,11323
+paleos-0.1.0.dist-info/LICENSE,sha256=kvf7xje3A6bkEbYe-CHER8zHrmR8VL3t9TPHJZhz2Cc,1086
+paleos-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+paleos-0.1.0.dist-info/METADATA,sha256=F2E9cJ15rlpbOmCYUnmTa5tzVBKwsUK0kuaqLjpW_c8,1503
+paleos-0.1.0.dist-info/RECORD,,
