@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: persistable
+Version: 1.1.0
+Summary: An inheritable superclass with logging, and tools for persisting and loading models with parameter tracking
+Home-page: https://github.com/aloosley/persistable
+Download-URL: https://github.com/aloosley/persistable/archive/1.0.0.tar.gz
+Author: Alex Loosley, Stephan Sahm
+Author-email: aloosley@alumni.brown.edu
+Keywords: persisting,models,pipeline
+Requires-Python: >=3.9
+Provides-Extra: dev
+License-File: LICENSE
