@@ -1,0 +1,16 @@
+QStyler/__init__.py,sha256=hjLeNWvZKMIBBDtHsnh8LkQrUJ3Z1pDAwGSAyVSq1-Q,992
+QStyler/__main__.py,sha256=nGZPbU_flRdB94eSQNu_K6mdXaYDmdnRj2kQVCRAvNw,1030
+QStyler/menubar.py,sha256=8aDBrgywO4_WvUpJu0vMQzNme4AZ36yevv5DU7VKb0w,10232
+QStyler/styler.py,sha256=FiuXbLZy9Mc5b6YEnKISQiFNOx0Klt2LIzlgIjwwZ0U,11572
+QStyler/utils.py,sha256=SV9mKt9ZppGRyIm6H4cVCWoEIIfLRbcQkCKL_QyW7Ic,7257
+QStyler/version.py,sha256=K1c0_ZABeyEPrdbn9KUX4CJ7RwH0-8BMDll8ZMKrC0w,827
+QStyler/widgets.py,sha256=JSyQRoAfKwp0Wbav2JLKt6jnSY9_LfNzHDQNozHcoDE,9503
+QStyler/window.py,sha256=8CQRaCH6arTsHJBsaiu0SbnsJxEBAMkK4TJ3i3n4gug,2367
+QStyler/style/data.json,sha256=RXgAXHuZh1w4ahJrfyBI43N2JjrA_Tn8FATyM4AJA6I,6085
+QStyler/style/themes.json,sha256=pTJdqfqje7z8AUvzjtwdj3Rir3i2XZ7uH3dT1GaPk6I,101284
+QStyler-0.1.1.dist-info/LICENSE,sha256=EheghJxfJazKvvVBRO_OSs72PZO2DBybEc7-6o9WRFs,11356
+QStyler-0.1.1.dist-info/METADATA,sha256=2rMeztrwbi_J8lm6dhXLHvVeGyQ9Y-JGygSDPpRkew8,3399
+QStyler-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+QStyler-0.1.1.dist-info/entry_points.txt,sha256=r_9GBXSOnfW9MhqDBU3Os8LCJ-X3DI1MdgaSqXySndM,50
+QStyler-0.1.1.dist-info/top_level.txt,sha256=T60ER1Pp0iEuh15NnQBQ7oGMN_0_v_4VqoLfwoas-qs,8
+QStyler-0.1.1.dist-info/RECORD,,
