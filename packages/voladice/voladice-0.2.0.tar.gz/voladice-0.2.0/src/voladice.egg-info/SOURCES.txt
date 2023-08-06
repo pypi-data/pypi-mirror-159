@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/voladice/__init__.py
+src/voladice/filters.py
+src/voladice.egg-info/PKG-INFO
+src/voladice.egg-info/SOURCES.txt
+src/voladice.egg-info/dependency_links.txt
+src/voladice.egg-info/top_level.txt
