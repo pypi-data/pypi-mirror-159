@@ -1,0 +1,2 @@
+[console_scripts]
+pi-touch-screen = pi_touch.cli:run_manager
