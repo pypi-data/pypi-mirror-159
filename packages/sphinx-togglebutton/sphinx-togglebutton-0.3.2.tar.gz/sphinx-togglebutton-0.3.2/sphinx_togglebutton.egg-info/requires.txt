@@ -1,0 +1,12 @@
+setuptools
+wheel
+sphinx
+docutils
+
+[sphinx]
+matplotlib
+numpy
+myst_nb
+sphinx_book_theme
+sphinx_design
+sphinx_examples
