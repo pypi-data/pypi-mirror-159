@@ -1,0 +1,8 @@
+
+[dev]
+black
+flake8
+isort
+mypy
+pre-commit
+setuptools>=46.4.0
