@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Common-OurKids
+Version: 0.0.2
+Summary: Librería para tener configuraciones y archivos comunes para la implementación y uso de servidores en flask.
+Home-page: https://github.com/Jefry-bot/Common-OurKids
+Author: Jefry Zárate Ruíz
+Author-email: jefryzarateruiz@gmail.com
+License: MIT
+Download-URL: https://github.com/Jefry-bot/Common-OurKids/tarball/0.0.1
+Keywords: testing,logging,example
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Libreria del proyecto OurKids
+
