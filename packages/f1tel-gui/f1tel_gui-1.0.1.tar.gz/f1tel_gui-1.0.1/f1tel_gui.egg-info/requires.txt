@@ -1,0 +1,10 @@
+fastf1
+matplotlib
+numpy
+pandas
+pyqt5
+qdarkstyle
+Qscintilla
+pyperclip
+QtAwesome
+jsonschema

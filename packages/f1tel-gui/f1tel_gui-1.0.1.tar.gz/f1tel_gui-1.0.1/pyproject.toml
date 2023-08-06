@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "f1tel_gui"
+version = "1.0.1"
+description = "A simple GUI python package develped with PyQt5 that helps to analyze Formula 1 car and drivers telemetries"
+readme = "README.md"
+authors = [{ name = "Barbato Federico", email = "barbato.federico@outlook.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["f1", "formula 1", "telemetry", "gui", "pyqt5", "pyqt", "matplotlib" , "fastf1"]
+dependencies = [
+    "fastf1",
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "pyqt5",
+    "qdarkstyle",
+    "Qscintilla",
+    "pyperclip",
+    "QtAwesome",
+    "jsonschema"
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/Developer310301/F1-Telemetry-GUI/tree/v1.0.0"
+
+[project.scripts]
+f1telgui = "f1tel_gui.__main__"

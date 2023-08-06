@@ -1,0 +1,2 @@
+[console_scripts]
+f1telgui = f1tel_gui.__main__
