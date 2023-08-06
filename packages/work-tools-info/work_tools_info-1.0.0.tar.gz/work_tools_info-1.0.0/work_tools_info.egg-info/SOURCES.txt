@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.py
+work_tools_info/__init__.py
+work_tools_info/main.py
+work_tools_info.egg-info/PKG-INFO
+work_tools_info.egg-info/SOURCES.txt
+work_tools_info.egg-info/dependency_links.txt
+work_tools_info.egg-info/top_level.txt
