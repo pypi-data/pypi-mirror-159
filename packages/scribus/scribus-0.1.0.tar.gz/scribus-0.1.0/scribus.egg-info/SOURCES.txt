@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+scribus.egg-info/PKG-INFO
+scribus.egg-info/SOURCES.txt
+scribus.egg-info/dependency_links.txt
+scribus.egg-info/entry_points.txt
+scribus.egg-info/requires.txt
+scribus.egg-info/top_level.txt
