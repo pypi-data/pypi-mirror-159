@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hltasr
+Version: 0.2
+Summary: HLT ASR API python package
+Home-page: https://demoeng.kkode.com/document/streamraw
+Author: HLT ASR Team
+Author-email: thaingoc01@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Documentation Reference: https://demoeng.kkode.com/document/streamraw
+
+Requirements: python3; websocket (install websocket: pip3 install websocket-client); audio files have sampling rate 16KHz, mono, wav format. 
+
+Run the test code: python3 test.py
