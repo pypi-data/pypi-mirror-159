@@ -1,0 +1,10 @@
+rainpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rainpy/origin_file.py,sha256=vTGprHfQii9HS1ohQI64Kt3IEljdWIKK6Lh8ejysUTM,6693
+rainpy/read_file.py,sha256=iwinx9NwjNMPNGxb-m0O1lH09ViembqAJye4qVJk608,7854
+rainpy/test_origin_file.py,sha256=94ZEgAiSiqZlINWKJrrxCK36xwUPjVOeTDbwLaICsJE,2375
+rainpy/test_read_file.py,sha256=08xCpOYDp-_4nAo0jb_kuN7lQBX2TlMsfhURS5eTw7Y,1610
+rainpy-0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+rainpy-0.1.dist-info/METADATA,sha256=YjaXOqs0DzX6Wo21k0zU-CPJDM3tcI3zphuCjTETGpc,247
+rainpy-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rainpy-0.1.dist-info/top_level.txt,sha256=HMMsjiBKoyHK_6G3LyuZqTyD02UVbAjK0j0RO6wOats,7
+rainpy-0.1.dist-info/RECORD,,
