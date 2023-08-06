@@ -1,0 +1,3 @@
+[console_scripts]
+saghetti=saghetti.cli:main
+
