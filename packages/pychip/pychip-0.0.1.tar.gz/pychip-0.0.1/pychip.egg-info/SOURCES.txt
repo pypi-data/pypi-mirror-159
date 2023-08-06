@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pychip/__init__.py
+pychip/main.py
+pychip.egg-info/PKG-INFO
+pychip.egg-info/SOURCES.txt
+pychip.egg-info/dependency_links.txt
+pychip.egg-info/top_level.txt
