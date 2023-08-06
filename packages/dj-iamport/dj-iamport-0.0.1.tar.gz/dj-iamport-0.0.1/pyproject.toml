@@ -1,0 +1,39 @@
+[project]
+name = "dj-iamport"
+version = "0.0.1"
+authors = [{ name = "lhy", email = "dev@lhy.kr" }]
+description = "i'mport utility for Django"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Framework :: Django",
+    "Framework :: Django :: 3.2",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+]
+
+[project.urls]
+"GitHub" = "https://github.com/LeeHanYeong/dj-iamport"
+
+[tool.poetry]
+name = "iamport"
+version = "0.1.0"
+description = ""
+authors = ["lhy <dev@lhy.kr>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+Django = "<4"
+build = "^0.8.0"
+twine = "^4.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[tool.black]
+line-length = 130
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
