@@ -1,0 +1,11 @@
+recsyslearn/__init__.py,sha256=zDLBeqFfsy5x_mQoGWJpUocM9DkTnlw0OLU5CQp9eqs,149
+recsyslearn/errors.py,sha256=FMrs3wOx1FggWyHdrGrN6zlCHGsvJOVwOjpClkVH9Es,701
+recsyslearn/metrics.py,sha256=RQQL8wQJo6DaSpFRMpwj6GqWyf4yI5Xawj9lzJbQ99Q,7903
+recsyslearn/segmentations.py,sha256=j7PAnpPOp3RBIemW817Mh-qiZoIp885Q2iWuKJuZepk,5777
+recsyslearn/utils.py,sha256=vVCwVbLEEGdfv4erBirh_OX65BPd1HWpVtNyMza8YuI,3207
+recsyslearn-0.5.0.dist-info/AUTHORS.rst,sha256=hDu54rNKqxDg61f6bRTvITk4aXOKHiMdmuIILpmHaYk,183
+recsyslearn-0.5.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+recsyslearn-0.5.0.dist-info/METADATA,sha256=WgiPfbNyc-3Kypmnk9Jr99qDtEW5Jt6UDRhsC3OtOtc,2965
+recsyslearn-0.5.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+recsyslearn-0.5.0.dist-info/top_level.txt,sha256=62cW-1_ZHl_DVuaZaxFjZREqCUb01IgP8oU2qdd_u6A,12
+recsyslearn-0.5.0.dist-info/RECORD,,
