@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+setup.cfg
+setup.py
+dictionary_search/__init__.py
+dictionary_search.egg-info/PKG-INFO
+dictionary_search.egg-info/SOURCES.txt
+dictionary_search.egg-info/dependency_links.txt
+dictionary_search.egg-info/top_level.txt
+dictionary_search.egg-info/zip-safe
