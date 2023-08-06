@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/latexman/__init__.py
+src/latexman/functions.py
+src/latexman.egg-info/PKG-INFO
+src/latexman.egg-info/SOURCES.txt
+src/latexman.egg-info/dependency_links.txt
+src/latexman.egg-info/top_level.txt

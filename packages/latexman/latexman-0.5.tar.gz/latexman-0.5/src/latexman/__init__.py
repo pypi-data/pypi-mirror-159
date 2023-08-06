@@ -1,0 +1,1 @@
+from .functions import convert_dollar_sign_to_latex_counterpart

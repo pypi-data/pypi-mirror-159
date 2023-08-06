@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: latexman
+Version: 0.5
+Summary: latex code manipulation
+Home-page: https://github.com/imahdimir/latexman
+Author: Mahdi Mir
+Author-email: imahdimir@gmail.com
+Project-URL: Bug Tracker, https://github.com/imahdimir/latexman/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Install
+```
+pip install latexman
+```
+
+# Quick Start
+In LaTeX (as opposed to classic TeX) You should use \\(123\\) and \\[ 123\\] environments instead of \$123\$ and \$\$123\$\$ respectively. 
+
+See https://tex.stackexchange.com/questions/510/are-and-preferable-to-dollar-signs-for-math-mode
+
+The function `convert_dollar_sign_to_latex_counterpart()` helps converting \$123\$ in math mode to \\(123\\) and \$$123$$ to \\[123\\]
+```
+from latexman import convert_dollar_sign_to_latex_counterpart as conv
+
+filepath = 'main.tex'
+conv(filepath)
+```
