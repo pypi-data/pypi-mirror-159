@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pychip
+Version: 0.0.1
+Summary: A python-based Hardware Description Language
+Home-page: https://github.com/xchgao
+Author: xchgao
+Author-email: xxx@xxx.com
+Project-URL: Bug Tracker, https://github.com/xchgao/PyChip/issues
+Keywords: HDL,hardware design,ASIC,FPGA,Verilog
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyChip
+
+* [简体中文](README_cn.md) | English
+
+Python-based  Hardware Description Language
