@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Minecraft_Skin_Converter.egg-info/PKG-INFO
+Minecraft_Skin_Converter.egg-info/SOURCES.txt
+Minecraft_Skin_Converter.egg-info/dependency_links.txt
+Minecraft_Skin_Converter.egg-info/requires.txt
+Minecraft_Skin_Converter.egg-info/top_level.txt
+minecraft_skin_converter/__init__.py
