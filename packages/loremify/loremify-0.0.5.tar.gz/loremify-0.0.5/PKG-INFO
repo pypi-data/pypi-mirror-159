@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: loremify
+Version: 0.0.5
+Summary: Python Implementation of Lorem Ipsum. Test your typesetting!
+Home-page: https://github.com/AsgerJon
+Author: Asger Jon Vistisen
+Author-email: asgerjon2@gmail.com
+Keywords: Lorem,Ipsum,TypeSetting,Latex
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# loremify
+
+## Lorem Ipsum
+
+Below is a paragraph of randomly generated words resembling human
+language, but which are in fact just random. Because of the superficial
+appearance of this text, it finds use when testing typesetting. For
+example in Latex.
+
+~~~
+Dolore tempore nobis labore nostrum, culpa aliqua ut fuga dolores incididunt
+dolor, hic unde amet error iste aliqua quos. Rem iure, perferendis aliqua
+amet, magni expedita perferendis ipsum excepturi, rem amet consectetur
+placeat id, tempore lorem, rem dolore, dolor. Hic sed quasi consectetur
+aliqua dolor autem sed tenetur libero perferendis accusamus tempor, ipsum
+repellat laboriosam et magna. Labore eveniet et do libero ratione, voluptate
+dolores magna suscipit adipisicing porro ducimus lorem rem esse magna. Amet
+nam aliqua repellat sit et quae similique, elit sapiente magna saepe vel do
+voluptatem ea dolor repellat assumenda alias. Dolor hic eiusmod, sunt aliqua
+eum lorem, voluptate ipsum eos labore ut inventore reprehenderit labore
+consequuntur aspernatur amet, labore aliqua, quo sed.
+~~~
+
+The implementation provided in this package creates a string containing
+this placeholder text. It can be dropped immediately into your existing
+framework.
+
+## Example:
+
+~~~
+from loremify import paragraph
+lorem = paragraph(300)
+lorem
+>>> Libero eiusmod magna, velit iusto, veniam fugiat consectetur adipisicing
+repudiandae do placeat aliqua, sit? natus illo tempor consectetur ut
+laudantium quia, aliqua et do et labore et in error non nostrum elit amet.
+totam do aliqua aliquid vero elit sed ratione et dolore dolor, ipsum,
+consectetur?
+~~~
+
+## Future Features:
+
+The following ideas are currently under development:
+
+### Customizable Word List:
+
+The word lists used to create early versions are somewhat crude,
+consisting of two text files, one containing common words and the other
+uncommon words. The random process then applies weights to the common ones.
+
+We are considering different approaches to open up this functionality to
+direct manipulation. Perhaps a sponsored word might find its way in?
+
+### Direct Interaction with Latex:
+
+Presently, loremify just creates a string of text. This could be expanded
+to include numbers, links, equations, figures and more. Rather than just
+creating a random paragraph, write an entire, albeit random, scientific
+article with sources, equations, tables and everything.
