@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: CTPreprocessing
+Version: 3.0.0
+Summary: First preprocessing on input dicoms
+Author: AIMedic
+Author-email: aimedic@gmail.com
+License: MIT
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: interactive
+
+**_installation_**
+-----------------------------------------------
+install the package:
+~~~~
+pip install CTPreprocessing
+~~~~
+**_HOW TO_**
+----------------------------------------------
+After the installation, do the following:
+~~~~
+from ctbrain_preprocessing import PreProcessor
+from pathlib import Path
+
+path = directory/to/ct series
+preprocessor = PreProcessor()
+preprocessed_series, headers = preprocessor.preprocess(path)
+~~~~
+
+**_Description_**
+----------------------------------------------
+This is the first preprocessing on the input dicoms.
+the preprocessing consists of:
+
+~~~~
+1- removing artifacts
+2- removing the neck slices
+3- centering the image
