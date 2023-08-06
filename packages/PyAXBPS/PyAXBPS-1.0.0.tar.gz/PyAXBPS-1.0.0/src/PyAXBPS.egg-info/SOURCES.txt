@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/fileinteraction.py
+src/AXBTProcessor/AXBTprocessor.py
+src/AXCPProcessor/AXCPprocessor.py
+src/AXCPProcessor/_AXCP_convert_fxns.py
+src/AXCPProcessor/_AXCP_decode_fxns.py
+src/AXCPProcessor/geomag_axbps.py
+src/AXCTDProcessor/AXCTDprocessor.py
+src/AXCTDProcessor/demodulate.py
+src/AXCTDProcessor/parse.py
+src/PyAXBPS.egg-info/PKG-INFO
+src/PyAXBPS.egg-info/SOURCES.txt
+src/PyAXBPS.egg-info/dependency_links.txt
+src/PyAXBPS.egg-info/top_level.txt
