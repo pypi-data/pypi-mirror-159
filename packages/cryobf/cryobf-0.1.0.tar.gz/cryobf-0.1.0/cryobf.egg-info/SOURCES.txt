@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+bin/cryobf
+bin/cryobf.bash-completion
+cryobf/__init__.py
+cryobf/cryobf.py
+cryobf.egg-info/PKG-INFO
+cryobf.egg-info/SOURCES.txt
+cryobf.egg-info/dependency_links.txt
+cryobf.egg-info/top_level.txt
