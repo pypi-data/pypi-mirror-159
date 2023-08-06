@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: package-foo
+Version: 0.0.1
+Summary: foo is a demo project
+Author-email: python_app_tech <python_app_tech@126.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+
+Foo
+=========
+
+1. Introduction
+----------------
+
+Foo is a demo project for creating and distributing python lib:
+
+- it provides a directories to make a project.
+
+- package and upload to pypi.org
+
+Foo 是一个演示项目，用于展示创建和分发Python第三方库:
+
+- 提供了一个Python第三方库项目目录文件样板
+
+- 打包及上传pypi.org
