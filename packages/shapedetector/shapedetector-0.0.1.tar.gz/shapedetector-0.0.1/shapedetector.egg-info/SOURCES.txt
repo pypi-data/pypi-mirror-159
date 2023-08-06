@@ -1,0 +1,9 @@
+README.md
+setup.py
+shape_detector/__init__.py
+shape_detector/main.py
+shapedetector.egg-info/PKG-INFO
+shapedetector.egg-info/SOURCES.txt
+shapedetector.egg-info/dependency_links.txt
+shapedetector.egg-info/requires.txt
+shapedetector.egg-info/top_level.txt
