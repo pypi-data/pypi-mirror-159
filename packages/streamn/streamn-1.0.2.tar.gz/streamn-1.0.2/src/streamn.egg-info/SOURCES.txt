@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/streamn.egg-info/PKG-INFO
+src/streamn.egg-info/SOURCES.txt
+src/streamn.egg-info/dependency_links.txt
+src/streamn.egg-info/requires.txt
+src/streamn.egg-info/top_level.txt
+src/streamnai/__init__.py
+src/streamnai/config.py
+src/streamnai/libraries.py
+src/streamnai/utils.py
