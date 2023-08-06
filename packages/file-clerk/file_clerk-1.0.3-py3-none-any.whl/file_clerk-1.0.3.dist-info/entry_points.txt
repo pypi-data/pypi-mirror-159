@@ -1,0 +1,3 @@
+[console_scripts]
+run=file_clerk:main
+
