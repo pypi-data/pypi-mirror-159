@@ -1,0 +1,11 @@
+indoNLP/__init__.py,sha256=nE7xyoiMZDVZ6l9I9ix2ncIRiht9Y_0e_BvhLPQOLrE,209
+indoNLP/preprocessing/__init__.py,sha256=YufrxBZDY3J18iqK-ENUIaTIg0pAFfovhImFbrZnIvw,7593
+indoNLP/preprocessing/emoji/__init__.py,sha256=20QVMhQuU3bt8lr9iz9rwGyc3dOdxrzyoKjSLF84Cbk,1433
+indoNLP/preprocessing/emoji/emoji_data.py,sha256=wZSt7P8_StEP9ngwX0hbbXEapQ9a0qV0SirJHSAlhV4,654586
+indoNLP/preprocessing/slang_data.py,sha256=EQP65APAOp5cOKpL3k68cpcUhV80tRmpwE98kPluuhw,111965
+indoNLP/preprocessing/stopwords_data.py,sha256=H_TQSBAenD8-YZMEpP49ZN13WsfczBlbwo1raZbCZ50,11928
+indoNLP/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+indonlp-0.2.0.dist-info/LICENSE,sha256=9Iw_hOEIARoCSechgGn77LQj5Apu7VzIxccWE8knfxM,1071
+indonlp-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+indonlp-0.2.0.dist-info/METADATA,sha256=gytiBHd80kCBb4jYxk8YKXzoy6D63u7pIlWIJfMbj0s,4608
+indonlp-0.2.0.dist-info/RECORD,,
