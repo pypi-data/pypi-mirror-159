@@ -1,0 +1,8 @@
+git_commit="3b99fb01e1b55c212caeecb6d85efb2aba34f0da"
+git_commit_timestamp="2022-07-05_12:15:16_+0530"
+git_describe="3b99fb0"
+build_os="Linux mr-0xc3 4.15.0-72-generic #81~16.04.1-Ubuntu SMP Tue Nov 26 16:34:21 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux"
+build_machine="mr-0xc3"
+build_date="Mon Jul  4 23:46:46 PDT 2022"
+build_user="jenkins"
+version="0.0.1"
