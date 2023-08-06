@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: isprime-pypackage
+Version: 0.1.0
+Summary: A python pacakge to check if a number is prime
+License: WTFPL
+Author: Arslan909
+Author-email: Arslan909@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
