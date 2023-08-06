@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+src/truckle/__init__.py
+src/truckle/truckle.py
+src/truckle.egg-info/PKG-INFO
+src/truckle.egg-info/SOURCES.txt
+src/truckle.egg-info/dependency_links.txt
+src/truckle.egg-info/requires.txt
+src/truckle.egg-info/top_level.txt
