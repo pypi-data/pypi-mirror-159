@@ -1,0 +1,10 @@
+requests>=2.25
+
+[docs]
+sphinx
+
+[test]
+pytest
+pytest-cov
+pytest-flake8
+pytest-timeout
