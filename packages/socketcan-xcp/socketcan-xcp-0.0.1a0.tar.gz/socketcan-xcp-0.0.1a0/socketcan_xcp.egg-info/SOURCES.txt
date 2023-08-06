@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+socketcan_xcp.egg-info/PKG-INFO
+socketcan_xcp.egg-info/SOURCES.txt
+socketcan_xcp.egg-info/dependency_links.txt
+socketcan_xcp.egg-info/top_level.txt
+xcp/__init__.py
+xcp/client.py
+xcp/protocol.py
+xcp/server.py
+xcp/transport.py
