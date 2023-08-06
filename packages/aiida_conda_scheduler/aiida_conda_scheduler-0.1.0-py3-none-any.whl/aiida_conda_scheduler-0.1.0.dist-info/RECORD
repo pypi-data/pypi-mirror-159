@@ -1,0 +1,7 @@
+aiida_conda_scheduler/__init__.py,sha256=DIo_qnM-JwoV4jBc2z-_PtWTSRSKOZD38bZzWmiDL8A,81
+aiida_conda_scheduler/schedulers.py,sha256=EJarvIMuH1QD3qoSPZrfqqwBwn_SXjtt8YZxBbtUrUg,1660
+aiida_conda_scheduler-0.1.0.dist-info/entry_points.txt,sha256=RmogI4_6WJLKEjEoyAzFaPEMEE6i7yTsSrvOI6fQbUY,152
+aiida_conda_scheduler-0.1.0.dist-info/LICENSE,sha256=e2oBokUn5wjiI-LEINj9ENuu8Z0OMk6pGJkzKVFYR4E,1070
+aiida_conda_scheduler-0.1.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+aiida_conda_scheduler-0.1.0.dist-info/METADATA,sha256=y74HYKpQd8eVEc8A1K5W8aPpbUzeDfH8DPaekpL_pBc,3170
+aiida_conda_scheduler-0.1.0.dist-info/RECORD,,

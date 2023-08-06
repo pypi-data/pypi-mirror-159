@@ -1,0 +1,4 @@
+[aiida.schedulers]
+conda.direct=aiida_conda_scheduler.schedulers:CondaDirectScheduler
+conda.slurm=aiida_conda_scheduler.schedulers:CondaSlurmScheduler
+
