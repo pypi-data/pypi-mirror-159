@@ -1,0 +1,3 @@
+pint-pandas>=0.2
+pytz
+python-dateutil
