@@ -1,0 +1,17 @@
+cadcdata==2.0
+caom2>=2.5
+astropy>=2.0
+vos>=3.1.1
+
+[:python_version >= "3.6"]
+spherical-geometry>=1.2.11
+
+[h5]
+h5py
+
+[test]
+pytest>=6.2
+pytest-cov>=2.12
+flake8>=3.9
+mock>=4.0
+xml-compare>=1.0.5
