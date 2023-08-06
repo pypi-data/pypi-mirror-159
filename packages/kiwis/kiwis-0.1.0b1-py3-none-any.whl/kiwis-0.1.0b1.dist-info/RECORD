@@ -1,0 +1,12 @@
+LICENSE,sha256=m9BlyTm_rQjooq5fiQLTmmZkKjR4Z1xzgp-7YQbixpQ,1046
+kiwis/__init__.py,sha256=JE9qKyYPs1Kv9Y0vmbu6-c51qksOC8Led-3w-cOJMoM,24
+kiwis/__main__.py,sha256=thpF6Iy1vJNZCtuIrvdT9vIseuUgpwRltbjx-G0Lzzc,1512
+kiwis/config.py,sha256=phTuzcwqCnvk8gayvyWrHfWOCToQaGGP4W3XCX6BpQM,664
+kiwis/exceptions.py,sha256=1V4zzZ46yFP2E54WmElzm3coFFjcdnF8y7xXsMr01yw,179
+kiwis/kiwis.py,sha256=v5r51EYCh-NODLRZ6wxmIQgFpwEN7cnwAzdK7TM2eNE,5711
+kiwis/utils.py,sha256=ASoUx-8w2cUPS9vS89JTf8oustx2yHpG7XDDgkR6wxs,1551
+kiwis-0.1.0b1.dist-info/entry_points.txt,sha256=ko09tJHv0MZ-oQKTKF0HD4k-Ddu9sgapwsHE7eisuCs,44
+kiwis-0.1.0b1.dist-info/LICENSE,sha256=m9BlyTm_rQjooq5fiQLTmmZkKjR4Z1xzgp-7YQbixpQ,1046
+kiwis-0.1.0b1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+kiwis-0.1.0b1.dist-info/METADATA,sha256=RAlZ1H3wWHaZ0HzzNa4bPZ9CL2dfy8iMVcZsPNdtKsg,1063
+kiwis-0.1.0b1.dist-info/RECORD,,

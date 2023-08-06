@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: kiwis
+Version: 0.1.0b1
+Summary: A simple yet powerful static site generator
+Home-page: https://github.com/wxllow/kiwis
+License: MIT
+Keywords: static site generator,web,web development,web framework,ssg,static site,jinja,markdown
+Author: wxllow
+Author-email: willow@wxllow.dev
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: Markdown (>=3.3.7,<4.0.0)
+Requires-Dist: pymdown-extensions (>=9.5,<10.0)
+Requires-Dist: python-frontmatter (>=1.0.0,<2.0.0)
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Requires-Dist: rich-click (>=1.5.1,<2.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: watchdog (>=2.1.9,<3.0.0)
+Project-URL: Repository, https://github.com/wxllow/kiwis
+Description-Content-Type: text/markdown
+
+
