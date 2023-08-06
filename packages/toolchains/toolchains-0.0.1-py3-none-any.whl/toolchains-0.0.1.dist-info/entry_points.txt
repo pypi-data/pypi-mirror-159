@@ -1,0 +1,3 @@
+[console_scripts]
+toolchain_cli = toolchains.toolchains_cli:main
+
