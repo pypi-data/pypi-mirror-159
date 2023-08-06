@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pentaho-carte-plugin"
+version = "0.0.1"
+authors = [
+  { name="Shallowman", email="feron.wu@gmail.com" },
+]
+description = "Pentaho airflow plugin using hook"
+readme = "README.md"
+license = { file="LICENSE.txt" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/shallowman/airflow-pentaho-plugin"
+"Bug Tracker" = "https://github.com/shallowman/airflow-pentaho-plugin/issues"
