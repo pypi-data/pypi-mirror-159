@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: anekos
+Version: 1.0.0
+Summary: An unofficial async wrapper for nekos.life API!
+Home-page: https://github.com/Nekos-life/Async-nekos.life-wrapper
+Author: NiumXp
+License: MIT
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: aiohttp (>=3.6.2)
+
