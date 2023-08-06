@@ -1,0 +1,11 @@
+discordhtml/__init__.py,sha256=pg6pCBmllkesJ-4j0ytCQrnkcgJRny3zoUAztljFjkE,295
+discordhtml/bot.py,sha256=gcoalceysYcFwrOtI-dIAp0XNx8pT4XWClwFX0h_QY8,2726
+discordhtml/errors.py,sha256=okVhPupGWSCvoQnPSZAcM9-R9MLiJSSJcVLogxfR1OQ,1084
+discordhtml/parser.py,sha256=m6slhMKO_PpHsVVBHXzrP07xmTKHZfAmTlYyaBKZI3g,4153
+discordhtml/utils.py,sha256=E-MjeTnzntnlmg7h1ChvzNLZ7y4At8Yfoa-2dlKRlxU,539
+discord.html-0.0.6.dist-info/LICENSE,sha256=hS8-HWgUTw-UgBCB9StNXAvcmvi-cecn9md-5BGcY8Q,1081
+discord.html-0.0.6.dist-info/METADATA,sha256=SixxFE9QiUVlYDpSSj_ZaELJJlZcGq7Ukut7kxsAWTw,530
+discord.html-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+discord.html-0.0.6.dist-info/dependency_links.txt,sha256=bf4EY1tFZeMlmsK4QJb35zR2Y5pUBJQaRlOO-EXGwLE,67
+discord.html-0.0.6.dist-info/top_level.txt,sha256=Xv3ulAifiCVbB6VisCYKWjQWCHSFiH2TstQ_b1YmQsA,12
+discord.html-0.0.6.dist-info/RECORD,,
