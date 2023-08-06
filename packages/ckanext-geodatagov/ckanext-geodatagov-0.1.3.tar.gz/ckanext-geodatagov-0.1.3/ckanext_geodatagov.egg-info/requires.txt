@@ -1,0 +1,5 @@
+boto
+ckanext-datagovtheme
+ckanext-datajson
+future>=0.18.2
+ply>=3.4
