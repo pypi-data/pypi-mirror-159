@@ -1,0 +1,9 @@
+LICENSE
+README.txt
+setup.py
+zyr_zhuanshu/__init__.py
+zyr_zhuanshu/test.py
+zyr_zhuanshu.egg-info/PKG-INFO
+zyr_zhuanshu.egg-info/SOURCES.txt
+zyr_zhuanshu.egg-info/dependency_links.txt
+zyr_zhuanshu.egg-info/top_level.txt
