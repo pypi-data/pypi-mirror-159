@@ -1,0 +1,4 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: [ 'build', '-t', 'gcr.io/aaa-private-assets/mwg', '.' ]
+images: ['gcr.io/aaa-private-assets/mwg']
