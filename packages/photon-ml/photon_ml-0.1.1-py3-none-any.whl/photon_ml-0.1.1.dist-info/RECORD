@@ -1,0 +1,15 @@
+photon/__init__.py,sha256=E8R0GlsVghwBFOk4e86PTGK61J339HK01Za92K0sOgY,46427
+photon/gamma.py,sha256=dcf-pOWS66Ej9UvOGZ3eqPY-oHTLQ93CbwFk592Fbxk,26008
+photon/layers.py,sha256=X93Z4ui5UQN4fbxe-CeXS3jKE27q50Xdj_FIbRTtOjs,28995
+photon/losses.py,sha256=QHHtv3TKaUEELgIuD99iIm_HefN23t3HZJvlt_za_jc,8133
+photon/metrics.py,sha256=CzqZ7-3N-WeMuKl1mssrSixTPe7qyoXPq8p4Jf0q3Wk,1247
+photon/models.py,sha256=stZod_QkTyAiZmYUcq29assCXvLBEyeHjTaUO9axYp0,10512
+photon/optimizers.py,sha256=JVd8foW2ZEYdHPA0liH6EU6Vk5oZQZutFW1DYz5SrpI,5249
+photon/options.py,sha256=H0i9f-FsTfNH5hQihoknlGxV5veLDZUEAkGzWDUzQzU,3770
+photon/runs.py,sha256=3DToZDrLvaefcQT6bPHZQh5y2dG5XBKo9u_nV19U4W4,9901
+photon/utils.py,sha256=ySqyeFV4-B0Kcd13jF46Hg1O52HuvvEoXcNV1dyP7y4,2670
+photon_ml-0.1.1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+photon_ml-0.1.1.dist-info/METADATA,sha256=w1SJTx9VAjFoJe63_GYoE9qCYKS3Gjkvdq0MGkzg9Sg,2076
+photon_ml-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+photon_ml-0.1.1.dist-info/top_level.txt,sha256=T7VjibS0oH0NtwZrV6UWy8UNyg-gBJauQDG_XN5QfFY,7
+photon_ml-0.1.1.dist-info/RECORD,,
