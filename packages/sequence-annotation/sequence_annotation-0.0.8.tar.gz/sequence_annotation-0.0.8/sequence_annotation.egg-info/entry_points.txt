@@ -1,0 +1,3 @@
+[console_scripts]
+sequence_annotation = sequence_annotation:main
+
