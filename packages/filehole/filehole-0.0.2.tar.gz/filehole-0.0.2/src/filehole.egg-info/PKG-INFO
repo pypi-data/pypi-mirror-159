@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: filehole
+Version: 0.0.2
+Summary: Python library to find missing files in a scheduled delivery.
+Author-email: Virginie Grosboillot <vestalisvirginis@gmail.com>
+Project-URL: Homepage, https://github.com/vestalisvirginis/filehole
+Project-URL: Bug Tracker, https://github.com/vestalisvirginis/filehole/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# filehole
+Python library to find missing files in a scheduled delivery.
+
+
+## Dependencies
+- Python 3.8.9 or higher
+- Numpy 1.23.0
+- Holidays 0.14.2
+
+
+## Install
+
+The latest stable version can always be installed or updated via pip:
+```python
+$ pip install --update filehole
+```
+
+
+## Usage
+
+-> frequency takes the following values: 
+- for daily or weekly file delivery uses: 'C', with the required weekly_schedule' value, e.g. '1000000' for weekly file delivery on Monday.
+
+
+## Limitations
+- All files are expected to be at the same level.
+- Current version works only with daily, weekly and monthly file delivery.
+
+
+## License
+This project is under the MIT License.
