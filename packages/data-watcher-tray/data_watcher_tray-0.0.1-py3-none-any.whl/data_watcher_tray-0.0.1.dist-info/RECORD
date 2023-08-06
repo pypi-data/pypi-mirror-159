@@ -1,0 +1,10 @@
+data_watcher/__init__.py,sha256=d-Ebw_jvD88_NQkxFUDQnq8CJtSkyL3jqXuUSpVVI-I,154
+data_watcher/app.py,sha256=k4K-LxPurqrYY9pC-wFkpbMhT9NRdSb6BXVupDL0M8A,3310
+data_watcher/log_dialog.py,sha256=6dUahV_jJdTTvXPU24mEBoNTME9AnEtPpCIeGrX2Rrc,1179
+data_watcher/process.py,sha256=ZRVJkb5hpxpOititjYaPnzXcpfADX5wLykqoELk_SLE,466
+data_watcher/upload_dialog.py,sha256=AbzTCrNdlkde88A43uZNgDGkt8KVdD4lEdCCnzzMhPg,892
+data_watcher_tray-0.0.1.dist-info/LICENSE.txt,sha256=jvjaGoFynMhIxJx7RDQpMpXn4zoZ5QDKUX-uHPPGRUM,1085
+data_watcher_tray-0.0.1.dist-info/METADATA,sha256=Qvlc1Zy19EFI4xeGh6ReVP27yeYP3sR4c_8pRa2slpU,2619
+data_watcher_tray-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+data_watcher_tray-0.0.1.dist-info/top_level.txt,sha256=HwavBHuS2Ce0152eWfQ2HRWhlv0me7dWutWeGZyysQ4,13
+data_watcher_tray-0.0.1.dist-info/RECORD,,
