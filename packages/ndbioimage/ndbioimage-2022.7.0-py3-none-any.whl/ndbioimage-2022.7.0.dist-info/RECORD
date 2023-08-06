@@ -1,0 +1,17 @@
+ndbioimage/__init__.py,sha256=TIUUPWZY8em5GEt6LWmk8LvNiHPVp1h_Dxd3Y02dmlQ,60037
+ndbioimage/_version.py,sha256=BqcnNa4llqTgIm5YO9yVSK1WjO6Yyi5H4yki2_uhZao,57
+ndbioimage/jvm.py,sha256=ARJkoiP3GFqtVK7j0Br8ISwCHx7qgeUQeEnlaxvNRNw,1563
+ndbioimage/transform.txt,sha256=opswWY64rLZxgv3nyhV3PNwrwvUA88PQMs3QAJcjFgk,187
+ndbioimage/transforms.py,sha256=WIpitdCafwH9DpyS3yaBZ_-6aWtYPPzAiRV4x_dKfVM,9146
+ndbioimage/readers/__init__.py,sha256=nIgAAf_zUvX17-0zGpbjHCxoJH8LlH4wnMUDOELAEGg,194
+ndbioimage/readers/bfread.py,sha256=MWxEjEemo1cF5G-OzgMNpwSZjGp7EOzwyKkC4zvGPjI,3830
+ndbioimage/readers/cziread.py,sha256=A78rBtiNzM4_Qjch_o__ZWu2xCYypC4ir3udfJOzKSA,6082
+ndbioimage/readers/ndread.py,sha256=fQcAtG3nXCwy4kQ_UlFFDJrEvAq5nZz9J6AMXY2GA3Y,805
+ndbioimage/readers/seqread.py,sha256=u1256-G7m4FGzrEijK7NCsm4jtQwRzjxoX5hFUNp0AE,3459
+ndbioimage/readers/tifread.py,sha256=JUdZ3ke2fr88mtASHcqWvyFrUhZqDaXdZuHz05XCrR8,1696
+ndbioimage-2022.7.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ndbioimage-2022.7.0.dist-info/METADATA,sha256=K6UJV47-Cjd83NPAmpdmsFbJ_IA2BNHPf96DthkEFCA,3836
+ndbioimage-2022.7.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ndbioimage-2022.7.0.dist-info/entry_points.txt,sha256=yIfo2I0Bg8WSuwXcxWQHaxxDyG0uWAszdSugrecEmug,58
+ndbioimage-2022.7.0.dist-info/top_level.txt,sha256=KzJwcGzgZgrzoIczl6vtaSSNPNhEEustP8SBWYczF3A,11
+ndbioimage-2022.7.0.dist-info/RECORD,,
