@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: CDHTMLTable
+Version: 1.0.0
+Summary: library 
+Home-page: https://github.com/
+Author: di.chen
+Author-email: di.chen@shopee.com
+License: MIT Licence
+Description: library 
+Keywords: html table
+Platform: any
+Requires-Python: >=3.7.*
