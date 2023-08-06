@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gnukek
+Version: 0.2.0
+Summary: Kinetic Effective Key
+Home-page: https://github.com/SweetBubaleXXX/KEK
+Author: SweetBubaleXXX
+License: GNU General Public License v3.0
+Project-URL: Bug Tracker, https://github.com/SweetBubaleXXX/KEK/issues
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: cryptography (>=35.0.0)
+
