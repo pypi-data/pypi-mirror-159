@@ -1,0 +1,7 @@
+setup.py
+interframe_subtraction/__init__.py
+interframe_subtraction/interframe_subtraction.ctf
+interframe_subtraction.egg-info/PKG-INFO
+interframe_subtraction.egg-info/SOURCES.txt
+interframe_subtraction.egg-info/dependency_links.txt
+interframe_subtraction.egg-info/top_level.txt
