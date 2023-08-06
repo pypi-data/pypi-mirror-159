@@ -1,0 +1,16 @@
+flair>=0.11
+pydantic
+dash
+dash_bootstrap_components
+loguru
+
+[dev]
+pytest
+pytest-mypy
+pytest-flake8
+flake8
+pytest-isort
+flake8-black
+black
+isort
+pytest-xdist
