@@ -1,0 +1,7 @@
+setuptools~=60.2.0
+urwid~=2.1.2
+ConfigArgParse~=1.5.3
+pycurl~=7.45.1
+psutil~=5.9.1
+pexpect~=4.8.0
+numpy~=1.22.4
