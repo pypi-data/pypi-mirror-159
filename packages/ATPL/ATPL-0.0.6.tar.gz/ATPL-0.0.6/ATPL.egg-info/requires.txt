@@ -1,0 +1,6 @@
+gooey
+paramiko
+wave
+applescript
+sounddevice
+numpy
