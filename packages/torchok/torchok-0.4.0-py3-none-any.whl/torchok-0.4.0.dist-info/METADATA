@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: torchok
+Version: 0.4.0
+Summary: The toolkit for fast Deep Learning experiments in Computer Vision
+License: Apache License Version 2.0
+Author: Vlad Vinogradov
+Author-email: vladt9@yandex.ru
+Requires-Python: >=3.9,<3.11
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: albumentations (>=1.2,<1.3)
+Requires-Dist: boto3 (>=1.24,<1.25)
+Requires-Dist: faiss (>=1.5,<1.6)
+Requires-Dist: hydra-core (>=1.2,<1.3)
+Requires-Dist: mlflow (>=1.22,<1.23)
+Requires-Dist: numpy (>=1.22,<1.23)
+Requires-Dist: onnx (>=1.12,<1.13)
+Requires-Dist: onnxruntime-gpu (>=1.11,<1.12)
+Requires-Dist: opencv-python (>=4.6,<4.7)
+Requires-Dist: pandas (>=1.4,<1.5)
+Requires-Dist: pillow (>=9.1,<9.2)
+Requires-Dist: pytorch-lightning (>=1.6,<1.7)
+Requires-Dist: ranx (>=0.2,<0.3)
+Requires-Dist: torchmetrics (>=0.8,<0.9)
