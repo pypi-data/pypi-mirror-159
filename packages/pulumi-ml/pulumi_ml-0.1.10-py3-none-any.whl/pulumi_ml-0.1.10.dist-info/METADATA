@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pulumi-ml
+Version: 0.1.10
+Summary: Machine learning tools using Pulumi
+Author: Patrick Barker
+Author-email: pbarker@onemedical.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pulumi (>=3.33.1,<4.0.0)
+Requires-Dist: pulumi-aws (>=5.4.0,<6.0.0)
+Requires-Dist: pulumi-docker (>=3.2.0,<4.0.0)
+Requires-Dist: pulumi-kubernetes (>=3.19.1,<4.0.0)
