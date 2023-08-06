@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: Custom-Tooltip
+Version: 1.3
+Summary: Basic Hover Tooltip for Tkinter based off of Tkinter's built in tooltip
+Home-page: https://github.com/jlw4049/Custom-Tkinter-Tooltip
+Author: jlw4049 (Jessie Wilson)
+Author-email: <jessielw4049@gmail.com>
+License: UNKNOWN
+Keywords: python,tkinter,hovertip,tooltip,infotip,bubble
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 6 - Mature
+Description-Content-Type: text/markdown
+
+This package enables a customizable tooltip when you hover the mouse over a defined widget. It's built off of the Tkinter's built in Hovertip class. However it has most of the functionality of the label widget. You can set font, colors, relief, border, wrap length, anchor, border, textvariable, and width.
+
+
