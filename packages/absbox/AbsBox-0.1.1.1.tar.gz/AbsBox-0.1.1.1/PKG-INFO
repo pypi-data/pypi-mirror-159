@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: AbsBox
+Version: 0.1.1.1
+Summary: an analytical library for cashflow modeling on ABS/MBS products
+Home-page: https://github.com/yellowbean/PyABS
+Author: xiaoyu,zhang
+Author-email: always.zhang@gmail.com
+License: Apache
+Download-URL: https://github.com/yellowbean/PyABS/archive/refs/tags/pre-release.tar.gz
+Description: UNKNOWN
+Keywords: MBS,ABS,Modelling,Structured Finance,Cashflow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
