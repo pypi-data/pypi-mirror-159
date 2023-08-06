@@ -1,0 +1,6 @@
+{
+  "tests/test_iso_freeze.py::test_install_command": true,
+  "tests/test_iso_freeze.py::test_read_toml": true,
+  "tests/test_iso_freeze.py::test_determine_default_file": true,
+  "tests/test_iso_freeze.py::test_run_pip_freeze": true
+}

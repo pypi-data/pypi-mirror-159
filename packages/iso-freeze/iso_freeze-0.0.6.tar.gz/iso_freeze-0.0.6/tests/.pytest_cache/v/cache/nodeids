@@ -1,0 +1,7 @@
+[
+  "test_iso_freeze.py::test_base_requirements",
+  "test_iso_freeze.py::test_dev_deps",
+  "test_iso_freeze.py::test_install_package",
+  "test_iso_freeze.py::test_temp_venv_exec_path",
+  "test_iso_freeze.py::test_virtualenv_deps"
+]
