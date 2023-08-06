@@ -1,0 +1,4 @@
+[console_scripts]
+namespaceA-cli=namespaceA.cli:execute
+namespaceB-cli=namespaceB.cli:execute
+

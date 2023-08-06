@@ -1,0 +1,10 @@
+namespaceA/__init__.py,sha256=ZKhSflD2kbOvEW2Af9teuiplZTjsnNZrnAYUpADMR5Q,410
+namespaceA/__main__.py,sha256=llSZwI7PzRaChdPRsfdalv9JbAscZGnDAuq_tIyIuEc,1110
+namespaceA/cli.py,sha256=rs4OWIEQiGJQOXQ33j31GFQE-Jkb-ycDAcbwXjy3VLM,292
+namespaceB/__init__.py,sha256=NxXTH5Bjhl1kzXbwFEg_Cwr9d8b-cd2h5H7l1x3AWkc,27
+namespaceB/__main__.py,sha256=alhlEkejG5E-qAARBu0yHsL50Uw5Q-LJzdwUoMDDFac,117
+namespaceB/cli.py,sha256=rs4OWIEQiGJQOXQ33j31GFQE-Jkb-ycDAcbwXjy3VLM,292
+unique_distribution_name_874b102b_1a57_4164_85a0_5086844152b9-0.1.1.dist-info/entry_points.txt,sha256=_aQJZueX8aoLxm0Z0IazDStUwaNqsh775SZ6QruTxY4,95
+unique_distribution_name_874b102b_1a57_4164_85a0_5086844152b9-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+unique_distribution_name_874b102b_1a57_4164_85a0_5086844152b9-0.1.1.dist-info/METADATA,sha256=nGRX97USEOCgmj8UUyn9VvBR7UIYMnDLdnTFLSjwdq8,2142
+unique_distribution_name_874b102b_1a57_4164_85a0_5086844152b9-0.1.1.dist-info/RECORD,,
