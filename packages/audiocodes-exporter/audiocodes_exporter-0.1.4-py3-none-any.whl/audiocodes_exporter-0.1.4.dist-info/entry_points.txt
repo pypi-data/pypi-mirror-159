@@ -1,0 +1,3 @@
+[console_scripts]
+audiocodes-exporter=audiocodes_exporter.cli:main
+
