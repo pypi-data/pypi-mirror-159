@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "charlie"
+version = "0.0.1"
+authors = [
+  { name="Eleanor Robin Heuchan", email="heuchane@cardiff.ac.uk" },
+]
+description = "Comprehensive High-throughput Analysis of Repeat Length, Interruptions, Etc."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://pypi.org/user/eleanorrobin/"
