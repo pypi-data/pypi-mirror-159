@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "kiwis"
+version = "0.1.0b1"
+description = "A simple yet powerful static site generator"
+authors = ["wxllow <willow@wxllow.dev>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/wxllow/kiwis"
+repository = "https://github.com/wxllow/kiwis"
+keywords = ["static site generator", "web", "web development", "web framework", "ssg", "static site", "jinja", "markdown"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.scripts]
+kiwis = "kiwis.__main__:cli"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+toml = "^0.10.2"
+Jinja2 = "^3.1.2"
+
+# CLI
+rich = "^12.5.1"
+rich-click = "^1.5.1"
+
+# Markdown
+Markdown = "^3.3.7"
+python-frontmatter = "^1.0.0"
+pymdown-extensions = "^9.5"
+
+# Development mode
+watchdog = "^2.1.9"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+mkdocs-material = "^8.3.9"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
