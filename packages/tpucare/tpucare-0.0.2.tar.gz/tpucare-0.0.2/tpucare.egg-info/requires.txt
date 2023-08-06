@@ -1,0 +1,4 @@
+google-cloud-tpu
+google-api-python-client
+oauth2client
+google-auth
