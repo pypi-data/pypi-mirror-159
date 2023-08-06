@@ -1,0 +1,14 @@
+wda_python/__init__.py,sha256=CKI58IpQG_uqrRE1DMOj8is-V2kHLIAaz-B1LEn0b1w,61979
+wda_python/_proto.py,sha256=aB7uLSTHQrUFfjUMc5sAAOzcA3uXlvcCFHKOt1cLdHM,1209
+wda_python/exceptions.py,sha256=dMtuNsK6xhqa3hFyA9x3y1U-5bf9tNOaL_z6TK4Gx1E,2393
+wda_python/requests_usbmux.py,sha256=wBWmDvqKHNaXczgi4fCEGI7uhbbZiKOah1Ci8dvGEoo,4280
+wda_python/usbmux.py,sha256=A4gNpnnC5bFzGPj_cb2NFCBMyR6lv5hqh4VfdJ0-iJc,8022
+wda_python/utils.py,sha256=dmVQmupmVcF2vLOP8VdiFhP_LwtukgkbCOPi-_-VS6s,1697
+wda_python/xcui_element_types.py,sha256=vO6-TpBW9SYgtPKFxYKY1nwA75HkXTUu4x0Dpb9lD8s,1458
+wda_python-0.0.3.dist-info/AUTHORS,sha256=x8f6tskXTw6e5qX7QsLf5MZNgvnBs4UV4Vv--WD0OWQ,41
+wda_python-0.0.3.dist-info/LICENSE,sha256=ZMEe2NsQRHHzs985owESOnlS7Hkci8_wxLM7J3ZKY2Y,1077
+wda_python-0.0.3.dist-info/METADATA,sha256=8GDg5aoWtLlGZm3PmnhRWnr2hTEspM-BnGMDf0EmRgA,1016
+wda_python-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wda_python-0.0.3.dist-info/pbr.json,sha256=xLM5E8I3t2FUmCuJ4jzXtFoKOoFVdn7Ya_WQz8kNr9s,47
+wda_python-0.0.3.dist-info/top_level.txt,sha256=PMfGFh09MtpQf36hDU50kmSQdWGsA2BdwWBEBQIPQBI,11
+wda_python-0.0.3.dist-info/RECORD,,
