@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: limesqueezer
+Version: 1.0.11
+Summary: Lossy compression for smooth numerical data series
+Home-page: https://github.com/limespy/limesqueezer
+Author: Limespy
+Author-email: 
+License: MIT
+Project-URL: Changelog, https://github.com/limespy/limesqueezer/blob/master/CHANGELOG.rst
+Project-URL: Issue Tracker, https://github.com/limespy/limesqueezer/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: System :: Archiving :: Compression
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+
+
+Changelog
+=========
+1.0.10 (2021-11-30)
+-------------------
+
+- Cleaned documentation
+
+1.0.10 (2021-11-30)
+-------------------
+
+- Cleaned documentation
+
+1.0.9 (2022-04-03)
+------------------
+
+- Block and stream compression are much more uniform
+- Restructuring
+- Tests
+- Profiling
+
+1.0.8 (2022-03-20)
+------------------
+
+- Step-by-step style ploting of the compression.
+
+1.0.3 (2021-11-30)
+------------------
+
+- First release on PyPI.
+
+

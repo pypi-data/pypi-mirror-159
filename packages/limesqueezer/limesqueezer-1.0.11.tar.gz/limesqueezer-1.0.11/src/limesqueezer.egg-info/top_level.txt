@@ -1,0 +1,12 @@
+API
+CLI
+GLOBALS
+__init__
+__main__
+auxiliaries
+errorfunctions
+f2zero
+limesqueezer
+models
+plotters
+root
