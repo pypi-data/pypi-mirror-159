@@ -1,0 +1,3 @@
+[console_scripts]
+dyff = app.cli:cli_main
+
