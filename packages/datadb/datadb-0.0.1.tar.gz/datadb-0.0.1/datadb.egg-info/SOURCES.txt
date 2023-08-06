@@ -1,0 +1,7 @@
+setup.py
+datadb/__init__.py
+datadb.egg-info/PKG-INFO
+datadb.egg-info/SOURCES.txt
+datadb.egg-info/dependency_links.txt
+datadb.egg-info/requires.txt
+datadb.egg-info/top_level.txt
