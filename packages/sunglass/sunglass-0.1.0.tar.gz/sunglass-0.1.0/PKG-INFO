@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sunglass
+Version: 0.1.0
+Summary: GUI for easily use Solcore
+License: GPL-3.0-or-later
+Author: Diego Alonso Álvarez
+Author-email: d.alonso-alvarez@imperial.ac.uk
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: solcore (>=5.7.7,<6.0.0)
