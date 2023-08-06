@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: debug-timer
+Version: 0.0.2
+Summary: Timer for debug
+Home-page: 
+Author: og
+Author-email: anonymous@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+Timer
+
