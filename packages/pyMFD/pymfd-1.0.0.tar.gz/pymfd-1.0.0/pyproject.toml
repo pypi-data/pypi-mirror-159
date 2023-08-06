@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["pyMFD"]
+
+[tool.hatch.build.targets.sdist]
+only-include = ["pyMFD"]
+
+
+[project]
+name = "pyMFD"
+version = "1.0.0"
+authors = [
+  { name="Kyle Larsen", email="larsenkg@gmail.com" },
+]
+description = "pyMFD is a tool to analyze atomic force microscope force-volume data of microcantilevers in order to extract Young's modulus."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy>=1.21.2",
+    "scipy>=1.7.1",
+    "matplotlib>=3.5.0",
+    "bottleneck>=1.3.2",
+]
+
+[project.optional-dependencies]
+tests = [
+    "pytest>=7.1.2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/larsenkg/pyMFD"
+"Bug Tracker" = "https://github.com/larsenkg/pyMFD/issues"
