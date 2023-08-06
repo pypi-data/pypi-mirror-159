@@ -1,0 +1,11 @@
+setup.py
+convertinhours/__init__.py
+convertinhours/conversionhours.py
+convertinhours/convertinhours.py
+convertinhours/digitextractor.py
+convertinhours/timetohours.py
+convertinhours.egg-info/PKG-INFO
+convertinhours.egg-info/SOURCES.txt
+convertinhours.egg-info/dependency_links.txt
+convertinhours.egg-info/requires.txt
+convertinhours.egg-info/top_level.txt
