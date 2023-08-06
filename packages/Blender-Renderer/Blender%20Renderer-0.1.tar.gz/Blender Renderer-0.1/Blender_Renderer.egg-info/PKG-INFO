@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: Blender-Renderer
+Version: 0.1
+Summary: Render blender scenes
+Home-page: https://github.com/skillor/blender-render-api
+Author: skillor
+Author-email: skillor@gmx.net
+License: MIT
+Description: # Telegraf Build Api
+        
+        ### Docs
+        
+        API-Documentation can be found here: https://skillor.github.io/blender-render-api/
+        
+        ## Installation
+        
+        All settings can be overwritten with environment variables with the same name.
+        
+        ### Setup in Unix
+        
+        > Install Blender
+        
+        > Install requirements
+        
+        ```bash
+        pip3 install -r requirements.txt
+        ```
+        
+        > Install API requirements
+        
+        ```bash
+        pip3 install -r requirements_api.txt
+        ```
+        
+        > Copy "settings_example.py" to "settings.py"
+        
+        ```bash
+        cp settings_example.py settings.py
+        ```
+        
+        > Edit your settings.py
+        
+        > Start the server
+        
+        ```bash
+        python3 -m uvicorn main:app --host 0.0.0.0 --port 8000 --log-level warning
+        ```
+        
+Keywords: blender,render,api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Multimedia :: Graphics
+Requires-Python: >=3
+Description-Content-Type: text/markdown
