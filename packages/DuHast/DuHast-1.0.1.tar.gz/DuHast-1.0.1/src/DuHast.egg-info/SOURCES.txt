@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/DuHast.egg-info/PKG-INFO
+src/DuHast.egg-info/SOURCES.txt
+src/DuHast.egg-info/dependency_links.txt
+src/DuHast.egg-info/requires.txt
+src/DuHast.egg-info/top_level.txt
+src/du_hast/__init__.py
