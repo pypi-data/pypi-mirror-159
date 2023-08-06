@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+test_zws/Binomialdistribution.py
+test_zws/Gaussiandistribution.py
+test_zws/Generaldistribution.py
+test_zws/__init__.py
+test_zws.egg-info/PKG-INFO
+test_zws.egg-info/SOURCES.txt
+test_zws.egg-info/dependency_links.txt
+test_zws.egg-info/not-zip-safe
+test_zws.egg-info/top_level.txt
