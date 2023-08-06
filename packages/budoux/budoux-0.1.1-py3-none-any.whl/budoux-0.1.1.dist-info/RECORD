@@ -1,0 +1,16 @@
+budoux/__init__.py,sha256=M7vvjysYEqif5PlWlW3GLt8AiVN3pMsWEHOkXI-MT4E,856
+budoux/feature_extractor.py,sha256=Z7mbrmWrP8IRxdnQhi2i1eLdL2phJXyQp15OcsRqgmk,3248
+budoux/main.py,sha256=Ka8-pz_0d-pO3pM5cF-cePRHKSxMJSGBLNsUy2dY0sE,5256
+budoux/parser.py,sha256=2kOeVZJxpzcXRUUwkrmltbvy1H9M663kLeCNYJrgCQU,5872
+budoux/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+budoux/skip_nodes.json,sha256=USVNg7UXSE87Yk73bk_FBzplpBoSG--aqFPCzK2DR_Y,124
+budoux/unicode_blocks.json,sha256=9DDceovouPgvH8-HGej2PZq9bbtwYnuGtDaMNyoFYUM,2111
+budoux/utils.py,sha256=GBVGrnDyoeYVHTtRea468TBj9ideFnDh0njjb5dr5T0,872
+budoux/models/ja-knbc.json,sha256=KeLSexKnf1fwiJxNozQJ_-TV2DdCjd9jtfBKvkbVBlc,10213
+budoux/models/zh-hans.json,sha256=nxZDR2C3oT4TgQtvUoUwgkf1sX0AChY3rxlcPtk7Z7U,26566
+budoux-0.1.1.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+budoux-0.1.1.dist-info/METADATA,sha256=m-GkFjfzvfm0mWEl2GaE22-5NjS2sYqWD3AYZZV6lQE,9523
+budoux-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+budoux-0.1.1.dist-info/entry_points.txt,sha256=uXboPvfEV7xl1Ad4APQ-CfAnGE5sY1aF3Sa2HH8G1ZE,44
+budoux-0.1.1.dist-info/top_level.txt,sha256=RZc1YCADjD8KgYsTUZFMA-PrjomfwDfj6XnCo6BsxTo,7
+budoux-0.1.1.dist-info/RECORD,,
