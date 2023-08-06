@@ -1,0 +1,16 @@
+README.md
+setup.py
+WF_Prop.egg-info/PKG-INFO
+WF_Prop.egg-info/SOURCES.txt
+WF_Prop.egg-info/dependency_links.txt
+WF_Prop.egg-info/requires.txt
+WF_Prop.egg-info/top_level.txt
+WaveFunctionPropagation/Help_function_library_yair.py
+WaveFunctionPropagation/Locpot_class.py
+WaveFunctionPropagation/Main_execution.py
+WaveFunctionPropagation/Stage_1.py
+WaveFunctionPropagation/Stage_2.py
+WaveFunctionPropagation/Structure_vis.py
+WaveFunctionPropagation/__init__.py
+WaveFunctionPropagation/__main__.py
+WaveFunctionPropagation/savitzky_golay.py
