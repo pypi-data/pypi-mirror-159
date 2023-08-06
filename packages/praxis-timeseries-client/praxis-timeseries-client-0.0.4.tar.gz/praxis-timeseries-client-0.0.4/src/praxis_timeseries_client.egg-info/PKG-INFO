@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: praxis-timeseries-client
+Version: 0.0.4
+Summary: A Darts Time Series client for facilitating model development and data exploration.
+Home-page: https://github.com/praxis-pioneering/praxis-timeseries-client.git
+Author: evan kirkiles
+Author-email: evan@praxispioneering.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Praxis Time Series Client
+
+Current version: 0.0.4
+Python version: >= 3.7
+
+A package for quick visualization of a target Darts time series objects alongside covariates and discrete data.
+
+## Usage
+
+The main component of this package is the `DartsInterface` class found in `praxis_timeseries_client.darts`. This synthesizes together your Time Series objects under the same hood, so you can interact with them together in a single graph and run models in a plug-and-play manner with your covariates.
+
+```python
+from praxis_timeseries_client.darts import DartsInterface
+from darts import TimeSeries
+
+interface = DartsInterface(
+    target_ts=TimeSeries.from_dataframe(...),
+    past_covariates=TimeSeries.from_dataframe(...),
+    future_covariates=TimeSeries.from_dataframe(...),
+    discrete_vars={...})
+```
+
+Now, you can plot with the interface:
+
+```python
+interface.plot(components=[...]).show() # Plot all components, or an ordered subset
+```
+
+And run forecasts and backtests with a model pre-trained on the covariates:
+
+```python
+# make sure ts_train == target_ts from above
+model = LinearRegressionModel(lags=50, lags_future_covariates=(100, 50), output_chunk_length=30)
+model.fit(series=ts_train, future_covariates=ts_future_covs)
+
+# run a backtest and plot it
+backtest = interface.backtest(
+    model,
+    start=pd.Timestamp(startDate),
+    forecast_horizon=int(forecastHorizon),
+    stride=int(stride))
+backtest.run(past_covariates=None)
+backtest.plot().show()
+
+# or run a forecast and plot it
+forecast = interface.forecast(model, n=50)
+forecast.run(past_covariates=None)
+forecast.plot().show()
+```
+
+Hopefully this is enough to get you started using the interfaces!

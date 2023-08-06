@@ -1,0 +1,5 @@
+[tool.isort]
+profile = "black"
+[build-system]
+requires=["numpy<1.23","u8darts","plotly"]
+build-backend = "setuptools.build_meta"
