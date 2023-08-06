@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: history-object
+Version: 0.3.0
+Summary: A python decorator that tracks added and changed elements of the decorated object.
+Home-page: https://bitbucket.org/westmont/history_object
+Author: Connor Riva, Dave Lundgren
+Author-email: criva@westmont.edu, dlungren@outsideopen.com
+License: UNKNOWN
+Keywords: history,attributes,tracking,object,decorator
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+UNKNOWN
+
