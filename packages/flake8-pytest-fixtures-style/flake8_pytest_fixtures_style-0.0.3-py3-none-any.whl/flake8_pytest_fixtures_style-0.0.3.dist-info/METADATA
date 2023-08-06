@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: flake8-pytest-fixtures-style
+Version: 0.0.3
+Summary: A flake8 extension that checks pytest fixtures
+Home-page: https://github.com/sidorov-as/flake8-pytest-fixtures-style
+Author: Alexey Sidorov
+Author-email: ereon.dev@gmail.com
+License: MIT
+Keywords: flake8
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Environment :: Plugins
+Classifier: Framework :: Flake8
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Unit
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: flake8 (<5,>=3)
+Requires-Dist: flake8-plugin-utils (==1.3.2)
+Requires-Dist: flake8-pytest-style (==1.6.0)
+
+# flake8-pytest-fixtures-style
+
+[![Build Status](https://travis-ci.com/sidorov-as/flake8-pytest-fixtures-style.svg?branch=main)](https://travis-ci.org/sidorov-as/flake8-pytest-fixtures-style)
+[![Maintainability](https://api.codeclimate.com/v1/badges/705e9a1c834a48e1d05c/maintainability)](https://codeclimate.com/github/sidorov-as/flake8-pytest-fixtures-style/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/705e9a1c834a48e1d05c/test_coverage)](https://codeclimate.com/github/sidorov-as/flake8-pytest-fixtures-style/test_coverage)
+[![PyPI version](https://badge.fury.io/py/flake8-pytest-fixtures-style.svg?)](https://badge.fury.io/py/flake8-pytest-fixtures-style)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/flake8-pytest-fixtures-style)
+
+A flake8 extension that checks pytest fixtures.
+
+## Installation
+
+```terminal
+pip install flake8-pytest-fixtures-style
+```
+
+## Usage
+
+```terminal
+$ flake8 text.py
+text.py:2:5: PF001: pytest fixture "your_func_name" returning another fixture must be suffixed with "_factory"
+```
+
+## Error codes
+
+| Error code |                     Description   |
+|:----------:|:---------------------------------:|
+|   [PF001](docs/codes/PF001.md)   | fixture `factories` must be suffixed with "_factory" |
+|   [PF002](docs/codes/PF002.md)   | fixtures unused in test function body must be specified via a `@pytest.mark.usefixtures(...)` |
+
+

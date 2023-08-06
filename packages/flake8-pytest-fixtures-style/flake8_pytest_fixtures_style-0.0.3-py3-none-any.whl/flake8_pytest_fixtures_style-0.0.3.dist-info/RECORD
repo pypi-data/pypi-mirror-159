@@ -1,0 +1,16 @@
+flake8_pytest_fixtures_style/__init__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+flake8_pytest_fixtures_style/config.py,sha256=WaacqgH-IyoEspv16II25TRhZU7A7qklXq8HOIaHWXQ,248
+flake8_pytest_fixtures_style/errors.py,sha256=fr9eLxI4RiAqiM1_bQwDPIpWVRZs1Fx67q9a5SjyNKo,441
+flake8_pytest_fixtures_style/plugin.py,sha256=qUcSmaaBP75jIvHl39Eq80M3QBZXrhOymigErOIOAkA,1146
+flake8_pytest_fixtures_style/utils.py,sha256=xyCnedDHmeXE4yGc54jmgfcA-fbfubDg1RRAzV3bIWs,3116
+flake8_pytest_fixtures_style/visitors.py,sha256=v2C_pZkzlVGlYjoaS0LpWBah-tu_mjX7Za6G_mLvqSI,2742
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_PF001_fixture_factory.py,sha256=2oyVvYSxKrzXwosYxcMvPBpqUlEmucjLm9Gr5aGZdqo,1130
+tests/test_PF002_unused_fixture.py,sha256=ni8V3L0lVr-gLSzt8RIKf3vxPENo8KccIfPfWiQB79Y,2870
+tests/test_utils.py,sha256=CWCqMRFR9H9Q5555ljpB2xOhR6rDhj_qlZt5ahpCdV4,7176
+flake8_pytest_fixtures_style-0.0.3.dist-info/LICENSE,sha256=f8MtHdz2iiNwKcJ3yAh9Uv8LHUIWdrFeU9gJsU7t8M0,1081
+flake8_pytest_fixtures_style-0.0.3.dist-info/METADATA,sha256=MUvTbZTldybOOlvomM-MB9rF4aiq1B-eiZbmP_uorwU,2463
+flake8_pytest_fixtures_style-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flake8_pytest_fixtures_style-0.0.3.dist-info/entry_points.txt,sha256=ZCMb2ZvZVdhvrxt3miJ_eEoI8DXH4MyMYZ0vbp3Bi6M,68
+flake8_pytest_fixtures_style-0.0.3.dist-info/top_level.txt,sha256=dtoZ-zVR4npmFDGC4sVRZm3FG9JtkyQxVypPAnx3_IY,35
+flake8_pytest_fixtures_style-0.0.3.dist-info/RECORD,,
