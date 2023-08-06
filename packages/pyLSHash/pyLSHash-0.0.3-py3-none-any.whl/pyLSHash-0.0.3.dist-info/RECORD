@@ -1,0 +1,11 @@
+pyLSHash/__init__.py,sha256=7mmqmPER_PuUB6nLTNzi0eN244nTUcT3t97TZc7hrkg,83
+pyLSHash/lshash.py,sha256=lOrlLyVQpB0IQUowxeP1bn3o1d0iLw6pH1K_ccryv9o,8945
+pyLSHash/storage.py,sha256=CM-Qr4SbkBkxR76yNwJ7r7qijkeYervFUMu3IYAis-U,2817
+py_lsh/__init__.py,sha256=LXkNmaKqq-l9v1jUWQiccRh1AubtBk9AmdcMURjudC8,81
+py_lsh/lshash.py,sha256=lOrlLyVQpB0IQUowxeP1bn3o1d0iLw6pH1K_ccryv9o,8945
+py_lsh/storage.py,sha256=CM-Qr4SbkBkxR76yNwJ7r7qijkeYervFUMu3IYAis-U,2817
+pyLSHash-0.0.3.dist-info/LICENSE,sha256=mWrIQ3wAj4PftUVo91mB5x8DDEZWqD5MzyPJzd4SG2U,1063
+pyLSHash-0.0.3.dist-info/METADATA,sha256=3djXQtvRdUjZ6Yd-4ygXZLKc4LNpl0hRKQaFJ6fnqtU,2785
+pyLSHash-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pyLSHash-0.0.3.dist-info/top_level.txt,sha256=KWhB8jg6pfujOI_UjxJ3l2MQxI9f2g90pUvqNRBxARQ,9
+pyLSHash-0.0.3.dist-info/RECORD,,
