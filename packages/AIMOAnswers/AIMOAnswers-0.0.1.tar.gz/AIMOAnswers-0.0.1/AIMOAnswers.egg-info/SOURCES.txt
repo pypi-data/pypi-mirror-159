@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+AIMOAnswers.egg-info/PKG-INFO
+AIMOAnswers.egg-info/SOURCES.txt
+AIMOAnswers.egg-info/dependency_links.txt
+AIMOAnswers.egg-info/top_level.txt
+aimo/__init__.py

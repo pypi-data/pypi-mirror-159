@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: AIMOAnswers
+Version: 0.0.1
+Summary: Contains the answers (in python form) for AIMO
+Home-page: https://github.com/ActuallyHappening/AIMO
+Author: Smartguy88
+Author-email: ActuallyHappening@gmail.com
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AIMO (see aimo folder for source code :)
+This is a repo containing the source code to solving the 2022 (and maybe beyond?) for the set of math problems known under the common name AIMO
+
+This was an invite-only program :( but I have made the solutions (and eventually the questions) public **HERE!**
