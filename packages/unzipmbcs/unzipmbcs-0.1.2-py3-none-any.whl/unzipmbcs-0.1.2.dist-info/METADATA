@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: unzipmbcs
+Version: 0.1.2
+Summary: UnZip for non-UTF8 encoding such as cp949, sjis, gbk, euc-kr, euc-jp, and gb2312
+Author-email: Joo-Won Jung <sanori@gmail.com>
+License: Copyright 2016 Joo-Won Jung        
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at        
+            http://www.apache.org/licenses/LICENSE-2.0        
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.        
+Project-URL: repository, https://github.com/sanori/unzip-mbcs
+Keywords: unzip,pkzip,non-UTF8,mbcs,cp949,sjis,shift_jis,gbk,gb18030
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# UnZip for non-UTF8 encoding
+Extract zip files that MBCS(multi-byte character set) encoded file names,
+such as ZIP files created in MS Windows, especially East Asian environment.
+
+Major non-UTF8 encodings by languages:
+ * Korean: cp949, euc-kr
+ * Japanese: sjis (shift_jis), cp932, euc-jp
+ * Chinese: gbk, gb18030, gb2312, cp936, hkscs, big5, cp950
+
+## Install
+```
+pip install unzipmbcs
+```
+
+## CLI Usage
+```
+usage: unzipmbcs [-h] [-e ENCODING] cmd zipfile [target [target ...]]
+
+unzip for non-UTF8 filenames in zip archive
+
+positional arguments:
+  cmd                   commands: l(list), x(extract)
+  zipfile               .zip file to unzip
+  target                file prefix to extract
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -e ENCODING, --encoding ENCODING
+                        character encoding of filename in the .zip
+```
+
+
+## API
+### listZip(filename, encoding='utf-8')
+Return the information of the files in zip archive `filename`
+with character `encoding`
+
+### extractZip(filename, encoding='utf-8', filters=None)
+Extract files in zip archive `filename` on current directory.
+Assume that the file names in zip archive are encoded as `encoding`.
+Only the files prefixed the values of `filters` list are extracted
+if `filters` are provided.
+
+### fixZipFilename(filename, enc)
+Fix `filename` as UNICODE string which is originally encoded as `enc`.
+Works for both Python 2 and 3.
+
+
+## Motivation
+The .ZIP format, PKZIP compression, have been widely used. Some valuable data are archived as .zip file.
+But, in non-ASCII, non-Western environment, it makes trouble due to filenames.
+
+Since ZIP format was created too old (1993), there is no standard character encoding about the file name of zip archive entries.
+Most of zip file entries are encoded as legacy character encoding, local charset.
+
+In modern UNICODE based environment or global data processing environment such as Linux, this makes inconvinience, less portability, mangled file names, fail to extract the file, and so on.
+
+This module may mitigate the inconviniences.
