@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+povtas.egg-info/PKG-INFO
+povtas.egg-info/SOURCES.txt
+povtas.egg-info/dependency_links.txt
+povtas.egg-info/top_level.txt
+povtas/povtas/__init__.py
+povtas/povtas/main.py
