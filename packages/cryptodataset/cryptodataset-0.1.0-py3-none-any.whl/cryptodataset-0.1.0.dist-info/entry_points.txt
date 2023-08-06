@@ -1,0 +1,3 @@
+[console_scripts]
+cryptodata=cryptodata.cli:cli
+
