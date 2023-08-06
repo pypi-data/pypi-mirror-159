@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pympipool
+Version: 0.0.1
+Summary: pympipool - scale functions over multiple compute nodes using mpi4py
+Home-page: https://github.com/jan-janssen/pympipool
+Author-email: jan.janssen@outlook.com
+License: BSD
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pympipool
+Scale functions over multiple compute nodes using mpi4py
+
+```python
+from pympipool import Pool
+
+def calc(i):
+    import numpy as np
+    return np.array(i ** 2)
+
+with Pool(cores=2) as p:
+    print(p.map(function=calc, lst=[1, 2, 3, 4]))
+
+>>> [array(1), array(4), array(9), array(16)]
+```
