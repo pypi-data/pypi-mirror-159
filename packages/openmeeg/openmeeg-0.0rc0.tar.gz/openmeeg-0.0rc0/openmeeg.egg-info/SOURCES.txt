@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+openmeeg.py
+setup.cfg
+setup.py
+openmeeg.egg-info/PKG-INFO
+openmeeg.egg-info/SOURCES.txt
+openmeeg.egg-info/dependency_links.txt
+openmeeg.egg-info/top_level.txt
+openmeeg.egg-info/zip-safe

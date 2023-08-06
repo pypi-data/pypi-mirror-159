@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: openmeeg
+Version: 0.0rc0
+Summary: Dummy package for openmeeg.
+Home-page: https://github.com/openmeeg/openmeeg
+Author: Eric Larson
+Author-email: larson.eric.d@gmail.com
+Maintainer: Eric Larson
+Maintainer-email: larson.eric.d@gmail.com
+License: The Unlicensed
+Keywords: dummy,openmeeg,openmeeg
+Platform: any
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Please directly install `openmeeg` instead.
