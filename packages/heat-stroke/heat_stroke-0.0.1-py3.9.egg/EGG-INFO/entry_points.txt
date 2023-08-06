@@ -1,0 +1,3 @@
+[console_scripts]
+heat_stroke = heat_stroke:main
+
