@@ -1,0 +1,16 @@
+kinisot/Hess_to_Freq.py,sha256=GBWFt2z4OJ5RBh2whr5RKbKD7i_kcaWNJnDP0i_hNOk,2112
+kinisot/Kinisot.py,sha256=DilLO7hUE_yKRLRkq2ZwNvVa-E1ujNi8E-uwpsgdUqU,11410
+kinisot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kinisot/__main__.py,sha256=szVC5yZJVFG9iEfoaLS82Fu7xKHqEOoy76Qfe654R1I,286
+kinisot/vib_scale_factors.py,sha256=_ewXMGvT6FCciZzUY8_ynOVUm-s1Ef6AWvi-Jw8D_c4,17037
+kinisot/examples/CH3F_F_rc.out,sha256=uNxRhFG7G47HMxV4TBYfnXxTSly2QQn6Wy6mQCXs1Ig,37589
+kinisot/examples/CH3F_F_ts.out,sha256=9O6qMCKcVsaayS0QIhXEKIQmPcRk6mOcnPNFosA5q_s,38002
+kinisot/examples/Cl_H_Cl_RCT.out,sha256=eAUwd7hziNytt7en-2Gm1oF6QW-krJ5fYifhBAWCrs0,47070
+kinisot/examples/Cl_H_Cl_TS.out,sha256=E_N8BF8F5TtDrwV5fFzBEDo8r6B9b1ICTl5VT2GQyy0,47229
+kinisot/examples/claisen_gs.out,sha256=wIf-3CYm-hqfr0cQ89t0DsYw3diqpdz5fdVuvtuQAas,66871
+kinisot/examples/claisen_ts.out,sha256=YIgOTm1SerBd8RJWSqwxxIWpYNZWKUF3VfTGyBU0Vfs,67691
+kinisot-2.0.1.dist-info/LICENSE.txt,sha256=sTToD5QPl1dTKov1CHHpUa5zylawg6TrG7An0_Qw5pU,1074
+kinisot-2.0.1.dist-info/METADATA,sha256=vW10J831eJBbSnk4eImVqRvmB-escmqapzy30YOT910,457
+kinisot-2.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+kinisot-2.0.1.dist-info/top_level.txt,sha256=sSXhRYl117hFVnW2zDhMMrEGO9bGrXq-9NF3m22-hgk,8
+kinisot-2.0.1.dist-info/RECORD,,
