@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: link2mp4
+Version: 1.0.0
+Summary: Download videos as MP4 files
+Home-page: https://github.com/Hamagnivim/link2mp4
+Author: Elisha Hollander
+Author-email: just4now666666@gmail.com
+License: MIT
+Project-URL: Documentation, https://github.com/Hamagnivim/link2mp4#readme
+Project-URL: Bug Reports, https://github.com/Hamagnivim/link2mp4/issues
+Project-URL: Source Code, https://github.com/Hamagnivim/link2mp4
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: selenium (>=4.1.0)
+Requires-Dist: selenium-wire (>=4.6.4)
+Requires-Dist: moviepy (>=1.0.3)
+Requires-Dist: questionary (>=1.10.0)
+Requires-Dist: m3u8 (>=2.0.0)
+
+# link2mp4
+
+Download videos as MP4 files
+
+## Get geckodriver
+
+### Linux (Debian)
+
+```sh
+sudo apt install wget ffmpeg firefox-esr -y
+wget https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-linux64.tar.gz
+sudo tar xvzf geckodriver-v0.30.0-linux64.tar.gz -C /usr/bin/
+chmod +x /usr/bin/geckodriver
+rm geckodriver-v0.30.0-linux64.tar.gz
+```
+
+### Windows
+
+[Download](https://github.com/mozilla/geckodriver/releases/download/v0.30.0/geckodriver-v0.30.0-win64.zip) and add to PATH
+
+## Installation
+
+### From PyPI
+
+```sh
+pip3 install link2mp4
+```
+
+### From GitHub
+
+```sh
+pip3 install git+https://github.com/Hamagnivim/link2mp4
+```
+
+## Usage
+
+Type `link2mp4` in the console
+
+
