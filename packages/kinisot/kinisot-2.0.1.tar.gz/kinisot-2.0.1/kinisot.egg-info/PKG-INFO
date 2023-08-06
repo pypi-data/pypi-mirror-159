@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: kinisot
+Version: 2.0.1
+Summary: Compute Kinetic Isotope Effects for compchem outputs
+Home-page: https://github.com/patonlab/kinisot
+Download-URL: https://github.com/patonlab/Kinisot/archive/refs/tags/v2.0.1.zip
+Author: Paton Research Group
+Author-email: patonlab@colostate.edu
+Keywords: compchem,kie,dft,vibrational-scaling-factors,kinisot,frequenciesquiver
+Requires-Python: >=3.0
+License-File: LICENSE.txt
