@@ -1,0 +1,9 @@
+aiohypixel-py/__init__.py,sha256=lqKJjcDVW2S4zo_OGH2lB0e8F4wFPXkZubGeVVgMNQw,315
+aiohypixel-py/client.py,sha256=vZICfGLltr5-lyLoZzZBq7asKuXR6NDU33VlJ_f_2dU,1916
+aiohypixel-py/exceptions.py,sha256=y5qKSkCaPGyIpwl_LAiGUm8xsdbNxe49QW7pbFiQ5U0,564
+aiohypixel-py/http.py,sha256=McyKp7t5_NSk8LQPCItOPOMyXf1Do_PrqRW5OwlDOvU,2905
+aiohypixel-py/models.py,sha256=vcpTvTLesU3ABle3GhRg3ScKMr04uIbq78I3JHKThfM,202
+aiohypixel-py/ratelimiter.py,sha256=gSdGt1Me8rMc_zF8azHp2l8OoxbDrgtKtv4XuIddH8Q,817
+aiohypixel_py-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aiohypixel_py-0.1.0.dist-info/METADATA,sha256=qoXekOwWz9v-hgs77XLj2sCw3hL68kfZhUX3IX3WpvM,331
+aiohypixel_py-0.1.0.dist-info/RECORD,,
