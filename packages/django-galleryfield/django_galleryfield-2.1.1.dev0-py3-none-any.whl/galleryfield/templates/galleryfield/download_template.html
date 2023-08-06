@@ -1,0 +1,82 @@
+{% load static i18n %}
+{% templatetag openblock %} for (var i=0, file; file=o.files[i]; i++) { %{% templatetag closebrace %}
+
+    <tr class="template-download fade">
+
+        {% block JS_DOWNLOAD_TEMPLATE_PREVIEW %}
+            {% templatetag openblock %} if (file.thumbnailUrl) { %{% templatetag closebrace %}
+                <td>
+                    <span class="preview" data-pk="{% templatetag openblock %}=file.pk%{% templatetag closebrace %}">
+                            <a href="{% templatetag openblock %}=file.url%{% templatetag closebrace %}"
+                             title="{% templatetag openblock %}=file.name%{% templatetag closebrace %}"
+                             data-gallery>
+                                <img src="{% templatetag openblock %}=file.thumbnailUrl%{% templatetag closebrace %}">
+                            </a>
+                    </span>
+                </td>
+            {% templatetag openblock %} } %{% templatetag closebrace %}
+        {% endblock %}
+
+        {% block JS_DOWNLOAD_TEMPLATE_DOWNLOAD %}
+            <td>
+                {% block JS_DOWNLOAD_TEMPLATE_NAME %}
+                    <p class="name">
+                        {% templatetag openblock %} if (file.url) { %{% templatetag closebrace %}
+                            <a href="{% templatetag openblock %}=file.url%{% templatetag closebrace %}"
+                             download="{% templatetag openblock %}=file.name%{% templatetag closebrace %}"
+                             {% templatetag openblock %}=file.thumbnailUrl?'data-gallery':''%{% templatetag closebrace %}>
+                             {% templatetag openblock %}=file.name%{% templatetag closebrace %}
+                            </a>
+                        {% templatetag openblock %} } else { %{% templatetag closebrace %}
+                            <span>{% templatetag openblock %}=file.name%{% templatetag closebrace %}</span>
+                        {% templatetag openblock %} } %{% templatetag closebrace %}
+                    </p>
+                {% endblock %}
+
+                {% block JS_DOWNLOAD_TEMPLATE_ERROR %}
+                    {% templatetag openblock %} if (file.error) { %{% templatetag closebrace %}
+                        <div><span class="label label-danger">Error</span> {% templatetag openblock %}=file.error%{% templatetag closebrace %}</div>
+                    {% templatetag openblock %} } %{% templatetag closebrace %}
+                {% endblock %}
+            </td>
+        {% endblock %}
+
+        {% templatetag openblock %} if (!file.error) { %{% templatetag closebrace %}
+
+            {% block JS_DOWNLOAD_TEMPLATE_FSIZE %}
+                <td>
+                    <span class="size">{% templatetag openblock %}=o.formatFileSize(Number(file.size))%{% templatetag closebrace %}</span>
+                </td>
+            {% endblock %}
+        {% templatetag openblock %} } %{% templatetag closebrace %}
+
+        {% block JS_DOWNLOAD_TEMPLATE_DELETE %}
+            {% if not uploader_disabled %}
+                {% templatetag openblock %} if (!file.error) { %{% templatetag closebrace %}
+                    <td>
+                            {% if not disable_server_side_crop %}
+                                {% templatetag openblock %} if (file.cropUrl) { %{% templatetag closebrace %}
+                                    <a type="button"
+                                            class="btn btn-info btn-control edit"
+                                            data-toggle="modal"
+                                            data-action="{% templatetag openblock %}=file.cropUrl%{% templatetag closebrace %}"
+                                    >
+                                        <i class="si si-crop-rotate"></i>
+                                        <span>{% trans "Edit" %}</span>
+                                    </a>
+                                {% templatetag openblock %} } %{% templatetag closebrace %}
+                            {% endif %}
+                        <a type="button" class="btn btn-danger delete fileinput-button input {% if uploader_disabled %} hidden disabled {% endif %}"
+                                href="javascript(void(0))">
+                            <i class="si-regular si-trash-can"></i>
+                            <span>{% trans "Delete" %}</span>
+                        </a>
+                        {% if upload_url %}
+                            <input type="checkbox" value="1" class="toggle fileinput-button input {% if uploader_disabled %} hidden disabled {% endif %}">
+                        {% endif %}
+                    </td>
+                {% templatetag openblock %} } %{% templatetag closebrace %}
+            {% endif %}
+        {% endblock %}
+    </tr>
+{% templatetag openblock %} } %{% templatetag closebrace %}
