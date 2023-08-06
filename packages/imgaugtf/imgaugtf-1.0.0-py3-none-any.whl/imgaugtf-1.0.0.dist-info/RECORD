@@ -1,0 +1,14 @@
+imgaugtf/__init__.py,sha256=OWyZs6BzDs0a5r4ufwVhvJUHCTenMwlbXDg7fE9AAdw,1488
+imgaugtf/augmentations.py,sha256=z6Pc5x2iQgIHCHZ7LgGP3CT4_fFuAE5hu5sxTQsUgr0,15536
+imgaugtf/batch_augmentations.py,sha256=0Ah3AbUUXDyZrxbQQVUGxnTzp-TacTVAB_z2v7H8x1U,3060
+imgaugtf/functional.py,sha256=nXLjGwgfurNZf5In-oZeUNaw41m_kEHQO_pR5irqr24,15998
+imgaugtf/utils.py,sha256=OKQTU4fLthn2p_UL1TgRAH1v8wuSuap7Lae-gUK6lU4,4119
+imgaugtf/seg/__init__.py,sha256=HNK2bCDzWJT9VHBw2zv2rafrxlQEWoggiae7xi9CJAM,1056
+imgaugtf/seg/augmentations.py,sha256=kL0wczYdDpciNk-TgPh3wGlhuHPQicZ1Zq5nCloX-eg,20436
+imgaugtf/seg/batch_augmentations.py,sha256=2bQFZqL_f4bkCOELL1DCWWGOxgpJVvOa09yazCEag8w,3235
+imgaugtf/seg/utils.py,sha256=z1UBvyZgwud_eLF3H2ywpUXENXVxPu0jvHeY98aGalM,4207
+imgaugtf-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+imgaugtf-1.0.0.dist-info/METADATA,sha256=7o4wIqzDkCCK7C8-3rbOK1-MrrvxN8ujnb8_HensI0Q,7138
+imgaugtf-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+imgaugtf-1.0.0.dist-info/top_level.txt,sha256=e3NlozoYY3csPRcf04RVnLF8WXiVPGSNZmkyEIdjQN8,9
+imgaugtf-1.0.0.dist-info/RECORD,,
