@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: tvslr
+Version: 2.0.0
+Summary: time varying SLR using OLS estimates
+Author-email: Arka <arkaprava.mail@gmail.com>
+License: MIT License        
+        Copyright (c) 2022 Arkaprava Ghosh        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: Homepage, https://github.com/arka816/tv-slr
+Project-URL: repository, https://github.com/arka816/tv-slr
+Keywords: regression,time-varying,ols,python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+# tv-slr
+Implementation of time-varying SLR using OLS estimates
+
+## Idea
+One of the basic assumptions of the general linear model is that the parameters are constant over time. It has been often suggested that this may not be the valid assumption to make. In cross section studies there can be heterogeneity in the parameters across different units, where as in time series studies there can be variation over time in the parameters...
+[paper link](https://www.researchgate.net/publication/348422809_TIME_VARYING_ESTIMATION_OF_REGRESSION_MODEL_USING_OLS_ESTIMATES)
+
+## Installation
+    pip install tvslr
+
+## Usage
+### In python
+```python
+    from tvslr.tvslr import TVSLR
+    """
+        X:= numpy array containing the independent feature vectors
+        y:= numpy array containing dependent variable
+        n:= subset size (must be greater than number of independent features including intercept variable)
+    """
+
+    reg = TVSLR(X, y, n)
+    betas = reg.run()
+    print(betas)
+    print("R-squared:", reg.cod)
+    print("Adj. R-squared:", reg.adj_cod)
+```
+
+### In command prompt
+```bat
+    python -m tvslr <excel filename> <sheetname> <subset size>
+```
