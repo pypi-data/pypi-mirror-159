@@ -1,0 +1,13 @@
+dcmstudyclean/Archive.py,sha256=KkExO8Vn8qEta1sWIDXBx_WiXk96bcGGFgwslWqOU-s,472
+dcmstudyclean/InsertOutput.py,sha256=BWxiDVL2cyp9DsyRNssU963OJ9bhfqvtPBm1Ph_0qCA,1781
+dcmstudyclean/NamingConvention.py,sha256=vVBFv5kQYFGr7Rw7K1MMV5auEXMLUPsoijFFeDcqu6Q,3120
+dcmstudyclean/RecordStudyInfo.py,sha256=H8_f1SRJLEA05pRq4ICPrz-5dlK46YokXWOi2WY68bs,2797
+dcmstudyclean/StudyImage.py,sha256=4mbCOe0z_SE-6pxVBTIwA0hgDzpKlSpGVgAiBwfV3CU,2943
+dcmstudyclean/StudyImageAbstract.py,sha256=AzM4doL_uua7o6Dby0ae93xSLtoPZxigGKoO08Q1bk8,2443
+dcmstudyclean/StudyPipeline.py,sha256=1Mq3JzAn1R8KPjX4awKI7d7e5HVEuE3KlFoZ1t8cssk,3992
+dcmstudyclean/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dcmstudyclean/script.py,sha256=VuhaekaIjK7Z2czNtLEcMBbkrwzjQaWY7FHmKUFuFIM,3083
+dcmstudyclean-0.1.0.dist-info/entry_points.txt,sha256=iA4lettiSJiMyW0kanprTAWPxNkMW6h9Ts7UU61JgYU,58
+dcmstudyclean-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dcmstudyclean-0.1.0.dist-info/METADATA,sha256=X_LMC_wKDxwJlao805Go_4pCje3BzFwB3qLwWhK8Iu4,637
+dcmstudyclean-0.1.0.dist-info/RECORD,,
