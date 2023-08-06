@@ -1,0 +1,5 @@
+Nueva_nose.egg-info/PKG-INFO
+Nueva_nose.egg-info/SOURCES.txt
+Nueva_nose.egg-info/dependency_links.txt
+Nueva_nose.egg-info/requires.txt
+Nueva_nose.egg-info/top_level.txt
