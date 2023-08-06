@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+src/pathtype/__init__.py
+src/pathtype/path.py
+src/pathtype/validation.py
+src/pathtype.egg-info/PKG-INFO
+src/pathtype.egg-info/SOURCES.txt
+src/pathtype.egg-info/dependency_links.txt
+src/pathtype.egg-info/top_level.txt
+test/test_path.py
+test/test_validation.py
