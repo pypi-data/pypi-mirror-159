@@ -1,0 +1,6 @@
+setup.py
+src/mehbot.egg-info/PKG-INFO
+src/mehbot.egg-info/SOURCES.txt
+src/mehbot.egg-info/dependency_links.txt
+src/mehbot.egg-info/requires.txt
+src/mehbot.egg-info/top_level.txt
