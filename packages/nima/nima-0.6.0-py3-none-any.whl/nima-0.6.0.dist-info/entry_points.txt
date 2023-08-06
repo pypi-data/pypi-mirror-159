@@ -1,0 +1,4 @@
+[console_scripts]
+bima=nima.__main__:bima
+nima=nima.__main__:main
+
