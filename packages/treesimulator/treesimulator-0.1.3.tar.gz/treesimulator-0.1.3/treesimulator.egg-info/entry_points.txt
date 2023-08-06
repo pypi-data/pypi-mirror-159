@@ -1,0 +1,10 @@
+[console_scripts]
+generate_bd = treesimulator.simulate_forest_bd:main
+generate_bdei = treesimulator.simulate_forest_bdei:main
+generate_bdeipn = treesimulator.simulate_forest_bdeipn:main
+generate_bdpn = treesimulator.simulate_forest_bdpn:main
+generate_bdss = treesimulator.simulate_forest_bdss:main
+generate_bdsspn = treesimulator.simulate_forest_bdsspn:main
+generate_mtbd = treesimulator.simulate_forest:main
+generate_mtbdpn = treesimulator.simulate_forest_pn:main
+
