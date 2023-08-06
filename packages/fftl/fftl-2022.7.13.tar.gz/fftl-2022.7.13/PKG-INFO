@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: fftl
+Version: 2022.7.13
+Summary: generalised FFTLog
+Home-page: https://github.com/ntessore/fftl
+Maintainer: Nicolas Tessore
+Maintainer-email: n.tessore@ucl.ac.uk
+License: MIT
+Project-URL: Documentation, https://fftl.readthedocs.io/
+Project-URL: Issues, https://github.com/ntessore/fftl/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+License-File: LICENSE
+
+`fftl` — generalised FFTLog for Python
+======================================
+
+The `fftl` package for Python contains a routine to calculate integral
+transforms of the type *ã(k) = ∫ a(r) T(kr) dr* for arbitrary kernels *T*.  It
+uses a modified FFTLog[^2] method of Hamilton[^1] to efficiently compute the
+transform on logarithmic input and output grids.
+
+The package only requires `numpy`.  To install with `pip`:
+
+    pip install fftl
+
+
+[^1]: Hamilton A. J. S., 2000, MNRAS, 312, 257 (astro-ph/9905191)
+[^2]: Talman J. D., 1978, J. Comp. Phys., 29, 35

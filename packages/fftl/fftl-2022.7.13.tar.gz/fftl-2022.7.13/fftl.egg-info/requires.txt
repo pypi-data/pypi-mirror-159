@@ -1,0 +1,8 @@
+numpy
+
+[docs]
+sphinx
+furo
+numpydoc
+scipy
+matplotlib
