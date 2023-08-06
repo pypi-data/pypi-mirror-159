@@ -1,0 +1,6 @@
+pip
+torch
+torchvision
+opencv-python
+shapely
+pyclipper
