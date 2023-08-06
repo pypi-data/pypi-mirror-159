@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+respunct/__init__.py
+respunct/punct.py
+respunct.egg-info/PKG-INFO
+respunct.egg-info/SOURCES.txt
+respunct.egg-info/dependency_links.txt
+respunct.egg-info/requires.txt
+respunct.egg-info/top_level.txt
