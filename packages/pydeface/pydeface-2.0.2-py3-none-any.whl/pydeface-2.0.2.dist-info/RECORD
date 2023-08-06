@@ -1,0 +1,11 @@
+pydeface/__init__.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+pydeface/__main__.py,sha256=rSbELkob9CUB1_PaDEFGawgQTKqqBpxkRfZ6hyaTOHc,4482
+pydeface/utils.py,sha256=NkOTcxO-2jW0hVZfAFjVOf6rdjo0PTmuCR8BzyKVdTA,4629
+pydeface/data/facemask.nii.gz,sha256=jLpSwywC4Mwo3Udgb271gbnJgE8a6dQS2lpK3cV_AGg,488337
+pydeface/data/mean_reg2mean.nii.gz,sha256=_cE1cdZik_mRlkjNjemns0kbEhdeCTNjU9LJzgRm7LY,8178557
+pydeface-2.0.2.dist-info/LICENSE.txt,sha256=KlDVuF33mgrYRGcLHJP7u_otJD4jEJqwTDsnOVDvoyk,1068
+pydeface-2.0.2.dist-info/METADATA,sha256=GOBXadgBMD1BXvSuIofXpHqaodNVYipX4-kLDP7K9zU,1773
+pydeface-2.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydeface-2.0.2.dist-info/entry_points.txt,sha256=FxwIkfmX5spxPRYNZ6LnNVrowhg2MbrKtwYH_Fm0Qfs,52
+pydeface-2.0.2.dist-info/top_level.txt,sha256=cfyC0pgcx2kU7xb0VgdNJIBIwk_C6P04ZGwGkKA8dx4,9
+pydeface-2.0.2.dist-info/RECORD,,
