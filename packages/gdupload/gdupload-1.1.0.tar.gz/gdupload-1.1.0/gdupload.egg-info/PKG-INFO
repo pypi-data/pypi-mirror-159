@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: gdupload
+Version: 1.1.0
+Summary: Google Drive CLI Uploader
+Home-page: https://telegram.dog/thestarkarmy13260
+Author: H3R0
+Author-email: herodumpster@gmail.com
+License: MIT
+Keywords: gdrive python cli uploader ci
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A toolkit to upload to our beloved gdrive
+

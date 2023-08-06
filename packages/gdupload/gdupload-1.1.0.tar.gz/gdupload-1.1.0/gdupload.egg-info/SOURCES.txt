@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+requirements.txt
+setup.py
+gdupload/__init__.py
+gdupload/__main__.py
+gdupload.egg-info/PKG-INFO
+gdupload.egg-info/SOURCES.txt
+gdupload.egg-info/dependency_links.txt
+gdupload.egg-info/entry_points.txt
+gdupload.egg-info/requires.txt
+gdupload.egg-info/top_level.txt
