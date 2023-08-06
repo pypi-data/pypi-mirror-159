@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pysearchlite
+Version: 0.2.2
+Summary: lightweight text search engine written in Python
+License: Apache License 2.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Text Processing :: Indexing
+Requires-Python: >=3.9
+License-File: LICENSE
+
