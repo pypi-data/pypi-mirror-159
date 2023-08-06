@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pytree/__init__.py
+pytree/__main__.py
+pytree/common.py
+pytree/fonts.py
+pytree/formatter.py
+pytree/icons.py
+pytree/sizes.py
+tree_print.egg-info/PKG-INFO
+tree_print.egg-info/SOURCES.txt
+tree_print.egg-info/dependency_links.txt
+tree_print.egg-info/not-zip-safe
+tree_print.egg-info/top_level.txt
