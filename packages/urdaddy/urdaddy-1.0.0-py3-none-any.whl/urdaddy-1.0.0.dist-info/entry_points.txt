@@ -1,0 +1,2 @@
+[console_scripts]
+urdaddy = urdaddy.__main__:main
