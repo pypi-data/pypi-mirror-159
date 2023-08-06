@@ -1,0 +1,5 @@
+py_sr25519_bindings_fork-0.2.4.dist-info/METADATA,sha256=aQ6C_EFQa32y_QA06enU5bpA_nkk-f7XKHknKWTbaSg,2223
+py_sr25519_bindings_fork-0.2.4.dist-info/WHEEL,sha256=3E-2bh9mN3HYtWMmCITiz4ACgMwfFN3cQbbAcMHHmJk,132
+sr25519_nbx/__init__.py,sha256=H2KOU2SXEnj0pfavg2IayZKie-JYI_1nQ48D-F4z08s,58
+sr25519_nbx/sr25519_nbx.cpython-38-x86_64-linux-gnu.so,sha256=WBrG18IYUwQVnUwi0Tpo92JCKiyiBT182k94Xlq_tNw,18289384
+py_sr25519_bindings_fork-0.2.4.dist-info/RECORD,,
