@@ -1,0 +1,9 @@
+[invenio_assets.webpack]
+nr_documents_app_theme = nr_documents_app.theme.webpack:theme
+
+[invenio_base.api_apps]
+nr_documents_app = nr_documents_app.ext:NRDocumentsAppExtension
+
+[invenio_base.apps]
+nr_documents_app = nr_documents_app.ext:NRDocumentsAppExtension
+
