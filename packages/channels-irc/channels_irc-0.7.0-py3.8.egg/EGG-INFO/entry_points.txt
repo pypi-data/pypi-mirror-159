@@ -1,0 +1,2 @@
+[console_scripts]
+channels-irc = channels_irc.cli:CLI.entrypoint
