@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: torchmdo
+Version: 0.1.0
+Summary: Multidisciplinary design optimization made fast with PyTorch and modern automatic differentiation.
+Author: Trefor Evans
+Author-email: trefor@infera.ai
+License: AGPL-3.0-or-later
+Keywords: optimization,MDO,engineering,design,pytorch,aerodynamics,FEA
+Provides-Extra: examples
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: all
+License-File: LICENSE
