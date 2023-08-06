@@ -1,0 +1,15 @@
+tg4perfetto/.__init__.py.swp,sha256=Z0cglYsbFLQuvkIT4_gaILokK_doSnptcWOTUvHGyhg,12288
+tg4perfetto/._core.py.swp,sha256=yTO7tC3y1AsAnzy-P8Vv7VT8hRnyOf3D13X41_5sBT8,20480
+tg4perfetto/._profile.py.swo,sha256=2XUnhw1TrS1MnutGpdHVdn2646NQbRTjf1uxjimbNzg,16384
+tg4perfetto/.example_profile.py.swp,sha256=mG9eoTzXR_-kX-QdmnmBScZmrTtNZGdZB5_KfMazlx4,12288
+tg4perfetto/__init__.py,sha256=JUMhZyDHySNbFfRrWsy4okyyM_M-GplmpHaDgBGJ9Xo,113
+tg4perfetto/_core.py,sha256=HYLX97or3mH_50fuhMzZ14MyZQeEFKeeODS3xAhlQcg,10390
+tg4perfetto/_profile.py,sha256=zfZy7-2Z47SChbyvocOdxVhuEZIVYMN8IkMFFLRwtaw,4898
+tg4perfetto/_tgen.py,sha256=FkSmAPVXxmMPkOvIunmZ-3U24yWVFABj_detN8HR9jE,3823
+tg4perfetto/example.py,sha256=D7bZKLhe2O2_s2_rc-6PI9x7UGkyDxq0oIrMqJzVc-k,2506
+tg4perfetto/example_profile.py,sha256=pBr5j5Be50G08Znqvyj2DOO8TaggibI8KKvj-vEnYRo,2105
+tg4perfetto/perfetto_trace_pb2.py,sha256=55CPC9GGBfGGB7qTmb2Hsso0ykaMS7AGveh6X6SkFW0,2572471
+tg4perfetto-0.0.3.dist-info/METADATA,sha256=-idUG43llkdo5tgWMYtGV2_LS55vdRAl8RFYjXT1Ovg,18185
+tg4perfetto-0.0.3.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+tg4perfetto-0.0.3.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tg4perfetto-0.0.3.dist-info/RECORD,,
