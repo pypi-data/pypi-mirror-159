@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: finix
+Version: 2.0.0
+Summary: Finix API client library
+Home-page: https://github.com/finix-payments/finix-python
+Author: Finix
+Author-email: support@finixpayments.com
+Keywords: OpenAPI,Finix API
+Requires-Python: >=3.6
+
+    The Python SDK for Finix API.
+    
