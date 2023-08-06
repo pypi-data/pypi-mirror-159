@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+perlsub/__init__.py
+perlsub/perlsub.py
+perlsub/wrapper_template.pl
+perlsub.egg-info/PKG-INFO
+perlsub.egg-info/SOURCES.txt
+perlsub.egg-info/dependency_links.txt
+perlsub.egg-info/requires.txt
+perlsub.egg-info/top_level.txt
