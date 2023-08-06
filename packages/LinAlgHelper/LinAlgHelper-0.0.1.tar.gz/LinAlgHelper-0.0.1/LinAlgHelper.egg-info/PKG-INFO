@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: LinAlgHelper
+Version: 0.0.1
+Summary: A Linear Algebra library
+Home-page: UNKNOWN
+Author: Noah Pinel
+Author-email: noah@binaryfox.ca
+License: MIT
+Keywords: Linear Algebra
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+test
+
+Change Log
+==========
+
+0.0.1 2022-07-18
+----------------
+-> init 
+
