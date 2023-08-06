@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: impactEffects
+Version: 0.0.1
+Summary: Environment for MPM assessment 3.
+Home-page: https://github.com/acse-dx121/impact-effects.git
+Author: Imperial College London
+Author-email: rhodri.nelson@imperial.ac.uk
+License-File: LICENSE
+
+Environment for MPM assessement 3.
