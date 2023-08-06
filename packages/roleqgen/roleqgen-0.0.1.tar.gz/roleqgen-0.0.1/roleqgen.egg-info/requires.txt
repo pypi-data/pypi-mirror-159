@@ -1,0 +1,4 @@
+spacy
+unidecode
+jsonlines
+pytorch_lightning
