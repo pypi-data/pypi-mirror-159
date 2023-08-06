@@ -1,0 +1,12 @@
+/.ipynb_checkpoints*
+
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/antarctic_plots.egg-info
+
+data/ADMAP_2B_2017_R9_BAS_.tif
