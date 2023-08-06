@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/heat_stroke.py
+src/heat_stroke.egg-info/PKG-INFO
+src/heat_stroke.egg-info/SOURCES.txt
+src/heat_stroke.egg-info/dependency_links.txt
+src/heat_stroke.egg-info/entry_points.txt
+src/heat_stroke.egg-info/top_level.txt
