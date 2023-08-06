@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/catadoc/__init__.py
+src/catadoc/__main__.py
+src/catadoc/feed.py
+src/catadoc/viewer.py
+src/catadoc.egg-info/PKG-INFO
+src/catadoc.egg-info/SOURCES.txt
+src/catadoc.egg-info/dependency_links.txt
+src/catadoc.egg-info/entry_points.txt
+src/catadoc.egg-info/requires.txt
+src/catadoc.egg-info/top_level.txt
