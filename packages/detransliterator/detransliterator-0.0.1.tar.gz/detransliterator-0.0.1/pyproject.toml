@@ -1,0 +1,75 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "detransliterator"
+description = ''
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+keywords = []
+authors = [
+  { name = "Moussa Doumbouya", email = "doumbouya.moussa@gmail.com" },
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+# "Natural Language :: Mande",
+# "Natural Language :: Manding",
+# "Natural Language :: N'ko",
+# "Natural Language :: Bambara",
+# "Natural Language :: Maninka",
+
+dependencies = [
+  'fairseq', 
+  'sacremoses==0.0.49', 
+  'subword-nmt==0.3.8'
+]
+dynamic = ["version"]
+
+[project.urls]
+Documentation = "https://github.com/mdoumbouya/detransliterator#readme"
+Issues = "https://github.com/mdoumbouya/detransliterator/issues"
+Source = "https://github.com/mdoumbouya/detransliterator"
+
+[tool.hatch.version]
+path = "detransliterator/__about__.py"
+
+[tool.hatch.build.targets.sdist]
+[tool.hatch.build.targets.wheel]
+
+[tool.hatch.envs.default]
+dependencies = [
+  "pytest",
+  "pytest-cov",
+]
+[tool.hatch.envs.default.scripts]
+cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=latin2nqo --cov=tests"
+no-cov = "cov --no-cov"
+
+[[tool.hatch.envs.test.matrix]]
+python = ["37", "38", "39", "310"]
+
+[tool.coverage.run]
+branch = true
+parallel = true
+omit = [
+  "latin2nqo/__about__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+  "no cov",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]

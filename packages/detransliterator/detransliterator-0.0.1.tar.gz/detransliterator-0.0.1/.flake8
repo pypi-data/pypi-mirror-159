@@ -1,0 +1,6 @@
+[flake8]
+per-file-ignores =
+    # line too long
+    detransliterator/__about__.py: E501
+    detransliterator/__init__.py: E501
+    tests/__init__.py: E501
