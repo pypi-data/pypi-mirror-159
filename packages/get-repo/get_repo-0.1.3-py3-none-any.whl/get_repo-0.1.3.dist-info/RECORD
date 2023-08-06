@@ -1,0 +1,9 @@
+LICENSE,sha256=4no34_lJqDdV-w4ofTT9gezxuES2ettXI7LX3XbBKyo,1055
+get_repo/__init__.py,sha256=UwADFF0dHrJVYEHCOovbCMoA8Vch89dJI3m09VJhAtM,49
+get_repo/cli.py,sha256=zEhavrgYKfL_OLaAirwPICfvZVwkZhCYcCcwtx9CxWE,553
+get_repo/parser.py,sha256=1sXjxo74vnxQKHpMkpX2HCqFODzpeNJXNKHAkOUcnBw,326
+get_repo-0.1.3.dist-info/entry_points.txt,sha256=Ow5dO-AWFkjal5j4jqjwrK7FmEahJMkpol3uVsXm0GI,46
+get_repo-0.1.3.dist-info/LICENSE,sha256=4no34_lJqDdV-w4ofTT9gezxuES2ettXI7LX3XbBKyo,1055
+get_repo-0.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+get_repo-0.1.3.dist-info/METADATA,sha256=Oqnk_XqpkA30E49kvULVqGF--J9y1I6A3qtrnUaVrAc,1884
+get_repo-0.1.3.dist-info/RECORD,,
