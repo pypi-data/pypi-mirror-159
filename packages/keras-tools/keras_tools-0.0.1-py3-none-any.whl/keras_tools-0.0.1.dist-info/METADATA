@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: keras-tools
+Version: 0.0.1
+Summary: some template code for training and predict your model in keras
+Author: adam li
+Author-email: 576262501@qq.com
+License: apache 3.0
+Platform: UNKNOWN
+Requires-Dist: Pillow (==9.2.0keras==2.9.0)
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
