@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: RODE-middleware
+Version: 1.0.1
+Summary: The RODE platform middleware utilities
+Author: Manuel Nielsen
+Author-email: Manuel.Nielsen@health.nsw.gov.au
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: falcon
+
