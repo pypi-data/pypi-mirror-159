@@ -1,0 +1,13 @@
+pylejandria/__init__.py,sha256=ozd6jpWV7koQkcPtj-hn7ctIpUDRzX48ykwM6c4ZAaQ,443
+pylejandria/auto.py,sha256=MY1-0a7Ek-vfMtRneZZbXvxGBx3-zlv4ZeLAGYbDp-4,1549
+pylejandria/constants.py,sha256=YlqxxqJRigk1PJdmG7c3rsUzGvzdmNbCF4kOT07_MfI,4823
+pylejandria/gui.py,sha256=JPN-7MbVK1d2USTq7IF6s7Hb3Grn35_HO569xYPSdgQ,12858
+pylejandria/math.py,sha256=4E65JQkIDXkWa-eQkOg1khTYZpdPFrM067hHn02DTe0,18522
+pylejandria/module.py,sha256=bgRH92BydemgVSOcpKT55eWFh5kvTuizMUncf-JqlPw,1084
+pylejandria/tools.py,sha256=b6N2bc9u-j93PlnsdpOjJSlLJNvMxjbEojT_YnAb2LI,12641
+pylejandria/upload.py,sha256=8WbPj3D9cRHo-DSqZBoFeqPf6PZl93XH1u5gQUdVYWo,8675
+pylejandria-0.1.12.dist-info/LICENSE,sha256=E5m2nfGOujrJZ1SdOeE1I4EUQSxf1hOahl2kD8EmBkk,1113
+pylejandria-0.1.12.dist-info/METADATA,sha256=TQOpTgwUunag-DD4KwtV3T8WcCJ5keWywh3mycrY7Tg,3533
+pylejandria-0.1.12.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pylejandria-0.1.12.dist-info/top_level.txt,sha256=yFS7BHnsHl4QgiS6UC-HbpOEKboL1xA-blf8j20Dykg,12
+pylejandria-0.1.12.dist-info/RECORD,,
