@@ -1,0 +1,10 @@
+PyQt6
+xgboost
+scikit-learn
+numpy
+pandas
+Levenshtein
+datetime
+pyqtgraph
+pickle
+os
