@@ -1,0 +1,13 @@
+pod5_format_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pod5_format_tools/_version.py,sha256=CO0VmekjZ_r8LBYVaUXTM3i08rEVwYKhjb9sy0X7vz0,23
+pod5_format_tools/pod5_convert_from_fast5.py,sha256=_ec2FyzwI0Katrm_9q4BC4897RfKbfnhVW8q_IQjp-U,17808
+pod5_format_tools/pod5_convert_to_fast5.py,sha256=KCimedYc6WwYDFYI_aQlBt-Y_loWDQMRg9KhXLu2vxw,9539
+pod5_format_tools/pod5_demux.py,sha256=pJLE8CNsNtMRCZe8g6o5bHLKmx-X9iPRblZ7CGQ5JKQ,15517
+pod5_format_tools/pod5_inspect.py,sha256=Ho5hfOrLUzwOUQzCaC-Q103Tvrx69DemhAfN19OstZs,6479
+pod5_format_tools/pod5_repack.py,sha256=pLb0N6MSL-k9Yw0ePW9F0_h-aSv9fM5uXk26U02-uak,2034
+pod5_format_tools/utils.py,sha256=jCb_qc3zPXJ6UkorqRP7iiSXgNGgzMarnUYqrq59ZmQ,963
+pod5_format_tools-0.0.23.dist-info/METADATA,sha256=vfNTh7GTuiYkVxu3v1-cNfkxGZTTO3Uz8ws8O22fi4I,1024
+pod5_format_tools-0.0.23.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pod5_format_tools-0.0.23.dist-info/entry_points.txt,sha256=-wqMRup9sp2jpxpu295iPp-8GFHbKwW-5nv6H0dqqZY,375
+pod5_format_tools-0.0.23.dist-info/top_level.txt,sha256=BPC1g85ai-FJb8c3NRE2iTcBXgX5RtnkXMNjHrqF_5s,18
+pod5_format_tools-0.0.23.dist-info/RECORD,,
