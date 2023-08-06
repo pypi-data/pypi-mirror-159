@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.py
+src/llvm_demangle.egg-info/PKG-INFO
+src/llvm_demangle.egg-info/SOURCES.txt
+src/llvm_demangle.egg-info/dependency_links.txt
+src/llvm_demangle.egg-info/entry_points.txt
+src/llvm_demangle.egg-info/requires.txt
+src/llvm_demangle.egg-info/top_level.txt
+src/llvmdemangle/__init__.py
+src/llvmdemangle/demangle.pyx
+src/llvmdemangle/tools.py

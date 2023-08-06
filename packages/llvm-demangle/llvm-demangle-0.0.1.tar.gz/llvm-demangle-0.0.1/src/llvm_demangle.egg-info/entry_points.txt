@@ -1,0 +1,2 @@
+[console_scripts]
+demangle = llvmdemangle.tools:demangle

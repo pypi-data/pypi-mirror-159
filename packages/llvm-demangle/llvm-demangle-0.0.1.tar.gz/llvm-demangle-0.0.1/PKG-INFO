@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: llvm-demangle
+Version: 0.0.1
+Summary: Python wrapper arround llvm::demangle.
+Home-page: https://github.com/MNayer/llvmdemangle
+Author: MNayer
+Author-email: marie.nayer@web.de
+License: 0BSD
+Keywords: demangling c++ cxx cpp
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# LLVM-Demangle
+Pyhton wrapper around llvm::demangle.
+
+## Requirements
+- Cython
+- llvm
+- g++
+
+## Install
+```bash
+$ pip install llvm-demangle
+```
+or
+```bash
+$ git clone https://github.com/MNayer/llvmdemangle
+$ cd llvmdemangle
+$ pip install .
+```
+
+## Usage
+Within python
+```python
+>>> from llvmdemangle.demangle import llvm_demangle
+>>> llvm_demangle("_Z5isinfUa9enable_ifILb1EEd")
+isinf(double) [enable_if:true]
+```
+or via the command line interface
+```bash
+$ demangle _Z5isinfUa9enable_ifILb1EEd
+isinf(double) [enable_if:true]
+```
+
+
