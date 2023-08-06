@@ -1,0 +1,9 @@
+License
+README.md
+pyproject.toml
+src/__init__.py
+src/qrpypi.py
+src/QrPypi.egg-info/PKG-INFO
+src/QrPypi.egg-info/SOURCES.txt
+src/QrPypi.egg-info/dependency_links.txt
+src/QrPypi.egg-info/top_level.txt
