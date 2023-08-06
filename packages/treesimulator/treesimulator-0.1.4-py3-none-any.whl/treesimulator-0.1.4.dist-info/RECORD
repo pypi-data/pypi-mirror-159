@@ -1,0 +1,14 @@
+treesimulator/__init__.py,sha256=zgNUV6zN1F-S2jw69wuJrkybb7FiJEyaHwewDmwdZmY,1319
+treesimulator/generator.py,sha256=VgewBwgoIcvDT9E7VJnVM2yKYjmLJ6KmErUkZz0V0AM,16232
+treesimulator/mtbd_models.py,sha256=9VMJhqe-p865QZfuEienU4nhXG6kvTSEnQS1VjVxuGo,9201
+treesimulator/sequence_generator.py,sha256=tIZJd59GUYRifg27viMaqK4S1ZqxW0tf3KlyonrhrtQ,4537
+treesimulator/simulate_forest.py,sha256=5120uyDZ3Gjcqub2a7_9Lnug39w4YEScrK3h80wz2Qg,5466
+treesimulator/simulate_forest_bd.py,sha256=zGxrB7wpSNGvyU2o0Ddtk7okExbqHWMyW7RRaEFH9vE,3773
+treesimulator/simulate_forest_bdei.py,sha256=SWkzrzl38Vbw5J2t8bo5oonWzo5RBW43iKMJIaZsPYI,3959
+treesimulator/simulate_forest_bdss.py,sha256=k-G92KOt2v-TrNQLN6cxn5A3C1JAqDqBna2XA3Xpp_M,4472
+treesimulator-0.1.4.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+treesimulator-0.1.4.dist-info/METADATA,sha256=dJAB7h9gF9SaBdT65-B0vqNGbhQ4rDHlhy6ch1TYLt4,6415
+treesimulator-0.1.4.dist-info/WHEEL,sha256=nvhOrkn7_9sGzJjxuUFjoJ6OkO7SJJqHSjq9VNu0Elc,92
+treesimulator-0.1.4.dist-info/entry_points.txt,sha256=VCBCLOZCgdOqK-GaSnw1n3cOKO1lkTv6bkNjWE1BanA,234
+treesimulator-0.1.4.dist-info/top_level.txt,sha256=ckrDBww95CowCw_1lybTrHpqC95yYDb1honQCQNeOsw,14
+treesimulator-0.1.4.dist-info/RECORD,,
