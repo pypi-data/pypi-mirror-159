@@ -1,0 +1,6 @@
+anytree
+biopython
+jupyter
+matplotlib
+networkx
+numpy

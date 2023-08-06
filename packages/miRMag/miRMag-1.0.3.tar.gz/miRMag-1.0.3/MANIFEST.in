@@ -1,0 +1,3 @@
+recursive-include mirmag/articles *.*
+recursive-include mirmag/datasets *.*
+recursive-include mirmag/software *
