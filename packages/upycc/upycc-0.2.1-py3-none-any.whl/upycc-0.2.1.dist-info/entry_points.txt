@@ -1,0 +1,4 @@
+[console_scripts]
+runupy = upycc.CLI:cli_run
+upy = upycc.CLI:cli_compile_and_run
+upycc = upycc.CLI:cli_compile
