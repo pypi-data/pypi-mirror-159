@@ -1,0 +1,4 @@
+include brick_game/Font/*
+
+include README.md
+include imgs/*
