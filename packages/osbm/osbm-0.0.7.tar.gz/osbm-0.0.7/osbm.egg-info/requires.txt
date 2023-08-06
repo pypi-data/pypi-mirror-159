@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pandas
+seaborn
+sklearn
+spektral
+tensorflow
+torch
+tqdm
+transformers
