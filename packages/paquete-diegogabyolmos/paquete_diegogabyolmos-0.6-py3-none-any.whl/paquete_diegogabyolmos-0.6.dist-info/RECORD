@@ -1,0 +1,13 @@
+paquete/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paquete/saludos_esto_a_ignorar.py,sha256=v_2ApKhHclSzshBKeHZjFXgTNfjsEulT8j9iEA49iY0,226
+paquete/adios/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paquete/adios/despedidas.py,sha256=nYIVQ8IwIegOXXeb48oj80poG2Wfw-IFJG916ndgRBo,248
+paquete/hola/__init__.py,sha256=qtLpI0zFPldZi0kVSE7CO6hx7H9WO-IpyY8pvB9psi0,95
+paquete/hola/saludos.py,sha256=7-QXHxTb-Cj_e1_rnfZyVlqXjLSYfHjd8Nv78KvVpj8,451
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=h8Oup44BiYEEanF6NrW27yjOhDVDtgLFzbTrXMUJ_ck,297
+paquete_diegogabyolmos-0.6.dist-info/LICENSE,sha256=WLS5Qpn9cZsdV3PMJP4ciy6tTpxXHufHvzEiZPgIdww,1087
+paquete_diegogabyolmos-0.6.dist-info/METADATA,sha256=yy8LO6m8S41EWirLa32f6Pb3G1lITjTuvLEf24Y_5BU,853
+paquete_diegogabyolmos-0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+paquete_diegogabyolmos-0.6.dist-info/top_level.txt,sha256=F4u2y-xcKZj0WgqLFfsl3gcZ8dD21To6gm8tBmwI-3M,14
+paquete_diegogabyolmos-0.6.dist-info/RECORD,,
