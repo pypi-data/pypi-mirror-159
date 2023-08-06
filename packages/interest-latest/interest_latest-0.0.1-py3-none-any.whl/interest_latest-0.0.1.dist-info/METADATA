@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: interest-latest
+Version: 0.0.1
+Summary: Interest Calculator can use for calculate interest in the from of days,monthly and yearly 
+Home-page: https://github.com/Akshay311/Simple-Interest-Calculator
+Author: Akshay Thakare
+License: UNKNOWN
+Keywords: interest,calculator,loan calculator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+
