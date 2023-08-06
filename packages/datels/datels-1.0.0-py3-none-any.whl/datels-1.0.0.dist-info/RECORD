@@ -1,0 +1,8 @@
+datels/__init__.py,sha256=7DnAm7km06XumFpQ_4CzVsYWPRtOwYoihOf9tijkfS8,51
+datels/cli.py,sha256=FypjWhl9ZamvJ0FTWdoSVBD_Dcctz5Oj59bHKuvOxEk,88
+datels/datels.py,sha256=pZ54f7FWfonB_1rH4SuUpNQXD7JTbKMUb8jZjMsFAxo,1067
+datels-1.0.0.dist-info/entry_points.txt,sha256=pgvWm2tYqL_0q0N18cDT6feMfI0GmxAm9f-0VMSwqlc,41
+datels-1.0.0.dist-info/LICENSE,sha256=jYikOSI_ixR9FBldQYMfVDVGhGLXWXOFJiXAThhd4Vc,1070
+datels-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+datels-1.0.0.dist-info/METADATA,sha256=0iHi_9982fnRvV2S-CLGRTiCNK-oObPr3LHZ1qoLOg8,2438
+datels-1.0.0.dist-info/RECORD,,
