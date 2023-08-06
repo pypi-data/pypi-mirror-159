@@ -1,0 +1,8 @@
+udata_event_consumer/__init__.py,sha256=1cFmQ6OYW4w5dNcOSYHcMTDiDsad84fe01yPTDoCNX0,1342
+udata_event_consumer/commands.py,sha256=NbwjliFhJq5hpKmlfbqWv9joXPYr1c3yfelmzr7d9zA,403
+udata_event_consumer/consumer.py,sha256=LjBoTaioFIi3Y31EVU-L-DAks4CzbdCfQXEBDYdMdiQ,1764
+udata_event_consumer/dataset/event.py,sha256=xcwN01SuytTy5DCsges4GBPdS9olLZ4IdCCdgXUXoNs,2196
+udata_event_consumer-0.1.0.dev7.dist-info/entry_points.txt,sha256=QD9A25JlQF_-y8YX9iQ1-xfBSdpHp3GAaW8vs5ra7bU,53
+udata_event_consumer-0.1.0.dev7.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+udata_event_consumer-0.1.0.dev7.dist-info/METADATA,sha256=s-fBcGw-eMmmu5FQy6kL6dVAyhAuGtggLqQVzi9lTxs,1365
+udata_event_consumer-0.1.0.dev7.dist-info/RECORD,,
