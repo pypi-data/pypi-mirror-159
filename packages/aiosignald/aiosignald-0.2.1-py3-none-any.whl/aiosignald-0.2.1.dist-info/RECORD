@@ -1,0 +1,9 @@
+aiosignald/__init__.py,sha256=PJaYSTz1BRa54a-Dd-6pEDcOTxrX6is8c3cEq7FLKF4,159
+aiosignald/error.py,sha256=EEXTi4t-TmNDsN336cE03y1MrTj1CMB0Y7ZJgPsQvwY,630
+aiosignald/exc.py,sha256=w3x0zHfK3_dZFN_Q2_XnuvwqxczEAFf_3Zo2DO0Ajh4,5170
+aiosignald/generated.py,sha256=3X5uzV73SVTmhTrZP-XW930rsNEE80LxVz5IZu-uDNA,63662
+aiosignald/util.py,sha256=F50I7pUKeCiJg7Qnw5XZBdlu06QdN2e2a_rLi6kVSRQ,11201
+aiosignald-0.2.1.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+aiosignald-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+aiosignald-0.2.1.dist-info/METADATA,sha256=LG-XbNYxg9nCVpjAej0s26EsKjk2oHhNlq3s7uCckJg,1957
+aiosignald-0.2.1.dist-info/RECORD,,
