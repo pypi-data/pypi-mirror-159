@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+questionextractorpackage.egg-info/PKG-INFO
+questionextractorpackage.egg-info/SOURCES.txt
+questionextractorpackage.egg-info/dependency_links.txt
+questionextractorpackage.egg-info/requires.txt
+questionextractorpackage.egg-info/top_level.txt

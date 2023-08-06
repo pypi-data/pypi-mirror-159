@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "questionextractorpackage"
+version = "0.0.1"
+authors = [
+  { name="Maisa", email="maisa.daoud@at.govt.nz" }, { name="Krishna", email="krishna.babu@at.govt.nz" }
+]
+description = "question extrator for free text data"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://aucklandtransport.visualstudio.com/AT_DataScienceCapability/_git/NLP_Question_Extraction"
+"Bug Tracker" = "https://aucklandtransport.visualstudio.com/AT_DataScienceCapability/_git/NLP_Question_Extraction"
