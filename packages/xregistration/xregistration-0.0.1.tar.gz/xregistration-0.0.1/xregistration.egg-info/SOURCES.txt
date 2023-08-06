@@ -1,0 +1,17 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+demo_robust_registration.ipynb
+requirements.txt
+setup.cfg
+setup.py
+xregistration/__init__.py
+xregistration/est_catalog.py
+xregistration/estimation.py
+xregistration/simulation.py
+xregistration.egg-info/PKG-INFO
+xregistration.egg-info/SOURCES.txt
+xregistration.egg-info/dependency_links.txt
+xregistration.egg-info/not-zip-safe
+xregistration.egg-info/requires.txt
+xregistration.egg-info/top_level.txt
