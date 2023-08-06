@@ -1,0 +1,16 @@
+visym_collector-0.4.6-py3.9-nspkg.pth,sha256=0BCZzoUNVu97-vAdvAN5Y96FIYfaopwV-FfL_rYtgTY,564
+pycollector/backend.py,sha256=8MgpX0wmTvnQtaKyLiMvAQjRqewu1LAfw2OHd3JVA2Y,6218
+pycollector/dataset.py,sha256=3_fDt6iKxbFdiwt5sekXH5BXbust-x_c0Z19rXDpbEU,11671
+pycollector/globals.py,sha256=Pyz8isSg2ic9Gp4VvuUG2sT6WB-Q_p1dukTGtlVEIFU,2941
+pycollector/label.py,sha256=SqhWERfoQDrdO_zvqM_myHdcJrOGvr7LHA_tkeAXPUg,49211
+pycollector/project.py,sha256=n2WhrU-6rYitIf8JVw4Xhd0G97eY4RlhCvQN2zqZTw8,3876
+pycollector/user.py,sha256=k-hQeCWU1B_8_RnR9FIz-K1SddKNDvOIohZzra5fMTo,7358
+pycollector/util.py,sha256=djxInIlP2aiHaqWGiy2MMpVGyj2SMnpO4KzDb_0x8D8,4208
+pycollector/version.py,sha256=EME6rcizjlEIrGYOLbAGT4VI8QCC641e_FmZLB1IrNk,576
+pycollector/video.py,sha256=P_6MS6akPxp4asUv3POhRHS_Gn4RkzkTSuCwxQpdw8M,32091
+visym_collector-0.4.6.dist-info/LICENSE,sha256=eTE6iayA6J1VXYXzBhzV_lyAaYE9-GNCBCuzzNLeHCg,1067
+visym_collector-0.4.6.dist-info/METADATA,sha256=OSXWDS2ALMOlsGBYwzLEHztngi3oOzHbuMDBBp8gLDk,875
+visym_collector-0.4.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+visym_collector-0.4.6.dist-info/namespace_packages.txt,sha256=KsB1tPD_C8LkUIW76mvqfnSQ3R0swQ_cGSM2XG6v_gs,12
+visym_collector-0.4.6.dist-info/top_level.txt,sha256=KsB1tPD_C8LkUIW76mvqfnSQ3R0swQ_cGSM2XG6v_gs,12
+visym_collector-0.4.6.dist-info/RECORD,,
