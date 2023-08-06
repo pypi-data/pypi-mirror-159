@@ -1,0 +1,9 @@
+coral_pytorch/__init__.py,sha256=gv-fVcjcBFYNZSX6q8HawoSKaw_zSmDVon5qSEjw2Kk,137
+coral_pytorch/dataset.py,sha256=hBPyVCEKaH2dmFKlMuj64_R1cWIsZZ58ZJ2SslxtDsY,4510
+coral_pytorch/layers.py,sha256=8t4m0lPzu5BSMBIIQXOj9MyqWz0vHZ-PM7IXUJntIGw,1857
+coral_pytorch/losses.py,sha256=bBgvsAZ1Y5OSM29w16mucqLvjP3f8oifLqdl_OU5xvo,8289
+coral_pytorch-1.4.0.dist-info/LICENSE.txt,sha256=90EimTgzn-_KKH7xJLEzAreEf3OBpEZ_DSwJ4q8j1ZI,1079
+coral_pytorch-1.4.0.dist-info/METADATA,sha256=oBPz3scNlmcDkoktcK6-6b04oW7WLraKgTwRtDpLdyk,1401
+coral_pytorch-1.4.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+coral_pytorch-1.4.0.dist-info/top_level.txt,sha256=yf1xUqWB33RmPD_tZ7NZ2M5MqrhP6VSYpZLXWYYlUio,14
+coral_pytorch-1.4.0.dist-info/RECORD,,
