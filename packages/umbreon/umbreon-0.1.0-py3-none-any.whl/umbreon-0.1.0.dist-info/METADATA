@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: umbreon
+Version: 0.1.0
+Summary: A fun multi-purpose Discord bot.
+Home-page: https://github.com/mudkipdev/umbreon
+License: MIT
+Author: mudkipdev
+Author-email: 86132148+mudkipdev@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: discord.py (>=1.7.3,<2.0.0)
+Requires-Dist: fuzzywuzzy (>=0.18.0,<0.19.0)
+Requires-Dist: jishaku (>=2.3.2,<3.0.0)
+Requires-Dist: python-Levenshtein (>=0.12.2,<0.13.0)
+Requires-Dist: python-dotenv (>=0.19.2,<0.20.0)
+Requires-Dist: requests (>=2.27.1,<3.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://github.com/mudkipdev/umbreon
