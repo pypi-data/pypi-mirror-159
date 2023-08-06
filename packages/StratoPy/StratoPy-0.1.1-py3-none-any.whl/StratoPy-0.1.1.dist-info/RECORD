@@ -1,0 +1,10 @@
+stratopy/IO.py,sha256=-6rXxeVYekqI6Mk_W6BaDmIkkqbPmZCqObNDp05cFpU,4287
+stratopy/__init__.py,sha256=g-0AXYiLceeuco_CtiBFBsbz-4EzDowEaihEC2Hrdq4,850
+stratopy/cloudsat.py,sha256=qokgQ1gCMe4F1YNVL8at2xmgVgU6nm2HHBlTzpfWqgs,6923
+stratopy/core.py,sha256=yrHXlpU_5Kk9jK_UZd4dBXBmuRMWZfFr7pHSOf8E4jk,9693
+stratopy/goes.py,sha256=_T-lsw2tIG1H6R50d1p1VdWt3sWyTqU6p8BEhlWNwLA,14633
+StratoPy-0.1.1.dist-info/LICENSE,sha256=44lKS7VGlX1vZuWyDr1EqsovTxVkaYnWqjnFFXWaTmo,1065
+StratoPy-0.1.1.dist-info/METADATA,sha256=nxYtkQ9ho862-xtWseRRoJPLdOYBgI_tF-QvlwUKA4o,6905
+StratoPy-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+StratoPy-0.1.1.dist-info/top_level.txt,sha256=BWqwu07DoYI22I2h3lsJC6YQKcVHkhuKborcqGKEOQQ,9
+StratoPy-0.1.1.dist-info/RECORD,,
