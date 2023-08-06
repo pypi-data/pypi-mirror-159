@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "calculation_test"
+version = "0.1.1"
+description = "mapilio calculation"
+readme = "README.rst"
+authors = ["Kadir Coşar <kadircosarnew@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+addict = "2.4.0"
+geographiclib = "1.50"
+numpy = "^1.23.1"
+opencv-python = "^4.5.1.48"
+solve = "^0.0.0"
+trianglesolver = "^1.2"
+helper-mapilio = "^1.1.31"
+ExifRead = "^2.3.2"
+pytz = "^2021.1"
+requests = "^2.25.1"
+scipy = "^1.8.1"
+pandas = "^ 1.4.3"
+matplotlib = "^3.5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
