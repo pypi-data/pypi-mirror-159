@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: soccer-articles
+Version: 0.1.1
+Summary: 
+Author: keurcien
+Author-email: keurcien@appchoose.io
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: beautifulsoup4 (==4.10.0)
