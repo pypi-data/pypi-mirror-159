@@ -1,0 +1,7 @@
+setup.py
+cg5.egg-info/PKG-INFO
+cg5.egg-info/SOURCES.txt
+cg5.egg-info/dependency_links.txt
+cg5.egg-info/top_level.txt
+lib/__init__.py
+lib/ok.py
