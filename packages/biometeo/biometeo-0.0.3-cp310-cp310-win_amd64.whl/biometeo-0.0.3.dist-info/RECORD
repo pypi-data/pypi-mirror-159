@@ -1,0 +1,10 @@
+GlobalRadiation_Tmrt_RayMan.cp310-win_amd64.pyd,sha256=m4-oWTk8ZCT-BFWbL9IOryWsHHE8gwhqOmXQqv0xJNI,154112
+PMV_func.cp310-win_amd64.pyd,sha256=JWp_G5DVxvFFp12DwaE_t_jrjr40rywh0k6pky1yyYw,74240
+SET_func.cp310-win_amd64.pyd,sha256=qCFl6RaKPcRqtkgdDPkODiLpWtSSj4Qjs881SY5JiE4,72192
+UTCI_apporf.cp310-win_amd64.pyd,sha256=61zgdkjHSjZoAz7OFHfS5M-MJJ0Qay0-RiAS6Hhu6f8,102912
+mPET_func_ord.cp310-win_amd64.pyd,sha256=wD29Xyt-oo3GC-ZCIZa8vWKlZnHlyP2hpqCzMHW5ulo,922112
+pet_func.cp310-win_amd64.pyd,sha256=S6mZzEcnW69waXlPzTWDSEmJxK-Q15pOAdT5dBIeYCQ,133120
+biometeo-0.0.3.dist-info/METADATA,sha256=HrqMtBtE8GVUieBYyYwCbZ501ZNK47Od4Pjt5a9qSfk,701
+biometeo-0.0.3.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+biometeo-0.0.3.dist-info/top_level.txt,sha256=a2CW0F7QIUCWmm-T5HUTcPrhi3joAfVYSuSLyyEnxbc,81
+biometeo-0.0.3.dist-info/RECORD,,
