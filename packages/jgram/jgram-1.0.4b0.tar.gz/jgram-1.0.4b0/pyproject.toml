@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "jgram"
+homepage = "https://github.com/grehban/jgram"
+repository = "https://github.com/grehban/jgram"
+version = "1.0.4-beta"
+description = "Simple wrapper over aiogram for create bots structure in json files"
+authors = ["grehban <maximfeedback19@gmail.com>"]
+maintainers = ["grehban <maximfeedback19@gmail.com>"]
+keywords = ["telegram", "bot", "aiogram", "api", "wrapper", "json", "asyncio"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Framework :: AIOgram",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiogram = "^2.21"
+uvloop = { version = "^0.16.0", markers = "sys_platform == 'darwin' or sys_platform == 'linux'", optional = true }
+cchardet = { version = "^2.1.7", optional = true }
+aiodns = { version = "^3.0.0", optional = true }
+ujson = { version = "^5.4.0", optional = true }
+aiohttp-socks = { version = "^0.7.1", optional = true }
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+pytest-asyncio = "^0.18.3"
+toml = "^0.10.2"
+typing-extensions = "^4.2.0"
+mypy = "^0.961"
+towncrier = "^21.9.0"
+Sphinx = "^5.0.2"
+
+[tool.poetry.extras]
+fast = ["uvloop", "ujson", "aiodns", "cchardet"]
+proxy = ["aiohttp-socks"]
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 99
+
+[tool.pytest.ini_options]
+addopts = "--maxfail=2 -rf --asyncio-mode=auto"
+testpaths = [
+    "tests",
+]
+
+[tool.towncrier]
+package = "jgram"
+filename = "CHANGES.rst"
+directory = "CHANGES/"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
