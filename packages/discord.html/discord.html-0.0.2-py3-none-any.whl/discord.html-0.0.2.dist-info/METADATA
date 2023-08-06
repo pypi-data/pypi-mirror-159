@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: discord.html
+Version: 0.0.2
+Summary: A package to interact with the Discord API by writing HTML
+Home-page: UNKNOWN
+Author: DistortedPumpkin
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.8.0
+
+# discord.html
+A revolutionary powerful HTML library used to connect to the Discord API
+# WIP
+
+
