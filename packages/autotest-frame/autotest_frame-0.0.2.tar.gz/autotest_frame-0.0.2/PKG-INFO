@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: autotest_frame
+Version: 0.0.2
+Summary: 全栈自动化测试框架
+Home-page: https://github.com
+Author: 冯建伟
+Author-email: 894948041@qq.com
+License: UNKNOWN
+Platform: Android
+Platform: IOS
+Platform: Web
+Platform: Api
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Provides-Extra: excel
+Provides-Extra: jira
+Provides-Extra: mysql
+Provides-Extra: mongo
+Provides-Extra: encrypt
+Provides-Extra: win
+Provides-Extra: mac
+License-File: LICENSE
+
+UNKNOWN
+

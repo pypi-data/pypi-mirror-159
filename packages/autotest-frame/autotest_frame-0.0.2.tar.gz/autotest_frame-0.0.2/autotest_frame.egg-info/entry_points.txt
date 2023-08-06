@@ -1,0 +1,3 @@
+[console_scripts]
+at_frame = autotest_frame.cli:main
+autotest_frame = autotest_frame.cli:main
