@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: LinAlgHelper
+Version: 0.0.3
+Summary: A Linear Algebra library
+Home-page: UNKNOWN
+Author: Noah Pinel
+Author-email: noah@binaryfox.ca
+License: MIT
+Keywords: LinearAlgebra
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+# Linear Algebra Helper
+
+This is a simple linear algebra lib, basic functions for elementary LA operations are included.
+The point of this library is to alleviate tedious calculations that are encountered when 
+studying this topi.
+
+[![Build Status](https://img.shields.io/travis/com/jacebrowning/template-python.svg)](https://travis-ci.com/jacebrowning/template-python)
+
+## Features
+
+* Matrix algebra basic operations.
+* LU-Decompositon
+* Determinant of 2x2 and real nxn matrices.
+
+
+## Usage
+
+Install `LinearAlgebraHelper` and generate a project:
+
+```
+$ pip install LinAlgHelper==0.0.1
+```
+
+If your system is up-to-date, LinearAlgebraHelper should be installed successfully.
+
+## Updates
+
+LAHelper is currently in version 0.0.1, More will be added.
+
+
