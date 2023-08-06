@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: Hyperbo
+Version: 1.0
+Summary: Hyperbo is an open-source python package, a mathematical package that implements arithmetical computations on hyperbola. This work in particular, focuses on research findings on lattice points on hyperbolas in relation with Fermat factorization equation.
+Home-page: https://github.com/GildaRech/Hyperbo
+Author: ['Gilda Bansimba', 'Régis Babindamana', 'Basile Bossoto']
+Author-email: bansimbagilda@gmail.com
+Maintainer: Gilda Bansimba
+Maintainer-email: bansimbagilda@gmail.com
+License: MIT License
+Keywords: Fermat,Hyperbola,Arithmetic,Computations,Morphisms
+Platform: Cross platform
