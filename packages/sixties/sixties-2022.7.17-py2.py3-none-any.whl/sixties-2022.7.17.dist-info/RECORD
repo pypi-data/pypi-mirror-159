@@ -1,0 +1,14 @@
+sixties/__init__.py,sha256=sDt81i_Xg5R6BS-NMGpDoCmBE2nNuREsa2O5mVdAKuk,239
+sixties/__main__.py,sha256=N9-GM-PNGmIMWxqi1AypL7nrVb9sFOJJrIvnxCf7nig,159
+sixties/cli.py,sha256=aYYBb-hOSspQ5WXbyE777IuMlAbKI0GZ6l0KvMTRJxc,271
+test/__init__.py,sha256=TwaiEPqwDjjdKUdotoOO3F_5XopDRCFngt5Tk8iAzyY,91
+test/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/context.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_cli.py,sha256=AV_faBKk3otIipfNnXyUWeVLUZUXPnnvRdGi1Y8cbIQ,235
+test/test_sixties.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sixties-2022.7.17.dist-info/LICENSE,sha256=dH0AkBTlTynp0PbKTR2Y5jBsNrBtyxAU34jpExJSJ88,1069
+sixties-2022.7.17.dist-info/METADATA,sha256=m7N8qR_HlBU5AhIwohB269vE8r07MPxVUq3VcaHJc_M,2005
+sixties-2022.7.17.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+sixties-2022.7.17.dist-info/entry_points.txt,sha256=KOW0GXKpHnKXxwpY9_SHA2KsZALmB1m63V0qRWzMNIo,44
+sixties-2022.7.17.dist-info/top_level.txt,sha256=T2p9MFA4IlVavi3DtyZ8pG1EjP98phEZu2Y5Vjgk_hg,13
+sixties-2022.7.17.dist-info/RECORD,,
