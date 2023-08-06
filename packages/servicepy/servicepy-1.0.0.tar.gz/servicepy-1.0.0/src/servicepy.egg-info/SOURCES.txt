@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/servicepy/__init__.py
+src/servicepy.egg-info/PKG-INFO
+src/servicepy.egg-info/SOURCES.txt
+src/servicepy.egg-info/dependency_links.txt
+src/servicepy.egg-info/top_level.txt
