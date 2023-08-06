@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: minimagen
+Version: 0.0.2
+Summary: Minimal Imagen text-to-image model implementation
+Home-page: UNKNOWN
+Author: AssemblyAI
+Author-email: <ryan@assemblyai.com>
+License: UNKNOWN
+Keywords: python,imagen,text-to-image,diffusion model,super resolution,image generation,machine learning,deep learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: einops
+Requires-Dist: einops-exts
+Requires-Dist: resize-right
+Requires-Dist: typing
+Requires-Dist: transformers
+
+UNKNOWN
+
