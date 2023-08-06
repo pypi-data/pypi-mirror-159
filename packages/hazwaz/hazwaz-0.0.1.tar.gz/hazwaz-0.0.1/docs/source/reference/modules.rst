@@ -1,0 +1,6 @@
+hazwaz reference
+================
+
+.. toctree::
+
+   hazwaz
