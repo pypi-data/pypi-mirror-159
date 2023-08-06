@@ -1,0 +1,10 @@
+name: botorch
+channels:
+  - pytorch
+  - gpytorch
+  - conda-forge
+dependencies:
+  - pytorch>=1.10
+  - gpytorch>=1.7
+  - scipy
+  - pyro-ppl>=1.8.0
