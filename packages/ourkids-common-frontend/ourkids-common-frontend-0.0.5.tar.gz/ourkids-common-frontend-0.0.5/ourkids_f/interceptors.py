@@ -1,0 +1,1 @@
+INTERCEPTORS = {'error': 'Exception', 'not_found': 'NotFound', 'forbidden': 'Forbidden'}
