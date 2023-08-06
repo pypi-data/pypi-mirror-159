@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyfu-usb
+Version: 1.0.0
+Summary: Python device firmware update utility
+Home-page: UNKNOWN
+Author: Block, Inc.
+License: MIT
+Keywords: dfu-util,pydfu
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Requires-Dist: pyusb (>=1.0.2)
+Requires-Dist: rich (>=12.2)
+Provides-Extra: dev
+Requires-Dist: black (~=22.3.0) ; extra == 'dev'
+Requires-Dist: mypy (==0.942) ; extra == 'dev'
+Requires-Dist: types-setuptools (~=57.4.14) ; extra == 'dev'
+Requires-Dist: pylint (~=2.7.0) ; extra == 'dev'
+Requires-Dist: pre-commit (~=2.18.1) ; extra == 'dev'
+Requires-Dist: wheel (~=0.37.1) ; extra == 'dev'
+Requires-Dist: twine (~=4.0.0) ; extra == 'dev'
+Requires-Dist: pytest (~=7.1.2) ; extra == 'dev'
+Requires-Dist: coverage (~=6.4) ; extra == 'dev'
+
+UNKNOWN
+
+

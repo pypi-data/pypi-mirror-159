@@ -1,0 +1,3 @@
+[console_scripts]
+pyfu-usb = pyfu_usb.__main__:main
+
