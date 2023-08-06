@@ -1,0 +1,2 @@
+[console_scripts]
+obspyDMT = obspyDMT.obspyDMT:main
