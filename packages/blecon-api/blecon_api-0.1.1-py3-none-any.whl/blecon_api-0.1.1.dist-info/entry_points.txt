@@ -1,0 +1,3 @@
+[console_scripts]
+blecon-api=blecon_api.main:app
+
