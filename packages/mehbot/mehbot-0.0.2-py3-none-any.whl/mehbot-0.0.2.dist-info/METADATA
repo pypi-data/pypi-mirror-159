@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mehbot
+Version: 0.0.2
+Summary: A telegram bot that  respond by meh
+Home-page: https://github.com/Ribx0
+Author: Saad Laabi
+Keywords: meh,meeh,bot
+Requires-Python: >=3.7, <4
+Requires-Dist: python-telegram-bot (==13.13)
+
+Really its just a bot that say meh
