@@ -1,0 +1,7 @@
+octodns_route53/__init__.py,sha256=SuT8l32nF6xRIHWP_PbvOoz4plYTyGe1Ka0KoS9KmHo,69708
+octodns_route53/record.py,sha256=iQ9NDRPzIxbo0vK3vUxLnwUxdzQdlMvvIX5z5R-X04o,2828
+octodns_route53/processor/__init__.py,sha256=aUU7AFA22kHxmbR384MosqlMztTpt7_vAF10b2GtxqY,819
+octodns_route53-0.0.5.dist-info/METADATA,sha256=iCJki-qeVF3DtJr3QHkNLaFBjB9JQ525g07WYq-UHxE,4639
+octodns_route53-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+octodns_route53-0.0.5.dist-info/top_level.txt,sha256=dCOwO0FtSw_XHvGgmmL21yApmW4Qnwxi8mHBqMAJP_g,16
+octodns_route53-0.0.5.dist-info/RECORD,,
