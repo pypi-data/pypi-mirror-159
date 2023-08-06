@@ -1,0 +1,16 @@
+.gitignore
+.prospector.yaml
+.pylintrc
+README.md
+requirements.txt
+setup.py
+awesome_cell/__init__.py
+awesome_cell/segment.py
+awesome_cell.egg-info/PKG-INFO
+awesome_cell.egg-info/SOURCES.txt
+awesome_cell.egg-info/dependency_links.txt
+awesome_cell.egg-info/entry_points.txt
+awesome_cell.egg-info/requires.txt
+awesome_cell.egg-info/top_level.txt
+awesome_cell/__pycache__/__init__.cpython-39.pyc
+awesome_cell/__pycache__/segment.cpython-39.pyc

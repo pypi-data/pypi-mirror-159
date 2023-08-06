@@ -1,0 +1,3 @@
+[console_scripts]
+awesome-segment = awesome_cell.segment:main
+
