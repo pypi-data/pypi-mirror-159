@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: restconf-cli
+Version: 0.1.1
+Summary: command line tool for restconf
+Home-page: https://example.com/setup-py
+Author: Muhammad Rafi
+Author-email: murafi@cisco.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: click (==7.1.2)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: rich (==11.2.0)
+Requires-Dist: flake8 (==4.0.1)
+Requires-Dist: pytest (==7.0.1)
+
+UNKNOWN
+
