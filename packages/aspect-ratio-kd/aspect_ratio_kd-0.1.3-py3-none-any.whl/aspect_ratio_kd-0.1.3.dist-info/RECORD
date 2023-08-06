@@ -1,0 +1,5 @@
+aspect_ratio_kd/__init__.py,sha256=WSeKL0LqQ5t2OfijK7ft6xouhzTfbzr6NcHyPuWgUJw,56
+aspect_ratio_kd/get_version.py,sha256=HaMkkYYlEz9YV99zV98Rk6YmuaywaLRvZY6lvaJaHNE,26
+aspect_ratio_kd-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aspect_ratio_kd-0.1.3.dist-info/METADATA,sha256=dg5tLPaddgoVlrN45GCJh_zJF1RybIV36q4wl6RyHkM,529
+aspect_ratio_kd-0.1.3.dist-info/RECORD,,
