@@ -1,0 +1,7 @@
+include requirements.txt
+include Makefile
+include tox.ini
+include CHANGELOG.md
+
+recursive-include .github *
+recursive-include assets *
