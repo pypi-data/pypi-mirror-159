@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: py-osmgs
+Version: 0.0.1
+Summary: A Open Source MANO simulation and descriptor generating tool.
+Author-email: Yifei Ren <ryf0510@live.com>
+Project-URL: Homepage, https://github.com/ulfaric/py-osmgs
+Project-URL: Bug Tracker, https://github.com/ulfaric/py-osmgs/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
