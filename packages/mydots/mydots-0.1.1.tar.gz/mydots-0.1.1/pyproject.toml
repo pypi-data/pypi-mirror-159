@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mydots"
+version = "0.1.1"
+description = "A simple JSON parser."
+authors = ["Łukasz Wieczorek <wieczorek1990@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.scripts]
+mydots = 'mydots.cli:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
