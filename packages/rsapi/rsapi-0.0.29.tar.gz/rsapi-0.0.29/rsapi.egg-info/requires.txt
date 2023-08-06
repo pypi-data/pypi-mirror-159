@@ -1,0 +1,16 @@
+certifi==2021.10.8
+chardet==4.0.0
+charset-normalizer==2.0.10
+dataclasses==0.6
+idna==3.3
+osrsbox==2.2.3
+requests==2.27.1
+urllib3==1.26.8
+
+[dev]
+pytest==6.2.2
+responses==0.13.1
+
+[tests]
+pytest==6.2.2
+responses==0.13.1
