@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: sanic-redis-extend
+Version: 0.0.1
+Summary: sanic redis extend
+Home-page: https://github.com/lvyunze/sanic_redis_extend
+Author: lvyunze
+Author-email: 17817462542@163.com
+Keywords: sanic redis extend
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aioredis (==2.0.1)
+Requires-Dist: sanic (==22.6.0)
+
+sanic-redis
+==============
+Redis support for sanic.
+
+Built on top of [aioredis](https://aioredis.readthedocs.io/en/latest/examples/).
+
+Installation
+------------
+
+You can install this package as usual with pip:
+
+    pip install sanic-redis-extend
+
+Config
+-----------
+For example:
+
+    redis://[[username]:[password]]@localhost:6379/0
+    rediss://[[username]:[password]]@localhost:6379/0
+    unix://[[username]:[password]]@/path/to/socket.sock?db=0
+
+Example
+------------
+```python
+from sanic import Sanic
+from sanic.response import text
+from sanic_redis_extend import SanicRedisExtend
+
+app = Sanic(__name__)
+
+app.config.update(
+    {
+        'REDIS': "redis://default:xxx@127.0.0.1:6379/1",
+    }
+)
+
+redis = SanicRedisExtend()
+redis.init_app(app)
+
+
+@app.route('/')
+async def test3(request):
+    # request.app.ctx.{redis_name}, the {redis_name} == config_name.lower()
+    async with request.app.ctx.redis as r:
+        await r.set('key1', 'value1')
+        result = await r.get('key1')
+    return text(str(result))
+
+
+if __name__ == '__main__':
+    app.run()
+```
