@@ -1,0 +1,15 @@
+In this folder we collect few scripts to show how to run workchains.
+Users should take these scripts as templates and adapt them to their own case.
+
+All the scripts can be run through:
+
+	runaiida script.py code@computer {stmcode@computer}
+
+However, the user should make sure that the
+computational resources selected in the script are compatible with their "computer"
+(for instance "queue" and "account").
+
+Indication about pseudo requirements to run the examples here are in ../00_README
+
+The example example_neb_ghost.py requires the path to the lua scripts in the flos library.
+Look at the docs for more info. Library can be found at https://github.com/siesta-project/flos
