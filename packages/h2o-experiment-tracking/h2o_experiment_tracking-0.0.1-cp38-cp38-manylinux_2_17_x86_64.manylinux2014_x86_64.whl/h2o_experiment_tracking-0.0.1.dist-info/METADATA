@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: h2o-experiment-tracking
+Version: 0.0.1
+Summary: Python client for H2O.ai Experiment Tracking.
+Author: H2O.ai
+Author-email: support@h2o.ai
+License: Proprietary License
+Project-URL: Documentation, http://docs.h2o.ai/h2o_experiment_tracking/pyclient/docs/html/index.html
+Keywords: machine learning,api,python client,data science,artificial intelligence,h2o,ai
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6,<3.10
+License-File: LICENSE
+Requires-Dist: Cython (==0.29.21)
+Requires-Dist: oic (==1.4.0)
+Requires-Dist: h2o-authn (==0.1.1)
+Requires-Dist: mlflow (==1.26.1)
+
+Intuitive static Python client for Experiment Tracking
+
+Goals
+
+- Provide a stable API for Experiment Tracking.
+
+- Be simple and intuitive to use.
+
+- Provide comprehensive documentation.
+
+Please send feedback to help improve the client and documentation to support@h2o.ai.
