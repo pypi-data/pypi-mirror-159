@@ -1,0 +1,36 @@
+{% set data = load_setup_py_data(setup_file = 'setup.py', from_recipe_dir=True, recipe_dir='.') %}
+
+package:
+  name: moldrug
+  version: {{ data['version'] }}
+
+source:
+  path: ../
+
+build:
+  noarch: python
+  number: 0
+  script: python -m pip install --no-deps --ignore-installed .
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - rdkit 2022.*.*
+    - autodock-vina
+    - python
+    - ipykernel
+    - ipython
+
+test:
+  imports:
+    - moldrug
+
+about:
+  home: {{ data['url'] }}
+  license:  {{ data['license'] }}
+  dev_url: {{ data['url'] }}
+  doc_url: {{ data['project_urls']['Documentation'] }}
+  doc_source_url: https://github.com/ale94mleon/MolDrug/tree/main/docs/source
+summary: {{ data['description'] }}
+
