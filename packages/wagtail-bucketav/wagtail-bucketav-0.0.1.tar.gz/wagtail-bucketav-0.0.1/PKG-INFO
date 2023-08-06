@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: wagtail-bucketav
+Version: 0.0.1
+Summary: 
+Author-email: Jake Howard <jake.howard@torchbox.com>, Nick Morton <nick.moreton@torchbox.com>, Joshua Munn <joshua.munn@torchbox.com>, Andy Babic <andy.babic@torchbox.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 2
+Classifier: Framework :: Wagtail :: 3
+Requires-Dist: Django>=3.0,<4.1
+Requires-Dist: Wagtail>=2.14,<4.0
+Requires-Dist: mkdocs==1.1.2 ; extra == "documentation"
+Requires-Dist: mkdocs-material==6.2.8 ; extra == "documentation"
+Requires-Dist: mkdocs-mermaid2-plugin==0.5.1 ; extra == "documentation"
+Requires-Dist: mkdocstrings==0.14.0 ; extra == "documentation"
+Requires-Dist: mkdocs-include-markdown-plugin==2.8.0 ; extra == "documentation"
+Requires-Dist: pygments==2.11.2 ; extra == "documentation"
+Requires-Dist: black==22.6.0 ; extra == "lint"
+Requires-Dist: isort==5.10.1 ; extra == "lint"
+Requires-Dist: flake8==3.9.2 ; extra == "lint"
+Requires-Dist: pytest-cov==3.0.0 ; extra == "test"
+Requires-Dist: pytest-mock==3.8.2 ; extra == "test"
+Requires-Dist: pytest-django==4.5.2 ; extra == "test"
+Requires-Dist: pytest==7.1.2 ; extra == "test"
+Project-URL: Home, https://github.com/torchbox/wagtail-bucketav
+Project-URL: Source, https://github.com/torchbox/wagtail-bucketav
+Provides-Extra: documentation
+Provides-Extra: lint
+Provides-Extra: test
+
+# wagtail-bucketav
+Scan Wagtail uploads using BucketAV
+
