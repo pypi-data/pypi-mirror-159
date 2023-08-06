@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: spminfo
+Version: 0.0.3
+Summary: Team Musibat Bots
+Home-page: https://bitbucket.org/shahzain83/musibat
+Author: Shahzain Khan
+Author-email: asifjamali83@hotmail.com
+License: MIT
+Project-URL: Bug Tracker, https://bitbucket.org/shahzain83/musibat/issues
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# MusibaT #
+
+
+# What is this repository for? #
+
+* Learning Perpose
+* Version 0.0.3
+* [Learn iSsues](https://bitbucket.org/shahzain83/musibat/issues)
+
+### How do I get set up? ###
+
+* Summary of set up
+* Configuration
+* Dependencies
+* Database configuration
+* How to run tests
+* Deployment instructions
+
+### Contribution guidelines ###
+
+* Writing tests
+* Code review
+* Other guidelines
+
+### Contact Line ###
+
+* musibat_bots
+
