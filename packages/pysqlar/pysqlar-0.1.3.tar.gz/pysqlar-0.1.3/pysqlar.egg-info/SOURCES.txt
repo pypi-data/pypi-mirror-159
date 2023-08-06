@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pysqlar/__init__.py
+pysqlar/archive.py
+pysqlar.egg-info/PKG-INFO
+pysqlar.egg-info/SOURCES.txt
+pysqlar.egg-info/dependency_links.txt
+pysqlar.egg-info/top_level.txt
+test/__init__.py
+test/test_archive.py
