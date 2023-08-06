@@ -1,0 +1,14 @@
+mangadlp/__init__.py,sha256=D-ViP3XgK3b0PlzjN2g5_C9CaqdxtSX4_QQj5wfnWoE,106
+mangadlp/__main__.py,sha256=XY6zZlZT-8sQBIwsh1JfYSwimwYgL4pNlo9fW3ZNniI,93
+mangadlp/app.py,sha256=WwQGrYEV_ohSy7nZ84MyZgZ0UNj6Y_mLpI6gnkZjoVc,11166
+mangadlp/downloader.py,sha256=cE-2TY57RTrx61H7UJmbFNeWLZq4st7jaGEhwDDrH7I,1830
+mangadlp/input.py,sha256=gP-0UDXpLVUhgiDZPyp6yoh42w3aqj9Fg1LLViFEIsY,5853
+mangadlp/logger.py,sha256=weIknq6PkluRBg6UyGCBzmSxcMs0kQEi6ZvWpBiH9ns,1655
+mangadlp/utils.py,sha256=994q3_EKA8KIQOWm3rEjLikMOuv4YTk8SrCjqE6E6GA,4804
+mangadlp/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mangadlp/api/mangadex.py,sha256=zbkUj4edgtf55NyuiUDR0SAnxm2zKeyyjUhuwIgtkpQ,9278
+manga_dlp-2.1.11.dist-info/METADATA,sha256=Nof1OVXx7EJobwuYwkJ-xFemQ8neuSF84UnLAjDmBVs,9923
+manga_dlp-2.1.11.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+manga_dlp-2.1.11.dist-info/entry_points.txt,sha256=SlNvmLG1tom0AUtW8xcqHwvqMT64PSFFyhLwF2fevjM,81
+manga_dlp-2.1.11.dist-info/licenses/LICENSE,sha256=5Q8GAVcvvRDsV6AaceOlgoBQpQGY5LNLGgAcSPqpBXg,1070
+manga_dlp-2.1.11.dist-info/RECORD,,
