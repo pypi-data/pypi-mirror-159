@@ -1,0 +1,11 @@
+STRcount/STRcount_wrapper.py,sha256=4RiVPGtCNAfR5FYtXfy5DQI0LuvtkspcRTcieaJ_qJw,4305
+STRcount/__init__.py,sha256=KsC2O-0wdUtwzJxG1Hcz31kAEbxJUYVXY0PeO9CR7sE,33
+STRcount/genome_str_graph_generator.py,sha256=JjohrVmMdu6C2FTURwvS0fA_oL4f20DqP-Jw9byj-js,3299
+STRcount/parse_gaf.py,sha256=jVvwoMbUf_nwEd-iL8K1nD5aaaK0pNP9ht1AOtf9DtA,2902
+STRcount/parse_gaf_modified.py,sha256=L6qZpW9J6T1BhvYJ2cXc7S2qsfZrWelAn-_Uq33XM2Q,3030
+STRcount/parse_gaf_original.py,sha256=jVvwoMbUf_nwEd-iL8K1nD5aaaK0pNP9ht1AOtf9DtA,2902
+STRcount-0.0.1.dist-info/LICENSE,sha256=9LH2jAZjSmmWp3jc8HJv0zaRmAdwpr83HOGTtZMB0xE,1094
+STRcount-0.0.1.dist-info/METADATA,sha256=NcpBk_9jI0taM1dah5aTQTg8Tqn70Mz1gThqYmGW1xw,6068
+STRcount-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+STRcount-0.0.1.dist-info/top_level.txt,sha256=zSxJxCvFKEAc1EI1aQ_gzAAI0FNPCRLlkwsHBqrXPBM,9
+STRcount-0.0.1.dist-info/RECORD,,
