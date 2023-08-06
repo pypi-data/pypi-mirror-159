@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: experimental.catalogplan
+Version: 1.0.0a1
+Summary: Experimental ZCatalog plan
+Home-page: http://pypi.org/pypi/collective/experimental.catalogplan
+Author: Mauro Amico
+Author-email: mauro.amico@gmail.com
+License: BSD
+Keywords: monkeypatch traverse
+Classifier: Framework :: Zope2
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 4.3
+Classifier: Framework :: Plone :: 5.0
+Classifier: Framework :: Plone :: 5.1
+Classifier: Framework :: Plone :: 5.2
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+License-File: LICENSE.txt
+
+========================
+experimental.catalogplan
+========================
+
+.. image:: https://badge.fury.io/py/experimental.catalogplan.svg
+    :target: https://badge.fury.io/py/experimental.catalogplan
+    :alt: latest release version badge by Badge Fury
+
+.. image:: https://coveralls.io/repos/github/mamico/experimental.catalogplan/badge.svg
+    :target: https://coveralls.io/github/mamico/experimental.catalogplan
+    :alt: Coveralls status
+
+Introduction
+============
+
+
+Usage
+=====
+
+Plone::
+
+    [instance]
+    recipe = plone.recipe.zope2instance
+    eggs =
+        experimental.catalogplan
+
+Zope::
+
+    [instance]
+    recipe = plone.recipe.zope2instance
+    eggs =
+        experimental.catalogplan
+    zcml =
+        experimental.catalogplan
+
+
+Warning
+=======
+
+This is an experimental addon, mostly safe, but still experimental
+
+**USE AT YOUR OWN RISK**
+
+Changelog
+=========
+
+
+1.0.0a1 (2022-07-18)
+--------------------
+
+- Initial release
