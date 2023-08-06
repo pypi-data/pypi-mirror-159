@@ -1,0 +1,11 @@
+questdb/__init__.py,sha256=m0gUfgl8d7rXexKS08WHA2INziJL2rqLLV-hyAd8_rA,23
+questdb/ilp.c,sha256=c5l0IS7HDdYkRIHKkcBUuGNBCPgYOTn3HifSM70i01I,754201
+questdb/ilp.html,sha256=q31vHaLaRkW_H7yOGV-ZpxFQyjGqvXPr_j7Daenl7fs,461779
+questdb/ilp.pypy37-pp73-win_amd64.pyd,sha256=F-XT0iCctajQPeqv6Yo4kAd7PFn_tCYgIWVD-vURqIU,1368064
+questdb/ilp.pyx,sha256=OyBHJ_RzbxEG7jAAAL7A9HNrApFTc0nIUFFvmxIbsUE,34176
+questdb/line_sender.pxd,sha256=eTG6uhvBudJuNX5XzjKGYFZaagfHJI98k-tavB2AM6o,7699
+questdb-0.0.3.dist-info/LICENSE.txt,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+questdb-0.0.3.dist-info/METADATA,sha256=4nNuBjSrhzBoLAWq_TyYI4-hsmC4fxPmi_HltjvJE3E,2134
+questdb-0.0.3.dist-info/WHEEL,sha256=Ut7uqN9dGLPqzGl_YXDFeMyPjGKjOo0e9GUmMGhME9c,107
+questdb-0.0.3.dist-info/top_level.txt,sha256=HGuEvKvrA6CsAGIzg_BbIUwsy_YWi87tzsCvqcX1ajs,8
+questdb-0.0.3.dist-info/RECORD,,
