@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mongodb-sentry-integration
+Version: 1.0.0
+Summary: A integration of MongoDB for the Sentry's Python SDK
+Home-page: https://github.com/JoeVictor22/mongo_integration_sentry_python_sdk
+Author: Joel Castro
+Author-email: joelvictor1746@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sentry-sdk (~=1.5)
+Requires-Dist: pymongo (~=3.12)
+
+# mongo_integration_sentry_python_sdk
+A integration of MongoDB for the Sentry's Python SDK
