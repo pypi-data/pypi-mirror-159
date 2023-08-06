@@ -1,0 +1,14 @@
+pikepdf>=2.2.0
+wxPython>=4.1
+Babel
+PyYAML
+appdirs
+requests
+
+[:platform_system == "Darwin"]
+pyobjc
+
+[dev]
+pytest
+pre-commit
+black
