@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: datetime-libs
+Version: 1.1
+Summary: Datetime library
+Home-page: https://github.com/digitalwebnetwork/datetime_libs
+Author: Digital web network
+Author-email: digital.webnetwork@gmail.com
+License: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: backports.zoneinfo
+Requires-Dist: pytz
+
+# A datetime library
