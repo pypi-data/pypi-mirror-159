@@ -1,0 +1,2 @@
+include nrs/ext/bzlib/bzlib.h
+include nrs/ext/bzlib/config.h
