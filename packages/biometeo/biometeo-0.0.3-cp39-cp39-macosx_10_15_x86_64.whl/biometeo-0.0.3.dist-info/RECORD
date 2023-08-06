@@ -1,0 +1,10 @@
+GlobalRadiation_Tmrt_RayMan.cpython-39-darwin.so,sha256=6Jj47rLO8yUKdRVG1dFT9zDnqmkapDMCLuEaCBqbOWc,327976
+PMV_func.cpython-39-darwin.so,sha256=DrrqAP_a7T5gS8raCoLc2kSzirdx76B2sW4y0794p8s,183528
+SET_func.cpython-39-darwin.so,sha256=XgVNvqt9jPZUNsOiYySQiZTIHmUbyRAJPxU4vYTH2IU,246504
+UTCI_apporf.cpython-39-darwin.so,sha256=OBVNWBDMoFxtEcIVJ1iq1hbARyiGKkIhsrZ4r2jOmxs,358136
+mPET_func_ord.cpython-39-darwin.so,sha256=CiBJ85u8mNqKt4dVXbfKxlb76RTrCY2MwXoPwnpSkJM,3311080
+pet_func.cpython-39-darwin.so,sha256=LQAoYgIglx0NyPwar8KHMYIbM4anKB5HYTJn5pi_A2Y,380008
+biometeo-0.0.3.dist-info/METADATA,sha256=HrqMtBtE8GVUieBYyYwCbZ501ZNK47Od4Pjt5a9qSfk,701
+biometeo-0.0.3.dist-info/WHEEL,sha256=1aIKcOiZwCaey2y-OH_J-W7IhsRHMsIvvidnI8v_CqQ,110
+biometeo-0.0.3.dist-info/top_level.txt,sha256=a2CW0F7QIUCWmm-T5HUTcPrhi3joAfVYSuSLyyEnxbc,81
+biometeo-0.0.3.dist-info/RECORD,,
