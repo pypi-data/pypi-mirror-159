@@ -1,0 +1,8 @@
+setup.py
+turing_calculator_sagar/__init__.py
+turing_calculator_sagar/turing_calculator_sagar.py
+turing_calculator_sagar.egg-info/PKG-INFO
+turing_calculator_sagar.egg-info/SOURCES.txt
+turing_calculator_sagar.egg-info/dependency_links.txt
+turing_calculator_sagar.egg-info/not-zip-safe
+turing_calculator_sagar.egg-info/top_level.txt
