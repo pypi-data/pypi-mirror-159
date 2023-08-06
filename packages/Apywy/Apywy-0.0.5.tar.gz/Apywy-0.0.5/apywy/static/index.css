@@ -1,0 +1,268 @@
+img,
+h1,
+h2,
+h3,
+h4,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  background: hsl(220, 80%, 90%);
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.view_container {
+  max-width: 95%;
+  margin-left: 5%;
+}
+
+.namespace_name {
+  color: #3b394c;
+  font-weight: bold;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.view_block {
+  margin-top: 10px;
+  margin-left: 2.5%;
+}
+
+.view_name {
+  margin-top: 50px;
+  color: #3b394c;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.view_doc_string {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  color: #00cf95;
+  margin-bottom: 20px;
+}
+
+.method_block {
+  display: flex;
+  flex-direction: row;
+  background: #e4f7f1;
+  padding: 5px;
+  border: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: #00cf95;
+  margin-bottom: 20px;
+}
+
+.http_method_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.http_method {
+  padding: 10px 20px;
+  background-color: #00cf95;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+.http_url_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.http_url_block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.http_url {
+  display: flex;
+  flex-direction: row;
+  margin: 0 4px;
+  font-size: 20px;
+  color: #394151;
+  margin-bottom: 5px;
+}
+
+.http_url_path {
+  font-weight: bolder;
+}
+
+.http_url_name {
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.http_url_doc_string {
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.status_container {
+  max-width: 95%;
+  margin-left: 5%;
+}
+
+.status_data {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.status_block {
+  display: flex;
+  flex-direction: row;
+  background: #e4f7f1;
+  padding: 5px;
+  border: solid;
+  border-radius: 5px 5px 0 0;
+  border-width: 2px;
+  border-color: #00cf95;
+  border-bottom: none;
+}
+
+.status_block.hide_request_data {
+  border-radius: 5px 5px 5px 5px;
+  border: solid 2px
+}
+
+.http_status_block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.http_status {
+  padding: 10px 20px;
+  background-color: #00cf95;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.status_comment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.status_response_data_block {
+  padding: 20px 0 50px 5%;
+  border: solid;
+  border-radius: 0 0 5px 5px;
+  border-width: 2px;
+  background-color: #e4f7f1;
+  border-color: #00cf95;
+  border-top: none;
+  font-size: 15px;
+  color: #3b394c;
+  font-weight: bolder;
+}
+
+.status_hr {
+  max-width: 80%;
+  margin: 25px 0;
+  padding: 0;
+}
+
+.status_response_data_block.hide {
+  display: none;
+  border: none;
+}
+
+.query_key_value_block {
+  display: flex;
+  flex-direction: column;
+}
+
+.query_key_value_line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #3b394c;
+}
+
+.query_key {
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  display: inline;
+  margin-right: 3px;
+}
+
+.query_value {
+  font-size: 20px;
+  display: inline;
+  margin-left: 3px;
+}
+
+.request_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.expected_request_data_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.expected_request_data_block.hide {
+  display: none;
+}
+
+.expected_request_data {
+  margin-left: 2.5%;
+  padding: 10px 20px;
+  background-color: #00cf95;
+  width: max-content;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.expected_request_data_data_block {
+  padding: 20px 0 50px 5%;
+  border: solid;
+  border-radius: 0 0 5px 5px;
+  border-width: 2px;
+  background-color: #e4f7f1;
+  border-color: #00cf95;
+  font-size: 15px;
+  color: #3b394c;
+  font-weight: bolder;
+  /* border-top: none; */
+}
+
+.expected_request_data_data_block.hide {
+  display: None;
+  border: none;
+}

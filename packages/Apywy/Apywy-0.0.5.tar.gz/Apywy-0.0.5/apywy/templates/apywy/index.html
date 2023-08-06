@@ -1,0 +1,129 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'index.css' %}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        {% block content %}
+        {% for namespace in namespaces %}
+        <div>
+            <h1 class="namespace_name">{{ namespace.namespace_name }}</h1>
+        </div>
+        <hr>
+        <div class="view_container">
+          {% for view in namespace.views %}
+             <h2 class='view_name'>{{ view.view_name }}</h2>
+             <div class="view_block">
+                <div class="view_info">
+                {% if view.doc_string %}
+                    <p class='view_doc_string'><q>{{ view.doc_string }}<q></p>
+                {% endif %}
+                                        
+                <div class="http_url_block">
+                    {% for url_path_data in view.urls_data  %}
+                        <div class="http_url">
+                            <div class="http_url_path">{{ url_path_data.url_full_path }}</div>
+                            {% if url_path_data.url_name %}
+                                <div class="http_url_name"><p>{{ url_path_data.url_name }}</p></div>
+                            {% endif %}
+                        </div>
+                    {% endfor %}
+                </div>
+              </div>
+
+              </div>
+              {% for method in view.view_methods %}
+                  <div class="method_block">
+                      <div class="http_method_block"><p class="http_method">{{ method.HTTP_method }}</p></div>
+                      <div class="http_url_block">
+                          {% if method.doc_string %}
+                            <div class="http_url http_url_doc_string"><q>{{ method.doc_string }}</q></div>
+                          {% endif %}
+                      </div>
+                  </div>
+                  <div class="request_data">
+                    {% if method.http_data.expected_request_data is None %}
+                      <div class='expected_request_data_block hide'>
+                        <div class='expected_request_data_block'><p class='expected_request_data'>Expected request data</p>
+                            <div class="expected_request_data_data_block hide"></div>
+                        </div>
+                      </div>
+                    {% else %}
+                      <div class='expected_request_data_block'><p class='expected_request_data'>Expected request data</p>
+                        <div class="expected_request_data_data_block hide">
+                          {% for expected_request_data in method.http_data.expected_request_data %}
+                              {% if expected_request_data.query_arg %}
+                                <div class="query_key_value_block">
+                                    {% for key, value in expected_request_data.query_arg.items %}
+                                        <div class="query_key_value_line">
+                                            <div class="query_key">{{ key }}</div>=<div class="query_value">{{ value }}</div>
+                                        </div>
+                                    {% endfor %}
+                                </div>
+                              {% else %}
+                              {% endif %}
+                            <div class='expected_request_data_data'><pre>{{ expected_request_data.expected_request_data }}</pre></div>
+                            {% if not forloop.last %}
+                                <hr class='status_hr'> 
+                            {% else %}
+                            {% endif %}
+                          {% endfor %}
+                        </div>  
+                      </div>
+                    {% endif %}
+                  </div>
+              <div class="status_container">
+                {% for http_status in method.http_data.http_statuses %}
+                      <div class="status_data">
+                        <div class="status_block hide_request_data">
+                          <div class="http_status_block"><p class="http_status">{{ http_status.expected_response_status_code }}</p></div>
+                        </div>
+                        <div class="status_response_data_block hide">
+                            {% for expected_response_data in http_status.expected_response_data %}
+                                {% if expected_response_data.comment %}
+                                    <div class="status_comment"><q>{{ expected_response_data.comment }}</q></div>
+                                {% endif %}
+                                {% if expected_response_data.query_arg %}
+                                    <div class="query_key_value_block">
+                                        {% for key, value in expected_response_data.query_arg.items %}
+                                            <div class="query_key_value_line">
+                                                <div class="query_key">{{ key }}</div>=<div class="query_value">{{ value }}</div>
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                {% else %}
+                                {% endif %}
+                                <div class='status_response_data'><pre>{{ expected_response_data.expected_response_data }}</pre></div>
+                                {% if not forloop.last %}
+                                    <hr class='status_hr'> 
+                                {% else %}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                      </div>
+                {% endfor %}
+              </div>
+              {% endfor %}
+          {% endfor %}
+        </div>
+        {% endfor %}
+        {% endblock content %}
+
+    </div>
+
+
+    <script src="{% static 'index.js' %}"></script>
+
+</body>
+
+</html>
