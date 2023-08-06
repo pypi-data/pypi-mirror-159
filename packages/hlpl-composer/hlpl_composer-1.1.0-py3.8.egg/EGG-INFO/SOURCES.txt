@@ -1,0 +1,143 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+hlpl_composer/__init__.py
+hlpl_composer/__main__.py
+hlpl_composer/hlpl_arabic_words_synonym_antonym.db
+hlpl_composer/hlpl_arabic_words_templates.db
+hlpl_composer/hlpl_composer.py
+hlpl_composer/hlpl_composer_settings.db
+hlpl_composer/hlpl_conjugate.py
+hlpl_composer/hlpl_functions.py
+hlpl_composer/hlpl_license_about.py
+hlpl_composer/setup.cfg
+hlpl_composer.egg-info/PKG-INFO
+hlpl_composer.egg-info/SOURCES.txt
+hlpl_composer.egg-info/dependency_links.txt
+hlpl_composer.egg-info/entry_points.txt
+hlpl_composer.egg-info/top_level.txt
+hlpl_composer/images/__init__.py
+hlpl_composer/images/about.png
+hlpl_composer/images/act++.png
+hlpl_composer/images/act81.png
+hlpl_composer/images/act811.png
+hlpl_composer/images/act82 - Copy.png
+hlpl_composer/images/act82.png
+hlpl_composer/images/act822.png
+hlpl_composer/images/arrow-continue.png
+hlpl_composer/images/arrow-curve-180-left.png
+hlpl_composer/images/arrow-curve.png
+hlpl_composer/images/blue-folder-open-document.png
+hlpl_composer/images/bold.png
+hlpl_composer/images/clipboard-paste-document-text.png
+hlpl_composer/images/composer 32.png
+hlpl_composer/images/composer.png
+hlpl_composer/images/copy.png
+hlpl_composer/images/create.png
+hlpl_composer/images/curve.png
+hlpl_composer/images/cut.png
+hlpl_composer/images/disk--pencil.png
+hlpl_composer/images/disk.png
+hlpl_composer/images/document-copy.png
+hlpl_composer/images/edit-alignment-center.png
+hlpl_composer/images/edit-alignment-justify.png
+hlpl_composer/images/edit-alignment-right.png
+hlpl_composer/images/edit-alignment.png
+hlpl_composer/images/edit-bold.png
+hlpl_composer/images/edit-color.png
+hlpl_composer/images/edit-italic.png
+hlpl_composer/images/edit-list-order.png
+hlpl_composer/images/edit-list.png
+hlpl_composer/images/edit-underline.png
+hlpl_composer/images/edit_redo.png
+hlpl_composer/images/edit_undo.png
+hlpl_composer/images/ex.png
+hlpl_composer/images/exit.png
+hlpl_composer/images/font.png
+hlpl_composer/images/forum2.png
+hlpl_composer/images/g1.png
+hlpl_composer/images/g11.jpg
+hlpl_composer/images/g11.png
+hlpl_composer/images/girl.png
+hlpl_composer/images/girl2.png
+hlpl_composer/images/guide.png
+hlpl_composer/images/guide2.png
+hlpl_composer/images/hlpl.png
+hlpl_composer/images/home.png
+hlpl_composer/images/icons8-about-100.png
+hlpl_composer/images/icons8-account-100 (1).png
+hlpl_composer/images/icons8-account-100.png
+hlpl_composer/images/icons8-add-link-100.png
+hlpl_composer/images/icons8-broken-link-100.png
+hlpl_composer/images/icons8-cloud-link-100.png
+hlpl_composer/images/icons8-database-server-with-cloud-storage-online-layout-100 (1) - Copie.png
+hlpl_composer/images/icons8-database-server-with-cloud-storage-online-layout-100 (1).png
+hlpl_composer/images/icons8-database-server-with-cloud-storage-online-layout-100 (2) - Copie.png
+hlpl_composer/images/icons8-database-server-with-cloud-storage-online-layout-100 (2).png
+hlpl_composer/images/icons8-database-server-with-cloud-storage-online-layout-100 (3) - Copie.png
+hlpl_composer/images/icons8-database-server-with-cloud-storage-online-layout-100 (3).png
+hlpl_composer/images/icons8-database-server-with-cloud-storage-online-layout-100 (4) - Copie.png
+hlpl_composer/images/icons8-database-server-with-cloud-storage-online-layout-100 (4).png
+hlpl_composer/images/icons8-database-server-with-cloud-storage-online-layout-100 (5) - Copie.png
+hlpl_composer/images/icons8-database-server-with-cloud-storage-online-layout-100.png
+hlpl_composer/images/icons8-female-profile-100.png
+hlpl_composer/images/icons8-find-100 (1).png
+hlpl_composer/images/icons8-find-100 (2).png
+hlpl_composer/images/icons8-find-100 (3).png
+hlpl_composer/images/icons8-find-100.png
+hlpl_composer/images/icons8-forum-100.png
+hlpl_composer/images/icons8-guide-book-100.png
+hlpl_composer/images/icons8-language-100 (1).png
+hlpl_composer/images/icons8-language-100.png
+hlpl_composer/images/icons8-license-100.png
+hlpl_composer/images/icons8-link-100.png
+hlpl_composer/images/icons8-logout-100.png
+hlpl_composer/images/icons8-male-user-100.png
+hlpl_composer/images/icons8-message-preview-100.png
+hlpl_composer/images/icons8-new-message-100.png
+hlpl_composer/images/icons8-restart-100.png
+hlpl_composer/images/icons8-settings-100 (1).png
+hlpl_composer/images/icons8-settings-100 (2).png
+hlpl_composer/images/icons8-settings-100 (3).png
+hlpl_composer/images/icons8-settings-100.png
+hlpl_composer/images/icons8-user-100.png
+hlpl_composer/images/icons8-web-100.png
+hlpl_composer/images/icons8-write-100 (1).png
+hlpl_composer/images/icons8-write-100 (2).png
+hlpl_composer/images/icons8-write-100 (3) - Copie.png
+hlpl_composer/images/icons8-write-100 (3).png
+hlpl_composer/images/icons8-write-100.png
+hlpl_composer/images/info (1).png
+hlpl_composer/images/info.png
+hlpl_composer/images/infoo.png
+hlpl_composer/images/italic.png
+hlpl_composer/images/labo.png
+hlpl_composer/images/li.png
+hlpl_composer/images/ma.png
+hlpl_composer/images/minus.png
+hlpl_composer/images/new.png
+hlpl_composer/images/new_img 2.png
+hlpl_composer/images/new_img.png
+hlpl_composer/images/ni0.png
+hlpl_composer/images/ni2.png
+hlpl_composer/images/nip.png
+hlpl_composer/images/open.png
+hlpl_composer/images/paste.png
+hlpl_composer/images/pencil.png
+hlpl_composer/images/plus.png
+hlpl_composer/images/print.png
+hlpl_composer/images/printer.png
+hlpl_composer/images/question.png
+hlpl_composer/images/save.png
+hlpl_composer/images/scissors.png
+hlpl_composer/images/selection-input.png
+hlpl_composer/images/ta.png
+hlpl_composer/images/ui-tab--plus.png
+hlpl_composer/images/ت ا.png
+hlpl_composer/images/ملعح.png
+hlpl_composer/images/ملعح2.png
+hlpl_composer/static/__init__.py
+hlpl_composer/static/new.html
+hlpl_composer/static/old.html
+hlpl_composer/static/static.html
