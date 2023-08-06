@@ -1,0 +1,3 @@
+include src/brick_game/Font/*
+
+include README.md

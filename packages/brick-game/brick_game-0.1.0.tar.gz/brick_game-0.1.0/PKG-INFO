@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: brick_game
+Version: 0.1.0
+Summary: An old brick game that I played as a child.
+Home-page: https://github.com/AstrophysicsAndPython/brick_game
+Author: Astrophysics and Python, Syed Ali Mohsin Bukhari
+Author-email: astrophysicsandpython@gmail.com, syedali.b@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7.*, <3.10.*
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# brick_game
+This python respository contains code for an old brick game that I played as a child re-made in python using Pygame
+
+
