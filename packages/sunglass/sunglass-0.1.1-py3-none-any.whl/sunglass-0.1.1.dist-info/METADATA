@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: sunglass
+Version: 0.1.1
+Summary: GUI for easily use Solcore
+Home-page: https://github.com/ImperialCollegeLondon/sunglass
+License: GPL-3.0-or-later
+Author: Diego Alonso Álvarez
+Author-email: d.alonso-alvarez@imperial.ac.uk
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: solcore (>=5.7.7,<6.0.0)
+Project-URL: Repository, https://github.com/ImperialCollegeLondon/sunglass
+Description-Content-Type: text/markdown
+
+# Sunglass
+
+*"What you need to look at Solcore!"*
+
+Sunglass is a simple - and not yet fully operational - graphical user interface for the
+solar cells and semiconductors modelling framework Solcore. 
+
+## Using Sunglass
+
+1. Install it from PyPI
+
+```bash
+pip install sunglass
+```
+
+2. If you want PDD support in Solcore, re-install Solcore with that support:
+
+```bash
+pip install --no-deps --force-reinstall --install-option="--with_pdd" solcore
+```
+
+3. Run it!
+
+```bash
+python -m sunglass
+```
+
+## Develop Sunglass
+
+1. Install poetry following the instructions for your OS: https://python-poetry.org/docs/
+2. `git clone` this repository.
+3. Navigate to thee root folder and install sunglass with `poetry install`
+4. If you want PDD support in Solcore, re-install Solcore with that support:
+
+```bash
+pip install --no-deps --force-reinstall --install-option="--with_pdd" solcore
+```
