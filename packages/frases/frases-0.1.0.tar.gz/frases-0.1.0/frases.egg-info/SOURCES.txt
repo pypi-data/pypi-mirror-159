@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+frases/__init__.py
+frases.egg-info/PKG-INFO
+frases.egg-info/SOURCES.txt
+frases.egg-info/dependency_links.txt
+frases.egg-info/top_level.txt
