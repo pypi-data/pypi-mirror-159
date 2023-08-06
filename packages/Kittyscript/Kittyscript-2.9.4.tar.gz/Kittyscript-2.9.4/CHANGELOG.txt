@@ -1,0 +1,8 @@
+CHANGELOG
+
+=============
+
+2.9.4 (7/17/2022)
+
+- sisxth release
+- More features
