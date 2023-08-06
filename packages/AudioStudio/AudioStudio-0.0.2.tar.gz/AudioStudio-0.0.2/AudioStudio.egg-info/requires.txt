@@ -1,0 +1,6 @@
+pydub
+ipywidgets
+numpy
+scipy
+matplotlib
+IPython

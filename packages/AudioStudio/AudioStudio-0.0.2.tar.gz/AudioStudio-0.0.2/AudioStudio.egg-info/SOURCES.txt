@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+AudioStudio/__init__.py
+AudioStudio/functions.py
+AudioStudio.egg-info/PKG-INFO
+AudioStudio.egg-info/SOURCES.txt
+AudioStudio.egg-info/dependency_links.txt
+AudioStudio.egg-info/requires.txt
+AudioStudio.egg-info/top_level.txt
+test/test_functions.py
