@@ -1,0 +1,1 @@
+from weathercheck.weathercheck import Weather
