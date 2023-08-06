@@ -1,0 +1,9 @@
+invisible_qr_watermark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+invisible_qr_watermark/image.py,sha256=DissBiZ7UKNNZRSsVjxiRSz-rKQ6fQd7TOXTfbkjKGM,3758
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_image.py,sha256=qrOj4NXB1appTrRD50tbQhCPSYj826UUNywWpYQr05Y,1490
+invisible_qr_watermark-0.0.1.dist-info/LICENSE,sha256=JVRBoMHzncLh0A3QYjRGOw1FYLGx5xxE-n_QQIInBYA,1090
+invisible_qr_watermark-0.0.1.dist-info/METADATA,sha256=4d0cx4G0hACPyNQ7gmha9MHnGuTQd0Li94zZm-IWfsA,673
+invisible_qr_watermark-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+invisible_qr_watermark-0.0.1.dist-info/top_level.txt,sha256=3MSzL3JUVljsdcmlTfV2FeRu18OmMIt_WbjldkDKvig,29
+invisible_qr_watermark-0.0.1.dist-info/RECORD,,
