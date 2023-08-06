@@ -1,0 +1,17 @@
+README.md
+setup.py
+paper_candy.egg-info/PKG-INFO
+paper_candy.egg-info/SOURCES.txt
+paper_candy.egg-info/dependency_links.txt
+paper_candy.egg-info/requires.txt
+paper_candy.egg-info/top_level.txt
+papercandy/__init__.py
+papercandy/config.py
+papercandy/dataloader.py
+papercandy/network.py
+papercandy/train.py
+papercandy/_universal/__init__.py
+papercandy/_universal/config.py
+papercandy/_universal/dataloader.py
+papercandy/_universal/network.py
+papercandy/_universal/train.py
