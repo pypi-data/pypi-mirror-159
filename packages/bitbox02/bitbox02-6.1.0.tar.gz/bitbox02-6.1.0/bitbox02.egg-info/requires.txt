@@ -1,0 +1,7 @@
+base58>=2.0.0
+ecdsa>=0.14
+hidapi>=0.7.99.post21
+noiseprotocol>=0.3
+protobuf>=3.21
+semver>=2.8.1
+typing_extensions>=3.7.4
