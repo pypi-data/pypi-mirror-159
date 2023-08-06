@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: zdppy-password-hash
+Version: 0.1.0
+Summary: 实现常用的hash加密算法
+Author: zhangdapeng520
+Author-email: 1156956636@qq.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
