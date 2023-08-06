@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: lai_bashwork
+Version: 0.1.1
+Summary: Use subprocess.Popen(bash=/bin/bash) to run scripts
+Home-page: https://github.com/robert-s-lee/lai-bashwork
+Author: Robert S Lee
+Author-email: sangkyulee@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+License-File: LICENSE-2.0.txt
+
+UNKNOWN
+

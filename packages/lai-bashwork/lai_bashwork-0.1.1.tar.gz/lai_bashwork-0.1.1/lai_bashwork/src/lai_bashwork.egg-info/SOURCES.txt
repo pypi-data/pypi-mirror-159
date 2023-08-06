@@ -1,0 +1,9 @@
+LICENSE-2.0.txt
+README.md
+setup.cfg
+setup.py
+lai_bashwork/src/lai_bashwork.egg-info/PKG-INFO
+lai_bashwork/src/lai_bashwork.egg-info/SOURCES.txt
+lai_bashwork/src/lai_bashwork.egg-info/dependency_links.txt
+lai_bashwork/src/lai_bashwork.egg-info/requires.txt
+lai_bashwork/src/lai_bashwork.egg-info/top_level.txt
