@@ -1,0 +1,9 @@
+README.md
+cli.py
+setup.py
+pacrepo_cli.egg-info/PKG-INFO
+pacrepo_cli.egg-info/SOURCES.txt
+pacrepo_cli.egg-info/dependency_links.txt
+pacrepo_cli.egg-info/entry_points.txt
+pacrepo_cli.egg-info/requires.txt
+pacrepo_cli.egg-info/top_level.txt
