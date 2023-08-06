@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/cvbox.egg-info/PKG-INFO
+src/cvbox.egg-info/SOURCES.txt
+src/cvbox.egg-info/dependency_links.txt
+src/cvbox.egg-info/top_level.txt
+src/cvbox/fileio/__init__.py
+src/cvbox/fileio/json_dict.py
+src/cvbox/fileio/permissions.py
+src/cvbox/fileio/pkl.py
+src/cvbox/search/__init__.py
+src/cvbox/search/list_files.py
