@@ -1,0 +1,7 @@
+README.md
+setup.py
+jupyter_splitview.egg-info/PKG-INFO
+jupyter_splitview.egg-info/SOURCES.txt
+jupyter_splitview.egg-info/dependency_links.txt
+jupyter_splitview.egg-info/requires.txt
+jupyter_splitview.egg-info/top_level.txt
