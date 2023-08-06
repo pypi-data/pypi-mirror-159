@@ -1,0 +1,11 @@
+tias/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tias/aliases.py,sha256=ywkRRPyWrvbdMAfBUTG9BEXSgmtnT8QWyhiVQRZfD3I,3455
+tias/errors.py,sha256=xT3tGyxpEb-AXYtYD21A5T1gGxSquRRhMw2IgEMWHxY,40
+tias/jargon.py,sha256=wCAsSXaqmzqvkZ755dB4CzaPCQ_ZpjTw3EjOyOMwxL8,9700
+tias/main.py,sha256=vVPoMNzGUHOH3u7U-kzNcVtRsUuSL_D6HjUt7b7L7wU,12794
+tias/multiline_input.py,sha256=cA7Kks0sVJOhgNdWgBh1hbIJbuWiSDg3GgF_L4jvVA4,822
+tias-0.4.0.dist-info/LICENSE,sha256=Ebmpcmw_THNVxVw_p_1gLTw7BmqxkOpDonePQpGbyAc,1091
+tias-0.4.0.dist-info/METADATA,sha256=fqviTJJXZE0kjdzkm9LecVVG3g4AdkLFXy7kAfbPtCc,2117
+tias-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tias-0.4.0.dist-info/top_level.txt,sha256=ZnMEA01By4T_KfV4gD-Z96NodVZQgLicYrZvRkC5bpU,5
+tias-0.4.0.dist-info/RECORD,,
