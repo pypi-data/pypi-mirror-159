@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: DcWebhook
+Version: 0.0.1
+Summary: Simple Discord Webhook wrapper for Python.
+Home-page: https://github.com/cookie0o
+Author: cookie0_o
+Author-email: therealcookie@waifu.club
+Project-URL: Report issue, https://github.com/cookie0o/DcWebhook/issues
+Project-URL: Source code, https://github.com/cookie0o/DcWebhook
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
