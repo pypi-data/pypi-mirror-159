@@ -1,0 +1,8 @@
+README.md
+setup.py
+batspp/batspp
+batspp/batspp.egg-info/PKG-INFO
+batspp/batspp.egg-info/SOURCES.txt
+batspp/batspp.egg-info/dependency_links.txt
+batspp/batspp.egg-info/requires.txt
+batspp/batspp.egg-info/top_level.txt
