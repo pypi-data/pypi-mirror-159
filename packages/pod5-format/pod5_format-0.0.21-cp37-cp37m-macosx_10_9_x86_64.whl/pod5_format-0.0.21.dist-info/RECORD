@@ -1,0 +1,14 @@
+pod5_format/__init__.py,sha256=dgmhY0msv4cV8ZDLq889gxEHHg0EusIsmYGApw68cDA,196
+pod5_format/_version.py,sha256=-MOaUa2hHKYJr6JcZSljljukJhGrjgQdQ_Xl59OtkmU,24
+pod5_format/api_utils.py,sha256=adKSe5YOPTymEOvz-y2IIsW8zS3zG9v-QybAwnVGX9E,678
+pod5_format/pod5_format_pybind.cpython-37m-darwin.so,sha256=bIIYuW-T28mGykyQebvYS2BPYLjY6I2Y6gp00CdZ94Y,6558072
+pod5_format/pod5_format_pybind.pyi,sha256=bmt_BE4BAP0enCin3nI8UyzDWXT-p-Qk1uXpdrh6pgM,5427
+pod5_format/reader_pyarrow.py,sha256=muvtzCfG_XPwnBYe7izmeqP5E5cbk4b8WYYYMBoCUyo,23649
+pod5_format/reader_utils.py,sha256=UpqNEs6Ifz2PxwZiGSJRKgBTjdSJfr9hV1G5ylDpCsE,2831
+pod5_format/repack.py,sha256=uMKAUKPnyCCv40Rn1n3Vj4GSABZ_IqG6KddxX-EB_S4,4569
+pod5_format/signal_tools.py,sha256=MrZS6GTuVqLRdzW5P7LffC1W8jnZrHk_12cdqVjZ8WQ,1822
+pod5_format/writer.py,sha256=e-s46ENJN8Js8Xc613pOgk3OnaTz8kMrYgsBQQsEDlc,9624
+pod5_format-0.0.21.dist-info/METADATA,sha256=Hs0GmowVER4VQ7QdrbRhG8ZEpRKKVxWPgd7o6MZicQU,419
+pod5_format-0.0.21.dist-info/WHEEL,sha256=t-yJnV7ncEuoOkGIUUhH14bb9iMbJ4DANdZCkJ-k_2s,110
+pod5_format-0.0.21.dist-info/top_level.txt,sha256=tApr77RHocWaL9-yO7gk2aoCTvcfKHDOB4BKfFxYYuU,12
+pod5_format-0.0.21.dist-info/RECORD,,
