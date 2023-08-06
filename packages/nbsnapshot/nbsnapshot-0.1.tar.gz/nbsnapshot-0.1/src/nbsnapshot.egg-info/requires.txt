@@ -1,0 +1,10 @@
+click
+papermill
+sklearn-evaluation
+
+[dev]
+pytest
+flake8
+nbformat
+ipykernel
+invoke
