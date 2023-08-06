@@ -1,0 +1,39 @@
+{% set data = load_setup_py_data() %}
+
+package:
+  name: moldrug
+  version: {{ data['version'] }}
+
+source:
+  path: ..
+
+build:
+build:
+  number: 0
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - rdkit 2022.*.*
+    - openbabel 3.1.0
+    - autodock-vina
+    - python
+    - pyyaml
+    - ipykernel
+    - ipython
+
+test:
+  imports:
+    - moldrug
+
+about:
+  home: {{ data['url'] }}
+  license:  {{ data['license'] }}
+  dev_url: {{ data['url'] }}
+  doc_url: {{ data['project_urls']['Documentation'] }}
+  doc_source_url: https://github.com/ale94mleon/MolDrug/tree/main/docs/source
+summary: {{ data['description'] }}
+
