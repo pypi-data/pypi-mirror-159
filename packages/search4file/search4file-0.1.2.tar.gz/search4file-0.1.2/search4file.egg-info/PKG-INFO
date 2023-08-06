@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: search4file
+Version: 0.1.2
+Summary: python for office
+Home-page: https://github.com/CoderWanFeng/python-office
+Author: CoderWanFeng
+Author-email: 1957875073@qq.com
+License: Apache-2.0 license
+Project-URL: Bug Tracker, https://github.com/CoderWanFeng/search4file/issues
+Project-URL: Documentation, https://github.com/CoderWanFeng/search4file/blob/main/README.md
+Project-URL: Source Code, https://github.com/CoderWanFeng/search4file
+Platform: any
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# search4file
+pip install search4file
+
+- 通过内容查询
+- ocr识别图片内容
+- 视频内容
