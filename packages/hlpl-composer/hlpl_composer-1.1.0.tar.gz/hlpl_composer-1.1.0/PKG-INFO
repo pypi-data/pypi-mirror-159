@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: hlpl_composer
+Version: 1.1.0
+Summary: Text composer and analyser
+Home-page: https://composer.hlpl.net
+Download-URL: https://composer.hlpl.net/download/
+Author: Ahmida Bendjoudi
+Author-email: email@hlpl.net
+License: MIT
+Project-URL: hlpl, https://hlpl.net
+Project-URL: hlpl_composer-docs, https://docs.hlpl.net
+Project-URL: hlpl_composer-forum, https://hlpl.net/forums/hlpl-composer
+Project-URL: hlpl_composer-resource, https://hlpl.net/resources
+Project-URL: hlpl_composer-github, https://github.com/hlpl/composer
+Keywords: hlpl_composer,hlpl composer,hlpl-composer,text composer,text analyser,hlpl
+Platform: UNKNOWN
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: Framework :: Robot Framework :: Tool
+Classifier: Natural Language :: Arabic
+Classifier: Natural Language :: English
+Requires-Python: >=3, <3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![hlpl_composer: Text Composer in Python](https://hlpl.net/public_files/icon_composer.png)
+
+## hlpl_composer
+
+hlpl_composer is a machine-learning composes and analyzes (graphically) texts based on templates (i.e the grammatical structures) and meanings (i.e. words synonyms and antonyms). 
+
+
+### How it works
+
+hlpl_composer starts with an input text to analyse (graphically using distance-order coordinates of the distribution of its letters)and compose (accordingly) new texts using words templates and words synonyms-antonyms databases.
+
+### Installation
+This package can be installed from [PyPi](https://pypi.python.org/pypi/hlpl_composer) by running:
+```
+pip install hlpl_composer
+```
+
+## Basic Usage: 
+
+The application can be run by executing (on console) the command line:
+```
+hlpl_composer
+```
+
+### Resources  
+hlpl_composer comes with resources utility databases, used to analyse and compose new texts. These resources can be found on:
+**Link 1:  **[HLPL-Composer Resources](https://hlpl.net/resources).
+**Link 2:  **[HLPL-Composer Databases](https://hlpl.net/databases).
+
+
+**Contributions are welcome! Please make a pull request.**
+
+### Documentation
+View the [HLPL-Composer Docs](https://docs.hlpl.net) for hlpl_composer on HLPL-Documentation.
+
+### Development pattern for contributors
+
+1. [Create a fork](https://help.github.com/articles/fork-a-repo/) of
+   the [main hlpl_composer repository](https://github.com/hlpl_composer/hlpl_composer) on GitHub.
+2. Make your changes in a branch named something different from `master`, e.g. create
+   a new branch `my-pull-request`.
+3. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/).
+
+### License
+hlpl_composer is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
