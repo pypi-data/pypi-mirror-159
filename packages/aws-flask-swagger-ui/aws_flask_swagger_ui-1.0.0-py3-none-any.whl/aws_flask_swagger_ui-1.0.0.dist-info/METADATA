@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aws-flask-swagger-ui
+Version: 1.0.0
+Summary: Swagger UI blueprint for Flask on AWS Lambda
+Author: Tobias Bruckert
+License: Apache License, Version 2.0
+Keywords: flask aws amazon lambda swagger
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Flask
+
+../README.md
