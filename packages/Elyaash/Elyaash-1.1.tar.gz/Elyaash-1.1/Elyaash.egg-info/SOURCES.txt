@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Elyaash.egg-info/PKG-INFO
+Elyaash.egg-info/SOURCES.txt
+Elyaash.egg-info/dependency_links.txt
+Elyaash.egg-info/top_level.txt
+elyaash/__init__.py
+elyaash/pdftottext.py
