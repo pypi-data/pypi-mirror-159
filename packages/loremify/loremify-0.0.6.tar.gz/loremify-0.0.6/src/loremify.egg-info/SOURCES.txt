@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/loremify/__init__.py
+src/loremify/_getword.py
+src/loremify/_lorem.py
+src/loremify/_math.py
+src/loremify/_words.py
+src/loremify/common_words.txt
+src/loremify/words.txt
+src/loremify.egg-info/PKG-INFO
+src/loremify.egg-info/SOURCES.txt
+src/loremify.egg-info/dependency_links.txt
+src/loremify.egg-info/top_level.txt

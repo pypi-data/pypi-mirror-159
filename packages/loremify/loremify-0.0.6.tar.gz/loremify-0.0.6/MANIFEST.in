@@ -1,0 +1,2 @@
+include src/loremify/common_words.txt
+include src/loremify/words.txt
