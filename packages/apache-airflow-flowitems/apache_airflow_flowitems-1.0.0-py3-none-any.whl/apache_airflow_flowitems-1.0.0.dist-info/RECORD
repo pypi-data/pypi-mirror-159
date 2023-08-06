@@ -1,0 +1,16 @@
+apache_airflow_flowitems/__init__.py,sha256=KdoctPTMwWxyXhBNWBcONJo_jCZeDRn4tp9XfMHaMu8,97
+apache_airflow_flowitems/core.py,sha256=v2xQ5Bl6OgyQcdrbXBhMeS76L4-9bY5eBTxM4SvCSSg,3918
+apache_airflow_flowitems/decorators.py,sha256=_PRw0t9W-I2deTPortF7lkWLyXFavbhvAVtgu-ilNTg,707
+apache_airflow_flowitems/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apache_airflow_flowitems/test_core.py,sha256=697j7k2bRe8Pxnwdepwi4tuCPvRWAFZKPRGqiJSRM6g,3554
+apache_airflow_flowitems/test_decorators.py,sha256=8IeBj5Ki3JpFzIuIZH5Q_QNlkOY-n4s-h7sJpJpBoBA,491
+apache_airflow_flowitems/__pycache__/__init__.cpython-39.pyc,sha256=bfbMaR-I6H3hQUQ_zC_LLnUadW_POCCxigsFrHaQAiw,324
+apache_airflow_flowitems/__pycache__/core.cpython-39.pyc,sha256=FyYfasKa2jqanuDRa89laydvaJq7yf5SrMMrgUfenoM,3983
+apache_airflow_flowitems/__pycache__/decorators.cpython-39.pyc,sha256=BvzsJymj_jn5GF4IcSxPQu_UyqH6PSbGEgmXtq99Xp0,1041
+apache_airflow_flowitems/__pycache__/test_core.cpython-39-pytest-7.1.2.pyc,sha256=Pdz2FZOi4KhLcBugOE3cGMsFwLcKxU5eFVQrlqS4dZM,9953
+apache_airflow_flowitems/__pycache__/test_decorators.cpython-39-pytest-7.1.2.pyc,sha256=NMpMb3G3IcE_1xZiwkQ9Bqapj8_NjURMqEKgWp6_Aw0,1825
+apache_airflow_flowitems-1.0.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+apache_airflow_flowitems-1.0.0.dist-info/METADATA,sha256=AS6uS-zciIGpNXmGaNiJLzYgsv0dzTQ1drSKDfDMYfI,863
+apache_airflow_flowitems-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apache_airflow_flowitems-1.0.0.dist-info/top_level.txt,sha256=85e84zoqhSP0HYgM656avBwza969IOQOzJl-j1sEg-U,25
+apache_airflow_flowitems-1.0.0.dist-info/RECORD,,
