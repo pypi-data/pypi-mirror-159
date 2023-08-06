@@ -1,0 +1,15 @@
+pytdi/__init__.py,sha256=ovMmMHG4_fCknC4Pl2arkHzP-YPdq0WF8DyQudSAX58,266
+pytdi/core.py,sha256=G8vasITplYSUpPE_9bNtUCmZ0_CNjPVIwFUFHnE504s,32138
+pytdi/dsp.py,sha256=Gzf-5IgcT2wgQQgoMeP_Yby2UOw0aI93r3l-N0zg29w,6593
+pytdi/interface.py,sha256=5aSHov1aIatx78InVVm6APtyoNYRkLRa45zt26Kk8rw,16783
+pytdi/intervar.py,sha256=vRtw1NHYWCUa9pLtAEYMnC5mqxea3LJ712uswtH4yig,2333
+pytdi/meta.py,sha256=PSQNwAddcvNOZyaZdNiEAcFExYIzJpHAF2rIczeYSqk,220
+pytdi/michelson.py,sha256=ELukPYKYKGafhAlXkXoz711vpJ92dJ-E4LyNrb9MPd4,1614
+pytdi/naming.py,sha256=fqsS6ySX_TBrscnC7CUabv-cbNmtwqLsJndTLZDlYBs,1457
+pytdi/ortho.py,sha256=hwlf_g_cD-Ozb1z9oPWFxD3mJyjJAUVXmpCEFA6hzvE,1786
+pytdi/sagnac.py,sha256=Let0T3Kdk9i3bDRGuokHIjqGOZEhpK4oyBH4rd97PxM,2753
+pytdi-1.1.dist-info/AUTHORS,sha256=H511WMpkGIyac5miO5DzsDltX7JM35OJWqEex-yWfNg,145
+pytdi-1.1.dist-info/METADATA,sha256=IEos2ePUtjr_kccF5N3ZBU7CcgTnd3s11oG1vjTOq-E,4260
+pytdi-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytdi-1.1.dist-info/top_level.txt,sha256=rD97fOYTA24ZzYZWLT99symo_yRrd6jw5wRuG6NomLA,6
+pytdi-1.1.dist-info/RECORD,,
