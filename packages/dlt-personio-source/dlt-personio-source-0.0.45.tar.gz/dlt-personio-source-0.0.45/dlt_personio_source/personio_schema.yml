@@ -1,0 +1,711 @@
+version: 13
+engine_version: 3
+name: personio
+tables:
+  _dlt_version:
+    description: Created by DLT. Tracks schema updates
+    write_disposition: skip
+    columns:
+      version:
+        data_type: bigint
+        nullable: false
+      engine_version:
+        data_type: bigint
+        nullable: false
+      inserted_at:
+        data_type: timestamp
+        nullable: false
+  _dlt_loads:
+    description: Created by DLT. Tracks completed loads
+    write_disposition: skip
+    columns:
+      load_id:
+        data_type: text
+        nullable: false
+      status:
+        data_type: bigint
+        nullable: false
+      inserted_at:
+        data_type: timestamp
+        nullable: false
+  employees:
+    columns:
+      type:
+        data_type: text
+        nullable: true
+      attributes__id__label:
+        data_type: text
+        nullable: true
+      attributes__id__value:
+        data_type: bigint
+        nullable: true
+      attributes__first_name__label:
+        data_type: text
+        nullable: true
+      attributes__first_name__value:
+        data_type: text
+        nullable: true
+      attributes__last_name__label:
+        data_type: text
+        nullable: true
+      attributes__last_name__value:
+        data_type: text
+        nullable: true
+      attributes__email__label:
+        data_type: text
+        nullable: true
+      attributes__email__value:
+        data_type: text
+        nullable: true
+      attributes__gender__label:
+        data_type: text
+        nullable: true
+      attributes__gender__value:
+        data_type: text
+        nullable: true
+      attributes__status__label:
+        data_type: text
+        nullable: true
+      attributes__status__value:
+        data_type: text
+        nullable: true
+      attributes__position__label:
+        data_type: text
+        nullable: true
+      attributes__position__value:
+        data_type: text
+        nullable: true
+      attributes__employment_type__label:
+        data_type: text
+        nullable: true
+      attributes__employment_type__value:
+        data_type: text
+        nullable: true
+      attributes__weekly_working_hours__label:
+        data_type: text
+        nullable: true
+      attributes__weekly_working_hours__value:
+        data_type: text
+        nullable: true
+      attributes__termination_type__label:
+        data_type: text
+        nullable: true
+      attributes__termination_type__value:
+        data_type: text
+        nullable: true
+      attributes__termination_reason__label:
+        data_type: text
+        nullable: true
+      attributes__termination_reason__value:
+        data_type: text
+        nullable: true
+      attributes__created_at__label:
+        data_type: text
+        nullable: true
+      attributes__created_at__value:
+        data_type: timestamp
+        nullable: true
+      attributes__last_modified_at__label:
+        data_type: text
+        nullable: true
+      attributes__last_modified_at__value:
+        data_type: timestamp
+        nullable: true
+      attributes__office__label:
+        data_type: text
+        nullable: true
+      attributes__office__value__type:
+        data_type: text
+        nullable: true
+      attributes__office__value__attributes__id:
+        data_type: bigint
+        nullable: true
+      attributes__office__value__attributes__name:
+        data_type: text
+        nullable: true
+      attributes__department__label:
+        data_type: text
+        nullable: true
+      attributes__department__value__type:
+        data_type: text
+        nullable: true
+      attributes__department__value__attributes__id:
+        data_type: bigint
+        nullable: true
+      attributes__department__value__attributes__name:
+        data_type: text
+        nullable: true
+      attributes__cost_centers__label:
+        data_type: text
+        nullable: true
+      attributes__fix_salary__label:
+        data_type: text
+        nullable: true
+      attributes__fix_salary__value:
+        data_type: bigint
+        nullable: true
+      attributes__fix_salary_interval__label:
+        data_type: text
+        nullable: true
+      attributes__fix_salary_interval__value:
+        data_type: text
+        nullable: true
+      attributes__hourly_salary__label:
+        data_type: text
+        nullable: true
+      attributes__hourly_salary__value:
+        data_type: bigint
+        nullable: true
+      attributes__vacation_day_balance__label:
+        data_type: text
+        nullable: true
+      attributes__vacation_day_balance__value:
+        data_type: bigint
+        nullable: true
+      attributes__holiday_calendar__label:
+        data_type: text
+        nullable: true
+      attributes__holiday_calendar__value__type:
+        data_type: text
+        nullable: true
+      attributes__holiday_calendar__value__attributes__id:
+        data_type: bigint
+        nullable: true
+      attributes__holiday_calendar__value__attributes__name:
+        data_type: text
+        nullable: true
+      attributes__holiday_calendar__value__attributes__country:
+        data_type: text
+        nullable: true
+      attributes__holiday_calendar__value__attributes__state:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__label:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__value__type:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__value__attributes__id:
+        data_type: bigint
+        nullable: true
+      attributes__work_schedule__value__attributes__name:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__value__attributes__monday:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__value__attributes__tuesday:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__value__attributes__wednesday:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__value__attributes__thursday:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__value__attributes__friday:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__value__attributes__saturday:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__value__attributes__sunday:
+        data_type: text
+        nullable: true
+      attributes__absence_entitlement__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371232__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371232__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371224__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371224__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371225__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371225__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371251__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371251__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371234__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371234__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371222__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371235__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371235__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371233__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371233__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371252__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371252__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371228__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371228__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371231__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371231__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371223__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371223__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371226__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371226__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371242__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371242__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371236__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371236__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371237__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371237__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371240__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371227__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371227__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371243__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371243__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371229__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371229__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371230__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371230__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371244__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371244__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371249__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371249__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371238__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371238__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371250__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371250__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371239__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371239__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371241__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371241__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371245__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371245__value:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371246__label:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371246__value:
+        data_type: text
+        nullable: true
+      _dlt_load_id:
+        data_type: text
+        nullable: false
+      _dlt_id:
+        unique: true
+        data_type: text
+        nullable: false
+      attributes__supervisor__label:
+        data_type: text
+        nullable: true
+      attributes__supervisor__value__type:
+        data_type: text
+        nullable: true
+      attributes__supervisor__value__attributes__id__label:
+        data_type: text
+        nullable: true
+      attributes__supervisor__value__attributes__id__value:
+        data_type: bigint
+        nullable: true
+      attributes__supervisor__value__attributes__first_name__label:
+        data_type: text
+        nullable: true
+      attributes__supervisor__value__attributes__first_name__value:
+        data_type: text
+        nullable: true
+      attributes__supervisor__value__attributes__last_name__label:
+        data_type: text
+        nullable: true
+      attributes__supervisor__value__attributes__last_name__value:
+        data_type: text
+        nullable: true
+      attributes__supervisor__value__attributes__email__label:
+        data_type: text
+        nullable: true
+      attributes__supervisor__value__attributes__email__value:
+        data_type: text
+        nullable: true
+      attributes__hire_date__label:
+        data_type: text
+        nullable: true
+      attributes__hire_date__value:
+        data_type: text
+        nullable: true
+      attributes__probation_period_end__label:
+        data_type: text
+        nullable: true
+      attributes__probation_period_end__value:
+        data_type: text
+        nullable: true
+      attributes__profile_picture__label:
+        data_type: text
+        nullable: true
+      attributes__profile_picture__value:
+        data_type: text
+        nullable: true
+      attributes__team__label:
+        data_type: text
+        nullable: true
+      attributes__team__value__type:
+        data_type: text
+        nullable: true
+      attributes__team__value__attributes__id:
+        data_type: bigint
+        nullable: true
+      attributes__team__value__attributes__name:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371222__value:
+        data_type: timestamp
+        nullable: true
+      attributes__fix_salary__value_v_double:
+        data_type: double
+        nullable: true
+      attributes__termination_date__label:
+        data_type: text
+        nullable: true
+      attributes__termination_date__value:
+        data_type: text
+        nullable: true
+      attributes__contract_end_date__label:
+        data_type: text
+        nullable: true
+      attributes__contract_end_date__value:
+        data_type: text
+        nullable: true
+      attributes__work_schedule__value__attributes__valid_from:
+        data_type: text
+        nullable: true
+      attributes__dynamic_5371240__value:
+        data_type: timestamp
+        nullable: true
+      attributes__vacation_day_balance__value_v_double:
+        data_type: double
+        nullable: true
+    write_disposition: replace
+  employees__attributes__absence_entitlement__value:
+    columns:
+      type:
+        data_type: text
+        nullable: true
+      attributes__id:
+        data_type: bigint
+        nullable: true
+      attributes__name:
+        data_type: text
+        nullable: true
+      attributes__entitlement:
+        data_type: bigint
+        nullable: true
+      _dlt_parent_id:
+        foreign_key: true
+        data_type: text
+        nullable: false
+      _dlt_list_idx:
+        data_type: bigint
+        nullable: false
+      _dlt_id:
+        unique: true
+        data_type: text
+        nullable: false
+    parent: employees
+  employees__attributes__cost_centers__value:
+    columns:
+      type:
+        data_type: text
+        nullable: true
+      attributes__id:
+        data_type: bigint
+        nullable: true
+      attributes__name:
+        data_type: text
+        nullable: true
+      attributes__percentage:
+        data_type: bigint
+        nullable: true
+      _dlt_parent_id:
+        foreign_key: true
+        data_type: text
+        nullable: false
+      _dlt_list_idx:
+        data_type: bigint
+        nullable: false
+      _dlt_id:
+        unique: true
+        data_type: text
+        nullable: false
+    parent: employees
+  absences:
+    columns:
+      type:
+        data_type: text
+        nullable: true
+      attributes__id:
+        data_type: bigint
+        nullable: true
+      attributes__status:
+        data_type: text
+        nullable: true
+      attributes__comment:
+        data_type: text
+        nullable: true
+      attributes__start_date:
+        data_type: text
+        nullable: true
+      attributes__end_date:
+        data_type: text
+        nullable: true
+      attributes__days_count:
+        data_type: bigint
+        nullable: true
+      attributes__half_day_start:
+        data_type: bool
+        nullable: true
+      attributes__half_day_end:
+        data_type: bool
+        nullable: true
+      attributes__time_off_type__type:
+        data_type: text
+        nullable: true
+      attributes__time_off_type__attributes__id:
+        data_type: bigint
+        nullable: true
+      attributes__time_off_type__attributes__name:
+        data_type: text
+        nullable: true
+      attributes__time_off_type__attributes__category:
+        data_type: text
+        nullable: true
+      attributes__employee__type:
+        data_type: text
+        nullable: true
+      attributes__employee__attributes__id__label:
+        data_type: text
+        nullable: true
+      attributes__employee__attributes__id__value:
+        data_type: bigint
+        nullable: true
+      attributes__employee__attributes__first_name__label:
+        data_type: text
+        nullable: true
+      attributes__employee__attributes__first_name__value:
+        data_type: text
+        nullable: true
+      attributes__employee__attributes__last_name__label:
+        data_type: text
+        nullable: true
+      attributes__employee__attributes__last_name__value:
+        data_type: text
+        nullable: true
+      attributes__employee__attributes__email__label:
+        data_type: text
+        nullable: true
+      attributes__employee__attributes__email__value:
+        data_type: text
+        nullable: true
+      attributes__created_by:
+        data_type: text
+        nullable: true
+      attributes__certificate__status:
+        data_type: text
+        nullable: true
+      attributes__created_at:
+        data_type: timestamp
+        nullable: true
+      attributes__updated_at:
+        data_type: timestamp
+        nullable: true
+      employee_id:
+        data_type: bigint
+        nullable: true
+      _dlt_load_id:
+        data_type: text
+        nullable: false
+      _dlt_id:
+        unique: true
+        data_type: text
+        nullable: false
+      attributes__days_count_v_double:
+        data_type: double
+        nullable: true
+    write_disposition: replace
+  absence_types:
+    columns:
+      type:
+        data_type: text
+        nullable: true
+      attributes__id:
+        data_type: bigint
+        nullable: true
+      attributes__name:
+        data_type: text
+        nullable: true
+      attributes__category:
+        data_type: text
+        nullable: true
+      _dlt_load_id:
+        data_type: text
+        nullable: false
+      _dlt_id:
+        unique: true
+        data_type: text
+        nullable: false
+    write_disposition: replace
+  attendances:
+    columns:
+      type:
+        data_type: text
+        nullable: true
+      attributes__employee:
+        data_type: bigint
+        nullable: true
+      attributes__date:
+        data_type: text
+        nullable: true
+      attributes__start_time:
+        data_type: text
+        nullable: true
+      attributes__end_time:
+        data_type: text
+        nullable: true
+      attributes__break:
+        data_type: bigint
+        nullable: true
+      attributes__comment:
+        data_type: text
+        nullable: true
+      attributes__is_holiday:
+        data_type: bool
+        nullable: true
+      attributes__is_on_time_off:
+        data_type: bool
+        nullable: true
+      id:
+        data_type: bigint
+        nullable: true
+      employee_id:
+        data_type: bigint
+        nullable: true
+      _dlt_load_id:
+        data_type: text
+        nullable: false
+      _dlt_id:
+        unique: true
+        data_type: text
+        nullable: false
+    write_disposition: replace
+settings:
+  default_hints:
+    not_null:
+    - re:^_dlt_id$
+    - re:^_dlt_root_id$
+    - re:^_dlt_parent_id$
+    - re:^_dlt_list_idx$
+    - _dlt_load_id
+    foreign_key:
+    - re:^_dlt_parent_id$
+    unique:
+    - re:^_dlt_id$
+normalizers:
+  detections:
+  - timestamp
+  - iso_timestamp
+  names: dlt.common.normalizers.names.snake_case
+  json:
+    module: dlt.common.normalizers.json.relational
