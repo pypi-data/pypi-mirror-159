@@ -1,0 +1,327 @@
+Metadata-Version: 2.1
+Name: asyncrepo
+Version: 0.0.9
+Summary: A library for providing a unified asyncio API for various data sources
+Home-page: https://github.com/nottheswimmer/asyncrepo
+Author: Michael Phelps
+Author-email: michaelphelps@nottheswimmer.org
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aioboto3 (==9.6.0)
+Requires-Dist: aiobotocore (==2.3.0)
+Requires-Dist: aiocsv (==1.2.2)
+Requires-Dist: aiofile (==3.7.4)
+Requires-Dist: aiohttp (==3.8.1)
+Requires-Dist: aioitertools (==0.10.0)
+Requires-Dist: aiopath (==0.6.10)
+Requires-Dist: aiosignal (==1.2.0)
+Requires-Dist: anyio (==3.6.1)
+Requires-Dist: async-timeout (==4.0.2)
+Requires-Dist: atomicwrites (==1.4.1)
+Requires-Dist: attrs (==21.4.0)
+Requires-Dist: bleach (==5.0.1)
+Requires-Dist: boto3 (==1.21.21)
+Requires-Dist: botocore (==1.24.21)
+Requires-Dist: build (==0.8.0)
+Requires-Dist: caio (==0.9.6)
+Requires-Dist: certifi (==2022.6.15)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==2.1.0)
+Requires-Dist: colorama (==0.4.5)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: Deprecated (==1.2.13)
+Requires-Dist: docutils (==0.19)
+Requires-Dist: execnet (==1.9.0)
+Requires-Dist: frozenlist (==1.3.0)
+Requires-Dist: idna (==3.3)
+Requires-Dist: importlib-metadata (==4.12.0)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: jmespath (==1.0.1)
+Requires-Dist: keyring (==23.6.0)
+Requires-Dist: multidict (==6.0.2)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pep517 (==0.12.0)
+Requires-Dist: pkginfo (==1.8.3)
+Requires-Dist: pluggy (==1.0.0)
+Requires-Dist: py (==1.11.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: PyGithub (==1.55)
+Requires-Dist: Pygments (==2.12.0)
+Requires-Dist: PyJWT (==2.4.0)
+Requires-Dist: PyNaCl (==1.5.0)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: pytest (==7.1.2)
+Requires-Dist: pytest-asyncio (==0.18.3)
+Requires-Dist: pytest-forked (==1.4.0)
+Requires-Dist: pytest-rerunfailures (==10.2)
+Requires-Dist: pytest-xdist (==2.5.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: python-dotenv (==0.20.0)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==35.0)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==2.0.0)
+Requires-Dist: rich (==12.4.4)
+Requires-Dist: s3transfer (==0.5.2)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sniffio (==1.2.0)
+Requires-Dist: tomli (==2.0.1)
+Requires-Dist: twine (==4.0.1)
+Requires-Dist: urllib3 (==1.26.10)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: wrapt (==1.14.1)
+Requires-Dist: yarl (==1.7.2)
+Requires-Dist: zipp (==3.8.0)
+
+# [asyncrepo](https://github.com/nottheswimmer/asyncrepo)
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/asyncrepo)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/asyncrepo)
+![PyPI - License](https://img.shields.io/pypi/l/asyncrepo)
+
+`asyncrepo` provides a unified async interface for retrieving data from a variety of sources.
+
+## Installation
+
+`pip install asyncrepo`
+
+## Usage
+
+For now, just check out the live tests for some examples:
+
+- [AWS S3 Buckets Test](tests/live/repositories/aws/test_s3_buckets.py)
+- [AWS S3 Objects Test](tests/live/repositories/aws/test_s3_objects.py)
+- [Confluence Pages Test](tests/live/repositories/confluence/test_pages.py)
+- [File CSV Rows Test](tests/live/repositories/file/test_csv_rows.py)
+- [GitHub Repos Test](tests/live/repositories/github/test_repos.py)
+- [Greenhouse Jobs Test](tests/live/repositories/greenhouse/test_jobs.py)
+- [Jira Issues Test](tests/live/repositories/jira/test_issues.py)
+
+## Motivation
+
+To provide tooling for developers of unified and federated search platforms.
+
+## Currently supported repositories
+
+- `aws.s3_buckets.S3Buckets` - AWS S3 buckets belonging to the current user.
+- `aws.s3_objects.S3Objects` - AWS S3 objects belonging to a bucket.
+- `confluence.pages.Pages` - Confluence pages belonging to a given organization
+- `file.csv_rows.CSVRows` - CSV rows within a given file specified by filepath or URL
+- `github.repos.Repos` - GitHub repositories belonging to a given user or organization.
+- `greenhouse.jobs.Jobs` - Greenhouse jobs belonging to a given board.
+- `jira.issues.Issues` - JIRA issues belonging to a given organization.
+
+## Supported repository operations
+
+- `.get(id: str)`: Get an item from the repository by its ID.
+- `.list()`: Get an iterator for all items in the repository.
+- `.list_pages()`: Get a paginated iterator for all items in the repository.
+- `.search(query: str)`: Get an iterator for all items in the repository that match the query.
+- `.search_pages(query: str)`: Get a paginated iterator for all items in the repository that match the query.
+
+## Exceptions
+- `asyncrepo.exceptions.ItemNotFound`: Raised by .get(id: str) if the item does not exist in the repository.
+
+## Support by repository
+
+|        Repository        |        .get         | .list |        .search         | Non-blocking IO | Authentication                                                                        |
+|:------------------------:|:-------------------:|:-----:|:----------------------:|-----------------|---------------------------------------------------------------------------------------|
+| aws.s3_buckets.S3Buckets |         Yes         |  Yes  | [Naive](#naive-search) | Yes             | [AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) |
+| aws.s3_objects.S3Objects |         Yes         |  Yes  |          Yes           | Yes             | [AWS](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html) |
+|  confluence.pages.Pages  |         Yes         |  Yes  |          Yes           | Yes             | Basic                                                                                 |
+|  file.csv_rows.CSVRows   | [Naive](#naive-get) |  Yes  | [Naive](#naive-search) | Yes             | None                                                                                  |
+|    github.repos.Repos    |         Yes         |  Yes  |          Yes           | Yes             | Token                                                                                 |
+|   greenhouse.jobs.Jobs   |         Yes         |  Yes  | [Naive](#naive-search) | Yes             | None                                                                                  |
+|    jira.issues.Issues    |         Yes         |  Yes  |          Yes           | Yes             | Basic                                                                                 |
+
+## Caveats by repository
+
+†: On the roadmap of things to be addressed.
+
+- `aws.s3_buckets.S3Buckets`
+    - † Only basic metadata is available about buckets.
+    - † Currently implemented as a [single page repository](#single-page-repositories).
+- `aws.s3_objects.S3Objects`
+    - † No options to get the contents of an object.
+    - † Only basic metadata is available about objects.
+    - Search is implemented using the prefix search API.
+- `confluence.pages.Pages`
+    - † No options to limit the repository scope to a specific space.
+    - The search API seems to occasionally return an empty result set for a query
+      that should have results. This results in fragile live tests for the repository.
+      This may only happen under high concurrency.
+    - Similar to the above, the API will occasionally return a 500 error when querying
+      under high concurrency.
+    - † There is a simple retry system in place to address the aforementioned 500 error
+      But it should be abstracted out into a more general retry system that can be applied
+      to other repositories.
+- `file.csv_rows.CSVRows`
+  - † There is no options for caching the file. If a URL is used, that means every time the
+    file is queried, it will be downloaded (e.g. every get, search, or list operation). In the
+    future, it would be nice to be able to cache the file either in memory or on disk with some
+    sort of TTL.
+  - Because CSVs have no natural pages, there is a page_size option that can be used to limit
+    the number of rows returned per page. The default is 20. This allows you to load in some data
+    without loading the entire file into memory.
+  - Because CSV rows have no natural primary key, the id defaults to the row index. You can
+    change this by passing an id to the repository, which expects either the name of a column
+    or a tuple of column names.
+- `github.repos.Repos`
+    - † May need additional work to mitigate rate limiting issues.
+    - ~~† Uses PyGithub, which is not async.~~
+    - † Patches PyGithub to support async (should consider using a different library like Gidgethub).
+    - † The `get` operation can retrieve repositories which are out of scope for the user/organization.
+- `greenhouse.jobs.Jobs`
+    - It is a [single page repository](#single-page-repositories).
+- `jira.issues.Issues`
+    - † No options to limit the repository scope to a specific project.
+    - The .get method accepts either keys or IDs, but the .id for items is always the ID.
+      This is because the ID doesn't change, whereas the key could change by moving the issue to
+      a different project.
+
+## Repository quirks
+
+Because this library provides a unified interface for very different sources, all repositories will
+have some quirks. Here are some of them.
+
+### Naive search
+
+Search is not natively supported by all sources. As a workaround, some sources fall back to an
+implementation that performs a text search on the raw data for each item in the repository.
+
+### Naive get
+
+Get is not natively supported by all sources. As a workaround, some sources fall back to an
+implementation that performs a scan of the entire repository to find the item with the given ID.
+
+### Single page repositories
+
+Some repositories are based on a flat list of items, rather than being paginated. All items from such repositories
+are returned as the first and only page.
+
+## Items
+
+All items are represented by an `Item` object. This object has the following attributes:
+
+- `id`: A string that uniquely identifies item, which can be passed to `Repository.get` to retrieve the item.
+- `document`: A dictionary containing the data for the item.
+- `repository`: The repository that contains the item.
+
+## Wish list
+
+The following is a list of things that might be worked on next.
+
+### General improvements
+
+- Addressing [caveats](#caveats-by-repository) as indicated (†).
+- Making the live tests runnable in GitHub Actions.
+- Write mock tests for the various supported repositories.
+- Add a meta repository that can combine multiple repositories.
+- Support for non-default orderings.
+- Stop subclassing ClientSession from aiohttp because it makes the developer sad.
+- More enterprise-friendly implementations. Testing is done on cloud-hosted services
+  and those APIs are often different from the on-premise ones. Submit a ticket or a
+  pull request if you want to help.
+- Split dependencies into separate packages depending on which repositories are desired.
+- Normalize and extensively document repository constructors. For now, look at the tests or the code.
+- Naive get as described isn't actually a default fallback for when get isn't implemented. I should add a
+  default implementation that falls back to looking for the item by using an implemented list method.
+- Stable API. Right now, the API is unstable and can change at any time.
+
+### Potential Operations
+
+- [ ] `Repository.create(item)`
+- [ ] `Repository.update(item)`
+- [ ] `Repository.delete(item)`
+- [ ] `Item.save(upsert: bool=True)`
+- [ ] `Item.delete()`
+
+### Potential exceptions
+
+- [ ] `asyncrepo.exceptions.PermissionDenied` - When the user is not authorized to perform the operation.
+- [ ] `asyncrepo.exceptions.OperationNotSupported` - When the operation is not supported by the repository.
+- [ ] `asyncrepo.exceptions.ItemAlreadyExists` - When the item already exists and upsert is False.
+
+### Potential properties
+
+These properties could be added to the `Item` class to provide useful output for search results
+and other use cases.
+
+- [ ] `Item.title: Optional[str]` - Page titles, ticket summaries, filenames, etc.
+- [ ] `Item.text: Optional[str]` - Page content, ticket descriptions, file contents, etc.
+- [ ] `Item.url: Optional[str]` - URL to the page, ticket, file, etc.
+- [ ] `Item.image_url: Optional[str]` - Ticket status icon, file thumbnail, etc.
+- [ ] `Item.facets: Dict[str, str]` - Potentially an extensive list of facets for items. File type, ticket status, etc.
+- [ ] `Item.created_at: Optional[datetime]` - Date and time the item was created.
+- [ ] `Item.updated_at: Optional[datetime]` - Date and time the item was last updated.
+- [ ] `Item.created_by: Optional[str]` - User that created the item.
+- [ ] `Item.updated_by: Optional[str]` - User that last updated the item.
+- [ ] `Item.created_by_url: Optional[str]` - URL to the user that created the item.
+- [ ] `Item.updated_by_url: Optional[str]` - URL to the user that last updated the item.
+- [ ] `Item.created_by_avatar_url: Optional[str]` - URL to the user's avatar that created the item.
+- [ ] `Item.updated_by_avatar_url: Optional[str]` - URL to the user's avatar that last updated the item.
+
+### Potential Repositories
+
+There's so many things that there could be repositories for -- this is just a very short
+list I keep track of for inspiration.
+
+- [ ] `jira.projects.Projects`
+- [ ] `confluence.spaces.Spaces`
+- [ ] `confluence.blogs.Blogs`
+- [ ] `jenkins.jobs.Jobs`
+- [ ] `jenkins.builds.Builds`
+- [ ] `elastic.indexes.Indexes`
+- [ ] `elastic.documents.Documents`
+- [ ] `slack.channels.Channels`
+- [ ] `slack.users.Users`
+- [ ] `slack.messages.Messages`
+- [ ] `pypi.packages.Packages`
+- [ ] `google.drive.Files`
+- [ ] `google.mail.Mail`
+- [ ] `google.calendar.Events`
+- [ ] `github.code.Code`
+
+## Contribution Guidelines
+
+Please submit a ticket if you have an idea for a new feature or you've found a bug. 
+You can also submit a pull request if you have a solution to the problem!
+
+And hey, don't feel anxious about contributing. If you're interested in helping improve
+this library by submitting a pull request, I'd be extremely happy to hear from you.
+
+### Bug fixes
+
+- [ ] Create a test which fails because of the identified bug
+- [ ] Fix the bug
+- [ ] Ensure the test passes
+- [ ] Submit a pull request
+
+### New features
+
+- [ ] Create a test which fails because the new feature is not implemented
+- [ ] Implement the new feature
+- [ ] Ensure the test passes
+- [ ] Submit a pull request
+
+### New repository checklist
+
+- [ ] Add your new repository to the `asyncrepo.repositories` module.
+- [ ] At minimum, your repository should support getting and listing.
+  Fallback to naive search is OK if there isn't a better way.
+- [ ] Add live tests for your repository. If credentials are required
+  and you have to set up the tests against a private server, outline
+  what credentials are required in the env.dist file and make it clear
+  what data is expected to exist in the test environment.
+- [ ] Ensure the tests pass
+- [ ] Document your repository in this file.
+- [ ] Submit a pull request.
