@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: debugp
+Version: 0.1.1
+Author: FedDragon1
+Project-URL: Homepage, https://github.com/FedDragon1/debugprint
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+License-File: LICENSE
