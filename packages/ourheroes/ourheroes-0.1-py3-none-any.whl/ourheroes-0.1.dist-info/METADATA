@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ourheroes
+Version: 0.1
+Summary: Project for Deep NLP course.
+Home-page: https://github.com/giovannipogg/ourheroes
+Author: G. Poggio, G. Calleris
+Author-email: s287775@studenti.polito.it
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ourheroes
+Project for the Deep Natural Language Processing course offered by Politecnico di Torino A.Y. 2021/2022.
+
+The Project aims at reproducing and extending the HEROES model as described by Zhu et al. in the paper "Summarizing 
+"Summarizing Long-Form Document with Rich Discourse Information".
