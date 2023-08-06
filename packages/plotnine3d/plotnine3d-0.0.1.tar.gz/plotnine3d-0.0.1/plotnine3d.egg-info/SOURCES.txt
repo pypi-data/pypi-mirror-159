@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+plotnine3d/__init__.py
+plotnine3d/geoms.py
+plotnine3d/plot.py
+plotnine3d/py.typed
+plotnine3d.egg-info/PKG-INFO
+plotnine3d.egg-info/SOURCES.txt
+plotnine3d.egg-info/dependency_links.txt
+plotnine3d.egg-info/requires.txt
+plotnine3d.egg-info/top_level.txt
