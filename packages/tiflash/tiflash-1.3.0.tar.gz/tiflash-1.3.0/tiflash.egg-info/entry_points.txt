@@ -1,0 +1,2 @@
+[console_scripts]
+tiflash = tiflash.core.__main__:main
