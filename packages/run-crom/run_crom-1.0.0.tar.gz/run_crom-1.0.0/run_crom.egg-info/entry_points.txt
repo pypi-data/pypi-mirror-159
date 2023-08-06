@@ -1,0 +1,3 @@
+[console_scripts]
+run_crom = run_crom.run_crom:main
+
