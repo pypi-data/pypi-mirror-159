@@ -1,0 +1,11 @@
+numpy
+pandas
+attrs
+matplotlib
+geopandas
+pyhdf
+pyorbital
+pyspectral
+netCDF4
+diskcache
+s3fs

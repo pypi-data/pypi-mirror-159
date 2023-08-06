@@ -1,0 +1,12 @@
+include LICENSE
+include README.md
+recursive-include data *.hdf
+recursive-include data *.nc
+recursive-include data *.h5
+recursive-include data *.md
+
+exclude tox.ini
+exclude pyproject.toml
+recursive-exclude tests *
+recursive-exclude docs *
+recursive-exclude res *
