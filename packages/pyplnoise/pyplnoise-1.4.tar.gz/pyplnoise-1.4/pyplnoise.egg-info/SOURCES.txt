@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyplnoise.py
+setup.cfg
+setup.py
+examples/application_example_allan_variance.html
+examples/application_example_allan_variance.ipynb
+examples/overview_of_noise_sources.html
+examples/overview_of_noise_sources.ipynb
+pyplnoise.egg-info/PKG-INFO
+pyplnoise.egg-info/SOURCES.txt
+pyplnoise.egg-info/dependency_links.txt
+pyplnoise.egg-info/requires.txt
+pyplnoise.egg-info/top_level.txt
