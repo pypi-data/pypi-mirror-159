@@ -1,0 +1,3 @@
+[console_scripts]
+gruzau-dump = gruzau.dump:start
+gruzau-load = gruzau.load:start
