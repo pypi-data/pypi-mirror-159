@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+pyrecog/__init__.py
+pyrecog/main.py
+pyrecog.egg-info/PKG-INFO
+pyrecog.egg-info/SOURCES.txt
+pyrecog.egg-info/dependency_links.txt
+pyrecog.egg-info/requires.txt
+pyrecog.egg-info/top_level.txt
