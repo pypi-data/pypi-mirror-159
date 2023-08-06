@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rododendron
+Version: 0.0.1
+Summary: rododendron library
+Home-page: UNKNOWN
+Author: ['pawlaczyk']
+Author-email: <dominika.pawlaczyk9@gmail.com>
+License: UNKNOWN
+Keywords: python,telephone numbers,scraping
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: xmltodict
+Requires-Dist: beautifulsoup4
+
+UNKNOWN
+
