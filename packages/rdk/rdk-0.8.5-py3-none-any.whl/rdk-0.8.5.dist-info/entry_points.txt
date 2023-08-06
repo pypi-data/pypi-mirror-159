@@ -1,0 +1,2 @@
+[console_scripts]
+rdk = rdk.cli:main
