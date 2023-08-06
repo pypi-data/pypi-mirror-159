@@ -1,0 +1,11 @@
+numpy
+
+[all]
+scipy
+
+[docs]
+sphinx
+furo
+numpydoc
+scipy
+matplotlib
