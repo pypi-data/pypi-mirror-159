@@ -1,0 +1,16 @@
+DataBlock.py
+PLC.py
+README.md
+Utility.py
+setup.py
+DataTypes/DTUint.py
+DataTypes/DTbool.py
+DataTypes/DTdint.py
+DataTypes/DTint.py
+DataTypes/DTstring.py
+DataTypes/DTtime.py
+DataTypes/__init__.py
+EasyS7_example.egg-info/PKG-INFO
+EasyS7_example.egg-info/SOURCES.txt
+EasyS7_example.egg-info/dependency_links.txt
+EasyS7_example.egg-info/top_level.txt
