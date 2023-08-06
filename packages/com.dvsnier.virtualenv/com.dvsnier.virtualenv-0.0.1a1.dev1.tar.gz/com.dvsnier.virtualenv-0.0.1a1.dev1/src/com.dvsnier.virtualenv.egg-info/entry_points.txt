@@ -1,0 +1,2 @@
+[console_scripts]
+dvs-virtualenv = com.dvsnier.virtualenv.command.dvs_virtualenv:execute
