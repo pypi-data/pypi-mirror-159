@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mongodb_sentry_integration.egg-info/PKG-INFO
+mongodb_sentry_integration.egg-info/SOURCES.txt
+mongodb_sentry_integration.egg-info/dependency_links.txt
+mongodb_sentry_integration.egg-info/requires.txt
+mongodb_sentry_integration.egg-info/top_level.txt
+sentry_mongo/__init__.py
+sentry_mongo/__main__.py
