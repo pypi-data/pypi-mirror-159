@@ -1,0 +1,9 @@
+LICENCE
+README.md
+pyproject.toml
+src/cacabplot/__init__.py
+src/cacabplot/main.py
+src/cacabplot.egg-info/PKG-INFO
+src/cacabplot.egg-info/SOURCES.txt
+src/cacabplot.egg-info/dependency_links.txt
+src/cacabplot.egg-info/top_level.txt
