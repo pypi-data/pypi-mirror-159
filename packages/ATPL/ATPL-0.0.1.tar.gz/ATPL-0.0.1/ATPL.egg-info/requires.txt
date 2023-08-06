@@ -1,0 +1,8 @@
+gooey
+paramiko
+ctypes
+wave
+applescript
+socket
+sounddevice
+numpy
