@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lzlzhn
+Version: 2022.7.16.1920.1
+Summary: 一个很会玩的第三方库,更新版本号与更新/修复个数有关
+Home-page: https://blog.csdn.net/l15668952150/article/details/124575394
+Author: 24K野生程序员/24K Wild Programmers
+Author-email: liuniandexiaohuo@qq.com
+Maintainer: 24K野生程序员/24K Wild Programmers
+Maintainer-email: liuniandexiaohuo@qq.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+
+HELLO! 感谢你下载我的第三方库！十分感谢！
+
