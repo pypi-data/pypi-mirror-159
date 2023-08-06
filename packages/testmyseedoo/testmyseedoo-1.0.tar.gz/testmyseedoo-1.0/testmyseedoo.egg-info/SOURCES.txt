@@ -1,0 +1,11 @@
+setup.py
+seedoo/tensorrt_utils/__init__.py
+seedoo/tensorrt_utils/utils/__init__.py
+seedoo/tensorrt_utils/utils/convertor.py
+seedoo/tensorrt_utils/utils/pipeline.py
+seedoo/tensorrt_utils/utils/predictor.py
+seedoo/tensorrt_utils/utils/tests/__init__.py
+testmyseedoo.egg-info/PKG-INFO
+testmyseedoo.egg-info/SOURCES.txt
+testmyseedoo.egg-info/dependency_links.txt
+testmyseedoo.egg-info/top_level.txt
