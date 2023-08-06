@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: fapyc
+Version: 0.1.0
+Summary: A Python wrapper for the FAPEC data compressor.
+Home-page: https://www.dapcom.es
+Author: DAPCOM Data Services
+Author-email: fapec@dapcom.es
+License-File: LICENSE
+
