@@ -1,0 +1,2 @@
+[datakit.plugins]
+github integrate = datakit_github.commands:Integrate
