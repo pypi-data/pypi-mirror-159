@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pyoperacionesmonzon
+Version: 0.1
+Summary: A tool to perform mathematical operations.
+Home-page: UNKNOWN
+Author: Jose Manuel Monzón
+Author-email: jmmonzonn@gmail.com
+License: GNU GPLv3
+Keywords: pyoperacionesmonzon math operations
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+En este paquete tenemos tres funciones:
+sumaEnteros(m,n), el cual recibe dos parÃ¡metros enteros y devuelve la la suma de ellos.
+restaEnteros(n,m), el cual recibe dos parÃ¡metros enteros y devuelve el resultado de restar el segundo entero al primer entero.
+primos(n), que devuelve los primos que se encuentran entre 1 y n
+GNU GPLv3
+
+
