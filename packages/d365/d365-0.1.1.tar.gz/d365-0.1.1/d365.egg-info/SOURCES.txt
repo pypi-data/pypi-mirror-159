@@ -1,0 +1,7 @@
+setup.py
+d365/__init__.py
+d365.egg-info/PKG-INFO
+d365.egg-info/SOURCES.txt
+d365.egg-info/dependency_links.txt
+d365.egg-info/requires.txt
+d365.egg-info/top_level.txt
