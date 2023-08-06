@@ -1,0 +1,8 @@
+README.md
+setup.py
+micronet/__init__.py
+micronet/micronet.py
+micropython_micronet.egg-info/PKG-INFO
+micropython_micronet.egg-info/SOURCES.txt
+micropython_micronet.egg-info/dependency_links.txt
+micropython_micronet.egg-info/top_level.txt
