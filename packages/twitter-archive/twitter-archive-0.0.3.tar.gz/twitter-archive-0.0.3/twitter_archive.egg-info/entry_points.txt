@@ -1,0 +1,2 @@
+[console_scripts]
+twitter-archive = TwitterArchive.cli:main
