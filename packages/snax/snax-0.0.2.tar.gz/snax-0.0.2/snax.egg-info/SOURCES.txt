@@ -1,0 +1,7 @@
+README.md
+setup.py
+snax/__init__.py
+snax.egg-info/PKG-INFO
+snax.egg-info/SOURCES.txt
+snax.egg-info/dependency_links.txt
+snax.egg-info/top_level.txt
