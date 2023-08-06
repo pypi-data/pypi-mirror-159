@@ -1,0 +1,2 @@
+[gui_scripts]
+visualstudio = vs_shortcut.__main__:main
