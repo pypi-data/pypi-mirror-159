@@ -1,0 +1,7 @@
+LICENSE.txt
+setup.py
+HRCalculator/__init__.py
+HRCalculator.egg-info/PKG-INFO
+HRCalculator.egg-info/SOURCES.txt
+HRCalculator.egg-info/dependency_links.txt
+HRCalculator.egg-info/top_level.txt
