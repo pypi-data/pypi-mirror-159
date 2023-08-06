@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: filter-api
+Version: 0.1.7
+Summary: Implement filters for each request path before they are handled by the main function.
+Home-page: https://github.com/PratyushMakkar/fastapi-filter
+Author: Pratyush Makkar
+Author-email: pratyushmakkar@gmail.com
+License: MIT
+Description: README.md
+Keywords: fastapi filter Starlette uvicorn
+Platform: UNKNOWN
