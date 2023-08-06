@@ -1,0 +1,10 @@
+README.md
+setup.py
+linecheck/__init__.py
+linecheck/main.py
+linecheck.egg-info/PKG-INFO
+linecheck.egg-info/SOURCES.txt
+linecheck.egg-info/dependency_links.txt
+linecheck.egg-info/entry_points.txt
+linecheck.egg-info/requires.txt
+linecheck.egg-info/top_level.txt

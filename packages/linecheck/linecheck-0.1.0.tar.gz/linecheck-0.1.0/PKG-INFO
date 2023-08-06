@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: linecheck
+Version: 0.1.0
+Summary: Utility to check line endings.
+Home-page: UNKNOWN
+Author: Nikhil Woodruff
+Author-email: nikhil@policyengine.org
+License: http://www.fsf.org/licensing/licenses/agpl-3.0.html
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
