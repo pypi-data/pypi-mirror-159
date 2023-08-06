@@ -1,0 +1,14 @@
+QStyler/__init__.py,sha256=RGmyeb0AaDmZrLNDAPRZS88Qb-z-OB-srd3efwvpEPM,966
+QStyler/__main__.py,sha256=nGZPbU_flRdB94eSQNu_K6mdXaYDmdnRj2kQVCRAvNw,1030
+QStyler/menubar.py,sha256=vRcnyx49OlQ5etz-jUREMJ5txr8JjPTVO_z1zLugAyk,7381
+QStyler/styler.py,sha256=G8mZsWWdFA2sMnhtTIAVv3jX3LHZocsI9ubuPPOorWQ,14512
+QStyler/utils.py,sha256=VVXDg9tuqTMiOHCg9Ill5yig_2XcJ_WtUpID_f6XLqI,2635
+QStyler/version.py,sha256=lH1_6aHYilEL9yJ2rfJlIRKn0GDv4mnekX1sDDNQgRs,848
+QStyler/widgets.py,sha256=JSyQRoAfKwp0Wbav2JLKt6jnSY9_LfNzHDQNozHcoDE,9503
+QStyler/window.py,sha256=QF3RUGcvuXwieb7G4SeenfkcXzMTvKN2-I0Ma0mfC9c,2351
+QStyler-0.1.0.dist-info/LICENSE,sha256=EheghJxfJazKvvVBRO_OSs72PZO2DBybEc7-6o9WRFs,11356
+QStyler-0.1.0.dist-info/METADATA,sha256=817a58RHG1fFKOvOGy5lvFUWf-8T2Y6k0oFOJ7J1h9w,2858
+QStyler-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+QStyler-0.1.0.dist-info/entry_points.txt,sha256=r_9GBXSOnfW9MhqDBU3Os8LCJ-X3DI1MdgaSqXySndM,50
+QStyler-0.1.0.dist-info/top_level.txt,sha256=T60ER1Pp0iEuh15NnQBQ7oGMN_0_v_4VqoLfwoas-qs,8
+QStyler-0.1.0.dist-info/RECORD,,
