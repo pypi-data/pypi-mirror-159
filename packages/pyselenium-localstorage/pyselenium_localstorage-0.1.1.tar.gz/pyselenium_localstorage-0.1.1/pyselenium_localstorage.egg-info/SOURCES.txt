@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+pyselenium_localstorage/__init__.py
+pyselenium_localstorage/codes.py
+pyselenium_localstorage/local_storage.py
+pyselenium_localstorage.egg-info/PKG-INFO
+pyselenium_localstorage.egg-info/SOURCES.txt
+pyselenium_localstorage.egg-info/dependency_links.txt
+pyselenium_localstorage.egg-info/top_level.txt
+pyselenium_localstorage.egg-info/zip-safe
