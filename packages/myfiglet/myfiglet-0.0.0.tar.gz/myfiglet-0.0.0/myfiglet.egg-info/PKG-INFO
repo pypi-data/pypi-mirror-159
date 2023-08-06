@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: myfiglet
+Version: 0.0.0
+Summary: FIGlet Using Python
+Author: Harsh Gupta
+Author-email: harshnkgupta@gmail.com
+
+This program can be used to display FIGlet fonts using python.After importing the module type myfiglet.help() for further help.
