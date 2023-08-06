@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wkflws
+Version: 0.1.2
+Summary: "Wkflws Framework"
+Author: Wkflws Contributors
+License: { file="LICENSE" }
+Project-URL: Bug Tracker, https://github.com/wkflws/wkflws/issues/
+Project-URL: Source, https://github.com/wkflws/wkflws/
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Provides-Extra: kafka
+Provides-Extra: webhook
+Provides-Extra: dev
+Provides-Extra: docs
+Provides-Extra: testing
+License-File: LICENSE
