@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: paper-candy
+Version: 0.0.1b1
+Summary: A loosely coupled training framework for Deep Learning research.
+Home-page: https://github.com/ATATC/PaperCandy
+Author: ATATC
+Author-email: futerry@outlook.com
+License: Apache License 2.0
+Description: **PaperCandy** is a loosely coupled training framework for Deep Learning research. It provides an intermediate layer so that the back-end frameworks(such as PyTorch or TensorFlow) can be replaced easily.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
