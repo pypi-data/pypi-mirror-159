@@ -1,0 +1,10 @@
+aws_cdk/aws_refactorspaces/__init__.py,sha256=nihc-fOfK89Zea79cvzwXjyhESdyXHdXs6bwx0XR1TE,89544
+aws_cdk/aws_refactorspaces/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_refactorspaces/_jsii/__init__.py,sha256=PbUCeP3-p50xUrL3BURjQnBM9fFPH21L3GyNhAYsCCw,376
+aws_cdk/aws_refactorspaces/_jsii/aws-refactorspaces@1.164.0.jsii.tgz,sha256=rhs8yK9T2CG3KsSyDHE5a3ahOyMtHSoHMDievBZFmOE,54511
+aws_cdk.aws_refactorspaces-1.164.0.dist-info/LICENSE,sha256=wX3LqRrxZ97zcDpw0dQ58Zb9AQalEDmXs6nP39muv7o,11391
+aws_cdk.aws_refactorspaces-1.164.0.dist-info/METADATA,sha256=09dWIepcdIqTvWRRGJXb3sCFAb00LSJJg1iOeLpYCes,3149
+aws_cdk.aws_refactorspaces-1.164.0.dist-info/NOTICE,sha256=piksgoXop22-zO1J9i3rVrv57wUN9siPK1pqGzZ7-AE,113
+aws_cdk.aws_refactorspaces-1.164.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aws_cdk.aws_refactorspaces-1.164.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_refactorspaces-1.164.0.dist-info/RECORD,,
