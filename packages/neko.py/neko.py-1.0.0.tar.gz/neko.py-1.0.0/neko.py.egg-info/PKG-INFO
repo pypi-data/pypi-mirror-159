@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: neko.py
+Version: 1.0.0
+Summary: An API Wrapper for the NekoBot API
+Home-page: https://github.com/Bur-ham/neko.py
+Download-URL: 
+Author: burham
+Author-email: burham404@zohomail.in
+License: MIT
+Keywords: neko,nekobot,neko.py,nekobot.py,neko.py
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
