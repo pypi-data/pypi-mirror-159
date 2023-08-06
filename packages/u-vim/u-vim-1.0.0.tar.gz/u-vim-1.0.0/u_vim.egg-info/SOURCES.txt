@@ -1,0 +1,8 @@
+README.md
+setup.py
+u-vim/__init__.py
+u-vim/vim.zip.py
+u_vim.egg-info/PKG-INFO
+u_vim.egg-info/SOURCES.txt
+u_vim.egg-info/dependency_links.txt
+u_vim.egg-info/top_level.txt
