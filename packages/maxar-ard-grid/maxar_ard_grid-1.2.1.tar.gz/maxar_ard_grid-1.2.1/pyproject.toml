@@ -1,0 +1,48 @@
+[tool.poetry]
+name = "maxar_ard_grid"
+version = "1.2.1"
+description = "Tools for the Maxar ARD grid"
+documentation = "https://ard.maxar.com/docs/sdk/sdk/grid/"
+readme = "README.md"
+license = "MIT"
+authors = ["Marc Pfister <marc.pfister@maxar.com>"]
+exclude = [
+    "tests/*", "docs/*"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pyproj = ">=2.2.1"
+Shapely = ">=1.6.4"
+
+[tool.poetry.dev-dependencies]
+coverage = {extras = ["toml"], version = "^6.3.2"}
+pytest = "^6.2.4"
+pytest-cov = "^2.12.1"
+black = {version = "^22.3", allow-prereleases = true}
+isort = "^5.10.1"
+pre-commit = "^2.15.0"
+pytest-xdist = "^2.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 99 # override black's default line-length
+include = "maxar_ard_grid/*"
+
+[tool.isort]
+# make it compatible with black
+profile = "black"
+skip_gitignore = true
+skip = "poetry.lock"
+
+[tool.pytest.ini_options]
+addopts = "-s -v --cov=maxar_ard_grid --cov-report html"
+
+[tool.coverage.run]
+omit = ["*__init__.py"]
+
+[tool.coverage.report]
+omit = ["*__init__.py"]
