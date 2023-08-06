@@ -1,0 +1,8 @@
+{
+  "type": "object",
+  "properties": {
+    "c_name": {
+      "type": "string"
+    }
+  }
+}

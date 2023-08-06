@@ -1,0 +1,13 @@
+tap_sls/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_sls/client.py,sha256=Sk7TQXEKCk_A_7W7MDKpphslh27krBdL0ORVKZPFu7s,3603
+tap_sls/schemas/directory.json,sha256=IxeSV3w8XdlWbdYTN37UdEUdKvJHl8iqSEoKiPsttHc,91
+tap_sls/streams.py,sha256=EOOVP_KYnFRpoNxYUA0J2sHDXFPA66ZwV947cbfQgGY,2214
+tap_sls/tap.py,sha256=mf2e567wtSlSllBC0pplaKKS48oCIdqbWEVNfSXL-CY,600
+tap_sls/tests/__init__.py,sha256=SUNaJjB5g2hMUhBwYdyErgF5lKliQumHFJrwo2M_kAQ,30
+tap_sls/tests/c1.py,sha256=E6IOKuwfSBy8ZKUcjaifbCj_msCpAfKQ45xIdUYR6EU,203
+tap_sls/tests/p1.py,sha256=GBKawS8xPVh_FeAS9tpr60qF4NBkiuQA3p5gSuqVo2E,82
+tap_sls/tests/test_core.py,sha256=btqoTB5JQ9jQbNRfOU21fEaH9zrj2tKOkw9cen06Qyc,715
+tap_sls-0.0.2.dist-info/entry_points.txt,sha256=EzIMrj-XSuhDMxvMlMNYuIY8yfkpskK-Esfm0WPkIGU,53
+tap_sls-0.0.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tap_sls-0.0.2.dist-info/METADATA,sha256=c6HueqEnZFoKV8c_yhlq76UA8HnyeYJeoCySTrH_9R0,635
+tap_sls-0.0.2.dist-info/RECORD,,
