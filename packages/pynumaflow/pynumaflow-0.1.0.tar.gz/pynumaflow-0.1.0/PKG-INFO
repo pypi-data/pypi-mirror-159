@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pynumaflow
+Version: 0.1.0
+Summary: Provides the interfaces of writing Python User Defined Functions and Sinks for NumaFlow.
+Author: NumaFlow Developers
+Requires-Python: >=3.9,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: dataclasses-json (>=0.5.7,<0.6.0)
+Requires-Dist: msgpack (>=1.0.3,<2.0.0)
