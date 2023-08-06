@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+echipaiasi.egg-info/PKG-INFO
+echipaiasi.egg-info/SOURCES.txt
+echipaiasi.egg-info/dependency_links.txt
+echipaiasi.egg-info/top_level.txt
