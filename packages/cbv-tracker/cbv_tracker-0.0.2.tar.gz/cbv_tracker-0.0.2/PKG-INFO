@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cbv_tracker
+Version: 0.0.2
+Summary: Django Class Based View basic tracker
+Author-email: Rafal Zebrowski <zebraf.dev@gmail.com>
+Project-URL: Homepage, https://github.com/zebra-f/Django-CBV-Tracker
+Project-URL: Bug Tracker, https://github.com/zebra-f/Django-CBV-Tracker/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+Install:
+
+    pip install cbv-tracker
