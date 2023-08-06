@@ -1,0 +1,14 @@
+kraken/cli/__init__.py,sha256=z0zCHFTcKSR0tJ6h5qrpNmRVP21QIPP8N0p7quCnnm0,23
+kraken/cli/__main__.py,sha256=IXWeghvAzdvsCitVPgQ5QjqdMo4XF0ei8VfmlZ8r3OQ,19742
+kraken/cli/buildenv/__init__.py,sha256=n1bnYdeb_bNDBKASWGywTRa0Ne9hMAkal3AuVZJgovI,5
+kraken/cli/buildenv/environment.py,sha256=al6z9443pBruSMuZGYw139ePOGqeDL3dj3oI-IsVmOY,5295
+kraken/cli/buildenv/inspect.py,sha256=MZ-H5Gr0nMPGlBZ39ij5yuWHSdozcDveXpmVUFY6TIM,1753
+kraken/cli/buildenv/lockfile.py,sha256=iJ27TqJo4t6w-fCcmaxZsJANvXevV5klWiZMwk1qBOM,3359
+kraken/cli/buildenv/project.py,sha256=XC3FI-L789vfY8X1_5jrT8owY8qLeSYg1jG7_E8p6Rc,4622
+kraken/cli/buildenv/requirements.py,sha256=z_Su1vgUPcnmfOxU7odoAsNLTom1lLU-3aZxMrvU5is,5034
+kraken/cli/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kraken_cli-0.1.10.dist-info/entry_points.txt,sha256=XQqceyiYyFtFAoo0GTEziBQ13xmxDjYC6_il1lbrToQ,58
+kraken_cli-0.1.10.dist-info/LICENSE,sha256=n1m2B7cI9M4RdEbzD0qQ9ZiNLlEhZAT0kRJSRClqpYw,988
+kraken_cli-0.1.10.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+kraken_cli-0.1.10.dist-info/METADATA,sha256=QE4Ap-xnQ5T5G_fEARxrV0g09299naV68m86T9jKBAI,1195
+kraken_cli-0.1.10.dist-info/RECORD,,
