@@ -1,0 +1,2 @@
+[console_scripts]
+o2r-meta = o2rmeta.o2rmeta:main
