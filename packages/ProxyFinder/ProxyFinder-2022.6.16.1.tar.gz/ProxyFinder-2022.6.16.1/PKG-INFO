@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ProxyFinder
+Version: 2022.6.16.1
+Summary: UNKNOWN
+Home-page: https://github.com/ulbwazhine/ProxyFinder
+Author: Ulbwazhine
+Author-email: ulbwa@icloud.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="center">
+  <h1>ProxyFinder</h1>
+  <p>
+    <img src="https://img.shields.io/pypi/dm/ProxyFinder">
+    <img src="https://img.shields.io/pypi/v/ProxyFinder?label=version">
+    <img src="https://img.shields.io/pypi/l/ProxyFinder">
+    <img src="https://img.shields.io/github/repo-size/ulbwazhine/ProxyFinder">
+  </p>
+  <p></p>
+</div>
+
+

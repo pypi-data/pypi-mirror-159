@@ -1,0 +1,2 @@
+global-include *.md *.png *.ini *.txt *.py
+exclude deploy.py  .gitignore
