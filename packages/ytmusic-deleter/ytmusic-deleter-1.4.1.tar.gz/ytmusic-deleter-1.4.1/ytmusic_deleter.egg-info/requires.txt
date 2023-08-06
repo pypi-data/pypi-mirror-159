@@ -1,0 +1,12 @@
+click
+ytmusicapi>=0.22.0
+enlighten
+
+[dev]
+pre-commit
+flake8
+yapf
+coverage
+rope
+pytest
+pyinstaller
