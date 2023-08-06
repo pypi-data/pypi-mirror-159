@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aliddns-core
+Version: 1.0.7
+Summary: Python library for aliyun ddns core
+Home-page: https://github.com/heculess/aliddns_core
+Author: heculess lau
+Author-email: heculess@hotmail.com
+License: Apache
+Keywords: aliyun ddns
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5
+Requires-Dist: attrs
+
+Python library for aliyun ddns core
+
