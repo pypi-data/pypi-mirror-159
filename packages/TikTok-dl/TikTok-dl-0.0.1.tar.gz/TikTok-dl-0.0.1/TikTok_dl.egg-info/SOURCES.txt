@@ -1,0 +1,8 @@
+README.md
+setup.py
+TikTok/__init__.py
+TikTok_dl.egg-info/PKG-INFO
+TikTok_dl.egg-info/SOURCES.txt
+TikTok_dl.egg-info/dependency_links.txt
+TikTok_dl.egg-info/requires.txt
+TikTok_dl.egg-info/top_level.txt
