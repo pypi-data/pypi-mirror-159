@@ -1,0 +1,2 @@
+[console_scripts]
+dontbs = dontbs.__main__:dontbs

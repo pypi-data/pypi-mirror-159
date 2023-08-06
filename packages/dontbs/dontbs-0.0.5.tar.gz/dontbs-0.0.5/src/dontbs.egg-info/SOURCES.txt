@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/dontbs/__main__.py
+src/dontbs/gh.py
+src/dontbs/goals.json
+src/dontbs/utils.py
+src/dontbs.egg-info/PKG-INFO
+src/dontbs.egg-info/SOURCES.txt
+src/dontbs.egg-info/dependency_links.txt
+src/dontbs.egg-info/entry_points.txt
+src/dontbs.egg-info/requires.txt
+src/dontbs.egg-info/top_level.txt
