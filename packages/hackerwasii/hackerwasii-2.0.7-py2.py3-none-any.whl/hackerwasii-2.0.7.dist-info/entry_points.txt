@@ -1,0 +1,2 @@
+[console_scripts]
+instahack = InstahackWasii:ExecuteInstahackWasii
