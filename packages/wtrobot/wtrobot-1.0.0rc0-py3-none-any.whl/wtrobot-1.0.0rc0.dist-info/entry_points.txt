@@ -1,0 +1,2 @@
+[console_scripts]
+wtrobot = wtrobot.__main__:main
