@@ -1,0 +1,41 @@
+
+\documentclass[a4paper]{scrartcl}
+
+\usepackage[left=5mm,right=5mm,%
+top=15mm,bottom=15mm,%
+landscape,%
+%verbose=true,showframe,%
+nohead,nofoot]{geometry}
+
+\usepackage{graphicx}
+\usepackage{tabularx,array}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\section*{Daily Dilbert $year-$month-$day}
+
+\includegraphics[width=\linewidth]{$year/$month/$day}
+
+\subsection*{Umlauf}
+\label{sec:umlauf}
+
+\begin{center}
+  \begin{tabularx}{\linewidth}{*3{|>{\bfseries}l|X|}}
+    \firsthline
+    Hoel&&SMt&&MLie&\\[.6cm]
+    \hline
+    Ca&& GPo&& WiG&\\[.6cm]
+    \lasthline
+  \end{tabularx}
+\end{center}
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-engine: luatex
+%%% TeX-PDF-mode: true
+%%% TeX-master: t
+%%% End: 
