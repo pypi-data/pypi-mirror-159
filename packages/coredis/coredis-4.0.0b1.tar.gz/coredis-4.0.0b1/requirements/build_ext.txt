@@ -1,0 +1,4 @@
+beartype
+git+https://github.com/python/mypy.git@master#egg=mypy
+packaging>=21,<22
+types-deprecated
