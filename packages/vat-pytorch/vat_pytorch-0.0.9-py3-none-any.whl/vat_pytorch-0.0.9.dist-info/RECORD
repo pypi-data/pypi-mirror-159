@@ -1,0 +1,16 @@
+vat_pytorch/__init__.py,sha256=R2wXV4jQUUhDMzCI-WjkOud0LbnuzRDDX_ikRybMpCs,195
+vat_pytorch/alice.py,sha256=lBDY7-L5_YWWO7wtLthYc1NzXvxiSEoyKnG4puGVbeA,2974
+vat_pytorch/alicepp.py,sha256=KncWCJZozItJZfTFKXZnXXrJNbVnePsEXYBO2HVU7h8,3881
+vat_pytorch/smart.py,sha256=mETUtxNpd3iuKbRfphu0MPe9dZb7KN2Gzv-pMxjYFJc,2058
+vat_pytorch/utils.py,sha256=x_K1CDMD1-uBt-nKuTnA5I_UIz4gM8NJMiEjTn0iBDQ,1159
+vat_pytorch/models/__init__.py,sha256=a_w7r1wM7tBWI3jtttbBlJiyAB-XnO089eBz4S_9pSc,293
+vat_pytorch/models/alice_classification_model.py,sha256=LE-uRfCVwIRPGrdW8RiHXRoVDowA2VYg_js9JzF0_Zw,932
+vat_pytorch/models/alicepp_classification_model.py,sha256=AMKAJtPSkd-OTIrQcqRTgPwDoYHn77dFpviQuWYVa9w,1089
+vat_pytorch/models/extracted_model.py,sha256=LdEUU_z2GCM1rWz8S9irmKN-fyXck-WUev1WPl5sOEU,585
+vat_pytorch/models/extracted_roberta.py,sha256=giMm5N-hbxAuRlA-84Xjhe0vhvhQQNiYbdR3oxlR1hY,1503
+vat_pytorch/models/smart_classification_model.py,sha256=p7w-XVT5pjT8IsgnRa42OYrXY4hqg9mgrE7xcKPtJig,1118
+vat_pytorch-0.0.9.dist-info/LICENSE,sha256=7JTNKIh3GWz7t4VR6FMVGqfFP55UvmWbOFqF3qOd-q0,1068
+vat_pytorch-0.0.9.dist-info/METADATA,sha256=UEDq1DKyOlc_si7wg_JnomLfQUJkq_39JBksDfMl-LI,710
+vat_pytorch-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vat_pytorch-0.0.9.dist-info/top_level.txt,sha256=VQsQAOwNt1iSYk2e87Vs9bgamQ5e1xLxTXHWMlQb4x8,12
+vat_pytorch-0.0.9.dist-info/RECORD,,
