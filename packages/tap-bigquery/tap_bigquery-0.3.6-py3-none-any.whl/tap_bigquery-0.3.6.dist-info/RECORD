@@ -1,0 +1,10 @@
+tap_bigquery/__init__.py,sha256=-54xmR1bGBIZuEF64wljQQp2tljIcBdLzO3OvJazlNY,5458
+tap_bigquery/sync_bigquery.py,sha256=SNVifovt7qqPVdVp8oQkiwe9-Omax3zbT1amsoi7kL4,8302
+tap_bigquery/utils.py,sha256=j6KrY4XXbe1k12aM2dpaMzDqt7hxSMSKCeFX-w7VxA0,333
+tap_bigquery-0.3.6.dist-info/AUTHORS.md,sha256=yGZ3u5jhHp4wIoy8GY0iKy8BXxVd8nDMVMxD9GxDK_k,192
+tap_bigquery-0.3.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tap_bigquery-0.3.6.dist-info/METADATA,sha256=nneLLGeYa8iILndr2-7aooF67NbiAJvXxzJHHfAd2Eg,8793
+tap_bigquery-0.3.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tap_bigquery-0.3.6.dist-info/entry_points.txt,sha256=XQQc4u4pNeEeO__qx0S6-ckdKXQx7EG5VNjZyq0Iot0,62
+tap_bigquery-0.3.6.dist-info/top_level.txt,sha256=grEzOcRtvuooouDM2aBUlTGIhbAaHcAzhBSMChi0suc,13
+tap_bigquery-0.3.6.dist-info/RECORD,,
