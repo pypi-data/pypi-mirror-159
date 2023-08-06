@@ -1,0 +1,15 @@
+command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+command/clean.py,sha256=DgrJs8GcBS2jDS_NolKlY0J3ba-XKBQLtsvAcs4Xx4k,2182
+command/create.py,sha256=thR3oZcF-OcjjbXEAM499K6YOitlqWBIPiXXazIgcVs,939
+command/delete.py,sha256=o2wRXaNWPSGfSKdaCuAdZBXKz3zOpO6iR127IH8KyHI,375
+command/filter.py,sha256=lBTNw7MEZtp_9OfVWQkfX-kXjzm3r7Y4kmjJNdlOAAo,1463
+command/list.py,sha256=GEP96j0-ZQf6x4LJTwlyD3bqxJbz-dfJJse58OI0ah4,651
+command/main.py,sha256=1wQJCXbov4UrxboC2nEr41lQXSOAy3c3s2FvlvEbLuk,383
+command/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+command/utils/helpers.py,sha256=AchsrehCTkAiDgbloJ_MGr-jWd431jj3XHplwsjze6M,4190
+video_duplicate_remover-0.1.0.dist-info/LICENSE,sha256=KO2FyCCw-Qexv5QPXGZsURNbJ6ke54p56ziG2nIBY2g,1080
+video_duplicate_remover-0.1.0.dist-info/METADATA,sha256=MnN4sD5H4Q8rDExB6iYH0gKdUe2enb4jOKGzruqQl44,2091
+video_duplicate_remover-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+video_duplicate_remover-0.1.0.dist-info/entry_points.txt,sha256=sAne-vbwZFpUz1omTFouS023Somc4rhQXqAWdvpn0Wk,55
+video_duplicate_remover-0.1.0.dist-info/top_level.txt,sha256=8KPVSTVmp0OK6hk0hMpV3B7jpwDOtE4m3H2teCAWFHs,8
+video_duplicate_remover-0.1.0.dist-info/RECORD,,
