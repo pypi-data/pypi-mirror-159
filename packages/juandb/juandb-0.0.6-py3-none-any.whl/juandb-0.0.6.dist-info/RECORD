@@ -1,0 +1,10 @@
+juandb/__init__.py,sha256=cMJgP2itpM8WgKmr38yssZ54l30w_w_Lxr9VeK9Npy0,245
+juandb/main.py,sha256=YMxVgXGYBNUC-Nf6-Klp7ZoDRZEUXMD-Gn48zHBGJpM,3145
+juandb/orders_db_wrapper.py,sha256=4c02maR35YmtNteqoRKKaiMyt_iqOM7g2Gxa_ndTLY8,16681
+juandb/const/__init__.py,sha256=pi6D2w7m9Opvdd0d7z7bNT3Q08veBqWe1g3WKjU5q5o,859
+juandb/const/bahador_const.py,sha256=ARb3ZFclBUB5eiDnXCmhLgmSWMlAhSJa9-4CblL9rYQ,4605
+juandb/const/wallex_const.py,sha256=RLRsci3BvyjqjXhafYgc3a5IoRXO1BxeZcb_Dch_Wg8,50059
+juandb-0.0.6.dist-info/METADATA,sha256=wwPol6cI3Bv608WSfkDKIKZrAMzHMG6CrvqOT6h6kVI,930
+juandb-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+juandb-0.0.6.dist-info/top_level.txt,sha256=jMXF9XAvInvnlfqd7mGdaeNhSd2IXINFMhDxyn24AFI,7
+juandb-0.0.6.dist-info/RECORD,,
