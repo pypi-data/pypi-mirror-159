@@ -1,0 +1,11 @@
+word_text_counter/__init__.py,sha256=V-aJiXsQ9pg3iMojq_kAK6Jx-xd2GVzanT83gtM5tJs,371
+word_text_counter/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+word_text_counter/data/flatland.txt,sha256=xEZnuXkdM4l5Q4VGtiTz5ZfAtmeSpZ5smhL5TWrvdlM,227172
+word_text_counter/data/lostworld.txt,sha256=fxJezReaSPc7W_sTHcVbu0eBUNKQXqejUXLuKxfdk9g,451796
+word_text_counter/data/time_machine.txt,sha256=Ux4R0RhcpKhst6z2D9RZQ8FZGUWupA9PHB6ld9_W4tk,204357
+word_text_counter/datasets.py,sha256=oDALhMXev4r1LxyYUYiYrI4m-VLevWCQSxClaOVFp6I,873
+word_text_counter/word_text_counter.py,sha256=JzzP_I9mE4GRQt8sGplmSbSe3aVqWGgriT0McIw4uuU,1437
+word_text_counter-0.3.0.dist-info/LICENSE,sha256=j5PaB3lNXGfzumTbOrHunf0l4eJqQ95oeuSlIWZRDpY,1066
+word_text_counter-0.3.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+word_text_counter-0.3.0.dist-info/METADATA,sha256=aT0OHO4sclpPAqsfYoS4PcwEBlghr6i4qKaDu5Ap930,1214
+word_text_counter-0.3.0.dist-info/RECORD,,
