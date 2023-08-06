@@ -1,0 +1,13 @@
+setup.cfg
+setup.py
+fastapi-filter/__init__.py
+fastapi-filter/exceptions.py
+fastapi-filter/filter.py
+fastapi-filter/main.py
+fastapi-filter/middleware.py
+fastapi-filter/utils.py
+filter_api.egg-info/PKG-INFO
+filter_api.egg-info/SOURCES.txt
+filter_api.egg-info/dependency_links.txt
+filter_api.egg-info/requires.txt
+filter_api.egg-info/top_level.txt
