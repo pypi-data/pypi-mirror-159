@@ -1,0 +1,38 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['lightwait']
+
+package_data = \
+{'': ['*'], 'lightwait': ['template/*', 'www/css/*', 'www/image/*']}
+
+install_requires = \
+['Jinja2>=3.1.2,<4.0.0',
+ 'Markdown>=3.3.7,<4.0.0',
+ 'click>=8.1.3,<9.0.0',
+ 'feedgen>=0.9.0,<0.10.0',
+ 'pathvalidate>=2.5.0,<3.0.0']
+
+entry_points = \
+{'console_scripts': ['lightwait = lightwait.cli:cli']}
+
+setup_kwargs = {
+    'name': 'lightwait',
+    'version': '0.0.4.1',
+    'description': 'Light-wait produces the bare minimum blog content from markdown files',
+    'long_description': "\n![light-wait](img/light-wait-logo.png)\n\n![GitHub release (latest by date)](https://img.shields.io/github/v/release/mechregard/light-wait)\n![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mechregard/light-wait)\n[![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)\n![Keybase PGP](https://img.shields.io/keybase/pgp/dlange)\n![PyPI](https://img.shields.io/pypi/v/lightwait)\n![PyPI - Wheel](https://img.shields.io/pypi/wheel/lightwait)\n\n`light-wait` is a blogging platform to produce light (as in features), minimal wait (as in fast to download) web content from markdown.\n\nLight-wait produces the bare minimum blog content from markdown files:\n* overview and tag (category) indexes\n* RSS feed\n* configuration file to simplify customization \n\nHere is an example screen-shot of blog content:\n\n![GIF demo](img/screen.png)\n\n\n## Usage\n\n```\nUsage: lightwait [OPTIONS] COMMAND [ARGS]...\n\nOptions:\n  --debug / --no-debug\n  --help    Show this message and exit.\n\nCommands:\n  export    Export markdown of content to given TARGET_DIR\n  generate  Create html and rss content within given DOCROOT\n  post      Create a blog post using FILE The initial lines in the FILE...\n  post-all  Create a blog post for each file in SRC_DIR The initial lines...\n```\n\n## Quick Start\n\n1. Install with pip\n\n    + `$ pip install lightwait`\n\nUse light-wait to generate blog content from existing markdown. Create a blog post from a single markdown\nfile, providing optional name, description and tags, or point to a directory of markdown files and create\nposts from each file.\n \nIn this example, a post is created from a markdown file about opensource, and it is tagged 'software':\n\n```\n $ lightwait post example/opensource.md -n opensourced -d 'How Light-wait was open-sourced' -t software\n```\n\nIn this example, a post is created for each markdown file in the given directory `mydir`.\n\n```\n $ lightwait post-all mydir/\n```\n\nLight-wait creates the static site content at the configured `docroot`directory, which by default\nis at `/usr/local/var/www/`. \nA python web server can be used to verify the content:\n\n```\n $ cd /usr/local/var/www/\n $ python3 -m http.server\n```\n\n## Post metadata\nEach post is assigned the following metadata, either derived from the markdown file or overridden by \ncommand line arguments:\n\n* title: default to markdown file create date and a hash of the file name\n* description: default to first non-comment line of the markdown file\n* tags: default to `general`\n* date: default to markdown file create date\n\nAdditionally, a markdown file may contain this metadata as a comment at the start of the file:\n```\n[//]: # (tags:['general'])\n```\n\n## Configuration Options\n\nLight-wait is designed with customization in mind. When Light-wait is first run, a directory \nis created under the user home directory. This is called `.lightwait` and it will hold\nconfiguration, CSS, templates and imported markdown and metadata:\n\n```\n $ cd ~/.lightwait\n $ ls\n lightwait.ini\tmarkdown\tmetadata\ttemplate\twww\n $\n```\nThese files will only be copied if this initial set does not exist- you can freely modify\nthem, or if you wish to start over, remove them for Light-wait to re-initialize.\n\nThe most important user-defined configurations are held in the `lightwait.ini` file. \n\nThis file contains the following properties, used to customize your static site:\n```\nurl = http://localhost:8080/\nblogTitle = title\nblogSubTitle = subtitle\nblogTagLine = tagLine\nblogAuthor = author\nblogAuthorEmail = author@example.com\nblogLang = en\ncopyright = &copy; name date\ndocroot = /usr/local/var/www/\n```\n\n`lightwait.ini` is a python INI file (see configparser), containing a default configuration section and the \npossibility to have multiple overriding configuration sections. Light-wait uses the `lw` section and inherits all \ndefaults. You can configure the defaults for your site and override specific properties based on how\nyou wish to deploy your static content.\n\nAn example of using an override property is to be able to test locally but deploy remotely:\n\n```INI\n[DEFAULT]\nurl = http://localhost:8080/\n\n[lw]\nurl = http://some.domain/\n```\n\nRefer to the `example` directory for a fully configured INI.\n\nFeel free to further customize the static content output by changing the templates (jinja2  format) or\ncss. These can be found here:\n\n```\n ~/.lightwait/template/base.index  # Common including footer\n ~/.lightwait/template/main.index  # for main index.html\n ~/.lightwait/template/tag.index   # for tag-SOMETAG.html \n ~/.lightwait/template/post.index  # for each post\n ~/.lightwait/www/css/main.css\n```\n\nThe static site content can be re-generated from the posts at any time using the `generate` command. \nThis has an optional docroot argument, allowing you to override the configuration setting:\n\n```\n $ lightwait generate\n```\n\n## Running local web server Example\nThe following is an example of running lighttpd, a fast and lightweight web server,\nand generating web content from markdown files, using Light-wait.\n\nTo install lighttpd on MacOS using homebrew\n\n```\n $ brew update \n $ brew install lighttpd\n $ brew services start lighttpd\n```\n\nThis installs a default configuration file `/usr/local/etc/lighttpd/lighttpd.conf`\n and a docroot at `/usr/local/var/www`\n\nThen open a browser to http://localhost:8080/\n\n## Exporting your markdown\nYou can export all of your markdown content to a directory using the `export` command. This additionally\nwill add post metadata, such as any description or tags, as markdown comments at the top of each file.\nHere is an example of exporting all markdown data to the directory `exportdir`:\n```\n $ lightwait export ./exportdir\n```\n\n## Tool Chain and Frameworks\nThe following frameworks and tools enable Light-wait:\n\n* https://python-markdown.github.io/\n* https://jinja.palletsprojects.com/en/2.11.x/\n* https://feedgen.kiesow.be/\n* https://palletsprojects.com/p/click/\n* https://github.com/psf/black\n* https://shields.io/\n* https://pypi.org/\n\nDetails are provided under the `example` markdown\n\n## How to Contribute\n1. Clone repo and create a new branch: `$ git checkout https://github.com/mechregard/light-wait -b name_for_new_branch`.\n2. Make changes and test with `pytest` and `tox` (for testing on different versions of python)\n3. Submit Pull Request with comprehensive description of changes\n\n## Donations\nThis is free, open-source software. \n\n\nImage credit goes to: https://dauntlessfightclub.net/\n",
+    'author': 'dlange',
+    'author_email': None,
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/mechregard/light-wait',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.8,<4.0',
+}
+
+
+setup(**setup_kwargs)
