@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/tvslr/__init__.py
+src/tvslr/__main__.py
+src/tvslr/tvslr.py
+src/tvslr.egg-info/PKG-INFO
+src/tvslr.egg-info/SOURCES.txt
+src/tvslr.egg-info/dependency_links.txt
+src/tvslr.egg-info/entry_points.txt
+src/tvslr.egg-info/requires.txt
+src/tvslr.egg-info/top_level.txt
