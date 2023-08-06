@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: pygnore-cli
+Version: 1.0.0
+Summary: Generate gitignore file using the github ignore template
+
