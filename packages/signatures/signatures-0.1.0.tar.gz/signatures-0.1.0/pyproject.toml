@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "signatures"
+version = "0.1.0"
+description = "Utilities for inspecting and comparing Python function signatures."
+authors = ["Joseph Hale <me@jhale.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pre-commit = "^2.20.0"
+liccheck = "^0.7.1"
+mypy = "^0.961"
+black = "^22.6.0"
+
+[tool.liccheck]
+authorized_licenses = [
+    "MIT",
+    "Apache-2.0",
+    "Apache Software",
+    "Apache License, Version 2.0",
+    "Apache License 2.0",
+    "BSD",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "LGPL-2.1",
+    "LGPL-3.0",
+    "MPL-2.0",
+    "Mozilla Public License 2.0 (MPL 2.0)",
+    "Unlicense"
+]
+unautorized_licenses = [
+    "GPL",
+    "GNU General Public License v2 (GPLv2)"
+]
+
+[tool.liccheck.authorized_packages]
+# None right now.
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
