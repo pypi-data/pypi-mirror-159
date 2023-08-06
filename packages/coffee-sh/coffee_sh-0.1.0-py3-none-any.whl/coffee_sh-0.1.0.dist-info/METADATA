@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: coffee-sh
+Version: 0.1.0
+Summary: Coffee is a command-line utility for developers who want their task list at termial
+Author: Aadityansha
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: tinydb (>=4.7.0,<5.0.0)
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+# Coffee.sh
+
+Coffee is a command-line utility for developers who want their task list at terminal
+
+## Installation
+
+```bash
+pip install coffee-sh
+```
+
+## Usage
+
+To add a new task
+
+```bash
+coffee add "Drink Water"
+```
+
+To Update task
+
+```bash
+coffee update 1 --task "Drink More Water"
+```
+
+> Here 1 is task ID which is unique
+
+To Delete task
+
+```bash
+coffee drop 1
+```
+
+> Here 1 is task ID which is unique
+
+To show all tasks
+
+```
+coffee tasks
+```
+
+To remove all tasks
+```bash
+coffee erase
+```
+
