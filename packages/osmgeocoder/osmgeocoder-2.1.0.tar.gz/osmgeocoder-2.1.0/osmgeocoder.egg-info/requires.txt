@@ -1,0 +1,7 @@
+psycopg2>=2.8
+pyproj>=1.9
+Shapely>=1.6
+requests>=2.18
+PyYAML>=5.0
+pystache>=0.5
+python-geohash>=0.8.5
