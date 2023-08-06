@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: cvbox
+Version: 0.0.4
+Summary: A set of reusable tools for computer vision or any deep learning projects.
+Home-page: https://github.com/kelvinAI/cvbox
+Author: Kelvin Kong
+Author-email: kelvin86@gmail.com
+License: Apache
+Description: Computer Vision Box Toolkit
+        A collection of commonly used functions in any Computer Vision / Deep Learning projects
+        
+Keywords: deep learning tools library computer vision
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
