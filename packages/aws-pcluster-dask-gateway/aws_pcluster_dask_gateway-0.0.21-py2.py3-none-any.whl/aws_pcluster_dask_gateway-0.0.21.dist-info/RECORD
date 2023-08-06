@@ -1,0 +1,9 @@
+aws_pcluster_dask_gateway/__init__.py,sha256=vD7UnoivdkJo3YLyyRWrjHCQlg7B85wTRDULE3sQo4Y,232
+aws_pcluster_dask_gateway/aws_pcluster_dask_gateway.py,sha256=9A6yToBDwlC705OfN9WYNLGCA1GFcd_wFTXvZCbDCZ8,9193
+aws_pcluster_dask_gateway/cli.py,sha256=5bQC9z30UUjhMELt1i0zydSPeBfCHKzLMV1gUkvAK_M,453
+aws_pcluster_dask_gateway-0.0.21.dist-info/LICENSE,sha256=Qog2Ymsa7XGRf7fEh1Wi05CRN04Ojnz2_AeqO9qJMyw,584
+aws_pcluster_dask_gateway-0.0.21.dist-info/METADATA,sha256=6PdrNJbtuL9kjz9RWkJs8sTqKPhrB_HgwIKH2PMEqp0,2192
+aws_pcluster_dask_gateway-0.0.21.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aws_pcluster_dask_gateway-0.0.21.dist-info/entry_points.txt,sha256=em0IgwBsYXRNgcgUJYbL7VHdSKM6iqEXd0YnRy2EKT8,81
+aws_pcluster_dask_gateway-0.0.21.dist-info/top_level.txt,sha256=beFzQsMsa-_EXftaQbr2bOrHvRf0ozm6kBf5BhgnQjY,26
+aws_pcluster_dask_gateway-0.0.21.dist-info/RECORD,,
