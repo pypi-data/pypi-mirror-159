@@ -1,0 +1,13 @@
+README.md
+setup.py
+cn_clip.egg-info/PKG-INFO
+cn_clip.egg-info/SOURCES.txt
+cn_clip.egg-info/dependency_links.txt
+cn_clip.egg-info/requires.txt
+cn_clip.egg-info/top_level.txt
+cn_clip/clip/vocab.txt
+cn_clip/clip/model_configs/RoBERTa-wwm-ext-base-chinese.json
+cn_clip/clip/model_configs/RoBERTa-wwm-ext-large-chinese.json
+cn_clip/clip/model_configs/ViT-B-16.json
+cn_clip/clip/model_configs/ViT-B-32.json
+cn_clip/clip/model_configs/ViT-L-14.json
