@@ -1,0 +1,10 @@
+GlobalRadiation_Tmrt_RayMan.cpython-38-darwin.so,sha256=__mkyBu0YSPRl11qEI-mcKmFcyEl-R0NkGOTceWYsEs,311648
+PMV_func.cpython-38-darwin.so,sha256=H5hPzlx65gtes1zdi_aSanjnL7M4hgeHuX3IZuCdMms,183592
+SET_func.cpython-38-darwin.so,sha256=4IXJn-3hfecUW9iBDfoYXHbySSAdy-2Tqw-Q2bB5EvY,246560
+UTCI_apporf.cpython-38-darwin.so,sha256=rW_HIanp97EbCQnyQl_8Xv0OzACfmEs7ej9SuBjj2Cg,358184
+mPET_func_ord.cpython-38-darwin.so,sha256=cO5TmcEitEL1Q1x5jrEXAzy24Gieun3vRqaeDh05Jug,3114640
+pet_func.cpython-38-darwin.so,sha256=IpNkhXGQ6NRAqtxYg6QdOC9nH90p5FSqr3g_qCGqA5w,380160
+biometeo-0.0.3.dist-info/METADATA,sha256=2buGEJtGpJdQGEccdoX5Enzt6CqtbbfaGlZFT9glci0,740
+biometeo-0.0.3.dist-info/WHEEL,sha256=41k1hP4gcfQ_taLS-KhXoYsmEkE_N3UuiTg4JwfERU8,110
+biometeo-0.0.3.dist-info/top_level.txt,sha256=a2CW0F7QIUCWmm-T5HUTcPrhi3joAfVYSuSLyyEnxbc,81
+biometeo-0.0.3.dist-info/RECORD,,
