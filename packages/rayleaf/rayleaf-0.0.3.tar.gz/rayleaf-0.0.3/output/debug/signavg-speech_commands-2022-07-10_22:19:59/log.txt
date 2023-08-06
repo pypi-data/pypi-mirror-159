@@ -1,0 +1,91 @@
+
+############################## Experiment details ##############################
+
+dataset: speech_commands
+dataset_dir: ../datasets/speech_commands/
+output_dir: output/debug/signavg-speech_commands-2022-07-10_22:19:59/
+model: cnn
+num_rounds: 100
+eval_every: 10
+ServerType: <class 'rayleaf.entities.server.Server'>
+client_types: [(<class 'rayleaf.entities.client.Client'>, 1)]
+clients_per_round: 1
+client_lr: 0.001
+batch_size: 64
+seed: 0
+use_val_set: False
+num_epochs: 5
+gpus_per_client_cluster: 0.75
+num_client_clusters: 8
+save_model: False
+
+############################## Simulation ##############################
+
+Spawning 8 ClientClusters using cuda device (this may take a while)
+1 total clients: 1 Client
+
+>>> Training Accuracy: Round 0 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0238095 | 0.0238095 |         0.0238095 |         0.0238095 |
++-----------+-----------+-------------------+-------------------+
+>>> Test Accuracy: Round 0 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.015625 | 0.015625 |          0.015625 |          0.015625 |
++-----------+----------+-------------------+-------------------+
+--- Round 1 of 100: Training 1 clients: 1 Client ---
+--- Round 2 of 100: Training 1 clients: 1 Client ---
+--- Round 3 of 100: Training 1 clients: 1 Client ---
+--- Round 4 of 100: Training 1 clients: 1 Client ---
+--- Round 5 of 100: Training 1 clients: 1 Client ---
+--- Round 6 of 100: Training 1 clients: 1 Client ---
+--- Round 7 of 100: Training 1 clients: 1 Client ---
+--- Round 8 of 100: Training 1 clients: 1 Client ---
+--- Round 9 of 100: Training 1 clients: 1 Client ---
+--- Round 10 of 100: Training 1 clients: 1 Client ---
+>>> Training Accuracy: Round 10 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0357143 | 0.0357143 |         0.0357143 |         0.0357143 |
++-----------+-----------+-------------------+-------------------+
+>>> Test Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.046875 | 0.046875 |          0.046875 |          0.046875 |
++-----------+----------+-------------------+-------------------+
+--- Round 11 of 100: Training 1 clients: 1 Client ---
+--- Round 12 of 100: Training 1 clients: 1 Client ---
+--- Round 13 of 100: Training 1 clients: 1 Client ---
+--- Round 14 of 100: Training 1 clients: 1 Client ---
+--- Round 15 of 100: Training 1 clients: 1 Client ---
+--- Round 16 of 100: Training 1 clients: 1 Client ---
+--- Round 17 of 100: Training 1 clients: 1 Client ---
+--- Round 18 of 100: Training 1 clients: 1 Client ---
+--- Round 19 of 100: Training 1 clients: 1 Client ---
+--- Round 20 of 100: Training 1 clients: 1 Client ---
+>>> Training Accuracy: Round 20 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0555556 | 0.0555556 |         0.0555556 |         0.0555556 |
++-----------+-----------+-------------------+-------------------+
+>>> Test Accuracy: Round 20 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|    0.0625 |   0.0625 |            0.0625 |            0.0625 |
++-----------+----------+-------------------+-------------------+
+--- Round 21 of 100: Training 1 clients: 1 Client ---
+--- Round 22 of 100: Training 1 clients: 1 Client ---
+--- Round 23 of 100: Training 1 clients: 1 Client ---
+--- Round 24 of 100: Training 1 clients: 1 Client ---
+--- Round 25 of 100: Training 1 clients: 1 Client ---
+--- Round 26 of 100: Training 1 clients: 1 Client ---
+--- Round 27 of 100: Training 1 clients: 1 Client ---
+--- Round 28 of 100: Training 1 clients: 1 Client ---
+--- Round 29 of 100: Training 1 clients: 1 Client ---

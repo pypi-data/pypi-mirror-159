@@ -1,0 +1,26 @@
+
+############################## Experiment details ##############################
+
+dataset: speech_commands
+dataset_dir: ../datasets/speech_commands/
+output_dir: output/debug/signavg-speech_commands-2022-07-10_21:24:56/
+model: mel
+num_rounds: 100
+eval_every: 10
+ServerType: <class 'rayleaf.entities.server.Server'>
+client_types: [(<class 'rayleaf.entities.client.Client'>, 100)]
+clients_per_round: 10
+client_lr: 0.01
+batch_size: 64
+seed: 0
+use_val_set: False
+num_epochs: 5
+gpus_per_client_cluster: 0.75
+num_client_clusters: 8
+save_model: False
+
+############################## Simulation ##############################
+
+Spawning 8 ClientClusters using cuda device (this may take a while)
+100 total clients: 100 Clients
+

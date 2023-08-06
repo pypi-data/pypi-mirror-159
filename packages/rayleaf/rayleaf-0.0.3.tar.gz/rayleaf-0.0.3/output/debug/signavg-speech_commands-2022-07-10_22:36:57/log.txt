@@ -1,0 +1,262 @@
+
+############################## Experiment details ##############################
+
+dataset: speech_commands
+dataset_dir: ../datasets/speech_commands/
+output_dir: output/debug/signavg-speech_commands-2022-07-10_22:36:57/
+model: m5
+num_rounds: 100
+eval_every: 10
+ServerType: <class 'rayleaf.entities.server.Server'>
+client_types: [(<class 'rayleaf.entities.client.Client'>, 100)]
+clients_per_round: 10
+client_lr: 0.05
+batch_size: 64
+seed: 0
+use_val_set: False
+num_epochs: 5
+gpus_per_client_cluster: 0.75
+num_client_clusters: 8
+save_model: False
+
+############################## Simulation ##############################
+
+Spawning 8 ClientClusters using cuda device (this may take a while)
+100 total clients: 100 Clients
+
+>>> Training Accuracy: Round 0 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0373228 | 0.039604 |         0.0260206 |         0.0495545 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 0 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0367361 |     0.04 |                 0 |         0.0769231 |
++-----------+----------+-------------------+-------------------+
+--- Round 1 of 100: Training 10 clients: 10 Clients ---
+--- Round 2 of 100: Training 10 clients: 10 Clients ---
+--- Round 3 of 100: Training 10 clients: 10 Clients ---
+--- Round 4 of 100: Training 10 clients: 10 Clients ---
+--- Round 5 of 100: Training 10 clients: 10 Clients ---
+--- Round 6 of 100: Training 10 clients: 10 Clients ---
+--- Round 7 of 100: Training 10 clients: 10 Clients ---
+--- Round 8 of 100: Training 10 clients: 10 Clients ---
+--- Round 9 of 100: Training 10 clients: 10 Clients ---
+--- Round 10 of 100: Training 10 clients: 10 Clients ---
+>>> Training Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.274538 | 0.272097 |          0.142571 |          0.408347 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.242317 | 0.230769 |          0.115385 |               0.4 |
++-----------+----------+-------------------+-------------------+
+--- Round 11 of 100: Training 10 clients: 10 Clients ---
+--- Round 12 of 100: Training 10 clients: 10 Clients ---
+--- Round 13 of 100: Training 10 clients: 10 Clients ---
+--- Round 14 of 100: Training 10 clients: 10 Clients ---
+--- Round 15 of 100: Training 10 clients: 10 Clients ---
+--- Round 16 of 100: Training 10 clients: 10 Clients ---
+--- Round 17 of 100: Training 10 clients: 10 Clients ---
+--- Round 18 of 100: Training 10 clients: 10 Clients ---
+--- Round 19 of 100: Training 10 clients: 10 Clients ---
+--- Round 20 of 100: Training 10 clients: 10 Clients ---
+>>> Training Accuracy: Round 20 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.381931 | 0.380131 |           0.19349 |          0.562102 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 20 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.367715 | 0.346154 |          0.174824 |               0.6 |
++-----------+----------+-------------------+-------------------+
+--- Round 21 of 100: Training 10 clients: 10 Clients ---
+--- Round 22 of 100: Training 10 clients: 10 Clients ---
+--- Round 23 of 100: Training 10 clients: 10 Clients ---
+--- Round 24 of 100: Training 10 clients: 10 Clients ---
+--- Round 25 of 100: Training 10 clients: 10 Clients ---
+--- Round 26 of 100: Training 10 clients: 10 Clients ---
+--- Round 27 of 100: Training 10 clients: 10 Clients ---
+--- Round 28 of 100: Training 10 clients: 10 Clients ---
+--- Round 29 of 100: Training 10 clients: 10 Clients ---
+--- Round 30 of 100: Training 10 clients: 10 Clients ---
+>>> Training Accuracy: Round 30 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.460255 | 0.467017 |          0.230519 |          0.683806 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 30 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.433769 | 0.452991 |          0.199231 |          0.692308 |
++-----------+----------+-------------------+-------------------+
+--- Round 31 of 100: Training 10 clients: 10 Clients ---
+--- Round 32 of 100: Training 10 clients: 10 Clients ---
+--- Round 33 of 100: Training 10 clients: 10 Clients ---
+--- Round 34 of 100: Training 10 clients: 10 Clients ---
+--- Round 35 of 100: Training 10 clients: 10 Clients ---
+--- Round 36 of 100: Training 10 clients: 10 Clients ---
+--- Round 37 of 100: Training 10 clients: 10 Clients ---
+--- Round 38 of 100: Training 10 clients: 10 Clients ---
+--- Round 39 of 100: Training 10 clients: 10 Clients ---
+--- Round 40 of 100: Training 10 clients: 10 Clients ---
+>>> Training Accuracy: Round 40 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.501974 |    0.495 |          0.259664 |          0.727518 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 40 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.469092 |     0.48 |          0.228281 |          0.733692 |
++-----------+----------+-------------------+-------------------+
+--- Round 41 of 100: Training 10 clients: 10 Clients ---
+--- Round 42 of 100: Training 10 clients: 10 Clients ---
+--- Round 43 of 100: Training 10 clients: 10 Clients ---
+--- Round 44 of 100: Training 10 clients: 10 Clients ---
+--- Round 45 of 100: Training 10 clients: 10 Clients ---
+--- Round 46 of 100: Training 10 clients: 10 Clients ---
+--- Round 47 of 100: Training 10 clients: 10 Clients ---
+--- Round 48 of 100: Training 10 clients: 10 Clients ---
+--- Round 49 of 100: Training 10 clients: 10 Clients ---
+--- Round 50 of 100: Training 10 clients: 10 Clients ---
+>>> Training Accuracy: Round 50 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.522609 | 0.503906 |          0.279273 |          0.764848 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 50 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.515012 |     0.52 |          0.275199 |          0.790526 |
++-----------+----------+-------------------+-------------------+
+--- Round 51 of 100: Training 10 clients: 10 Clients ---
+--- Round 52 of 100: Training 10 clients: 10 Clients ---
+--- Round 53 of 100: Training 10 clients: 10 Clients ---
+--- Round 54 of 100: Training 10 clients: 10 Clients ---
+--- Round 55 of 100: Training 10 clients: 10 Clients ---
+--- Round 56 of 100: Training 10 clients: 10 Clients ---
+--- Round 57 of 100: Training 10 clients: 10 Clients ---
+--- Round 58 of 100: Training 10 clients: 10 Clients ---
+--- Round 59 of 100: Training 10 clients: 10 Clients ---
+--- Round 60 of 100: Training 10 clients: 10 Clients ---
+>>> Training Accuracy: Round 60 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.520545 | 0.520202 |          0.293419 |             0.763 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 60 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.513599 |     0.52 |              0.28 |              0.76 |
++-----------+----------+-------------------+-------------------+
+--- Round 61 of 100: Training 10 clients: 10 Clients ---
+--- Round 62 of 100: Training 10 clients: 10 Clients ---
+--- Round 63 of 100: Training 10 clients: 10 Clients ---
+--- Round 64 of 100: Training 10 clients: 10 Clients ---
+--- Round 65 of 100: Training 10 clients: 10 Clients ---
+--- Round 66 of 100: Training 10 clients: 10 Clients ---
+--- Round 67 of 100: Training 10 clients: 10 Clients ---
+--- Round 68 of 100: Training 10 clients: 10 Clients ---
+--- Round 69 of 100: Training 10 clients: 10 Clients ---
+--- Round 70 of 100: Training 10 clients: 10 Clients ---
+>>> Training Accuracy: Round 70 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.594114 | 0.605011 |          0.338673 |          0.810423 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 70 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.559166 |     0.56 |          0.318769 |              0.84 |
++-----------+----------+-------------------+-------------------+
+--- Round 71 of 100: Training 10 clients: 10 Clients ---
+--- Round 72 of 100: Training 10 clients: 10 Clients ---
+--- Round 73 of 100: Training 10 clients: 10 Clients ---
+--- Round 74 of 100: Training 10 clients: 10 Clients ---
+--- Round 75 of 100: Training 10 clients: 10 Clients ---
+--- Round 76 of 100: Training 10 clients: 10 Clients ---
+--- Round 77 of 100: Training 10 clients: 10 Clients ---
+--- Round 78 of 100: Training 10 clients: 10 Clients ---
+--- Round 79 of 100: Training 10 clients: 10 Clients ---
+--- Round 80 of 100: Training 10 clients: 10 Clients ---
+>>> Training Accuracy: Round 80 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.603625 | 0.617819 |          0.355974 |          0.856003 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 80 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.572589 | 0.584758 |          0.241241 |              0.84 |
++-----------+----------+-------------------+-------------------+
+--- Round 81 of 100: Training 10 clients: 10 Clients ---
+--- Round 82 of 100: Training 10 clients: 10 Clients ---
+--- Round 83 of 100: Training 10 clients: 10 Clients ---
+--- Round 84 of 100: Training 10 clients: 10 Clients ---
+--- Round 85 of 100: Training 10 clients: 10 Clients ---
+--- Round 86 of 100: Training 10 clients: 10 Clients ---
+--- Round 87 of 100: Training 10 clients: 10 Clients ---
+--- Round 88 of 100: Training 10 clients: 10 Clients ---
+--- Round 89 of 100: Training 10 clients: 10 Clients ---
+--- Round 90 of 100: Training 10 clients: 10 Clients ---
+>>> Training Accuracy: Round 90 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.628656 | 0.655016 |          0.352647 |          0.846154 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 90 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.588131 | 0.588462 |          0.307692 |           0.84399 |
++-----------+----------+-------------------+-------------------+
+--- Round 91 of 100: Training 10 clients: 10 Clients ---
+--- Round 92 of 100: Training 10 clients: 10 Clients ---
+--- Round 93 of 100: Training 10 clients: 10 Clients ---
+--- Round 94 of 100: Training 10 clients: 10 Clients ---
+--- Round 95 of 100: Training 10 clients: 10 Clients ---
+--- Round 96 of 100: Training 10 clients: 10 Clients ---
+--- Round 97 of 100: Training 10 clients: 10 Clients ---
+--- Round 98 of 100: Training 10 clients: 10 Clients ---
+--- Round 99 of 100: Training 10 clients: 10 Clients ---
+--- Round 100 of 100: Training 10 clients: 10 Clients ---
+>>> Training Accuracy: Round 100 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.612686 |    0.645 |          0.353663 |          0.831081 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 100 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.576475 | 0.596875 |           0.31008 |              0.84 |
++-----------+----------+-------------------+-------------------+
+
+############################## Post-Simulation ##############################
+
+Total Experiment time: 0:03:16.834714
