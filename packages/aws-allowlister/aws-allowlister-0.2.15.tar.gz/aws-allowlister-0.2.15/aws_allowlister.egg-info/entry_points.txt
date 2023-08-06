@@ -1,0 +1,2 @@
+[console_scripts]
+aws-allowlister = aws_allowlister.bin.cli:main
