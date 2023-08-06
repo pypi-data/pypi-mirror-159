@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+sqlitetable/_ColumnInfo.py
+sqlitetable/_Constants.py
+sqlitetable/_SqlTools.py
+sqlitetable/_SqliteTable.py
+sqlitetable/__init__.py
+sqlitetable.egg-info/PKG-INFO
+sqlitetable.egg-info/SOURCES.txt
+sqlitetable.egg-info/dependency_links.txt
+sqlitetable.egg-info/top_level.txt

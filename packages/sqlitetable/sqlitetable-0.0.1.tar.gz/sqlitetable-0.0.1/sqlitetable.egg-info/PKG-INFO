@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: sqlitetable
+Version: 0.0.1
+Summary: Use sqlite just like classes!
+Home-page: UNKNOWN
+Author: Poiuzy
+Author-email: poiuzy-ice@qq.com
+Maintainer: Poiuzy
+Maintainer-email: poiuzy-ice@qq.com
+License: MIT License
+Platform: all
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SqliteTable
+
+Use sqlite just like classes!
+
