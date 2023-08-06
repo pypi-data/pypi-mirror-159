@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tap-exacttarget-remove-sud
+Version: 1.6.1
+Summary: Singer.io tap for extracting data from the ExactTarget API
+Home-page: http://fishtownanalytics.com
+Author: Fishtown Analytics
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+License-File: LICENSE
+Requires-Dist: funcy (==1.9.1)
+Requires-Dist: singer-python (==5.9.0)
+Requires-Dist: python-dateutil (==2.6.0)
+Requires-Dist: voluptuous (==0.10.5)
+Requires-Dist: Salesforce-FuelSDK-Sans
+Provides-Extra: dev
+Requires-Dist: ipdb (==0.11) ; extra == 'dev'
+Requires-Dist: pylint (==2.1.1) ; extra == 'dev'
+Requires-Dist: astroid (==2.1.0) ; extra == 'dev'
+Requires-Dist: nose ; extra == 'dev'
+
+UNKNOWN
+
