@@ -1,0 +1,10 @@
+whirly/__init__.py,sha256=Vz94O9_btnI0eIaTf1y90NI6nQgwIDjRfBeKV6Dh6A8,73
+whirly/fourier.py,sha256=45_VnvInMApaBVTEo-xVXtcoow-kXh1braDwWu9TApw,6610
+whirly/integrators.py,sha256=ou8MI13qFcTiB4yTN_9RZ_eCxYdbzcobcTqwmtO6rhY,1755
+whirly/solvers.py,sha256=CYsW1Cdi7m9dN2ikh51UqxpRH66uXSjkRylO6Torjq8,4391
+whirly/utils.py,sha256=zkFuSCChR2bXS3ZPxrEuEVyifsGtEwzCukzMQ1YlkjU,553
+whirly/visuals.py,sha256=I9z0K414Gaj0G1Gl-pBkC602jvMfPEP0W9b07Ej6q1M,2587
+whirly-1.0.0.dist-info/LICENSE,sha256=EtYnaf-puHIZIDpBm94Ewlp8lVtXY9yVrrmPQS_W1r4,1070
+whirly-1.0.0.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+whirly-1.0.0.dist-info/METADATA,sha256=Woay7peYUCMf0PuaIQgCofNcrlvhJem9Low8isH_sqo,1085
+whirly-1.0.0.dist-info/RECORD,,
