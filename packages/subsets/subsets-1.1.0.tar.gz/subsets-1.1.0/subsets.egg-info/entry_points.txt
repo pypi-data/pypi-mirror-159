@@ -1,0 +1,2 @@
+[console_scripts]
+subsets.info = subsets.tools:tool_setinfo
