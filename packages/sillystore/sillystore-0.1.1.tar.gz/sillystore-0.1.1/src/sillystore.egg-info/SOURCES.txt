@@ -1,0 +1,7 @@
+setup.py
+src/sillystore/__init__.py
+src/sillystore/store.py
+src/sillystore.egg-info/PKG-INFO
+src/sillystore.egg-info/SOURCES.txt
+src/sillystore.egg-info/dependency_links.txt
+src/sillystore.egg-info/top_level.txt
