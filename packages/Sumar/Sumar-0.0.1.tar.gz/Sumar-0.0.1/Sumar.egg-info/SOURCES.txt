@@ -1,0 +1,5 @@
+Sumar.egg-info/PKG-INFO
+Sumar.egg-info/SOURCES.txt
+Sumar.egg-info/dependency_links.txt
+Sumar.egg-info/requires.txt
+Sumar.egg-info/top_level.txt
