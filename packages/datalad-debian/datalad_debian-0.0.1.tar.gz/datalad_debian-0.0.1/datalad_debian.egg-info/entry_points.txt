@@ -1,0 +1,2 @@
+[datalad.extensions]
+datalad_debian = datalad_debian:command_suite

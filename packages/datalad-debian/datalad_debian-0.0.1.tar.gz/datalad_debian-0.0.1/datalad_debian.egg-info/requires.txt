@@ -1,0 +1,8 @@
+datalad>=0.17
+datalad-container
+python-debian
+
+[devel]
+pytest
+pytest-cov
+coverage
