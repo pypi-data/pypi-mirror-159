@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ucplotter
+Version: 0.1.0
+Summary: For plotting (repeating) unit cell images of composite materials
+License: MIT
+Author: Rajesh Nakka
+Author-email: 338rajesh@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
