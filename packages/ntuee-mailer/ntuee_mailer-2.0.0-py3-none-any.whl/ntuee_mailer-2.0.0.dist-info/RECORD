@@ -1,0 +1,10 @@
+ntuee_mailer/AutoMailer.py,sha256=ktf3emk5XREKssrlaXcHFzGb7Za7C_yn6kP5rJO6aGw,12877
+ntuee_mailer/Letter.py,sha256=LaGtPo9qOjf70L8SsCrmdhzHJryIWWK8wB2PnQZoBrw,13845
+ntuee_mailer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ntuee_mailer/globals.py,sha256=58hq-05K5B7u_lxMbCYXfaC4oN2-VATUEwPs81AgnRw,159
+ntuee_mailer/main.py,sha256=W-6CsB8GTF1XMq1zWTxs2Z_C4et-zEcnEi8HdZK-dsw,6721
+ntuee_mailer/utils.py,sha256=pKQ7XZrTndlODqw8jYmKGPvTHzbXIrU7SpzmVUERFDs,5008
+ntuee_mailer-2.0.0.dist-info/entry_points.txt,sha256=w1OIcMe4uGI3svG6qGFLMO5Yl_dBH-5SXeG3-KxUmcY,54
+ntuee_mailer-2.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ntuee_mailer-2.0.0.dist-info/METADATA,sha256=tpOhyLhne_2GtETQ3MeqXJNs1a4z36_tBK0rimPrSEU,2685
+ntuee_mailer-2.0.0.dist-info/RECORD,,
