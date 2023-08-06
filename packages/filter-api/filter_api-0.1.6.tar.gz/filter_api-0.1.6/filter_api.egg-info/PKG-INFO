@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: filter-api
+Version: 0.1.6
+Summary: UNKNOWN
+Home-page: https://github.com/PratyushMakkar/fastapi-filter
+Author: Pratyush Makkar
+Author-email: pratyushmakkar@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: Implement request path level filtering for HTTP Requests in FastAPI
+Platform: UNKNOWN
