@@ -1,0 +1,13 @@
+LICENSE
+setup.py
+VisualPy.egg-info/PKG-INFO
+VisualPy.egg-info/SOURCES.txt
+VisualPy.egg-info/dependency_links.txt
+VisualPy.egg-info/requires.txt
+VisualPy.egg-info/top_level.txt
+vpy/__init__.py
+vpy/__main__.py
+vpy/auto_complete.py
+vpy/highlights.py
+vpy/hints.py
+vpy/interactive.py
