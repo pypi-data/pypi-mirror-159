@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: nafparserpy
+Version: 0.3.1
+Summary: lxml wrapper for NAF
+Author: Sophie Arnoult
+Author-email: s.i.arnoult@vu.nl
+Maintainer: Sophie Arnoult
+Maintainer-email: s.i.arnoult@vu.nl
+License: Apache License 2.0
+Project-URL: documentation, https://cltl.github.io/nafparserpy/
+Project-URL: repository, https://github.com/cltl/nafparserpy
+Project-URL: changelog, https://github.com/cltl/nafparserpy/blob/main/Changelog.md
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: lxml
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+*nafparserpy* is a lightweight python XML wrapper for [NAF](https://github.com/cltl/NAF-4-Development/). 
+
+The parser wraps [lxml](https://lxml.de/) to handle NAF trees, providing convenience classes for NAF layers and elements. 
+The resulting objects are decoupled from the underlying `lxml` tree: the user is responsible for creating
+and handling NAF objects, while the parser handles tree manipulation.
+
+To install the parser, run:
+```
+pip install nafparserpy
+```
+
+[USAGE](https://cltl.github.io/nafparserpy/) 
