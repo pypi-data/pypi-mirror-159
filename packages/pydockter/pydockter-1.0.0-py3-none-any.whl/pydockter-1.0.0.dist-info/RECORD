@@ -1,0 +1,10 @@
+dockter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dockter/analyzer.py,sha256=NRXDRXvy2wfuAzxdlRfxeDeoF5FN_tIN2cJ_dFa6WMQ,12584
+dockter/main.py,sha256=Z7ZoUBfCUkgD-GMoAbHgFJtBBWWdcdVUcjP5X2hToBg,920
+dockter/parser.py,sha256=UsOzQUEZkXmvSocLPBmmNe2_zE4qfjdj74YYfMwZK6I,12272
+pydockter-1.0.0.dist-info/LICENSE,sha256=Rc_MCXjFLAbn3YXzbQCg1QHCfcT_ARsONbbsd5zxkak,1069
+pydockter-1.0.0.dist-info/METADATA,sha256=VbVeAlxYhUI0PtuazwysG8kD7CnQL68Tq9kDDqF4R50,4458
+pydockter-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydockter-1.0.0.dist-info/entry_points.txt,sha256=_KxobATVEpfzMu2ZFr05JLp_LzRU-qSzvT8DMU5ZiN4,49
+pydockter-1.0.0.dist-info/top_level.txt,sha256=HsYmJHGvfj4jF3UPXvXy4dprXOmgnxrp34N3XhpJIgc,8
+pydockter-1.0.0.dist-info/RECORD,,
