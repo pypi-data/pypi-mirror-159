@@ -1,0 +1,5 @@
+sh
+nimporter==1.1.0
+schema
+docopt
+maturin==0.12.11
