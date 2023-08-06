@@ -1,0 +1,8 @@
+README.md
+setup.py
+flowgraph/__init__.py
+flowgraph.egg-info/PKG-INFO
+flowgraph.egg-info/SOURCES.txt
+flowgraph.egg-info/dependency_links.txt
+flowgraph.egg-info/not-zip-safe
+flowgraph.egg-info/top_level.txt
