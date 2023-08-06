@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/AK_Repo_pypi/__init__.py
+src/AK_Repo_pypi/perceptron.py
+src/AK_Repo_pypi_midofemi.egg-info/PKG-INFO
+src/AK_Repo_pypi_midofemi.egg-info/SOURCES.txt
+src/AK_Repo_pypi_midofemi.egg-info/dependency_links.txt
+src/AK_Repo_pypi_midofemi.egg-info/requires.txt
+src/AK_Repo_pypi_midofemi.egg-info/top_level.txt
