@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: thisisjustanotherpackage
+Version: 0.0.1
+Summary: this is just another package
+Home-page: UNKNOWN
+Author: thisisjust
+Author-email: this@is.just
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: urllib3
+
+UNKNOWN
+
+
