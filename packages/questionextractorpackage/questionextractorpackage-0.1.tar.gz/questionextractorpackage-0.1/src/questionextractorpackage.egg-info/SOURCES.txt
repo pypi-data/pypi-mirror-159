@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/question_extractor/__init__.py
+src/question_extractor/train_predict_extract_question.py
+src/questionextractorpackage.egg-info/PKG-INFO
+src/questionextractorpackage.egg-info/SOURCES.txt
+src/questionextractorpackage.egg-info/dependency_links.txt
+src/questionextractorpackage.egg-info/requires.txt
+src/questionextractorpackage.egg-info/top_level.txt
