@@ -1,0 +1,7 @@
+setup.py
+cg6.egg-info/PKG-INFO
+cg6.egg-info/SOURCES.txt
+cg6.egg-info/dependency_links.txt
+cg6.egg-info/top_level.txt
+lib/__init__.py
+lib/ok.py
