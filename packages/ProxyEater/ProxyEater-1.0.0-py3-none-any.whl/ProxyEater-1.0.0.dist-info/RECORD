@@ -1,0 +1,11 @@
+ProxyEater/Proxy.py,sha256=FyqIIuHhIEICoQq-kaZ6ApRrifzzcUZ7Yuc7Veg4kwQ,19010
+ProxyEater/Scraper.py,sha256=1HuYU9Q_R9vfF-libMYazS3q29ty2-1L7dlhdRbQUtQ,7273
+ProxyEater/__init__.py,sha256=NA8tMVKehqCvrDtuX1rMobf0G5cydsgNrp1sQLGSU9I,423
+ProxyEater/__main__.py,sha256=LWIuxLtlsgrEZ4u9rU9mMOYpIFv7q5LDtRmjLWBvWqQ,9030
+ProxyEater/sources.json,sha256=dzpaUTBiE2161AzNKXNjWFDiOvs132x7EzLWd5Ya_EA,6988
+ProxyEater-1.0.0.dist-info/LICENSE,sha256=TzoWdhq7JtRcgTrjbXdo_-JE5WOzp0NDmtw6Gr3PoxY,11346
+ProxyEater-1.0.0.dist-info/METADATA,sha256=L2kyVszaSANz4rP2GdtDoUwDIN4XulPb8xbqjIn-H88,3508
+ProxyEater-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+ProxyEater-1.0.0.dist-info/entry_points.txt,sha256=NKS-UT9mmpR80NXh78M0QHxBAtqWzbsSh_cY5GpjWvs,57
+ProxyEater-1.0.0.dist-info/top_level.txt,sha256=CKZ35CM6odMYwR8Kzpvki76RMd5cmtturHabdR_kLeo,11
+ProxyEater-1.0.0.dist-info/RECORD,,
