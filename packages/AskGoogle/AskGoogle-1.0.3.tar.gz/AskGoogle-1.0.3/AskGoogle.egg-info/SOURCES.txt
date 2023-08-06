@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+AskGoogle.egg-info/PKG-INFO
+AskGoogle.egg-info/SOURCES.txt
+AskGoogle.egg-info/dependency_links.txt
+AskGoogle.egg-info/top_level.txt
+askgoogle/__init__.py
+askgoogle/askgoogle.py
