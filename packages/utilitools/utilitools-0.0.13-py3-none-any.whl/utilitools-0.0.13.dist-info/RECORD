@@ -1,0 +1,15 @@
+utilitools/__init__.py,sha256=d7m4Pi_LuAr2SlS9VHvtaKGlSSCGSa0PFJag49ql6z4,154
+utilitools/islice.py,sha256=yZ12A0pUeYAwa5an8fuOFQe49WRtaY8fHoq8sfrML_w,4604
+utilitools/partial.py,sha256=rzUQzhG-ev-kQwXS-516i5gkEicf8P1_LYXNoCHgd8o,1143
+utilitools/singleton.py,sha256=9a44efHHh9LNDiWtZAt8iqiHFb2V1VSjrAMMGk2ujd8,958
+utilitools/subscription.py,sha256=-rBJrdndGHthkqW7NEe_Zu4NHjJwdHJ3qUBabNXXfaw,2763
+utilitools/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utilitools/tests/test_islice.py,sha256=TBCdkj4IDFEo3kzuZIfVZpDOp_u1mPOvgP8W7mreZd8,21754
+utilitools/tests/test_partial.py,sha256=c3m1QM1JSfCx9a3-awgU5AHEru9HCy_sBPnzE-u9aQg,1833
+utilitools/tests/test_singleton.py,sha256=kuK5ZqQiMW_JAeLtvDiYiFWCt59lAEYIAVbBRaZyO3s,305
+utilitools/tests/test_subscription.py,sha256=Q0yQhKklR9EMSh6ne3TE5sOxfB1F2tUjduG9MwlW93w,1750
+utilitools-0.0.13.dist-info/LICENSE,sha256=q_I8otcPeMCHfUKSY0ewxOWV0jAGZzwvFkjJ6Dz0ZKI,1067
+utilitools-0.0.13.dist-info/METADATA,sha256=1bfZlqLVWBxYMKSrVG3sw6AGAY-ZWdRfhhexxt6jWBk,802
+utilitools-0.0.13.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+utilitools-0.0.13.dist-info/top_level.txt,sha256=tTukbi-IRLb0cBBfFSfQkj4AcQ0D6s86pO0xIkeZnUc,11
+utilitools-0.0.13.dist-info/RECORD,,
