@@ -1,0 +1,5 @@
+setup.py
+shaotest.egg-info/PKG-INFO
+shaotest.egg-info/SOURCES.txt
+shaotest.egg-info/dependency_links.txt
+shaotest.egg-info/top_level.txt
