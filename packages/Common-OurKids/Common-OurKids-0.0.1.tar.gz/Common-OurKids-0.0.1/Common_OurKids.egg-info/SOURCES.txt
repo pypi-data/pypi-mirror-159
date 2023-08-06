@@ -1,0 +1,7 @@
+README.md
+setup.py
+Common_OurKids.egg-info/PKG-INFO
+Common_OurKids.egg-info/SOURCES.txt
+Common_OurKids.egg-info/dependency_links.txt
+Common_OurKids.egg-info/requires.txt
+Common_OurKids.egg-info/top_level.txt
