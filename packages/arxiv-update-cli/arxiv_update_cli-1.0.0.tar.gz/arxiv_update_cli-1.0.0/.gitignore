@@ -1,0 +1,10 @@
+*.pyc
+dist/
+__pycache__/
+build/
+*.egg-info
+*.ini
+*.tar.zst
+*.tar.gz
+pkg/
+src/
