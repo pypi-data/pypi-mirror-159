@@ -1,0 +1,11 @@
+kuda/__author__.py,sha256=k61nhJdfDFCjVy24Zl9bPX_0QVfpIvWDS-KyYPJ-EUA,54
+kuda/__init__.py,sha256=xxiiYGGt0C8Ei3YQ2fmDonrHuG4MeJ5CXTpTTiHAFRo,4293
+kuda/__version__.py,sha256=Aj77VL1d5Mdku7sgCgKQmPuYavPpAHuZuJcy6bygQZE,21
+kuda/api.py,sha256=NU7s0IEas46DqKOXNhHRX4Ij9yLVpi3ppzTz1YNIiSM,15145
+kuda/error.py,sha256=2zMIdLljOpv2BhD365GqjHGGrFvQQlW3JTJsMa2KGX0,819
+kuda/savings.py,sha256=4S-i6KyCePG_PSLhxx9nBIbMrBIoH_spbKxQljW4wzA,6423
+kuda_python-1.0.0.dist-info/LICENSE,sha256=oTtAoplI6VKEhScr2t_wqEe9O_OYIMwuxnUP3CmbMJ4,1092
+kuda_python-1.0.0.dist-info/METADATA,sha256=asE8E6TS1fGss5bvcgyyEjmJWQgdB8tT5A1K3xbX2iI,6211
+kuda_python-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+kuda_python-1.0.0.dist-info/top_level.txt,sha256=Tr4QvwVop_nj4GSbJY9ZalE2xGo4DaD_8oZMs6aYah4,5
+kuda_python-1.0.0.dist-info/RECORD,,
