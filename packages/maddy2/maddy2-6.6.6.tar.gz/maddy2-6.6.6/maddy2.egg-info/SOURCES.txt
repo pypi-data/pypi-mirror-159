@@ -1,0 +1,7 @@
+setup.py
+lib/__init__.py
+lib/ok.py
+maddy2.egg-info/PKG-INFO
+maddy2.egg-info/SOURCES.txt
+maddy2.egg-info/dependency_links.txt
+maddy2.egg-info/top_level.txt
