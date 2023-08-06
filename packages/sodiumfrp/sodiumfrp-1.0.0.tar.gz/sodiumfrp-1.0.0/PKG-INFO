@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sodiumfrp
+Version: 1.0.0
+Summary: Python implementation of Sodium - Functional Reactive Programming (FRP) library
+Home-page: https://github.com/mode89/sodium-python
+Author: Stephen Blackheath
+License: BSD-3 License
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Sodium
+
+Port of Sodium - Functional Reactive Programming (FRP) library - to Python.
+
+## Installation
+
+Just `pip install sodiumfrp`.
+
+## Documentation
+
+The most comprehensive guide on this library would be the book
+[Functional Reactive Programming by Stephen Blackheath](https://www.manning.com/books/functional-reactive-programming).
+Even though, the book aims Java, it is pretty straightforward to map it into Python.
+
+To build [API reference](https://sodium-python.readthedocs.io), go to `docs` directory and run `make html`.
+It requires `sphinx` and `sphinx-rtd-theme` packages to be installed.
+
+## Examples
+
+See [examples](examples) directory.
+
+## Development
+
+To run the tests, execute `pytest` from the package directory.
+
+## License
+
+Distributed under [BSD 3-Clause](https://github.com/SodiumFRP/sodium/blob/master/COPYING).
