@@ -1,0 +1,12 @@
+cellpose
+deepblink
+luigi
+matplotlib
+numpy
+pandas
+scipy
+skimage
+tifffile==2020.09.03
+torch
+tqdm
+trackpy
