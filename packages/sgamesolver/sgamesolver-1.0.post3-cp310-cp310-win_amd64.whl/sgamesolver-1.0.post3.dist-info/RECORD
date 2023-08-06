@@ -1,0 +1,17 @@
+sgamesolver/__init__.py,sha256=Nf1_TuPKnBMt_4rk8Za6d-9qZCRN2W4ucMkEMYz5ljw,136
+sgamesolver/homcont.py,sha256=VCs4uOip4P0ib-ZfTg2v-EzOkP3gJEkIrY93eZaWjlE,41573
+sgamesolver/sgame.py,sha256=Im1AJQZalKYQcV59XmUxIyy4za1ObRScotvF4GhRkyo,25052
+sgamesolver/homotopy/__init__.py,sha256=hODQvrATg2BVnEbdRVoRyUMqCP0_Usfxnh6X4KMiOi4,60
+sgamesolver/homotopy/_logtracing.py,sha256=ZBDiuqrpzW2-N508uliUT4aAEkK1_saPtcAcGUdvo1Q,17401
+sgamesolver/homotopy/_logtracing_ct.cp310-win_amd64.pyd,sha256=7_XBG_Y4JS_36GBq2TCcltctlX5QqZ2sfLeO0597la8,197120
+sgamesolver/homotopy/_qre.py,sha256=iyISmA5YNwDleu1I0fLnrprATAZXkMogBeS15hNbjiI,12950
+sgamesolver/homotopy/_qre_ct.cp310-win_amd64.pyd,sha256=3xP-l4GU1b4BHlNni4GzSc1PG3sMcn5TNpaOqL4rUVY,205312
+sgamesolver/homotopy/_shared_ct.cp310-win_amd64.pyd,sha256=agFI6aJjz5rQft9_33o7ec7JVcND47SptPstmk_P4XM,197120
+sgamesolver/utility/excel_timings.py,sha256=Ftimigv91uftgfbzA464q62G5aGmK-IixeU8U7xffiI,18384
+sgamesolver/utility/sgame_conversion.py,sha256=ENMRQTDg3hcyVRM9eUNz1v-F8KV1NdKVqLBSa-HHAEY,10263
+sgamesolver-1.0.post3.dist-info/LICENSE,sha256=WMWURzjrHWAs5L9WuDUvks7KTgQYEWSmUZctyWn-yRQ,1116
+sgamesolver-1.0.post3.dist-info/METADATA,sha256=pa8REfLugckaq6Ov6lHeNTjWIPgHc66qDWMvkvy2uFs,7453
+sgamesolver-1.0.post3.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+sgamesolver-1.0.post3.dist-info/entry_points.txt,sha256=juBg6-Hr3A4AF0hmwHXDhc7thhKoGslNkt-VBrDxmE8,79
+sgamesolver-1.0.post3.dist-info/top_level.txt,sha256=Fcf2TS8MJaraVpIzIJylowXRp6cn8-otB-sbe99iEgM,12
+sgamesolver-1.0.post3.dist-info/RECORD,,
