@@ -1,0 +1,3 @@
+[console_scripts]
+greatapi = greatapi.commands:app
+
