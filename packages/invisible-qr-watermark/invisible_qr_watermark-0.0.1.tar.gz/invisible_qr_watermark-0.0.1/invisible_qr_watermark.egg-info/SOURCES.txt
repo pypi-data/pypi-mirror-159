@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+invisible_qr_watermark/__init__.py
+invisible_qr_watermark/image.py
+invisible_qr_watermark.egg-info/PKG-INFO
+invisible_qr_watermark.egg-info/SOURCES.txt
+invisible_qr_watermark.egg-info/dependency_links.txt
+invisible_qr_watermark.egg-info/top_level.txt
+tests/__init__.py
+tests/test_image.py
