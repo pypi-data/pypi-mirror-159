@@ -1,0 +1,15 @@
+mat_dp_core/__init__.py,sha256=0bOUIy1g70j47xgNkIjmaTQDre4CXix66PeyqLHN74Q,322
+mat_dp_core/further_constraints.py,sha256=vB70IpABZ3oaGLrfvg0Mw_w-5wTLqPVbU-6_mc5kusY,2122
+mat_dp_core/maths_core/__init__.py,sha256=jcRj5pB1Rxs3_xwLdDKGkI_zD6meDi-nvyU-hYzOm4U,190
+mat_dp_core/maths_core/constraints.py,sha256=jjosJVWNxlHvpKlwXW5YG8j2VFK4gAxTEMbh8pttzw8,1945
+mat_dp_core/maths_core/exceptions.py,sha256=5hzay4aVN0zzJPpcH8WEVmQJHYn53li1EpgcfReLXaY,12504
+mat_dp_core/maths_core/processes.py,sha256=nH0-HXnufpq62eV_YD6U1aE0m7Q3EcT8XRIwRZuQ71w,10199
+mat_dp_core/maths_core/resources.py,sha256=rdIe5Le4H4Um99MxP2OH15n5rSL4M_nNdAHilSI_xaU,2539
+mat_dp_core/maths_core/solve.py,sha256=xq5h5LJlw2B74K8-msunDdJVy3Y3i_Rlqf2cXduzlkA,8460
+mat_dp_core/maths_core/solvers.py,sha256=xzC-SGVlhEmuT-Xc9WZXvS2-UBrJsSGJ6nM36BhiMZE,15023
+mat_dp_core/maths_core/tools.py,sha256=p8ct1odGn3Gne3bJxuOZDaaia6peDC3y-vGSPV2m-rM,1781
+mat_dp_core/measure.py,sha256=BJwj1i6oVw4dcYCqlp2t_noOPLme2scC0LfSnzp0XEo,27740
+mat_dp_core-0.1.1.dist-info/LICENSE.md,sha256=F_z34QGoycHkr3TyYEmoSmPKWNwvZyX0_-33TdR3lNk,1261
+mat_dp_core-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mat_dp_core-0.1.1.dist-info/METADATA,sha256=VOQF41fsw-Yvayjczz4-mpf5nw8BtamCQ6cGsWrlPWE,6511
+mat_dp_core-0.1.1.dist-info/RECORD,,
