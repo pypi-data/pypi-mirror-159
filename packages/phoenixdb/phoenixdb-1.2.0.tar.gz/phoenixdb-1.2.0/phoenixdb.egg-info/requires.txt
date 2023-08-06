@@ -1,0 +1,10 @@
+SQLAlchemy
+protobuf>=3.0.0
+requests
+requests-gssapi
+
+[:python_version < "3.6"]
+gssapi<1.6.0
+
+[SQLAlchemy]
+SQLAlchemy
