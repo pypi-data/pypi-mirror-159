@@ -1,0 +1,9 @@
+plotnine3d/__init__.py,sha256=zRQTNsf7Z98JJk_MdrzYNzI-WQ6sW3jPSnk5cNXhD0g,248
+plotnine3d/geoms.py,sha256=YAY6LkA-s3uy3OMQgRlyvyqo0GX_9ZyLJ06yAdLiU8A,5644
+plotnine3d/plot.py,sha256=Cwi49ALiL9cYOCBCyXQdxEOmN-Gvrjube_4eDwWYG7s,504
+plotnine3d/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plotnine3d-0.0.1.dist-info/LICENSE,sha256=oSNg3UTqRe4Gey6XtY46FOG_zoWEpDEvJuA3UbT1v2A,1075
+plotnine3d-0.0.1.dist-info/METADATA,sha256=721fal4Eddf0YpLuhasHRsj4qjsPixiFjhkja2QEISc,2816
+plotnine3d-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+plotnine3d-0.0.1.dist-info/top_level.txt,sha256=b2ry96dYdpg69vmFHNVAW4cdpwEZnvLpSv_LRdF_EyE,11
+plotnine3d-0.0.1.dist-info/RECORD,,
