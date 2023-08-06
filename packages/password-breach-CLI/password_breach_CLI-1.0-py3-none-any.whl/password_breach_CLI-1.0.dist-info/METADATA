@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: password-breach-CLI
+Version: 1.0
+Summary: Check if a password has been breached in all registered data leaks
+Home-page: UNKNOWN
+Author: Sanjeev Bhusal
+Author-email: bhusalsanjeev23@gmail.com
+License: UNKNOWN
+Keywords: python,click,password-breach,pwnedpasswords
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+It is a command line application which accepts a password as a parameter and checks how many times the password was present in a data breach
+
