@@ -1,0 +1,11 @@
+napm/__init__.py,sha256=RKh0lQtvmgTn5iMiCDojzkUZLLUC8MbXnam4uBFx0mo,397
+napm/config.py,sha256=AVFJOLy1pMnLQs4c1n6WXtgR2oCqedjaGk-jjiYW1MM,1823
+napm/pseudo_install.py,sha256=69iq_wjrA4yMcYIj4snQCGTe99j9boi58BHA76FO6hA,2672
+napm/remove.py,sha256=x9juOBM4PWqtZs_U72Iz7RriRTRS4sqBGdMoH5mZ9nc,1682
+napm/update.py,sha256=Z7HbHUHc8NtWcaEE9AZ0hr7d1uO-tazQFq-Z3HLYM_o,1988
+napm/utils.py,sha256=MyMKPfMJqj0_XMlYaPu59fcz4NgwCcPNBOh-8iQFGyk,1873
+napm/warmup.py,sha256=Q64Ge9oZhe6L8Fs_LIqVsAUc6tQ0J35uJ2EeLDE4aYg,1100
+napm-1.0.0.dist-info/LICENSE,sha256=gkQijdXk9QmBD3fnTjmF_lXLP3apJTjqeIDOABYPaR8,1067
+napm-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+napm-1.0.0.dist-info/METADATA,sha256=jvhMXjFfmyrKfJAf2nWzQzp_M2DQJ3nXDeFjddfmklA,638
+napm-1.0.0.dist-info/RECORD,,
