@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mydots
+Version: 0.1.2
+Summary: A simple JSON parser.
+Author: Łukasz Wieczorek
+Author-email: wieczorek1990@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+mydots
+======
+
+A simple JSON parser.
+
+
