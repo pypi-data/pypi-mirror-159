@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: swid-lint
+Version: 2022.7.17
+Summary: Experimental SWID baseline validator.
+Home-page: https://github.com/sthagen/swid-lint
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+Project-URL: Bug Tracker, https://github.com/sthagen/swid-lint/issues
+Project-URL: Documentation, https://sthagen.github.io/swid-lint
+Project-URL: Source Code, https://github.com/sthagen/swid-lint
+Keywords: baseline,development,extension,software-bill-of-materials,swid,validation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jsonschema (>=4.7.2)
+Requires-Dist: typer (>=0.6.1)
+Requires-Dist: xmlschema (>=1.11.3)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+# swid-lint
+
+Experimental SWID baseline validator.
+
+[License: MIT](https://github.com/sthagen/swid-lint/blob/default/LICENSE)
+
+[![version](https://img.shields.io/pypi/v/swid-lint.svg?style=flat)](https://pypi.python.org/pypi/swid-lint/)
+[![downloads](https://pepy.tech/badge/swid-lint/month)](https://pepy.tech/project/swid-lint)
+[![wheel](https://img.shields.io/pypi/wheel/swid-lint.svg?style=flat)](https://pypi.python.org/pypi/swid-lint/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/swid-lint.svg?style=flat)](https://pypi.python.org/pypi/swid-lint/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/swid-lint.svg?style=flat)](https://pypi.python.org/pypi/swid-lint/)
+
+TODO: Third party dependencies are documented in the folder [third-party](third-party/README.md).
+
+## Status
+
+Experimental.
+
+**Note**: The default branch is `default`.
