@@ -1,0 +1,8 @@
+libsbml/__init__.py,sha256=AXWzTTPmHDlviNRQPzI_wXMBWXlHsqdB17id4iAIWeo,8651983
+libsbml/_libsbml.cp310-win32.pyd,sha256=UXvurHyBrAdDzUYCb7pKM5XK1lQNoTORpEcprAn9ceo,18864128
+python_libsbml_experimental-5.19.6.dist-info/LICENSE.html,sha256=DNrx5W1NMUktvJvPTFgIGifhVpGl5LZ1xqajKCpTIvI,8728
+python_libsbml_experimental-5.19.6.dist-info/LICENSE.txt,sha256=ZgZpeaG3rWtZbdHLpLyPbjf34mjpnsNDGdJ9dEtaDeA,7732
+python_libsbml_experimental-5.19.6.dist-info/METADATA,sha256=xSJzLgI05PsXdU6QK8EXLEQbw2SiNtdGcPrBCch3UbM,564
+python_libsbml_experimental-5.19.6.dist-info/WHEEL,sha256=tSadItXON2lZRPOpu8W7fxplRZu7h5BXDS1lU934Tyk,98
+python_libsbml_experimental-5.19.6.dist-info/top_level.txt,sha256=QL4uwL4aVn01KiiTM_rt1jyP8F8r4_bE9dBUfelj4Tw,17
+python_libsbml_experimental-5.19.6.dist-info/RECORD,,
