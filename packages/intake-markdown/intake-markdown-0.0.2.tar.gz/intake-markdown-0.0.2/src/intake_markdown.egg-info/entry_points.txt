@@ -1,0 +1,2 @@
+[intake.drivers]
+markdown = intake_markdown.intake_markdown:MarkdownSource
