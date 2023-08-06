@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<registry>
+
+  <records prefix="plone.bundles/plone" interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="load_async">True</value>
+    <value key="load_defer">False</value>
+  </records>
+
+</registry>
