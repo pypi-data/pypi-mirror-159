@@ -1,0 +1,5 @@
+prettytable
+nltk
+sklearn
+matplotlib
+numpy
