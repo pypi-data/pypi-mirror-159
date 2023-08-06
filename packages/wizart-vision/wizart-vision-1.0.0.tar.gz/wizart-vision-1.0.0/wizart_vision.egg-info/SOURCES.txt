@@ -1,0 +1,12 @@
+README.md
+setup.py
+wizart/vision/__init__.py
+wizart/vision/_client_enums.py
+wizart/vision/_utils.py
+wizart/vision/computer_vision_client.py
+wizart_vision.egg-info/PKG-INFO
+wizart_vision.egg-info/SOURCES.txt
+wizart_vision.egg-info/dependency_links.txt
+wizart_vision.egg-info/not-zip-safe
+wizart_vision.egg-info/requires.txt
+wizart_vision.egg-info/top_level.txt

@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: wizart-vision
+Version: 1.0.0
+Summary: Wizart Computer Vision SDK
+Home-page: UNKNOWN
+Author: Yauheni Dzirvuk
+Author-email: yauheni.dzirvuk@wizart.ai
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Wizart Computer Vision SDK for Python
+
+The Computer Vision service provides developers with access to advanced algorithms for processing images and returning information. Computer Vision algorithms analyze the content of an image in different ways, depending on the visual features you're interested in.
+
+You can use Computer Vision in your application to:
+- Indoor semantic segmentation
+- Interior 3d reconstruction
+- Indoor layout and object detection
+- Analytics data such as image quality, interior type, camera parameters
+
+Looking for more documentation?
+
+* [SDK reference documentation](https://vision-api.wizart.ai/)
+* [Wizart Vision review](https://wizart.ai/vision-api)
+
+If you need access to Wizart Vision API, you can get [API token](https://wizart.ai/trial?source=vision_api) by sending a request
+
+## Installation
+```shell
+pip3 install wizart-vision
+```
+## Authentication
+Once you received Vision API token, you need initialize vision client
+```python
+from wizart.vision import ComputerVisionClient as vc
+
+client = vc(
+    token="Your token"
+)
+```
+## Usage
+The client allows you to perform requests similar to those described in the documentation.
+* [segmentation](https://vision-api.wizart.ai/#703da38a-e1e1-4b1d-a6af-1afa8ce390fd)
+* [detection](https://vision-api.wizart.ai/#e14beaf1-4d61-4f56-a035-324e7bf3aa75)
+* [reconstruction](https://vision-api.wizart.ai/#7604e1bb-90cf-40c5-922d-2cd2c49cadfd)
+* [analysis](https://vision-api.wizart.ai/#9cabea89-0f28-4849-8104-31e6026fb62f)
+* [interior](hhttps://vision-api.wizart.ai/#c2d17dae-e9cc-4c3f-8097-5201524e015a)
+
+You will operate just with few parameters.
+
+- resource - file system path or http link to the image
+- feature - some entity available in Wizart Vision SDK
+
+```python
+from wizart.vision import ComputerVisionClient as vc
+
+# use it for segmentation, detection, reconstruction and interior calls
+vc.feature
+
+# contains next entities
+vc.feature.WALL
+vc.feature.CEILING
+vc.feature.FLOOR
+vc.feature.WINDOW
+
+# use it for analysis call
+vc.analysis_types
+
+# contains next entities
+vc.analysis_types.CAMERA
+vc.analysis_types.IMAGE_INFO
+vc.analysis_types.INTERIOR_TYPE
+```
+
+### Segmentation
+Semantic segmentation
+```python
+mask = client.segmentation(
+    resource="file system path or http link to image"
+)
+```
+Segmentation by feature
+```python
+mask = client.segmentation(
+    resource="file system path or http link to image",
+    feature=vc.feature.CEILING
+)
+```
+To get mask contours
+```python
+mask = client.segmentation(
+    resource="file system path or http link to image",
+    feature=vc.feature.CEILING,
+    vectorized=True
+)
+```
+
+### Detection
+All entities detection
+```python
+feature = client.detection(
+    resource="path to image"
+)
+```
+Single entity detection
+```python
+feature = client.detection(
+    resource="path to image",
+    feature=vc.feature.WALL
+)
+```
+### Reconstruction
+Multiple 
+```python
+feature = client.reconstruction(
+    resource="path to image"
+)
+```
+Single 
+```python
+feature = client.reconstruction(
+    resource="path to image",
+    feature=vc.feature.FLOOR
+)
+```
+### Analyze
+Multiple 
+```python
+feature = client.analysis(
+    resource="path to image"
+)
+```
+Single 
+```python
+feature = client.analysis(
+    resource="path to image",
+    feature=vc.analysis_types.CAMERA
+)
+```
+### Interior
+All
+```python
+feature = client.interior(
+    resource="path to image"
+)
+```
+Single 
+```python
+feature = client.interior(
+    resource="path to image",
+    feature=vc.feature.CEILING
+)
+```
+
+# Release History
+
+## 1.0.0 (2022-07-18)
+
+  - Initial Release
+
