@@ -1,0 +1,28 @@
+Change Log
+==========
+
+1.0.0 (29/03/2021)
+------------------
+- First Release
+
+1.0.1 (06/04/2021)
+------------------
+- Making it work
+
+1.0.2 (11/04/2021)
+------------------
+- Completing the product
+
+1.0.3 (21/04/2021)
+------------------
+- Adding documentation
+- fixing bugs
+
+2.0.0
+-----------------
+- Alex Kobrin is added to the development team
+- Better documentation
+- new valuation methods
+- new custom methods
+- import from excel added
+- integration with pandas added

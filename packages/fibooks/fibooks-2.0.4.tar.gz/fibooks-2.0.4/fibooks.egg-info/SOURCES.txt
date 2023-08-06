@@ -1,0 +1,15 @@
+CHANGELOG.txt
+MANIFEST.in
+requirements.txt
+setup.py
+fibooks/__init__.py
+fibooks/balance_sheet.py
+fibooks/excel_parser.py
+fibooks/income_statement.py
+fibooks/other.py
+fibooks/statement_of_cashflows.py
+fibooks.egg-info/PKG-INFO
+fibooks.egg-info/SOURCES.txt
+fibooks.egg-info/dependency_links.txt
+fibooks.egg-info/requires.txt
+fibooks.egg-info/top_level.txt

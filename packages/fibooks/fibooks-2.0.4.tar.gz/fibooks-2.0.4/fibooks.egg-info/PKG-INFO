@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: fibooks
+Version: 2.0.4
+Summary: Python library for financial statement analysis. More information availible at: https://github.com/TimoKats/fibooks/
+Home-page: https://github.com/TimoKats/fibooks/
+Author: Timo Kats
+Author-email: tpakats@gmail.com
+License: MIT
+Description: Python library for financial statement analysis. More information availible at: https://github.com/TimoKats/fibooks/
+Keywords: finance,data,valuation,excel
+Platform: UNKNOWN
