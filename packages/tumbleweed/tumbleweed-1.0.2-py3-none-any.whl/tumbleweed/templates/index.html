@@ -1,0 +1,19 @@
+{% extends 'nav.html' %}
+
+{% block content %}
+    <display>{{ blog_title }}</display>
+    <description>{{ description }}</description>
+
+    {% for post in posts %}
+        <div class="card dropdown">
+            <div class="post-header">
+                <h4>{{ post.title }}</h4>
+                <h4>{{ post.date }}</h4>
+            </div>
+            <content>
+                <hr>
+                {{ post.content | safe }}
+            </content>
+        </div>
+    {% endfor %}
+{% endblock %}
