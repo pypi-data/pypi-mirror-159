@@ -1,0 +1,8 @@
+libvirt-python>=6.0.0
+rich>=12<13
+
+[:python_version >= "3.6"]
+importlib-metadata
+
+[dev]
+pytest
