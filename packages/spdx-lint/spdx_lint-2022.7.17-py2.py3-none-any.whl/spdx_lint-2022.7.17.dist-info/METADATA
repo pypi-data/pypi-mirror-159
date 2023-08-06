@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: spdx-lint
+Version: 2022.7.17
+Summary: Experimental SPDX baseline validator.
+Home-page: https://github.com/sthagen/spdx-lint
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+Project-URL: Bug Tracker, https://github.com/sthagen/spdx-lint/issues
+Project-URL: Documentation, https://sthagen.github.io/spdx-lint
+Project-URL: Source Code, https://github.com/sthagen/spdx-lint
+Keywords: baseline,development,extension,software-bill-of-materials,spdx,validation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jsonschema (>=4.7.2)
+Requires-Dist: typer (>=0.6.1)
+Requires-Dist: xmlschema (>=1.11.3)
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+
+# verbose-pancake
+Experimental SPDX baseline validator.
+
+## Status
+Experimental.
+
+**Note**: The default branch is `default`.

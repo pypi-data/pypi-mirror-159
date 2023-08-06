@@ -1,0 +1,15 @@
+spdx_lint/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spdx_lint/__main__.py,sha256=YUwxmRiYLS57Bdjos7x2oka31__wQO9xrvCA-Ax-sJ8,148
+spdx_lint/cli.py,sha256=euanWhVpBdi9uFBU7jl5_dtrd1t-1zmN5tsMV9_qIHA,307
+spdx_lint/lint.py,sha256=iyy37cB6eA5ElTKwc3KRZ13vqVJrYHAeKruZ9486NRc,1701
+test/__init__.py,sha256=BQ72_qJmjEMdxrIUiw_uHah7Nx9F3IxFcOtVEeiNOeM,94
+test/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/context.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_cli.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+test/test_lint.py,sha256=9qBwfHF456dZvE-I4JA9lrdI-kVOpNEjeXxcVJGxgZU,1029
+spdx_lint-2022.7.17.dist-info/LICENSE,sha256=NpMdbXDPQfOKFkp3mpaePQrBhcjltWWrjBt9lkJSBQQ,1069
+spdx_lint-2022.7.17.dist-info/METADATA,sha256=XY77QpwJOIo6ICwUgEVDabVlAsbwEJ_3KeSw1DtXGXI,1454
+spdx_lint-2022.7.17.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+spdx_lint-2022.7.17.dist-info/entry_points.txt,sha256=VH-eesucxamfQ3NECgwdVXNFu3fcOqciE7YdSZKBqms,48
+spdx_lint-2022.7.17.dist-info/top_level.txt,sha256=nk11p8-lDhmvqxgHbZqJhhf24V8Qd8B6htuk1VHqRqg,15
+spdx_lint-2022.7.17.dist-info/RECORD,,
