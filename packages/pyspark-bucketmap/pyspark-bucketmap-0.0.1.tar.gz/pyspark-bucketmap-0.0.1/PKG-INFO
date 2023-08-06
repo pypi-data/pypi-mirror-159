@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyspark-bucketmap
+Version: 0.0.1
+Summary: Easily group pyspark data into buckets and map them to different values.
+Home-page: https://github.com/dunnkers/pyspark-bucketmap
+Author: Jeroen Overschie
+Author-email: jeroen@darius.nl
+Maintainer: Jeroen Overschie
+Maintainer-email: jeroen@darius.nl
+License: MIT
+Project-URL: Github, https://github.com/dunnkers/pyspark-bucketmap
+Project-URL: Bug Tracker, https://github.com/dunnkers/pyspark-bucketmap/issues
+Project-URL: Documentation, https://dunnkers.com/pyspark-bucketmap
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Typing :: Typed
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyspark-bucketmap
+[![Open in Remote - Containers](https://img.shields.io/static/v1?label=Remote%20-%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/dunnkers/pyspark-bucketmap)
+
+Shows how to use pyspark's `Bucketizer` in combination with `pyspark.sql.functions.create_map` ✨
+
+## About
+Created by [Jeroen Overschie](https://jeroenoverschie.nl/) © 2022.
+
