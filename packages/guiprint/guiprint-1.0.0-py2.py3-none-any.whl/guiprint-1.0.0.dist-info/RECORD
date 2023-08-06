@@ -1,0 +1,10 @@
+guiprint/__init__.py,sha256=bOlLfMAoRYdRRc8IIBrJpfmWc_Kr4q3xmba8SNJLSC0,182
+guiprint/cli.py,sha256=2e_w-lRe5Gpz7ECUMNvUCB1mEDPJUbvtcac42h-UwPg,402
+guiprint/guiprint_core.py,sha256=26vYSHb0mmHLOzzNawrbm5dMhIwRQUqYb4MBk2lzGxk,478
+guiprint-1.0.0.dist-info/AUTHORS.rst,sha256=RqANraqYCClufa_bU7CR5LJRlKQnGxaFK3IYeLd1TtM,166
+guiprint-1.0.0.dist-info/LICENSE,sha256=pFgOfEQzmgJ_M7x1MeJpTskPjwdl0_EJyoe1cJMQqWU,1076
+guiprint-1.0.0.dist-info/METADATA,sha256=LpLf0r_KA31BIP8BSn4dHT1uYacQmPojTvJEy_oTYyI,2067
+guiprint-1.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+guiprint-1.0.0.dist-info/entry_points.txt,sha256=zSc3Rxg7kJGhVLyJJQmLub00yM0Rz6_Ke-hC8yMLRRw,47
+guiprint-1.0.0.dist-info/top_level.txt,sha256=A8AmwXD96fCpfqxudS0SPp3E9_kpwvS4hhszc2Yz1bI,9
+guiprint-1.0.0.dist-info/RECORD,,
