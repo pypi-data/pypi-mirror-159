@@ -1,0 +1,11 @@
+discord_to_postgresql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+discord_to_postgresql/__main__.py,sha256=L2O7MKTsqnwfoAONwYZY1kw4lVEUt8ddtCBUauwy-68,127
+discord_to_postgresql/load.py,sha256=04o0efeumfupqc7F83mFUWwrtsd5lGNJ4McuocV1WEY,1512
+discord_to_postgresql/run.py,sha256=ScJGmK0HCe4018G2P8imWtb8DWKBFZEV0yIcL18-8jE,2112
+discord_to_postgresql/transform.py,sha256=P8Yba369lS4NnzJVgaFmdYZVZMD3dWk6rBxFREeOIIg,4025
+discord_to_postgresql-0.1.2.dist-info/LICENSE.md,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+discord_to_postgresql-0.1.2.dist-info/METADATA,sha256=zuIhKe645RM8HDEtp6963ZvFBfJdbkxV6rjODxR8dVc,4668
+discord_to_postgresql-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+discord_to_postgresql-0.1.2.dist-info/entry_points.txt,sha256=9XhDC0Q6nKI631NdcRoOmVAHvRRn9aHf-wEHTQ8uS6U,78
+discord_to_postgresql-0.1.2.dist-info/top_level.txt,sha256=f30gc5MrJ3l4iskXyqkiVOqNLvuVNrCk91rCclALT1A,22
+discord_to_postgresql-0.1.2.dist-info/RECORD,,
