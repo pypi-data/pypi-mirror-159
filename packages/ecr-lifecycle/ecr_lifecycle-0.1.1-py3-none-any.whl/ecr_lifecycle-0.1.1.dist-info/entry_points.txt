@@ -1,0 +1,2 @@
+[console_scripts]
+ecr-lifecycle = ecr_lifecycle.__main__:main
