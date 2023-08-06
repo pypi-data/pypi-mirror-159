@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: EBomb
+Version: 2.1.5
+Summary: Email Bomber
+Home-page: https://github.com/NIKDISSV-Forever/EBomb
+Author: Nikita (NIKDISSV)
+Author-email: nikdissv@proton.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Typing :: Typed
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pysocks
+Requires-Dist: EasyProxies
+Requires-Dist: spys
+Requires-Dist: fake-useragent
+Requires-Dist: rich
+
+# EBomb - Email(s) bomber
+
+> pip install -U [EBomb](https://pypi.org/project/EBomb/)
+
+# CLI
+
+> python -m Ebomb -h
+
+
+```python
+# EBomb/__init__.py
+class EBomb:
+    def __init__(self,
+                 targets: list[str],
+                 threads_count: int = None,
+                 proxy: bool = True,
+                 forever: bool = True,
+                 verbose: bool = True): ...
+```
+
+```python
+# EBomb/services.py
+class Service:
+    __slots__ = ('url', 'method', 'netloc')
+
+    def __init__(self, url: str, method: str): ...
+
+    def request(self, mail: str, proxies: str = None) -> Response: ...
+
+
+services: list[Service] = [...]
+```
+
+## Ebomb/services.json
+
+```json
+[
+  {
+    "url": "...",
+    "method": "..."
+  }
+]
+```
+
+
+# Install for Android / Linux
+
+- Download [Termux](https://github.com/termux/termux-app/releases) _(Android)_
+- Follow the steps from [the article](https://te.legra.ph/EBomb-06-08)
+
