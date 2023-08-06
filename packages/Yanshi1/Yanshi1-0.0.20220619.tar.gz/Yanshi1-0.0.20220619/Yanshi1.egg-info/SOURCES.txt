@@ -1,0 +1,5 @@
+setup.py
+Yanshi1.egg-info/PKG-INFO
+Yanshi1.egg-info/SOURCES.txt
+Yanshi1.egg-info/dependency_links.txt
+Yanshi1.egg-info/top_level.txt
