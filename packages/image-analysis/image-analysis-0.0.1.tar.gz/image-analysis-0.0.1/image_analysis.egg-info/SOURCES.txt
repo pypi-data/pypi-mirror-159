@@ -1,0 +1,7 @@
+README.md
+setup.py
+image_analysis.egg-info/PKG-INFO
+image_analysis.egg-info/SOURCES.txt
+image_analysis.egg-info/dependency_links.txt
+image_analysis.egg-info/top_level.txt
+imageanalysis/__init__.py
