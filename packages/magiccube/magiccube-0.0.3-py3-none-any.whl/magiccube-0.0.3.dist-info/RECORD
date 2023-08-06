@@ -1,0 +1,11 @@
+magiccube/__init__.py,sha256=XUI7LfUrPq-Wu1_nm2oIsuLp1yW_MEIy2chTizqfSOw,43
+magiccube/cube.py,sha256=VM-6m4YF9BTfccMKVdi6_XneKVhb38CgB0YSDMLgs2I,9470
+magiccube/cube_base.py,sha256=RWJza5HjaSytEgpgKYsHYALvgRFtHKhntkgT40_YS_Y,1941
+magiccube/cube_move.py,sha256=XyGi5xj-PKBxndesnGa9oV4_hRl7HF3xaOlfqJz0aYo,3986
+magiccube/cube_piece.py,sha256=Rd_fnIxejy7qJrvQiycmVLmZjboAegtiOaOwkPF28_A,3178
+magiccube/cube_print.py,sha256=LaSKpJ8a2_kjcG83K8Pu1G_qUYG3Gy4OJMJAuuWU4Pc,1983
+magiccube-0.0.3.dist-info/LICENSE,sha256=JL03QEx5CI_QIDZXs2K5K5AX8yNl0VNn4yUXa0ndG1U,1516
+magiccube-0.0.3.dist-info/METADATA,sha256=QEwKjfbeWw1vmWaGzgwYZsGndXg-_5m1bNimIcv_6h4,4470
+magiccube-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+magiccube-0.0.3.dist-info/top_level.txt,sha256=wtaPyPNc6hsQ6uSLDL7JJcRRSW5Ro6EIDwMRMrIhOIE,10
+magiccube-0.0.3.dist-info/RECORD,,
