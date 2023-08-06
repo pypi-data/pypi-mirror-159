@@ -1,0 +1,6 @@
+snakeviz>=2.1.1
+
+[dev]
+pre-commit
+build
+pytest
