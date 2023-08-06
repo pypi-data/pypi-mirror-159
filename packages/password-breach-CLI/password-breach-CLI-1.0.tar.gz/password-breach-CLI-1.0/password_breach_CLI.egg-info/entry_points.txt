@@ -1,0 +1,3 @@
+[console_scripts]
+breach = check_breach_password.cli.cli:cli
+
