@@ -1,0 +1,14 @@
+# required to run
+pillow==9.2.0
+exifread==3.0.0
+pydantic==1.9.1
+
+# test
+pytest==7.1.2
+pytest-cov==3.0.0
+
+# formatting
+pre-commit==2.20.0
+
+# building package
+build==0.8.0
