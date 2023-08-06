@@ -1,0 +1,7 @@
+s3sqlite_db/__init__.py,sha256=fOBcJt2e6g645A0yD1wk9ASQjhKCU1NgR-Y0xx_fqWI,87
+s3sqlite_db/database.py,sha256=Rkz4uu12OzxSVN4BZX-00ckAs9-9WtSTO1JeUcTdc9o,3166
+s3sqlite_db/url.py,sha256=AFGnoyac2Q7XYEiRyOQxtuqAizz5qhe9eI3yvzRfvS0,746
+s3sqlite_db-0.1.0.dist-info/LICENSE,sha256=eGjc1JGkvkejX2JzV8jAnm9oSKBEpdzLljd3Snlq4gY,1080
+s3sqlite_db-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+s3sqlite_db-0.1.0.dist-info/METADATA,sha256=F1i-KL5z5WhlVu3FTUDdT7CZy0tY70MnTfYxBxTZ0Jk,1929
+s3sqlite_db-0.1.0.dist-info/RECORD,,
