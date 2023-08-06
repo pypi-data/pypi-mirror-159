@@ -1,0 +1,31 @@
+name: ci
+
+on: [push, pull_request]
+
+jobs:
+
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    strategy:
+      matrix:
+        python-version: ["3.8"]
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install python dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -e .[testing]
+
+    - name: Run test suite
+      env:
+        # show timings of tests
+        PYTEST_ADDOPTS: "--durations=0"
+      run: pytest --cov aiida_conda_scheduler --cov-append .

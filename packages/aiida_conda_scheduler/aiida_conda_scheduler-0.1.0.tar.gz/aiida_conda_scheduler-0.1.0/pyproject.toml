@@ -1,0 +1,51 @@
+[build-system]
+# build the package with [flit](https://flit.readthedocs.io)
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+# See https://www.python.org/dev/peps/pep-0621/
+name = "aiida_conda_scheduler"
+dynamic = ["version", "description"]
+authors = [{name = "Chris Sewell", email = "chrisj_sewell@hotmail.com"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+    "Framework :: AiiDA"
+]
+keywords = ["aiida", "plugin"]
+requires-python = ">=3.7"
+dependencies = [
+    "aiida-core>=1.0,<3",
+]
+
+[project.urls]
+Source = "https://github.com/chrisjsewell/aiida-conda-scheduler"
+
+[project.optional-dependencies]
+testing = [
+    "coverage[toml]",
+    "pytest~=6.0",
+    "pytest-cov"
+]
+
+[project.entry-points."aiida.schedulers"]
+"conda.direct" = "aiida_conda_scheduler.schedulers:CondaDirectScheduler"
+"conda.slurm" = "aiida_conda_scheduler.schedulers:CondaSlurmScheduler"
+
+[tool.coverage.run]
+# Configuration of [coverage.py](https://coverage.readthedocs.io)
+# reporting which lines of your plugin are covered by tests
+source=["aiida_conda_scheduler"]
+
+[tool.isort]
+# Configuration of [isort](https://isort.readthedocs.io)
+profile = "black"
+force_sort_within_sections = true
+sections = ['FUTURE', 'STDLIB', 'THIRDPARTY', 'AIIDA', 'FIRSTPARTY', 'LOCALFOLDER']
+known_aiida = ['aiida']
