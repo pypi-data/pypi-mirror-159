@@ -1,0 +1,3 @@
+[console_scripts]
+linuxserver = src.cli.cli:main
+
