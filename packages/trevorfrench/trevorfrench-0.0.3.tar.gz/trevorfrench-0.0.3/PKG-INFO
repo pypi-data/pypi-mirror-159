@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: trevorfrench
+Version: 0.0.3
+Summary: A personal package.
+Project-URL: Homepage, https://github.com/TrevorFrench/trevorfrench_python
+Project-URL: Bug Tracker, https://github.com/TrevorFrench/trevorfrench_python
+Author-email: Trevor French <FrenchTrevor@outlook.com>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# trevorfrench
+
+trevorfrench does not currently have any dependencies.
+
+## :writing_hand: Author
+
+Trevor French <https://trevorfrench.com>
+
+## :arrow_double_down: Installation
+
+```python
+!pip install trevorfrench --upgrade
+```
+
+## Functions: 
+
+stats.one_way_anova
+
+### stats.one_way_anova(*args)
+- *args: lists containing samples to analyze
+```python
+from trevorfrench import stats as stats
+
+list_1 = [6.9, 5.4, 5.8, 4.6, 4.0]
+list_2 = [8.3, 6.8, 7.8, 9.2, 6.5]
+list_3 = [8.0, 10.5, 8.1, 6.9, 9.3]
+
+anova_table = stats.one_way_anova(list_1, list_2, list_3)
+print(anova_table)
+
+#RETURNS:
+
+# {
+#     'SST': 45.349333333333306
+#     , 'SSE': 17.452000000000005
+#     , 'SSR': 27.897333333333304
+#     , 'df_treatment': 2
+#     , 'df_error': 12
+#     , 'df_total': 14
+#     , 'MST': 13.948666666666652
+#     , 'MSE': 1.4543333333333337
+#     , 'F': 9.591107036442802
+# }
+```
+
+## ACTION LIST
+- Continue adding statistical methods
