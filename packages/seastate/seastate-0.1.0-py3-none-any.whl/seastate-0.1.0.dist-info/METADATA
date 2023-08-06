@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: seastate
+Version: 0.1.0
+Summary: Collect seastate data based on location and timeframe
+Home-page: https://github.com/ivorivetta/seastate
+License: MIT
+Author: Ivo
+Author-email: ivorivetta@users.noreply.github.com
+Requires-Python: >=3.8,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: defusedxml (>=0.7.1,<0.8.0)
+Requires-Dist: numpy (>=1.23.1,<2.0.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
+Requires-Dist: urllib3 (>=1.26.10,<2.0.0)
+Project-URL: Bug Tracker, https://github.com/ivorivetta/seastate/issues
+Project-URL: Repository, https://github.com/ivorivetta/seastate
+Description-Content-Type: text/markdown
+
+# Seastate
+
+## Summary
+Collect sea state data based on location and timeframe
+
+**Features**
+- Closest active station is selected for each measurement
+- Reaches into secondary historical archives when required
+- Returns pandas dataframe compatible lists
+- Available measurements: Tide, wind, water temp, air temp, air pressure, conductivity and swell information
+- Datasources: NOAA NDBC, NOAA Tides and Currents
+
+## Installing
+`pip install seastate`
+
+## Examples
+### Retrieving raw data
+```
+from seastate.seastate import SeaState
+from datetime import datetime, timedelta
+
+# make SeaState object for specific location
+san_diego = SeaState(32,-117)
+
+# retrieve measurements for today
+start = datetime.today()
+san_diego_today = san_diego.measurements_from_date_range(start)
+
+# retrieve measurements for past 30 days
+start = datetime.today()-timedelta(days=30)
+end = datetime.today()
+san_diego_past_30 = san_diego.measurements_from_date_range(start,end)
+
+```
+
