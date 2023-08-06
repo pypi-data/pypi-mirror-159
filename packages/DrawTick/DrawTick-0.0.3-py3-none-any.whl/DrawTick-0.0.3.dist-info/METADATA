@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: DrawTick
+Version: 0.0.3
+Summary: DrawTick
+Home-page: 
+Author: liujun
+Author-email: 62462156@qq.com
+License: MIT Licence
+Keywords: pip,DrawTick
+Platform: UNKNOWN
+Requires-Dist: datetime
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: mpl-finance
+Requires-Dist: numpy
+
+UNKNOWN
+
