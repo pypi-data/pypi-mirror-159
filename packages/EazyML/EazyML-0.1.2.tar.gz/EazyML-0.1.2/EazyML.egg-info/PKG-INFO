@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: EazyML
+Version: 0.1.2
+Summary: Simple ML library
+Home-page: https://eazyml.readthedocs.io/
+Author: Joshua Geddes
+Author-email: joshuageddes333@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+A python library for building, training, and testing simple machine learning models.
