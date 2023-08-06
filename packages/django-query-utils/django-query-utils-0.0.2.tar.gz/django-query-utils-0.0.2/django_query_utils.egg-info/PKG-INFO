@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-query-utils
+Version: 0.0.2
+Summary: Handful utils to work with raw queries in Django
+Home-page: https://github.com/surenkov/django-query-utils
+Author: Savva Surenkov
+Author-email: savva@surenkov.space
+Keywords: django,sql,postgres,query
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: postgres
+Provides-Extra: dev
+License-File: LICENSE
+
+![PyPI Version](https://img.shields.io/pypi/v/django-query-utils)
+

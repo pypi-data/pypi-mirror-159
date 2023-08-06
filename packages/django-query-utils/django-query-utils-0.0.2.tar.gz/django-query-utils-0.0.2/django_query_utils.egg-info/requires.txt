@@ -1,0 +1,12 @@
+django>=3.0
+
+[dev]
+black
+mypy==0.961
+flake8==4.0.*
+pytest==7.0.*
+django-stubs[compatible-mypy]
+pytest-django<5,>=4.5
+
+[postgres]
+psycopg2-binary<3,>=2.7
