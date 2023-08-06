@@ -1,0 +1,2 @@
+[console_scripts]
+minify_js_scripts = metapensiero.extjs.desktop.scripts.minifier:main
