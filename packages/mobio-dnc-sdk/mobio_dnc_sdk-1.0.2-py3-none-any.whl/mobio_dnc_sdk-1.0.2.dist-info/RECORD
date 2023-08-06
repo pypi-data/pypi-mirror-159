@@ -1,0 +1,12 @@
+mobio_dnc_sdk-1.0.2-py3.8-nspkg.pth,sha256=digZj_vKBO5BD5o7-vMSBQjpHYuxWIGNVCORAYbmwCY,534
+mobio/sdks/dnc/__init__.py,sha256=TxSvojw_heNzR38j9FJ9s-ij0aiSgup9KMHS1IFF1LI,243
+mobio/sdks/dnc/config.py,sha256=gR6qj1BdTTU_YYk715N_5CIrOQ9w27yuD_BlTerI_7s,1479
+mobio/sdks/dnc/contact_spam_model.py,sha256=wOSzzMkIj9MzMftF0PO3pcZQWepcFtBcEIe2LbINrxc,2697
+mobio/sdks/dnc/dnc_sdk.py,sha256=ZSqMGhkXYAFHVDBOllw-SvsvgPcQQUUAI2FouFbSOk4,2979
+mobio/sdks/dnc/mongo_connection.py,sha256=zwwz3QwhDTcQMPs0i02M1XtZA2JzPo7vgt5O6H62lc8,827
+mobio/sdks/dnc/utils.py,sha256=oVAdK-tHzFvpiiNn8xKj4LC_-PD67uyX8b3xt3SlF1c,4071
+mobio_dnc_sdk-1.0.2.dist-info/METADATA,sha256=uGrQI_bsElswvKbsknIpnYdiMsiOzcu8wTJrkhftxcg,3000
+mobio_dnc_sdk-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mobio_dnc_sdk-1.0.2.dist-info/namespace_packages.txt,sha256=aDRCg1NQKxwVo4upz2Jiwm_Qm1Yw57mFFYdDaGu4b8c,6
+mobio_dnc_sdk-1.0.2.dist-info/top_level.txt,sha256=aDRCg1NQKxwVo4upz2Jiwm_Qm1Yw57mFFYdDaGu4b8c,6
+mobio_dnc_sdk-1.0.2.dist-info/RECORD,,
