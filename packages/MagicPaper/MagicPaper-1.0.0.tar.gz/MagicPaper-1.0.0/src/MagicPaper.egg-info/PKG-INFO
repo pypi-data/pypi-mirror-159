@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: MagicPaper
+Version: 1.0.0
+Summary: A magical extendable paper :)
+Home-page: https://github.com/immmdreza/MagicPaper
+Author: immmdreza
+Author-email: ir310022@gmail.com
+Project-URL: Bug Tracker, https://github.com/immmdreza/MagicPaper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MagicPaper
+
+A magical extendable paper to have fun with ...
+
+_Just like someone who said: it's not much, but it's honest work :) ._
