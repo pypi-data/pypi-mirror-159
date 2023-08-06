@@ -1,0 +1,9 @@
+cryptodataset/__init__.py,sha256=vM7BsysG3CS065oIPCcL-3Gh-_D4aRt5ygjFoKjuNow,32
+cryptodataset/cli.py,sha256=3XVf07q4Oy5XygG5FPELF1EKGXyeTxJQC_AV2iohKME,1907
+cryptodataset/ohlcv.py,sha256=EU8GY1kg7baw-wcjGVj-HVVzHbu6ZxrqE4vH2u7T-2Q,1609
+cryptodataset/utils.py,sha256=c49HpB0PE28MnHC1Hd_98D5Eu974L7R-8WfFujNvAoM,579
+cryptodataset-0.1.1.dist-info/entry_points.txt,sha256=wv8Pbz2VWC6xcSl-nlnmgF54rqcJIlhUC4WdmHN4o1c,55
+cryptodataset-0.1.1.dist-info/LICENSE,sha256=H2T3_RTgmcngMeC7p_SXT3GwBLkd2DaNgAZuxulcfiA,1066
+cryptodataset-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+cryptodataset-0.1.1.dist-info/METADATA,sha256=3HwSFee1wpEy4GfLWynUSvmZMRWP71eHtZ_SWBLBa2I,467
+cryptodataset-0.1.1.dist-info/RECORD,,
