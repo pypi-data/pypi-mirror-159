@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+aws_easy_use/__init__.py
+aws_easy_use/s3.py
+aws_easy_use.egg-info/PKG-INFO
+aws_easy_use.egg-info/SOURCES.txt
+aws_easy_use.egg-info/dependency_links.txt
+aws_easy_use.egg-info/requires.txt
+aws_easy_use.egg-info/top_level.txt
