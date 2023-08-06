@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+
+from tzolkin import Schedule
+from tzolkin import SynchronousSchedule
+from tzolkin.tzolktab import parse_tzolktab_file
+
+# Use watchdog to add and remove jobs when the tzolktab changes.
+# http://thepythoncorner.com/dev/how-to-create-a-watchdog-in-python-to-look-for-filesystem-changes/
+with open("~/.tzolktab") as tzolktab_file:
+    jobs = parse_tzolktab_file(tzolktab_file)
+
+schedule: Schedule = SynchronousSchedule(1)
+for job in jobs:
+    schedule.add_job(job)
+schedule.start_blocking()
