@@ -1,0 +1,14 @@
+SeleniumBoot/__init__.py,sha256=VvFUhkdK9sgAEOUpcqBV1Jl1c-dxZPiqe5fbKVV9IQI,406
+SeleniumBoot/boot.py,sha256=Rc5hMoGli5-3q3Mtpq1CnL3zfmq84OZO24EvsUhprSc,25994
+SeleniumBoot/extractor.py,sha256=4PCPrQ939TYzayIgJBoEu7mus4gO_v4WrsimZW0AdF8,1561
+SeleniumBoot/response_wrapper.py,sha256=znp9HCcvs-noaq074rtVXHDubWU8Ao_0z2pRLTkwu2A,2020
+SeleniumBoot/util.py,sha256=CNHFxZIW7e8cT6NJJV2PFeGFsGzdB25GDtUciUdqF_w,5652
+SeleniumBoot/validator.py,sha256=FouOhdvTzaurXZq5C3okeJM58uxaWsjYoq961GJtwHg,2327
+SeleniumBoot/ocr/__init__.py,sha256=hlnnDACSbiYXlQkr_Y5aMVyIFVvGEK-hWzXmJdV9iFM,48
+SeleniumBoot/ocr/ocr_baidu.py,sha256=MxKqFrwrcNqMhedU3irWIEvr6plWD5mDyiGeF-37Abg,2888
+SeleniumBoot/ocr/ocr_youdao.py,sha256=fRqxOtbRU84MrxOLx6DGIvTFIZ3LA6pQmc3lTgCYHxk,2923
+SeleniumBoot-1.0.1.dist-info/METADATA,sha256=QYhyACNI4XXPHAT3Xw77dC3cHNFKzMDN30IhG68GI3M,18570
+SeleniumBoot-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SeleniumBoot-1.0.1.dist-info/entry_points.txt,sha256=qstLkK5Z2tfb8YASSGMJ-g0GKB30wQbkKxaNJM7x5Ro,56
+SeleniumBoot-1.0.1.dist-info/top_level.txt,sha256=T3-lCVCMWvssWYRs2LNYJtZuO-EUw6fXl2dNA8WIa9g,13
+SeleniumBoot-1.0.1.dist-info/RECORD,,
