@@ -1,0 +1,15 @@
+idempotency_key/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idempotency_key/decorators.py,sha256=yP42tRRgkH1C3NF6EeOmqd1v7OvJs0PUBBx87wkflcs,2294
+idempotency_key/encoders.py,sha256=HWwsfm7pAoCNLa9U0Y3PtqHNjmLv4lVapfB68LNfDyE,670
+idempotency_key/exceptions.py,sha256=D6MdXzdVYbQIXnwqTbdLqLZ63VJhcs2Bx4RoIoVcDW8,831
+idempotency_key/locks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idempotency_key/locks/basic.py,sha256=UiBB7kIBPLBz5hG0b4j4SIMIcygbQmgBw3qfWZ94qpA,766
+idempotency_key/locks/redis.py,sha256=Co2iz3Qb4FUUUIRvpZh3-Vas-wdjexGKIiCyv70X_Vg,978
+idempotency_key/middleware.py,sha256=rPzR42ixyBBGlBIvTceXohC9YmSbyMQvuY3XRTfdG9Y,10467
+idempotency_key/status.py,sha256=HEJzo0B8aEdSA_sjRvyz2aspZI1wTjP7sOdybk9DMR8,1626
+idempotency_key/storage.py,sha256=EsUoHLvrgZfxD--hMGTXQ_LL3jjpaG8dbyraSMBo88M,3031
+idempotency_key/utils.py,sha256=l_R11Amoq-9FU414zAc-K9eSRxgh8sMSerx0tyLe5FY,2366
+django_idempotency_key-1.2.0.dist-info/LICENSE,sha256=BOKwZo0LMbgO4UX0dj8vqnLm081Yh2Z6LbtuJsFRBms,1068
+django_idempotency_key-1.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+django_idempotency_key-1.2.0.dist-info/METADATA,sha256=eMYGiq2iv4trC_mHL0bED-7WgV5o0dSKGYDfWl26k9w,614
+django_idempotency_key-1.2.0.dist-info/RECORD,,
