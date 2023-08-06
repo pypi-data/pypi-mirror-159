@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ppa-dev-tools"
+version = "0.1.0"
+description = "command line client for managing PPAs in Launchpad"
+readme = "README.md"
+authors = [{ name= "Bryce Harrington", email = "bryce@canonical.com" }]
+license = { file = "LICENSE" }

@@ -1,0 +1,7 @@
+appdirs
+argparse
+contextlib2
+launchpadlib
+lazr.restfulclient
+ruamel.yaml
+xdg
