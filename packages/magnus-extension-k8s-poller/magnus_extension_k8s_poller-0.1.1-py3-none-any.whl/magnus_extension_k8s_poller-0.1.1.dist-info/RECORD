@@ -1,0 +1,6 @@
+magnus_extension_k8s_poller/implementation.py,sha256=qQuCWJ8vV391d7rBGk-fzvY9tDcbhp73lGgt6Mewgu4,8198
+magnus_extension_k8s_poller/integration.py,sha256=YZV_iJuBA_nkqfPBTiyurRWdoD-XyvJMa5nfuX4_gWY,2466
+magnus_extension_k8s_poller-0.1.1.dist-info/entry_points.txt,sha256=tO_R1hV55Z2xdduPUx5HTtNScginDszLVuW5T7TcxVY,564
+magnus_extension_k8s_poller-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+magnus_extension_k8s_poller-0.1.1.dist-info/METADATA,sha256=XLd6tC_4rvvYfd_3W1fG2oPbkthdcRm2mQtoCi5vOPU,2534
+magnus_extension_k8s_poller-0.1.1.dist-info/RECORD,,
