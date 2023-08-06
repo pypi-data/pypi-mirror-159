@@ -1,0 +1,8 @@
+setuptools
+wheel
+twine
+numpy
+pandas
+scipy
+matplotlib
+cryptography
