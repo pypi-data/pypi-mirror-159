@@ -1,0 +1,10 @@
+LICENSE.md
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+fastapi-filter/filter_api.egg-info/PKG-INFO
+fastapi-filter/filter_api.egg-info/SOURCES.txt
+fastapi-filter/filter_api.egg-info/dependency_links.txt
+fastapi-filter/filter_api.egg-info/requires.txt
+fastapi-filter/filter_api.egg-info/top_level.txt
