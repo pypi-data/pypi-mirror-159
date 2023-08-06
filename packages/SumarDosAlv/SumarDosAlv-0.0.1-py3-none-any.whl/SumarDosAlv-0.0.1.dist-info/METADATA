@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: SumarDosAlv
+Version: 0.0.1
+Summary: Descripcion alv
+Home-page: https://github.com/Jefry-bot
+Author: Jefry Zárate
+Author-email: jefry@gmail.com
+License: No se
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+
+UNKNOWN
+
