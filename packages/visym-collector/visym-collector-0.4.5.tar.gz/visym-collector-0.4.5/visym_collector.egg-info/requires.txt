@@ -1,0 +1,10 @@
+vipy
+heyvi
+dask
+distributed
+boto3
+pandas
+torch
+torchvision
+pytorch_lightning
+ujson
