@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+hlfiles/__init__.py
+hlfiles/convert.py
+hlfiles/read.py
+hlfiles.egg-info/PKG-INFO
+hlfiles.egg-info/SOURCES.txt
+hlfiles.egg-info/dependency_links.txt
+hlfiles.egg-info/top_level.txt
