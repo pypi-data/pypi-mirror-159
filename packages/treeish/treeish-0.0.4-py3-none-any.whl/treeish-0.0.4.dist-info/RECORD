@@ -1,0 +1,8 @@
+treeish/__init__.py,sha256=Co6GxM_md2xSlhvNedYSNsO2V3oUhxwPSVBL-bwpOFI,147
+treeish/get.py,sha256=NnuZWSv9zqKLOFXiav4jZtwq4XpZQkqHFqFoQYwA_50,635
+treeish/layer.py,sha256=LL3JwgQaiH95KU9ERjZM6groBbxqwjKFge-xJAxW6Dk,3856
+treeish/set.py,sha256=afpKUmTEXDZruwjq9HX0ZMt-B8GojKuC0Ip5X0Ubp6M,1419
+treeish/walk.py,sha256=rMm3ENvdOtbByDcrEX_gcefGkV13Ort2-UUfyGroFEI,1290
+treeish-0.0.4.dist-info/WHEEL,sha256=KXNDfOTTCr-VyxnCJDozfJ6nmi3hNN9RABDaCXBsNak,85
+treeish-0.0.4.dist-info/METADATA,sha256=7gokhhVLCBgA9ZXvsadgBZjPPbxS1-_SpnaGvV4dpHA,3114
+treeish-0.0.4.dist-info/RECORD,,
