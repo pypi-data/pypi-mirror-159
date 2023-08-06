@@ -1,0 +1,12 @@
+README.md
+setup.py
+EazyML.egg-info/PKG-INFO
+EazyML.egg-info/SOURCES.txt
+EazyML.egg-info/dependency_links.txt
+EazyML.egg-info/requires.txt
+EazyML.egg-info/top_level.txt
+eazyml/__init__.py
+eazyml/activations.py
+eazyml/layer.py
+eazyml/model.py
+eazyml/propagate.py
