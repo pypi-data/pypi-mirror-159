@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+rpatools/__init__.py
+rpatools/email.py
+rpatools/pdf.py
+rpatools.egg-info/PKG-INFO
+rpatools.egg-info/SOURCES.txt
+rpatools.egg-info/dependency_links.txt
+rpatools.egg-info/not-zip-safe
+rpatools.egg-info/top_level.txt
