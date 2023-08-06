@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/langtranslator.egg-info/PKG-INFO
+src/langtranslator.egg-info/SOURCES.txt
+src/langtranslator.egg-info/dependency_links.txt
+src/langtranslator.egg-info/requires.txt
+src/langtranslator.egg-info/top_level.txt
