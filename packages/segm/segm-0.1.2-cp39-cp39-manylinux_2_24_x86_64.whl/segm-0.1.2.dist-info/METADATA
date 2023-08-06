@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: segm
+Version: 0.1.2
+Summary: A set of functions for page image segementation.
+Author: Sergey Mikhno
+Author-email: sergey.mikhno@gmail.com
+Description-Content-Type: text/plain
+
+
+        A page segementation library.
+      
