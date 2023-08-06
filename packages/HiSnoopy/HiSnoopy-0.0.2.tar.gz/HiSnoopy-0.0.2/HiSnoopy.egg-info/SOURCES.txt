@@ -1,0 +1,7 @@
+setup.py
+HiSnoopy.egg-info/PKG-INFO
+HiSnoopy.egg-info/SOURCES.txt
+HiSnoopy.egg-info/dependency_links.txt
+HiSnoopy.egg-info/top_level.txt
+snoopy/__init__.py
+snoopy/hello.py
