@@ -1,0 +1,11 @@
+channels:
+- conda-forge
+- nodefaults
+dependencies:
+- make
+- pytest
+- pytest-cov
+- cf-units
+- xarray
+- netCDF4
+- Click
