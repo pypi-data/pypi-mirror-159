@@ -1,0 +1,3 @@
+# FailedOperation
+
+::: chemcloud.models:FailedOperation
