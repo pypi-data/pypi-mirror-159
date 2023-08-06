@@ -1,0 +1,8 @@
+numpy
+reachy-sdk-api>=0.6.0
+grpcio>=1.37
+protobuf<4,>3
+pygame
+
+[doc]
+sphinx
