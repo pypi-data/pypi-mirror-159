@@ -1,0 +1,13 @@
+fridaay/__init__.py,sha256=m_Vs_aRXd7z0utfnIpy071fQ7xbawwqT3kfW8jeOOes,134
+fridaay/constants.py,sha256=JG4ubUk1vBaKJeQ2nckFuLnvm0rWV5P8K8TNLfynPac,132
+fridaay/dad/dad-core.yml,sha256=4ayhX3NR_McrMO_CRcp_kYiTnmsGGo-Xf4JLgezIqAw,64
+fridaay/dad/dad-sql.yml,sha256=i-bHuIrRbTppkKNf_f7Wklu4pPMWiHErUl3OjgQxoXM,177
+fridaay/load.py,sha256=BbxylM01Ds6PNRnGZodtrOdYBAMqU6BEUfD7DOHPVng,973
+fridaay/pipe.py,sha256=6vh9mU80dWselUN-LOrK2e218sfVFQ81gz-WUKNunNg,1325
+fridaay/pipes/demo_pets.yml,sha256=WDlwdpXgV9x4KfXZAnPea2joqTR24xhdppgJBJnleoU,718
+fridaay/registry.py,sha256=QFGC49qyiV-6GJFkCodPxemsfPGBUkxeT8_oztKK1jU,1171
+fridaay/schema.py,sha256=0028mIGQeCvdob3txq5QzxUNBiOT1_DQG2McK3-ZjE0,979
+fridaay-0.2.2.dist-info/LICENSE,sha256=UtCxA-nRPp084-M0Yra6-OcrkawXq5H-nxR8frEUzSY,1083
+fridaay-0.2.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fridaay-0.2.2.dist-info/METADATA,sha256=incG24i7nSMf9CHyASC1pn72D53_YabP9w_WT8XlA_U,3443
+fridaay-0.2.2.dist-info/RECORD,,
