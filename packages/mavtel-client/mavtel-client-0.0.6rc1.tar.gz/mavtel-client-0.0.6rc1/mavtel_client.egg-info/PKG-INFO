@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: mavtel-client
+Version: 0.0.6rc1
+Summary: Client for MAVTel
+Home-page: https://gitlab.com/Zyatin/mavtel/mavtel_client
+Author: Mykhailo Ziatin
+Author-email: mikhail.zyatin@gmail.com
+Project-URL: Bug Reports, https://gitlab.com/Zyatin/mavtel/-/issues
+Project-URL: Source, https://gitlab.com/Zyatin/mavtel
+Project-URL: Homepage, https://gitlab.com/Zyatin/mavtel/mavtel_client
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Provides-Extra: test
+
+MAVTEL-Python
+=============
+
+Python client for [MAVTel](https://gitlab.com/Zyatin/mavtel).
