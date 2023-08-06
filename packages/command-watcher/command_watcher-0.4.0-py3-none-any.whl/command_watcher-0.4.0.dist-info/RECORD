@@ -1,0 +1,11 @@
+command_watcher/__init__.py,sha256=hX3iuvlP6e4hE58BDLK0_wXd6vexr4k1nF6hFCLnDmM,14463
+command_watcher/email.py,sha256=FPsDFYDOpWdAHsPtw3SFLpC-C7zArXvUEGtRW6WJa70,1112
+command_watcher/icinga.py,sha256=ukwcdo3jTQDBW03YJDxxQkRonOt9tZtN2U1eSLbrV20,1046
+command_watcher/log.py,sha256=kCo0amJij8e6Q4qdTdm0Eqj30NSRQKz6oAfgnHI59-w,5269
+command_watcher/py.typed,sha256=fTZxIEqDNB02iQ4gJI00cUs5AkemOkUF555psIWfiGA,94
+command_watcher/report.py,sha256=Zr_32bQA3gQkRJCEEt4gCYTy3HBDAT_iry64J9-2ttw,9427
+command_watcher/utils.py,sha256=S89rRlQxaJxsm2yhwT_85kJVKu0WY_zTAl3JVUUYOOk,635
+command_watcher-0.4.0.dist-info/LICENSE,sha256=ejqFH_nPFaJO1iQ8-bQJcoUWk2DlhJmsmTlmcB9bb2s,1096
+command_watcher-0.4.0.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+command_watcher-0.4.0.dist-info/METADATA,sha256=_k9HtRL4CW-b4NocBuY8Nq-mYtJ9_Vk9XrrPopuVdLM,2528
+command_watcher-0.4.0.dist-info/RECORD,,
