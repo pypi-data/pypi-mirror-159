@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: webargs-quixote
+Version: 0.1.0
+Summary: webargs support for quixote
+License: MIT
+Author: ischaojie
+Author-email: zhuzhezhe95@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Quixote (==3.0.4)
+Requires-Dist: webargs (==8.1.0)
+Description-Content-Type: text/markdown
+
+# webargs-quixote
+
+[webargs](https://webargs.readthedocs.io/en/latest/index.html) support for Quixote web framework.
+
+## Usage
+
+```python
+from webargs import fields
+from webargs_quixote import parser, use_args
+
+
+@use_args({"value": fields.Int()})
+def home(req, args):
+    return args
+```
+
+Looks [webargs](https://webargs.readthedocs.io/en/latest/index.html) docs for more details.
+
