@@ -1,0 +1,28 @@
+fusion-environment-family
+*************************
+
+
+Description
+===========
+
+Use the Fusion Applications Environment Management CLI to manage the
+environments where your Fusion Applications run. For more information,
+see the Fusion Applications Environment Management documentation.
+
+
+Available Commands
+==================
+
+* change-compartment
+
+* create
+
+* delete
+
+* get
+
+* get-fusion-environment-family-subscription-detail
+
+* list
+
+* update
