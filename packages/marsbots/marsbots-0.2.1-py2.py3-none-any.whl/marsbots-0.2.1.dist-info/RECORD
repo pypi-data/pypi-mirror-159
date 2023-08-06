@@ -1,0 +1,14 @@
+marsbots/__init__.py,sha256=3R5V4frJK3I32HGNOSVHX5FSPxCfp-ouuAzMbAKnc6o,71
+marsbots/config.py,sha256=9m2MRcToh85CcsjlQGM3n_VK15PShkzPqn97BbzXRU4,647
+marsbots/constants.py,sha256=j_eWDnw4JcMRXjhTjkREbLWQ4X9cgQCDjP9FoOKRO-s,331
+marsbots/discord_utils.py,sha256=TiocPK90BhCE-rpVKkO3ZIxrGO2evWR-Mfn89cPjD2I,5299
+marsbots/exceptions.py,sha256=6jRrXJHLyL91ky7w7gI3Vmn1nC8Ub_F2mcAq0AkDf9g,48
+marsbots/language_models.py,sha256=PS5oONtCkTxrzA-SpOwj_5ZXj3H3CjQLKMGykLvEFBQ,9267
+marsbots/models.py,sha256=20d82Ejb9VZHbAVKt9uKqmr27-qRpFKYeubmiHFa17I,454
+marsbots/modifiers.py,sha256=SWoikgI8u5EAVGi9ZPFi9EqRI7P7NruHEZB3oKIdBo0,663
+marsbots/settings_manager.py,sha256=T_dIrO85OrXfY1HeMiEV64kRbqqPXezU_dHtG417Lvs,3041
+marsbots/text_postprocessors.py,sha256=MEpq1bQrBMKcLrE4J0PhpWu27PKRr1s9kODC1t4pOMs,250
+marsbots/util.py,sha256=qzJY4-_oaUPgz3JxcYac2yqAZoMfFNqmnl0LhYR4er0,1001
+marsbots-0.2.1.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+marsbots-0.2.1.dist-info/METADATA,sha256=MT_Avm3KAh1TNzcKPAP9IMgj213rZwGiGuTn-bNZPrQ,2778
+marsbots-0.2.1.dist-info/RECORD,,
