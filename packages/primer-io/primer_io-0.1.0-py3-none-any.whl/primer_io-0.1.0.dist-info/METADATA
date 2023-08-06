@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: primer-io
+Version: 0.1.0
+Summary: A project created exclusively to reserve the `primer-io` namespace.
+Author: Mykola Solodukha
+Author-email: mykola@primer.io
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
