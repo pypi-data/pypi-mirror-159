@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+devansh1/__init__.py
+devansh1/example.py
+devansh1.egg-info/PKG-INFO
+devansh1.egg-info/SOURCES.txt
+devansh1.egg-info/dependency_links.txt
+devansh1.egg-info/requires.txt
+devansh1.egg-info/top_level.txt
