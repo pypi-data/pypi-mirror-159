@@ -1,0 +1,15 @@
+emoji_translate/__init__.py,sha256=FXUTgSNWd4gPaaFmmaRTlPkNaf4heURHozcI2oRPO88,1442
+emoji_translate/emoji_translate.py,sha256=zF2FTBZuAzmuLIDqGCoiQoHwdQJagdPXdfEP3josKkA,4702
+emoji_translate/data/__init__.py,sha256=yliCR-eiedgWzxBdIBMIfD73eUqc3wPYyROmXu3pYRM,64
+emoji_translate/data/emoji_utf8_lexicon.txt,sha256=uNVCI64c4io-EsH3RTFrcWeMMo619dMGOoQvN8--KCM,121986
+emoji_translate/data/emojis.json,sha256=2V5QK_ySjs3d5zwTmDIR-u1LS08PbF8JXHJ4kEMYe_s,265511
+emoji_translate/data/merge.py,sha256=TCBfoRuk9Gb_Q7VmF3DJFDGDO0mjwo1eyy1NaFXKxfg,2097
+emoji_translate/data/merged_emojis.json,sha256=LMzfpCqTiO33KRscvCy7RRh1MgMH029N7dDgq6ko74Q,520696
+tests/__init__.py,sha256=dHBjLfrq8eZHmrPI90mYb1gpgOv6mJymbgEIKxYCJZk,59
+tests/test_emoji_translate.py,sha256=-jTk7pTHnTou52lTITy1OylETcXi3dsxQCXWTapRIvI,474
+emoji_translate-0.1.1.dist-info/LICENSE,sha256=q2YAnEj-9JZLVUzNxPC7F3bAGaHoVtz5zUjiQFqtVQY,1096
+emoji_translate-0.1.1.dist-info/METADATA,sha256=czD1lZ5VyeM7vPahS2ft27vaChJejRdwyB9LYCjGex8,3543
+emoji_translate-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+emoji_translate-0.1.1.dist-info/top_level.txt,sha256=ZPfM4s9b7VcHiNjplfB2x94h0vezt5HUIvkKE-mOUJw,22
+emoji_translate-0.1.1.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+emoji_translate-0.1.1.dist-info/RECORD,,
