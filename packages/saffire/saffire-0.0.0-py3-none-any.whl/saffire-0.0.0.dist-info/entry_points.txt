@@ -1,0 +1,3 @@
+[console_scripts]
+saffire=saffire.__main__:main
+
