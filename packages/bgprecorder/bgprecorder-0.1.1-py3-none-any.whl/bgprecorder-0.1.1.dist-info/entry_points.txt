@@ -1,0 +1,4 @@
+[console_scripts]
+bgpquery=bgprecorder.cli:query
+bgprecorder=bgprecorder.cli:recorder
+
