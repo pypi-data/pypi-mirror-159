@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+jenti/jenti.egg-info/PKG-INFO
+jenti/jenti.egg-info/SOURCES.txt
+jenti/jenti.egg-info/dependency_links.txt
+jenti/jenti.egg-info/top_level.txt
