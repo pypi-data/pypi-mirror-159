@@ -1,0 +1,9 @@
+gpucompare/__init__.py,sha256=B-gFzx6roiBzZLbAQ95UuEz4EzuPpPHGaXjlJHhiMAo,301
+gpucompare/__main__.py,sha256=8ipbqNQpcvhFUTilBGsDxKLU7C1wj1fYdHemEeBfAo8,1991
+gpucompare/compare.py,sha256=RRt1d7OVEBzFWAH8ZirIeRPBXjNuu57qljdi-teFmK4,1686
+gpucompare/parse.py,sha256=HaAF8fwA_rfFD47aCJArWsqEJ2-rQc7POFqr4itoY7E,1111
+gpucompare-1.0.0.dist-info/entry_points.txt,sha256=hlGOSQCzyRim4TnrcH8wyFCbMfjVnyTwFclf5TwJZ4A,54
+gpucompare-1.0.0.dist-info/LICENSE,sha256=Od-tyB-5NUi3QD7c22irl1T1vvM6dfKsRmaSpnuNUts,1073
+gpucompare-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+gpucompare-1.0.0.dist-info/METADATA,sha256=N8Y-YknbQOnGROySA28_n8Sw8QR6anErgBXbkN8ykb8,6218
+gpucompare-1.0.0.dist-info/RECORD,,
