@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: cloudam-stream
+Version: 0.5.2
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.*
+Requires-Dist: redis (>=4.3.1)
+Requires-Dist: requests (==2.28.1)
+Requires-Dist: lz4 (==4.0.0)
+Requires-Dist: nanoid (==2.0.0)
+Requires-Dist: apscheduler (==3.9.1)
+Requires-Dist: loguru (==0.6.0)
+
+UNKNOWN
+
