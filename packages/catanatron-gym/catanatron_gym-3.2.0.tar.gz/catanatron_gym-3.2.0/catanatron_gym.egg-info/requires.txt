@@ -1,0 +1,3 @@
+catanatron
+gym
+numpy
