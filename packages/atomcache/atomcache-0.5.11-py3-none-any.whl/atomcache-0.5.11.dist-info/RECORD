@@ -1,0 +1,9 @@
+atomcache/__init__.py,sha256=kjSR9K8aMKdLcw2XF00uL31LtFuh6OOV30eZK4StzCw,161
+atomcache/backend.py,sha256=iMtrQoaZZYAL7jvfOMe6fma38YriYjeUW5kuM2a2xmA,1256
+atomcache/base.py,sha256=CktyS9oX5owxyzSj-FEnO29AKQPRfuG3fWDysBbwxhI,9497
+atomcache/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atomcache/redis.py,sha256=8GW-wPJ82oecfkjGrqOouNyRqU0CC31MFodfDZOTDZM,4190
+atomcache-0.5.11.dist-info/LICENSE,sha256=oybaDesHAGKoVlSBldJEnNAmDyMn6LVSiltzy-u7gMw,1064
+atomcache-0.5.11.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+atomcache-0.5.11.dist-info/METADATA,sha256=evHfTK2DoORN8adxtewW3ezEGqshzepnhYyIeGKBatI,4350
+atomcache-0.5.11.dist-info/RECORD,,
