@@ -1,0 +1,10 @@
+mybase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mybase/mylocale.py,sha256=4_yBNTtltadEAYY5f4s9AgurJ2tHCTO8fYTZs9ekcmM,344
+mybase/mynetwork/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mybase/mynetwork/myip.py,sha256=Fs8CvI9nJszmPTjupWnwd9RHnRXvl8QI9MoGtd3Oc8Y,239
+mybase/mynetwork/myselenium.py,sha256=HmO_xKOMREM_euH5UXPCUz2mMSqH67TZdmRQReTQb54,1445
+mybase_lucien-0.0.0.dist-info/LICENSE,sha256=j9j1N7if3uzBe7q5TQbg_Mf2NSGiiWWBAUMoejH5PSc,1089
+mybase_lucien-0.0.0.dist-info/METADATA,sha256=ffDCtCwtcwhWTrN1KqWHjlNpo9Tf2_Bg_uErqZVNL3Y,579
+mybase_lucien-0.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mybase_lucien-0.0.0.dist-info/top_level.txt,sha256=KcLJjgcR1P3jVnXFEcmOindVM1lal_7N_nOxa8i6xEo,7
+mybase_lucien-0.0.0.dist-info/RECORD,,
