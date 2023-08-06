@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mds-lib
+Version: 0.0.1
+Summary: Library for work with MiniDataStorage
+Author: Denis Shchutkiy
+Author-email: denisshchutskyi@gmail.com
+License: UNKNOWN
+Keywords: pip,mds_lib
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MDS lib
+
+> Library provided methods for work remotely with [MDS](https://github.com/Shchusia/MiniDataStorage) 
+
+## Installation
+
+> pip install mds 
+
+
+
