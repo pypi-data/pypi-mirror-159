@@ -1,0 +1,54 @@
+#!/usr/bin/env python3
+# This file is placed in the Public Domain.
+
+
+"Prosecutor. Court. Reconsider OTP-CR-117/19."
+
+
+import time
+
+
+from gcid.object import Config
+
+
+Config.name = "gcid"
+Config.threaded = False
+Config.version = "72"
+Config.workdir = "/var/lib/gcid"
+
+
+from gcid.irc import Config as IConfig
+
+
+IConfig.cc = "!"
+IConfig.channel = "#gcid"
+IConfig.nick = "gcid"
+IConfig.password = ""
+IConfig.port = 6667
+IConfig.realname = "Prosecutor. Court. Reconsider OTP-CR-117/19."
+IConfig.sasl = False
+IConfig.server = "localhost"
+IConfig.servermodes = ""
+IConfig.sleep = 60
+IConfig.username = "gcid"
+IConfig.users = False
+
+
+from gcid.irc import IRC
+from gcid.model import init
+from gcid.rss import Fetcher
+
+
+import gcid.all
+
+
+def main():
+    irc = IRC()
+    irc.start()
+    f = Fetcher()
+    f.start()
+    init()
+    while 1:
+        time.sleep(1.0)
+
+main()
