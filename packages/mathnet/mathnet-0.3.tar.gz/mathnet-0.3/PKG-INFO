@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: mathnet
+Version: 0.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: wangjx
+Author-email: 
+Maintainer: 
+Maintainer-email: 
+License: MIT License
+Description: test by wjx
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
