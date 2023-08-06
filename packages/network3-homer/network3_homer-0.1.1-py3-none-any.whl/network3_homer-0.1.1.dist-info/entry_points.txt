@@ -1,0 +1,3 @@
+[console_scripts]
+network3_homer=network3_homer.script:run
+
