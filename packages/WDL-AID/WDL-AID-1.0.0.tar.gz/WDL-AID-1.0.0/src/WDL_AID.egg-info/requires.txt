@@ -1,0 +1,2 @@
+miniwdl>=1.0
+jinja2
