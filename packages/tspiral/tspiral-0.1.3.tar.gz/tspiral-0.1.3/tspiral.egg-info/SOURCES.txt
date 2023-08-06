@@ -1,0 +1,10 @@
+README.md
+setup.py
+tspiral.egg-info/PKG-INFO
+tspiral.egg-info/SOURCES.txt
+tspiral.egg-info/dependency_links.txt
+tspiral.egg-info/requires.txt
+tspiral.egg-info/top_level.txt
+tsprial/__init__.py
+tsprial/forecasting.py
+tsprial/model_selection.py
