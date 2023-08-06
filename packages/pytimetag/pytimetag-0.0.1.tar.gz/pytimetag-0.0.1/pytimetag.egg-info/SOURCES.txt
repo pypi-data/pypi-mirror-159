@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pytimetag/__init__.py
+pytimetag/datablock.py
+pytimetag.egg-info/PKG-INFO
+pytimetag.egg-info/SOURCES.txt
+pytimetag.egg-info/dependency_links.txt
+pytimetag.egg-info/requires.txt
+pytimetag.egg-info/top_level.txt
