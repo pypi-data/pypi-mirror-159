@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ezgit
+Version: 0.1.0
+Summary: A cli tool to simplify working with git
+Author: Harold Karibiye
+Author-email: haroldkaribiye@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)

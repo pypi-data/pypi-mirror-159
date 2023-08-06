@@ -1,0 +1,8 @@
+ezgit/.gitignore,sha256=MtrjBS8zHuNNYo71NXCbMBJZpF33x1IsTTXc9Jhz8As,13
+ezgit/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+ezgit/ezgit.py,sha256=--lU3waZQOKhHSCc3FlzyxHjWwbD9JjMU4DFVjVpAZA,5056
+ezgit-0.1.0.dist-info/entry_points.txt,sha256=PsaXOWyw8jnpbvKHZ9mMWnq1c6rPLF0I2SnLc7SkMK8,41
+ezgit-0.1.0.dist-info/LICENSE,sha256=nXz3SqNYrnwd78i1qdGgWFU0QgospVpTrZoJV2-NRq8,1072
+ezgit-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ezgit-0.1.0.dist-info/METADATA,sha256=4igstR8zwyGN6EGdVgjfIN58gtyjmPqtYvTObrdVvU0,381
+ezgit-0.1.0.dist-info/RECORD,,
