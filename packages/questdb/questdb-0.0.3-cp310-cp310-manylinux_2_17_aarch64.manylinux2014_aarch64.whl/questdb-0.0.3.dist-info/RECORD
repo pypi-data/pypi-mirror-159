@@ -1,0 +1,11 @@
+questdb/ilp.html,sha256=q31vHaLaRkW_H7yOGV-ZpxFQyjGqvXPr_j7Daenl7fs,461779
+questdb/__init__.py,sha256=yyLtGsBhynC-sSHdax-rRGvHNjH-gdWxIY68WnPVfDw,22
+questdb/ilp.pyx,sha256=JTQ5ku7fNyy0YiXh_QYjq7buPdXd_aAegG6B37quVOA,33209
+questdb/ilp.c,sha256=lONGFPE1AEVfg7ucWq63PnC-fLB_GOVfIROq9lH6C7Y,754048
+questdb/ilp.cpython-310-aarch64-linux-gnu.so,sha256=n1yuHItP-cCc5p-IxJCc8np8J_fTgd8q4JieuhaNsEc,9884856
+questdb/line_sender.pxd,sha256=lqssxvufChIdGyy4Y2IFUc_J-9HNv21BhAMRC3KOzLo,7505
+questdb-0.0.3.dist-info/WHEEL,sha256=3zITUdHX-zH-jhKLfklGA9F0ms_hxVHRE4Z-vedBDkY,154
+questdb-0.0.3.dist-info/METADATA,sha256=4nNuBjSrhzBoLAWq_TyYI4-hsmC4fxPmi_HltjvJE3E,2134
+questdb-0.0.3.dist-info/top_level.txt,sha256=HGuEvKvrA6CsAGIzg_BbIUwsy_YWi87tzsCvqcX1ajs,8
+questdb-0.0.3.dist-info/RECORD,,
+questdb-0.0.3.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
