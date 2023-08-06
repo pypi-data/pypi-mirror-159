@@ -1,0 +1,8 @@
+.vscode/
+impactEffects.egg-info
+origin
+.eggs
+.idea
+test/__pycache__
+*/__pycache__/
+*/*/__pycache__/
