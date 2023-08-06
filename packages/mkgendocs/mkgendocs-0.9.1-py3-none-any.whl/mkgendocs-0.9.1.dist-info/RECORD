@@ -1,0 +1,8 @@
+mkgendocs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkgendocs/__version__.py,sha256=UwJXM8JY2T3tE2id0K2k_lEaVThbRTrGO1mNibyzIz8,22
+mkgendocs/gendocs.py,sha256=zUad4fldLi46I6OrSQI9GXJYT0JGdpsbdstUrny2u0I,15395
+mkgendocs/parse.py,sha256=t3D4SQvvz_qv3C6e_r1V7DF1SYBnHarkxZyZ3Gj34eA,32910
+mkgendocs-0.9.1.dist-info/entry_points.txt,sha256=CiyDpPhUUyUf3CHIRfBtTGy8CLQjI_CENe8OBMg80g8,50
+mkgendocs-0.9.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mkgendocs-0.9.1.dist-info/METADATA,sha256=mU7HXMdGax5meKbCaTy0KPJjXt5cLAeEV_6A4d2FjjA,4747
+mkgendocs-0.9.1.dist-info/RECORD,,
