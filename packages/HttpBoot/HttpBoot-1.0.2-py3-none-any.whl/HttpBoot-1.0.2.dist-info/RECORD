@@ -1,0 +1,15 @@
+HttpBoot/__init__.py,sha256=6SAgu59SYuCxU1XnL6LX5Zzs9bBg6pPeUzJaBLy0xJk,410
+HttpBoot/boot.py,sha256=QDE6EZ8JVtOWjGurXoYkO7HDOsWyHz4c59glv4gnIG4,13910
+HttpBoot/extractor.py,sha256=JlWICsQUocp4bs_14MyvmBwhSVqQdQ12mOe3_AoEet4,1817
+HttpBoot/helpers.py,sha256=0vkEXcn9YKVKLYyirhvpwM_ho69qhMa_REsyE0MLSFc,1753
+HttpBoot/response_wrapper.py,sha256=Ey5F_veZUNr_vkHnxRjNV39wiIoX2d-N4bOQNg71tiM,1350
+HttpBoot/util.py,sha256=jBhDElnMPvP1ugfS1BfCH-tbRjmkELu4eHGgJzg07Ig,5426
+HttpBoot/validator.py,sha256=cigGQSn3KAEDgPHQKUAZy4gN8NPHY0PKGHR-hDMgidA,2596
+HttpBoot/ocr/__init__.py,sha256=hlnnDACSbiYXlQkr_Y5aMVyIFVvGEK-hWzXmJdV9iFM,48
+HttpBoot/ocr/ocr_baidu.py,sha256=MxKqFrwrcNqMhedU3irWIEvr6plWD5mDyiGeF-37Abg,2888
+HttpBoot/ocr/ocr_youdao.py,sha256=EeCzA4HJE8-6Qatrqnekh8ReMBO233ogqFWm3rFW5wQ,2856
+HttpBoot-1.0.2.dist-info/METADATA,sha256=O6DLaeuAYdqVsH593KXWIWoWF8ZecrZHG-spQKJ7Sew,9468
+HttpBoot-1.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+HttpBoot-1.0.2.dist-info/entry_points.txt,sha256=rYO841M6ZL8DCOIc4GI6C-4L3jGBYUeSA0z1gURAYTU,48
+HttpBoot-1.0.2.dist-info/top_level.txt,sha256=zYkS3Z-z5E9qS3WNyCJ0lMCL5yQTglIa3JhPeJe6XUQ,9
+HttpBoot-1.0.2.dist-info/RECORD,,
