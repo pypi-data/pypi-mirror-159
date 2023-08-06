@@ -1,0 +1,10 @@
+jupyter_compare_view/__init__.py,sha256=ll5aHwAc7nreNIi5nkqcBJ_wqTUPfu2WveuutXcULr8,453
+jupyter_compare_view/inject.py,sha256=bEMAe3CO_c8AbHoDtie5B_JEW9RR27PbdZHQIuUUGUo,1646
+jupyter_compare_view/inject_dependencies.html,sha256=yApfCmI1yCBXCIRJn3fZ2UAP2o018uAO01tmEleSNrw,1375
+jupyter_compare_view/inject_split.html,sha256=cWpV_z3UOsL4BQmcP_7Cl8I_5k6cUe3LZU52zMCOjGg,414
+jupyter_compare_view/sw_cellmagic.py,sha256=ZYzSwNa8laJ_VVYD3yFTP1pF9Ok6x_sH38BFmJ1PH6U,2394
+vendor/compare_view/browser_compare_view.js,sha256=YDYxxaFKw26FLaDZF8EytBbYc38dNxDyaA1GHx6r5Nw,10399
+jupyter_compare_view-0.1.1.dist-info/LICENSE,sha256=uI2CjWLBt1bPvrHAgpq2wEH1MkuvsegUOAVWPGYDR7A,1067
+jupyter_compare_view-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+jupyter_compare_view-0.1.1.dist-info/METADATA,sha256=JmS6g44eOWRVldV971Xmp_sbgz24rZa1OE0ukZYIldw,6158
+jupyter_compare_view-0.1.1.dist-info/RECORD,,
