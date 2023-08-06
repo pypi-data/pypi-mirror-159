@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: credmgr
+Version: 1.6.0
+Summary: Credential Manager API Client
+Home-page: https://credmgr.jesassn.org
+Author: Lil_SpazJoekp
+Author-email: spaz@jesassn.org
+License: Proprietary
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: License :: Other/Proprietary License
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: asyncpraw
+Requires-Dist: marshmallow
+Requires-Dist: praw
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: cached-property ; python_version < "3.8"
+Provides-Extra: dev
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: pydocstyle ; extra == 'dev'
+Requires-Dist: betamax ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flynt ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: betamax-serializers ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx (<3.0) ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: pytest-mock ; extra == 'dev'
+Requires-Dist: docstrfmt ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mock ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: docstrfmt ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: flynt ; extra == 'lint'
+Requires-Dist: isort ; extra == 'lint'
+Requires-Dist: pydocstyle ; extra == 'lint'
+Requires-Dist: sphinx (<3.0) ; extra == 'lint'
+Requires-Dist: sphinx-rtd-theme ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: betamax ; extra == 'test'
+Requires-Dist: betamax-serializers ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: mock ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+
+CredentialManager
+=================
+
+Client for interacting with Credential Manager API
+
+- API version: 1.0
+- Package version: 1.6.0
+
+Requirements
+------------
+
+Python 3.7+
+
+Installation & Usage
+--------------------
+
+.. code-block:: sh
+
+    pip install credmgr
+
+Then import the package:
+
+.. code-block:: python
+
+    from credmgr import CredentialManager
+
+Getting Started
+---------------
+
+.. code-block:: python
+
+    credential_manager = CredentialManager(api_token="api_token")
+
+    # List all Reddit apps
+    reddit_apps = credential_manager.reddit_apps()
+    for reddit_app in reddit_apps:
+        print(reddit_app.name)
+
+    # Create a Reddit app
+    redditApp = credential_manager.reddit_app.create(
+        name="reddit_app_name",
+        client_id="client_id",
+        client_secret="client_secret",
+        user_agent="user_agent",
+        redirect_uri="redirect_uri",
+    )
+
+    # Get the app by id
+    reddit_app = credential_manager.reddit_app(1)
+
+    # Edit the Reddit app
+    reddit_app.edit(client_id="client_id_2")
+
+    # Delete the app
+    reddit_app.delete()
+
+
