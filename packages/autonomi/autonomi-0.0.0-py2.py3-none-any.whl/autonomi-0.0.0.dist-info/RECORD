@@ -1,0 +1,10 @@
+autonomi/__init__.py,sha256=eOgEhJGwhB2VOOvMvOg9q4AXuj5SmybaBNUB0aPPjmQ,144
+autonomi/autonomi.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+autonomi/cli.py,sha256=1AM33rt8pxMzI2kjF2UaU8pd-vMD2Yc7AlQi4xbw6Yw,402
+autonomi-0.0.0.dist-info/AUTHORS.rst,sha256=W1HTYnURdJdmf2zcw6ujC4UtbkEFm730VwQ-ilRVL0k,157
+autonomi-0.0.0.dist-info/LICENSE,sha256=LHXmHFmRE2PPOkT20w3U_UNNbXzUapQ4XH-B75wdhRk,1072
+autonomi-0.0.0.dist-info/METADATA,sha256=1IIEyJ45cac0VV1rAP3eLydCzhg7yGXKfpzoTrixT_w,966
+autonomi-0.0.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+autonomi-0.0.0.dist-info/entry_points.txt,sha256=KF7mTE293vcCydYW1KslzjYwug4nOd2sPG49dbYzzqg,47
+autonomi-0.0.0.dist-info/top_level.txt,sha256=ZdVV-_0lYMX7cwfvljlFI2lucZaMU52-yP7OBJu-jdA,9
+autonomi-0.0.0.dist-info/RECORD,,
