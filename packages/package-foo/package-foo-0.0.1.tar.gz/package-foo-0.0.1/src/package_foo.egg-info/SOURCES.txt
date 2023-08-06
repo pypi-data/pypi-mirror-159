@@ -1,0 +1,9 @@
+README.rst
+pyproject.toml
+src/foo/__init__.py
+src/foo/hello.py
+src/package_foo.egg-info/PKG-INFO
+src/package_foo.egg-info/SOURCES.txt
+src/package_foo.egg-info/dependency_links.txt
+src/package_foo.egg-info/entry_points.txt
+src/package_foo.egg-info/top_level.txt
