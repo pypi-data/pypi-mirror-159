@@ -1,0 +1,7 @@
+sphinx-argparse
+numpydoc
+numpy
+networkx
+hypothesis
+networkx
+matplotlib
