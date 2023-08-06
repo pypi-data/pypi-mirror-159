@@ -1,0 +1,8 @@
+git_commit="3b99fb01e1b55c212caeecb6d85efb2aba34f0da"
+git_commit_timestamp="2022-07-05_12:15:16_+0530"
+git_describe="3b99fb0"
+build_os="Darwin mr-0xb11.0xdata.loc 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:31 PDT 2021; root:xnu-7195.141.2~5/RELEASE_X86_64 x86_64"
+build_machine="mr-0xb11.0xdata.loc"
+build_date="Mon Jul  4 23:47:01 PDT 2022"
+build_user="jenkins"
+version="0.0.1"
