@@ -1,0 +1,2 @@
+[console_scripts]
+basinex = basinex.main:cli
