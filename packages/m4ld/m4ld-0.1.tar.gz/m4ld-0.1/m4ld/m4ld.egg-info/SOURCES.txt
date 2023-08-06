@@ -1,0 +1,7 @@
+LICENSE
+setup.cfg
+setup.py
+m4ld/m4ld.egg-info/PKG-INFO
+m4ld/m4ld.egg-info/SOURCES.txt
+m4ld/m4ld.egg-info/dependency_links.txt
+m4ld/m4ld.egg-info/top_level.txt
