@@ -1,0 +1,11 @@
+LICENSE
+setup.cfg
+setup.py
+whitecore/__init__.py
+whitecore/lexer.py
+whitecore/whc.py
+whitecore.egg-info/PKG-INFO
+whitecore.egg-info/SOURCES.txt
+whitecore.egg-info/dependency_links.txt
+whitecore.egg-info/not-zip-safe
+whitecore.egg-info/top_level.txt
