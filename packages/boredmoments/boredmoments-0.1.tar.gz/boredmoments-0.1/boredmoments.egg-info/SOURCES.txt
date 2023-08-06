@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+boredmoments/__init__.py
+boredmoments/minesweeper.py
+boredmoments.egg-info/PKG-INFO
+boredmoments.egg-info/SOURCES.txt
+boredmoments.egg-info/dependency_links.txt
+boredmoments.egg-info/not-zip-safe
+boredmoments.egg-info/top_level.txt
