@@ -1,0 +1,11 @@
+bbtq/__init__.py,sha256=afDJXLQURw-1wwtklX7geQbX2Tyiy4wr2sbX6oGPKKs,228
+bbtq/core.py,sha256=3rsqBOIdIwxw2pdH-eck8CGwD5vpW-Ys5N-8-e4CojQ,2245
+bbtq/tests/deep.toml,sha256=MdPffQPcSgfBaYx4uZbfTaHYTgrsiL9x9uFDtGThTcY,271
+bbtq/tests/simple.toml,sha256=y1XAQczRAY6BrnLCKSO6Kc-IPvLyHNu0S9Dd_IzI0d8,56
+bbtq/tests/test.toml,sha256=ewG6MH0-WJ_H0JZkB7u71Uc_jmoICJ6Wfj4cU_e8_B8,241
+bbtq/tests/test_cli.py,sha256=9wlK4HGWb_nIw3jevz-pZC6RmaMXqSCEhwQ7pq4pyRs,1708
+bbtq/tests/test_core.py,sha256=RZEiAq8P_tn3Mfeq5tiEi-cUpNh2XuVb_suJKQk75VY,1248
+bbtq-3.0.0.dist-info/METADATA,sha256=4xB-BceiTe4er0ODuH1CcV77KnQR9GJCAgQL1Huh0qQ,42477
+bbtq-3.0.0.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+bbtq-3.0.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bbtq-3.0.0.dist-info/RECORD,,
