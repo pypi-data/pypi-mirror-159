@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: apip
+Version: 0.0.1
+Summary: An api wrapper for pip!
+Home-page: https://github.com/SomeHybrid/apip
+License: MIT License
+Keywords: pip,python,pypi,subprocess
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
