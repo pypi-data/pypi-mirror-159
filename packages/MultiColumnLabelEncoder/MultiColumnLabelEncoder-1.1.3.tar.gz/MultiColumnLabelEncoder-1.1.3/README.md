@@ -1,0 +1,25 @@
+# MultiColumnLabelClassification
+
+## Description:
+For categorical Data, Encoding data is an important step, as various Machine Learning models will not work for textual data. So in existing encoding methods, which are already available, After transforming the data and encoding it, I found Inverse Transforming it is too hard, when Multiple categorical columns are encoded. And while we are developing machine learning models, we need to do label encoding for training and testing data, and they should be in sync to transform them back to original form. So Unable to find an easy existing approach to perform it, I have built this small module, to help myself when I am encoding data in Machine Learning Using python. 
+
+## Usage:
+
+1. For Encoding the data:
+
+    Import the label encoder:
+
+        import MultiColumnLabelEncoder
+
+    Using the label encoder:
+
+        le = MultiColumnLabelEncoder()
+        encoded_dataframe = le.fit_transform(dataframe)
+
+        [Note: columns argument can also be passed if we want encoding only for certain columns. By default it will be none and it will encode all the categorical columns]
+
+    Using the inverse label encoder:
+
+        inverse_encoded_dataframe = le.inverse_fit_transform(encoded_dataframe)
+
+        [Note: columns argument can also be passed if we want inverse encoding only for certain columns. By default it will be none and it will encode all the categorical columns]

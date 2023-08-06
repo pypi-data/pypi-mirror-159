@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/MultiColumnLabelEncoder.py
+src/MultiColumnLabelEncoder.egg-info/PKG-INFO
+src/MultiColumnLabelEncoder.egg-info/SOURCES.txt
+src/MultiColumnLabelEncoder.egg-info/dependency_links.txt
+src/MultiColumnLabelEncoder.egg-info/top_level.txt
