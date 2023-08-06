@@ -1,0 +1,35 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "hy-ipython"
+dynamic = ["version", "description"]
+authors = [{name = "Gregory Werbin", email = "outthere@me.gregwerbin.com"}]
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+dependencies = [
+	"hy == 0.24",
+	"ipython",
+]
+classifiers = [
+	"Framework :: IPython",
+	"Framework :: Jupyter",
+	"Intended Audience :: Developers",
+	# "License :: DFSG Approved",
+	# "License :: OSI Approved :: ISC License",
+	"License :: OSI Approved",
+	"Operating System :: OS Independent",
+	# "Programming Language :: Hy",
+	"Programming Language :: Lisp",
+	"Programming Language :: Scheme",
+	"Programming Language :: Python",
+	"Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Home = "https://sr.ht/~wintershadows/hy-ipython"
+Source = "https://git.sr.ht/~wintershadows/hy-ipython"
+
+[tool.flit.module]
+name = "hy_ipython"
