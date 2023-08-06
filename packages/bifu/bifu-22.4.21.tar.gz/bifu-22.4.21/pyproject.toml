@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "bifu"
+version = "22.4.21"
+description = "B.I.F.U. - simple command runner and repository guardian"
+authors = ["Tadeusz Miszczyk <42252259+8tm@users.noreply.github.com>"]
+homepage = "http://github.com/8tm/bifu"
+documentation = "https://test.pypi.org/project/bifu"
+repository = "http://github.com/8tm/bifu"
+readme = "README.md"
+
+
+classifiers = [
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3 :: Only",
+    "Operating System :: Unix",
+]
+include = [".bifu.yml"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+PyYAML = "^6.0"
+types-PyYAML = '^6.0.3'
+pygit2 = "^1.7.2"
+munch = "^2.5.0"
+requests = "^2.27.1"
+types-requests = "^2.27.19"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.9.2"
+flake8-colors = "^0.1.9"
+flake8-commas = "^2.1.0"
+flake8-import-order = "^0.18.1"
+flake8-quotes = "^3.3.0"
+mypy = "^0.910"
+pylint = "^2.5.0"
+pytest = "^6.2.1"
+pytest-cov = "^2.10.1"
+pytest-mock = "^3.5.0"
+pytest-xdist = "^1.29.0"
+pytest-parallel = "^0.1.1"
+# Additional:
+pip-search = "^0.0.7"
+pip-autoremove = "^0.10.0"
+pipdeptree = "^2.2.1"
+
+
+[tool.poetry.scripts]
+bifu = 'bifu.main:main'
+
+[tool.mypy]
+ignore_missing_imports = true
+warn_unused_configs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+strict_equality = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
