@@ -1,0 +1,14 @@
+crem>=0.2.9
+tqdm>=4.64.0
+numpy>=1.22.0
+pandas
+pyyaml
+meeko
+scipy
+
+[rdkit]
+rdkit>=2020
+
+[test]
+requests
+pytest
