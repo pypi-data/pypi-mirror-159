@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: yaol-utils
+Version: 0.0.2
+Summary: Some helpful utility functions
+Author: Phillip Yao-Lakaschus
+Author-email: <Philliplakaschus@gmail.com>
+License: UNKNOWN
+Keywords: python,util,utils,print
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# yaol-utils
+Python package for various utility functions
+
+## WORK IN PROGRESS
+
+Create distribution by running
+
+`python setup.py sdist bdist_wheel`.
+
+The upload the distribution to pypi by calling+
+
+`twine upload dist/*`.
+
