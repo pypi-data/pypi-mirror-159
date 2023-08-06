@@ -1,0 +1,3 @@
+[sceptre.resolvers]
+minify_file_contents = resolver.minify_file_contents:MinifyFileContents
+

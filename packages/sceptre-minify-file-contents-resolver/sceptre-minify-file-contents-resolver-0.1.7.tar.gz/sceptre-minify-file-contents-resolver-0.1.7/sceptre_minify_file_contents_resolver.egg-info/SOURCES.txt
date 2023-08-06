@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+resolver/__init__.py
+resolver/minify_file_contents.py
+sceptre_minify_file_contents_resolver.egg-info/PKG-INFO
+sceptre_minify_file_contents_resolver.egg-info/SOURCES.txt
+sceptre_minify_file_contents_resolver.egg-info/dependency_links.txt
+sceptre_minify_file_contents_resolver.egg-info/entry_points.txt
+sceptre_minify_file_contents_resolver.egg-info/not-zip-safe
+sceptre_minify_file_contents_resolver.egg-info/requires.txt
+sceptre_minify_file_contents_resolver.egg-info/top_level.txt
