@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: SF-Mako
+Version: 0.0.0.14
+Summary: MkNxGn SF Mako
+Home-page: https://mknxgn.com/
+Author: Mark Cartagena
+Author-email: mark@mknxgn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mknxgn-essentials (>=0.1.35.12)
+Requires-Dist: bcrypt (>=3.2.2)
+Requires-Dist: mkiot (>=0.0.0.3.7)
+Requires-Dist: psutil (>=5.9.1)
+
+### Documentation Pending
+
