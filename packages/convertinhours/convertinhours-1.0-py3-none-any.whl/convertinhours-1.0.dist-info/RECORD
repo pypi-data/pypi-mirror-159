@@ -1,0 +1,9 @@
+convertinhours/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+convertinhours/conversionhours.py,sha256=VPISKYGhbgnLoafT2jLKllSa71N858knGeiXCbVMN7M,347
+convertinhours/convertinhours.py,sha256=HXHhCyyIInXfvEXqfvHPy49j7h-wpNb--hRmP6dIDjM,2146
+convertinhours/digitextractor.py,sha256=lnDHZV6HlNWS31FjVwv1_4UcU3uVayyj_O6qE3Pvaqg,700
+convertinhours/timetohours.py,sha256=XQ83AjjJfSkQqbhBo6CDZBCDG4uQfX-Mtxw22A9Fp2c,2372
+convertinhours-1.0.dist-info/METADATA,sha256=OEnMGnqT2XBhMZ-WHep_neQCxoUzxpg8ZJ-JG299VIk,557
+convertinhours-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+convertinhours-1.0.dist-info/top_level.txt,sha256=BqShvOq4XpsHZN-3GbvHkH-U38oP9aHzlTRh9zYxUrg,15
+convertinhours-1.0.dist-info/RECORD,,
