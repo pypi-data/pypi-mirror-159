@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+selenium_scrapy/__init__.py
+selenium_scrapy/http.py
+selenium_scrapy/middlewares.py
+selenium_scrapy.egg-info/PKG-INFO
+selenium_scrapy.egg-info/SOURCES.txt
+selenium_scrapy.egg-info/dependency_links.txt
+selenium_scrapy.egg-info/requires.txt
+selenium_scrapy.egg-info/top_level.txt
+selenium_scrapy.egg-info/zip-safe
