@@ -1,0 +1,102 @@
+,id,order_id,restaurant_name,order_name
+0,1,R117QOON3P3,Arriverderci,Tortellini bolognese
+1,2,R117QOON3P3,Arriverderci,Pizza Arriverderci
+2,3,RPORN0150P3,Broodje Ben,Smoked chicken spicy Mexican tomato salsa
+3,4,RPORN0150P3,Broodje Ben,Beef pastrami - truffle mayonnaise
+4,5,RPORN0150P3,Broodje Ben,Grill sausage
+5,6,RPORN0150P3,Broodje Ben,Fresh smoked chicken salad
+6,7,RPORN0150P3,Broodje Ben,Smoked chicken - avocadomayonnaise
+7,8,RPNO1NQ0Q53,Sonmat,Veggie deopbab
+8,9,RPNO1NQ0Q53,Sonmat,Sonmat deopbab
+9,10,RPNO1NQ0Q53,Sonmat,Yangnyeom chicken
+10,11,R3RNQ513P53,Domino's Pizza,Pizza caprese [(35cm) Large]
+11,12,R3RNQ513P53,Domino's Pizza,Spicy Chicken Meatlovers [(35cm) Large]
+12,13,R3RNQ513P53,Domino's Pizza,Coca-Cola fles
+13,14,R1QQO533553,Panino Fresco,Avocado deluxe sandwich
+14,15,R1QQO533553,Panino Fresco,Home made chicken curry sandwich
+15,16,OQ05R7P3153,Arriverderci,Pollo arrivederci
+16,17,OQ05R7P3153,Arriverderci,Pizza pesto
+17,18,OQ05R7P3153,Arriverderci,Pasta alla vegetaria
+18,19,OQ07POQ07O3,Taj Mahal Indiaas Restaurant,Tandoori chicken tikka biryani
+19,20,OQ07POQ07O3,Taj Mahal Indiaas Restaurant,Royal tandoori mixed grill
+20,21,OQ11NPR1PO3,Broodje Ben,Beef pastrami - truffle mayonnaise
+21,22,OQ11NPR1PO3,Broodje Ben,Smoked ribeye - pesto mayonnaise
+22,23,35O0RQNO0O3,Panino Fresco,Pollo sandwich
+23,24,35O0RQNO0O3,Panino Fresco,Brie sandwich
+24,25,37155PPPR33,Domino's Pizza,Spicy Chicken Meatlovers [(29cm) Italian]
+25,26,3QQ31QRRQ33,Nikos,"Akropolis dish, sauce on top"
+26,27,3N73311R733,Sonmat,Yangnyeom chicken
+27,28,3N73311R733,Sonmat,Buldak chicken
+28,29,3N73311R733,Sonmat,Ganjang chicken
+29,30,3Q5NP3O1733,Panino Fresco,Pollo sandwich
+30,31,3Q5NP3O1733,Panino Fresco,Gezond sandwich
+31,32,33773O70533,Panino Fresco,Gezond sandwich
+32,33,33773O70533,Panino Fresco,Grilled sausage sandwich
+33,34,30ORN700RN3,Itoshii HC,Menu A
+34,35,30ORN700RN3,Itoshii HC,Menu C
+35,36,30ORN700RN3,Itoshii HC,Gun bao tori
+36,37,0OP1OP151RN,Kashmir kitchen,Tandoori chicken tikka biryani
+37,38,0OP1OP151RN,Kashmir kitchen,Paneer pakora
+38,39,0OP1OP151RN,Kashmir kitchen,Kashmiri seekh kebab
+39,40,O3R7QN7POQN,Arriverderci oud,Pizza lazio
+40,41,O3R7QN7POQN,Arriverderci oud,Lasagna al forno
+41,42,ON350Q1ONQN,'t Sluisje Burgers & Spareribs,Spare ribs menu
+42,43,ON350Q1ONQN,'t Sluisje Burgers & Spareribs,Bucket 1
+43,44,OPR1NPN71QN,Panino Fresco,Home made chicken curry sandwich
+44,45,OPR1NPN71QN,Panino Fresco,Cheat shake Oreo
+45,46,OPR1NPN71QN,Panino Fresco,Margherita pizza slice
+46,47,OQ30NR3P77N,Eazie voorstraat utrecht,Small wok meal
+47,48,OQ30NR3P77N,Eazie voorstraat utrecht,Large wok meal
+48,49,ONQ0ONO757N,Burgerme,Combi-Deal A Chicken of Veggie
+49,50,ONQ0ONO757N,Burgerme,Crunchy Chicken Burger
+50,51,ONQ0ONO757N,Burgerme,Chicken Nuggets
+51,52,O7RNPQ1P57N,Namaskar,Menu for 1 person
+52,53,O7330ON3O7N,Namaskar,Tandoori chicken tikka bhuna
+53,54,O7330ON3O7N,Namaskar,Garlic tikka
+54,55,OR5311QO17N,Restaurant Thai Chili,Pad Thai kai/moe
+55,56,OR5311QO17N,Restaurant Thai Chili,Poh-pia sod koeng/kai
+56,57,O7737P01QPN,Chinees Catering,Kuan po kai
+57,58,ORROO5PNPPN,Papa John's,Garden party stuffed crust 25cm
+58,59,ORROO5PNPPN,Papa John's,"Pepsi 1,5 L"
+59,60,O0100N7R5PN,Eazie,Large wok meal
+60,61,O0100N7R5PN,Eazie,Regular wok meal
+61,62,OQN770PO5PN,Fu Wah,Combinatie van 2 halve porties
+62,63,O1PRQO3N0PN,Eazie,Large wok meal
+63,64,ONP005P3P5N,Atithi,Murg Dum biryani
+64,65,ONP005P3P5N,Atithi,Chili chicken
+65,66,ONP005P3P5N,Atithi,Coca-Cola zero sugar 33cl blik
+66,67,O0R57700P5N,New York Pizza,Spicy Tandoori Chicken Pizza
+67,68,ON57N7NR35N,Eazie,Special long lasting energy (vegetarisch)
+68,69,ON57N7NR35N,Eazie,Thai coconut
+69,70,ORP771R35ON,De Ark Grillburgers,Sunny side up burger
+70,71,ORP771R35ON,De Ark Grillburgers,Onion rings
+71,72,ORP771R35ON,De Ark Grillburgers,Chicken wings
+72,73,O55513PP1ON,Bombay Corner,Chicken tikka biryani
+73,74,O00701NQR3N,Eazie,Special stufi saver
+74,75,O00701NQR3N,Eazie,Mango dream (vegetarisch en vegan)
+75,76,O00701NQR3N,Eazie,Regular wok meal
+76,77,ORQQNPQR73N,Delftse Panda,"Loempia ""Delftse panda"""
+77,78,ORQQNPQR73N,Delftse Panda,Keuzemenu 1 persoon
+78,79,O5NQRPQ7P3N,India Garden,Samosa
+79,80,O5NQRPQ7P3N,India Garden,King prawn butterfly
+80,81,O5NQRPQ7P3N,India Garden,Chicken tikka masala
+81,82,OOO3P53OO3N,De Ark Grillburgers,Combi menu XL twister
+82,83,ONO1OPRNN3N,Delftse Panda,Mapu taufu
+83,84,ONO1OPRNN3N,Delftse Panda,Cola
+84,85,ON5PQ00R03N,De Ark Grillburgers,Combi menu twister
+85,86,ON5PQ00R03N,De Ark Grillburgers,Fanta Orange 33cl
+86,87,OOP1N37103N,Delftse Panda,Keuzemenu 2 a 3 personen
+87,88,OOP1N37103N,Delftse Panda,Heineken
+88,89,O3711NQ15NN,Eazie,Small wok meal
+89,90,O3711NQ15NN,Eazie,Large wok meal
+90,91,OO757N05ONN,De Ark Grillburgers,Mixed grill the Ark
+91,92,ONR700133NN,De Ark Grillburgers,Crispy chicken burger
+92,93,ONR700133NN,De Ark Grillburgers,Mexico wrap
+93,94,O5NNOQQ3NNN,Pavarotti,Pasta polpette
+94,95,O5NNOQQ3NNN,Pavarotti,Lasagna
+95,96,OR0P1RR371N,De Ark Grillburgers,BurgerDeal
+96,97,OR0P1RR371N,De Ark Grillburgers,Mexico wrap
+97,98,OOPNP0OOP1N,Eazie,Regular wok meal
+98,99,OOPNP0OOP1N,Eazie,Large wok meal
+99,100,OOPNP0OOP1N,Eazie,Korean BBQ met kimchi
+100,101,OORO50R1P1N,Eazie,Large wok meal

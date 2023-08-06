@@ -1,0 +1,159 @@
+{
+    "order": {
+        "id": "RPORN0150P3",
+        "identifier": "1656839819YIQFAT52686F3FE9E9AE772D55DB88FFDD6824",
+        "publicReference": "YIQFAT",
+        "trackingReference": "83cfee3b40131a42e2d8f2de03f34b8cec7c0f4bba47ca016dc69fa0dfb62587",
+        "orderedAt": "2022-07-03T09:16:59Z",
+        "cartItems": [
+            {
+                "id": "ONR50RON31",
+                "name": "Smoked chicken spicy Mexican tomato salsa",
+                "price": 600,
+                "quantity": 1,
+                "options": [
+                    {
+                        "id": "OO1RP7OO5O",
+                        "name": "Waldcorn bread 120 grams",
+                        "price": 0
+                    }
+                ],
+                "remarks": ""
+            },
+            {
+                "id": "O55P0RON31",
+                "name": "Beef pastrami - truffle mayonnaise",
+                "price": 600,
+                "quantity": 1,
+                "options": [
+                    {
+                        "id": "O11RP7OO5O",
+                        "name": "White Italian roll 150 grams",
+                        "price": 0
+                    }
+                ],
+                "remarks": ""
+            },
+            {
+                "id": "OO750RON31",
+                "name": "Grill sausage",
+                "price": 625,
+                "quantity": 1,
+                "options": [
+                    {
+                        "id": "O11RP7OO5O",
+                        "name": "White Italian roll 150 grams",
+                        "price": 0
+                    }
+                ],
+                "remarks": ""
+            },
+            {
+                "id": "O1N70RON31",
+                "name": "Fresh smoked chicken salad",
+                "price": 725,
+                "quantity": 1,
+                "options": [
+                    {
+                        "id": "O7QO77OO5O",
+                        "name": "Garden herb dressing",
+                        "price": 0
+                    }
+                ],
+                "remarks": ""
+            },
+            {
+                "id": "OQNP0RON31",
+                "name": "Smoked chicken - avocadomayonnaise",
+                "price": 600,
+                "quantity": 1,
+                "options": [
+                    {
+                        "id": "OO1RP7OO5O",
+                        "name": "Waldcorn bread 120 grams",
+                        "price": 0
+                    }
+                ],
+                "remarks": ""
+            }
+        ],
+        "remarks": ""
+    },
+    "restaurant": {
+        "id": "O31QN7PN",
+        "name": "Broodje Ben",
+        "primaryUrl": "broodje-ben-utrecht-biltstraat",
+        "logoUrl": "https://static.takeaway.com/images/chains/nl/broodjeben/logo_465x320.png",
+        "address": {
+            "street": "Biltstraat",
+            "houseNumber": "14",
+            "postalCode": "3572BA",
+            "city": "Utrecht",
+            "country": "NL",
+            "geolocation": {
+                "latitude": "52.0952281",
+                "longitude": "5.1272496"
+            }
+        }
+    },
+    "shipping": {
+        "type": "delivery",
+        "deliveryTimePreference": "",
+        "address": {
+            "streetName": "Nijenoord",
+            "streetNumber": "2-025",
+            "companyName": "",
+            "postalCode": "3552 AS",
+            "city": "Utrecht",
+            "country": "NL",
+            "geolocation": {
+                "latitude": "52.1026757",
+                "longitude": "5.1051679"
+            },
+            "additionalInfo": {
+                "accessCode": null,
+                "apartmentName": null,
+                "block": null,
+                "door": null,
+                "entrance": null,
+                "flatNumber": null,
+                "floor": null,
+                "intercom": null
+            }
+        }
+    },
+    "payment": {
+        "currency": {
+            "code": "EUR",
+            "denominator": 100
+        },
+        "costs": {
+            "total": 3150,
+            "delivery": 0,
+            "transaction": 25,
+            "plasticBag": null
+        },
+        "methods": [
+            {
+                "name": "ideal",
+                "amount": 3175,
+                "images": [
+                    {
+                        "id": "icon",
+                        "url": "https://static.takeaway.com/images/inno-payments/icons/ideal.svg"
+                    }
+                ]
+            }
+        ],
+        "takeawayPay": null,
+        "voucher": null,
+        "tippingRequests": [],
+        "discounts": []
+    },
+    "customer": {
+        "fullName": "Dev",
+        "email": "kulkarnidevendra21@gmail.com",
+        "phoneNumber": "+31617812544",
+        "languagePreference": "en"
+    }
+}
