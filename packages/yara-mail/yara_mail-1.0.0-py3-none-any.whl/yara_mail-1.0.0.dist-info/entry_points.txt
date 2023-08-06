@@ -1,0 +1,2 @@
+[console_scripts]
+yaramail = yaramail.cli:_main
