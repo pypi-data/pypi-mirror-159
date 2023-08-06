@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: esnt-intern-mini-spider-ymh
+Version: 0.1.0
+Summary: a mini spider.
+Home-page: 
+Author: 易旻晗
+Author-email: minhan.yi@70capital.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: chardet (>=5.0.0)
+Requires-Dist: lxml (>=4.9.1)
+Requires-Dist: requests (>=2.28.1)
+
+UNKNOWN
+
