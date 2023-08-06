@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: wda-python
+Version: 0.0.3
+Summary: Python Client for Facebook WebDriverAgent
+Home-page: https://github.com/aghb123/wda_python.git
+Author: "wangzhuang"
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+License-File: LICENSE
+License-File: AUTHORS
+
+Documentation in <https://github.com/openatx/facebook-wda>
+
