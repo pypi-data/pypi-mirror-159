@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+unzipmbcs.py
+test/test_unzipmbcs.py
+unzipmbcs.egg-info/PKG-INFO
+unzipmbcs.egg-info/SOURCES.txt
+unzipmbcs.egg-info/dependency_links.txt
+unzipmbcs.egg-info/entry_points.txt
+unzipmbcs.egg-info/top_level.txt
