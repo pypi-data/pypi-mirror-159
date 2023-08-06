@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+pysearchlite/__init__.py
+pysearchlite/main.py
+pysearchlite/search_engine.py
+pysearchlite.egg-info/PKG-INFO
+pysearchlite.egg-info/SOURCES.txt
+pysearchlite.egg-info/dependency_links.txt
+pysearchlite.egg-info/top_level.txt
