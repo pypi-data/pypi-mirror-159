@@ -1,0 +1,1 @@
+from tictectoc.tictectoc import TicTecToc
