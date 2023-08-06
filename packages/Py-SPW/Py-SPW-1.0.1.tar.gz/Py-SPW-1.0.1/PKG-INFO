@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: Py-SPW
+Version: 1.0.1
+Summary: Python library for spworlds API
+Home-page: https://github.com/teleport2/Py-SPW
+Author: Stepan Khozhempo
+Author-email: stepan@m.khoz.ru
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Py SPW
+Library fo work with SPworlds API.
+
+## Installation
+Library written on 3.10.5
+
+To install, run this command:
+`pip install Py-Spw`
+
+## Links
+- [PyPi](https://pypi.org/project/Py-SPW)
+- [Documentation](https://github.com/teleport2/Py-SPW/wiki)
+- [Author](https://github.com/teleport2)
+
