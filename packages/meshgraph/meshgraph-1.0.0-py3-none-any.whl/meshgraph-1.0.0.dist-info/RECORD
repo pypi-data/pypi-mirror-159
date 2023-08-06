@@ -1,0 +1,10 @@
+meshgraph/Graph.py,sha256=AAfNMP4yKBCfxB3mmlvoNFdJtQ_J5gfkycKZg0SGnHE,2384
+meshgraph/Node.py,sha256=WsE15D4bd6PSqqtBNuQgrpaZmU5jYNrAtzVV6WtzN3Q,982
+meshgraph/ObjLoader.py,sha256=nePU5exNVXcAuEbd2W5rfO6zduotJxsCQRQZpNwZKIo,2118
+meshgraph/Vec3.py,sha256=mj8v0WusysWPenej3l3riiJbyFo9v0wrTC_HIoawKYE,1014
+meshgraph/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+meshgraph-1.0.0.dist-info/LICENSE,sha256=UOZ1F5fFDe3XXvG4oNnkL1-Ecun7zpHzRxjp-XsMeAo,11324
+meshgraph-1.0.0.dist-info/METADATA,sha256=2gAxH0OYK7OPNN4iekdJm05gQq3S0gcVkDqCdx1lRTY,14659
+meshgraph-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+meshgraph-1.0.0.dist-info/top_level.txt,sha256=T5ghyJ8QMxR8sRnsw2_C7giuIZzTNlGN2Z_toLbaPYY,10
+meshgraph-1.0.0.dist-info/RECORD,,
