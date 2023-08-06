@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+liqpay3/__init__.py
+liqpay3/liqpay.py
+liqpay3/test.py
+liqpay3.egg-info/PKG-INFO
+liqpay3.egg-info/SOURCES.txt
+liqpay3.egg-info/dependency_links.txt
+liqpay3.egg-info/not-zip-safe
+liqpay3.egg-info/top_level.txt
