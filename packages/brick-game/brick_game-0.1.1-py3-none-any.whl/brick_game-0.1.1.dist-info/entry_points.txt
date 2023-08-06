@@ -1,0 +1,3 @@
+[gui_scripts]
+brick_game = brick_game.main_file:main
+
