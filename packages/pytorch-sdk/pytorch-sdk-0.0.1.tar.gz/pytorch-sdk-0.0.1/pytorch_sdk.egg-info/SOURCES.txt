@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pytorch_sdk/__init__.py
+pytorch_sdk.egg-info/PKG-INFO
+pytorch_sdk.egg-info/SOURCES.txt
+pytorch_sdk.egg-info/dependency_links.txt
+pytorch_sdk.egg-info/requires.txt
+pytorch_sdk.egg-info/top_level.txt
