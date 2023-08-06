@@ -1,0 +1,2 @@
+[console_scripts]
+download-tendermint-genesis = tendermint_chunked_genesis_download.cli:main
