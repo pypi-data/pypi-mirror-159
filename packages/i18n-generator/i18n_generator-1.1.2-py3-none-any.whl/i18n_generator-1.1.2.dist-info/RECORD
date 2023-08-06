@@ -1,0 +1,15 @@
+i18ngenerator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i18ngenerator/__main__.py,sha256=boL_ZIPO71HFoAx_YzfW-4KVA9FEF-Y4TJROO_lLVz0,3446
+i18ngenerator/i18ngenerator.py,sha256=jVXsemnJ2KzcxjuQTIOXhbYkrhzx_O_w0MxgK26-4y4,9140
+i18ngenerator/languages.py,sha256=qo0Ee38b5bbQ31o8m1fPFkMxfdrf0VtfYKJqBWYyeco,2377
+i18ngenerator/transformer.py,sha256=Hihr43_LorfPj9C-COAnMCZEhkYqCmFRYOpYJnx0qn0,1115
+i18ngenerator/translator.py,sha256=yJlITxDAdH_nPpThrEj4TPdHWnIkH23RIljBQ8bEzJs,3831
+i18ngenerator/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+i18ngenerator/utils/config_parser.py,sha256=Ts2F3gcQ2fO5O1oPK45uxVWjwa1BU4CAxVjrGZfFwPM,5094
+i18ngenerator/utils/exceptions.py,sha256=tNfuX-v8gf6w1678cUNeLrOB5EcGGeuV8bGgemgzLSQ,1568
+i18ngenerator/utils/metadata.py,sha256=tr2dMUFshB0V7YlDRbNgwbPa_pUX5HAgJ388cVKIj1Y,18
+i18n_generator-1.1.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+i18n_generator-1.1.2.dist-info/METADATA,sha256=HFzaoJ2Mh05hywGIiQ6evI2xUH_JQia3AmwdzfIU_c4,7648
+i18n_generator-1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+i18n_generator-1.1.2.dist-info/top_level.txt,sha256=Q5O5vsMmnBtTzqhmKSsJ8pwHk9a29WUUZmjlX5zhWEs,14
+i18n_generator-1.1.2.dist-info/RECORD,,
