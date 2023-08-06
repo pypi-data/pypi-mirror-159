@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+fairdetect/__init__.py
+fairdetect.egg-info/PKG-INFO
+fairdetect.egg-info/SOURCES.txt
+fairdetect.egg-info/dependency_links.txt
+fairdetect.egg-info/not-zip-safe
+fairdetect.egg-info/top_level.txt
