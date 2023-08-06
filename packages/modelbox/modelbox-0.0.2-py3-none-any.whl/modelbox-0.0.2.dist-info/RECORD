@@ -1,0 +1,9 @@
+modelbox/__init__.py,sha256=6XCnouhPrMKJbXpQPRSjpfZq69dGpGGcP7nzT4TqhPc,57
+modelbox/modelbox.py,sha256=Dvdhg5XPGtjgBOK-zsCNbghdjHYPRk7y0Z9hwcG6nms,6580
+modelbox/service_pb2.py,sha256=krc5LBC62OCsJ-8flx6BtBkPWA9II6X-2AGZJ2SVApA,28737
+modelbox/service_pb2_grpc.py,sha256=Lpib8o7WPmHzN_-NGTKX1zEFPdoLENXKaSXf2mtz05E,18439
+modelbox-0.0.2.dist-info/LICENSE,sha256=CY-HBgVjaKe5t-6gFNcKIPouFtPH1-emVO7OExHtZBg,11350
+modelbox-0.0.2.dist-info/METADATA,sha256=JLugY1hFYVfnW4DsmFeKtM8raWrc5HqmEySo4dlXU-Y,3004
+modelbox-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+modelbox-0.0.2.dist-info/top_level.txt,sha256=EsPcFNQkk5Y43JOoQibBvOlRmoYskOXk9yMOJXyN4lI,9
+modelbox-0.0.2.dist-info/RECORD,,
