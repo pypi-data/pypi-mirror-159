@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/beadsnum/__init__.py
+src/beadsnum.egg-info/PKG-INFO
+src/beadsnum.egg-info/SOURCES.txt
+src/beadsnum.egg-info/dependency_links.txt
+src/beadsnum.egg-info/top_level.txt
