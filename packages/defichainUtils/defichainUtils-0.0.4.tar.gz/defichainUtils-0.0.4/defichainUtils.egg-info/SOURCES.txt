@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+defichainUtils.egg-info/PKG-INFO
+defichainUtils.egg-info/SOURCES.txt
+defichainUtils.egg-info/dependency_links.txt
+defichainUtils.egg-info/top_level.txt
