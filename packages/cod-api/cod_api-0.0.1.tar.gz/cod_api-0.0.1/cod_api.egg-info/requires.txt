@@ -1,0 +1,6 @@
+asyncio
+requests
+uuid
+urllib3
+enum34
+sphinx-tabs
