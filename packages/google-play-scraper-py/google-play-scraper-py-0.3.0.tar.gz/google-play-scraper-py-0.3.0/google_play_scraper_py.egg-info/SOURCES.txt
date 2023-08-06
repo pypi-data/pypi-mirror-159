@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+google_play_scraper_py.egg-info/PKG-INFO
+google_play_scraper_py.egg-info/SOURCES.txt
+google_play_scraper_py.egg-info/dependency_links.txt
+google_play_scraper_py.egg-info/entry_points.txt
+google_play_scraper_py.egg-info/top_level.txt
+scraper/__init__.py
+scraper/__main__.py
+scraper/exceptions.py
+scraper/package.json
+scraper/scraper.py
+scraper/wrapper.py
