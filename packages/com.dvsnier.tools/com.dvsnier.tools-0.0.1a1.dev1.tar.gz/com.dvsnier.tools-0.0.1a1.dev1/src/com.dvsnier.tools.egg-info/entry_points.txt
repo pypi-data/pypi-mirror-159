@@ -1,0 +1,2 @@
+[console_scripts]
+dvs-vsws = com.dvsnier.tool.command.dvs_vscode_ws:execute
