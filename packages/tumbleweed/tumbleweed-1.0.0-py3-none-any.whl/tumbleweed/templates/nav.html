@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='tumbleweed.css') }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container content">
+            {% block content %}{% endblock %}
+        </div>
+        <script src="static/tumbleweed.js"></script>
+    </body>
+</html>
