@@ -1,0 +1,28 @@
+[project]
+name = "embedpg"
+version = "0.1.0"
+description = "Embedded Postgres in Python"
+authors = [
+    { name = "qsliu", email = "qsliu2017@outlook.com" },
+]
+dependencies = []
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/qsliu2017/embedpg"
+"Bug Tracker" = "https://github.com/qsliu2017/embedpg/issues"
+
+[tool.pdm.build]
+includes = [
+    "embedpg",
+    "resources",
+]
+
+[build-system]
+requires = [
+    "pdm-pep517>=0.12.0",
+]
+build-backend = "pdm.pep517.api"
