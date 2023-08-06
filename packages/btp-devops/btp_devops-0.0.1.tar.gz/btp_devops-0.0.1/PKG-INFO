@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: btp_devops
+Version: 0.0.1
+Summary: A helper devops package
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Oleksandr Onyshchenko <oonyshchenko@greenm.io>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Requires-Dist: aws-cdk-lib~=2.31.1
+Requires-Dist: constructs~=10.1.43
