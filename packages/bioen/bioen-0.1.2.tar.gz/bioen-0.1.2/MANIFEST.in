@@ -1,0 +1,5 @@
+include bioen/optimize/config/bioen_optimize.yaml
+recursive-include doc *
+recursive-include img *
+recursive-include scripts *
+recursive-include test *
