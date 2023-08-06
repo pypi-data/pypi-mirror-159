@@ -1,0 +1,19 @@
+=== 1.2 ===
+- use dill package to pickle compute function
+
+=== 1.1 ===
+- fix package requirements system
+
+=== 1.0.3 ===
+- warning instead of error if input list is empty
+
+=== 1.0.2 ===
+- fixes to package installation (a script was missing)
+- improved the documentation
+
+=== 1.0.1 ===
+- fix packaging (subdirectory dbschema was missing)
+- fix requirements
+
+=== 1.0 ===
+- initial release
