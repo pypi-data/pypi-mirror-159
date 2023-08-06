@@ -1,0 +1,14 @@
+htmlwithpy/__init__.py,sha256=8bPw_Fa9HNDW460XB9L3Lsu3hX1l2jBorAxn5YXqtzc,231
+htmlwithpy/a.py,sha256=OBK2uadgjBNiWWGna_fzf6-Yl96vOKKMTrZC5fQVjZA,455
+htmlwithpy/body.py,sha256=GF4H3ka_z8mkrjjHTtN--1nw43-wZoiyxCXn_tGzDYI,215
+htmlwithpy/div.py,sha256=CaeGxR6G-OZ60TFa9D8GMqYlYAASUY4hV3sAiGk5-bc,236
+htmlwithpy/element.py,sha256=hjcb4z4_qMYLYHUhM7ksntxdJPDCr19v9ffBg85QGxQ,2084
+htmlwithpy/img.py,sha256=yHFiLs6qkN7pTqwtotkfDCATzQTPbnWd_ZpcL3Nacqk,755
+htmlwithpy/input.py,sha256=I_9x3qlNq1QwMCWHo6sxBVUfvm_gK3v8tOet-ZuRxlc,1070
+htmlwithpy/para.py,sha256=gwMmHISjv0tf9yvrLXtLSAaVC5FN5TV-TpS7sFBP_18,208
+htmlwithpy/span.py,sha256=s15NWtouo3jgpgpjIXvDZs2NtawkVIO8mjyWrqmekC8,211
+htmlwithpy-0.0.1.dist-info/LICENSE,sha256=UcUOLl_MiQM4GpOo_f4iMcBN29WhoBTSw52Bscs4ZnY,1091
+htmlwithpy-0.0.1.dist-info/METADATA,sha256=im3TL19WacfsoufeskQTpXlU59V0P5FI0Dx70d1YVtQ,3706
+htmlwithpy-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+htmlwithpy-0.0.1.dist-info/top_level.txt,sha256=aDKljmmwd5i638NbjZN3uvkBMrZLNiV7HuzhKDdg0RI,11
+htmlwithpy-0.0.1.dist-info/RECORD,,
