@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/array_as_vcf/__init__.py
+src/array_as_vcf/cli.py
+src/array_as_vcf/lookup.py
+src/array_as_vcf/readers.py
+src/array_as_vcf/utils.py
+src/array_as_vcf/variation.py
+src/array_as_vcf.egg-info/PKG-INFO
+src/array_as_vcf.egg-info/SOURCES.txt
+src/array_as_vcf.egg-info/dependency_links.txt
+src/array_as_vcf.egg-info/entry_points.txt
+src/array_as_vcf.egg-info/not-zip-safe
+src/array_as_vcf.egg-info/top_level.txt
