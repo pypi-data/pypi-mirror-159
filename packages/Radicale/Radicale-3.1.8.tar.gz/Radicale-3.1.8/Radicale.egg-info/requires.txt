@@ -1,0 +1,18 @@
+defusedxml
+passlib
+vobject>=0.9.6
+python-dateutil>=2.7.3
+
+[:python_version < "3.9"]
+setuptools
+
+[bcrypt]
+passlib[bcrypt]
+bcrypt
+
+[test]
+pytest<7
+typeguard
+waitress
+passlib[bcrypt]
+bcrypt
