@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: setdiff
+Version: 1.0.0
+Summary: Sizes of sets of lines of two files
+Home-page: https://github.com/pixelneo/setdiff
+License: MIT
+Author: Ondřej Měkota
+Author-email: ondrej.mekota@me.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Project-URL: Repository, https://github.com/pixelneo/setdiff
