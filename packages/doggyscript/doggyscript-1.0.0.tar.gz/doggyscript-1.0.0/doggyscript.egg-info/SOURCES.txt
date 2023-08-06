@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+Setup.py
+setup.py
+doggyscript/__init__.py
+doggyscript.egg-info/PKG-INFO
+doggyscript.egg-info/SOURCES.txt
+doggyscript.egg-info/dependency_links.txt
+doggyscript.egg-info/top_level.txt
