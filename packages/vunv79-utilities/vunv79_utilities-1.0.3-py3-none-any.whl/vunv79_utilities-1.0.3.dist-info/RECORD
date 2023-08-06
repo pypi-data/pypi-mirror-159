@@ -1,0 +1,17 @@
+vunv79_utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vunv79_utilities/libs/__init__.py,sha256=ZWkkHTaxK9sW5NZLOqxsnqNSsFAsNy8N7oV1iD00y0c,142
+vunv79_utilities/libs/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vunv79_utilities/libs/helpers/metaclass.py,sha256=Kh5ZUzbi5k_yuOkUgpUMCPOiSOtkP5Ckl3EAqvWCOiY,1430
+vunv79_utilities/libs/kafka/__init__.py,sha256=e2PX1jt4KT4RyUe61DUq4vCvYs2k8sdohAWYXEbYW9o,47
+vunv79_utilities/libs/kafka/consumer.py,sha256=lSModaIDEfXGdMrDReL_I-a6mdIrBRj0kbkxw-XlRWA,1783
+vunv79_utilities/libs/kafka/producer.py,sha256=NElClsj9LZBlrfJ3twxXhUf4Lpok7j_woM3yJunEOuA,1791
+vunv79_utilities/libs/logger/__init__.py,sha256=e2PX1jt4KT4RyUe61DUq4vCvYs2k8sdohAWYXEbYW9o,47
+vunv79_utilities/libs/logger/setup.py,sha256=pEcZaBXw0pE-c6zQr-R2HhCnGF-m3wHMQ2Z_RtFwGxY,388
+vunv79_utilities/libs/telegram/__init__.py,sha256=e2PX1jt4KT4RyUe61DUq4vCvYs2k8sdohAWYXEbYW9o,47
+vunv79_utilities/libs/telegram/channel.py,sha256=Ng-yDbz87vTRETqJO4NyEPDRCD7KtuXZ8poDjm2jRl8,1310
+vunv79_utilities/libs/telegram/config.py,sha256=eFev9wn6rCdMHYVRpUz_K6nIBV8iNapWaWE4MM2FEgw,87
+vunv79_utilities-1.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+vunv79_utilities-1.0.3.dist-info/METADATA,sha256=I7eZvaLUUn2EmqH_96oR5wjQZeSBkMGsezc3M1GRyi8,590
+vunv79_utilities-1.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+vunv79_utilities-1.0.3.dist-info/top_level.txt,sha256=MoYBRLZlwwMtwYZHiD3ATbDluLUhE4ZIgn0f0-XHJro,17
+vunv79_utilities-1.0.3.dist-info/RECORD,,

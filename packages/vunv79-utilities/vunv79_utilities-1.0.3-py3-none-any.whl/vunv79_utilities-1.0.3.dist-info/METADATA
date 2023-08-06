@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: vunv79-utilities
+Version: 1.0.3
+Summary: Simply pre-written small packages that implement in code
+Home-page: UNKNOWN
+Author: Vu Nguyen
+Author-email: vuviet.nguyen.it@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# GHTK Python lib
+
+## Installation
+
+```bash
+pip install --upgrade vunv79_utilities
+```
+
+## Library properties
+
+- Logging
+- Kafka
+- Telegram
+
+
