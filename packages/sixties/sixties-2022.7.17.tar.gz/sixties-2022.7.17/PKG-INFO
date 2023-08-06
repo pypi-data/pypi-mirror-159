@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: sixties
+Version: 2022.7.17
+Summary: "Parsing of fixed width text databases derived in the Seventies from the Sixties' spirit of the previous century."
+Home-page: https://github.com/sthagen/sixties
+Author: Stefan Hagen
+Author-email: stefan@hagen.link
+Maintainer: Stefan Hagen
+Maintainer-email: stefan@hagen.link
+Project-URL: Bug Tracker, https://github.com/sthagen/sixties/issues
+Project-URL: Documentation, https://sthagen.github.io/sixties
+Project-URL: Source Code, https://github.com/sthagen/sixties
+Keywords: developer-tools,validation,verification
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python-Sixties
+
+Parsing of fixed width text databases derived in the Seventies from the Sixties' spirit of the previous century.
+
+[License: MIT](https://github.com/sthagen/sixties/blob/default/LICENSE)
+
+[![version](https://img.shields.io/pypi/v/sixties.svg?style=flat)](https://pypi.python.org/pypi/sixties/)
+[![downloads](https://pepy.tech/badge/sixties/month)](https://pepy.tech/project/sixties)
+[![wheel](https://img.shields.io/pypi/wheel/sixties.svg?style=flat)](https://pypi.python.org/pypi/sixties/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/sixties.svg?style=flat)](https://pypi.python.org/pypi/sixties/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/sixties.svg?style=flat)](https://pypi.python.org/pypi/sixties/)
+
+TODO: Third party dependencies are documented in the folder [third-party](third-party/README.md).
+
+## Status
+
+Experimental
+
+## What is in it
+
+Probably nothing of interest for most visitors.
+
+**Note**: The default branch is `default`.
