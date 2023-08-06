@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+bmusic/__init__.py
+bmusic/anim.py
+bmusic/animkey.py
+bmusic/midi.py
+bmusic.egg-info/PKG-INFO
+bmusic.egg-info/SOURCES.txt
+bmusic.egg-info/dependency_links.txt
+bmusic.egg-info/requires.txt
+bmusic.egg-info/top_level.txt
+bmusic/proc/__init__.py
+bmusic/proc/intensity.py
+bmusic/proc/mechanical.py
+bmusic/proc/procedure.py
