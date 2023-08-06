@@ -1,0 +1,15 @@
+create_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+create_app/__main__.py,sha256=Csg_c9R6Zirl6vwoSXw5HV0O-5vnTTHV89SOaA8QiNI,40
+create_app/cli.py,sha256=BgzFifw1mnPfFBSL-mgkC7FA68BLTqO2tw8uuCr3j9E,1251
+create_app/main.py,sha256=Y9gu83OvhDq5Gx3hhi6hW4ECLuNMeaq2UKLB7GRKqhY,1340
+create_app/project.py,sha256=ve6_OZO8yZa6ieeR910Mb8a7KHFmcqX65WKCWduhL38,1051
+create_app/project_configuration.py,sha256=JRRB9WKL71cxEFTh2LlOOt0wkn44jd4uR8KptcSSIJA,1087
+create_app/project_configuration_file.py,sha256=M67e4vlUozRCPDx7eCLop6B2bHtBfSjfHbBSHArNoXs,673
+create_app/settings.py,sha256=unGignnt57NvlFPo71N1IW7TSHfeiTlpMFgVXdX-4as,504
+create_app/templates.py,sha256=olm98HCbLV_qI-xpV1lyYlVbzhSBJbcnYLo4T3mU5rY,1310
+create_app-0.5.dist-info/LICENSE,sha256=iMuvzYixoN85BIjTZReIzPclyT1EqToGaRYWypGEQDI,1069
+create_app-0.5.dist-info/METADATA,sha256=Za-0rR38NZxyV-kdyOU04_Otv3eIRWzpi5LNwVfg_KE,8707
+create_app-0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+create_app-0.5.dist-info/entry_points.txt,sha256=ABYVgwA3oWmjwoMixz1XRq3wGXxVXuKCI4PwWEyCRl0,51
+create_app-0.5.dist-info/top_level.txt,sha256=XUj2GSa9b3o0yflSHwMjsAcBcNj0yYWmEirjR_NLDF8,11
+create_app-0.5.dist-info/RECORD,,
