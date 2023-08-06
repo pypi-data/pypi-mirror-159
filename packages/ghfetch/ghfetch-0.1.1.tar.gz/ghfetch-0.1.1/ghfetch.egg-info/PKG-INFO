@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: ghfetch
+Version: 0.1.1
+Summary: Fetches information of a specified github user.
+Home-page: https://github.com/woooferz/ghfetch
+Author: Wooferz
+Author-email: contact@wooferz.dev
+License: MIT
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ghfetch
+
+A CLI for fetching info of github.
