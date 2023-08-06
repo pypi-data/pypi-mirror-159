@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/pixelart2tgs/__main__.py
+src/pixelart2tgs/chain_generator.py
+src/pixelart2tgs/contour_generator.py
+src/pixelart2tgs/converter_types.py
+src/pixelart2tgs/lottie_generator.py
+src/pixelart2tgs/shape_generator.py
+src/pixelart2tgs/templates.py
+src/pixelart2tgs.egg-info/PKG-INFO
+src/pixelart2tgs.egg-info/SOURCES.txt
+src/pixelart2tgs.egg-info/dependency_links.txt
+src/pixelart2tgs.egg-info/requires.txt
+src/pixelart2tgs.egg-info/top_level.txt
