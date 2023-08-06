@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ax-spider
+Version: 0.0.9a0
+Summary: 一款简单的python爬虫框架
+Home-page: UNKNOWN
+Author: Zhou-ChaoXian
+Author-email: 2542606900@qq.com
+License: GPLv3
+Project-URL: Source, https://github.com/Zhou-ChaoXian/ax-spider
+Keywords: ax_spider
+Platform: Independant
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Requires-Dist: httpx (>=0.23.0)
+Requires-Dist: attrs
+Requires-Dist: parsel
+Requires-Dist: itemloaders
+Requires-Dist: pathlib
+Requires-Dist: PyDispatcher
+
+UNKNOWN
+
+
