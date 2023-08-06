@@ -1,0 +1,10 @@
+pycryptodome
+
+[dev]
+commitizen
+
+[doc]
+sphinx
+
+[test]
+hypothesis
