@@ -1,0 +1,9 @@
+cryptography>=35.0.0
+
+[build]
+build
+twine
+
+[dev]
+mypy
+pycodestyle
