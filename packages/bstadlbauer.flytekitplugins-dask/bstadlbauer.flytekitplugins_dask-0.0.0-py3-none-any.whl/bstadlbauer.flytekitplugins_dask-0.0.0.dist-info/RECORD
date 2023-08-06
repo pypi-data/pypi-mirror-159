@@ -1,0 +1,9 @@
+bstadlbauer/flytekitplugins/dask/__init__.py,sha256=SKPfWiWTL4WpY0oZlYdZxci71THS-cAoIvRkh1xgaRo,232
+bstadlbauer/flytekitplugins/dask/config.py,sha256=3RnAlYKf4FUWUvLUezJUPVSnkXKlJs7XV5Zb3LTsxZ0,3020
+bstadlbauer/flytekitplugins/dask/constants.py,sha256=707adfKhx2MS8AddXvm4GHFvv1GFJ-mwAFzzWBtBLx4,58
+bstadlbauer/flytekitplugins/dask/errors.py,sha256=zLkfbb3eT613JZ4JJ_gNrjwjcTGHUcrCcusjATSNt0c,53
+bstadlbauer/flytekitplugins/dask/task.py,sha256=EUudfKnEuMMIjiF_ZsoAqwoZ-ziGh6ljOzxu84mze3w,4599
+bstadlbauer.flytekitplugins_dask-0.0.0.dist-info/LICENSE,sha256=NdFoCJ8a1eSAjxACXoKEhRQx3HtQFLWpXZ68Ug7-jtM,1068
+bstadlbauer.flytekitplugins_dask-0.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+bstadlbauer.flytekitplugins_dask-0.0.0.dist-info/METADATA,sha256=X2j_-JcSehz38Eu2VvwfFMRHfruxBIGJ-D3qzWaY43s,672
+bstadlbauer.flytekitplugins_dask-0.0.0.dist-info/RECORD,,

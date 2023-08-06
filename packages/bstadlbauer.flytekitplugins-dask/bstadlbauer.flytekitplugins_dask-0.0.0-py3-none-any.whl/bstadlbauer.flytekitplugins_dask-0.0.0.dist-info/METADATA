@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bstadlbauer.flytekitplugins-dask
+Version: 0.0.0
+Summary: A pure Python flytekit plugin to work with dask clusters
+License: MIT
+Author: Bernhard Stadlbauer
+Author-email: 11799671+bstadlbauer@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: dask-kubernetes (>=2022.5.2,<2023.0.0)
+Requires-Dist: dask[distributed] (>=2022.7.0,<2023.0.0)
+Requires-Dist: flytekit (>=1.1.0,<2.0.0)
