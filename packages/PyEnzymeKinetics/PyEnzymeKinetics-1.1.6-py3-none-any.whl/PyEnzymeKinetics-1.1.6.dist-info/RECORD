@@ -1,0 +1,15 @@
+pyenzymekinetics/__init__.py,sha256=M7KeH_ipdRZjWDXSsIiaK8NL1tWcRtLOvTTHqrT1SuU,162
+pyenzymekinetics/calibrator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyenzymekinetics/calibrator/calibrationmodel.py,sha256=ucIjv7e4BXyUySnBRPtBBPaXDRXI_Yi4JhygHCvDlEg,934
+pyenzymekinetics/calibrator/standardcurve.py,sha256=K4jv02bx9zGEZCv_GIokKrtRje5Y-MHfXAw9Jaarwqw,4234
+pyenzymekinetics/calibrator/utility.py,sha256=aKjzp1FfzAiHgWvSPKLCUCEi_xVJmw4Kibu7ij5TUNI,3112
+pyenzymekinetics/parameterestimator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyenzymekinetics/parameterestimator/enzymekinetics.py,sha256=zeMqtlHNinpjRqSpljgCMg-AthCg4Fhfz-jwSjf2pOw,7852
+pyenzymekinetics/parameterestimator/models.py,sha256=cBRMaWwElLdSzSuxtViZgLZnUdQb5N4L3Cgdu3qHDcM,2758
+pyenzymekinetics/utility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyenzymekinetics/utility/initial_parameters.py,sha256=CW7xnEvPryJNCgIkf6Gv_rvcc0rbJTDOCuNYfzGqVyQ,1677
+pyenzymekinetics/utility/writeenzymeml.py,sha256=JkmA03GY-8JQKndOMMSm3VrXMnPgRe7en6YrEWXNR9s,1077
+PyEnzymeKinetics-1.1.6.dist-info/METADATA,sha256=AADpWoA8RtblH7cAaKnhapriubBBSDPLGiErZE7ceSk,267
+PyEnzymeKinetics-1.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyEnzymeKinetics-1.1.6.dist-info/top_level.txt,sha256=ng98kkO1-6JfRaagH-KslfAPaDmNHWBVRRP96XeKc-8,17
+PyEnzymeKinetics-1.1.6.dist-info/RECORD,,
