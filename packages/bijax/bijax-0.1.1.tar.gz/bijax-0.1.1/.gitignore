@@ -1,0 +1,13 @@
+__pycache__/
+*.vscode
+*.ipynb_checkpoints
+*.pyc
+*.jpg
+*.pdf
+*.png
+*.gif
+*.txt
+*.egg-info/
+bijax/_version.py
+build
+tmp.py
