@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dictok/__init__.py
+src/dictok/dictok.py
+src/dictok.egg-info/PKG-INFO
+src/dictok.egg-info/SOURCES.txt
+src/dictok.egg-info/dependency_links.txt
+src/dictok.egg-info/top_level.txt
