@@ -1,0 +1,26 @@
+[build-system]
+# Minimum requirements for the build system to execute.
+requires = [
+    "setuptools==59.2.0",
+    "requests == 2.13.0",
+]
+
+[project]
+name = "sequence_annotation"
+version = "0.0.6"
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+description = "proteins info mapper"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/BioinformaticaUNQ/sequence_annotation"
+"Bug Tracker" = "https://github.com/BioinformaticaUNQ/sequence_annotation/issues"
