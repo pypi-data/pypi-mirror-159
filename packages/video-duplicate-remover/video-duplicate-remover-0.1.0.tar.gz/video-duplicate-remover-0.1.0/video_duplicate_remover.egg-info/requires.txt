@@ -1,0 +1,4 @@
+click
+black
+setup-cfg-fmt
+setup-py-upgrade
