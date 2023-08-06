@@ -1,0 +1,12 @@
+chemdraw/__init__.py,sha256=Cc8EiGm-F5dJTNS2tEOAkc3-tsRkZCYhH21D0dPTDug,141
+chemdraw/drawer.py,sha256=A_mv80JVorCJFNjghp1zq_3PKvbfEQe9l8k2AIiFvqQ,17594
+chemdraw/errors.py,sha256=56i5RM7KVf0_UIV7eKP1ICAP7Qi1RzOwEhPG-9UwD6A,373
+chemdraw/grid.py,sha256=iLldaSGag6-tcKnklelKJUOFCWf9SzKqWz9A98b6_8s,7161
+chemdraw/mole_file.py,sha256=R2Pnbvtr3fRU5HqOOVAT6kxAshoryh8FiakG6BVt0W8,13165
+chemdraw/rings.py,sha256=XmyFAYzlmmB9bo4ucJOubQMNJcx_b8XU_3uk6vS2YZA,1768
+chemdraw/utils.py,sha256=cRNLzuQTHqowqIZH5uLwCWvQ0-VjH-lp7Tfz2IJWlck,1596
+chemdraw-0.0.1.dist-info/LICENSE.txt,sha256=kn1TlRGzY_Nkw1MCTOvL4j8X9R0ZqS6V3RNRvIdu_Gc,1562
+chemdraw-0.0.1.dist-info/METADATA,sha256=mJesLaA5obOW9hvV15-mV-knf-fhxrKqY4HAUDmevbE,906
+chemdraw-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chemdraw-0.0.1.dist-info/top_level.txt,sha256=uNUL7v6itqCu9ScKo3O4SXwuv4AotUGZ_jhus-s0w6k,9
+chemdraw-0.0.1.dist-info/RECORD,,
