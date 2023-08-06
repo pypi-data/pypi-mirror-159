@@ -1,0 +1,12 @@
+OCAT/__init__.py,sha256=ruKqlcBw7VGfHnxWNkxzFQRFmxdkfeGA2NPxkcwjZUc,347
+OCAT/example.cpython-37m-darwin.so,sha256=qR-NuGc40-cJEpA7hvhno9MAqVVqHyweE9Od6Rt5zUc,148064
+OCAT/fast_similarity_matching.py,sha256=uIKLiz4rktY-BW7hKhML78G9NJvUVDRNDEgB6HCmurM,3648
+OCAT/lineage.py,sha256=GUZj13svXzL_EvzcqjkWgieXhylKuibOnHV-v7XxeO8,10864
+OCAT/marker_gene.py,sha256=qbSbIO6zKKMnbQc8h8T9yIiqNhtyI4f8ZInxU1o39qo,4320
+OCAT/sparse_encoding.py,sha256=lE49tp3OyO1L5Swjd10_cx4JIwlivk4hxynCWBzEcb4,15433
+OCAT/utils.py,sha256=2351JKyVPD1pBgRElow5AfwjhBJBYbouU_Hl1jZqM-Y,11216
+OCAT-0.1.87.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+OCAT-0.1.87.dist-info/METADATA,sha256=yacBE3X5a0ROgJM6RPWTJE4fDRBWx2Esc8yKTz1dBqA,1030
+OCAT-0.1.87.dist-info/WHEEL,sha256=t-yJnV7ncEuoOkGIUUhH14bb9iMbJ4DANdZCkJ-k_2s,110
+OCAT-0.1.87.dist-info/top_level.txt,sha256=9aDHAVoUKoD1hrJnFbaBkZ5Wq6BMzq0uXUkxoO8hCxI,5
+OCAT-0.1.87.dist-info/RECORD,,

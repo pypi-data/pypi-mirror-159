@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: OCAT
+Version: 0.1.87
+Summary: A new single-cell analytics framework
+Home-page: https://github.com/bowang-lab/OCAT
+Download-URL: https://github.com/bowang-lab/OCAT/archive/v_0.1.28.tar.gz
+Author: 
+Author-email: 
+License: MIT
+Keywords: RNA-SEQ,CLUSTERING,INTEGRATION
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+Requires-Dist: numpy (>=1.17.2)
+Requires-Dist: pandas
+Requires-Dist: faiss-cpu
+Requires-Dist: scikit-learn (>=0.21.3)
+Requires-Dist: matplotlib
+Requires-Dist: scipy (>=1.3.1)
+Requires-Dist: cython
+Requires-Dist: umap-learn
+Requires-Dist: seaborn
+Requires-Dist: networkX
+
