@@ -1,0 +1,2 @@
+[console_scripts]
+pacrepo-cli = cli:main
