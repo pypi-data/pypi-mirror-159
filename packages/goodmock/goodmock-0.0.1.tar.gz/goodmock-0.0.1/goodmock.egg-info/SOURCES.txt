@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+goodmock.py
+pyproject.toml
+setup.py
+goodmock.egg-info/PKG-INFO
+goodmock.egg-info/SOURCES.txt
+goodmock.egg-info/dependency_links.txt
+goodmock.egg-info/top_level.txt
+test/test_methodmock.py
+test/test_mock.py
+test/test_takes.py
+test/test_when.py
