@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+my_first_package_giriogowda.egg-info/PKG-INFO
+my_first_package_giriogowda.egg-info/SOURCES.txt
+my_first_package_giriogowda.egg-info/dependency_links.txt
+my_first_package_giriogowda.egg-info/top_level.txt
