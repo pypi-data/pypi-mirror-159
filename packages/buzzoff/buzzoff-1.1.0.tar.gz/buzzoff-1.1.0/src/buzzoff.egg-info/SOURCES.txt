@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/buzzoff/__init__.py
+src/buzzoff/__main__.py
+src/buzzoff.egg-info/PKG-INFO
+src/buzzoff.egg-info/SOURCES.txt
+src/buzzoff.egg-info/dependency_links.txt
+src/buzzoff.egg-info/entry_points.txt
+src/buzzoff.egg-info/top_level.txt
