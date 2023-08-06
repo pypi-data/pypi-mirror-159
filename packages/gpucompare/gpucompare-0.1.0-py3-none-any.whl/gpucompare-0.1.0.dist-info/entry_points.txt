@@ -1,0 +1,3 @@
+[console_scripts]
+gpucompare=gpucompare.__main__:app
+
