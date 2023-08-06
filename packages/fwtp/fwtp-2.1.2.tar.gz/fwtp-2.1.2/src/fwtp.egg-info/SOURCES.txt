@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/fwtp/FWTP.py
+src/fwtp/StringIteratorIO.py
+src/fwtp/__init__.py
+src/fwtp/fwtp.py
+src/fwtp.egg-info/PKG-INFO
+src/fwtp.egg-info/SOURCES.txt
+src/fwtp.egg-info/dependency_links.txt
+src/fwtp.egg-info/requires.txt
+src/fwtp.egg-info/top_level.txt
