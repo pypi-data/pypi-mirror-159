@@ -1,0 +1,7 @@
+setup.py
+shython/__init__.py
+shython.egg-info/PKG-INFO
+shython.egg-info/SOURCES.txt
+shython.egg-info/dependency_links.txt
+shython.egg-info/requires.txt
+shython.egg-info/top_level.txt

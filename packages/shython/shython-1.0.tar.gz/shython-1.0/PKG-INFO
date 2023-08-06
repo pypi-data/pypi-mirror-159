@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: shython
+Version: 1.0
+Summary: This is a library or tool for working with files, urls, encryption and decryption, etc.!
+Home-page: https://github.com/snipe4kill/shython/
+Author: Shayan Heidari
+Author-email: snipe4kill.tg@gmail.com
+License: UNKNOWN
+Description: Loading...
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
