@@ -1,0 +1,15 @@
+tongsmath/__init__.py,sha256=xZJCxzChfoTGbC2O_E5S5TzL8uMWGSp-O8DAmfjvJXM,3052
+tongsmath/temp.py,sha256=duyF7JVCrrzvMr7Jgit0TQv6mIQcMQlvWJvFB2oV2CQ,40
+tongsmath/Function/__init__.py,sha256=1W_zVwd_esBhXTLPIeJt9JuHIxAjS_FaqhyEoy0rWPs,60
+tongsmath/Function/func.py,sha256=Ev75nowhBudKyxv2BTzqEMoZcmZojUPZGKyhLvfTHsY,1159
+tongsmath/Primenumber/DPF.py,sha256=OVycPlTZ66Kb9WRM_izMg97bc9kS3jCHb5QHv6usuOg,1081
+tongsmath/Primenumber/__init__.py,sha256=ss-8cphOgtzLLr6xXFuCxk8wUFJ03U1iA6FE85XftPY,64
+tongsmath/Simplify/__init__.py,sha256=laUpGfIv8DSq4c96GygQ0XR5jmtZPECSyVqgLFRP2Wk,60
+tongsmath/Simplify/sim2ndrt.py,sha256=dYxaGPYqDV7a13Dchsk3CdZe4AcLip37ebZEQXQs2sE,985
+tongsmath/Statistics/__init__.py,sha256=garZz66e7UcB_56R4Y8M-ZkAXCPbHuMrXDhum7lxyXU,62
+tongsmath/Statistics/data.py,sha256=I_t367GhAEMq57o9-xtzBeqeg39q3mpje7Qa37bK5Gw,2733
+tongsmath-1.3.10.dist-info/LICENSE.txt,sha256=jXXoL6IMzoc456nATgRKLGgPUoWOd0PX2Db1DAklo-k,1096
+tongsmath-1.3.10.dist-info/METADATA,sha256=Z-PWeKT5AqSLfwMZeX6nYpsiunVGJPjRbhv8tAVca30,908
+tongsmath-1.3.10.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tongsmath-1.3.10.dist-info/top_level.txt,sha256=jHEiEAPb5s5U9aHadtRn9UdqIIQut2ZxhdYxXijpHjY,10
+tongsmath-1.3.10.dist-info/RECORD,,
