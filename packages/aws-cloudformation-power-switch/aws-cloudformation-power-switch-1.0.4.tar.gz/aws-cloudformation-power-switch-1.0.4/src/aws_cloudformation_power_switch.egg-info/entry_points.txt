@@ -1,0 +1,2 @@
+[console_scripts]
+cfn-power-switch = aws_cloudformation_power_switch.__main__:main
