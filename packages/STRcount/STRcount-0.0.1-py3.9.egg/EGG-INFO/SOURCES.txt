@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/STRcount/STRcount_wrapper.py
+src/STRcount/__init__.py
+src/STRcount/genome_str_graph_generator.py
+src/STRcount/parse_gaf.py
+src/STRcount/parse_gaf_modified.py
+src/STRcount/parse_gaf_original.py
+src/STRcount.egg-info/PKG-INFO
+src/STRcount.egg-info/SOURCES.txt
+src/STRcount.egg-info/dependency_links.txt
+src/STRcount.egg-info/requires.txt
+src/STRcount.egg-info/top_level.txt
