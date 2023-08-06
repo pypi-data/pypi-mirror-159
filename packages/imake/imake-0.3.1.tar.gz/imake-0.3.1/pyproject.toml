@@ -1,0 +1,82 @@
+[tool.poetry]
+authors = ["William C. Canin <william.costa.canin@gmail.com>"]
+description = "iMake is a command line tool to simplify commands in Python projects, discarding the usability of a Makefile file."
+homepage = "https://github.com/snakypy/imake"
+include = ["LICENSE"]
+keywords = ["snakypy", "makefile", "make", "imake"]
+license = "MIT"
+name = "imake"
+readme = "README.md"
+repository = "https://github.com/snakypy/imake"
+version = "0.3.1"
+
+classifiers = [
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Operating System :: MacOS",
+  "Operating System :: Unix",
+  "Programming Language :: Python :: 3",
+]
+
+packages = [
+  {include = "snakypy"},
+]
+
+[tool.poetry.scripts]
+imake = "snakypy.imake:run"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+snakypy-helpers = "^0.3.1"
+tomlkit = "^0.11.1"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+flake8 = "^3.9.2"
+isort = "^5.9.1"
+mypy = "^0.910"
+pytest = "^6.2"
+tox = "^3.23.1"
+
+[tool.black]
+exclude = '''
+
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.pytest_cache
+    | \.tox
+    | \venv
+    | build
+    | venv
+    | dist
+    | docs
+    | tmp
+  )/
+)
+'''
+include = '\.pyi?$'
+line-length = 88
+
+[tool.isort]
+force_grid_wrap = 0
+include_trailing_comma = true
+line_length = 88
+multi_line_output = 3
+profile = "black"
+src_paths = ["snakypy", "tests"]
+use_parentheses = true
+
+[tool.pytest.ini_options]
+cache_dir = "/tmp/.pytest_cache"
+minversion = "6.0"
+# addopts = "-ra -q"
+testpaths = ["tests"]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
