@@ -1,0 +1,13 @@
+sinta/__init__.py,sha256=v3oiYmsDnRXGp2T54SycVxNNrS-by_cz4Z5aaMwmZhc,172
+sinta/affiliation.py,sha256=vwU2ppuVqR0slmCkpczLtFILWN6_iTSqXPdgghYImLA,2368
+sinta/affiliation_authors.py,sha256=x9NZFQeM6USXoaKoW38TSuuwDdAkYN4vPoGOLLX_rV4,2448
+sinta/author.py,sha256=8KdBErlp47Xoot98iYQ8PQj2lp4AzjaXGh0SDBpVAQA,2070
+sinta/department.py,sha256=MZaz_abImvhFE49Q9AQAs2F7lykUJCLzMrTlNuNklvU,1454
+util/__init__.py,sha256=ZbvmUmYwcAh6NC-l1-cwwrR4WeeiZRUIrl-c9G3Dkwc,43
+util/config.py,sha256=Bv73q01RK-DcCj8bXF-daVLueIB1s7kqAvxV1GJN8uU,73
+util/utils.py,sha256=ub-qae4fmX7bHjMJ6Y-LZeK2yvJC2nh9a0OUvDJlTW8,1441
+sinta_scraper-2.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sinta_scraper-2.2.1.dist-info/METADATA,sha256=GZq1TPqvzI3kT-EAqJihXwCL7_CjRhRuVh_5R80IhQQ,3950
+sinta_scraper-2.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sinta_scraper-2.2.1.dist-info/top_level.txt,sha256=SdLmrO4fqIM3PLZwzGlrF5IYY_UmICKLyERGEo5vmAU,11
+sinta_scraper-2.2.1.dist-info/RECORD,,
