@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nerforpdf"
+version = "0.0.4"
+authors = [
+  { name="Achraf Sbai", email="achraf.sbai2012@gmail.com"}
+]
+description = "Ce package highlight les entités dans un pdf"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ach2ashes/Internship_nlp"
