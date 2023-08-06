@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: binary_format
+Version: 0.0.2
+Summary: Self descriptive binary format
+Home-page: https://github.com/karnigen/binary_format
+Author: Tony Karnigen
+Author-email: karnigen@gmail.com
+Project-URL: Bug Tracker, https://github.com/karnigen/binary_format/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# binary_format
+binary self descriptive data format for python/c/cpp/fortran with optional compression
