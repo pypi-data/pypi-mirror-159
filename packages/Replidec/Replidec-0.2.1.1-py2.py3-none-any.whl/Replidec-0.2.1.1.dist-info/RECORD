@@ -1,0 +1,15 @@
+Replidec/Replidec.py,sha256=Gxh8NqVEWHPpSpXEFRXtnn1XFtAbnDJUuesaDwIN9p4,22347
+Replidec/Replidec_cmdline.py,sha256=Yx19XxF9M6Haf7i8ExOaf3QohiKBol5Kay6AxhsuVdg,5143
+Replidec/Replidec_multi.py,sha256=sJwyY9vumnLBH9Q5XJiItP711en4xuo59n6_kvdVM8g,9025
+Replidec/__init__.py,sha256=A6m_rHap6Z4Wa-nDXZuMo7q71kCKZU6wHaCRyTvZsug,563
+Replidec/cli.py,sha256=Yx19XxF9M6Haf7i8ExOaf3QohiKBol5Kay6AxhsuVdg,5143
+Replidec/utility.py,sha256=z8eArPmWJYZrtGuQV8FL21THN8P4L0qH9J80MdwEFPI,514
+tests/__init__.py,sha256=naqJ3yuxtMhxQ6PagePBnnthdJAFmU63xHo-XEar4S8,38
+tests/test_Replidec.py,sha256=NYzxKLaW2V4gRsa7bDprDA-FjnQs1V22RtGU-fuytPY,859
+Replidec-0.2.1.1.dist-info/LICENSE,sha256=0ICJkzBSEER28iOUCdn68F8LcBfoDToZ1eXxSHCv0bI,1067
+Replidec-0.2.1.1.dist-info/METADATA,sha256=i7GcuDubDcO2sdb_A34Ltnpp1HECUGQ22ah0mVSowr8,5351
+Replidec-0.2.1.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+Replidec-0.2.1.1.dist-info/entry_points.txt,sha256=fcbWLjFOZwX4PQMR96ypYMqBXWmG9ZCMVAB23b9PS2Q,60
+Replidec-0.2.1.1.dist-info/top_level.txt,sha256=RMIde5EWNde-eekdOUYGxd1QXe3Bl7nKRY4AAc35r6U,15
+Replidec-0.2.1.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Replidec-0.2.1.1.dist-info/RECORD,,
