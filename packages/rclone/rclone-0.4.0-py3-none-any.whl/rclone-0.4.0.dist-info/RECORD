@@ -1,0 +1,6 @@
+rclone/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rclone/rclone.py,sha256=RLGW3OFckQpIJ2JpvjTFsWFi88T3BfyO-26hr0KzsyI,5114
+rclone-0.4.0.dist-info/LICENSE,sha256=_hpZERu-aDzmXiBYu2IFG775Lx9pyZz5iaeQnZpoiQA,1075
+rclone-0.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+rclone-0.4.0.dist-info/METADATA,sha256=ZRA_hINEK2VoAFpH3PwX_-9qxZqIAvJh10gruIZB2BA,2731
+rclone-0.4.0.dist-info/RECORD,,
