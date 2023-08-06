@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+meshgraph/Graph.py
+meshgraph/Node.py
+meshgraph/ObjLoader.py
+meshgraph/Vec3.py
+meshgraph/__init__.py
+meshgraph.egg-info/PKG-INFO
+meshgraph.egg-info/SOURCES.txt
+meshgraph.egg-info/dependency_links.txt
+meshgraph.egg-info/top_level.txt
