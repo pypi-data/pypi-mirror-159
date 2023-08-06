@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: wkflws_slack
+Version: 0.1.2
+Summary: "wkflws node - wkflws_slack"
+Author: wkflws node developer
+License: { file="LICENSE" }
+Project-URL: Bug Tracker, https://github.com/wkflws/wkflws_slack/issues/
+Project-URL: Source, https://github.com/wkflws/wkflws_slack/
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Provides-Extra: testing
+License-File: LICENSE

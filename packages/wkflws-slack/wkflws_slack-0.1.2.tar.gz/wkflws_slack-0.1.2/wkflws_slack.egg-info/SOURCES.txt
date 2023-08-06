@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+wkflws_slack/__init__.py
+wkflws_slack/send_message.py
+wkflws_slack.egg-info/PKG-INFO
+wkflws_slack.egg-info/SOURCES.txt
+wkflws_slack.egg-info/dependency_links.txt
+wkflws_slack.egg-info/requires.txt
+wkflws_slack.egg-info/top_level.txt
+wkflws_slack/triggers/__init__.py
+wkflws_slack/triggers/receive_message.py
