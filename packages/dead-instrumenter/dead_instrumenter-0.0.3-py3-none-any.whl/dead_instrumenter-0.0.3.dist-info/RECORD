@@ -1,0 +1,9 @@
+dead_instrumenter/__init__.py,sha256=FuDpXqUp4cFzOMpsBB00cC0FPJDyuW8mhxY4hdnQXQo,25
+dead_instrumenter/instrumenter.py,sha256=de87MNAQjSC3WjV65kPdnrJlFCMMG-QbttsJYDgCtlQ,3005
+dead_instrumenter/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dead_instrumenter/utils.py,sha256=32ooRUQ7x-j9DIiyjzWZ_Nu9GvA36VsPF_gGD42KIo0,5116
+dead_instrumenter-0.0.3.dist-info/LICENSE,sha256=5IAmkMizIfpnNp7HQwsZrGMD7jXl5oq2c_hdJRnu1y4,11351
+dead_instrumenter-0.0.3.dist-info/METADATA,sha256=8lVkgInLFt0mg5A_OUs3ogRjd9YUZIX5zDER7c6kWLU,1392
+dead_instrumenter-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dead_instrumenter-0.0.3.dist-info/top_level.txt,sha256=QpKWyaPhRyFYmCX6851hkbwEFtXbuCkPEPokaZEcVFg,18
+dead_instrumenter-0.0.3.dist-info/RECORD,,
