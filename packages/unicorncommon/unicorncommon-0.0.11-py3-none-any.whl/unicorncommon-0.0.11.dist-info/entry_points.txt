@@ -1,0 +1,4 @@
+[console_scripts]
+pmonitor = unicorncommon.pmonitor.pmonitor:main
+pwrapper = unicorncommon.pmonitor.pwrapper:main
+
