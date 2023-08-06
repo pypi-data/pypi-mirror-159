@@ -1,0 +1,31 @@
+#!/bin/bash
+
+echo "Usage: zingit filename [....temp.res] [cutoff]  "
+
+for jj in "$@"
+do
+    [[ -e $jj && ! $(basename $jj) ==  "temp.res" ]] && datfile=$jj
+
+    [[ -e $jj && $(basename $jj) ==  "temp.res" ]] &&  offset=$(awk '{printf $1}' $jj)
+
+    [[ $jj =~ ^[0-9]+[Ee]?[0-9]+$ ]] && cut=$jj 
+done
+
+[[ ! -v datfile ]] && echo -e "No datafile given"  && exit
+
+[[ ! -v cut ]] && cut=65000
+
+let "nn = $(grep "#S" $datfile | tail -1 | awk '{print $2}' ) "
+echo "Last scan: " $nn
+
+let "nc = $(grep -m 1 \#L $datfile | awk '{ for (i=1;i<=NF;++i) if ($i=="MA0") { n=i; break }} { print n }') - 1 "
+
+echo "Channel    Position/Range     Scan        Intensity"
+
+if [[ -v offset ]] ; then
+awk -v nc=$nc -v cutoff=$cut -v o=$offset '{split(o,os,",")} ; ($1 == "#S"){p = 1 ; ns = $2} ; (substr($1,1,1) != "#" && NF > 0 && p > 0){p = 2 ; for(i=0;i<=12;i++){if($(i+nc) > cutoff) {printf "   %2d    %8.4f  %8.4f   %4d      %10.0f \n", i, $1-os[i+1]-0.0001, $1-os[i+1]+0.0001, ns, $(i+nc) } } }  ; (p == 2 && substr($1,1,1) == "#"){p = 0}' $datfile  | tee $(basename -s'dat' $datfile)"zin"
+else
+awk -v nc=$nc -v cutoff=$cut '($1 == "#S"){p = 1 ; ns = $2} ; (substr($1,1,1) != "#" && NF > 0 && p > 0){p = 2 ; for(i=0;i<=12;i++){if($(i+nc) > cutoff) {printf "   %2d        %10.6f       %4d      %10.0f  \n", i, $1, ns, $(i+nc) } } }  ; (p == 2 && substr($1,1,1) == "#"){p = 0}' $datfile
+fi
+
+#[[ ! -s $(basename -s'dat' $1)zin ]] && rm  $(basename -s'dat' $1)zin

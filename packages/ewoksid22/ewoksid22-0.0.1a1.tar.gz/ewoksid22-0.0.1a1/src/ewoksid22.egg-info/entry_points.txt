@@ -1,0 +1,2 @@
+[console_scripts]
+id22sumepy = ewoksid22.id22sum:main
