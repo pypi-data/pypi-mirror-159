@@ -1,0 +1,14 @@
+nonebot_plugin_fortune/__init__.py,sha256=eP46OBXnyZ0_K3gPlV-RPbqfMvwQaNvO9x_iyTxHh0w,7493
+nonebot_plugin_fortune/config.py,sha256=O-mtVQIAYaxdvBco8B_xkOC3HwqzKOmXrOQkanXKWvY,6181
+nonebot_plugin_fortune/data_source.py,sha256=aCzFOk0N2yREAW5hZpr02athv4OjberEA2DQozU1m0w,6362
+nonebot_plugin_fortune/download.py,sha256=ScPRp7sFOH2LLc8kqv3w1dm_Mw1FAT8S4MRDO1UH-kI,704
+nonebot_plugin_fortune/resource/font/Mamelon.otf,sha256=9Y757pqIBRV9zY-7XCKfS50QwgigGfsfOZ_7J2HLXX8,3705200
+nonebot_plugin_fortune/resource/font/sakura.ttf,sha256=Y5WuxZ2fSvqdHFwp5d0yOyqbJlhf2IPJCY1w4fwU_Cs,22114252
+nonebot_plugin_fortune/resource/fortune/copywriting.json,sha256=ATkx_ifqyXVBJu-31k-p21zjI8pvdaPJtm3XIqEiLkg,29990
+nonebot_plugin_fortune/resource/fortune_data.json,sha256=RBNvo1WzZ4oRRq0W9-hknpT7T8If536DEMBg9hyq_4o,2
+nonebot_plugin_fortune/resource/fortune_setting.json,sha256=37ZO1NVp98E0H2URuTPeR_1ZnkCpi80u4_GHzjwWTnc,9924
+nonebot_plugin_fortune/utils.py,sha256=CWYRVQqhNs1sLXt84SI-TfvbS-mrAzw4YqF0pSA67Q0,6484
+nonebot_plugin_fortune-0.4.4.dist-info/LICENSE,sha256=aHhX9so28tCgkKmNzL5jtZdjzSzN2eYBBjr15v2qSD8,1068
+nonebot_plugin_fortune-0.4.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nonebot_plugin_fortune-0.4.4.dist-info/METADATA,sha256=u2XhO3U746qUB4Od-m-0NoX0R_aSZGqxIg-kXBpNXp8,8107
+nonebot_plugin_fortune-0.4.4.dist-info/RECORD,,
