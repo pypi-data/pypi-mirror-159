@@ -1,0 +1,15 @@
+azure_signin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+azure_signin/apps.py,sha256=gmyE1DcvxAET_Y9NuFtl_ROEMP9G2SpurIv46kihVDY,155
+azure_signin/backends.py,sha256=s84P3Oxa6a2WKeN_qC5DT5Kr5OuVjnz8itoAnCgQCPU,2368
+azure_signin/configuration.py,sha256=1xJmVAnYNjdCYyIlmAmnjRMqtmhZ7LEzPHp_qJFmumI,2926
+azure_signin/decorators.py,sha256=yIOKCNtcrMUm5ejgqqnAaxT_aAifV-P89Yy_xoE01Ww,548
+azure_signin/exceptions.py,sha256=G884cxfjVRMk-i8UiaviCj6Tz6Y4WKe0qXyEte0uqrY,1641
+azure_signin/handlers.py,sha256=B-r24OjICvO__y8rhrhliyVIy1ou4Z2QjORazdk-8IA,7633
+azure_signin/middleware.py,sha256=fyS1JnX-9ySdvqF2eEOU0679B9MfcGMcd-hiCRBsDdk,732
+azure_signin/urls.py,sha256=ctKa9DKbxcQxeqoyFkuNoPPPHP9hBgIkiGRK528wBcY,402
+azure_signin/utils.py,sha256=hcjUEsDF9wmct2AFSiPCqQO4CcK2BiUBR2-M9-2Wct4,448
+azure_signin/views.py,sha256=ypUKlFleUxBBQ6VhjMDW2OnM06PPeOjhk1kB4FMm1-o,1011
+django_azure_active_directory_signin-0.1.2.dist-info/LICENSE,sha256=22UyCjK3e2aXHX-SsyV5wuJ92I9I0AYgr-m6wOu-QF4,1518
+django_azure_active_directory_signin-0.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+django_azure_active_directory_signin-0.1.2.dist-info/METADATA,sha256=gTptcN6bjsM5zMWlIczQci0MstCOnQTIjI5vZJ5nxwE,7507
+django_azure_active_directory_signin-0.1.2.dist-info/RECORD,,
