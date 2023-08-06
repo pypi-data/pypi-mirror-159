@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/apip/__init__.py
+src/apip/pip.py
+src/apip.egg-info/PKG-INFO
+src/apip.egg-info/SOURCES.txt
+src/apip.egg-info/dependency_links.txt
+src/apip.egg-info/top_level.txt
+src/apip/abc/__init__.py
+src/apip/abc/errors.py
+src/apip/abc/package.py
