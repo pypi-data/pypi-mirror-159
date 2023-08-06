@@ -1,0 +1,13 @@
+README.md
+setup.py
+lisainstrument/__init__.py
+lisainstrument/containers.py
+lisainstrument/dsp.py
+lisainstrument/instrument.py
+lisainstrument/meta.py
+lisainstrument/noises.py
+lisainstrument.egg-info/PKG-INFO
+lisainstrument.egg-info/SOURCES.txt
+lisainstrument.egg-info/dependency_links.txt
+lisainstrument.egg-info/requires.txt
+lisainstrument.egg-info/top_level.txt
