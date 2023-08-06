@@ -1,0 +1,17 @@
+scipy
+astropy
+matplotlib
+arviz
+corner
+pymc
+pandas
+
+[dev]
+ipympl
+
+[docs]
+sphinx-astropy
+
+[test]
+tox
+pytest-astropy
