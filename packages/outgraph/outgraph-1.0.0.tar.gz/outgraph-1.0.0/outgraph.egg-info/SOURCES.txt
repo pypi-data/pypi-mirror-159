@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+outgraph/__init__.py
+outgraph/detect_outliers.py
+outgraph/vectorize_graphs.py
+outgraph.egg-info/PKG-INFO
+outgraph.egg-info/SOURCES.txt
+outgraph.egg-info/dependency_links.txt
+outgraph.egg-info/top_level.txt
