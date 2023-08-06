@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: openquantum
+Version: 0.0.1
+Summary: hybrid quantum NNs packages for jax.
+Home-page: UNKNOWN
+Author: lxy,J2hu
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# OpenQuantum
+---
+
+
+
+
