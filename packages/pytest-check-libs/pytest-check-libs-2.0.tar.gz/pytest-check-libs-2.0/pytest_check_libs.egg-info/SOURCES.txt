@@ -1,0 +1,9 @@
+README.md
+pytest_check_libs.py
+setup.py
+pytest_check_libs.egg-info/PKG-INFO
+pytest_check_libs.egg-info/SOURCES.txt
+pytest_check_libs.egg-info/dependency_links.txt
+pytest_check_libs.egg-info/entry_points.txt
+pytest_check_libs.egg-info/requires.txt
+pytest_check_libs.egg-info/top_level.txt
