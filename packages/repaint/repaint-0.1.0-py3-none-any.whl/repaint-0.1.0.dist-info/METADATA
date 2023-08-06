@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: repaint
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: Dave Gaeddert
+Author-email: dave.gaeddert@dropseed.dev
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cached-property (>=1.5.2,<2.0.0)
+Requires-Dist: click (>=8.0.0)
+Requires-Dist: websockets (>=10.3,<11.0)
