@@ -1,0 +1,9 @@
+bump_release/__init__.py,sha256=9ehWf2RxR2RardkUlHsZYL_rScF2ccqX5zYXecaf_kU,17640
+bump_release/__main__.py,sha256=DvUAnjcGlgyZYQX8vCeqzPEUpdvMnP8SwFrGkqzISDY,360
+bump_release/helpers.py,sha256=rFDcrnpQbMe5Z9GDwOczdzamcJZLyQ1LYohdk5PNidc,10033
+bump_release-0.10.6.dist-info/LICENSE,sha256=NOaZ7jjWCSk-BZBPZ99vy1tefgVcYK7myjXYElBXONU,1105
+bump_release-0.10.6.dist-info/METADATA,sha256=bkF6isGWH84ka2g5eLtP6Q0Y5MjZx5A-MCvL1G4vWNY,5449
+bump_release-0.10.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bump_release-0.10.6.dist-info/entry_points.txt,sha256=1jlb2aega2zV_Iy-296bcbWOWtCKLWluDly0Cqi0j0o,100
+bump_release-0.10.6.dist-info/top_level.txt,sha256=zz7JYCNZv61lEt2lNTM5gr68zawcnhPNUbG41shAxLU,13
+bump_release-0.10.6.dist-info/RECORD,,
