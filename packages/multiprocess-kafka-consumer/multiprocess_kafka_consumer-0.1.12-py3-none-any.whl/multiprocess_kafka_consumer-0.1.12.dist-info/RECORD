@@ -1,0 +1,6 @@
+multiprocess_kafka_consumer/__init__.py,sha256=KYfa0oxlOmcz5tZ_QlATFWGkPX_9NOEedntc45Rw_3g,69
+multiprocess_kafka_consumer/multiprocess_kafka_consumer.py,sha256=xtPk6H2R-EGbNVjPw16IyEUR3GOQ72awkaniBDqGxDw,3066
+multiprocess_kafka_consumer-0.1.12.dist-info/METADATA,sha256=GA4wFruNrpcwcGFX6WvlUUd8M1aoHvJ21czAsXjLfkg,268
+multiprocess_kafka_consumer-0.1.12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+multiprocess_kafka_consumer-0.1.12.dist-info/top_level.txt,sha256=D48ihrN2ucKfqY5KN11PClJaRYo-Tt-CxwPRIS5Svjo,28
+multiprocess_kafka_consumer-0.1.12.dist-info/RECORD,,
