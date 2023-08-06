@@ -1,0 +1,2 @@
+[console_scripts]
+mds_lib = mds_lib.commands:entry_point
