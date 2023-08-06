@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: directory-watcher-bbushvt
+Version: 1.0.0
+Summary: Package for watching a directory tree and issuing callbacks on each file in that directory tree
+Home-page: https://github.com/bbushvt/dir_watcher
+Author: Bryan C Bush
+Author-email: bbushvt@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
