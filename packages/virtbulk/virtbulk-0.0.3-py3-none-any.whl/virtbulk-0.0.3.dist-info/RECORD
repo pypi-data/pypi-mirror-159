@@ -1,0 +1,12 @@
+virtbulk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+virtbulk/__main__.py,sha256=zN2xOK2FRQ2-QuBYIMB-Bcjwe_ezkQ1bkrReRFgV7YE,82
+virtbulk/command.py,sha256=Bgu4AGm8Pqi_NP5yPkasrNH2TvIlOq7dF60i_q0k-ps,9412
+virtbulk/entrypoint.py,sha256=Ok-8h6dp1Y3dDNgCdd-nVX9uk1A5nn89JSuwYg3sDI4,3002
+virtbulk/formatter.py,sha256=-09jRbdCQe1y7oCWa3va3oGaFDBUznf4GW1bNOGcI1Q,2156
+virtbulk/utils.py,sha256=62gphWEZPuyx74HlvIraQuQyXSK994e6JyxR4wwIh-I,1204
+virtbulk-0.0.3.dist-info/LICENSE,sha256=s8thHSSelR8EaIOXOqDblY-X2g_gKKs2F-aa02RfynY,11344
+virtbulk-0.0.3.dist-info/METADATA,sha256=rTmtoQ8q7GY39oo0ovUWqgOfwq2fhzEgepxy-bk5Sqs,1959
+virtbulk-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+virtbulk-0.0.3.dist-info/entry_points.txt,sha256=k6Yw74QCKbf9eQpTjhjNlOq2DvlDm9my0mDnxpPwM-k,57
+virtbulk-0.0.3.dist-info/top_level.txt,sha256=mmV8bUpU__2oz0NdbaWn2YKyF-n4qDrVYK3jTwWYcLI,9
+virtbulk-0.0.3.dist-info/RECORD,,
