@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: statfenics
+Version: 0.0.1
+Summary: Tools for statFEM problems with Fenics
+Home-page: UNKNOWN
+Author: Connor Duffin
+Author-email: connor.p.duffin@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

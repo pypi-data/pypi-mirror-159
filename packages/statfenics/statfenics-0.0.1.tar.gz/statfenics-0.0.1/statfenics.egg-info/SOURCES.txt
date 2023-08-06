@@ -1,0 +1,10 @@
+README.md
+setup.py
+statfenics/__init__.py
+statfenics/covariance.py
+statfenics/utils.py
+statfenics.egg-info/PKG-INFO
+statfenics.egg-info/SOURCES.txt
+statfenics.egg-info/dependency_links.txt
+statfenics.egg-info/requires.txt
+statfenics.egg-info/top_level.txt

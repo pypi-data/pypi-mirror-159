@@ -1,0 +1,17 @@
+[
+  "tests/test_covariance.py::test_cov_approx",
+  "tests/test_covariance.py::test_cov_approx_2d",
+  "tests/test_covariance.py::test_cov_approx_keops",
+  "tests/test_covariance.py::test_cov_approx_neumann",
+  "tests/test_covariance.py::test_matern",
+  "tests/test_covariance.py::test_sq_exp",
+  "tests/test_covariance.py::test_sq_exp_evd",
+  "tests/test_covariance.py::test_sq_exp_evd_hilbert",
+  "tests/test_covariance.py::test_sq_exp_evd_hilbert_2d",
+  "tests/test_covariance.py::test_sq_exp_evd_hilbert_neumann",
+  "tests/test_covariance.py::test_sq_exp_evd_keops",
+  "tests/test_utils.py::test_build_observation_operator",
+  "tests/test_utils.py::test_build_observation_operator_vector_functionspace",
+  "tests/test_utils.py::test_dolfin_to_csr",
+  "tests/test_utils.py::test_read_write_csr_matrix_hdf5"
+]

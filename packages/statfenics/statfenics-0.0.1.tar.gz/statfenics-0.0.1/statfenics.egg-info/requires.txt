@@ -1,0 +1,5 @@
+numpy
+scipy
+fenics
+petsc4py
+pytest
