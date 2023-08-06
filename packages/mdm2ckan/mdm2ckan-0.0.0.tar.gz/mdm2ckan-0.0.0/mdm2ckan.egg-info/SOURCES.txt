@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mdm2ckan.egg-info/PKG-INFO
+mdm2ckan.egg-info/SOURCES.txt
+mdm2ckan.egg-info/dependency_links.txt
+mdm2ckan.egg-info/top_level.txt
+src/__init__.py
+src/main.py
