@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+regex_hir/regex_hir.egg-info/PKG-INFO
+regex_hir/regex_hir.egg-info/SOURCES.txt
+regex_hir/regex_hir.egg-info/dependency_links.txt
+regex_hir/regex_hir.egg-info/requires.txt
+regex_hir/regex_hir.egg-info/top_level.txt
