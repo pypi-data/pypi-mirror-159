@@ -1,0 +1,5 @@
+setup.py
+carbon_aware.egg-info/PKG-INFO
+carbon_aware.egg-info/SOURCES.txt
+carbon_aware.egg-info/dependency_links.txt
+carbon_aware.egg-info/top_level.txt
