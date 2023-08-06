@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+github_social.egg-info/PKG-INFO
+github_social.egg-info/SOURCES.txt
+github_social.egg-info/dependency_links.txt
+github_social.egg-info/top_level.txt
+githubsocial/GithubUser.py
+githubsocial/__init__.py
+githubsocial/main.py
