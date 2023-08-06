@@ -1,0 +1,4 @@
+boto3
+paramiko==1.11.0
+sshtunnel
+click
