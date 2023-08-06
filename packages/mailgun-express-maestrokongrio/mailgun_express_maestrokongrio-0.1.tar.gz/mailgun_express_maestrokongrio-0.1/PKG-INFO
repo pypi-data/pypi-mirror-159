@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mailgun_express_maestrokongrio
+Version: 0.1
+Summary: Libreria de envio de correos mediante la API de Mailgun
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Patricio Lopez <patricio.lopez@andesblockchain.com>
+License: Haga lo que estime conveniente con este codigo....
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+Empaquetador simple de envio de correos mediante mailgun.
+
+- Se necesita una API KEY generada desde mailgun y el dominio asociado como parametros
+- Se debe elaborar una plantilla de envio de correo que pida un array de variables
+- la libreria empaqueta los datos y hace el llamado respectivo a la API de mailgun para el envio del correo
