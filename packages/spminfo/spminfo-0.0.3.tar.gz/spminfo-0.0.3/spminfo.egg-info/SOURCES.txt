@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+spminfo/__init__.py
+spminfo/shahzi.py
+spminfo.egg-info/PKG-INFO
+spminfo.egg-info/SOURCES.txt
+spminfo.egg-info/dependency_links.txt
+spminfo.egg-info/requires.txt
+spminfo.egg-info/top_level.txt
