@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+Mopidy_WaitForInternet.egg-info/PKG-INFO
+Mopidy_WaitForInternet.egg-info/SOURCES.txt
+Mopidy_WaitForInternet.egg-info/dependency_links.txt
+Mopidy_WaitForInternet.egg-info/entry_points.txt
+Mopidy_WaitForInternet.egg-info/not-zip-safe
+Mopidy_WaitForInternet.egg-info/requires.txt
+Mopidy_WaitForInternet.egg-info/top_level.txt
+mopidy_waitforinternet/__init__.py
+mopidy_waitforinternet/ext.conf
+tests/__init__.py
+tests/test_connectivity_check_servers.py
+tests/test_extension.py
