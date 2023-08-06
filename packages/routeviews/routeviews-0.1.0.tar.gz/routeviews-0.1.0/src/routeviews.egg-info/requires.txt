@@ -1,0 +1,7 @@
+ConfigArgParse<2,>=1
+PyYAML<7,>=6
+netmiko<4,>=3
+pathvalidate<3,>=2
+rdap<2,>=1
+requests<3,>=2
+tabulate>=0.8
