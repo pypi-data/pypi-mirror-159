@@ -1,0 +1,14 @@
+tompy/__init__.py,sha256=j-Ve52-6zHDOr8Py0KVEaARsuybnf2wFNnl75IqxpZk,56
+tompy/anys.py,sha256=YX60n1R3jtumIFJWxjCc_sFZtBQd0jQtU0ejbFcYcp4,3029
+tompy/data.py,sha256=W4nb_7HGYMoKO1P6eLrUMlb-TdvBtBXF8bmWXD0HBjM,561
+tompy/dataframe.py,sha256=sMP_w7edEUZ7YKCtvJTJ6mhQrkSgyxIMJt9v8CeMlrE,6774
+tompy/matrix.py,sha256=biuno4GlcnJiyv90CyIxtTxIWmpHUGPhG3wT5oie6yI,10455
+tompy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tompy/scalar.py,sha256=SiGkTvoax5giz2Qg35IGIw6P9E7qgfpNGLtvM9zw_Cs,550
+tompy/series.py,sha256=-WVnqYyYZn5UzILzFXyTK5-0cfVhzqe3D4sG40vWo7Y,5952
+tompy/stdlib.py,sha256=f03WmksoAzHmh_ag6vYI28ME5oUbEg9PpoUO08m1fLE,2148
+tompy/vector.py,sha256=WDXaeCFdjmJ7IH_WdSGShHCdSUkKPJIqhHTpQsNLYVI,14251
+tompy-0.4.1.dist-info/LICENSE,sha256=Y1c4rCG0I_YwehlqI8KXRfieAqQSXqIiX9gOkb2iz74,1060
+tompy-0.4.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+tompy-0.4.1.dist-info/METADATA,sha256=9opCGh_pP7WVyvoIk5sbBuKULrH6aLwi-9xGglui7eA,762
+tompy-0.4.1.dist-info/RECORD,,
