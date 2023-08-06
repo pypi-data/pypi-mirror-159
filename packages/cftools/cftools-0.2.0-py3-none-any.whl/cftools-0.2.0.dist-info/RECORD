@@ -1,0 +1,11 @@
+cftools/__init__.py,sha256=NjarAwiBS0Ygv5OpP6AIXJ9xDyU0MYLWHmIJufqyzV0,121
+cftools/__main__.py,sha256=QWYI4FKqDQLhvIr5l1WuXZBrI3BXVBTNk2b4xYNzSv4,2326
+cftools/_http.py,sha256=awt8f95ZFuGm73MgMRwQAUdLI2JGU-u9KVb2OADMoMs,1156
+cftools/config.py,sha256=EYOsZ383O0BvaiwgE0-OtI_xQNCFa78N_zH8Q_sU6Ys,2215
+cftools/contest.py,sha256=eSX7PgoLJ59CCckJNdZ7H_IItjA9moXHVt96vyczS5U,11706
+cftools-0.2.0.dist-info/LICENSE,sha256=aiJTslo-qYZa6RWoVFtGM_PWKrSWLjebO4mgkqi4W6U,1071
+cftools-0.2.0.dist-info/METADATA,sha256=exUEP59zCkBrsSCdt9IfQbN0AOSFfb-V5zFHhcwCD3Y,175
+cftools-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cftools-0.2.0.dist-info/entry_points.txt,sha256=j1aEUGGDNyiRdb65pMhMB0wBcuoHm1COJNFegcndURg,45
+cftools-0.2.0.dist-info/top_level.txt,sha256=_nT6QNWGW-cfClIegXQ5ZR6u4MV_X73CZZD5KjsiOII,8
+cftools-0.2.0.dist-info/RECORD,,
