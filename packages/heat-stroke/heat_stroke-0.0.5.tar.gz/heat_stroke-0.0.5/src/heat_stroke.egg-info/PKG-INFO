@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: heat-stroke
+Version: 0.0.5
+Summary: a package for predicting the number of heat stroke patients 
+Home-page: https://github.com/myamamoto325/heat_stroke
+Author: masaki yamamoto
+Author-email: yamamoto.ma25@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/myamamoto325/heat_stroke
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# heat_stroke
+This program uses machine learning to predict the number of heat stroke patients using data on the number of heat stroke carriers in Japan and meteorological data.
+
+
+# How to install heat_stroke
+$ pip install heat_stroke
+
+# How to run heat_stroke
+
+$ heat_stroke
+
+
+
+
+
+
