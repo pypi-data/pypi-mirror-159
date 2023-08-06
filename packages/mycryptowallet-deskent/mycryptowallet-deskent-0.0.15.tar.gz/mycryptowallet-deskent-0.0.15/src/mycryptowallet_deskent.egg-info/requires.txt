@@ -1,0 +1,2 @@
+bitcoinlib==0.6.4
+myloguru-deskent==0.0.12
