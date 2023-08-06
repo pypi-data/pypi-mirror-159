@@ -1,0 +1,17 @@
+bakasur/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+bakasur/constants.py,sha256=YjpD6jMBY-FobO9KrjS5PrOmtEACGHToa7cssfGrqZk,1298
+bakasur/dashboard.py,sha256=dZnMzQOM2ySpjdb8Q2AAXvCZP3qIMZzVSC-ZIj5VqHQ,4195
+bakasur/data/item_data.json,sha256=rgU0f5r3NyvwFiLzzTH6FuLFB4bVADfEmGQoik1VuvY,4810
+bakasur/data/order_data.json,sha256=udixi3eDtkWGY7EEByrpv5XzlDKKgBV-MiNSVR_5nCA,21872
+bakasur/data/order_details.csv,sha256=XmUbADyF4ww2Wd_IfmxCT7kYgKrNIbH0GtFAewW6lXE,5210
+bakasur/data/orders.csv,sha256=j880gJPAUD1-Dlk6n9UCLIIO6qDZHbQ5GdbBNB4f_pY,2784
+bakasur/data/orders.json,sha256=GYJOPzOaww47E_bGxiI216sNSqnNPAIZjx76xO2HEYA,24
+bakasur/database.py,sha256=vd0cl1QaFYnLVazNFyLGhPleS8cPa7ksXzLF25k_dLI,3394
+bakasur/exceptions.py,sha256=ymG9bdi7izCGGf8AfdPeBzTsKuIrbLKsiG42cfgznCE,207
+bakasur/helpers.py,sha256=-7NeE07PYPZxV_RTlel4qVKRxh58augeW2mVLyynGLw,7198
+bakasur/main.py,sha256=MesYuuZkYDq9edHX529ZgXZJr6EO4HQmvk4OyH-tU_Q,1708
+bakasur/utils.py,sha256=eGNDnAKYZSffxcE81yP8s9b75PvYLv2ke2NXK-0gBsQ,1307
+bakasur-1.0.0.dist-info/entry_points.txt,sha256=P4mUDmnK7FLsz4bt8f_OsARx00O2XaiLv8Y-AL0MCTw,44
+bakasur-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bakasur-1.0.0.dist-info/METADATA,sha256=BlD1WALJ1ZEl38aaq4W3ZcrF5t1H25o_mVXWsVTJdX4,638
+bakasur-1.0.0.dist-info/RECORD,,
