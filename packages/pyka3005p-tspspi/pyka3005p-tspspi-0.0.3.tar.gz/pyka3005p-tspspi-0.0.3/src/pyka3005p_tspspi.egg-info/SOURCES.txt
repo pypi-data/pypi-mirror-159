@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/pyka3005p/__init__.py
+src/pyka3005p/ka3005pserial.py
+src/pyka3005p_tspspi.egg-info/PKG-INFO
+src/pyka3005p_tspspi.egg-info/SOURCES.txt
+src/pyka3005p_tspspi.egg-info/dependency_links.txt
+src/pyka3005p_tspspi.egg-info/top_level.txt
