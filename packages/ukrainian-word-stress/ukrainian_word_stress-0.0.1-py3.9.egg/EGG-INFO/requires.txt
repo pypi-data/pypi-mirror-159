@@ -1,0 +1,6 @@
+stanza
+marisa-trie
+
+[test]
+pytest
+coverage
