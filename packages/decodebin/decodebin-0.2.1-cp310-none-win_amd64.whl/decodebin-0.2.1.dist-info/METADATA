@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: decodebin
+Version: 0.2.1
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Summary: 解析二进制文件
+Author: Wang Jianing <wangjianing@88.com>
+Author-email: Wang Jianing <wangjianing@88.com>
+Maintainer: eee555
+Maintainer-email: wangjn@88.com
+License: MIT
+Requires-Python: >=3.7
+Project-URL: homepage, https://github.com/eee555/
