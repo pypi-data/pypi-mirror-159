@@ -1,0 +1,11 @@
+pysearchlite/__init__.py,sha256=_yMYcFuUc7n-EvqJhc2xsKLs1-N4gcw38yvDaUWcC2Q,132
+pysearchlite/search_engine.py,sha256=fq37vxKJX9K0_lgu1yazmtp9oocLymiM6fw0B7qUlPA,2177
+pysearchlite/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysearchlite/commands/build_index.py,sha256=7RRSmFd7R-UbOkCer7dlWcBe8HQOaGTDwBtlAy3PN0k,245
+pysearchlite/commands/do_query.py,sha256=sKDlHrpaPQmHLG2GMVrv7AkstaGh9EEgNuFoPFW4kpE,672
+pysearchlite/commands/main.py,sha256=zBRfx20pHWZtHYZL72u4NzNEfr7cnOJOb8N8ZyxC1Zc,631
+pysearchlite-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pysearchlite-0.2.1.dist-info/METADATA,sha256=tcoY_yRxgxNPHG2W40hCkxmZ2C7_5w1t64hUNYVGDTA,664
+pysearchlite-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pysearchlite-0.2.1.dist-info/top_level.txt,sha256=PvlgrmGPZiQEd--lDEAqQOdZ_8d1l7V-alpf8jS4JOE,13
+pysearchlite-0.2.1.dist-info/RECORD,,
