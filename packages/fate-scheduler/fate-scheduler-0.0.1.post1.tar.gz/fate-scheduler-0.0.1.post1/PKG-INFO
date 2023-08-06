@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: fate-scheduler
+Version: 0.0.1.post1
+Summary: The operating system-level command scheduler and manager.
+Home-page: https://github.com/chicago-cdac/fate
+License: MIT
+Author: Jesse London
+Author-email: jesselondon@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: argcmdr (>=0.12,<0.13)
+Project-URL: Repository, https://github.com/chicago-cdac/fate
