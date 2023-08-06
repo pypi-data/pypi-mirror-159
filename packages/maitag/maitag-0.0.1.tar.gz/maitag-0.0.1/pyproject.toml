@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "maitag"
+version = "0.0.1"
+description = "MAIT - Machine-Assisted Intent Tagging"
+authors = ["Hobson Lane <hobson@tangibleai.com>"]
+license = "MIT"
+packages = [
+    { include = "maitag", from = "." },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.0.6"
+transformers = "^4.20.1"
+simpletransformers = "^0.63.7"
+spacy = "^3.4.0"
+torch = "^1.12.0"
+jupyter = "^1.0.0"
+huggingface-hub = "^0.8.1"
+scikit-learn = "^1.1.1"
+pandas = "^1.4.3"
+seaborn = "^0.11.2"
+sentence-transformers = "^2.2.2"
+fng-api = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+generate-setup-file = true
