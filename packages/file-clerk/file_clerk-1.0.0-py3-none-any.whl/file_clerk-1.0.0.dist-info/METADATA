@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: file-clerk
+Version: 1.0.0
+Summary: A collection of functions for dealing with files and file content.
+Home-page: https://github.com/HundredVisionsGuy/file-clerk
+License: MIT
+Keywords: file handling,paths,clerk,files
+Author: hundredvisionsguy
+Author-email: cwinikka@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: autoflake8 (>=0.3.2,<0.4.0)
+Requires-Dist: black (>=22.6.0,<23.0.0)
+Requires-Dist: bs4 (>=0.0.1,<0.0.2)
+Requires-Dist: isort (>=5.10.1,<6.0.0)
+Requires-Dist: nltk (>=3.7,<4.0)
+Requires-Dist: pip-licenses (>=3.5.4,<4.0.0)
+Requires-Dist: pre-commit (>=2.20.0,<3.0.0)
+Project-URL: Repository, https://github.com/HundredVisionsGuy/file-clerk
