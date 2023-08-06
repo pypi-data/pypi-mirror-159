@@ -1,0 +1,2 @@
+recursive-include rest_framework_enhanced/template *.py-tpl
+recursive-include rest_framework_enhanced/template *.txt

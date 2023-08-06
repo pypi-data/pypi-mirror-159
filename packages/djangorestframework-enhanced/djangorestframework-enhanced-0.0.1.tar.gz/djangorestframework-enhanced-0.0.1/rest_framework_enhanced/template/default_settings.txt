@@ -1,0 +1,31 @@
+
+REST_FRAMEWORK = {
+    # 认证方式管理
+    'DEFAULT_AUTHENTICATION_CLASSES': ['rest_framework_simplejwt.authentication.JWTAuthentication'],
+    # 权限管理
+    'DEFAULT_PERMISSION_CLASSES': ['rest_framework.permissions.IsAuthenticated'],
+    # 分页处理器
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework_enhanced.pagination.StandardSizePagination',
+    # 报文内容协商器
+    'DEFAULT_CONTENT_NEGOTIATION_CLASS': 'rest_framework_enhanced.content_negotiation.CustomContentNegotiation',
+    # 异常处理器
+    'EXCEPTION_HANDLER': 'rest_framework_enhanced.exceptions.custom_exception_handler',
+    # 版本控制
+    'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.URLPathVersioning',
+    'ALLOWED_VERSIONS': ['v1', ],
+    # 过滤器
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend', ],
+}
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=5),
+    'REFRESH_TOKEN_LIFETIME': timedelta(minutes=30),
+    'UPDATE_LAST_LOGIN': True,
+}
+
+API_ENHANCED = {
+    'EMAIL': 'Unknown',
+    'AUTHOR': 'Unknown',
+    # 是否开启自定义错误页面
+    'USE_CUSTOM_ERROR_PAGE': True,
+}
