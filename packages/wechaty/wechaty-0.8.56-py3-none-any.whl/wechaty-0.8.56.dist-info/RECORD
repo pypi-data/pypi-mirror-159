@@ -1,0 +1,17 @@
+wechaty/__init__.py,sha256=uHtvymg_BNqY4NS7W6MwTUhymn-R-Yk9JKSypwfm9Ao,2294
+wechaty/accessory.py,sha256=asFEIDuAbLGh8pDqImkiDIhyAHZHDEdBHwZEaSp26cM,3874
+wechaty/config.py,sha256=NimqB36K69tDBdNz9PTbnpY7KgRGFBZyLNejSgRy5Vs,4063
+wechaty/exceptions.py,sha256=kpSxq_Iim_FLxjghCht1QyrhhsvjfhVpIJXMnolnrt0,1748
+wechaty/plugin.py,sha256=o-Dyke7ZaW5cOmYrkeKK4TQtZDM3khVAG72zkt469AI,27579
+wechaty/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wechaty/types.py,sha256=bACXLehB1uysbmfRY5aqT0DOvLSnvzqXouuS2vJy7A4,1534
+wechaty/version.py,sha256=a4CImho-tsgDivlcFUOMySDJvWy8c8JhGJMBSasPTWs,19
+wechaty/wechaty.py,sha256=k8PDwA08lSJXkkHo0e6EnJL_z24tRsYhAZG1NexMjLM,28303
+wechaty/user/message.pyi,sha256=U5DO9OJ7KnE21rX88KYtiqupadw3Gszc5RGA91asMeQ,2816
+wechaty/user/room.pyi,sha256=s5ZKYrwc691o_EINmOeygI5g1_CNoivj0-AUKyVe5u8,2679
+wechaty-0.8.56.dist-info/LICENSE,sha256=ts-TvssGHe2Y22xryPP0QcdwuGm_mfX8HI6sSq1fVik,11379
+wechaty-0.8.56.dist-info/METADATA,sha256=oxLvlD6fr8w4GqSgE7J-Kw1lv8vxvUiKILELZIYojII,14815
+wechaty-0.8.56.dist-info/NOTICE,sha256=uEfHbAu0v14Xt6SZNV7lXVUppO5_5X4CpeS4EYetb-w,268
+wechaty-0.8.56.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wechaty-0.8.56.dist-info/top_level.txt,sha256=qMuZJpuMojVzjb6rZq3dmPTw5Q9yeD3Yy8lcr1uapVs,8
+wechaty-0.8.56.dist-info/RECORD,,
