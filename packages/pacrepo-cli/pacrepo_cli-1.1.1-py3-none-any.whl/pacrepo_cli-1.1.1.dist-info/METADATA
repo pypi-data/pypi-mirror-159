@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: pacrepo-cli
+Version: 1.1.1
+Summary: Quick Tool for managing user repos in pacman.conf
+Home-page: https://github.com/jckimble/pacrepo-cli
+Author: James C Kimble
+Author-email: me@jckimble.com
+License: ISC
+Keywords: archlinux unofficial pacman pacman.conf user repo repository
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+pacrepo-cli
+=====
+
+Quick Tool for managing user repos in pacman.conf
+
+## Install
+
+```sh
+pip install pacrepo-cli
+```
+
+## Usage
+
+Below is a simple example of how to use.
+
+Add User Repo
+```sh
+pacrepo-cli add aur https://aur.example.com/
+
+```
+
+Remove User Repo
+```sh
+pacrepo-cli remove aur
+
+```
+
+List Repos
+```sh
+pacrepo-cli list
+
+```
+
+## Contributions
+
+Contributions are always welcome!
+
+## Donations
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jckimble)
+
+## License
+Copyright (c) 2022 James C Kimble
