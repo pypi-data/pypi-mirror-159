@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: streamlit-sentence-selector
+Version: 0.0.4
+Summary: A selector for a list of sentences or strings, and return a list of sentences or strings that you selected
+Home-page: UNKNOWN
+Author: omnilab_xiaowu
+Author-email: 1558359609@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+Requires-Dist: streamlit (>=0.63)
+
+A selector for a list of sentences or strings, and return a list of sentences or strings that you selected
+
+
