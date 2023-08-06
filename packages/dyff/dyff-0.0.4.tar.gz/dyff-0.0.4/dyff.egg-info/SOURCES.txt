@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+app/__init__.py
+app/app.py
+app/cli.py
+dyff.egg-info/PKG-INFO
+dyff.egg-info/SOURCES.txt
+dyff.egg-info/dependency_links.txt
+dyff.egg-info/entry_points.txt
+dyff.egg-info/requires.txt
+dyff.egg-info/top_level.txt
