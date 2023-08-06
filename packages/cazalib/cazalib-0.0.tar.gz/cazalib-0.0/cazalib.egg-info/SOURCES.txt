@@ -1,0 +1,6 @@
+MANIFEST.in
+setup.py
+cazalib.egg-info/PKG-INFO
+cazalib.egg-info/SOURCES.txt
+cazalib.egg-info/dependency_links.txt
+cazalib.egg-info/top_level.txt
