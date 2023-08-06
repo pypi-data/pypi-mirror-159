@@ -1,0 +1,15 @@
+upycc/CLI.py,sha256=LjdFRM-j-9Z_DzZZGC9q-wQqAMMEyRJnCOL_nT5NpK8,2702
+upycc/Collections.py,sha256=lBWdtOL0u8NNjfZeale6Gycs6nyh1sLDlGi8PiK1pJw,1063
+upycc/IntEncode.py,sha256=squsDk8ry2EE_-XZzcP7b40NKxa7Yk2BPyGc23sA5_s,3787
+upycc/JSON.py,sha256=l-WCCTecXnRagGw4RIVDX8sVwCprtfGfw6IIwOeghZM,234
+upycc/Scoper.py,sha256=0g7tE8QnwpqA5k7F-RfwQxr4722-yVbGOAQdS4xfJZs,11829
+upycc/Symtable.py,sha256=UNCCRnzWOKD_hzraFZDDPar3Hh58U6Dtt8nkhTgs4ac,2841
+upycc/TraffyAsm.py,sha256=9P30R-AEIeEE1l51UftcK8GadZvfDX2OMBPAkKR99UM,12537
+upycc/Transpile.py,sha256=nnshm2rqW-84uJ-VCL0ELu0crrylRqP_IuGcp2Qgil0,50726
+upycc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upycc/__main__.py,sha256=Hd_YPPksg4PJL3yXUBsOkl29cgqAF4aYUzmM07bJ5aU,47
+upycc-0.3.0.dist-info/METADATA,sha256=PfmWCFRmg3IYOFc3VmNoN5uyLeA-4Re_s6tZAifqvFQ,1660
+upycc-0.3.0.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+upycc-0.3.0.dist-info/entry_points.txt,sha256=mkQCLJ4bSefx-XPm8SbjhnrafufW_lsnqu2T2_clWU8,111
+upycc-0.3.0.dist-info/top_level.txt,sha256=jJn9x6utlus2tyydqqoFgwYmc7Yz2fUvRfPbGXn6JFs,6
+upycc-0.3.0.dist-info/RECORD,,
