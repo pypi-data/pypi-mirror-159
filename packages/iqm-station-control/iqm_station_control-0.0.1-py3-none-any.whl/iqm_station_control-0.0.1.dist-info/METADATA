@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: iqm-station-control
+Version: 0.0.1
+Summary: Control software for IQM quantum computer stations
+Home-page: https://www.meetiqm.com
+Author: IQM Oy
+Author-email: developers@meetiqm.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
+
