@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+neo4jvis/neo4jvis.egg-info/PKG-INFO
+neo4jvis/neo4jvis.egg-info/SOURCES.txt
+neo4jvis/neo4jvis.egg-info/dependency_links.txt
+neo4jvis/neo4jvis.egg-info/not-zip-safe
+neo4jvis/neo4jvis.egg-info/requires.txt
+neo4jvis/neo4jvis.egg-info/top_level.txt
