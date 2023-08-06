@@ -1,0 +1,2 @@
+[console_scripts]
+Secuer = bin.Secuer_console:main
