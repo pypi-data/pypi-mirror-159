@@ -1,0 +1,10 @@
+pynwb>=2.1.0,<3
+hdmf>=3.3.2,<4
+
+# dependencies for building documentation
+hdmf_docutils
+sphinx~=4.0
+
+# dev requirements
+pytest
+flake8
