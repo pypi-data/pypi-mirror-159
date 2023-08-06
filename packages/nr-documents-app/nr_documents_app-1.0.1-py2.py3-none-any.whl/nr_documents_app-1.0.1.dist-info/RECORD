@@ -1,0 +1,10 @@
+nr_documents_app/__init__.py,sha256=lrMZdTqE8qbs_Viautre9sT_6-mgITKCwWoKU2YzVeQ,236
+nr_documents_app/ext.py,sha256=ORK8W5Y3hrZeDaZyOBturWuUYVaWrIHYKQrCKPl6FO0,321
+nr_documents_app/theme/__init__.py,sha256=MCEaBJG3vfBJ-jlO82NnBE4N310d2Qr2c1ocar31oUU,120
+nr_documents_app/theme/webpack.py,sha256=PbjHc4i2whqJXZmOdOLvxksp5WUcQtK-OkTcsY58yS4,856
+nr_documents_app-1.0.1.dist-info/LICENSE,sha256=PgF306tTbiX4SCV3BRyqVhU6HCu6ah9QzjlpcMjLdQY,1078
+nr_documents_app-1.0.1.dist-info/METADATA,sha256=ecR1Eo_HHgcW6O8azhcm-8HE2IolFIyxSRW0elyMEhI,805
+nr_documents_app-1.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+nr_documents_app-1.0.1.dist-info/entry_points.txt,sha256=jHp42EPLNH-BAsGHwlJv_OuIkxcrJdeZG4n2RhT1YCg,262
+nr_documents_app-1.0.1.dist-info/top_level.txt,sha256=6-MoPRYXFAOkktKHbpGQFeSeLR1lgCotfY-vIXm0xYg,17
+nr_documents_app-1.0.1.dist-info/RECORD,,
