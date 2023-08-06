@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: matvec
+Version: 0.0.1
+Summary: Fast graph convolutional DSL
+Home-page: UNKNOWN
+Author: Emmanouil (Manios) Krasanakis
+Author-email: maniospas@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Under development. Currently only for windows. Compared to scipy, it has slower allocation, but much faster execution
+
