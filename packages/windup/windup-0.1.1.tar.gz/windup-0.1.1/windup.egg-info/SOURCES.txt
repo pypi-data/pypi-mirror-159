@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+./src/rfc3339.c
+test/test_windup.py
+windup/__init__.py
+windup/format.py
+windup.egg-info/PKG-INFO
+windup.egg-info/SOURCES.txt
+windup.egg-info/dependency_links.txt
+windup.egg-info/top_level.txt
