@@ -1,0 +1,6 @@
+setup.py
+maple_syrup.egg-info/PKG-INFO
+maple_syrup.egg-info/SOURCES.txt
+maple_syrup.egg-info/dependency_links.txt
+maple_syrup.egg-info/requires.txt
+maple_syrup.egg-info/top_level.txt
