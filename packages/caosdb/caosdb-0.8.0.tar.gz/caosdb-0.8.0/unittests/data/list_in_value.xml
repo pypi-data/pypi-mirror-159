@@ -1,0 +1,12 @@
+<Record id="1002" description="A description of this example experiment.">
+  <Version id="945c6858819d2609a5475ee4df64571984acd039" head="true">
+    <Predecessor id="0df3cfe164fbafe9777f9356d0be2403890c54cd" />
+  </Version>
+  <Parent id="1001" name="Experiment" />
+  <Property datatype="SomeRecordType" id="1003" name="DepthTest" importance="FIX">
+    <Value>1004</Value>
+    <Value>1005</Value>
+  </Property>
+</Record>
+
+<!-- Note: This XML is invalid, because list-valued Properties must have a LIST-Datatype -->
