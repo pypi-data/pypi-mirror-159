@@ -1,0 +1,8 @@
+nerforpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nerforpdf/highlight_pdf.py,sha256=_oQ4tfZbH-GEI3gnQ8BgVeHSCXDj1QS8TqaO7xRertA,1670
+nerforpdf/ner.py,sha256=9IHeEI1XH2nfHXceBf0dNoV7g37leuJPC53ePAZTlOQ,3634
+nerforpdf/ner_api.py,sha256=fuYMNFGro7RoYI1e5n28M4yyq1pRxXUbANPkxR-0Gs4,995
+nerforpdf/text_preprocessing.py,sha256=W7q9yrirRuzvfI6iuP6BIF5ypGdfFcd44YJMqelvkKk,3589
+nerforpdf-0.0.3.dist-info/METADATA,sha256=XlU2rcndXMdVvwyVTW6BwEP6N-GkrmsqrlP2kb1uyLU,1836
+nerforpdf-0.0.3.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+nerforpdf-0.0.3.dist-info/RECORD,,
