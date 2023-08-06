@@ -1,0 +1,11 @@
+bpyshell/__init__.py,sha256=QiiYsv0kcJaB8wCWyT-FnI2b6be87HA-CrrIUn8LQhg,22
+bpyshell/_nbdev.py,sha256=S34K9_S7JZDp9cT1AuhlIKbDSOFD5sUmiO_Ks0CBoK0,350
+bpyshell/core.py,sha256=97PyF-UbVmwOnPLxj0KWzDdp7k3UV4A1sP4i1cxZfBU,1979
+pyshell/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+pyshell/_nbdev.py,sha256=vdHcBQiZyA3TF3mGz_VUunFYnNFzvSPXwMldOo6mFKg,348
+pyshell/core.py,sha256=Mft0Ff_kOLTRJIcM6UnSw8bw8f1F-BHinCVHFw_Jj3A,1510
+bpyshell-0.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+bpyshell-0.0.6.dist-info/METADATA,sha256=iAB9YsDEUC57-MgNjrFmv8NmacxkH9D-hYekUz33M-4,1862
+bpyshell-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bpyshell-0.0.6.dist-info/top_level.txt,sha256=38oYTbCG6iZWagBxr1ltrIimqEcLj7YBvcxz6znb0aQ,9
+bpyshell-0.0.6.dist-info/RECORD,,
