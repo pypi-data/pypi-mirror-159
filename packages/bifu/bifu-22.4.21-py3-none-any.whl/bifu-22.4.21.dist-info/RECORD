@@ -1,0 +1,13 @@
+.bifu.yml,sha256=TCGUBQzCnS7p8pWv6MQrbgEB595KPBC17G7cG4GlKH8,6572
+bifu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bifu/classes/application.py,sha256=Dx7o-Nk2V_khMO5GFfaEH--aTBuWm44AvEtRHm6Grvo,1029
+bifu/classes/config.py,sha256=rLgiA_L6pcQ5tnKaL9fCTR8oTBVgzQBEuNuHgOktE4A,2101
+bifu/classes/errors.py,sha256=UbtiIMeaK6EzTXwoUc6BtvOT9q4egycmLVFko_C5Bt0,296
+bifu/classes/pre.py,sha256=DJ2xVvEvOVygZ-EBF-vTA9fFJNevTzhps3TytzThcGA,6408
+bifu/classes/printer.py,sha256=7Q3PoD2ZVHmNp2Z8taHxuGaSWl4os6HpPotpmEfb8Ps,1919
+bifu/classes/process.py,sha256=FJojQiE2Mcv1Fd2o0xjRkxCB2jGRlBg5fQmBJYqIcYU,3095
+bifu/main.py,sha256=a8iiRjRgTUgxqqAL155w1X8csjZTFHIoOLcEGWBQ3uQ,1552
+bifu-22.4.21.dist-info/entry_points.txt,sha256=kbNCWNaTqD9-3DpYfYgFAekby_PQ-gLNTrS6HWhxPd4,39
+bifu-22.4.21.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+bifu-22.4.21.dist-info/METADATA,sha256=mRCN25kL0DKSs7jf3eNWSTyBxMawyCty3up_qaNm-5A,4282
+bifu-22.4.21.dist-info/RECORD,,
