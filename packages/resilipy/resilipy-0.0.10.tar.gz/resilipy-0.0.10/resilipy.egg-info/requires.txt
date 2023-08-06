@@ -1,0 +1,7 @@
+PyQt6
+xgboost
+scikit-learn
+numpy
+pandas
+Levenshtein
+pyqtgraph
