@@ -1,0 +1,14 @@
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+catplotlib/__init__.py
+catplotlib/catplot.py
+catplotlib.egg-info/PKG-INFO
+catplotlib.egg-info/SOURCES.txt
+catplotlib.egg-info/dependency_links.txt
+catplotlib.egg-info/not-zip-safe
+catplotlib.egg-info/requires.txt
+catplotlib.egg-info/top_level.txt

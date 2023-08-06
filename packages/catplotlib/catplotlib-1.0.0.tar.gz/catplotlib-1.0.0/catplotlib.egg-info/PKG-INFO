@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: catplotlib
+Version: 1.0.0
+Summary: Matplotlib, but for cats.
+Home-page: https://github.com/achabotl/catplotlib
+Author: Alexandre Chabot-Leclerc
+Author-email: accounts.github@alex.alexchabot.net
+License: MIT license
+Keywords: catplotlib
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+
+==========
+catplotlib
+==========
+
+
+.. image:: https://img.shields.io/pypi/v/catplotlib.svg
+        :target: https://pypi.python.org/pypi/catplotlib
+
+
+Matplotlib, but for cats.
+
+
+* Free software: MIT license
+* Documentation: https://catplotlib.readthedocs.io.
+
+
+Features
+--------
+
+* Just one.::
+
+        import catplotlib.catplot as clt
+        clt.plot()
+
+
+=======
+History
+=======
+
+0.1.0 (2022-07-14)
+------------------
+
+* First release on PyPI.
