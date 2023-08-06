@@ -1,0 +1,11 @@
+trashdetect_engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trashdetect_engine/coco_eval.py,sha256=jZv3dJc0z-ueCSfu7rPKTABX3rSY8vVHRCHpvg9VZRk,12115
+trashdetect_engine/data.py,sha256=uRwdVy62k1VFDrlYp5rWMfqRg5PtgoNdrz1apPnyN6Y,7442
+trashdetect_engine/engine.py,sha256=sjhQEdHMNa5gwtgtE1KTByuG3hQ_9xBjBWC98WcLja4,4190
+trashdetect_engine/transforms.py,sha256=woVMAOlsU1499OG6FMZ7AowUdCd-2OOzm4-7myS-TNs,1534
+trashdetect_engine/utils.py,sha256=TzKVbcom_OSWz7BCPo7_WiNBPaL6ydM1cfQBKZ4mUdE,9606
+trashdetect_engine-0.1.0.dist-info/METADATA,sha256=yxhQiRbUerCac1ze2YvGcA8IO3gdgzbcD9NuB_SE7oE,3887
+trashdetect_engine-0.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+trashdetect_engine-0.1.0.dist-info/top_level.txt,sha256=Ni0I00yaBncJTfOfyrJHr2fvUkMRtZM4Xx7j4VnwLLQ,19
+trashdetect_engine-0.1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+trashdetect_engine-0.1.0.dist-info/RECORD,,
