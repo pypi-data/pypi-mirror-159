@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/google_analytics_data_json/__init__.py
+src/google_analytics_data_json/create_ga4_request.py
+src/google_analytics_data_json/google_analytics_data_json.py
+src/google_analytics_data_json/transform_ga4_data.py
+src/google_analytics_data_json.egg-info/PKG-INFO
+src/google_analytics_data_json.egg-info/SOURCES.txt
+src/google_analytics_data_json.egg-info/dependency_links.txt
+src/google_analytics_data_json.egg-info/requires.txt
+src/google_analytics_data_json.egg-info/top_level.txt
