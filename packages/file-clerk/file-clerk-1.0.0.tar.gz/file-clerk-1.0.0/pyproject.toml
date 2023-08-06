@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "file-clerk"
+version = "1.0.0"
+description = "A collection of functions for dealing with files and file content."
+authors = ["hundredvisionsguy <cwinikka@gmail.com>"]
+keywords = ["file handling", "paths", "clerk", "files"]
+license = "MIT"
+homepage = "https://github.com/HundredVisionsGuy/file-clerk"
+repository = "https://github.com/HundredVisionsGuy/file-clerk"
+include = [
+    "LICENSE.rst",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+nltk = "^3.7"
+bs4 = "^0.0.1"
+isort = "^5.10.1"
+black = "^22.6.0"
+autoflake8 = "^0.3.2"
+pre-commit = "^2.20.0"
+pip-licenses = "^3.5.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
