@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "bi_etl"
+version = "1.1.3"
+description = "Python ETL Framework"
+keywords=["etl"]
+classifiers = [
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Development Status :: 5 - Production/Stable",
+    "Topic :: Database",
+]
+authors = ["Derek Wood <bietl_info@bietl.dev>"]
+#homepage = "https://bietl.dev/"
+documentation = "https://bietl.dev/docs/"
+readme="README.md"
+license = "MIT"
+repository = "https://bitbucket.org/DatastrongTeam/bi_etl/src/master/"
+
+[tool.poetry.dependencies]
+python = "^3.7,<4.0"
+config-wrangler = ">=0.3.12"
+SQLAlchemy = ">=1.4.35"
+semidbm = ">=0.5.1"
+psutil = ">=5.7.2"
+openpyxl = ">=3.0.5"
+btrees = ">=4.7.2"
+gevent = ">=21.8.0"
+sqlparse = ">=0.4.2"
+keyring = "=>21"
+pydicti = ">=1.1.6"
+
+# Optional
+pyramid = { version = ">=1.10.4", optional = true }
+pyjtable = {version = ">=0.1.1", optional = true}
+fastavro = {version = ">=1.0.0", optional = true}
+boto3 = {version = ">=1.21", optional = true}
+psycopg2 = {version = ">=2.8.6", optional = true}
+jira = {version = ">=3.1.1", optional = true}
+
+
+[tool.poetry.extras]
+# Install with:
+# poetry install -E keyring
+keyring = ["keyring"]
+
+jira = ["jira"]
+
+# poetry install -E scheduler
+scheduler = ["pyramid", "pyjtable"]
+
+# poetry install -E test
+test = ["psycopg2", "testcontainers"]
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^3.2.1"
+sphinx-autodoc-annotation = "^1.0-1"
+toml = "^0.10.1"
+testcontainers = {version = ">=3.5.4", extras = ["mysql oracle postgresql mssqlserver"]}
+tox = "^3.25.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
