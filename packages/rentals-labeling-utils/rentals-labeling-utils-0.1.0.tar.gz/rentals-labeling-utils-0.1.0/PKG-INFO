@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: rentals-labeling-utils
+Version: 0.1.0
+Summary: Public version of the package
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: Public version of the package
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
