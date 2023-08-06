@@ -1,0 +1,10 @@
+panda3d
+panda3d-gltf
+pillow
+pyperclip
+
+[extras]
+imageio
+numpy
+psd-tools3
+psutil
