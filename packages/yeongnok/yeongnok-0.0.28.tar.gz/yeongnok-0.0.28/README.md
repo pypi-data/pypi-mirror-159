@@ -1,0 +1,395 @@
+<div align="center">
+<img src="https://github.com/anzhi0708/yeongnok/blob/main/logo.png" />
+</div>
+
+<div align="center">
+
+<br>
+
+[![license](https://img.shields.io/github/license/anzhi0708/yeongnok)](https://github.com/anzhi0708/yeongnok/blob/main/LICENSE)  [![commit](https://img.shields.io/github/last-commit/anzhi0708/yeongnok)](https://github.com/anzhi0708/yeongnok/commits/main)  [![pypi](https://img.shields.io/pypi/v/yeongnok.svg)](https://pypi.org/project/yeongnok/)  [![support-version](https://img.shields.io/pypi/pyversions/yeongnok)](https://img.shields.io/pypi/pyversions/yeongnok) 
+
+</div>
+
+<div align="center">
+데이터를 갖고 노는 것이 아닙니다 교수님———— 아닌가...? ? 아니.겠.쥬....?
+</div>
+
+<br>
+
+# yeongnok 影錄
+
+
+Yeongnok is a Korean National Assembly VOD (**영**상회의**록**) / text data analysis tool. For pre-downloaded PDF records, see [anzhi0708/yeongnok-pdfs](https://github.com/anzhi0708/yeongnok-pdfs).
+
+- [Installation](https://github.com/anzhi0708/yeongnok#install)
+- [Usage](https://github.com/anzhi0708/yeongnok#usage)
+  - [Example: How to download PDF files](https://github.com/anzhi0708/yeongnok#how-to-download-2018-pdf-files)
+  - [Congressman](https://github.com/anzhi0708/yeongnok#congressman): Object that represents a congressman.
+  - [List](https://github.com/anzhi0708/yeongnok#list): Built-in congressman list with friendly APIs.
+  - [Meeting](https://github.com/anzhi0708/yeongnok#meetings--meeting): Info of each meeting. Use `.download_pdf()` to store the PDF records, and use `for` loop to get its `Record`s.
+  - [Record](https://github.com/anzhi0708/yeongnok#record): Personal speech data of every `Meeting`
+  - [period](https://github.com/anzhi0708/yeongnok#period): Get `Record` by time range.
+  - [page](https://github.com/anzhi0708/yeongnok#page): The crawler used to download data from Korean National Assembly website.
+  - [get_activities_of(...)](https://github.com/anzhi0708/yeongnok#get_activities_of): Get someone's activities.
+- [Details](https://github.com/anzhi0708/yeongnok#details)
+  - [Relationships between objects](https://github.com/anzhi0708/yeongnok#about-yeongnoks-objects)
+  - [About 'ct1', 'ct2', 'ct3' and 'mc'](https://github.com/anzhi0708/yeongnok#about-ct1-ct2-ct3-and-mc)
+- [License](https://github.com/anzhi0708/yeongnok#license)
+
+## Install
+
+```bash
+pip3 install yeongnok
+```
+or
+
+```bash
+git clone https://github.com/anzhi0708/yeongnok
+cd yeongnok
+python3
+```
+
+## Usage
+
+```python
+from yeongnok import *
+```
+
+### List
+
+Built-in congressman list using the data from [열린국회정보](https://open.assembly.go.kr/portal/assm/search/memberHistSchPage.do).
+
+```python
+>>> List(20)
+<20th Congressman List (male: 267; female: 53; total: 320)>
+>>> List(19)
+<19th Congressman List (male: 278; female: 54; total: 332)>
+```
+```python
+>>> List(19).parties
+['새누리당', '민주통합당', '통합진보당', '새정치민주연합', '자유선진당', '무소속']
+>>> List(20).parties
+['무소속', '더불어민주당', '새누리당', '국민의당', '자유한국당', '정의당', '바른미래당']
+```
+```python
+>>> "문재인" in List(19)  # The 12th president of Korea
+True
+>>> '문재인' in List(18)
+False
+>>> "김영주" in List(19)
+True
+```
+```python
+>>> List(18).female
+47
+>>> List(18).females  # Returns a list that contains all female members
+[Congressman(generation=18, name='강명순', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='곽정숙', party='민주노동당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='김금래', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='김상희', party='통합민주당', group=[], region='비례대표', gender='여', n=4, how='비례대표'), Congressman(generation=18, name='김소남', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='김영선', party='한나라당', group=[], region='경기 고양시일산서구', gender='여', n=5, how='지역구'), Congressman(generation=18, name='김옥이', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='김유정', party='통합민주당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='김을동', party='친박연대', group=[], region='비례대표', gender='여', n=2, how='비례대표'), Congressman(generation=18, name='김정', party='친박연대', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='김진애', party='민주당', group=[], region='비례대표', gender='여', n=2, how='비례대표'), Congressman(generation=18, name='김혜성', party='친박연대', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='나경원', party='한나라당', group=[], region='서울 중구', gender='여', n=4, how='지역구'), Congressman(generation=18, name='박근혜', party='한나라당', group=[], region='대구 달성군', gender='여', n=5, how='지역구'), Congressman(generation=18, name='박선숙', party='통합민주당', group=[], region='비례대표', gender='여', n=2, how='비례대표'), Congressman(generation=18, name='박선영', party='자유선진당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='박순자', party='한나라당', group=[], region='경기 안산시단원구을', gender='여', n=3, how='지역구'), Congressman(generation=18, name='박영선', party='통합민주당', group=[], region='서울 구로구을', gender='여', n=4, how='지역구'), Congressman(generation=18, name='박영아', party='한나라당', group=[], region='서울 송파구갑', gender='여', n=1, how='지역구'), Congressman(generation=18, name='배은희', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='손숙미', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='송영선', party='친박연대', group=[], region='비례대표', gender='여', n=2, how='비례대표'), Congressman(generation=18, name='신낙균', party='통합민주당', group=[], region='비례대표', gender='여', n=2, how='비례대표'), Congressman(generation=18, name='양정례', party='친박연대', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='이두아', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='이미경', party='통합민주당', group=[], region='서울 은평구갑', gender='여', n=5, how='지역구'), Congressman(generation=18, name='이성남', party='통합민주당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='이애주', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='이영애', party='자유선진당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='이영애', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='이은재', party='한나라당', group=[], region='비례대표', gender='여', n=2, how='비례대표'), Congressman(generation=18, name='이정선', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='이정희', party='민주노동당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='이혜훈', party='한나라당', group=[], region='서울 서초구갑', gender='여', n=3, how='지역구'), Congressman(generation=18, name='전여옥', party='한나라당', group=[], region='서울 영등포구갑', gender='여', n=2, how='지역구'), Congressman(generation=18, name='전재희', party='한나라당', group=[], region='경기 광명시을', gender='여', n=3, how='지역구'), Congressman(generation=18, name='전현희', party='통합민주당', group=[], region='비례대표', gender='여', n=2, how='비례대표'), Congressman(generation=18, name='전혜숙', party='통합민주당', group=[], region='비례대표', gender='여', n=3, how='비례대표'), Congressman(generation=18, name='정미경', party='한나라당', group=[], region='경기 수원시권선구', gender='여', n=2, how='지역구'), Congressman(generation=18, name='정영희', party='친박연대', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='정옥임', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='조배숙', party='통합민주당', group=[], region='전북 익산시을 ', gender='여', n=4, how='지역구'), Congressman(generation=18, name='조윤선', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='진수희', party='한나라당', group=[], region='서울 성동구갑', gender='여', n=2, how='지역구'), Congressman(generation=18, name='최경희', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='최영희', party='통합민주당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=18, name='추미애', party='통합민주당', group=[], region='서울 광진구을', gender='여', n=5, how='지역구')]
+>>> len(list(filter(lambda gentleman: gentleman.how == '비례대표', List(19).males)))
+30
+>>> List(19).male
+278
+```
+```python
+>>> len(List(19)['김영주'])  # They have the same name!
+2
+>>> for person in List(19)['김영주']:
+...     print(person)
+...
+Congressman(generation=19, name='김영주', party='민주통합당', group=[], region='서울 영등포구갑', gender='여', n=4, how='지역구')
+Congressman(generation=19, name='김영주', party='자유선진당', group=[], region='비례대표', gender='남', n=1, how='비례대표')
+```
+```python
+>>> List(19)['자유선진당']  # Get person by party
+[Congressman(generation=19, name='김영주', party='자유선진당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=19, name='문정림', party='자유선진당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=19, name='성완종', party='자유선진당', group=[], region='충남 서산시태안군', gender='남', n=1, how='지역구'), Congressman(generation=19, name='이명수', party='자유선진당', group=[], region='충남 아산시', gender='남', n=4, how='지역구'), Congressman(generation=19, name='이인제', party='자유선진당', group=[], region='충남 논산시계룡시금산군', gender='남', n=6, how='지역구')]
+>>> List(17)['비례대표']  # Get person by 'how'
+[Congressman(generation=17, name='강기갑', party='민주노동당', group=[], region='비례대표', gender='남', n=2, how='비례대표'), Congressman(generation=17, name='강혜숙', party='열린우리당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='고경화', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='김명자', party='열린우리당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='김송자', party='민주당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='김애실', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='김영대', party='대통합민주신당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='김영숙', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='김영주', party='열린우리당', group=[], region='비례대표', gender='여', n=4, how='비례대표'), Congressman(generation=17, name='김재홍', party='열린우리당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='김종인', party='새천년민주당', group=[], region='비례대표', gender='남', n=5, how='비례대표'), Congressman(generation=17, name='김혁규', party='열린우리당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='김현미', party='열린우리당', group=[], region='비례대표', gender='여', n=3, how='비례대표'), Congressman(generation=17, name='김홍일', party='새천년민주당', group=[], region='비례대표', gender='남', n=3, how='비례대표'), Congressman(generation=17, name='나경원', party='한나라당', group=[], region='비례대표', gender='여', n=4, how='비례대표'), Congressman(generation=17, name='노회찬', party='민주노동당', group=[], region='비례대표', gender='남', n=3, how='비례대표'), Congressman(generation=17, name='단병호', party='민주노동당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='문희', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='민병두', party='열린우리당', group=[], region='비례대표', gender='남', n=3, how='비례대표'), Congressman(generation=17, name='박명광', party='열린우리당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='박세일', party='한나라당', group=[], region='비례(한) 비례(한나라당)', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='박순자', party='한나라당', group=[], region='비례대표', gender='여', n=3, how='비례대표'), Congressman(generation=17, name='박영선', party='열린우리당', group=[], region='비례대표', gender='여', n=4, how='비례대표'), Congressman(generation=17, name='박재완', party='한나라당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='박찬석', party='열린우리당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='박찬숙', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='박홍수', party='열린우리당', group=[], region='비례(열) 비례(열린우리당)', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='배일도', party='한나라당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='서상기', party='한나라당', group=[], region='비례대표', gender='남', n=3, how='비례대표'), Congressman(generation=17, name='서혜석', party='열린우리당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='손봉숙', party='새천년민주당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='송영선', party='한나라당', group=[], region='비례대표', gender='여', n=2, how='비례대표'), Congressman(generation=17, name='신명', party='열린우리당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='심상정', party='민주노동당', group=[], region='비례대표', gender='여', n=4, how='비례대표'), Congressman(generation=17, name='안명옥', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='유승민', party='한나라당', group=[], region='비례(한) 비례(한나라당)', gender='남', n=4, how='비례대표'), Congressman(generation=17, name='유승희', party='열린우리당', group=[], region='비례대표', gender='여', n=3, how='비례대표'), Congressman(generation=17, name='윤건영', party='한나라당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='윤원호', party='열린우리당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='이경숙', party='열린우리당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='이계경', party='한나라당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='이군현', party='한나라당', group=[], region='비례대표', gender='남', n=4, how='비례대표'), Congressman(generation=17, name='이성구', party='한나라당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='이승희', party='새천년민주당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='이영순', party='민주노동당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='이은영', party='열린우리당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='이주호', party='한나라당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='장복심', party='열린우리당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='장향숙', party='열린우리당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='전여옥', party='한나라당', group=[], region='비례대표', gender='여', n=2, how='비례대표'), Congressman(generation=17, name='정덕구', party='열린우리당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='정의용', party='열린우리당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='정화원', party='한나라당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='조성래', party='열린우리당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='조성태', party='열린우리당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='진수희', party='한나라당', group=[], region='비례대표', gender='여', n=2, how='비례대표'), Congressman(generation=17, name='천영세', party='민주노동당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='최순영', party='민주노동당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='현애자', party='민주노동당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='홍미영', party='열린우리당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=17, name='홍창선', party='열린우리당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=17, name='황진하', party='한나라당', group=[], region='비례대표', gender='남', n=3, how='비례대표')]
+```
+
+### Congressman
+
+The object that represents a congressman.
+
+```python
+>>> List(19)['자유선진당']  # Get person by party
+[Congressman(generation=19, name='김영주', party='자유선진당', group=[], region='비례대표', gender='남', n=1, how='비례대표'), Congressman(generation=19, name='문정림', party='자유선진당', group=[], region='비례대표', gender='여', n=1, how='비례대표'), Congressman(generation=19, name='성완종', party='자유선진당', group=[], region='충남 서산시태안군', gender='남', n=1, how='지역구'), Congressman(generation=19, name='이명수', party='자유선진당', group=[], region='충남 아산시', gender='남', n=4, how='지역구'), Congressman(generation=19, name='이인제', party='자유선진당', group=[], region='충남 논산시계룡시금산군', gender='남', n=6, how='지역구')]
+```
+
+### get_activities_of
+
+Get specifc congressman's activities, e.g. `get_activities_of(person, at=14)`. Argument `at` defaults to the congressman's `generation`.
+
+```python
+>>> for lady in List(6)['여']:
+...     get_activities_of(lady)
+...
+['??:??:?? 박순천 연설, 1966-01-20 10:35 본회의, 제054회 국회(임시회) 제02차 본회의, 대통령연두교서에대한각교섭단체의기조연설 박순천의원', '??:??:?? 박순천 인사, 1965-10-11 10:05 본회의, 제053회 국회(정기회) 제07차 본회의, 민중당국회복귀인사 박순천의원', '??:??:?? 박순천 연설, 1965-01-29 10:15 본회의, 제047회 국회(임시회) 제10차 본회의, 민주당기조연설 박순천의원']
+>>> # The same:
+>>> for lady in List(6).females:
+...     get_activities_of(lady)
+...
+['??:??:?? 박순천 연설, 1966-01-20 10:35 본회의, 제054회 국회(임시회) 제02차 본회의, 대통령연두교서에대한각교섭단체의기조연설 박순천의원', '??:??:?? 박순천 인사, 1965-10-11 10:05 본회의, 제053회 국회(정기회) 제07차 본회의, 민중당국회복귀인사 박순천의원', '??:??:?? 박순천 연설, 1965-01-29 10:15 본회의, 제047회 국회(임시회) 제10차 본회의, 민주당기조연설 박순천의원']
+>>> 
+>>> for gentleman in List(7)['남']:
+...     get_activities_of(gentleman)
+...
+['??:??:?? 김종필 연설, 1967-11-29 10:14 본회의, 제062회 국회(정기회) 제21차 본회의, 신민당동원연설 김종필의원']
+['??:??:?? 신용남 발언, 1967-07-10 10:02 본회의, 제061회 국회(임시회) 제01차 본회의, 국회의원사직의건 신용남의원']
+['??:??:?? 유진오 연설, 1967-11-29 10:14 본회의, 제062회 국회(정기회) 제21차 본회의, 신민당동원연설 유진오의원']
+['??:??:?? 이효상 기타, 1968-04-01 10:05 본회의, 제064회 국회(임시회) 개회식, 개회식 섭외국장 의장(이효상)', '??:??:?? 이효상 기타, 1968-01-31 10:15 본회의, 제063회 국회(임시회) 개회식, 개회식 섭외국장 의장(이효상)', '??:??:?? 이효상 인사, 1967-07-10 10:02 본회의, 제061회 국회(임시회) 제01차 본회의, 의장,부의장선거 의장(이효상)부의장(장경순)']
+['??:??:?? 장경순 인사, 1967-07-10 10:02 본회의, 제061회 국회(임시회) 제01차 본회의, 의장,부의장선거 의장(이효상)부의장(장경순)']
+>>>
+```
+
+### Meetings & Meeting
+```python
+>>> Meetings(nth=10)
+Meetings(generation: 10th, total: 31)
+```
+```python
+>>> Meetings(nth=19)
+Meetings(generation: 19th, total: 2605)
+>>> Meetings(nth=19)[0]
+Meeting(date=2016-05-19, open_time=10:25, kind=본회의, title=제342회 국회(임시회) 제01차 본회의, tag=, video_link=https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=10&ct1=19&ct2=342&ct3=01&wv=1&, ct1=19, ct2=342, ct3=01, mc=10, confer_num=046135, pdf_file_id=0000078400)
+```
+
+Use `.download_pdf(path)` to download PDF records.
+
+```python
+>>> m = Meetings(nth=19)[0]
+>>> m.download_pdf()  # Will download to current directory ('.') when no `path` arg passed
+```
+output
+```bash
+2016-05-19_19.342.01.10.pdf
+```
+to download a specific date:
+
+```python
+>>> for m in Meetings(nth=20):
+...     if m.date == "2017-11-08":
+...             print(m)
+...
+Meeting(date=2017-11-08, open_time=14:15, kind=행안위, title=제354회 국회(정기회) 제03차 행정안전위원회, tag=예산안심사, video_link=https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=345&ct1=20&ct2=354&ct3=03&wv=1&, ct1=20, ct2=354, ct3=03, mc=345, confer_num=047551, pdf_file_id=0000083872) PDF available
+Meeting(date=2017-11-08, open_time=14:07, kind=정무위, title=제354회 국회(정기회) 제05차 정무위원회, tag=예산안심사, video_link=https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=326&ct1=20&ct2=354&ct3=05&wv=1&, ct1=20, ct2=354, ct3=05, mc=326, confer_num=047541, pdf_file_id=0000083852) PDF available
+
+
+[WARNING]  도널드 J. 트럼프 미국 대통령 국회 연설
+[WARNING]  Failed to get `confer_num`.
+           Some meetings have no PDF record, e.g. 도널드 J. 트럼프 미국 대통령 국회 연설 (2017.11.08).
+[DEBUG]    self.ct1 ='20', self.ct2 ='354', self.ct3 ='99'
+[DEBUG]    self.pdf_link =''
+[DEBUG]    self.video_link = 'https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=10&ct1=20&ct2=354&ct3=99&wv=1&'
+
+
+
+
+[WARNING]  도널드 J. 트럼프 미국 대통령 국회 연설
+[WARNING]  Failed to get `confer_num`.
+           Some meetings have no PDF record, e.g. 도널드 J. 트럼프 미국 대통령 국회 연설 (2017.11.08).
+[DEBUG]    self.ct1 ='20', self.ct2 ='354', self.ct3 ='99'
+[DEBUG]    self.pdf_link =''
+[DEBUG]    self.video_link = 'https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=10&ct1=20&ct2=354&ct3=99&wv=1&'
+
+
+
+
+[WARNING]  도널드 J. 트럼프 미국 대통령 국회 연설
+[WARNING]  This meeting has no ** regular ** records.
+[DEBUG]    self.ct1 ='20', self.ct2 ='354', self.ct3 ='99'
+[DEBUG]    self.pdf_link =''
+[DEBUG]    self.video_link = 'https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=10&ct1=20&ct2=354&ct3=99&wv=1&'
+
+
+Meeting(date=2017-11-08, open_time=11:20, kind=본회의, title=도널드 J. 트럼프 미국 대통령 국회 연설, tag=, video_link=https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=10&ct1=20&ct2=354&ct3=99&wv=1&, ct1=20, ct2=354, ct3=99, mc=10, confer_num=, pdf_file_id=) PDF NOT available
+Meeting(date=2017-11-08, open_time=10:03, kind=환노위, title=제354회 국회(정기회) 제07차 환경노동위원회, tag=예산안심사, video_link=https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=334&ct1=20&ct2=354&ct3=07&wv=1&, ct1=20, ct2=354, ct3=07, mc=334, confer_num=047542, pdf_file_id=0000083854) PDF available
+Meeting(date=2017-11-08, open_time=10:02, kind=법사위, title=제354회 국회(정기회) 제06차 법제사법위원회, tag=청문회, video_link=https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=325&ct1=20&ct2=354&ct3=06&wv=1&, ct1=20, ct2=354, ct3=06, mc=325, confer_num=047513, pdf_file_id=0000083764) PDF available
+Meeting(date=2017-11-08, open_time=00:00, kind=예결위, title=제354회 국회(정기회) 제04차 예산결산특별위원회, tag=예산안심사, video_link=https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=21&ct1=20&ct2=354&ct3=04&wv=1&, ct1=20, ct2=354, ct3=04, mc=21, confer_num=047512, pdf_file_id=0000083762) PDF available
+```
+
+### period
+
+An iterable `range`-like object that contains a list, which contains every single VOD meta-info of a specific time range.
+
+It has to work with local CSV data on your disk. If the CSV files are missing on your disk, consider using `page` mentioined [here](https://github.com/anzhi0708/yeongnok#page) to download the needed data.
+
+```python
+>>> ls = []
+>>> for record in period("2000-01-01", "2010-07-29"):
+...     ls.append(record)
+...
+>>> len(ls)
+80739
+```
+
+Some other properties for `period`
+
+```python
+# test.py
+p = period("1998-08-01", "2008-01-01")
+print(p.min_date, p.max_date, p.csv_files)
+ls = [r for r in p if r.has("박근혜")]
+print(ls[0])
+print(ls[-1])
+```
+...Output: 
+```
+1998-08-03 00:00:00 2007-12-28 00:00:00 ['15th_20220706-000000.csv', '16th_20220706-000000.csv', '17th_20220706-000000.csv']
+Record(real_time='??:??:??', play_time='00:21:01', speak_type='기타', movie_title='1.경제에관한질문-박근혜의원(한나라당)질문', of='제208회 국회(정기회) 제13차 본회의', date=datetime.datetime(1999, 11, 1, 0, 0), no=115462, mc='10', ct=('15', '208', '13'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-050.do?conferNum=023716&pdfFileId=0000078556')
+Record(real_time='??:??:??', play_time='00:34:18', speak_type='신문', movie_title='국정에관한교섭단체대표연설(계속) - 박근혜한나라당대표의원연설', of='제247회 국회(임시회) 제07차 본회의', date=datetime.datetime(2004, 7, 2, 0, 0), no=125711, mc='10', ct=('17', '247', '07'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-050.do?conferNum=032057&pdfFileId=0000003351')
+```
+
+### Record
+
+The class that holds the VOD metadata you need. Use its method `.has(name)` to track someone's activities.
+
+```python
+>>> for record in period("1990-02-12", "1999-01-01"):
+...     if record.has("이상재"):
+...             print(record)
+...
+Record(real_time='??:??:??', play_time='00:07:20', speak_type='토론', movie_title='1996년도예산안 이상재의원', of='제177회 국회(정기회) 제16차 본회의', date=datetime.datetime(1995, 12, 2, 0, 0), no=103921, mc='10', ct=('14', '177', '16'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-050.do?conferNum=020468&pdfFileId=0000082397')
+Record(real_time='??:??:??', play_time='00:08:19', speak_type='보고', movie_title='이상재의원', of='제177회 국회(정기회) 제19차 예산결산특별위원회', date=datetime.datetime(1995, 12, 2, 0, 0), no=105649, mc='21', ct=('14', '177', '19'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-030.do?conferNum=021832')
+Record(real_time='??:??:??', play_time='00:12:26', speak_type='질의', movie_title='1996년도예산안 이상재의원', of='제177회 국회(정기회) 제12차 예산결산특별위원회', date=datetime.datetime(1995, 11, 15, 0, 0), no=105363, mc='21', ct=('14', '177', '12'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-030.do?conferNum=021833')
+Record(real_time='??:??:??', play_time='00:05:04', speak_type='발언', movie_title='의회지도자상건립등에관한규칙안 이상재의원', of='제177회 국회(정기회) 제11차 본회의', date=datetime.datetime(1995, 11, 7, 0, 0), no=103760, mc='10', ct=('14', '177', '11'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-050.do?conferNum=020463&pdfFileId=0000082387')
+Record(real_time='??:??:??', play_time='00:05:37', speak_type='보고', movie_title='1995년도제1회추가경정예산안 이상재의원', of='제177회 국회(정기회) 제11차 본회의', date=datetime.datetime(1995, 11, 7, 0, 0), no=103762, mc='10', ct=('14', '177', '11'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-050.do?conferNum=020463&pdfFileId=0000082387')
+Record(real_time='??:??:??', play_time='00:06:03', speak_type='질의', movie_title='이상재의원', of='제177회 국회(정기회) 제06차 예산결산특별위원회', date=datetime.datetime(1995, 11, 3, 0, 0), no=105221, mc='21', ct=('14', '177', '06'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-030.do?conferNum=021820')
+Record(real_time='??:??:??', play_time='00:02:28', speak_type='인사', movie_title='이상재의원', of='제177회 국회(정기회) 제02차 예산결산특별위원회', date=datetime.datetime(1995, 10, 30, 0, 0), no=105100, mc='21', ct=('14', '177', '02'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-030.do?conferNum=021816')
+Record(real_time='??:??:??', play_time='00:15:26', speak_type='질문', movie_title='정치에관한질문 이상재의원', of='제177회 국회(정기회) 제06차 본회의', date=datetime.datetime(1995, 10, 19, 0, 0), no=103630, mc='10', ct=('14', '177', '06'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-050.do?conferNum=023578&pdfFileId=0000082377')
+Record(real_time='??:??:??', play_time='00:16:00', speak_type='질문', movie_title='경제에관한질문 이상재의원', of='제172회 국회(임시회) 제07차 본회의', date=datetime.datetime(1995, 3, 2, 0, 0), no=103365, mc='10', ct=('14', '172', '07'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-050.do?conferNum=023565&pdfFileId=0000082333')
+Record(real_time='??:??:??', play_time='00:04:51', speak_type='보고', movie_title='시설물의안전관리에관한특별법안 이상재의원', of='제170회 국회(정기회) 제19차 본회의', date=datetime.datetime(1994, 12, 16, 0, 0), no=103236, mc='10', ct=('14', '170', '19'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-050.do?conferNum=003742&pdfFileId=0000082311')
+Record(real_time='??:??:??', play_time='00:24:42', speak_type='질의', movie_title='임사빈 김동권 내무부장관 박희부 이상재', of='제170회 국회(정기회) 제04차 예산결산특별위원회', date=datetime.datetime(1994, 12, 1, 0, 0), no=105073, mc='21', ct=('14', '170', '04'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-030.do?conferNum=016964')
+Record(real_time='??:??:??', play_time='00:04:58', speak_type='질의', movie_title='이상재의원', of='제170회 국회(정기회) 제04차 예산결산특별위원회', date=datetime.datetime(1994, 12, 1, 0, 0), no=105076, mc='21', ct=('14', '170', '04'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-030.do?conferNum=016964')
+Record(real_time='??:??:??', play_time='00:05:42', speak_type='질의', movie_title='이상재 건설부장관', of='제170회 국회(정기회) 제04차 예산결산특별위원회', date=datetime.datetime(1994, 12, 1, 0, 0), no=105080, mc='21', ct=('14', '170', '04'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-030.do?conferNum=016964')
+Record(real_time='??:??:??', play_time='00:16:06', speak_type='질의', movie_title='1995년도예산안 이상재의원', of='제170회 국회(정기회) 제03차 예산결산특별위원회', date=datetime.datetime(1994, 11, 30, 0, 0), no=105016, mc='21', ct=('14', '170', '03'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-030.do?conferNum=016963')
+Record(real_time='??:??:??', play_time='00:18:41', speak_type='답변', movie_title='농림수산부장관 이상재', of='제170회 국회(정기회) 제03차 예산결산특별위원회', date=datetime.datetime(1994, 11, 30, 0, 0), no=105030, mc='21', ct=('14', '170', '03'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-030.do?conferNum=016963')
+Record(real_time='??:??:??', play_time='00:20:39', speak_type='질의', movie_title='1994년도예산안 이상재의원', of='제165회 국회(정기회) 제08차 예산결산특별위원회', date=datetime.datetime(1993, 11, 22, 0, 0), no=104518, mc='21', ct=('14', '165', '08'), pdf_link='https://likms.assembly.go.kr/record/mhs-10-030.do?conferNum=016589')
+```
+
+and you can get `Record`s in each `Meeting`, too
+
+```python
+>>> for single_meeting in Meetings(nth=20):
+...     for single_record in single_meeting:
+...             if single_meeting.date == "2016-07-08" and single_record.speak_type == '발언':
+...                     print(single_record)
+...
+Record(real_time='09:23:55', play_time='00:00:13', speak_type='발언', movie_title='홍영표 위원장(더불어민주당)  발언', of='제343회 국회(임시회) 폐회중 제04차 환경노동위원회', date='2016-07-08', no=369710, mc='334', ct=('20', '343', '04'), pdf_link='//likms.assembly.go.kr/record/mhs-10-050.do?conferNum=046224&pdfFileId=0000078966')
+Record(real_time='09:24:07', play_time='00:00:53', speak_type='발언', movie_title='조원진 위원(새누리당)  발언 / 고윤화 청장(기상청)  발언', of='제343회 국회(임시회) 폐회중 제04차 환경노동위원회', date='2016-07-08', no=369711, mc='334', ct=('20', '343', '04'), pdf_link='//likms.assembly.go.kr/record/mhs-10-050.do?conferNum=046224&pdfFileId=0000078966')
+Record(real_time='09:25:01', play_time='00:00:34', speak_type='발언', movie_title='홍영표 위원장(더불어민주당)  발언', of='제343회 국회(임시회) 폐회중 제04차 환경노동위원회', date='2016-07-08', no=369712, mc='334', ct=('20', '343', '04'), pdf_link='//likms.assembly.go.kr/record/mhs-10-050.do?conferNum=046224&pdfFileId=0000078966')
+Record(real_time='09:36:09', play_time='00:00:22', speak_type='발언', movie_title='홍영표 위원장(더불어민주당)  발언', of='제343회 국회(임시회) 폐회중 제04차 환경노동위원회', date='2016-07-08', no=369715, mc='334', ct=('20', '343', '04'), pdf_link='//likms.assembly.go.kr/record/mhs-10-050.do?conferNum=046224&pdfFileId=0000078966')
+Record(real_time='09:41:37', play_time='00:00:24', speak_type='발언', movie_title='홍영표 위원장(더불어민주당)  발언', of='제343회 국회(임시회) 폐회중 제04차 환경노동위원회', date='2016-07-08', no=369717, mc='334', ct=('20', '343', '04'), pdf_link='//likms.assembly.go.kr/record/mhs-10-050.do?conferNum=046224&pdfFileId=0000078966')
+```
+
+### page
+
+It's a range of webpage, it works like python's built-in `range`. For example, ```page(1, 10, nth=21)``` means "page 1 to 10 of the 21st national assembly". As what you can see [HERE](https://w3.assembly.go.kr/vod/main/sub.do?menu=1&ct1=21&curPages=1), usually, each page contains 10 records.
+
+Use `for each_page in page(x, y, nth=z)` to get meta info of each meeting, then use `each_page.to_csv()` to download data.
+
+```python
+from yeongnok import page
+
+for each_page in page(7, -1, nth=21):  # '-1' means 'the last page'.
+                          # Just write a random number...
+                          # You'll get the maximum page number anyway.
+
+  print(each_page)        # Prints every meeting's 
+                          # 'date', 'open time', 'title',
+                          # 'video link', 'video record' and so on (JSON format).
+
+  each_page.to_csv()      # Save all the data to
+                          # "{nth}_{date}_{open-time}_{time-now}.csv".
+                          # e.g. "20th_20220704-143708.csv".
+                          # By specifying the file path & name, for example:
+                          # each_page.to_csv("path/to_my/folder/my_data.csv")
+                          # you can save it anywhere.
+```
+
+You can run 'site.py' directly from the command line like this
+
+```bash
+python3 site.py --nth 21 --start 1 --end 50 --delta 5 --csv "output/my_csv.csv"
+```
+
+The video meta data of the 21st Assembly will be saved to 'output' folder. Since ```--delta``` (or, ```-d```) is '5', the crawler will pause for 5 seconds after getting a whole page.
+
+The time interval of getting each single record is **1.5 seconds**. You can change this value in ```site.py``` :: class ```Page``` :: method ```refresh```, its default argument ```delta_time```.
+
+Each csv output will be like this:
+
+```csv
+2020-06-05,10:00,본회의,제379회 국회(임시회) 제01차 본회의,,https://w3.assembly.go.kr/vod/main/player.do?menu=1&mc=10&ct1=21&ct2=379&ct3=01&wv=1&,21,379,01,"[{'realTime': '10:00:00', 'playTime': '01:17:10', 'speakType': '전체보기', 'no': 488837, 'subList': [{'realTime': '10:00:00', 'playTime': '00:01:50', 'speakType': '보고', 'no': 488838, 'movieTitle': '유인태 사무총장(국회사무처)  보고', 'wv': 0}, {'realTime': '10:01:50', 'playTime': '00:02:59', 'speakType': '개의', 'no': 488839, 'movieTitle': '김진표 국회의장직무대행(더불어민주당)  개의, 발언', 'wv': 0}, {'realTime': '10:04:50', 'playTime': '00:06:39', 'speakType': '발언', 'no': 488840, 'movieTitle': '주호영 의원(미래통합당)  발언', 'wv': 0}, {'realTime': '10:11:29', 'playTime': '00:04:58', 'speakType': '발언', 'no': 488841, 'movieTitle': '김영진 의원(더불어민주당)  발언', 'wv': 0}, {'realTime': '10:16:28', 'playTime': '00:01:43', 'speakType': '법안', 'no': 488842, 'movieTitle': '김진표 국회의장직무대행(더불어민주당)  발언, 의사일정 제1항 상정', 'wv': 0}, {'realTime': '10:18:11', 'playTime': '00:13:42', 'speakType': '설명', 'no': 488843, 'movieTitle': '박태형 의사국장  설명, 투표', 'wv': 0}, {'realTime': '10:31:54', 'playTime': '00:10:08', 'speakType': '발언', 'no': 488844, 'movieTitle': '김진표 국회의장직무대행(더불어민주당)  발언', 'wv': 0}, {'realTime': '10:42:02', 'playTime': '00:29:28', 'speakType': '인사', 'no': 488845, 'movieTitle': '박병석 국회의장  인사, 발언, 투표', 'wv': 0}, {'realTime': '11:11:31', 'playTime': '00:04:52', 'speakType': '인사', 'no': 488846, 'movieTitle': '김상희 국회부의장(더불어민주당)  인사', 'wv': 0}, {'realTime': '11:16:23', 'playTime': '00:00:45', 'speakType': '산회', 'no': 488847, 'movieTitle': '박병석 국회의장  발언, 산회', 'wv': 0}], 'movieTitle': '전체보기(10시 00분 개의~11시 17분 산회)', 'qvod': '0', 'wv': 1}]"
+```
+
+After saving to CSV file, run command ```wc``` (Linux, macOS) to check the number of records:
+
+```bash
+wc -l 20th_20220704-143708.csv
+```
+
+Output:
+
+```
+    2377 20th_20220704-143708.csv
+```
+
+20th National Assembly of Korea had 2377 meetings, interesting.
+
+```python
+>>> Meetings(nth=20)
+Meetings(generation: 20th, total: 2377)  # The same output!
+```
+
+### send
+
+If you have an **API key** from the official site of KR Assembly, you can use ```send``` to get JSON data like this
+
+```python
+from yeongnok import send
+
+my_data: dict = send(
+              KEY=YOUR_API_KEY,
+              ct1=21,
+              ct2=10,
+              ct3=1
+).received
+# For more details, check the official page of the Korean National Assembly.
+```
+
+## Examples
+
+### How to download 2018 pdf files
+```python
+import time
+from yeongnok import *
+
+for meeting in Meetings(nth=20):
+    if meeting.date[:4] == '2018':
+        time.sleep(1.1)
+        meeting.download_pdf("/Users/aj/Desktop/2018")
+        print(meeting)
+        print("")
+        print("")
+```
+
+## Details
+
+### About yeongnok's Objects
+
+`List` contains `Congressman`, and `Meetings` contains `Meeting`s contains `Record`s.
+
+### About 'ct1', 'ct2', 'ct3' and 'mc'
+
+These variables were named by Korean National Assembly's website admin and the [author of yeongnok](https://github.com/anzhi0708) figured some of them out.
+
+- `ct1` means generation number. `ct1=19` means 'The 19th National Assembly of Korea'.
+- `ct2` means '회'.
+- `ct3` means '차'.
+
+I think we can locate any meeting using these 3 arguments. I still add the 4th argument `mc` to be safe. `mc`'s meaning still remains a mystery.
+
+## License
+
+Copyright Anji Wong, 2022.
+
+Distributed under the terms of the Apache 2.0 license.
