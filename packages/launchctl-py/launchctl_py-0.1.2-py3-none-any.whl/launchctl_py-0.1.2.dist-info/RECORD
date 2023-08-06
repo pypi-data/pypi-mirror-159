@@ -1,0 +1,8 @@
+launchctl_py/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+launchctl_py/cli.py,sha256=y4JRTkh_KT3jNcs3zddjddfdkSGTtGISDCW-cQNkzF8,876
+launchctl_py/create.py,sha256=Jv34iODbl7lBRAPtC0ZEkdoVq5Tirk3Ev8d41Giz33s,3540
+launchctl_py/status.py,sha256=12tNDvL2h2_yrCgiOzc_N7v1GwCRoQir1NNEy0gPLjI,1258
+launchctl_py-0.1.2.dist-info/entry_points.txt,sha256=vJWuvfozYk8CTCHayQyPe0Zhbp5dkirkPo8sbinBnOc,119
+launchctl_py-0.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+launchctl_py-0.1.2.dist-info/METADATA,sha256=yqHl_QD0O5-QsHhdcmBUNovaWYlBRlzmN9A8xQiOtew,1721
+launchctl_py-0.1.2.dist-info/RECORD,,
