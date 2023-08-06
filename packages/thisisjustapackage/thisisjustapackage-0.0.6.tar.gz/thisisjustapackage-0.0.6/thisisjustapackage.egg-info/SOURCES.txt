@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+package/__init__.py
+package/main.py
+thisisjustapackage.egg-info/PKG-INFO
+thisisjustapackage.egg-info/SOURCES.txt
+thisisjustapackage.egg-info/dependency_links.txt
+thisisjustapackage.egg-info/requires.txt
+thisisjustapackage.egg-info/top_level.txt
