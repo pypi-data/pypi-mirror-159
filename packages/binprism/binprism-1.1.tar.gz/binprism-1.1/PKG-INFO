@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: binprism
+Version: 1.1
+Summary: Package for fitting continuous profiles to binned data
+Home-page: https://github.com/JoeJimFlood/BinPrism
+Author: Joseph J. Flood
+Author-email: joejimflood@gmail.com.com
+License: GNU GPLv3
+Keywords: data_analysis simulation
+Platform: UNKNOWN
+License-File: license.txt.txt
+
+UNKNOWN
+
