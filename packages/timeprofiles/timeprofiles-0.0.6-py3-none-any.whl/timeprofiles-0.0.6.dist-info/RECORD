@@ -1,0 +1,12 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_timeprofile.py,sha256=CRe4OeLjcSHJO_7tKS_vu-0cHZwPl5QiGtyEKHHXemo,3828
+tests/test_timeprofilecollection.py,sha256=c5zB7Eb5BTvcfCJA2X4mUBRofBjHV_-iKGnDw_-BvT8,5788
+timeprofiles/__init__.py,sha256=6hIIRXpfgK2FRDdN0FRaPVDmjhYFkwEMluYRVr-IjDQ,100
+timeprofiles/timeprofile.py,sha256=ObIjTjmfdFbBvmdOEJIR5Kpq9mhTDXvbjMlcAiWEvn4,4795
+timeprofiles/timeprofilecollection.py,sha256=j_CKkD6u4P37xiJUnOfZ-_3R5LXergd2PaEYYyUiSpc,7337
+timeprofiles/zoompan.py,sha256=606_N9P_Q2kTeLwJdXdkX8U7wipHqxLgndJdjKhG7xw,2853
+timeprofiles-0.0.6.dist-info/LICENSE.txt,sha256=7c6GwyXeEb417Sqg74Ml-YBNhSybCsSLAmhvMYLWb-Q,1094
+timeprofiles-0.0.6.dist-info/METADATA,sha256=aTKcp_7847VRf_hdCAPnBn4nZ9jwhLvi08lUcQZPJKY,3867
+timeprofiles-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+timeprofiles-0.0.6.dist-info/top_level.txt,sha256=CAS4i4FT6tiiIZqUOoj8auRnCtAHowqYfk54PklzH9o,19
+timeprofiles-0.0.6.dist-info/RECORD,,
