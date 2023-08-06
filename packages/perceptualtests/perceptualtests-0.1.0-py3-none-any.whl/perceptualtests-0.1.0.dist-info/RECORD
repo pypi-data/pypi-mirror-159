@@ -1,0 +1,16 @@
+perceptualtests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+perceptualtests/baselines.py,sha256=fV6-yn7vmMUdoz_pI8VygjxtDuIWgl46QILqC2I90DA,251
+perceptualtests/campbell_robson_test.py,sha256=ux8E4vf_xdmEkQHtssvTHbFJ7m1eb-TbjASjNZ2_qCI,3013
+perceptualtests/color_matrices.py,sha256=EDKUq8OcRW2juYnNVhpihbdCgPrpm0RXsc1PPtbt9yk,1383
+perceptualtests/colored_squares.py,sha256=To1zycC2TgdSMA3afGhfv3SnVP5GAJmtLESyXWU1_NY,1865
+perceptualtests/gabor_test.py,sha256=9B0AKa-z3FkKm2vhf6iffKAZuvql_0Y_BUd-_H7lI00,1581
+perceptualtests/matching.py,sha256=LNIHYeuI8HnQqNoX0mUESQlxRQSxIxZb90I0y6uJ_gs,11548
+perceptualtests/receptive_fields.py,sha256=mVcfCDATRY0XMxSiuvSxIfjgkdu4AOSnnZ5P0LFbtL4,3941
+perceptualtests/stimuli.py,sha256=dLY4d22JXinMVZIl0-Kd2cN5NTI7Sg8ijtXONXabkzI,3324
+perceptualtests/tests.py,sha256=CvicI1uwd2r_Ohww7W6ZOuyS-hipjLlMMuuRd5dmw_M,34481
+perceptualtests/utils.py,sha256=11Jlwzh0CBDQkqV3zI_-QZsXo-J1fVVAOocsRQ9Lerk,3035
+perceptualtests/data/cmf_ciexyz.mat,sha256=Q42jL0kWPqKkcjxvR1nhlJUC2CZyc0J5ICrAHior1Dg,11303
+perceptualtests-0.1.0.dist-info/METADATA,sha256=A2HQjLlj0fiuKt927VFLkMO62X5v6X9VpxRUyJGkpOI,268
+perceptualtests-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+perceptualtests-0.1.0.dist-info/top_level.txt,sha256=jpIbL-quUaogDJ8IrznUuLI5mZGIlbAm1Fboos0IqQE,16
+perceptualtests-0.1.0.dist-info/RECORD,,
