@@ -1,0 +1,7 @@
+setup.py
+demo/__init__.py
+demo/namea.py
+my_demo001_lh.egg-info/PKG-INFO
+my_demo001_lh.egg-info/SOURCES.txt
+my_demo001_lh.egg-info/dependency_links.txt
+my_demo001_lh.egg-info/top_level.txt
