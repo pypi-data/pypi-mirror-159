@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fstlk
+Version: 0.1.0
+Summary: 
+Author: vribic
+Author-email: viran.ribic@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+
