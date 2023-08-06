@@ -1,0 +1,4 @@
+[console_scripts]
+setdiff=setdiff.sett:run
+sett=setdiff.sett:run
+
