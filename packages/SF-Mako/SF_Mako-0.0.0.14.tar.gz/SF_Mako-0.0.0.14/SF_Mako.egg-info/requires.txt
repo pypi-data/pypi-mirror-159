@@ -1,0 +1,4 @@
+mknxgn_essentials>=0.1.35.12
+bcrypt>=3.2.2
+mkiot>=0.0.0.3.7
+psutil>=5.9.1
