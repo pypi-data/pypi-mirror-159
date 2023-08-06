@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/aura_utils.egg-info/PKG-INFO
+src/aura_utils.egg-info/SOURCES.txt
+src/aura_utils.egg-info/dependency_links.txt
+src/aura_utils.egg-info/top_level.txt
