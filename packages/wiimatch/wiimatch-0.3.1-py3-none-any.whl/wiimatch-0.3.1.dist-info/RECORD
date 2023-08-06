@@ -1,0 +1,13 @@
+wiimatch/__init__.py,sha256=2N4E9JAnAppWclkNVyMjgKdY2S0CzOcA2UMJ9xM9ra8,445
+wiimatch/containers.py,sha256=JxATow8qnuh9NZGNwoWV9Tc1h2O2a2N83NFoALWLYaE,5444
+wiimatch/lsq_optimizer.py,sha256=1Q5Lgazmv4x06Im4V2OkyVyKml4aGaS47zkvXg5i320,22726
+wiimatch/match.py,sha256=N_phQpCn7DJg6h2N3kZ1o42j_baSM__FWRJpK1Myzks,13391
+wiimatch/utils.py,sha256=ScGJl2vE4WBHuOocJtnWqq3-CkAt3ywuy8WBCSbrWQE,5891
+wiimatch/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wiimatch/tests/test_match.py,sha256=3dyeWgunuS7k03S-BC3BZMF5M9sgRdyaYhaWLTy0S0s,2473
+wiimatch/tests/test_utils.py,sha256=vFUqJivNdaFQsbFW_yqaOCgkwmu4QMf_-W0z4VVxUFQ,857
+wiimatch-0.3.1.dist-info/LICENSE.txt,sha256=v5aezEG-alnELQLo4F7FlyCkZ0oxoqMwgddQeJK3j64,1557
+wiimatch-0.3.1.dist-info/METADATA,sha256=YUYyaNYuh6WVmeRWZKDoiJDFiG1-iC6xAh_p-7MJmfI,2251
+wiimatch-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wiimatch-0.3.1.dist-info/top_level.txt,sha256=esXMlpPYX-eIVt70UNIbpf_LpMNerHOGXsmXTY28JRM,9
+wiimatch-0.3.1.dist-info/RECORD,,
