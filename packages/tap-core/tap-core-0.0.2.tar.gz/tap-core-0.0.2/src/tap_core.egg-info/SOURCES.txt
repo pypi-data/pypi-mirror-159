@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/tap/__init__.py
+src/tap/api/__init__.py
+src/tap/api/client.py
+src/tap/api/stream.py
+src/tap/api/test.py
+src/tap_core.egg-info/PKG-INFO
+src/tap_core.egg-info/SOURCES.txt
+src/tap_core.egg-info/dependency_links.txt
+src/tap_core.egg-info/entry_points.txt
+src/tap_core.egg-info/requires.txt
+src/tap_core.egg-info/top_level.txt
