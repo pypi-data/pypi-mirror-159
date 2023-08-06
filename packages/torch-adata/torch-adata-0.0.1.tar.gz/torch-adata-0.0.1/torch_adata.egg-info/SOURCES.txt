@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+torch_adata/_BaseTorchAnnDataset.py
+torch_adata/_GroupedAnnDataset.py
+torch_adata/_TimeResolvedAnnDataset.py
+torch_adata/__init__.py
+torch_adata.egg-info/PKG-INFO
+torch_adata.egg-info/SOURCES.txt
+torch_adata.egg-info/dependency_links.txt
+torch_adata.egg-info/requires.txt
+torch_adata.egg-info/top_level.txt
