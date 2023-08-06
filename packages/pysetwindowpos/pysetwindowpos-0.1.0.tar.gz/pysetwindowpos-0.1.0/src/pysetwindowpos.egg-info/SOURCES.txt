@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pysetwindowpos/__init__.py
+src/pysetwindowpos/setwindowpos.py
+src/pysetwindowpos/util.py
+src/pysetwindowpos.egg-info/PKG-INFO
+src/pysetwindowpos.egg-info/SOURCES.txt
+src/pysetwindowpos.egg-info/dependency_links.txt
+src/pysetwindowpos.egg-info/top_level.txt
