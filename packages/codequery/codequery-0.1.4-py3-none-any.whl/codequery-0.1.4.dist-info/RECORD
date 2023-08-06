@@ -1,0 +1,10 @@
+codequery/__init__.py,sha256=yMTblSp9HJGETPO7FswOIeSOPjrgfNq6VJyVsEWQrv8,105
+codequery/codequery.py,sha256=Eh2ji4G9fR3TG4js2t5gAgiLp1A3AoMFWqUo8Vfr998,5401
+codequery/module.py,sha256=J__Kh9GPvbxVZHcXkLHDYR0qm3yxDSMfgoNxsw1TUkA,1561
+codequery-0.1.4.data/scripts/code-outline,sha256=EXDkc9QiqOSdC55c8XPASiza4YmmMSske8a-2znQeZ8,1048
+codequery-0.1.4.data/scripts/code-profile,sha256=85OsmOJvhmJ9ZqwzYcd9PzX42DQpc2bUg4nBdkbcW0o,1316
+codequery-0.1.4.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+codequery-0.1.4.dist-info/METADATA,sha256=6rnMHL4Iyk-alOLQDMS-2DyxC-yJM-aqVGhDlymClVM,4074
+codequery-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+codequery-0.1.4.dist-info/top_level.txt,sha256=g85CiFNk6QVDnhj376Zi7VuLIJjmPRz4UFbKiGcl9FY,10
+codequery-0.1.4.dist-info/RECORD,,
