@@ -1,0 +1,5 @@
+{"type": "TimeOffType", "attributes": {"id": 694441, "name": "Bezahlter Urlaub", "category": "paid_vacation"}}
+{"type": "TimeOffType", "attributes": {"id": 694442, "name": "Krankheit", "category": "sick_leave"}}
+{"type": "TimeOffType", "attributes": {"id": 694443, "name": "Elternzeit", "category": "parental_leave"}}
+{"type": "TimeOffType", "attributes": {"id": 694444, "name": "Mutterschutz", "category": "maternity_protection_period"}}
+{"type": "TimeOffType", "attributes": {"id": 694445, "name": "Home Office", "category": "offsite_work"}}
