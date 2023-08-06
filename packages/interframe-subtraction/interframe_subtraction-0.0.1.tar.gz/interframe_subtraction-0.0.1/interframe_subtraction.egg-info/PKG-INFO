@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: interframe-subtraction
+Version: 0.0.1
+Summary: A module to call MATLAB from Python
+Home-page: http://www.mathworks.com/
+Author: MathWorks
+Platform: Linux
+Platform: Windows
+Platform: MacOS
