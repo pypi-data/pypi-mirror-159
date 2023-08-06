@@ -1,0 +1,37 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+"OTP-CR-117/19"
+
+
+import sys
+
+
+from gcid.object import Config, cdir
+from gcid.handler import CLI, init
+
+
+import gcid.all
+
+
+Config.name = "gcid"
+Config.threaded = False
+Config.version = "103"
+Config.workdir = "/var/lib/gcid"
+
+
+class CLI(CLI):
+
+    def raw(self, txt):
+        print(txt)
+
+
+def main():
+    cdir(Config.workdir)
+    init("irc,rss,model", "gcid", "reg")
+    c = CLI()
+    return c.cmd(" ".join(sys.argv[1:]))
+
+
+main()

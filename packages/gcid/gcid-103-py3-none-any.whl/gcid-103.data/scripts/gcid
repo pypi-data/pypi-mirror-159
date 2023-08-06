@@ -1,0 +1,123 @@
+#!python
+# This file is placed in the Public Domain.
+
+
+"Prosecutor. Court. Reconsider OTP-CR-117/19."
+
+
+import os
+import readline
+import sys
+import termios
+import time
+import traceback
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from gcid.object import Config
+
+
+Config.name = "gcid"
+Config.threaded = False
+Config.version = "103"
+Config.workdir = os.path.expanduser("~/.gcid")
+
+
+from gcid.irc import Config as IConfig
+
+
+IConfig.cc = "!"
+IConfig.channel = "#gcid"
+IConfig.nick = "gcid"
+IConfig.password = ""
+IConfig.port = 6667
+IConfig.realname = "Prosecutor. Court. Reconsider OTP-CR-117/19."
+IConfig.sasl = False
+IConfig.server = "localhost"
+IConfig.servermodes = ""
+IConfig.sleep = 60
+IConfig.username = "gcid"
+IConfig.users = False
+
+
+from gcid.object import Class, Db, Object
+from gcid.object import cdir, find, fntime, format, get, items, save, spl, update
+from gcid.handler import Callbacks, CLI, Console, Event, Handler, Table
+from gcid.handler import boot, getname, init, starttime
+
+
+import gcid.basic 
+import gcid.irc
+import gcid.model
+import gcid.rss
+
+
+Table.add(gcid.basic)
+Table.add(gcid.irc)
+Table.add(gcid.model)
+Table.add(gcid.rss)
+
+
+class CLI(CLI):
+
+    def raw(self, txt):
+        print(txt)
+
+
+class Console(Console):
+
+    def announce(self, txt):
+        pass
+
+    def raw(self, txt):
+        print(txt)
+
+
+def from_exception(ex, catch=None):
+    result = []
+    for fr in traceback.extract_tb(ex.__traceback__):
+        fnc = str(fr).split()[-1][:-1]
+        nme = os.sep.join(fr.filename.split(os.sep)[-2:])
+        if catch and catch not in nme:
+            continue
+        result.append("%s %s.%s" % (nme, fnc, fr.lineno))
+    return "\n%s -> %s %s" % (" -> ".join(result), getname(ex), ex)
+
+
+def wait():
+    while 1:
+        time.sleep(1.0)
+        for err in Callbacks.errors:
+            print(from_exception(err, "gcid"))
+            Callbacks.errors.remove(err)
+
+
+def wrap(func):
+    fd = sys.stdin.fileno()
+    old = termios.tcgetattr(fd)
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print("")
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, old)
+            
+
+def main():
+    boot(" ".join(sys.argv[1:]))
+    cdir(Config.workdir)
+    init("irc,model,rss", "gcid", "reg")
+    if len(sys.argv) > 1:
+        c = CLI()
+        return c.cmd(" ".join(sys.argv[1:]))
+    print("GCID shell started at %s" % time.ctime(starttime).replace("  ", " "))
+    print(format(Config, skip="password"))
+    init("irc,model,rss", "gcid")
+    c = Console()
+    c.start()
+    wait()
+
+
+wrap(main)
