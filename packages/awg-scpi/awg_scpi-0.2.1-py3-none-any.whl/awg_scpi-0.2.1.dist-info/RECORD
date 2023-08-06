@@ -1,0 +1,9 @@
+awg_scpi/__init__.py,sha256=NmnuTeDiS5Hfodl6pXUTsx9yD8WVV0AfytO5IRfJ4Qg,167
+awg_scpi/awg.py,sha256=Iwk3Vp5E0Y1nuV9ty4W7yYxfGyWcyQAlXEMqPDeZTI8,73617
+awg_scpi/scpi.py,sha256=W9R-L8R2VKdn9Z0IamHt0PHW68Vt2FGUBCO_6IzY9aI,29109
+awg_scpi/siglent.py,sha256=6gcwg0QQPhUSbQ6yKdS77fqnhLn-2mDa9YACtWmbJyA,28292
+awg_scpi-0.2.1.dist-info/LICENSE,sha256=TJ7MCOQZxZ2ksvDqxKcTrJVLRMJSEj29ZHsHL-jItbQ,1101
+awg_scpi-0.2.1.dist-info/METADATA,sha256=VjVJjRyrAA7eRmuYPP7qaFLCRcw7MTECY1jIarxHToU,6970
+awg_scpi-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+awg_scpi-0.2.1.dist-info/top_level.txt,sha256=T3J22xW4OtqVGvu8D21Pvsb78URnYfevwDKr4Sv3gvg,9
+awg_scpi-0.2.1.dist-info/RECORD,,
