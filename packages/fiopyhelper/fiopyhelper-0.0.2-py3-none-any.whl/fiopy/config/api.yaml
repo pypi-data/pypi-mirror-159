@@ -1,0 +1,48 @@
+---
+version: 0
+v1:
+  hostname: https://api.dev.frame.io
+  endpoints:
+    get_account_teams: /accounts/${account_id}/teams
+    get_user_teams: /users/${user_id}/teams
+    get_team_projects: /teams/${team_id}/projects
+    get_all_teams: /teams
+    get_team: /teams/${team_id}
+    get_project: /projects/${project_id}
+    create_project: /teams/${team_id}/projects/create
+    delete_project: /projects/${project_id}/delete
+    share_project: /projects/${project_id}/update
+    join_project: /projects/${project_id}/join
+    leave_project: /projects/${project_id}/remove_collaborators
+    unshare_project: /projects/${project_id}/update
+    add_users_to_teams: /accounts/${account_id}/add_users_to_teams
+    remove_users_from_team: /accounts/${account_id}/remove_members_from_team
+    remove_users_from_account: /accounts/${account_id}/remove_users_from_account
+    update_users_role: /accounts/${account_id}/update_users_role
+    add_team_manager: /accounts/${account_id}/add_team_manager
+    remove_team_manager: /accounts/${account_id}/remove_team_manager
+    create_review_link: /projects/${project_id}/review_links
+    invite_collaborator: /projects/share
+    remove_collaborator: /projects/${project_id}/remove_collaborators
+v2:
+  hostname: https://api.dev.frame.io
+  endpoints:
+    login: /v2/login
+    get_me: /v2/me
+    signup: /v2/users
+    get_accounts: /v2/accounts
+    get_account: /v2/accounts/${account_id}
+    get_asset: /v2/assets/${asset_id}
+    upload_asset: /v2/assets/${folder_id}/children
+    batch_assests: /v2/batch/assets
+    view_recently_deleted_assets: /v2/projects/${project_id}/trash
+    get_asset_children: /v2/assets/${asset_id}/children
+    get_asset_impressions: /v2/assets/${asset_id}/impressions
+    asset_comments: /v2/assets/${asset_id}/comments
+    comment_replies: /v2/comments/${comment_id}/replies
+    get_review_link_items: /v2/review_links/${review_link_id}/items/shared
+    fetch_review_link_item: /v2/review_links/${review_link_id}/assets/${asset_id}
+    fetch_review_link_item_children: /v2/review_links/${review_link_id}/assets/${asset_id}/children
+    fetch_review_link_item_comments: /v2/review_links/${review_link_id}/assets/${asset_id}/comments
+    post_review_link_item_comments: /v2/review_links/${review_link_id}/assets/${asset_id}/comments
+    export_review_link_item_comments: /v2/review_links/${review_link_id}/assets/${asset_id}/comments/export
