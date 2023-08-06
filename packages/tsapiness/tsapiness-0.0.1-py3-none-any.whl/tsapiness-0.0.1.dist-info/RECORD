@@ -1,0 +1,9 @@
+tsapiness/__init__.py,sha256=Ojm3Y-hHIoIF2C_Zlsben2IKFsutFrEdFdRQ8JUjjdw,72
+tsapiness/connector_sav.py,sha256=trsarExKMNAL9xa9McyF2WIkNDKs8PzMvHTBU1sP9QI,2383
+tsapiness/connector_sss.py,sha256=4ZwMvJpK6nGBdf2k9ggq83VXJ_qZ-8ZZSCOBK25V_lA,6416
+tsapiness/connector_tsapi.py,sha256=Ni8kjTaZyQtf-Xow4Hh42YczL96HSsap4znriip_vxA,2022
+tsapiness/tsapi.py,sha256=66ISbdoNVhrlcMMXwwhq6r95DWkNGyegNaJMeP3p6Ok,21267
+tsapiness-0.0.1.dist-info/METADATA,sha256=9RJnaaun2yVE9kYuCdOfH_nZbl6DdXepfu6Y5MqfS3g,3327
+tsapiness-0.0.1.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+tsapiness-0.0.1.dist-info/licenses/LICENSE,sha256=yoe5auJTyrLAi9tRNy6_kfb7U0J80zRT1_zXeGW4VnA,1107
+tsapiness-0.0.1.dist-info/RECORD,,
