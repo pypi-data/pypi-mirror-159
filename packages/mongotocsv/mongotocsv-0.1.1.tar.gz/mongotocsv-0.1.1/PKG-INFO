@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: mongotocsv
+Version: 0.1.1
+Summary: Creates a CSV file from a MongoDB collection
+Home-page: https://github.com/BlackIsBlack/mongotocsv
+Author: Cameron Jensen
+Author-email: cameron@situ.com.au
+License: BSD 2-clause
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.10
