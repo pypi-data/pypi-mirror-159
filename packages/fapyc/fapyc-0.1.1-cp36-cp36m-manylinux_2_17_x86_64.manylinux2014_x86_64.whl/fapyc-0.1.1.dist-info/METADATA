@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: fapyc
+Version: 0.1.1
+Summary: A Python wrapper for the FAPEC data compressor.
+Home-page: https://www.dapcom.es
+Author: DAPCOM Data Services
+Author-email: fapec@dapcom.es
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# FaPyc
+
+A Python wrapper for the FAPEC data compressor.
+(C) DAPCOM Data Services S.L. - https://www.dapcom.es
+
+The free decompression-only library is included, which has some limitations such as the maximum number of threads and the recovery of corrupted files.
+Only a 'dummy' compression library is provided: You can get free evaluation licenses at https://www.dapcom.es/get-fapec/ to test the compressor.
+For full licenses, please contact us at fapec@dapcom.es
+
+## Usage
+
+There are 3 main execution modes:
+* File: When invoking Fapyc or Unfapyc on a filename, it will (de)compress it directly into another file.
+* Buffer: You can load the whole file to (de)compress on e.g. a byte array, and then invoke Fapyc/Unfapyc which will leave the result in the output buffer. Obviously, you should be careful with large/huge files!
+* Chunk: FAPEC internally works in 'chunks' of data, of up to 384MB each, which allows to progressively (de)compress a huge file while keeping memory usage under control. For now, this feature is only available in the FAPEC CLI and C API, not in Fapyc/Unfapyc yet.
+
+## Examples
+
+We provide some examples, including a use case for the Gaia (E)DR3 bulk catalogue (which is available as FAPEC-compressed CSVs), allowing to e.g. determine histograms directly from a compressed CSV file.
+
+
+
