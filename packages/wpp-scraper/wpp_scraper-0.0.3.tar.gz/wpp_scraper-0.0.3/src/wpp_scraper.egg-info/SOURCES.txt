@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/whatsapp_scraper/__init__.py
+src/whatsapp_scraper/whatsapp_scraper.py
+src/wpp_scraper.egg-info/PKG-INFO
+src/wpp_scraper.egg-info/SOURCES.txt
+src/wpp_scraper.egg-info/dependency_links.txt
+src/wpp_scraper.egg-info/top_level.txt

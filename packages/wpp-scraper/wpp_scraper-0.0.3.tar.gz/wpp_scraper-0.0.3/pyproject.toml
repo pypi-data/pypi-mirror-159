@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools","selenium","webdriver-manager"]
+build-backend="setuptools.build_meta"
+
+[project]
+name = "wpp_scraper"
+version = "0.0.3"
+authors = [
+  { name="João Tolovi", email="jhontolovi@gmail.com" },
+]
+description = "The Most Powerful Contact Scraper for Whatsapp Web."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/joaotolovi/Whatsapp-Web-Scraper-"
