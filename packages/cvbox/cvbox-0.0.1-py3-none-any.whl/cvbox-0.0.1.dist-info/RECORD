@@ -1,0 +1,11 @@
+cvbox/fileio/__init__.py,sha256=Qhgml5fSruIyef1JoXF8hvChZzbyFcJYnJsp0LPTZxk,182
+cvbox/fileio/json_dict.py,sha256=QqrJVjNtBfgX9QLRsnZrka_zZxttkat5wjgYAFt2y_Q,969
+cvbox/fileio/permissions.py,sha256=3HekTBFv99M5Zj2xW4XNI_k-B7L_CxB6WPo9__VFJJw,326
+cvbox/fileio/pkl.py,sha256=AN6ZwDQQCmJGLC2Gj4HzjbDQ0zaV_L8exGcjg5JqAw0,878
+cvbox/search/__init__.py,sha256=YTUCc8O0fI6WWfhg1fIpM0QbpXEdaUvjypBvfjZoPZQ,61
+cvbox/search/list_files.py,sha256=c0VZv2YNI3yQadXURAnkVFGr5RtapZPfmIXt04Fm6X0,6474
+cvbox-0.0.1.dist-info/LICENSE,sha256=22MPztJAgT4O97kgWc5E6ygOSVYaPKRFQFCp0iYmQqo,11209
+cvbox-0.0.1.dist-info/METADATA,sha256=0334xEsk9vHT_XsaSvWRl6UmTCbnv6LgGXguuryPmhI,13279
+cvbox-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cvbox-0.0.1.dist-info/top_level.txt,sha256=Ok88CzVtkreaxnamzYw_3ibhseB9OEzWCzOtDtLQDkM,6
+cvbox-0.0.1.dist-info/RECORD,,
