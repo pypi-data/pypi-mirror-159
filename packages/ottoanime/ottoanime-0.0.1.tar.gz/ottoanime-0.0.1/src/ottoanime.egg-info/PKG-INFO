@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ottoanime
+Version: 0.0.1
+Summary: Script allow you to get anime details in a second.
+Home-page: https://github.com/pypa/sampleproject
+Author: OTTOPROGRAMMER
+Author-email: ottoprogrammer@gmail.com
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
