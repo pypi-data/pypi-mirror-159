@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pywtdlib/__init__.py
+pywtdlib/client.py
+pywtdlib/enum.py
+pywtdlib/tdjson.py
+pywtdlib.egg-info/PKG-INFO
+pywtdlib.egg-info/SOURCES.txt
+pywtdlib.egg-info/dependency_links.txt
+pywtdlib.egg-info/top_level.txt
