@@ -1,0 +1,10 @@
+labeling_escaper/__init__.py,sha256=o-Hh-hrv27cbGXZWTnN5GbFZqJ5zgzS62tAWTwKG-wI,21
+labeling_escaper/escaper.cp310-win_amd64.pyd,sha256=Yltw1G_UHLXKzK7zDgTei-54Bub5TLmNur3KH5ij-sY,188928
+labeling_escaper/escaper.cp36-win_amd64.pyd,sha256=MgMICZ7mfDeK_P7u-Vcvm13mrK_6owu4XMUH-ObkPWo,214016
+labeling_escaper/escaper.cp37-win_amd64.pyd,sha256=8qZzKUUbxRj950HOwK4WiUJ4iLajOGgSiHR4LcVweQI,202240
+labeling_escaper/escaper.cp38-win_amd64.pyd,sha256=uGbRifASgVR5y3HrHr6tDQmDWRDX6fUZcK3Dybvo0lM,214016
+labeling_escaper/escaper.cp39-win_amd64.pyd,sha256=RL85jSrsGFqDh0lHpIo6DxluvPpqmJMh3YiTaAXIFUg,189440
+labeling_escaper-1.0.4.dist-info/METADATA,sha256=3vAXEzX0-0RKc4UtsIbfPfCnZMn6JvZujypK5WbQJ4E,710
+labeling_escaper-1.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+labeling_escaper-1.0.4.dist-info/top_level.txt,sha256=RKjIJ4OkyQnEHqx0V-897ielNTmGFGSAfRFfoWhZQlg,17
+labeling_escaper-1.0.4.dist-info/RECORD,,
