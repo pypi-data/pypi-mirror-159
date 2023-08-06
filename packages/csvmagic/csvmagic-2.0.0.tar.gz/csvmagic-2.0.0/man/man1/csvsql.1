@@ -1,0 +1,41 @@
+.TH CSVSQL 1 "1 February 2020"
+.SH NAME
+csvsql \- query one or more csv files
+.SH SYNOPSIS
+\fBcsvsql\fP [\-h] [\-c \fISQL\fP] [\-d \fIDELIM\fP] [\fIFILE\fP [-a TABLE] [\fIFILE\fP [-a TABLE] ...]]
+.SH DESCRIPTION
+\fBcsvsql\fP load one or more csv files \fIFILE\fP into memory as database
+tables that can be queried or manipulated using \fISQL\fP.
+.SS Options
+.TP
+\fB-h\fP, \fB--help\fP
+Output a usage message and exit.
+.TP
+\fB-a\fP \fITABLE\fP, \fB--as\fP=\fITABLE\fP
+Load the preceding or following \fIFILE\fP into \fITABLE\fP.  By default,
+\fIFILE\fP is loaded into the table whose name is same as the basename of the
+\fIFILE\fP without the extension.
+.TP
+\fB-c\fP \fISQL\fP, \fB--command\fP=\fISQL\fP
+\fISQL\fP command to execute.  May be specified more than once to execute more
+than one SQL command.  If omitted, csvsql is started in interactive mode.
+.TP
+\fB-d\fP \fIDELIM\fP, \fB--delim\fP=\fIDELIM\fP
+Use \fIDELIM\fP as the value delimiter of input FILEs, where \fIDELIM\fP may be
+'\fBp\fP' for the pipe (\fB|\fP), '\fBt\fP' for the tab (\fB\\t\fP), '\fBa\fP'
+for the SOH (ASCII 1), or other string literal of one or more characters and
+Python string escape sequences.  \fIDELIM\fP may include escape characters.  By
+default the delimiter is guessed from the characters in the \fBCSV_DELIMS\fP
+environment variable.
+.SS Environment Variables
+.TP
+\fBCSV_DELIMS\fP
+A set of characters used to guess the delimiter of a csv file.  The guesswork
+happens when reading the first line of the first \fIFILE\fP, by testing each
+character present in \fBCSV_DELIMS\fP for the character with the most
+occurrence in the line.  If any of the characters occur the same number of
+times (including zero), the earlier character in the variable is chosen.
+If the environment variable is not set, it defaults to ',\\t|\\u0001'.
+\fBCSV_DELIMS\fP may include escape characters.
+.SH "SEE ALSO"
+csvread(1), csvcut(1), csvgrep(1), csvalign(1), csvcsv(1)
