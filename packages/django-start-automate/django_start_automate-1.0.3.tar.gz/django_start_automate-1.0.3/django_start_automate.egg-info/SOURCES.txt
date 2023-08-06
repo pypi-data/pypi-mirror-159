@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+django_start_automate.egg-info/PKG-INFO
+django_start_automate.egg-info/SOURCES.txt
+django_start_automate.egg-info/dependency_links.txt
+django_start_automate.egg-info/entry_points.txt
+django_start_automate.egg-info/requires.txt
+django_start_automate.egg-info/top_level.txt
+djstartlib/__init__.py
+djstartlib/app_manager.py
+djstartlib/djstart_interface.py
+djstartlib/hellper.py
+djstartlib/main.py
+djstartlib/project_manager.py
