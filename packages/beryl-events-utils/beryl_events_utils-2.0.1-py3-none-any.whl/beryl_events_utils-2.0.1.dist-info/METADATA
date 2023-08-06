@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: beryl-events-utils
+Version: 2.0.1
+Summary: A set of async utils for Beryl's Events system
+Home-page: https://github.com/No767/Beryl-Events-Utils
+License: MIT
+Author: No767
+Author-email: 73260931+No767@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Dist: SQLAlchemy (>=1.4.39,<2.0.0)
+Requires-Dist: asyncpg (>=0.26.0,<0.27.0)
+Requires-Dist: uvloop (>=0.16.0,<0.17.0)
+Project-URL: Repository, https://github.com/No767/Beryl-Events-Utils
+Description-Content-Type: text/markdown
+
+<div align=center>
+
+# Beryl-Events-Utils
+
+![PyPI](https://img.shields.io/pypi/v/beryl-events-utils?label=PyPi&logo=pypi&logoColor=white) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/beryl-events-utils?label=Python&logo=python&logoColor=white) ![PyPI - License](https://img.shields.io/pypi/l/beryl-events-utils?label=License&logo=pypi&logoColor=white)
+
+A set of async utils for Beryl's Events system
+
+<div align=left>
+
+# Info
+
+Beryl, which is a discord bot offers a events system, where users can set an event and then later check how much more days is there left. The events system is powered off of PostgreSQL and thus requires an PostgreSQL server in order to use. These are the base corountines used by Beryl.
+
+# Installation
+
+## Pip
+
+```sh
+pip install beryl-events-utils
+```
+
+## Poetry
+
+```sh
+poetry add beryl-events-utils
+```
+
+# License
+
+MIT
+
