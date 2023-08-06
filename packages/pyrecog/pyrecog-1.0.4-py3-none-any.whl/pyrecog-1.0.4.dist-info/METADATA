@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyrecog
+Version: 1.0.4
+Summary: An image recognition package.
+Home-page: UNKNOWN
+Author: FullStackJosh
+Author-email: joshuafxs@yahoo.com
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+License-File: LICENSE.txt
+Requires-Dist: pyautogui
+
+UNKNOWN
+
