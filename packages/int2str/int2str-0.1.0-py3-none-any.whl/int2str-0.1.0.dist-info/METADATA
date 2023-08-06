@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: int2str
+Version: 0.1.0
+Summary: Small int to words library
+Home-page: https://int2str.readthedocs.io
+Author: Jarlinton Zea
+Author-email: jarlinton.zeastudio@outlook.com
+License: MIT
+Description-Content-Type: text/markdown
+
+# Number to String (_int2str_ library)
+This is a small **Python library** for create the string representation of a give positive integer number (N),
+passed as argument.
+
+### Instalation
+```
+    pip install int2str
+```
+
+
+### Get started
+```
+from int2str import int2str
+>>> int2str(5)
+'five'
+>>> int2str(55)
+'fifty-five'
+```
