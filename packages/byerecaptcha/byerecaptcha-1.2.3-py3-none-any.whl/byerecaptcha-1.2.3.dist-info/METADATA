@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: byerecaptcha
+Version: 1.2.3
+Summary: Google Recaptcha solver with selenium.
+Home-page: https://github.com/DedInc/byerecaptcha
+Author: Maehdakvan
+Author-email: visitanimation@google.com
+Project-URL: Bug Tracker, https://github.com/DedInc/byerecaptcha/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: opencv-python
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: selenium (==3.141.0)
+
+<h1 align="center">byerecaptcha - Google Recaptcha solver with selenium.</h1>
+
+<h2>Model and some codes takes from <a href="https://github.com/embium/solverecaptchas">embium's repository</a></h2>
+
+<h1 align="center"> -Installation- </h1>
+
+```sh
+pip install byerecaptcha
+```
+
+<h1 align="center"> -How to use- </h1>
+
+```python
+from selenium import webdriver
+from selenium_utilities import getChromeDriver
+from byerecaptcha import solveRecaptcha
+
+options = webdriver.ChromeOptions()
+options.add_argument('--lang=en-US') #need for recaptcha be in english
+
+driver = webdriver.Chrome(executable_path=getChromeDriver(), chrome_options=options)
+driver.get('https://www.google.com/recaptcha/api2/demo')
+solveRecaptcha(driver) #FOR PREDICTION ON YOUR PC
+
+solveRecaptcha(driver, server="https://myserver.com") #FOR PREDICTION IN YOUR SERVER (check server.py)
+
+solveRecaptcha(driver, invisible=True) #FOR PREDICTION INVISIBLE CAPTCHA
+```
