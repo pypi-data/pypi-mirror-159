@@ -1,0 +1,49 @@
+[package]
+name = "py-sr25519-bindings-fork"
+description = "Fork Python bindings for sr25519 library"
+authors=["Polkascan Foundation"]
+version = "0.2.4"
+repository = "https://github.com/aghamir/py-sr25519-bindings"
+homepage = "https://github.com/aghamir/py-sr25519-bindings"
+license = "Apache-2.0"
+readme = "README.md"
+edition = "2018"
+
+[dependencies]
+schnorrkel = "0.10.1"
+
+[dependencies.curve25519-dalek]
+package = "curve25519-dalek-ng"
+# git = "https://github.com/dalek-cryptography/curve25519-dalek"
+version = "4.0"
+
+[dev-dependencies]
+hex-literal = "0.3.3"
+
+[lib]
+name = "sr25519_nbx"
+crate-type = ["cdylib"]
+
+# Allows `cargo test --no-default-features` to work
+# see: https://github.com/PyO3/pyo3/issues/341
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
+
+[dependencies.pyo3]
+version = "0.14.2"
+
+[package.metadata.maturin]
+maintainer = "Mohammad Aghamir"
+maintainer-email = ""
+classifier = [
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10"
+]
