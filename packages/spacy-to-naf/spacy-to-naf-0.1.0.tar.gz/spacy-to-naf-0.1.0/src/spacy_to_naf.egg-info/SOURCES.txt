@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/spacy_to_naf/__init__.py
+src/spacy_to_naf/converter.py
+src/spacy_to_naf.egg-info/PKG-INFO
+src/spacy_to_naf.egg-info/SOURCES.txt
+src/spacy_to_naf.egg-info/dependency_links.txt
+src/spacy_to_naf.egg-info/requires.txt
+src/spacy_to_naf.egg-info/top_level.txt

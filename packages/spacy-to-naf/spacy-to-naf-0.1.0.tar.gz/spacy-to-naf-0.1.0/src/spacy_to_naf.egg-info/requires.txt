@@ -1,0 +1,5 @@
+nafparserpy
+spacy
+
+[test]
+pytest
