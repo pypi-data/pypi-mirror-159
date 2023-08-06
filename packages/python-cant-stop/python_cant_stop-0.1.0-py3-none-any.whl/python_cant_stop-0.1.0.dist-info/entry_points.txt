@@ -1,0 +1,3 @@
+[console_scripts]
+cant-stop=cant_stop.cli:main
+
