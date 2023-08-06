@@ -1,0 +1,10 @@
+bioseqtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bioseqtools/cli.py,sha256=5WfBsGyq0uzsKpLX-MNlngBkNrUVN6xBFo2H41VcFBk,19668
+bioseqtools/pipelines.py,sha256=eiPeGb9oVK08T9gCbGIlBXryv5VoPBkylRUfErYQ1Yk,47371
+bioseqtools/versions.py,sha256=xH1k7a1m4_HB-O2OGRM4HMUaLak93nxxMFBlWiaMY_Y,300
+BioSeqTools-0.2.0.dist-info/LICENSE,sha256=IzULPsFTlrF-uHczR75Slnfo_VrUn2deqtzPAlyMZrM,1066
+BioSeqTools-0.2.0.dist-info/METADATA,sha256=fcCFU2Bt1BsuvRWzB6GZZ1MnP3rWd1FNuMf99atUl-8,557
+BioSeqTools-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+BioSeqTools-0.2.0.dist-info/entry_points.txt,sha256=54u6xI1m9kjwp6zh7I54zAj2WTTetpaaaqkgRP2ifA4,53
+BioSeqTools-0.2.0.dist-info/top_level.txt,sha256=FKZMo_ZROjOFkI9YfcsboSEKb0JvWMsFUbvW3AgI4zw,12
+BioSeqTools-0.2.0.dist-info/RECORD,,
