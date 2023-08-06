@@ -1,0 +1,6 @@
+README.md
+setup.py
+vwo_sdk_log_messages.egg-info/PKG-INFO
+vwo_sdk_log_messages.egg-info/SOURCES.txt
+vwo_sdk_log_messages.egg-info/dependency_links.txt
+vwo_sdk_log_messages.egg-info/top_level.txt

@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: vwo-sdk-log-messages
+Version: 0.10.0
+Summary: Log messages for VWO server-side SDKs
+Home-page: https://github.com/wingify/vwo-sdk-log-messages
+Author: VWO
+Author-email: dev@wingify.com
+License: Apache License 2.0
+Description: ## VWO SDK Log messages
+        
+        ## Authors
+        
+        - [Varun Malhotra](https://github.com/softvar)([@s0ftvar](https://twitter.com/s0ftvar))
+        
+        ## Changelog
+        
+        Refer [CHANGELOG.md](https://github.com/wingify/vwo-sdk-log-messages/blob/master/CHANGELOG.md)
+        
+        ## Contributing
+        
+        Please go through our [contributing guidelines](https://github.com/wingify/vwo-sdk-log-messages/blob/master/CONTRIBUTING.md)
+        
+        
+        ## Code of Conduct
+        
+        [Code of Conduct](https://github.com/wingify/vwo-sdk-log-messages/blob/master/CODE_OF_CONDUCT.md)
+        
+        ## License
+        
+        [Apache License, Version 2.0](https://github.com/wingify/vwo-sdk-log-messages/blob/master/LICENSE)
+        
+        Copyright 2021-2022 Wingify Software Pvt. Ltd.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
