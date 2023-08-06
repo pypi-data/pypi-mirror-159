@@ -1,0 +1,7 @@
+{
+    "layer_name": "demoLayer",
+    "compatible_runtimes": "nodejs10,nodejs12",
+    "_copy_without_render": [
+        "lib/nodejs/*"
+    ]
+}

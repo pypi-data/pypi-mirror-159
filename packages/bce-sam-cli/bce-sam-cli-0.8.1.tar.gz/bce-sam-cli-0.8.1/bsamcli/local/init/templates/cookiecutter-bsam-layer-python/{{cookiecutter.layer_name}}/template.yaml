@@ -1,0 +1,15 @@
+BCETemplateFormatVersion: '2010-09-09'
+Transform: BCE::Serverless-2018-08-30
+Description: >
+    {{ cookiecutter.layer_name }}
+    Sample BCE SAM Template for layer {{ cookiecutter.layer_name }}
+
+Resources:
+
+    {{ cookiecutter.layer_name }}:
+        Type: BCE::Serverless::Layer
+        Properties:
+            LayerUri: lib/
+            CompatibleRuntimes: {{cookiecutter.compatible_runtimes}}
+            Description: demo layer
+            LicenseInfo: https://raw.githubusercontent.com/benjaminp/six/master/LICENSE

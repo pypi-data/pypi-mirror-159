@@ -1,0 +1,7 @@
+{
+    "layer_name": "demoLayer",
+    "compatible_runtimes": "python3",
+    "_copy_without_render": [
+        "lib/python/*"
+    ]
+}
