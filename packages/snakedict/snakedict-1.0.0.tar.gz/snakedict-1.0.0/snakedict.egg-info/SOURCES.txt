@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+snakedict.py
+snakedict.egg-info/PKG-INFO
+snakedict.egg-info/SOURCES.txt
+snakedict.egg-info/dependency_links.txt
+snakedict.egg-info/requires.txt
+snakedict.egg-info/top_level.txt
