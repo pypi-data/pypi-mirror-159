@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+firebaseaio/__init__.py
+firebaseaio/firebaseaio.py
+firebaseaio/sseclient.py
+firebaseaio.egg-info/PKG-INFO
+firebaseaio.egg-info/SOURCES.txt
+firebaseaio.egg-info/dependency_links.txt
+firebaseaio.egg-info/requires.txt
+firebaseaio.egg-info/top_level.txt
