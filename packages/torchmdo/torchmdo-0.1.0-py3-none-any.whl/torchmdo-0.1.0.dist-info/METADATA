@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: torchmdo
+Version: 0.1.0
+Summary: Multidisciplinary design optimization made fast with PyTorch and modern automatic differentiation.
+Author: Trefor Evans
+Author-email: trefor@infera.ai
+License: AGPL-3.0-or-later
+Keywords: optimization,MDO,engineering,design,pytorch,aerodynamics,FEA
+License-File: LICENSE
+Provides-Extra: all
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: check-manifest ; extra == 'all'
+Requires-Dist: ipython ; extra == 'all'
+Requires-Dist: ipykernel ; extra == 'all'
+Requires-Dist: nbsphinx ; extra == 'all'
+Requires-Dist: sphinx (~=5.0.2) ; extra == 'all'
+Requires-Dist: sphinx-rtd-theme ; extra == 'all'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: ipython ; extra == 'docs'
+Requires-Dist: ipykernel ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: sphinx (~=5.0.2) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'docs'
+Provides-Extra: examples
+Requires-Dist: matplotlib ; extra == 'examples'
+
