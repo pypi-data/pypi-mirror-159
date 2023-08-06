@@ -1,0 +1,3 @@
+[console_scripts]
+zinc_cli = zinc.codegen_cli:main
+
