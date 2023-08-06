@@ -1,0 +1,10 @@
+README.md
+setup.py
+machineLearningModel/__init__.py
+machineLearningModel/classifier.py
+machineLearningModel/regressor.py
+machineLearningModel.egg-info/PKG-INFO
+machineLearningModel.egg-info/SOURCES.txt
+machineLearningModel.egg-info/dependency_links.txt
+machineLearningModel.egg-info/requires.txt
+machineLearningModel.egg-info/top_level.txt
