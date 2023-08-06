@@ -1,0 +1,11 @@
+setup.py
+fundamental_distributions/Binomialdistribution.py
+fundamental_distributions/Gaussiandistribution.py
+fundamental_distributions/Generaldistribution.py
+fundamental_distributions/__init__.py
+fundamental_distributions_gaussian_and_binomial.egg-info/PKG-INFO
+fundamental_distributions_gaussian_and_binomial.egg-info/SOURCES.txt
+fundamental_distributions_gaussian_and_binomial.egg-info/dependency_links.txt
+fundamental_distributions_gaussian_and_binomial.egg-info/not-zip-safe
+fundamental_distributions_gaussian_and_binomial.egg-info/requires.txt
+fundamental_distributions_gaussian_and_binomial.egg-info/top_level.txt
