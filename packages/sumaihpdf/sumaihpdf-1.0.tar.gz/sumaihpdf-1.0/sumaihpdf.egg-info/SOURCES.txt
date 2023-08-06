@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+sumaihpdf.egg-info/PKG-INFO
+sumaihpdf.egg-info/SOURCES.txt
+sumaihpdf.egg-info/dependency_links.txt
+sumaihpdf.egg-info/top_level.txt
