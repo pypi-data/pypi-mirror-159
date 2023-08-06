@@ -1,0 +1,16 @@
+acronym/__init__.py,sha256=KJz0RxQDslrYtDqQlJRDDXVgN-FTqX7eiAxYgkbgZd4,93
+acronym/acronym.py,sha256=barLrvNBVzEfsT_tR2XgbBo1tpx_F5KtJAHvR6y_cFY,5499
+acronym/alias_utils.py,sha256=U4PU-HhNjKL1dzXOh5KtW8uc32ke6CswI_nS92rtR50,3271
+acronym/help_text.py,sha256=VUJHzc65ocGS-YlaNrmNVyCPS6zjKi9UOS55f4hwXq4,2614
+acronym/data/aliases.sh,sha256=Vk12ogis5MgbP6Wkqk58jrBs_QXfEXS4zSP3DnScFOk,158
+acronym/data/aliases.toml,sha256=u7YyylQVaImMvWurtlmSJo1JEa5KjlSoVYWW-l2sziM,133
+acronym/data/keywords.toml,sha256=OGueel8CEdo4dzoZxkLij8SaWvsa4H1j1GFyEEg3gws,1948
+acronym_alias-0.1.0.data/data/share/bash-completion/completions/_acronym,sha256=8A34ohcYTA2h2HuLShCuHK_crt5Bsw4zjfqTCqk2fZI,659
+acronym_alias-0.1.0.data/data/share/man/acronym.1.md,sha256=v4Ff0Oq-OyVhSCFsIgASce13McMgZYiOSxdF8fwhy8c,2596
+acronym_alias-0.1.0.data/data/share/man/man1/acronym.1,sha256=BES9MgkdcfHqHLXyC4R5ExJFDN4wJZ3u8MdApTxYvYY,3456
+acronym_alias-0.1.0.data/data/share/zsh/site-functions/_acronym,sha256=1bQWfsns2GMhBGJRJnPywINuo2WLRLmG_pAB3h5COXA,550
+acronym_alias-0.1.0.dist-info/entry_points.txt,sha256=BWHMCUOhrAF4Hyr6gK2MJF6Iy-3G3sQ3kdwV8Kl959A,48
+acronym_alias-0.1.0.dist-info/LICENSE,sha256=13lIZzXgcHoiKQirtVMxII0WY4bXGg5xRqoy6aHR1fo,1069
+acronym_alias-0.1.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+acronym_alias-0.1.0.dist-info/METADATA,sha256=YFuocMPojbX1iNQk8YbzyaZD79NdqytHh_3v4ZKOj2Q,7444
+acronym_alias-0.1.0.dist-info/RECORD,,
