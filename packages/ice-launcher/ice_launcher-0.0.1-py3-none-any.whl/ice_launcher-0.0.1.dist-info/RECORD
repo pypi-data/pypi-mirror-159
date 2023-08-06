@@ -1,0 +1,12 @@
+ice_launcher/__about__.py,sha256=wUubDzuT1plCmmYJNGcivE1BS3iHRmsRToZepZ88_ss,147
+ice_launcher/__init__.py,sha256=8tJJEhmgL0IwA-_u574cq-78hKLORvUsGoEmZBRPKPs,124
+ice_launcher/__main__.py,sha256=0G1RNddRR0ZdNR2z1CLrR36W8uDM0opMT_mG81YQ32A,3043
+ice_launcher/about.py,sha256=xGaLifL4kLtZCNwDiniRVfdZso3v7Mt5xGdxhRgUzR0,1143
+ice_launcher/accounts.py,sha256=WHtbNtlHgrLhqIhVdLcRK6tjWPOCaPLSKxDJMG8R5mg,4284
+ice_launcher/instances.py,sha256=N-mkpxWeTVpO9QDEo_LkdjtJyF1muMG183T5UCV_KIU,1397
+ice_launcher/news.py,sha256=zkcUoLaMEhMkbb85MrUkz4Wp_t-7tCAGkG5hpZ3KHCg,3567
+ice_launcher/settings.py,sha256=Zg3ahlzcW9eAKtUB3HEs6LUplQnsjZ7nLFv_B91ag34,667
+ice_launcher-0.0.1.dist-info/METADATA,sha256=bu7FmKHCHyLRzWUKhsh7bk3b9zzfC98k-fljes13gDU,1737
+ice_launcher-0.0.1.dist-info/WHEEL,sha256=rQu7FmgyOTqFU8pKMlUsn1SEsNDU0bXkgMtwmhryU3w,86
+ice_launcher-0.0.1.dist-info/licenses/LICENSE.txt,sha256=tqi_Y64slbCqJW7ndGgNe9GPIfRX2nVGb3YQs7FqzE4,34670
+ice_launcher-0.0.1.dist-info/RECORD,,
