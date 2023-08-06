@@ -1,0 +1,50 @@
+# Can't Stop strategy helper
+
+Using the algorithm from [Solitaire Laboratory](http://www.solitairelaboratory.com/cantstop.html),
+`cant-stop` tells you if you should stop or continue your current turn of the dice game
+[Can't Stop](https://boardgamegeek.com/boardgame/41/cant-stop).
+
+# Usage
+
+`cant-stop` takes a list of strings of the format `<roll>x<count>` where `<roll>` is the roll column
+and `<count>` is the number of tokens placed there this turn so far. For example, if you rolled a 1,
+1, 2, and 3, and chose columns 2 and 5:
+
+```bash
+~$ cant-stop 2x1 5x1
+INFO:cant_stop.cli:Your score is 18
+```
+
+and if you next rolled a 1, 1, 6, and 6:
+
+```bash
+~$ cant-stop 2x2 5x1 12x1
+INFO:cant_stop.cli:Your score is 36
+```
+
+Time to stop!
+
+# Installation
+
+`cant-stop` is available on [PyPI](https://pypi.org/project/python-cant-stop/):
+
+```bash
+~$ pip install python-cant-stop
+...
+~$ cant-stop -h
+```
+
+## Installation from source
+
+This assumes you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git),
+[Python 3.9+](https://www.python.org/downloads/), and
+[poetry](https://python-poetry.org/docs/#osx--linux--bashonwindows-install-instructions) installed
+already.
+
+```bash
+~$ git clone git@gitlab.com:henxing/cant_stop.git
+~$ cd cant_stop
+cant_stop$ poetry install
+...
+cant_stop$ poetry run wordle-helper -h
+```

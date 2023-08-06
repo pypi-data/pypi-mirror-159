@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "python-cant-stop"
+version = "0.2.0"
+description = "Calculates Can't Stop turn scores."
+authors = ["Hugh Enxing <henxing@gmail.com>"]
+maintainers = ["Hugh Enxing <henxing@gmail.com>"]
+license = "The Unlicense"
+readme = "README.md"
+homepage = "https://gitlab.com/henxing/cant_stop"
+repository = "https://gitlab.com/henxing/cant_stop"
+keywords = ["cant-stop"]
+packages = [
+  { include = "cant_stop" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.6.0"
+neovim = "^0.3.1"
+
+[tool.poetry.scripts]
+cant-stop = "cant_stop.cli:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
