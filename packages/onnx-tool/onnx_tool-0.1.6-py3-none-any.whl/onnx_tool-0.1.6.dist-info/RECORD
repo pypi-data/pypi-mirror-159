@@ -1,0 +1,10 @@
+onnx_tool/__init__.py,sha256=GGCPAuDDPKe4If-2RVaYHCshVG-MeDm-nZ7WLoMlqnA,1089
+onnx_tool/__main__.py,sha256=nBN6tYkSOWEibn2ViqTttNEXxa0E1XbJMpG3Up_gTuI,715
+onnx_tool/node_profilers.py,sha256=N0i8A-mqiqpQHvwWMBTIz9g2WgMRMjjSJQDlEnC10t8,57324
+onnx_tool/utils.py,sha256=zDVw9WXuVsNaQb93EmE4wUpytxbChxVebGhxUb2qAY4,2131
+onnx_tool-0.1.6.dist-info/LICENSE,sha256=jXK1wapwuFbjotzekKYsXBqijWtGxxKw8n5D9QBI1jU,1092
+onnx_tool-0.1.6.dist-info/METADATA,sha256=jzMCPUjTt8VYvFn3iIy6s7sy5E6L4azvNN-4QW51t98,6584
+onnx_tool-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+onnx_tool-0.1.6.dist-info/top_level.txt,sha256=3JrBFWDul0Q9QPaU0j5O4etyR4XuYFnG4VSpIPaZwus,10
+onnx_tool-0.1.6.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+onnx_tool-0.1.6.dist-info/RECORD,,
