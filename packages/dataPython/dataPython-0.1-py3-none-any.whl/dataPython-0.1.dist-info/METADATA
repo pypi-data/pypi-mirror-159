@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dataPython
+Version: 0.1
+Summary: A utility package for data importing
+Home-page: https://github.com/villano-lab/dataPython
+Author: A.N. Villano; Kitty C. Harris
+Author-email: kathryn.harris@ucdenver.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
+UNKNOWN
+
