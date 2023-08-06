@@ -1,0 +1,8 @@
+sentry_mongo/__init__.py,sha256=Gy-aFPXPNvg2nrKzomXFpYbLhQNwtb6ybsgKT3Jy6HA,101
+sentry_mongo/__main__.py,sha256=-GqoftNECZBtC8F82KWJrdSD05BcKBrrL0ElHEEUHyk,36
+sentry_mongo/integrations.py,sha256=QPNC0QQrRUQWvIKjnnhV6Ck71quxbHsNLjBvvsHK3Fs,4009
+mongodb_sentry_integration-1.0.1.dist-info/LICENSE,sha256=rerZdmIH9K-xXbs3FeohQxOL9DnhbLKwbmixw0bmiYE,1061
+mongodb_sentry_integration-1.0.1.dist-info/METADATA,sha256=58azrrWrmfaWf9xLI7GlZMepIJwyRubbOay7XLnGPfo,929
+mongodb_sentry_integration-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mongodb_sentry_integration-1.0.1.dist-info/top_level.txt,sha256=Gx9XrNMASv_L7ak8bRJeOPqWwt5BVYVCFrbO2AjM6gk,13
+mongodb_sentry_integration-1.0.1.dist-info/RECORD,,
