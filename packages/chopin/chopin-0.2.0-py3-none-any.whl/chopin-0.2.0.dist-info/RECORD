@@ -1,0 +1,12 @@
+chopin/__init__.py,sha256=GudTfMzimvxDqGpcDT4JlYJS-Wa9zvoC87LMTtLD3To,418
+chopin/chopin.py,sha256=anZ0zC27CHNsixftIo4WeIaUMbg551LMefSsVqDKobA,1789
+chopin/compositions.py,sha256=x6qc1aRjf1Cj3-IG69dKqtjs5grvWXaHz8IWv9n-QFU,3013
+chopin/contents.py,sha256=rRxB8FmYlFkDx8ngiqkyHZb8qp5cB83NVydm_L8KjVc,3140
+chopin/errors.py,sha256=0CVwQuQI2XgGB_dWws5d1WuC6hegs_ObHa-L8mI0r-c,612
+chopin/data/compositions.json,sha256=AqgBshULHWsAMOHXAeAUwKPE0Lf_IqjzGWP8ERPv4Tk,33451
+chopin/data/contents.json,sha256=ahAlO84JMfQ8pKfD1cXwWIEOmliRcz_ptMcRAv1Ju6A,298787
+chopin-0.2.0.dist-info/LICENSE,sha256=fobbN2pzbjK-NuU7vUIgX8ezlR5utO9x6oMA8TnPW6g,1062
+chopin-0.2.0.dist-info/METADATA,sha256=d9XL__P6Poe90HrOxA02dMnvtco-6LN90hQKwa780ug,1076
+chopin-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chopin-0.2.0.dist-info/top_level.txt,sha256=YRimM1LYVeK_WKSuuMkxwYhsVesE5LbdEShY-B_qeiQ,7
+chopin-0.2.0.dist-info/RECORD,,
