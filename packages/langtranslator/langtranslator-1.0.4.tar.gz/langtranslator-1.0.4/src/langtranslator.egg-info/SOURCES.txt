@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+src/langtranslator/__init__.py
+src/langtranslator/langtranslator.py
+src/langtranslator.egg-info/PKG-INFO
+src/langtranslator.egg-info/SOURCES.txt
+src/langtranslator.egg-info/dependency_links.txt
+src/langtranslator.egg-info/top_level.txt
