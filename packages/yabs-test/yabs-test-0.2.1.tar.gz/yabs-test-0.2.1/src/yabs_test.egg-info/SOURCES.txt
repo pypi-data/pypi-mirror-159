@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/yabs_test/__init__.py
+src/yabs_test/main.py
+src/yabs_test.egg-info/PKG-INFO
+src/yabs_test.egg-info/SOURCES.txt
+src/yabs_test.egg-info/dependency_links.txt
+src/yabs_test.egg-info/entry_points.txt
+src/yabs_test.egg-info/not-zip-safe
+src/yabs_test.egg-info/top_level.txt

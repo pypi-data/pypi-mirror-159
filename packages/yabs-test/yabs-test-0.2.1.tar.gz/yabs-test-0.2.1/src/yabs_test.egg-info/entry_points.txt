@@ -1,0 +1,2 @@
+[console_scripts]
+test_rt = yabs_test.main:run
