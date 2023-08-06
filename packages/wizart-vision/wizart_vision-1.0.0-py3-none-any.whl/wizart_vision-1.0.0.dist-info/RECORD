@@ -1,0 +1,8 @@
+wizart/vision/__init__.py,sha256=-mVcsH9KA4VlbcWwX4mX2v5cFTSgt4oBxaFIpHg-zb0,80
+wizart/vision/_client_enums.py,sha256=slb3g6IyOVPsLMXsn9s05OzcZNGBt7YJ2QxnHy3SnIs,455
+wizart/vision/_utils.py,sha256=Cq0DNEocrNX0_6bGV7s37evGjZa_Evvt7HKkusjO5Dk,82
+wizart/vision/computer_vision_client.py,sha256=NyVxHmLrE2hHM-FcTf0O2UZa_aBPwBZRAZuj8m6wTeQ,3396
+wizart_vision-1.0.0.dist-info/METADATA,sha256=wTuvXmgoR18SU3FmsG0O2vs35xN6apEdc0NR1-Tjjxg,3912
+wizart_vision-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+wizart_vision-1.0.0.dist-info/top_level.txt,sha256=BP1FB6WbeIKCU7GBAhPXZFXAgwG6tM-TjPae7ah8XPk,7
+wizart_vision-1.0.0.dist-info/RECORD,,
