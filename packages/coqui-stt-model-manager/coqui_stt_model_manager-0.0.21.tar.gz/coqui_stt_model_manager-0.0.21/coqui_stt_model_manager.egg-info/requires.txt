@@ -1,0 +1,13 @@
+Jinja2==3.0.1
+Flask==2.0.1
+Flask-Cors==3.0.10
+pyxdg==0.27
+coqpit==0.0.9
+Flask-SocketIO==4.3.2
+Werkzeug<2.1
+webrtcvad==2.0.10
+stt<2.0.0
+requests==2.25.1
+
+[test]
+pytest==6.2.4
