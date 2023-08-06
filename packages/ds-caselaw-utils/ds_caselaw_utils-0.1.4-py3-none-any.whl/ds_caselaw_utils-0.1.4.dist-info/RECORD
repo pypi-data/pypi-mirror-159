@@ -1,0 +1,8 @@
+ds_caselaw_utils/.gitignore,sha256=74oa8YR8gNxKxB6lCtoqmgtB2xpZnWM539Qsl4wI_lg,12
+ds_caselaw_utils/__init__.py,sha256=lGGow8dPAr1mAch8nrAi2b0tXYZSaMTdiQZkVcUquNQ,48
+ds_caselaw_utils/neutral.py,sha256=jY_og4Rw251KY_Ak-MBCu5hifUHVzT6aIgwgVz1FvDg,992
+ds_caselaw_utils/test_neutral.py,sha256=YiN9_hk-2YTzJbZgDmZBccC5VvZqTePPf-kGcJLmfjI,1315
+ds_caselaw_utils-0.1.4.dist-info/LICENSE,sha256=CEmYxoJAQAkV3tVo0RIumMJ8kLtHe9145U7PDqYjoS8,1065
+ds_caselaw_utils-0.1.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ds_caselaw_utils-0.1.4.dist-info/METADATA,sha256=xDTdYOhac0-4iUptLyJKMtRngQNVdU6VlxSO-HK6Fo0,1761
+ds_caselaw_utils-0.1.4.dist-info/RECORD,,
