@@ -1,0 +1,2 @@
+http://github.com/Rapptz/discord.py/tarball/master#egg=discord
+bs4
