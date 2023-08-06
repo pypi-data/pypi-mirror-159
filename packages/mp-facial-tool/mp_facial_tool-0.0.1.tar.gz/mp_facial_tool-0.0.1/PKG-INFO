@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mp_facial_tool
+Version: 0.0.1
+Summary: some facial functions based mediapipe
+Home-page: https://github.com/VERMANs/mp_utils
+Author: VERMAN
+Author-email: justverman@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# mp_utils
+## description: some facial functions based mediapipe
