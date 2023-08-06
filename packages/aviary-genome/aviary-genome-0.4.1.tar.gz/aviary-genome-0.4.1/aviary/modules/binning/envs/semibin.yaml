@@ -1,0 +1,13 @@
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - mmseqs2
+  - bedtools
+  - hmmer
+  - prodigal
+  - fraggenescan
+  - pip
+  - pip:
+    - "git+https://github.com/BigDataBiology/SemiBin.git#egg=SemiBin"
