@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        app_cli=app.cli:cli_main
+    

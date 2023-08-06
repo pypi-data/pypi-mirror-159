@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+dyff.egg-info/PKG-INFO
+dyff.egg-info/SOURCES.txt
+dyff.egg-info/dependency_links.txt
+dyff.egg-info/entry_points.txt
+dyff.egg-info/requires.txt
+dyff.egg-info/top_level.txt
