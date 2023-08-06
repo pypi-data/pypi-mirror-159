@@ -1,0 +1,11 @@
+maitag/analysis.py,sha256=QPnVzOkypbJJAf8b9tNNk-JVxwC2TQvl271RiY9h0-E,1388
+maitag/anonymize.py,sha256=LgZ6mZUq-jgaCHaoRx9gYEPGgPAPzzy1L2CD0lk-MpA,18112
+maitag/constants.py,sha256=NO5rqzEM0Vpbl7J4FVJE00XFwYS9bS0T4m37UySXhU4,24594
+maitag/fake_identities.py,sha256=B7T1ycisG0UrhroW43wk5Tt46rjl_dZWCOImowTOKPo,8020
+maitag/low_recall_tagger.hist.py,sha256=SLHMm9JXFusHg4o5RWNWco1X_sxXn8oH4do6XE-GGKc,2354
+maitag/sklearn_multilabel_demo.py,sha256=naAD_xIpiaMqPEU7Wxbtm31iVl-6fTtrIB8Ku5uCjhg,2749
+maitag/spacy_language_model.py,sha256=hpBO6McCDwSHgCBQ7vnS5TAGflKLjE7J6mbv6paivBE,149
+maitag/tagging_models.py,sha256=_ULQfwM7K19Zt-Isle_FrobnDjv_vmB7IhZJDjD67_A,3009
+maitag-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+maitag-0.0.1.dist-info/METADATA,sha256=rKGzq1oqghQNAsc855PO0PWnEx-HiSxaE6crT1K-5IM,918
+maitag-0.0.1.dist-info/RECORD,,
