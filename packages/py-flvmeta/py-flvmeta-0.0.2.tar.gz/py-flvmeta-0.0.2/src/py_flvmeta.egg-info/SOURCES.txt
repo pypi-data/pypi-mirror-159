@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/py_flvmeta.egg-info/PKG-INFO
+src/py_flvmeta.egg-info/SOURCES.txt
+src/py_flvmeta.egg-info/dependency_links.txt
+src/py_flvmeta.egg-info/top_level.txt
+src/pyflvmeta/__init__.py
+src/pyflvmeta/flvmeta
+src/pyflvmeta/flvmeta.exe
+src/pyflvmeta/wrapper.py
