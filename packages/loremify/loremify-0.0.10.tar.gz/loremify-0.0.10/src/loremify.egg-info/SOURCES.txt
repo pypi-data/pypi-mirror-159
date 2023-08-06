@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/loremify/__init__.py
+src/loremify/_paragraph.py
+src/loremify/_sentence.py
+src/loremify/_words.py
+src/loremify.egg-info/PKG-INFO
+src/loremify.egg-info/SOURCES.txt
+src/loremify.egg-info/dependency_links.txt
+src/loremify.egg-info/top_level.txt
