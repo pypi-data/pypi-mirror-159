@@ -1,0 +1,15 @@
+google_cloud_bigquery_logging-1.0.4-py3.10-nspkg.pth,sha256=b0D5dZk3RUzK54tZ9iZDvLm7u8ltc5EzYrGCmhsuoNw,1698
+google/cloud/bigquery_logging/__init__.py,sha256=SAsghhVcgpduqttiaZr-2ggx4CmGkGjLZq29wXMuqyo,2237
+google/cloud/bigquery_logging/py.typed,sha256=M0x0yYPPNpgwK3G8yWyF2MmJD-DeE-AIz52Nbesg48I,90
+google/cloud/bigquery_logging_v1/__init__.py,sha256=NLSPaw5wAMx5e5NsDaqqp46h-DkYKm82a_jmHU1IcN8,2205
+google/cloud/bigquery_logging_v1/gapic_metadata.json,sha256=JMZ7W06Tf9dJytlIt9_m7qpvVJIWKHFn8Ko2C31rLPY,253
+google/cloud/bigquery_logging_v1/py.typed,sha256=M0x0yYPPNpgwK3G8yWyF2MmJD-DeE-AIz52Nbesg48I,90
+google/cloud/bigquery_logging_v1/services/__init__.py,sha256=cy2W0ArG0dH2c6GO6MSWmmdZDYSu0lnc4KfvgYxp0ak,600
+google/cloud/bigquery_logging_v1/types/__init__.py,sha256=IQCmPQ7CJydbbUjXFjFFelMNULXP5xJtI4znPF2R68w,2197
+google/cloud/bigquery_logging_v1/types/audit_data.py,sha256=ruCBV6JbaHA-2obUCy2b35mteBE0cwWnrQCnbFGpyss,42536
+google_cloud_bigquery_logging-1.0.4.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+google_cloud_bigquery_logging-1.0.4.dist-info/METADATA,sha256=2kkp9O8cWASBSQfyoSb24Pj6Bh7HwcvveqA0pSQaUCk,4679
+google_cloud_bigquery_logging-1.0.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+google_cloud_bigquery_logging-1.0.4.dist-info/namespace_packages.txt,sha256=v8IaYqRE2a0onAGJIpZeFkkH83wXSWZRR9eOyfMwoTc,20
+google_cloud_bigquery_logging-1.0.4.dist-info/top_level.txt,sha256=_1QvSJIhFAGfxb79D6DhB7SUw2X6T4rwnz_LLrbcD3c,7
+google_cloud_bigquery_logging-1.0.4.dist-info/RECORD,,
