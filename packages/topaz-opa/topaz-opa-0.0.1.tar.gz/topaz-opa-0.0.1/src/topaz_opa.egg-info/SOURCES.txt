@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/topaz_opa.egg-info/PKG-INFO
+src/topaz_opa.egg-info/SOURCES.txt
+src/topaz_opa.egg-info/dependency_links.txt
+src/topaz_opa.egg-info/requires.txt
+src/topaz_opa.egg-info/top_level.txt
