@@ -1,0 +1,2 @@
+[console_scripts]
+curse-get = curse_get.downloader:main

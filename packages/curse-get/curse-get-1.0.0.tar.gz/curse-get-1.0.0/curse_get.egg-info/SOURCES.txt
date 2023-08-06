@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+curse_get/downloader.py
+curse_get.egg-info/PKG-INFO
+curse_get.egg-info/SOURCES.txt
+curse_get.egg-info/dependency_links.txt
+curse_get.egg-info/entry_points.txt
+curse_get.egg-info/requires.txt
+curse_get.egg-info/top_level.txt

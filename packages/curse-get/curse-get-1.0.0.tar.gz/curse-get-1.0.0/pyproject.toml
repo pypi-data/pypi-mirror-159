@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "curse-get"
+version = "1.0.0"
+authors = [
+    { name="Adam Charvát", email="adam.charvat@post.cz" }
+]
+description = "Minecraft CurseForge API mod downloader"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+dependencies = [
+    "requests >= 2.28.1"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Skulaurun/curse-get"
+"Bug Tracker" = "https://github.com/Skulaurun/curse-get/issues"
+
+[project.scripts]
+"curse-get" = "curse_get.downloader:main"
