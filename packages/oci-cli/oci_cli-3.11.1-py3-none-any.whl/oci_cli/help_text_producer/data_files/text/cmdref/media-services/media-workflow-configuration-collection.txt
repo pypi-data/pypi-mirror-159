@@ -1,0 +1,14 @@
+media-workflow-configuration-collection
+***************************************
+
+
+Description
+===========
+
+Results of a mediaWorkflowConfiguration search. Contains boh
+MediaWorkflowConfigurationSummary items and other information, such as
+metadata.
+
+
+Available Commands
+==================

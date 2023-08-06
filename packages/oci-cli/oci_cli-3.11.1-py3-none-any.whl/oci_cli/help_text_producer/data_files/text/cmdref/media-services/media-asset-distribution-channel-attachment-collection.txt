@@ -1,0 +1,13 @@
+media-asset-distribution-channel-attachment-collection
+******************************************************
+
+
+Description
+===========
+
+Results of a MediaAssetDistributionChannelAttachment search. Contains
+the MediaAssetDistributionChannelAttachmentSummary items.
+
+
+Available Commands
+==================

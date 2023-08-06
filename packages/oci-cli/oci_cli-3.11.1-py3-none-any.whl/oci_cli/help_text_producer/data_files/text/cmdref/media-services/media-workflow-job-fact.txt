@@ -1,0 +1,19 @@
+media-workflow-job-fact
+***********************
+
+
+Description
+===========
+
+One fact of a list of facts associated to a MediaWorkflowJob that
+presents a point-in-time snapshot of the resources, data and events
+that were composed to generate a runnable job. This information will
+be used internally to trouble-shoot problematic workflows or jobs.
+
+
+Available Commands
+==================
+
+* get
+
+* list
