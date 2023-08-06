@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "fesh2"
+version = "2.3.2"
+description = "Geodetic VLBI schedule management and processing"
+license="GPL v3"
+readme = "README.md"
+authors = ["Jim Lovell <jejlovell@gmail.com>"]
+
+[tool.poetry.scripts]
+fesh2 = 'fesh2.__main__:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+psutil = "^5.9.1"
+pexpect = "^4.8.0"
+numpy = "^1.23.0"
+urwid = "^2.1.2"
+additional-urwid-widgets = "^0.4.1"
+ConfigArgParse = "^1.5.3"
+pycurl = "^7.45.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
