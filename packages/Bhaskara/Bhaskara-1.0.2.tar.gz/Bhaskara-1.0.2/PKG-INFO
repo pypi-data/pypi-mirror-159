@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Bhaskara
+Version: 1.0.2
+Summary: Programming Engine for Bhaskara Programming Language
+Home-page: UNKNOWN
+Author: Prakamya Khare
+Author-email: khareprakamya27@gmail.com
+License: LICENSE
+Keywords: python,Bhaskara,Programming Engine,Compiler
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+
+This pacakge allow programmers and students to do scientific computation and programming
+
