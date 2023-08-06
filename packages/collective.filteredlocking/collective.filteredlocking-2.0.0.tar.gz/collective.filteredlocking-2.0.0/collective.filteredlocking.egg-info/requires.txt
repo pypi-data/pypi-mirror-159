@@ -1,0 +1,8 @@
+setuptools
+plone.locking
+plone.app.testing
+
+[test]
+plone.app.testing[robot]
+plone.app.robotframework
+plone.app.contenttypes
