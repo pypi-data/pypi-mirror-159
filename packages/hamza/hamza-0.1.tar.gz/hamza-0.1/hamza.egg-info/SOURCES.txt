@@ -1,0 +1,6 @@
+setup.py
+hamza/init.py
+hamza.egg-info/PKG-INFO
+hamza.egg-info/SOURCES.txt
+hamza.egg-info/dependency_links.txt
+hamza.egg-info/top_level.txt
