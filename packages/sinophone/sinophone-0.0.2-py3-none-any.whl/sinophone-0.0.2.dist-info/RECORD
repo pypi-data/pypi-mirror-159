@@ -1,0 +1,14 @@
+sinophone/__init__.py,sha256=GN5uhETB1MFwOthxX99sHZA2L8aGFFPE0oGCt57T5kY,434
+sinophone/options.py,sha256=lpEib2v_5wSXRAFhmuDP4G86HmyEC2iBjpILajJ45n0,2287
+sinophone/utils.py,sha256=CVONY0Nk-U3IZANu60uvyuMTYb-swnXnqv7rfg_68n4,4272
+sinophone/phonetics/__init__.py,sha256=AnMlTwismmVqLNFwPidoFTy-NE9DS0BRFcuWZfgvuvU,644
+sinophone/phonetics/ipa_utils.py,sha256=cArKG_o1XZgqy5rHqNn-Cjszk5SmdHwhhJJFVmc0Zx8,12204
+sinophone/phonetics/phonetics.py,sha256=uPUV4MEUIqD8uEPWsckG9QgjnoRl6SO51AjItYW0rk8,4423
+sinophone/phonology/__init__.py,sha256=GyP0j75Eejmd7_iR0eztDqt9vuUWZgIiXNZ0eqk9eag,833
+sinophone/phonology/phonology.py,sha256=ydddKQxfvBsob0KYtAHMXvczIvPXoHQi6NFtMXi0Y24,13214
+sinophone/phonology/syllable.py,sha256=Samij-eUlVShXRKFdzIHUBMYkYeFDt6JlAl4QsAW6kI,8795
+sinophone-0.0.2.dist-info/LICENSE.txt,sha256=7lM7qDZbzddoE16r4VKM_1qq6RvVtl3xdxPellrzcIc,1092
+sinophone-0.0.2.dist-info/METADATA,sha256=b4KMbnxxO8jbZl1HhYCN3cxLQRdKUVHcFHLCqk5E-QI,5812
+sinophone-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sinophone-0.0.2.dist-info/top_level.txt,sha256=xveH6UllCnxwSpBYMbZ7uMryBYVKi0uvnFMu6nk0GKU,10
+sinophone-0.0.2.dist-info/RECORD,,
