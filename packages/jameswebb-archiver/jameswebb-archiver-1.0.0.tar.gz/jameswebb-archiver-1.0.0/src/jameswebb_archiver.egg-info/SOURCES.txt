@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/jameswebb_archiver/__init__.py
+src/jameswebb_archiver/__main__.py
+src/jameswebb_archiver.egg-info/PKG-INFO
+src/jameswebb_archiver.egg-info/SOURCES.txt
+src/jameswebb_archiver.egg-info/dependency_links.txt
+src/jameswebb_archiver.egg-info/entry_points.txt
+src/jameswebb_archiver.egg-info/requires.txt
+src/jameswebb_archiver.egg-info/top_level.txt

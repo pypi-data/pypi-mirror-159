@@ -1,0 +1,29 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jameswebb-archiver"
+version = "1.0.0"
+description = "Archives James Webb Telescope's Near Infrared Camera (NIRCam) Images including metdata"
+readme = "README.md"
+authors = [{ name = "Yair Mizrahi" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "requests",
+    "beautifulsoup4",
+]
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://github.com/uraid/jameswebb_archiver"
+
+[project.scripts]
+jameswebb-archiver = "jameswebb_archiver.__main__:main"
