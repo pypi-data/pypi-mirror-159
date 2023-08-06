@@ -1,0 +1,5 @@
+SumarDosAlv.egg-info/PKG-INFO
+SumarDosAlv.egg-info/SOURCES.txt
+SumarDosAlv.egg-info/dependency_links.txt
+SumarDosAlv.egg-info/requires.txt
+SumarDosAlv.egg-info/top_level.txt
