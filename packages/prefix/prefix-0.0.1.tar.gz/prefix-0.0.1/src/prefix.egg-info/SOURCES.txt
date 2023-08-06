@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/prefix/__init__.py
+src/prefix.egg-info/PKG-INFO
+src/prefix.egg-info/SOURCES.txt
+src/prefix.egg-info/dependency_links.txt
+src/prefix.egg-info/top_level.txt
+src/prefix.egg-info/zip-safe
+src/prefix/_/__init__.py
+src/prefix/_/command.py
