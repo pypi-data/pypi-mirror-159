@@ -1,0 +1,5 @@
+pyarrow
+duckdb
+torch
+pytorch_lightning
+onnx

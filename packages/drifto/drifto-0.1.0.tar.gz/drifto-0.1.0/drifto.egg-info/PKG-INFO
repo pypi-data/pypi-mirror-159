@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: drifto
+Version: 0.1.0
+Summary: Automatic featurization and ML for event analytics
+Home-page: https://github.com/drifto-ml/drifto
+Author: Drifto Technologies Inc
+Author-email: founders@driftoml.com
+License: ELv2
+Keywords: data,machine learning,feature engineering,analytics,autoML
+Platform: UNKNOWN
+License-File: LICENSE.md
+
+UNKNOWN
+
