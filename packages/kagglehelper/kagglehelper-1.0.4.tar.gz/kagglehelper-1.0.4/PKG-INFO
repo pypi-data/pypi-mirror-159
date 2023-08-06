@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: kagglehelper
+Version: 1.0.4
+Summary: Browse and Download Kaggle Datasets using the helper functions
+Home-page: https://github.com/shounak8/custom_packages.git
+Author: Shounak Deshpande
+Author-email: shounak.python@gmail.com
+License: MIT

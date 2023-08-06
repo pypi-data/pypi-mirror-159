@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+kagglehelper/__init__.py
+kagglehelper.egg-info/PKG-INFO
+kagglehelper.egg-info/SOURCES.txt
+kagglehelper.egg-info/dependency_links.txt
+kagglehelper.egg-info/not-zip-safe
+kagglehelper.egg-info/requires.txt
+kagglehelper.egg-info/top_level.txt
