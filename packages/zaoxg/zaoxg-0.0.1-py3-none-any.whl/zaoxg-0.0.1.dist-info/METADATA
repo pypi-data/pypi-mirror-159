@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: zaoxg
+Version: 0.0.1
+Summary: new a id
+Home-page: https://github.com/zaoxg/ReSpiderFramework
+Author: zhaoxiangpeng
+Author-email: zhaoxiangpengSR@gmail.com
+Project-URL: Bug Tracker, https://github.com/zaoxg/ReSpiderFramework/issues
+Keywords: aiohttp spider
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
