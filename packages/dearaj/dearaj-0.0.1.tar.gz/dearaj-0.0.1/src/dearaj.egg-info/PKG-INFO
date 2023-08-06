@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: dearaj
+Version: 0.0.1
+Summary: Data analysis tool for Korean National Assembly
+Home-page: https://github.com/anzhi0708/dearAJ
+Author: Anji Wong
+Author-email: anzhi0708@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Sociology :: History
+Classifier: Topic :: Sociology :: Genealogy
+Classifier: Topic :: Education :: Testing
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Korean
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dearAJ
+
+Data analysis tool for Korean National Assembly
+
+- Installation
+- Usage
+  - Conference
+  - Conferences
+  - get_conferences_of(nth: int, save: bool, to: str, sleep: Union[float, int])
+- Details
+- License
+
+## Install
+
+## Usage
+
+## Details
+
+## License
+
+Copyright Anji Wong, 2022.
+
+Distributed under the terms of the Apache 2.0 license.
