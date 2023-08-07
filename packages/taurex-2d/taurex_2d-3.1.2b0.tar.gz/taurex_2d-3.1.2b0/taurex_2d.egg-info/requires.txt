@@ -1,0 +1,10 @@
+taurex
+numpy
+numba
+astropy
+pandas
+numexpr
+tabulate
+
+[Plot]
+matplotlib

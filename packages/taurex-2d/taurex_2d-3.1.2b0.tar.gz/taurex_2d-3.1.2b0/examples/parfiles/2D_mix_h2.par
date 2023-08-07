@@ -1,0 +1,93 @@
+[Global]
+xsec_path = /path/to/xsec
+cia_path = /path/to/cia
+
+[Chemistry]
+chemistry_type = mix
+fill_gases = H2 # adds He & H (due to H2_dissociation option, below)
+ratio = 0.172
+H2_dissociation = True
+
+    [[H2O]]
+    gas_type = 2d
+    day_mix_ratio = 5.116e-4
+    night_mix_ratio = 5.116e-4
+
+    [[CO]]
+    gas_type = ratio
+    ratio = 4/5
+    # day_mix_ratio = 4.4e-4
+    # night_mix_ratio = 4.4e-4
+
+[Temperature]
+profile_type = 2d
+deep_temp = 2000
+
+[Pressure]
+profile_type = 2d
+atm_min_pressure = 1e-4
+atm_max_pressure = 1e6
+nlayers = 100
+
+[Planet]
+planet_type = Simple
+planet_radius = 1.807
+planet_mass = 1.183000
+
+[Star]
+star_type = blackbody
+temperature = 6460
+radius = 1.458
+
+[Model]
+model_type = transmission2D
+nslices = 10
+beta = 1
+p_iso = 1e3
+
+    [[Absorption2D]]
+
+    [[CIA2D]]
+    cia_pairs = H2-He, H2-H2
+
+    [[Rayleigh2D]]
+
+    [[Clouds2D]]
+    clouds_day_pressure = 5e2
+    clouds_night_pressure = 5e2
+
+#[Binning]
+#bin_type = manual
+#accurate = False
+#log_wavelength_grid = 0.6,4.1,300
+#
+#[Instrument]
+#instrument = snr
+#SNR = 1
+
+[Observation]
+taurex_spectrum = self
+observed_spectrum = /Users/tiziano/Dropbox/3D-2Dspectra/wasp121b/TauREx3/Inputs/william_test_clouds/I_lowT_270991_H2Ovar_H2fix_taurextrue_SN.dat
+
+[Optimizer]
+num_live_points = 100
+#multi_nest_path = ./multinest
+#optimizer = multinest
+optimizer = nestle
+
+[Fitting]
+beta:fit = True
+beta:bounds = 0, 30
+Tday:fit = True
+Tday:factor = 0.3,2
+Tnight:fit = True
+Tnight:factor = 0.3,2
+planet_radius:fit = True
+planet_radius:factor = 0.5, 1.5
+CO_day:fit = True
+CO_day:bounds = 1e-10,1e-1
+H2O_day:fit = True
+H2O_day:bounds = 1e-10,1e-1
+H2O_day:mode = log
+#clouds_pressure:fit = True
+#clouds_pressure:bounds = 1e-4,1e6

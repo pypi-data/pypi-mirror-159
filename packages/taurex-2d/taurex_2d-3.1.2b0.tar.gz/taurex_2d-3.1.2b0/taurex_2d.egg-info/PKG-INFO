@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: taurex-2d
+Version: 3.1.2b0
+Summary: TauREx 2D plugin
+Home-page: https://forge.oasu.u-bordeaux.fr/falco/taurex_2d.git
+Author: Aurélien Falco
+Author-email: aurelien.falco@u-bordeaux.fr
+License: BSD
+Keywords: exoplanet,retrieval,taurex,taurex3,taurex2d,atmosphere,atmospheric
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries
+Provides: taurex_2d
+Description-Content-Type: text/markdown
+Provides-Extra: Plot
+License-File: LICENSE
+
+# TauREx 3 - 2D
+
+This plugin is a 2D version of TauREx as described in Falco et al. (2022).
+
+## Prerequisites
+
+* taurex
+
+For example installed via:
+
+```
+pip install taurex
+```
+
+
+## Installing from PyPi
+
+
+You can install it by doing
+
+```
+pip install taurex_2d
+```
+
+
+## Installing from source
+
+
+Clone the directory using:
+
+```
+git clone https://forge.oasu.u-bordeaux.fr/falco/taurex_2d/
+```
+
+Move into the repository:
+
+```
+cd taurex_2d
+```
+
+Then install via:
+
+```
+pip install .
+```
+
+If you intend to change the code, you may use:
+
+```
+pip install -e .
+```
+
+## Running
+
+A jupyter notebook in examples/ will explain the basics of the 2D plugin (forward model).
+
+You can also find examples of parfiles in examples/parfiles.
+
+And we refer you to the documentation of TauREx 3 for more information on how to use TauREx: https://taurex3-public.readthedocs.io/en/latest/
+
+Please do not forget to cite Falco et al. (2022) (see [biblio.bib](biblio.bib)) if you use this plugin.
+

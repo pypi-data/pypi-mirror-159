@@ -1,0 +1,6 @@
+[console_scripts]
+taurex-plot-2d = taurex_2d.plot.plotter:main [plot]
+
+[taurex.plugins]
+2D = taurex_2d
+

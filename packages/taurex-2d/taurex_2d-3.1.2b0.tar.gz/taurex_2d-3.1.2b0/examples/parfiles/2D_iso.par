@@ -1,0 +1,87 @@
+[Global]
+xsec_path = /data2/zingales/repositories/TauREx/Input/xsec/xsec_sampled_R10000_0.3-15/
+cia_path = /data2/zingales/repositories/TauREx/Input/cia/hitran/
+
+[Chemistry]
+chemistry_type = 2d
+fill_gases = H2,He
+ratio = 0.172
+
+    [[H2O]]
+    gas_type = 2d
+    mix_ratio = 1e-4
+
+    [[CO]]
+    gas_type = 2d
+    mix_ratio = 1e-4
+
+[Temperature]
+profile_type = 2d
+day_temp = 2000
+night_temp = 2000
+
+[Pressure]
+profile_type = 2d
+atm_min_pressure = 1e-4
+atm_max_pressure = 1e6
+nlayers = 100
+
+[Planet]
+planet_type = Simple
+planet_radius = 1.807
+planet_mass = 1.183000
+
+[Star]
+star_type = blackbody
+temperature = 6460
+radius = 1.458
+
+[Model]
+model_type = transmission2D
+nslices = 20
+beta = 30
+p_iso = 1e3
+
+    [[Absorption2D]]
+
+    [[CIA2D]]
+    cia_pairs = H2-He, H2-H2
+
+    [[Rayleigh2D]]
+
+#    [[Clouds1D]]
+#    clouds_pressure = 5e2
+
+#[Binning]
+#bin_type = manual
+#accurate = False
+#log_wavelength_grid = 0.6,4.1,300
+#
+#[Instrument]
+#instrument = snr
+#SNR = 1
+
+[Observation]
+taurex_spectrum = self
+observed_spectrum = /data2/zingales/repositories/TauREx/3Dspectra_1Dretrieval/wasp121b/Inputs/clouds_onemode/highT_H2Ofix_H2fix_SN.dat
+
+[Optimizer]
+num_live_points = 50
+#multi_nest_path = /data1/falco/MultiNest/lib
+#optimizer = multinest
+optimizer = nestle
+
+[Fitting]
+Tday:fit = True
+Tday:factor = 0.3,2
+Tnight:fit = True
+Tnight:factor = 0.3,2
+planet_radius:fit = True
+planet_radius:bounds = 1,3
+CO:fit = True
+CO:bounds = 1e-10,1e-1
+H2O:fit = True
+H2O:bounds = 1e-10,1e-1
+#H2O:mode = log
+#clouds_pressure:fit = True
+#clouds_pressure:bounds = 1e-4,1e6
