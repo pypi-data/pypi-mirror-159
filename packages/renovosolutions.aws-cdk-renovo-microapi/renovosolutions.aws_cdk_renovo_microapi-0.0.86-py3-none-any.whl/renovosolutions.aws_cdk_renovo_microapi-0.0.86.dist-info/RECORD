@@ -1,0 +1,9 @@
+ipam/__init__.py,sha256=d4bBjGwvlcSn4RWpi3ns6Mefg9d09i0LpJILWqkSvqY,14873
+ipam/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ipam/_jsii/__init__.py,sha256=3Xau8ARsSIYQF_OkwJ2WUxO5D3m2aERsGWQ9EgyvHlM,419
+ipam/_jsii/cdk-library-renovo-microapi@0.0.86.jsii.tgz,sha256=-sd8WRCh98fonnK3Y03pj-OZHOdNOWwyYG7Qox0MZp0,160400
+renovosolutions.aws_cdk_renovo_microapi-0.0.86.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+renovosolutions.aws_cdk_renovo_microapi-0.0.86.dist-info/METADATA,sha256=KWri5HQzp007Al-E5QK_dAdo0BCQa0ClEuM3vHEb8AI,3386
+renovosolutions.aws_cdk_renovo_microapi-0.0.86.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+renovosolutions.aws_cdk_renovo_microapi-0.0.86.dist-info/top_level.txt,sha256=hLAiFWm09E88OULzygfneQeUB4c6I6MEZY5iAl9FxQ0,5
+renovosolutions.aws_cdk_renovo_microapi-0.0.86.dist-info/RECORD,,
