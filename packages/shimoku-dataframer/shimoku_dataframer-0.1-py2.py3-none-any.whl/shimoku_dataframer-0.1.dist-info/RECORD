@@ -1,0 +1,10 @@
+shimoku_dataframer/__init__.py,sha256=Nw0IoOZH-NCyanhv8d3F2Iy_WyFDdJUEy99BMv8Vgo0,45
+shimoku_dataframer/column_factory.py,sha256=tWUIXT8Ske-qA9MalJXOYdqLowBryZ3ToR8AYe2TXCY,7118
+shimoku_dataframer/create_dataframe.py,sha256=0i_b7DN_tvOtJkbTpT5jxG41f_cTvbl0EOdvBb0LY3A,1523
+shimoku_dataframer/exceptions.py,sha256=N3PcNKtEWkIL8OYEmK14Rf9xLuNXemTWdkrTn54b8kA,206
+shimoku_dataframer-0.1.dist-info/AUTHORS.rst,sha256=DRiFfm982oLLlfb7mcs4PxLGsYn0Awryv-ZCHvtnG9k,91
+shimoku_dataframer-0.1.dist-info/LICENSE.txt,sha256=QcrsfBSJZZ_W6uqLUuylDdJj2O5dtikWEcDPUHyoJ4Y,1081
+shimoku_dataframer-0.1.dist-info/METADATA,sha256=U7Qg9zlvTtdi5JBg1M5u2CMkTYub2uSvI8wPbaXSZxQ,563
+shimoku_dataframer-0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+shimoku_dataframer-0.1.dist-info/top_level.txt,sha256=rxn3PLrsRInfYc-Ws-MFx7soSNp8hW6Ye6D3B45i7Rg,19
+shimoku_dataframer-0.1.dist-info/RECORD,,
